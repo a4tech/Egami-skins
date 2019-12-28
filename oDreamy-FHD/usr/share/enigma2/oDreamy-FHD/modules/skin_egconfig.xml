@@ -771,7 +771,7 @@
 		<panel name="p800_Ext"/>
 		<panel name="nRGYB" />
 		<panel name="MI" />
-		<!-- Panel SatType --> 
+		<!-- Panel SatType -->
 		<widget source="session.FrontendInfo" render="Pixmap" pixmap="oDreamy-FHD/icons/sat.png"   position="1170,45" size="70,70" zPosition="2" alphatest="blend" >
 			<convert type="FrontendInfo">TYPE</convert>
 			<convert type="ValueRange">0,0</convert>
@@ -787,15 +787,15 @@
 			<convert type="ValueRange">1,1</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<!-- List Channel --> 
+		<!-- List Channel -->
 		<widget source="ServiceEvent" render="Label" position="430,90" size="720,30" foregroundColor="white" font="Regular;26" valign="center" halign="right" transparent="1" zPosition="1">
                         <convert type="TransponderInfo">NoRoot</convert>
                 </widget>
 		<ePixmap position="1230,165" size="10,750" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2"/>
-		<widget name="list" position="70,165" size="1170,750" scrollbarMode="showOnDemand" transparent="1" zPosition="1" 
-			serviceItemHeight="50" serviceNumberFont="Regular;32" serviceNameFont="Regular;30" serviceInfoFont="Regular;30" 
+		<widget name="list" position="70,165" size="1170,750" scrollbarMode="showOnDemand" transparent="1" zPosition="1"
+			serviceItemHeight="50" serviceNumberFont="Regular;32" serviceNameFont="Regular;30" serviceInfoFont="Regular;30"
 			foregroundColor="#ffffff" foregroundColorSelected="#ffffff" backgroundColor="header" backgroundColorSelected="bluette"
-			colorServiceDescription="#49bbff" colorServiceDescriptionSelected="#a1daff" foregroundColorServiceNotAvail="#303030" 
+			colorServiceDescription="#49bbff" colorServiceDescriptionSelected="#a1daff" foregroundColorServiceNotAvail="#303030"
 			colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="white" picServiceEventProgressbar="oDreamy-FHD/skin_default/progcl.png" progressBarWidth="70" progressPercentWidth="80" itemsDistances="7" progressbarHeight="7"/>
 		<!-- Channel Name/Reference -->
 		<widget source="ServiceEvent" render="Label" position="1260,35" size="620,95" font="Regular;38" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" >
@@ -824,48 +824,48 @@
 		</widget>
     	        <widget source="ServiceEvent" render="DRRunningText" position="1280,310" size="570,40" font="Regular;34" options="movetype=running,startpoint=0,startdelay=4000,oneshot=2000,step=1,steptime=36,always=0,noWrap" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
     			<convert type="EventName">Name</convert>
-    	        </widget>	
+    	        </widget>
 		<!-- Interlinea 23 size 450 -->
 		<eLabel position="1260,810" size="610,10"  backgroundColor="#FF101010" zPosition="0" />
 		<eLabel position="1260,820" size="610,125" backgroundColor="#10101010" zPosition="0" />
 		<eLabel text="N e x t" position="1260,795" size="610,150" font="Regular;146" halign="center" valign="center" foregroundColor="#10202020" backgroundColor="#10000000" transparent="1" zPosition="1"/>
-		<widget source="ServiceEvent" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" 
+		<widget source="ServiceEvent" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1"
 			position="1270,417" size="590,390" font="Regular;32" foregroundColor="#a0a0a0" backgroundColor="bluette" valign="top" halign="center" transparent="1" zPosition="1" >
 			<convert type="EventName">FullDescription</convert>
 		</widget>
 		<!-- Next Event 1 -->
-    		<widget source="ServiceEvent" render="DRRunningText" position="1270,827" size="590,40" font="Regular;30" 
+    		<widget source="ServiceEvent" render="DRRunningText" position="1270,827" size="590,40" font="Regular;30"
     			options="movetype=running,
 			startpoint=0,
 			startdelay=4000,
 			oneshot=2000,step=1,
 			steptime=36,
 			always=0,
-			noWrap" 
+			noWrap"
 			foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5">
     			<convert type="DRNextEvents">Event1,onlyStart</convert>
     		</widget>
 		<!-- Next Event 2 -->
-    		<widget source="ServiceEvent" render="DRRunningText" position="1270,867" size="590,40" font="Regular;30" 
+    		<widget source="ServiceEvent" render="DRRunningText" position="1270,867" size="590,40" font="Regular;30"
     			options="movetype=none,
 			startpoint=90,
 			startdelay=3000,
 			oneshot=2000,step=1,
 			steptime=36,
 			always=0,
-			noWrap" 
+			noWrap"
 			foregroundColor="#707070" backgroundColor="header" transparent="1" zPosition="5">
     			<convert type="DRNextEvents">Event2,onlyStart</convert>
     		</widget>
 		<!-- Next Event 3 -->
-    		<widget source="ServiceEvent" render="DRRunningText" position="1270,906" size="590,40" font="Regular;30" 
+    		<widget source="ServiceEvent" render="DRRunningText" position="1270,906" size="590,40" font="Regular;30"
     			options="movetype=none,
 			startpoint=0,
 			startdelay=3000,
 			oneshot=2000,step=1,
 			steptime=36,
 			always=0,
-			noWrap" 
+			noWrap"
 			foregroundColor="#505050" backgroundColor="header" transparent="1" zPosition="5">
     			<convert type="DRNextEvents">Event3,onlyStart</convert>
     		</widget>
@@ -1029,11 +1029,11 @@
 		<widget name="speed" position="100,30" size="200,120" font="Regular;90" halign="right" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="state" position="60,850" size="0,0" font="Regular;48" halign="left" foregroundColor="yellow" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<widget name="eventname" position="60,860" size="1580,60" font="Regular;48" halign="left" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="2" />
-		<widget source="session.CurrentService" render="Label" position="210,945" size="200,50" font="Regular;40" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="3">
+		<widget source="session.CurrentService" render="Label" position="210,945" size="200,50" font="Regular;35" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="3">
 			<convert type="ServicePosition">Position,ShowHours</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="1660,945" size="200,50" font="Regular;40" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="3">
-			<convert type="ServicePosition">Length</convert>
+		<widget source="session.CurrentService" render="Label" position="1660,945" size="200,50" font="Regular;35" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="3">
+			<convert type="ServicePosition">Remaining</convert>
 		</widget>
 		<widget name="PTSSeekPointer" position="400,951" size="15,13" pixmap="oDreamy-FHD/icons/pointer.png" alphatest="blend" zPosition="7" />
 		<widget name="PTSSeekBack"    position="400,951" size="1310,0" pixmap="slider_back.png" alphatest="on" zPosition="2" />
@@ -1069,35 +1069,32 @@
 			<convert type="ValueRange">256,516</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
+		<!-- PlayerKeys  FW -->
+		<eLabel text="  (+10s)" position="1450,847" size="150,35" font="Regular;32" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="  (+1m)"  position="1600,847" size="150,35" font="Regular;32" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="  (+5m)"  position="1740,847" size="150,35" font="Regular;32" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="3 " position="1450,847" size="150,35" font="Regular;32" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="6" position="1600,847" size="150,35" font="Regular;32" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="9" position="1740,847" size="150,35" font="Regular;32" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<!-- PlayerKeys  RW -->
+		<eLabel text="1" position="1450,887" size="150,35" font="Regular;32" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="4 " position="1600,887" size="150,35" font="Regular;32" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="7" position="1740,887" size="150,35" font="Regular;32" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="  (-10s)" position="1450,887" size="150,35" font="Regular;32" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="  (-1m)"   position="1600,887" size="150,35" font="Regular;32" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="  (-5m)"   position="1740,887" size="150,35" font="Regular;32" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Video Resolution  -->
-		<widget source="session.CurrentService" render="Label" position="1480,1010" size="100,40" font="Regular;34" halign="right" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3">
+		<widget source="session.CurrentService" render="Label" position="1455,1010" size="100,40" font="Regular;34" halign="right" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3">
 			<convert type="ServiceInfo">VideoWidth</convert>
 		</widget>
-		<eLabel text="x" position="1587,1010" size="25,40" font="Regular;34" foregroundColor="#505050" backgroundColor="#10000000" transparent="1" zPosition="3" />
-		<widget source="session.CurrentService" render="Label" position="1610,1010" size="100,40" font="Regular;34" halign="left" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3">
+		<eLabel text="x" position="1562,1010" size="25,40" font="Regular;34" foregroundColor="#505050" backgroundColor="#10000000" transparent="1" zPosition="3" />
+		<widget source="session.CurrentService" render="Label" position="1585,1010" size="100,40" font="Regular;34" halign="left" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3">
 			<convert type="ServiceInfo">VideoHeight</convert>
 		</widget>
 		<!-- Clock -->
-		<widget source="global.CurrentTime" render="Label" position="1670,1010" size="200,35" font="Regular;34" halign="right" foregroundColor="#808080" backgroundColor="#10000000" transparent="1" zPosition="2">
+		<widget source="global.CurrentTime" render="Label" position="1670,40" size="200,35" font="Regular;34" halign="right" foregroundColor="#808080" backgroundColor="#10000000" transparent="1" zPosition="2">
 			<convert type="ClockToText">Format:%H:%M:%S</convert>
 		</widget>
-		<!-- PlayerKeys  FW -->
-		<ePixmap position="1395,850" size="43,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/XCplugin/skin/fhd/ff.png" alphatest="blend" zPosition="-1" />
-		<eLabel text="  (+10s)" position="1460,847" size="150,35" font="Regular;32" foregroundColor="#ffff00" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel text="  (+1m)"  position="1610,847" size="150,35" font="Regular;32" foregroundColor="#ffff00" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel text="  (+5m)"  position="1750,847" size="150,35" font="Regular;32" foregroundColor="#ffff00" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel text="3" position="1460,847" size="150,35" font="Regular;32" foregroundColor="green" backgroundColor="#10000000" transparent="1" zPosition="6" />
-		<eLabel text="6" position="1610,847" size="150,35" font="Regular;32" foregroundColor="green" backgroundColor="#10000000" transparent="1" zPosition="6" />
-		<eLabel text="9" position="1750,847" size="150,35" font="Regular;32" foregroundColor="green" backgroundColor="#10000000" transparent="1" zPosition="6" />
-		<!-- PlayerKeys  RW -->
-		<ePixmap position="1395,890" size="43,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/XCplugin/skin/fhd/rw.png" alphatest="blend" zPosition="-1" />
-		<eLabel text="1" position="1460,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" />
-		<eLabel text="4" position="1610,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" />
-		<eLabel text="7" position="1750,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" />
-		<eLabel text="  (-10s)" position="1460,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel text="  (-1m)"   position="1610,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel text="  (-5m)"   position="1750,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<!--eLabel name="DEBUG" text="S087" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 
 	<!-- DVD Player -->

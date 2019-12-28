@@ -504,7 +504,7 @@
 		<panel name="nG"/>
 		<panel name="I"/>
 		<widget source="lab1" render="Label" position="70,180" size="820,80" font="Regular; 40" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1"/>
-		<widget name="AboutScrollLabel" position="70,260" size="820,720" itemHeight="45" font="Regular;30" backgroundColor="header" transparent="1"/>
+		<widget name="AboutScrollLabel" position="70,260" size="820,720" itemHeight="45" font="Regular;27" backgroundColor="header" transparent="1"/>
 		<widget source="lab2" render="Label" position="70,850" size="820,40" font="Regular; 32" halign="left" backgroundColor="header" transparent="1"/>
 		<widget source="lab3" render="Label" position="70,800" size="685,40" font="Regular; 32" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1"/>
 		<ePixmap position="350,985" pixmap="oDreamy-FHD/buttons/greenpanel.png"  size="30,30" alphatest="blend" zPosition="2" />
