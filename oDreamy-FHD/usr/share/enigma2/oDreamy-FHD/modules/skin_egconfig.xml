@@ -27,7 +27,7 @@
 		<widget source="session.Event_Now" render="Progress" position="480,923" size="1430,55" pixmap="oDreamy-FHD/skin_default/progress_infobar55.png" backgroundColor="#05202020" zPosition="2" >
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget source="session.Event_Now" render="DRRunningText" position="485,923" size="900,55" font="Regular;36" valign="center" backgroundColor="#202020" transparent="1" noWrap="1"
+		<widget source="session.Event_Now" render="DRRunningText" position="485,923" size="1200,55" font="Regular;36" valign="center" backgroundColor="#202020" transparent="1" noWrap="1"
 			options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=6,oneshot=1" zPosition="3" >
 			<convert type="EventName">Name</convert>
 		</widget>
@@ -41,7 +41,7 @@
 			<convert type="ClockToText">Default</convert>
 		</widget>
 		<eLabel position="480,990" size="1430,40" backgroundColor="#10202020" transparent="0" zPosition="1" />
-		<widget source="session.Event_Next" render="DRRunningText" position="485,990" size="970,40" font="Regular;34" valign="center" foregroundColor="#707070" backgroundColor="#05202020" noWrap="1" transparent="1"
+		<widget source="session.Event_Next" render="DRRunningText" position="485,990" size="1200,40" font="Regular;34" valign="center" foregroundColor="#707070" backgroundColor="#05202020" noWrap="1" transparent="1"
 			options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=6,oneshot=1" zPosition="5" >
 			<convert type="EventName">Name</convert>
 		</widget>
@@ -131,7 +131,6 @@
 		<widget source="session.CurrentService" render="Label" position="30,1045" size="770,45" font="Regular; 23" halign="left" foregroundColor="#808080" backgroundColor="#10101010" transparent="1" zPosition="3">
 		<convert type="PliExtraInfo">TransponderInfo</convert>
 		</widget>
-		<!-- <eLabel position="1650,923" size="250,108" backgroundColor="#10202020" zPosition="0" />-->
 		<eLabel text="SNR:" position="1660,58" size="200,40" font="Regular;25" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget source="session.FrontendStatus" render="Label" position="1730,60" size="200,35" font="Regular;23" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1">
 		<convert type="FrontendInfo">SNR</convert>
