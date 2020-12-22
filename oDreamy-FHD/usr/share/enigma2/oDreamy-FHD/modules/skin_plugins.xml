@@ -10,7 +10,7 @@
 	<!-- openDreamy v1.0 skin, based on Dreamy by mmark (E2skin.blogspot.com) -->
 	<!-- This skin is a Freeware. Everyone can modify and use it in other images -->
 	<!-- !!!!!!! BUT DO NOT REMOVE OR CHANGE THIS DISCLAIMER !!!!!!! -->
-	<!-- Do whatever you want with this skin,but don't tell it's yours, or your idea --> 
+	<!-- Do whatever you want with this skin,but don't tell it's yours, or your idea -->
 	<!--    and leave the credentials in the "About-box" as they are -->
 
 	<!-- ***** AutoBackup ***** 001 -->
@@ -54,7 +54,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGYB"/>
-		<!-- Code --> 
+		<!-- Code -->
 		<widget name="ChannelLabel" position="33,155"  size="130,30" font="Regular;22" halign="center" valign="center" transparent="1" backgroundColor="header" foregroundColors="#ffffff,#fe6b1b" zPosition="2" />
 		<widget name="ChannelImg"   position="20,158"  size="22,22"  transparent="1" pixmaps="~/img/OptionButtonOff.png,~/img/OptionButtonOn.png" alphatest="on" zPosition="2" />
 		<widget name="GlobalLabel"  position="178,155" size="110,30" font="Regular;22" halign="center" valign="center" transparent="1" backgroundColor="header" foregroundColors="#ffffff,#fe6b1b" zPosition="2" />
@@ -64,7 +64,7 @@
 		<widget name="ServiceInfoLabel" position="70,155"  size="265,30"  font="Regular;22" backgroundColor="header" foregroundColor="#dddddd" transparent="1" zPosition="4" />
 		<widget name="ServiceInfo"      position="140,155" size="500,30" font="Regular;22"  backgroundColor="header" foregroundColor="#ffffff" transparent="1" zPosition="4" />
 		<!--eLabel name="DEBUG" text="002" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
-	</screen>        
+	</screen>
 
 	<!-- ***** OSD 3D Setup ***** 003 -->
 	<screen name="OSD3DSetupScreen" position="fill" title="OSD 3D Setup" backgroundColor="#FF000000" flags="wfNoBorder">
@@ -87,7 +87,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="sRG"/>
-		<!-- Code --> 
+		<!-- Code -->
 		<widget name="config" position="70,180" size="820,400" itemHeight="40" font="Regular; 30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="menu/folders.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="004" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -345,7 +345,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="menu/info_screen.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="006c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- AutoBouquetsMaker Ordering FHD -->
 	<screen name="AutoBouquetsMaker_Ordering" title="AutoBouquet Maker Ordering" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -430,11 +430,11 @@
 		<ePixmap position="895,180" size="15,720" pixmap="box/maxbar.png" zPosition="4" alphatest="blend"/>
 		<widget source="menu" render="Listbox" position="70,180" size="820,720" selectionDisabled="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1">
 			<convert type="TemplatedMultiContent">
-				{"template": [ 
+				{"template": [
 					MultiContentEntryText(pos = (5,3),size = (350,40),flags = RT_HALIGN_LEFT,text = 0),
 					MultiContentEntryText(pos = (370,3),size = (450,40),flags = RT_HALIGN_LEFT,text = 1)],
 					"fonts": [gFont("Regular",32)],
-					"itemHeight": 45 
+					"itemHeight": 45
 				}
 			</convert>
 		</widget>
@@ -582,12 +582,12 @@
 		<widget source="global.CurrentTime" render="Watches" position="1544,979" size="50,50" zPosition="2" foregroundColor="red" alphatest="blend">
 			<convert type="ExtraNumText">hourHand</convert>
 		</widget>
-		<!-- Clock %d.%m.%Y - %H:%M:%S --> 
+		<!-- Clock %d.%m.%Y - %H:%M:%S -->
 		<ePixmap position="1275,975" size="90,60" pixmap="icons/select.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1535,970" size="80,80" pixmap="icons/clock50.png" alphatest="blend" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="1610,955" size="250,95" font="Regular;55" halign="right" valign="center" foregroundColor="#505050" backgroundColor="#10101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format:%H:%M:%S</convert>
-		</widget>		
+		</widget>
 		<widget source="global.CurrentTime" render="Label" position="1345,30" size="500,95" font="Regular;35" halign="right" valign="center" foregroundColor="#505050" backgroundColor="#101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
@@ -618,7 +618,7 @@
 		<!--eLabel name="DEBUG" text="012a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
-	<!--  File Comander FileSelect FHD --> 
+	<!--  File Comander FileSelect FHD -->
         <screen name="FileCommanderScreenFileSelect" position="fill" title="File Commander" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
@@ -633,7 +633,7 @@
 		<!--eLabel name="DEBUG" text="012b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
         </screen>
 
-	<!--  File Comander TaskListScreen (Import) FHD --> 
+	<!--  File Comander TaskListScreen (Import) FHD -->
 	<screen name="TaskListScreen" position="fill" title="Task list" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
@@ -653,9 +653,9 @@
 		</widget>
 		<!--eLabel name="DEBUG" text="012c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** BlueTooth Devices ********** P013 -->
-	<!--  BlueTooth Device Manager FHD --> 
+	<!--  BlueTooth Device Manager FHD -->
 	<screen name="BluetoothDevicesManager" position="fill" title="BlueTooth Devices" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
@@ -668,7 +668,7 @@
 	</screen>
 
 	<!-- ********** MediaInfo ********** P014 -->
-	<!--  MediaInfo Config FHD --> 
+	<!--  MediaInfo Config FHD -->
 	<screen name="mediaInfoConfigScreen" title="MediaInfo" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
@@ -681,7 +681,7 @@
 		<!--eLabel name="DEBUG" text="014" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
-	<!--  MediaInfo FHD --> 
+	<!--  MediaInfo FHD -->
 	<screen name="mediaInfo" title="MediaInfo" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_TemplateSlim"/>
 		<panel name="p800_DateMid"/>
@@ -692,8 +692,8 @@
 		<ePixmap position="1230,240" size="10,665" pixmap="box/maxbar.png" zPosition="4" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="014a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
-	<!--  MediaInfo Folder Screen FHD --> 
+
+	<!--  MediaInfo Folder Screen FHD -->
 	<screen name="mediaInfoFolderScreen" position="fill" title="MediaInfo" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
@@ -705,7 +705,7 @@
 	</screen>
 
 	<!-- ********** TransCoder Setup ********** P015 -->
-	<!--  Transcoder Setup FHD --> 
+	<!--  Transcoder Setup FHD -->
 	<screen name="TranscodingSetup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p900_Template"/>
 		<panel name="p900_Date"/>
@@ -722,7 +722,7 @@
 	</screen>
 
 	<!-- ********** Cron Manager ********** P016 -->
-	<!--  Cron Manager Config FHD --> 
+	<!--  Cron Manager Config FHD -->
  	<screen name="CronTimersConfig" title="Cronmanager Menu" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
@@ -733,7 +733,7 @@
 		<!--eLabel name="DEBUG" text="016" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
  	</screen>
 
-	<!--  Cron Manager Menu FHD -->  
+	<!--  Cron Manager Menu FHD -->
  	<screen name="CronTimers" title="Cronmanager Menu" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
@@ -753,8 +753,8 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/cron.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="016a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
  	</screen>
-	
-	<!--  Cron Manager Menu FHD --> 
+
+	<!--  Cron Manager Menu FHD -->
 	<screen name="CronManager" position="fill" title="Cron Manager" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
@@ -775,7 +775,7 @@
 		<!--eLabel name="DEBUG" text="016b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
  	</screen>
 
-	<!--  Cron Manager Config FHD --> 
+	<!--  Cron Manager Config FHD -->
 	<screen name="SetupCronConf" position="fill" title="Cron Manager" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
@@ -787,20 +787,20 @@
 	</screen>
 
 	<!-- ********** IMDB ********** P017 -->
-	<!--  IMBB FHD --> 
+	<!--  IMBB FHD -->
 	<screen name="IMDB" position="fill" title="Internet Movie Database Details Plugin" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext"/>
-		<panel name="nRGYB"/> 
-		<panel name="MI"/> 
+		<panel name="nRGYB"/>
+		<panel name="MI"/>
 		<!-- Cover -->
 		<ePixmap position="70,170" size="100,170" pixmap="icons/imdb.png" zPosition="1" alphatest="blend"/>
 		<widget name="poster" position="920,170" size="320,450" alphatest="on" zPosition="2" />
 		<widget name="statusbar"    position="200,170" size="660,520" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1"/>
 		<eLabel position="70,390"   size="820,1" backgroundColor="#404040" zPosition="2" />
-		<widget name="menu" position="70,400" size="840,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" enableWrapAround="1" 
+		<widget name="menu" position="70,400" size="840,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" enableWrapAround="1"
 			foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="castlabel"   position="70,410" size="840,510" font="Regular;30" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="2" />
 		<widget name="extralabel"  position="70,410" size="840,510" font="Regular;30" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="2" />
@@ -809,7 +809,7 @@
 		<widget name="stars"        position="1280,460" size="210,21" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/IMDb/starsbar_filled.png" zPosition="3" transparent="1"/>
 		<widget name="ratinglabel"  position="1280,500" size="600,70" font="Regular;30" foregroundColor="white" backgroundColor="#b0b0b0" transparent="1" zPosition="2" />
 		<!-- Details -->
-		<widget name="detailslabel" position="1280,520" size="600,320" font="Regular;30" halign="left" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2"/>		
+		<widget name="detailslabel" position="1280,520" size="600,320" font="Regular;30" halign="left" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2"/>
 		<widget name="description"  position="1280,520" size="600,320" font="Regular;30" halign="left" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="3"/>
 		<widget name="footnote"     position="1280,600" size="840,200" font="Regular;30" halign="left" foregroundColor="white"     backgroundColor="bluette" transparent="1" zPosition="5"/>
 		<ePixmap position="960,645" size="256,256" pixmap="menu/mediacenter.png" alphatest="blend" zPosition="2" />
@@ -818,13 +818,13 @@
 		<!--eLabel name="DEBUG" text="017" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
-	<!--  IMBB FHD LCD --> 
+	<!--  IMBB FHD LCD -->
 	<screen name="IMDbLCDScreen" position="0,0" size="132,64" title="IMDB Plugin">
 		<widget name="headline" position="4,0" size="128,22" font="Regular;20"/>
 		<widget source="parent.title" render="Label" position="6,26" size="120,34" font="Regular;14"/>
 		<!--eLabel name="DEBUG" text="017a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** EPG Import ********** P018 -->
 	<!-- EPG Import Configuration FHD -->
 	<screen name="EPGImportConfig" title="EPG Import Configuration" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -832,8 +832,8 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext"/>
-		<panel name="nRGYB"/> 
-		<panel name="I"/> 
+		<panel name="nRGYB"/>
+		<panel name="I"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/ico_listch.png" alphatest="blend"/>
 		<widget name="config" position="70,180" size="820,500" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<ePixmap position="1440,180" size="256,256" pixmap="menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
@@ -847,7 +847,7 @@
 	<screen name="EPGImportSources" title="EPG Import Sources" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/> 
+		<panel name="nRG"/>
 		<widget name="list"  position="70,180" size="1140,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<!--eLabel name="DEBUG" text="018a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -862,7 +862,7 @@
 		<widget name="list"  position="70,180" size="840,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<!--eLabel name="DEBUG" text="018b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** CrossEPG ********** P019 -->
 	<!-- Cross EPG SETUP FHD -->
 	<screen name="CrossEPG_Setup" title="CrossEPG Setup" position="fill" flags="wfNoBorder">
@@ -870,7 +870,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext"/>
-		<panel name="nRG"/> 
+		<panel name="nRG"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/crossepg.png" alphatest="blend"/>
 		<ePixmap position="1440,180" size="256,256" pixmap="menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
@@ -990,19 +990,19 @@
 		<widget name="krkadoni_pix" position="160,530" size="0,0" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="019f" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** MyTube Player ********** P020 -->
 	<!-- YoutubeTVWindow -->
         <screen backgroundColor="transparent" flags="wfNoBorder" name="YoutubeTVWindow" position="fill" title="Start YouTube TV">
         <widget name="information" position="70,80" size="708,480" backgroundColor="header" transparent="1" />
-		<ePixmap pixmap="menu/ico_yt.png" position="530,500" size="256,256" alphatest="blend" />	
+		<ePixmap pixmap="menu/ico_yt.png" position="530,500" size="256,256" alphatest="blend" />
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="sRG"/>
-                <eLabel text="Exit" position="120,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />		
+                <eLabel text="Exit" position="120,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<!--eLabel name="DEBUG" text="020" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
         </screen>
-	
+
 	<!-- MyTube Main FHD -->
 	<screen name="MyTubePlayerMainScreen" position="center,130"  size="1600,850" title="MyTube - Browser">
 		<ePixmap pixmap="buttons/redpanel.png"    position="10,15"  size="30,30" alphatest="blend"/>
@@ -1225,15 +1225,15 @@
 		</widget>
 		<eLabel text="x" position="930,1010" size="25,50" font="Regular;40" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget source="session.CurrentService" render="Label" position="960,1010" size="200,50" font="Regular;40" halign="left"  foregroundColor="#ffffff" backgroundColor="bluette" transparent="1" zPosition="3" >
-			<convert type="ServiceInfo">VideoHeight</convert>	
+			<convert type="ServiceInfo">VideoHeight</convert>
 		</widget>
 	        <!-- Panel FrameRate Video FPS -->
 	        <widget source="session.CurrentService" render="Label" zPosition="4" position="1200,1010" size="200,50" font="Regular;40" foregroundColor="ltbluette" backgroundColor="header" transparent="1" >
-            		<convert type="ServiceInfo">Framerate</convert>	
+            		<convert type="ServiceInfo">Framerate</convert>
             	</widget>
 		<!--eLabel name="DEBUG" text="020h" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** Forecast Weather ********** P021 -->
 	<!--  Weather Plugin Setup FHD -->
 	<screen name="WeatherPluginEntriesListConfigScreenfore" position="fill" title="WeatherPlugin: List of Entries" backgroundColor="transparent" flags="wfNoBorder" >
@@ -1297,7 +1297,7 @@
 	</screen>
 
 	<!-- ********** Logo Manager ********** P022 -->
-	<!-- Logo Manager FHD --> 
+	<!-- Logo Manager FHD -->
 	<screen name="LogManager" title="LogoManager" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -1312,7 +1312,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/ico_log.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="022" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- Logo Viewer FHD -->
 	<screen name="LogManagerViewLog" title="Log Manager View" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p900_Template"/>
@@ -1433,7 +1433,7 @@
 		<widget name="ecmInfo"    position="480,0" size="1400,40" font="Regular;26" valign="center" transparent="1" noWrap="1" />
 		<!--eLabel name="DEBUG" text="024" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- CCCam Config FHD -->
 	<screen name="EcmInfoConfigMenu" position="fill" title="CCcam Info" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
@@ -1491,7 +1491,7 @@
 		<widget name="cards"     position="1550,480" size="300,40" halign="right" font="Regular;30" backgroundColor="header" transparent="1" />
 		<widget name="providers" position="1280,530" size="400,40" font="Regular;30" backgroundColor="header" transparent="1" />
 		<widget name="reshare"   position="1550,530" size="300,40" halign="right" font="Regular;30" backgroundColor="header" transparent="1" />
-		<widget name="title" position="1280,600" size="600,200" halign="center" font="Regular;30" transparent="1" />	
+		<widget name="title" position="1280,600" size="600,200" halign="center" font="Regular;30" transparent="1" />
 		<ePixmap position="60,970"  size="900,90"  pixmap="icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="025e" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -1545,7 +1545,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/camcenter.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<!--eLabel name="DEBUG" text="025j" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -1556,7 +1556,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/camcenter.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="840,720" font="Regular;32" itemHeight="102" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<!--eLabel name="DEBUG" text="025k" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -1566,7 +1566,7 @@
 	<screen name="CCcamInfoConfigSwitcher" position="fill" title="CCcam Info" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/camcenter.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 	</screen>
@@ -1576,7 +1576,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGY"/> 
+		<panel name="nRGY"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/camcenter.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<!--eLabel name="DEBUG" text="025m" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -1618,7 +1618,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext"/>
-		<panel name="sRG"/> 
+		<panel name="sRG"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/camcenter.png" alphatest="blend"/>
 		<ePixmap position="1440,180" size="256,256" pixmap="menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
@@ -1736,7 +1736,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/> 
+		<panel name="nRG"/>
 		<widget name="lab1" position="70,180" font="Regular;32" size="820,800" halign="center" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="menu/deviceusb.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="027" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -1748,8 +1748,8 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
-		<panel name="M"/> 
+		<panel name="nRGYB"/>
+		<panel name="M"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/boot.png" alphatest="blend"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<widget name="status" render="Label" position="70,660" size="820,200" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="5" />
@@ -1760,8 +1760,8 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
-		<panel name="M"/> 
+		<panel name="nRGYB"/>
+		<panel name="M"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/boot.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<!--eLabel name="DEBUG" text="028a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -1771,8 +1771,8 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
-		<panel name="M"/> 
+		<panel name="nRGYB"/>
+		<panel name="M"/>
 		<ePixmap position="960,640" size="256,256" pixmap="menu/boot.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<!--eLabel name="DEBUG" text="028b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -1791,7 +1791,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-                <widget name="list" position="70,180" size="840,700" font="Regular;32" itemHeight="50" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" transparent="1" zPosition="3" /> 
+                <widget name="list" position="70,180" size="840,700" font="Regular;32" itemHeight="50" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" transparent="1" zPosition="3" />
 		<!--eLabel name="DEBUG" text="029b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
@@ -1799,7 +1799,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
 		<widget name="balken" position="70,600" size="820,40"  font="Regular;30" foregroundColor="#FFD700" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap pixmap="menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
@@ -1809,13 +1809,13 @@
 		<widget name="pic_blue"   pixmap="skin_default/buttons/button_blue.png"   position="445,10" size="0,0" backgroundColor="#FF000000" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="029c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="PictureCenterFS_Setup2" position="fill" title="PictureCenterFS - edit" backgroundColor="#FF000000" flags="wfNoBorder" zPosition="2" >
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
 		<ePixmap position="1270,38" size="200,90" pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1500,156" size="120,160" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
@@ -1833,7 +1833,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
   		<widget name="config" position="70,180" size="820,720" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="balken" position="70,350" zPosition="1" size="550,47"  font="Regular;20" foregroundColor="#FFD700" backgroundColor="#20343c4f" transparent="0" />
 		<widget name="pic_red"    pixmap="skin_default/buttons/button_red.png"    position="10,10"  size="0,0" backgroundColor="#000000" alphatest="blend" />
@@ -1843,13 +1843,13 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="029e" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="PictureCenterFS" position="fill" title="PictureCenterFS" backgroundColor="#FF000000" flags="wfNoBorder" zPosition="2" >
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
-		<panel name="nRGYB"/> 
-		<panel name="MI"/> 
+		<panel name="nRGYB"/>
+		<panel name="MI"/>
   		<widget name="pc_list" position="70,190" size="840,700" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<eLabel position="1260,30"  size="610,96"  backgroundColor="#201b3c85" zPosition="-2" />
 		<eLabel position="1262,32"  size="606,92"  backgroundColor="#20000000" zPosition="-2" />
@@ -1863,7 +1863,7 @@
                 <widget name="key_0"     position="1360,400" size="300,40" font="Regular;28" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
                 <widget name="button_help" position="1280,450" size="80,50"  pixmap="buttons/key_help.png" alphatest="blend" zPosition="1" />
                 <widget name="button_epg"  position="1360,450" size="80,40" pixmap="buttons/key_epg.png"   alphatest="blend" zPosition="1" />
-                <widget name="bgr2" position="1360,500" size="0,0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/pictures/bgr.png" transparent="0" alphatest="on" zPosition="0" /> 
+                <widget name="bgr2" position="1360,500" size="0,0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/pictures/bgr.png" transparent="0" alphatest="on" zPosition="0" />
                 <widget name="button_menu" position="1280,500" size="60,50" pixmap="buttons/key_menu.png" alphatest="blend" zPosition="1" />
 		<eLabel text="Preview" position="1260,608" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<eLabel position="1260,608" size="610,70"  backgroundColor="trbluette" zPosition="1"/>
@@ -1874,40 +1874,40 @@
                 <widget name="button_yellow" pixmap="skin_default/buttons/key_yellow.png" position="595,350" size="0,0" backgroundColor="#000000" alphatest="blend" />
                 <widget name="button_blue"   pixmap="skin_default/buttons/key_blue.png"   position="595,400" size="0,0" backgroundColor="#000000" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="028f" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
-	</screen> 
+	</screen>
 
-	<screen name="Pic_Full_View3" position="fill" flags="wfNoBorder" backgroundColor="transparent"> 
-	        <widget name="bgr2" position="0,0" size="2000,2000" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/pictures/bgr.png" transparent="1" alphatest="on"/> 
+	<screen name="Pic_Full_View3" position="fill" flags="wfNoBorder" backgroundColor="transparent">
+	        <widget name="bgr2" position="0,0" size="2000,2000" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/pictures/bgr.png" transparent="1" alphatest="on"/>
 	        <widget name="pic" backgroundColor="transparent" position="60,60" size="600,400" zPosition="1" alphatest="on" />
-	        <widget name="pic2" backgroundColor="#000000" position="0,0" size="600,400" zPosition="1" alphatest="on" />  
-	        <widget name="backline" position="0,0" size="1000,25" zPosition="2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/pictures/bgr.png" transparent="0" alphatest="off"/> 
-		<widget name="play_icon" position="35,20" size="25,25" zPosition="3" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/pictures/pcfs_play.png"  alphatest="on" /> 
-		<widget name="playline" position="10,300" size="400,20" zPosition="2" pointer="skin_default/position_pointer.png:540,0" transparent="1" foregroundColor="#20224f"><convert type="ServicePosition">Gauge</convert></widget> 
-		<widget name="klo" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/k_l_o.png"  position="200,200"  size="40,40"  zPosition="4" alphatest="on"  /> 
-		<widget name="klu" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/k_l_u.png"  position="200,400"  size="40,40"  zPosition="4" alphatest="on" /> 
-		<widget name="kro" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/k_r_o.png"  position="400,200"  size="40,40"  zPosition="4" alphatest="on" /> 
+	        <widget name="pic2" backgroundColor="#000000" position="0,0" size="600,400" zPosition="1" alphatest="on" />
+	        <widget name="backline" position="0,0" size="1000,25" zPosition="2" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/pictures/bgr.png" transparent="0" alphatest="off"/>
+		<widget name="play_icon" position="35,20" size="25,25" zPosition="3" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/pictures/pcfs_play.png"  alphatest="on" />
+		<widget name="playline" position="10,300" size="400,20" zPosition="2" pointer="skin_default/position_pointer.png:540,0" transparent="1" foregroundColor="#20224f"><convert type="ServicePosition">Gauge</convert></widget>
+		<widget name="klo" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/k_l_o.png"  position="200,200"  size="40,40"  zPosition="4" alphatest="on"  />
+		<widget name="klu" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/k_l_u.png"  position="200,400"  size="40,40"  zPosition="4" alphatest="on" />
+		<widget name="kro" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/k_r_o.png"  position="400,200"  size="40,40"  zPosition="4" alphatest="on" />
 		<widget name="kru" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/PictureCenterFS/skin/k_r_u.png"  position="400,400"  size="40,40"  zPosition="4" alphatest="on" />
-	        <widget name="txt_zeile" position="100,20" size="1000,35" zPosition="4" halign="left" valign="center" foregroundColor="#000000" transparent="1" noWrap="1"/> 
+	        <widget name="txt_zeile" position="100,20" size="1000,35" zPosition="4" halign="left" valign="center" foregroundColor="#000000" transparent="1" noWrap="1"/>
 		<!--eLabel name="DEBUG" text="029g" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
-	<!-- ********** WebRadio FS ********** P030 --> 
+
+	<!-- ********** WebRadio FS ********** P030 -->
 	<!-- Stream Radio -->
 	<screen name="WebradioFSScreen_12" position="fill" title="webradioFS" flags="wfNoBorder" zPosition="-1">
 		<ePixmap pixmap="box/radiofs.png" position="fill" zPosition="-1" />
 		<eLabel text="MENU - INFO - HELP" position="230,48" size="400,50" font="Regular;34" foregroundColor="white" backgroundColor="#102e59" transparent="1" zPosition="3"/>
 		<eLabel text="WebRadioFS"  position="210,98" size="600,140" font="Regular;80" foregroundColor="ltbluette" backgroundColor="#102e59" transparent="1" zPosition="3"/>
 		<!--left site in Screen for Streams, Genres -->
-                <widget name="streamlist" position="60,245" size="850,580" itemheight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" zPosition="2" /> 
+                <widget name="streamlist" position="60,245" size="850,580" itemheight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" zPosition="2" />
 		<!-- extended help -->
-                <widget name="help" position="982,43" size="895,445" foregroundColor="#FFFFFF" backgroundColor="#001842" font="Regular;30" transparent="1" zPosition="2" /> 
+                <widget name="help" position="982,43" size="895,445" foregroundColor="#FFFFFF" backgroundColor="#001842" font="Regular;30" transparent="1" zPosition="2" />
 		<!-- info -->
                 <widget name="info" position="983,529" size="892,404" foregroundColor="#FFFFFF" backgroundColor="#000000" scrollbarMode="showOnDemand" transparent="0" zPosition="2" />
 		<!-- streams and genres -->
                 <widget source="playtext" render="Label" position="990,960" size="890,80" font="Regular;30" valign="center" halign="center" foregroundColor="yellow" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<!-- streams Record Pics -->
 		<ePixmap position="1530,760" size="340,195" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/online.png" alphatest="blend" zPosition="5" />
-                <widget name="rec_pic"  position="65,880" size="40,30"  pixmap="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/rec1.png" backgroundColor="#000000" alphatest="blend" zPosition="2" /> 
+                <widget name="rec_pic"  position="65,880" size="40,30"  pixmap="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/rec1.png" backgroundColor="#000000" alphatest="blend" zPosition="2" />
                 <widget name="rec_txt"  position="60,860" size="850,60" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
                 <widget name="rec_txt2" position="60,860" size="850,60" font="Regular;32" halign="center" valign="center" foregroundColor="yellow"    backgroundColor="bluette" transparent="1" zPosition="3" />
 		<eLabel position="60,920" size="850,2" backgroundColor="bluette" />
@@ -1921,12 +1921,12 @@
                 <widget name="green_pic"  position="65,1000"  size="40,30"  pixmap="skin_default/buttons/key_green.png" alphatest="blend" />
                 <widget name="key_green"  position="115,994"  size="230,30" font="Regular;30" foregroundColor="#FFFFFF" backgroundColor="bluette" transparent="1" zPosition="1" />
 		<!-- PANEL MENU -->
-                <widget name="buttons_abdeck" position="990,960" size="890,80" font="Regular;30" valign="center" halign="center" foregroundColor="green" backgroundColor="#001e58" transparent="1" zPosition="2" />           
+                <widget name="buttons_abdeck" position="990,960" size="890,80" font="Regular;30" valign="center" halign="center" foregroundColor="green" backgroundColor="#001e58" transparent="1" zPosition="2" />
                 <widget name="key_red2"   position="115,944" size="200,40" font="Regular;30" foregroundColor="#FFFFFF" backgroundColor="bluette" noWrap="1" transparent="1" zPosition="3" />
                 <widget name="key_green2" position="315,994" size="260,40" font="Regular;30" foregroundColor="#FFFFFF" backgroundColor="bluette" noWrap="1" transparent="1" zPosition="3" />
 		<widget source="global.CurrentTime" render="Label" position="980,785" size="700,200" font="Regular;120" halign="right" valign="center" foregroundColor="bluette" backgroundColor="#001842" transparent="1" zPosition="5">
 			<convert type="ClockToText">Format:%H:%M:%S</convert>
-		</widget>				
+		</widget>
 		<!--eLabel name="DEBUG" text="030" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
@@ -1936,19 +1936,19 @@
                 <widget name="picture"    position="750,5"  size="140,140" alphatest="blend" />
                 <widget name="streamlogo" position="0,15"   size="320,130" alphatest="blend" />
 		<eLabel position="10,150" size="880,2" backgroundColor="bluette" />
-		<widget name="zeile1"     position="10,170"   size="150,85" font="Regular;32" halign="left"  foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />          
+		<widget name="zeile1"     position="10,170"   size="150,85" font="Regular;32" halign="left"  foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />
                 <widget name="zeile1b"    position="160,170"  size="700,40" font="Regular;32" halign="left"  foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" noWrap="1" />
-                <widget name="zeile2"     position="10,230"   size="130,40" font="Regular;32" halign="left"  foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />         
-                <widget name="zeile2b"    position="160,230"  size="130,40" font="Regular;32" halign="left"  foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" noWrap="1" />                
-                <widget name="zeile3"     position="400,230"  size="130,40" font="Regular;32" halign="left"  foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />         
+                <widget name="zeile2"     position="10,230"   size="130,40" font="Regular;32" halign="left"  foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />
+                <widget name="zeile2b"    position="160,230"  size="130,40" font="Regular;32" halign="left"  foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" noWrap="1" />
+                <widget name="zeile3"     position="400,230"  size="130,40" font="Regular;32" halign="left"  foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />
                 <widget name="zeile3b"    position="500,230"  size="350,40" font="Regular;32" halign="left"  foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" noWrap="1" />
-                <widget name="zeile4"     position="10,290"   size="130,40" font="Regular;34" halign="left"  foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />         
+                <widget name="zeile4"     position="10,290"   size="130,40" font="Regular;34" halign="left"  foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />
                 <widget name="zeile4b"    position="160,290"  size="700,80" font="Regular;32" halign="left"  foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" />
 		<widget name="fav_name"   position="10,350"   size="850,80" font="Regular;32" halign="leftt" foregroundColor="#FFFFFF"   backgroundColor="bluette" transparent="1" />
                 <!--play files -->
                 <widget name="playline2" position="10,146" size="880,10" pointer="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/pointer.png:840,0" transparent="1" foregroundColor="bluette" zPosition="5" >
                 	<convert type="ServicePosition">Gauge</convert>
-                </widget> 
+                </widget>
                 <eLabel text="Random :"   position="10,410"  size="150,40" font="Regular;32" backgroundColor="#102e59" foregroundColor="white" transparent="1" zPosition="1"/>
                 <widget name="random"     position="160,410" size="50,30"  alphatest="blend" />
                 <eLabel text="Folder :"   position="300,410" size="150,40" font="Regular;32" backgroundColor="#102e59" foregroundColor="white" transparent="1" zPosition="1"/>
@@ -1963,7 +1963,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/> 
+		<panel name="nRG"/>
 		<widget name="titel" position="120,40" size="0,0" font="Regular;32" valign="center" halign="center" foregroundColor="white" backgroundColor="bluette" transparent="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="menu/ico_webradio.png" alphatest="blend"/>
@@ -1979,13 +1979,13 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
 		<!-- Config -->
                 <widget name="config" position="70,180" size="840,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#FFFFFF" backgroundColor="bluette" transparent="1" zPosition="3" />
 		<ePixmap position="960,640" size="256,256" pixmap="menu/ico_webradio.png" alphatest="blend"/>
 		<!--top on left site in stream-list-Screen  -->
                 <widget source="playtext" render="Label" position="60,870" size="850,400" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="bluette" transparent="1" zPosition="2" />
-                <widget name="rec_txt" position="220,60" size="0,0" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" /> 
+                <widget name="rec_txt" position="220,60" size="0,0" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
                 <widget name="green_pic" position="65,1000" size="0,0" pixmap="skin_default/buttons/key_green.png" alphatest="blend" zPosition="1" />
 		<!--eLabel name="DEBUG" text="030d" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -1996,7 +1996,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="nRG"/> 
+		<panel name="nRG"/>
 		<!-- Config -->
 	        <widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#FFFFFF" backgroundColor="bluette" transparent="1" zPosition="3" />
 		<ePixmap position="960,640" size="256,256" pixmap="menu/ico_webradio.png" alphatest="blend"/>
@@ -2005,7 +2005,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="menu/ico_webradio.png" alphatest="blend"/>
 		<eLabel position="1255,480" size="675,10" backgroundColor="#FF000000" zPosition="1"/>
                 <widget source="playtext" render="Label" position="1280,480" size="560,200" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="5" />
-	        <widget name="rec_txt" position="220,60" size="0,0" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" /> 
+	        <widget name="rec_txt" position="220,60" size="0,0" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 	        <widget name="green_pic" position="65,1000" size="0,0" pixmap="skin_default/buttons/key_green.png" alphatest="blend" zPosition="1" />
 		<ePixmap position="1270,38" size="200,90" pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="030e" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -2017,9 +2017,9 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="MI"/> 
+		<panel name="MI"/>
 		<!-- List -->
-                <widget name="streamlist" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" transparent="1" zPosition="3" /> 
+                <widget name="streamlist" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" transparent="1" zPosition="3" />
 		<ePixmap position="60,970" size="700,90" pixmap="icons/team_logo.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="menu/ico_webradio.png" alphatest="blend"/>
@@ -2027,13 +2027,13 @@
                 <widget source="playtext" render="Label" position="1280,480" size="560,200" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="5" />
 		<ePixmap position="960,640" size="256,256" pixmap="menu/ico_webradio.png" alphatest="blend"/>
 		<!-- PANEL MENU FAKE-->
-                <widget name="buttons_abdeck" position="990,960" size="890,80" font="Regular;30" valign="center" halign="center" foregroundColor="green" backgroundColor="#001e58" transparent="1" zPosition="2" />           
+                <widget name="buttons_abdeck" position="990,960" size="890,80" font="Regular;30" valign="center" halign="center" foregroundColor="green" backgroundColor="#001e58" transparent="1" zPosition="2" />
                 <widget name="key_red2" position="115,944" size="200,40" font="Regular;30" foregroundColor="#FFFFFF" backgroundColor="bluette" noWrap="1" transparent="1" zPosition="3" />
                 <widget name="key_green2" position="315,994" size="260,40" font="Regular;30" foregroundColor="#FFFFFF" backgroundColor="bluette" noWrap="1" transparent="1" zPosition="3" />
 		<!--pics: extended help-->
-                <widget name="help" position="60,250" size="850,560" foregroundColor="#FFFFFF" backgroundColor="#001842" font="Regular;30" transparent="1" zPosition="3" /> 
+                <widget name="help" position="60,250" size="850,560" foregroundColor="#FFFFFF" backgroundColor="#001842" font="Regular;30" transparent="1" zPosition="3" />
                 <widget name="info" position="60,250" size="850,560" foregroundColor="#FFFFFF" backgroundColor="#001842" scrollbarMode="showOnDemand" transparent="1" zPosition="4" />
-                <widget name="rec_pic" position="65,880" size="40,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/rec1.png" backgroundColor="#000000" alphatest="blend" zPosition="2" /> 
+                <widget name="rec_pic" position="65,880" size="40,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/rec1.png" backgroundColor="#000000" alphatest="blend" zPosition="2" />
                 <widget name="rec_txt" position="1240,30" size="640,80" font="Regular;40" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="4" />
                 <widget name="rec_txt2" position="1240,30" size="640,80" font="Regular;40" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="5" />
                 <widget name="green_pic" position="65,1000" size="0,0" pixmap="skin_default/buttons/key_green.png" alphatest="blend" />
@@ -2047,19 +2047,19 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="nRG"/> 
-		<panel name="MI"/> 
+		<panel name="nRG"/>
+		<panel name="MI"/>
 		<!-- List -->
-                <widget name="streamlist" position="70,180" size="840,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" transparent="1" zPosition="3" /> 
+                <widget name="streamlist" position="70,180" size="840,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" transparent="1" zPosition="3" />
 		<ePixmap position="1440,180" size="256,256" pixmap="menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
                 <widget source="playtext" render="Label" position="1280,480" size="560,200" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="5" />
-                <widget name="rec_pic" position="65,880" size="0,0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/rec1.png" backgroundColor="#000000" alphatest="blend" zPosition="2" /> 
+                <widget name="rec_pic" position="65,880" size="0,0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/rec1.png" backgroundColor="#000000" alphatest="blend" zPosition="2" />
                 <widget name="rec_txt2" position="1240,50" size="640,60" font="Regular;36" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="3" />
 		<!--pics: extended help-->
-                <widget name="help"       position="60,250" size="850,560" foregroundColor="#FFFFFF" backgroundColor="#001842" font="Regular;30" transparent="1" zPosition="3" /> 
+                <widget name="help"       position="60,250" size="850,560" foregroundColor="#FFFFFF" backgroundColor="#001842" font="Regular;30" transparent="1" zPosition="3" />
 		<!-- PANEL MENU -->
 		<ePixmap position="960,640" size="256,256" pixmap="menu/ico_webradio.png" alphatest="blend"/>
-                <widget name="buttons_abdeck" position="990,960" size="890,80" font="Regular;30" valign="center" halign="center" foregroundColor="green" backgroundColor="#001e58" transparent="1" zPosition="2" />           
+                <widget name="buttons_abdeck" position="990,960" size="890,80" font="Regular;30" valign="center" halign="center" foregroundColor="green" backgroundColor="#001e58" transparent="1" zPosition="2" />
                 <widget name="rec_txt" position="115,987" size="200,40" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
                 <widget name="key_red2" position="115,987" size="200,40" font="Regular;30" foregroundColor="#FFFFFF" backgroundColor="bluette" noWrap="1" transparent="1" zPosition="3" />
                 <widget name="key_green2" position="400,987" size="400,40" font="Regular;30" foregroundColor="#FFFFFF" backgroundColor="bluette" noWrap="1" transparent="1" zPosition="3" />
@@ -2073,12 +2073,12 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
 		<!--left site in Screen for Streams, Genres...-->
                 <widget name="config" position="70,180" size="1160,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#FFFFFF" backgroundColor="bluette" transparent="1" zPosition="3" />
 		<ePixmap position="1440,180" size="256,256" pixmap="menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
                 <widget source="playtext" render="Label" position="1280,480" size="560,200" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="5" />
-                <widget name="rec_txt" position="220,60" size="0,0" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" /> 
+                <widget name="rec_txt" position="220,60" size="0,0" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
                 <widget name="green_pic" position="65,1000" size="0,0" pixmap="skin_default/buttons/key_green.png" alphatest="blend" zPosition="1" />
                 <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/webradioFS/skin/images/wbrl.png" position="1680,960" size="240,60" alphatest="blend" transparent="1" zPosition="5" />
 		<ePixmap position="1270,38" size="200,90" pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
@@ -2197,18 +2197,18 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/> 
+		<panel name="nRG"/>
                 <widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#FFFFFF" backgroundColor="bluette" transparent="1" zPosition="3" />
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/input.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="032" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** SeriesPlugin ********** P033 -->
 	<screen name="SeriesPluginInfoScreen" position="fill" title="SeriesPlugin" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
 		<widget name="logo" position="10,10" size="400,64" alphatest="on" />
 		<!-- Later -->
 		<widget name="cover" position="10,10" size="540,80" alphatest="on" />
@@ -2227,7 +2227,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
                 <widget name="list" position="70,180" size="840,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#FFFFFF" backgroundColor="bluette" transparent="1" zPosition="3" />
 		<!--eLabel name="DEBUG" text="033a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -2235,11 +2235,11 @@
 	<screen name="SeriesPluginConfiguration" position="fill" title="SeriesPlugin Setup" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
                 <widget name="config" position="70,180" size="1040,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#FFFFFF" backgroundColor="bluette" transparent="1" zPosition="3" />
 		<!--eLabel name="DEBUG" text="033b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-     
+
 	<!-- ********** ScreenGrabber TSPanel ********** P034 -->
 	<screen name="TSpanelScreenGrabberSetup" position="fill" title="ScreebGrabber setup" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
@@ -2255,7 +2255,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGY"/> 
+		<panel name="sRGY"/>
                 <widget name="config" position="70,180" size="820,620" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="#FFFFFF" backgroundColor="bluette" transparent="1" zPosition="3" />
 		<widget name="info" position="70,820" size="820,40" font="Regular;30" halign="center" valign="center" foregroundColor="LTBLUETTE" backgroundColor="header" transparent="1" zPosition="4" />
 		<!--eLabel name="DEBUG" text="034a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -2290,12 +2290,12 @@
 		<widget name="ButtonYellow" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/ScreenGrabber/images/button_yellow.png" position="0,0" zPosition="1" size="0,0" transparent="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="034c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** WeatherList (class WeatherList) ********** P035 -->
 	<screen name="WeatherList" position="fill" title="WeatherCity" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/> 
+		<panel name="nRG"/>
                 <widget name="myMenu" position="70,180" size="1160,620" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<!--eLabel name="DEBUG" text="035" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -2304,7 +2304,7 @@
   	<screen name="UserSkin_Config" position="fill" title="UserSkin Setup" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
+		<panel name="nRGYB"/>
                 <widget name="config" position="70,180" size="1160,620" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<eLabel text="Preview" position="1260,600" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<eLabel position="1260,600" size="610,70"  backgroundColor="trbluette" zPosition="1"/>
@@ -2312,12 +2312,12 @@
 		<widget name="Picture" position="1370,705" size="390,220" alphatest="on" zPosition="10"/>
 		<!--eLabel name="DEBUG" text="036" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
   	</screen>
-	
+
 	<screen name="UserSkinScreens" position="fill" title="UserSkin Setup" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/> 
-		<panel name="sRG"/> 
+		<panel name="nRGYB"/>
+		<panel name="sRG"/>
 		<widget source="menu" render="Listbox" position="70,180" size="1160,620" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template":
@@ -2409,8 +2409,8 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGY"/> 
-		<panel name="M"/> 
+		<panel name="nRGY"/>
+		<panel name="M"/>
 		<widget name="lab2"          position="70,180"  size="200,50"  font="Regular;34" foregroundColor="white" backgroundColor="header" valign="center" transparent="1"/>
 		<widget name="labplace"      position="300,180" size="580,100" font="Regular;32" foregroundColor="ltbluette" backgroundColor="bluette" transparent="0" />
 		<eLabel                      position="300,320" size="580,2"   backgroundColor="#303030" zPosition="1"/>
@@ -2446,19 +2446,19 @@
 	</screen>
 
 	<!-- ********** Enhanced Movie Center ********** P039 -->
- 	<screen name="EMCSelection" position="fill" title="Enhanced Movie Center" backgroundColor="#FF000000" flags="wfNoBorder"> 
+ 	<screen name="EMCSelection" position="fill" title="Enhanced Movie Center" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="EMCSelectionOwn"/>
 		<!--eLabel name="DEBUG" text="039" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
- 	<screen name="EMCSelectionOwn" position="fill" title="Enhanced Movie Center" backgroundColor="#FF000000" flags="wfNoBorder"> 
+ 	<screen name="EMCSelectionOwn" position="fill" title="Enhanced Movie Center" backgroundColor="#FF000000" flags="wfNoBorder">
 		<ePixmap position="0,0"  size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" zPosition="-1" />
 		<ePixmap position="30,120" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="0,30" size="1920,90"  pixmap="oDreamy-FHD/menu/wide.png" alphatest="blend" transparent="1" zPosition="-1" />
 		<ePixmap position="30,980" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="0,980" size="1920,100" pixmap="oDreamy-FHD/menu/wide.png" alphatest="blend" transparent="1" zPosition="-1" />
 		<ePixmap position="70,40" size="52,70" pixmap="icons/list.png" alphatest="blend" zPosition="2" />
-		<widget source="Title" render="DRRunningText" position="150,30" size="1180,80" font="Regular;34" halign="left" valign="center" 
+		<widget source="Title" render="DRRunningText" position="150,30" size="1180,80" font="Regular;34" halign="left" valign="center"
 			foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"
 			options="movetype=swimming,startpoint=0,startdelay=3000,wrap=0,always=0,repeat=6,oneshot=1" />
 		<widget source="global.CurrentTime" render="Label" position="1550,30" size="300,95" font="Regular;35" halign="right" valign="center" foregroundColor="#505050" backgroundColor="#101010" transparent="1" zPosition="1">
@@ -2467,66 +2467,66 @@
 		<!-- Cover -->
 		<ePixmap position="1420,140"  size="320,440" pixmap="oDreamy-FHD/box/mpnocover.jpg" zPosition="1" />
 		<widget name="poster" position="1420,140" size="320,440" zPosition="4" alphatest="on" />
-		<widget name="Cover"  position="1420,140" size="320,440" backgroundColor="#FFFFFFFF" alphatest="on" zPosition="4" /> 
+		<widget name="Cover"  position="1420,140" size="320,440" backgroundColor="#FFFFFFFF" alphatest="on" zPosition="4" />
 		<ePixmap position="1420,140" size="320,440" pixmap="oDreamy-FHD/icons/grid.png" alphatest="blend" zPosition="6" />
 		<ePixmap position="1290,610" size="100,100" pixmap="oDreamy-FHD/icons/daytime.png" alphatest="blend" transparent="1" zPosition="1" />
-		<widget source="Service" render="Label" position="1385,620" size="450,40" font="Regular; 32" halign="left" foregroundColor="white" backgroundColor="bluette" transparent="1"> 
-			<convert type="EMCServiceTime">StartTime</convert> 
+		<widget source="Service" render="Label" position="1385,620" size="450,40" font="Regular; 32" halign="left" foregroundColor="white" backgroundColor="bluette" transparent="1">
+			<convert type="EMCServiceTime">StartTime</convert>
 			<convert type="EMCClockToText">Format %A %d %B</convert>
-		</widget> 
-		<widget source="Service" render="Label" position="1590,620" size="280,40" font="Regular; 32" halign="right" foregroundColor="yellow" backgroundColor="bluette" transparent="1"> 
-			<convert type="EMCMovieInfo">FileSize</convert> 
-		</widget>  
-		<widget source="Service" render="Label" position="1405,665" size="240,90" font="Regular; 32" halign="left" foregroundColor="green" backgroundColor="header" transparent="1" zPosition="20">
-			<convert type="EMCServiceTime">StartTime</convert> 
-			<convert type="EMCClockToText">Format:%H:%M </convert>
-		</widget> 
-		<widget source="Service" render="Label" position="1500,665" size="280,40" font="Regular; 32" halign="left" foregroundColor="red" backgroundColor="header" transparent="1"> 
-			<convert type="EMCServiceTime">EndTime</convert> 
-			<convert type="EMCClockToText">Format:- %H:%M </convert> 
 		</widget>
-		<widget source="Service" render="Label" position="1590,665" size="280,40" font="Regular; 32" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="20"> 
-			<convert type="EMCServiceTime">Duration</convert> <convert type="EMCClockToText">Format:%Hh:%Mmin</convert> 
+		<widget source="Service" render="Label" position="1590,620" size="280,40" font="Regular; 32" halign="right" foregroundColor="yellow" backgroundColor="bluette" transparent="1">
+			<convert type="EMCMovieInfo">FileSize</convert>
+		</widget>
+		<widget source="Service" render="Label" position="1405,665" size="240,90" font="Regular; 32" halign="left" foregroundColor="green" backgroundColor="header" transparent="1" zPosition="20">
+			<convert type="EMCServiceTime">StartTime</convert>
+			<convert type="EMCClockToText">Format:%H:%M </convert>
+		</widget>
+		<widget source="Service" render="Label" position="1500,665" size="280,40" font="Regular; 32" halign="left" foregroundColor="red" backgroundColor="header" transparent="1">
+			<convert type="EMCServiceTime">EndTime</convert>
+			<convert type="EMCClockToText">Format:- %H:%M </convert>
+		</widget>
+		<widget source="Service" render="Label" position="1590,665" size="280,40" font="Regular; 32" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="20">
+			<convert type="EMCServiceTime">Duration</convert> <convert type="EMCClockToText">Format:%Hh:%Mmin</convert>
 		</widget>
 		<eLabel position="1290,720"  size="580,2" backgroundColor="#404040" />
-		<widget source="Service" render="EGScrollLabel" position="1290,740" size="580,220" font="Regular;30" halign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="2"> 
-			<convert type="EMCMovieInfo">ShortDescription</convert> 
+		<widget source="Service" render="EGScrollLabel" position="1290,740" size="580,220" font="Regular;30" halign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="2">
+			<convert type="EMCMovieInfo">ShortDescription</convert>
 		</widget>
          	<widget name="list" position="70,140" size="1200,810" scrollbarMode="showOnDemand" enableWrapAround="0" transparent="1"
-         		itemHeight="45"	
-         		CoolCSPos="780" 
-         		CoolBarHPos="15" 
-         		CoolBarPos="840" 
-         		CoolBarSizeSa="70,20" 
-         		CoolDateColor="1" 
-         		CoolDateFont="Regular;26" 
-         		CoolDateHPos="7" 
-         		CoolDatePos="930" 
-         		CoolDateWidth="240" 
-         		CoolDirInfoWidth="300" 
-         		CoolFolderSize="1000" 
-         		CoolFont="Regular;28" 
-         		CoolHighlightColor="1" 
-         		CoolIconPos="5" 
-         		CoolIconSize="50,40" 
-         		CoolMovieHPos="6" 
-         		CoolMoviePiconPos="140" 
-         		CoolMoviePiconSize="600" 
-         		CoolMoviePos="65" 
-         		CoolMovieSize="780" 
-         		CoolPiconHPos="5" 
-         		CoolPiconHeight="35" 
-         		CoolPiconPos="40" 
-         		CoolProgressPos="1040" 
-         		CoolSelNumTxtWidth="50" 
-         		CoolSelectFont="Regular;30" 
-         		CoolTitleColor="1" 
-         		DefaultColor="foreground" 
-         		FinishedColor="#38FF48" 
-         		RecordingColor="red" 
-         		UnwatchedColor="foreground" 
-         		FrontColorSel="#bababa" 
-         		WatchingColor="yellow" 
+         		itemHeight="45"
+         		CoolCSPos="780"
+         		CoolBarHPos="15"
+         		CoolBarPos="840"
+         		CoolBarSizeSa="70,20"
+         		CoolDateColor="1"
+         		CoolDateFont="Regular;26"
+         		CoolDateHPos="7"
+         		CoolDatePos="930"
+         		CoolDateWidth="240"
+         		CoolDirInfoWidth="300"
+         		CoolFolderSize="1000"
+         		CoolFont="Regular;28"
+         		CoolHighlightColor="1"
+         		CoolIconPos="5"
+         		CoolIconSize="50,40"
+         		CoolMovieHPos="6"
+         		CoolMoviePiconPos="140"
+         		CoolMoviePiconSize="600"
+         		CoolMoviePos="65"
+         		CoolMovieSize="780"
+         		CoolPiconHPos="5"
+         		CoolPiconHeight="35"
+         		CoolPiconPos="40"
+         		CoolProgressPos="1040"
+         		CoolSelNumTxtWidth="50"
+         		CoolSelectFont="Regular;30"
+         		CoolTitleColor="1"
+         		DefaultColor="foreground"
+         		FinishedColor="#38FF48"
+         		RecordingColor="red"
+         		UnwatchedColor="foreground"
+         		FrontColorSel="#bababa"
+         		WatchingColor="yellow"
  			/>
 		<!-- Key Colors -->
 		<ePixmap position="70,1005"  pixmap="buttons/redpanel.png"    size="30,30" alphatest="blend" zPosition="2" />
@@ -2542,15 +2542,15 @@
 		<eLabel text="Info" position="1790,1018" size="200,40" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<!--eLabel name="DEBUG" text="039" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
- 	<screen name="xEMCSelectionOwn" position="fill" title="Enhanced Movie Center" backgroundColor="#FF000000" flags="wfNoBorder"> 
+
+ 	<screen name="xEMCSelectionOwn" position="fill" title="Enhanced Movie Center" backgroundColor="#FF000000" flags="wfNoBorder">
 		<ePixmap position="0,0"  size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" zPosition="-1" />
 		<ePixmap position="30,120" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="0,30" size="1920,90"  pixmap="oDreamy-FHD/menu/wide.png" alphatest="blend" transparent="1" zPosition="-1" />
 		<ePixmap position="30,980" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="0,980" size="1920,100" pixmap="oDreamy-FHD/menu/wide.png" alphatest="blend" transparent="1" zPosition="-1" />
 		<ePixmap position="70,40" size="52,70" pixmap="icons/list.png" alphatest="blend" zPosition="2" />
-		<widget source="Title" render="DRRunningText" position="150,30" size="1180,80" font="Regular;34" halign="left" valign="center" 
+		<widget source="Title" render="DRRunningText" position="150,30" size="1180,80" font="Regular;34" halign="left" valign="center"
 			foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"
 			options="movetype=swimming,startpoint=0,startdelay=3000,wrap=0,always=0,repeat=6,oneshot=1" />
 		<widget source="global.CurrentTime" render="Label" position="1550,30" size="300,95" font="Regular;35" halign="right" valign="center" foregroundColor="#505050" backgroundColor="#101010" transparent="1" zPosition="1">
@@ -2566,7 +2566,7 @@
 			<convert type="RemainingToText">InMinutes</convert>
 		</widget>
 		<eLabel position="1148,515"  size="682,25" backgroundColor="#30000000" />
-		<widget source="session.Event_Now" render="DRRunningText" position="1155,515" size="498,25" font="Regular;22" halign="left" valign="center" 
+		<widget source="session.Event_Now" render="DRRunningText" position="1155,515" size="498,25" font="Regular;22" halign="left" valign="center"
 			foregroundColor="#b0b0b0" backgroundColor="#40000000" transparent="1" zPosition="3"
 			options="movetype=swimming,startpoint=0,startdelay=3000,wrap=0,always=0,repeat=6,oneshot=1" >
 			<convert type="EventName">Name</convert>
@@ -2577,66 +2577,66 @@
 		</widget>
 		<!-- DayTime -->
 		<ePixmap position="1130,580" size="100,100" pixmap="oDreamy-FHD/icons/daytime.png" alphatest="blend" transparent="1" zPosition="1" />
-		<widget source="Service" render="Label" position="1225,590" size="450,40" font="Regular; 32" halign="left" foregroundColor="white" backgroundColor="bluette" transparent="1"> 
-			<convert type="EMCServiceTime">StartTime</convert> 
+		<widget source="Service" render="Label" position="1225,590" size="450,40" font="Regular; 32" halign="left" foregroundColor="white" backgroundColor="bluette" transparent="1">
+			<convert type="EMCServiceTime">StartTime</convert>
 			<convert type="EMCClockToText">Date</convert>
-		</widget> 
-		<widget source="Service" render="Label" position="1565,590" size="280,40" font="Regular; 32" halign="right" foregroundColor="yellow" backgroundColor="bluette" transparent="1"> 
-			<convert type="EMCMovieInfo">FileSize</convert> 
-		</widget>  
-		<widget source="Service" render="Label" position="1250,640" size="240,90" font="Regular; 32" halign="left" foregroundColor="green" backgroundColor="header" transparent="1" zPosition="20">
-			<convert type="EMCServiceTime">StartTime</convert> 
-			<convert type="EMCClockToText">Format:%H:%M </convert>
-		</widget> 
-		<widget source="Service" render="Label" position="1345,640" size="280,40" font="Regular; 32" halign="left" foregroundColor="red" backgroundColor="header" transparent="1"> 
-			<convert type="EMCServiceTime">EndTime</convert> 
-			<convert type="EMCClockToText">Format:- %H:%M </convert> 
 		</widget>
-		<widget source="Service" render="Label" position="1570,640" size="280,40" font="Regular; 32" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="20"> 
-			<convert type="EMCServiceTime">Duration</convert> <convert type="EMCClockToText">Format:%Hh:%Mmin</convert> 
+		<widget source="Service" render="Label" position="1565,590" size="280,40" font="Regular; 32" halign="right" foregroundColor="yellow" backgroundColor="bluette" transparent="1">
+			<convert type="EMCMovieInfo">FileSize</convert>
+		</widget>
+		<widget source="Service" render="Label" position="1250,640" size="240,90" font="Regular; 32" halign="left" foregroundColor="green" backgroundColor="header" transparent="1" zPosition="20">
+			<convert type="EMCServiceTime">StartTime</convert>
+			<convert type="EMCClockToText">Format:%H:%M </convert>
+		</widget>
+		<widget source="Service" render="Label" position="1345,640" size="280,40" font="Regular; 32" halign="left" foregroundColor="red" backgroundColor="header" transparent="1">
+			<convert type="EMCServiceTime">EndTime</convert>
+			<convert type="EMCClockToText">Format:- %H:%M </convert>
+		</widget>
+		<widget source="Service" render="Label" position="1570,640" size="280,40" font="Regular; 32" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="20">
+			<convert type="EMCServiceTime">Duration</convert> <convert type="EMCClockToText">Format:%Hh:%Mmin</convert>
 		</widget>
 		<eLabel position="1130,700"  size="725,2" backgroundColor="#30808080" />
 		<!-- Cover -->
 		<widget name="poster" position="1670,710" size="192,260" zPosition="4" alphatest="on" />
-		<widget name="Cover"  position="1670,710" size="192,260" backgroundColor="#FFFFFFFF" alphatest="on" zPosition="4" /> 
-		<widget source="Service" render="EGScrollLabel" position="1130,720" size="530,235" font="Regular;30" halign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="2"> 
-			<convert type="EMCMovieInfo">ShortDescription</convert> 
+		<widget name="Cover"  position="1670,710" size="192,260" backgroundColor="#FFFFFFFF" alphatest="on" zPosition="4" />
+		<widget source="Service" render="EGScrollLabel" position="1130,720" size="530,235" font="Regular;30" halign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="2">
+			<convert type="EMCMovieInfo">ShortDescription</convert>
 		</widget>
          	<widget name="list" position="70,140" size="1020,810" scrollbarMode="showOnDemand" enableWrapAround="0" transparent="1"
-         		itemHeight="45"	
-         		CoolCSPos="780" 
-         		CoolBarHPos="15" 
-         		CoolBarPos="760" 
-         		CoolBarSizeSa="70,20" 
-         		CoolDateColor="1" 
-         		CoolDateFont="Regular;26" 
-         		CoolDateHPos="7" 
-         		CoolDatePos="850" 
-         		CoolDateWidth="240" 
-         		CoolDirInfoWidth="300" 
-         		CoolFolderSize="1000" 
-         		CoolFont="Regular;28" 
-         		CoolHighlightColor="1" 
-         		CoolIconPos="5" 
-         		CoolIconSize="50,40" 
-         		CoolMovieHPos="6" 
-         		CoolMoviePiconPos="140" 
-         		CoolMoviePiconSize="600" 
-         		CoolMoviePos="65" 
-         		CoolMovieSize="680" 
-         		CoolPiconHPos="5" 
-         		CoolPiconHeight="35" 
-         		CoolPiconPos="40" 
-         		CoolProgressPos="1040" 
-         		CoolSelNumTxtWidth="50" 
-         		CoolSelectFont="Regular;30" 
-         		CoolTitleColor="1" 
-         		DefaultColor="foreground" 
-         		FinishedColor="#38FF48" 
-         		RecordingColor="red" 
-         		UnwatchedColor="foreground" 
-         		FrontColorSel="#bababa" 
-         		WatchingColor="yellow" 
+         		itemHeight="45"
+         		CoolCSPos="780"
+         		CoolBarHPos="15"
+         		CoolBarPos="760"
+         		CoolBarSizeSa="70,20"
+         		CoolDateColor="1"
+         		CoolDateFont="Regular;26"
+         		CoolDateHPos="7"
+         		CoolDatePos="850"
+         		CoolDateWidth="240"
+         		CoolDirInfoWidth="300"
+         		CoolFolderSize="1000"
+         		CoolFont="Regular;28"
+         		CoolHighlightColor="1"
+         		CoolIconPos="5"
+         		CoolIconSize="50,40"
+         		CoolMovieHPos="6"
+         		CoolMoviePiconPos="140"
+         		CoolMoviePiconSize="600"
+         		CoolMoviePos="65"
+         		CoolMovieSize="680"
+         		CoolPiconHPos="5"
+         		CoolPiconHeight="35"
+         		CoolPiconPos="40"
+         		CoolProgressPos="1040"
+         		CoolSelNumTxtWidth="50"
+         		CoolSelectFont="Regular;30"
+         		CoolTitleColor="1"
+         		DefaultColor="foreground"
+         		FinishedColor="#38FF48"
+         		RecordingColor="red"
+         		UnwatchedColor="foreground"
+         		FrontColorSel="#bababa"
+         		WatchingColor="yellow"
  			/>
 		<!-- Key Colors -->
 		<ePixmap position="70,1005"  pixmap="buttons/redpanel.png"    size="30,30" alphatest="blend" zPosition="2" />
@@ -2664,7 +2664,7 @@
 		<ePixmap position="60,970"  size="700,90"  pixmap="icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<ePixmap  position="860,640" size="256,256" pixmap="menu/mediacenter.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="039a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
-	</screen> 
+	</screen>
 
 	<screen name="EMCPlaylist" position="fill" title="EMC Playlist" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
@@ -2702,7 +2702,7 @@
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN"/>
 		<panel name="M"/>
-		<!-- Movie Listbox --> 
+		<!-- Movie Listbox -->
 		<widget name="menulist" position="70,180" size="1160,720" font="Regular;26" itemHeight="50" scrollbarMode="showOnDemand" transparent="1" enableWrapAround="on" />
 		<ePixmap position="1270,38"  size="200,90"  pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
@@ -2766,7 +2766,7 @@
 		<panel name="nRGYB"/>
 		<ePixmap position="1270,38"  size="200,90"  pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
-		<widget name="config" position="70,180" size="1160,720" font="Regular;30" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />  
+		<widget name="config" position="70,180" size="1160,720" font="Regular;30" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="help" render="Label" position="1275,570" size="600,200" font="Regular; 28" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<!--eLabel name="DEBUG" text="039g" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -2791,7 +2791,7 @@
 		<!--eLabel name="DEBUG" text="039j" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
-	<screen name="EMCFileBrowser" position="fill" title="EMC Filebrowser" backgroundColor="transparent" flags="wfNoBorder" > 
+	<screen name="EMCFileBrowser" position="fill" title="EMC Filebrowser" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
@@ -2850,7 +2850,7 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/mediacenter.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="039o" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="EMCMovieInfoPreview" position="fill" title="Movie Information Preview" backgroundColor="#20000000" flags="wfNoBorder">
 		<widget name="movie_name"  position="30,3"  size="1709,70" zPosition="0" font="Regular; 31" valign="center" transparent="1" foregroundColor="#00bab329" backgroundColor="#000000" />
 		<widget name="previewtext" position="30,140" size="1730,782" font="Regular; 30" />
@@ -2887,7 +2887,7 @@
 		<widget name="key_green" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EnhancedMovieCenter/img/key-green_line.png" position="320,500" size="150,2" alphatest="on" />
 		<!--eLabel name="DEBUG" text="039r" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="EMCMediaCenter" position="0,0" size="1920,1080" title="MoviePlayer" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="EMCMediaCenterOwn"/>
 		<!-- eLabel name="DEBUG" text="039s" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -2905,7 +2905,7 @@
 		<!-- Progressbar (movie position)-->
 		<widget source="session.CurrentService" render="Progress" position="380,940" size="1290,55" pixmap="oDreamy-FHD/skin_default/progress_infobar55.png" backgroundColor="#10202020" zPosition="2">
 			<convert type="ServicePosition">Position</convert>
-		</widget>	
+		</widget>
 		<eLabel position="1670,940" size="10,55" backgroundColor="#000000" transparent="0" zPosition="5" />
 		<widget source="session.CurrentService" render="DRRunningText" position="390,940" size="1270,55" font="Regular;40" valign="center" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3"
 			options="movetype=swimming,direction=right,startpoint=0,startdelay=5000,steptime=40,wrap=1,always=0,repeat=6,oneshot=1">
@@ -2958,27 +2958,27 @@
 		<widget name="Cover" position="1555,480" size="320,440" alphatest="on" backgroundColor="transparent" foregroundColor="transparent" zPosition="5" />
 		<!-- PlayerKeys  FW -->
 		<ePixmap position="1065,850" size="43,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/XCplugin/skin/fhd/ff.png" alphatest="blend" zPosition="-1" />
-		<eLabel text="  (+10s)" position="1130,847" size="150,35" font="Regular;32" foregroundColor="#ffff00" backgroundColor="#10000000" transparent="1" zPosition="1" /> 		
-		<eLabel text="  (+1m)"  position="1280,847" size="150,35" font="Regular;32" foregroundColor="#ffff00" backgroundColor="#10000000" transparent="1" zPosition="1" /> 		
+		<eLabel text="  (+10s)" position="1130,847" size="150,35" font="Regular;32" foregroundColor="#ffff00" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="  (+1m)"  position="1280,847" size="150,35" font="Regular;32" foregroundColor="#ffff00" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<eLabel text="  (+5m)"  position="1420,847" size="150,35" font="Regular;32" foregroundColor="#ffff00" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel text="3" position="1130,847" size="150,35" font="Regular;32" foregroundColor="green" backgroundColor="#10000000" transparent="1" zPosition="6" /> 		
-		<eLabel text="6" position="1280,847" size="150,35" font="Regular;32" foregroundColor="green" backgroundColor="#10000000" transparent="1" zPosition="6" /> 		
+		<eLabel text="3" position="1130,847" size="150,35" font="Regular;32" foregroundColor="green" backgroundColor="#10000000" transparent="1" zPosition="6" />
+		<eLabel text="6" position="1280,847" size="150,35" font="Regular;32" foregroundColor="green" backgroundColor="#10000000" transparent="1" zPosition="6" />
 		<eLabel text="9" position="1420,847" size="150,35" font="Regular;32" foregroundColor="green" backgroundColor="#10000000" transparent="1" zPosition="6" />
 		<!-- PlayerKeys  RW -->
 		<ePixmap position="1065,890" size="43,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/XCplugin/skin/fhd/rw.png" alphatest="blend" zPosition="-1" />
-		<eLabel text="1" position="1130,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" /> 		
-		<eLabel text="4" position="1280,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" /> 		
-		<eLabel text="7" position="1420,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" /> 		
-		<eLabel text="  (-10s)" position="1130,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" /> 		
-		<eLabel text="  (-1m)"   position="1280,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" /> 		
-		<eLabel text="  (-5m)"   position="1420,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" /> 		
+		<eLabel text="1" position="1130,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" />
+		<eLabel text="4" position="1280,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" />
+		<eLabel text="7" position="1420,887" size="150,35" font="Regular;32" foregroundColor="red" backgroundColor="#10000000" transparent="1" zPosition="6" />
+		<eLabel text="  (-10s)" position="1130,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="  (-1m)"   position="1280,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel text="  (-5m)"   position="1420,887" size="150,35" font="Regular;32" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Video Resolution  -->
 		<widget source="session.CurrentService" render="Label" position="1480,1010" size="100,40" font="Regular;34" halign="right" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3">
 			<convert type="ServiceInfo">VideoWidth</convert>
 		</widget>
 		<eLabel text="x" position="1587,1010" size="25,40" font="Regular;34" foregroundColor="#505050" backgroundColor="#10000000" transparent="1" zPosition="3" />
 		<widget source="session.CurrentService" render="Label" position="1610,1010" size="100,40" font="Regular;34" halign="left" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3">
-			<convert type="ServiceInfo">VideoHeight</convert>	
+			<convert type="ServiceInfo">VideoHeight</convert>
 		</widget>
 		<!-- Clock -->
 		<widget source="global.CurrentTime" render="Label" position="1670,1010" size="200,35" font="Regular;34" halign="right" foregroundColor="#808080" backgroundColor="#10000000" transparent="1" zPosition="2">
@@ -2986,7 +2986,7 @@
 		</widget>
 		<!--eLabel name="DEBUG" text="039s" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
- 
+
 	<!-- ********** Meteo ForeCa Prevision ********** P040 -->
 	<screen name="ForecaPreview" position="center,90" size="1900,980" title="Foreca Weather Preview">
 		<eLabel position="6,6"   size="810,973"  foregroundColor="black" backgroundColor="#00325e" zPosition="-2" />
@@ -3052,10 +3052,10 @@
         	<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/ico_dyn.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="041" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
-        </screen>	
+        </screen>
 
 	<!-- ********** CD Info ********** P042 -->
-	<screen name="CDInfo" position="fill" title="CDInfo" backgroundColor="transparent" flags="wfNoBorder" > 
+	<screen name="CDInfo" position="fill" title="CDInfo" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Ext_BiN"/>
 		<panel name="p800_Logo"/>
@@ -3087,7 +3087,7 @@
 					MultiContentEntryText(pos = (450, 35), size = (250, 30), font = 1, color=0xd6d300, flags = RT_HALIGN_RIGHT, text = 4), # index 4 begin time,
 					MultiContentEntryText(pos = (710, 35), size = (100, 30), font = 1, color=0xd6d300, flags = RT_HALIGN_RIGHT, text = 5), # index 5 duration,
 					],
-					"fonts": [gFont("Regular", 28), gFont("Regular", 24)], 
+					"fonts": [gFont("Regular", 28), gFont("Regular", 24)],
 					"itemHeight": 70
 				}
 			</convert>
@@ -3228,14 +3228,14 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/ico_iptv.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="045" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="IPTV" position="fill" title="IPTV List Updater" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN"/>
 		<panel name="nRGY"/>
-		<panel name="I"/> 
+		<panel name="I"/>
 		<ePixmap position="1270,38"  size="200,90"  pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="IPTVList" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" zPosition="2" />
@@ -3251,7 +3251,7 @@
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN"/>
 		<panel name="nRGYB"/>
-		<panel name="I"/> 
+		<panel name="I"/>
 		<ePixmap position="1270,38"  size="200,90"  pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="IPTVList" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" zPosition="2" />
@@ -3260,12 +3260,12 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/ico_iptv.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="045b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="FAQ" position="fill" title="FAQ IPTV List Updater" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="nR"/>
-		<panel name="M"/> 
+		<panel name="M"/>
 		<widget name="text" position="70,180" size="1170,720" font="Regular;26" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<ePixmap  position="940,650" size="256,256" pixmap="menu/ico_iptv.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="045c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -3307,7 +3307,7 @@
 		<widget source="key_yellow" render="Label" position="680,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<ePixmap position="910,988" pixmap="oDreamy-FHD/buttons/bluepanel.png"   size="30,30" alphatest="blend" zPosition="2" />
 		<widget source="key_blue" render="Label" position="950,955" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<panel name="MI"/>  
+		<panel name="MI"/>
 		<!-- List Channel -->
 		<widget name="list" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="0" backgroundColor="header" zPosition="1" />
 		<!--<ePixmap position="1275,156" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />-->
@@ -3335,7 +3335,7 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/ico_iptv.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="046a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="IPTVUpdateMainWindow" position="fill" title="Update Main" backgroundColor="transparent" flags="wfNoBorder" >
 		<widget name="sub_title"    position="70,180" size="820,50" valign="center" halign="left" font="Regular;30" foregroundColor="white" backgroundColor="bluette" transparent="0"  zPosition="2" />
 		<widget name="list"         position="70,260" size="600,480" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
@@ -3384,7 +3384,7 @@
 					MultiContentEntryPixmapAlphaTest(pos=(2,2), size=(32,32), png = 2),
 					],
 					"fonts": [gFont("Regular", 30)],
-					"itemHeight": 60 
+					"itemHeight": 60
 				}
 			</convert>
 		</widget>
@@ -3431,7 +3431,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/mediacenter.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="047d" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- **********  ShoutCast ********** P048 -->
 	<screen name="SHOUTcastWidget" position="fill" title="SHOUTcast" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -3453,7 +3453,7 @@
 		<widget name="cover"      position="1261,520" size="608,420" alphatest="blend" backgroundColor="transparent" zPosition="2" />
 		<!--eLabel name="DEBUG" text="048" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="SHOUTcastSetup" position="fill" title="SHOUTcast Setup" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
@@ -3463,7 +3463,7 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/setup_selection.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="048a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="SHOUTcastStreamripperRecordingPath" position="fill" title="Select record path for streamripper" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
@@ -3474,7 +3474,7 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/setup_selection.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="048b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- **********  Cron Manager ********** P049 -->
         <screen name="Cronmanager" position="fill" title="Cronmanager Menu" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -3713,7 +3713,7 @@
 		<ePixmap pixmap="buttons/key_green.png" position="218,800" size="30,40" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="054" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- **********  MSN Weather ********** 055 -->
 	<screen name="MSNWeatherPlugin" position="fill" title="Weather Plugin" backgroundColor="transparent" flags="wfNoBorder" >
 		<ePixmap pixmap="msn/msnback.png"          position="0,0"     size="1920,1080" alphatest="1" transparent="1" zPosition="-1" />
@@ -3757,7 +3757,7 @@
     		</widget>
 		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="610,610" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center">
       			<convert type="MSNWeather">date,day3</convert>
-    		</widget>		
+    		</widget>
 		<ePixmap pixmap="msn/temp_high_low.png"    position="575,690" size="28,120"   alphatest="blend" transparent="1" zPosition="3"  />
 		<widget render="Label" source="weekday3_temp"    position="610,690" size="280,120"  font="Regular;32" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="weekday3_icon" position="620,820" size="240,200" zPosition="1" transparent="1" alphatest="blend">
@@ -3806,7 +3806,7 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/ico_weather.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="055a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="MSNWeatherPluginEntryConfigScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
@@ -3817,7 +3817,7 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/ico_weather.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="055b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="MSNWeatherPluginSearch" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
@@ -3913,7 +3913,7 @@
 		<!--eLabel name="DEBUG" text="056c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
-	<screen name="FanControl2" position="100,100" size="300,300" title="FanControl2" > 
+	<screen name="FanControl2" position="100,100" size="300,300" title="FanControl2" >
 		<panel name="FanControl2Plugin" />
 		<!--eLabel name="DEBUG" text="056d" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -3933,7 +3933,7 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/net.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="057" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="NetworkSambaLog" title="Samba Log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
@@ -3986,7 +3986,7 @@
 	</screen>
 
 	<!-- **********  3G Modem Manager ********** P061 -->
-	<screen name="EditModemManual" position="fill" title="3G Modem Manager Config Edit" backgroundColor="transparent" flags="wfNoBorder"> 
+	<screen name="EditModemManual" position="fill" title="3G Modem Manager Config Edit" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
@@ -3997,8 +3997,8 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/peripheric.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="061" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-    
-	<screen name="ModemManual" position="fill" title="3G Modem Manager Config" backgroundColor="transparent" flags="wfNoBorder"> 
+
+	<screen name="ModemManual" position="fill" title="3G Modem Manager Config" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
@@ -4008,8 +4008,8 @@
 		<ePixmap  position="960,640" size="256,256" pixmap="menu/peripheric.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="061a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
-	<screen name="ModemManager" position="fill" title="3G Modem Manager" backgroundColor="transparent" flags="wfNoBorder"> 
+
+	<screen name="ModemManager" position="fill" title="3G Modem Manager" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
@@ -4052,7 +4052,7 @@
 		<widget name="epg_description"   position="55,120"  size="1170,350" font="Regular;32"  foregroundColor="white"     backgroundColor="header" scrollbarMode="showNever" transparent="1" zPosition="1" />
 		<!--eLabel name="DEBUG" text="061b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** CI Helper ********** P062 -->
 	<screen name="CIHelper" title="CIHelper Setup" position="center,center" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4075,7 +4075,7 @@
 		<widget name="ci1inactive" position="400,550" zPosition="2" pixmap="skin_default/icons/lock_off.png" size="32,32" alphatest="on" />
 		<!--eLabel name="DEBUG" text="062" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="CIHelperSetup" title="CIHelper Setup" position="center,center" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4087,7 +4087,7 @@
 		<widget name="config" position="70,110" size="700,510" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" itemHeight="30" font="Regular; 20" scrollbarMode="showOnDemand" transparent="1" />
 		<!--eLabel name="DEBUG" text="062a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** CableScan ********** P063 -->
 	<screen name="CableScanScreen" title="Cable Scan" position="fill" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4101,7 +4101,7 @@
 		<ePixmap position="995,420" size="64,64" zPosition="3" pixmap="skin_default/icons/scan-c.png"  transparent="1" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="063a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="CableScanStatus" title="CableScan Status" position="fill" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4129,7 +4129,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/mediacenter.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="064a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="MovieContextMenu" position="fill" title="Movie Context Menu" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4141,7 +4141,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/mediacenter.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="064b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** VLC Player ********** P065 -->
 	<screen name="VlcMediaListScreen" position="fill" title="VLC MediaList" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4155,7 +4155,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/mediacenter.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="065a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="VlcServerListScreen" position="fill" title="VLC ServerList" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4166,7 +4166,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/mediacenter.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="065b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="VlcServerConfigScreen" position="fill" title="VLC Config Screen" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4176,7 +4176,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/mediacenter.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="065c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** Zap History Config ********** P066 -->
 	<screen name="ZapHistoryConfigurator" position="fill" title="Zap History" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4187,7 +4187,7 @@
 		<ePixmap position="60,970"  size="700,90"  pixmap="icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="066a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="ZapHistoryBrowser" position="fill" title="Zap History" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4197,7 +4197,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/ico_team.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="066b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** MediaPlayer Help ********** P067 -->
 	<screen name="MPHelp" position="fill" title="MP Help" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4241,7 +4241,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/ico_team.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="069" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** Video Enhancement Setup ********** P070 -->
 	<screen name="VideoEnhancementSetup" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4255,7 +4255,7 @@
 		<ePixmap position="1440,180" size="256,256" pixmap="menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="070" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** HddMount Screens ********** P071 -->
 	<screen name="HddMount" position="fill" title="Mount Manager" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4279,7 +4279,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="menu/devices.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="071" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** InfoPanel ********** P072 -->
 	<screen name="Infopanel" position="fill" title="Info Panel" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4292,7 +4292,7 @@
 		<ePixmap position="60,970" size="700,90" pixmap="icons/team_logo.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="072" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** Info ********** P073 -->
 	<screen name="Info" position="fill" title="Info" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
@@ -4305,8 +4305,8 @@
 		<ePixmap position="60,970" size="700,90" pixmap="icons/team_logo.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="073" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
-	<!-- ********** SoundTeck Control Client ********** P074 -->	
+
+	<!-- ********** SoundTeck Control Client ********** P074 -->
 	<screen name="SundtekControlCenter" title="SundtekControlCenter" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4328,7 +4328,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="menu/setup_selection.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="074" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** TimeDate Imput ********** P075 -->
 	<screen name="TimeDateInput" position="fill" title="TimeDateInput" flags="wfNoBorder" backgroundColor="transparent">
 		<widget name="config" position="70,110" size="700,510" itemHeight="30" font="Regular; 20" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" transparent="1" />
@@ -4363,7 +4363,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/audio.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="077" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="Change_volume" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4374,7 +4374,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="menu/audio.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="077a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="Volume_Config" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
@@ -4395,7 +4395,7 @@
 		<widget name="text" position="70,180" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" />
 		<widget source="constellation" render="Canvas" position="700,180" size="100,100" correct_aspect="width" />
 		<widget name="progress" position="70,250" size="820,40" font="Regular;30" backgroundColor="header" transparent="1" />
-		
+
 		<widget source="list" render="Listbox" position="70,300" size="820,480" scrollbarMode="showAlways" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (0, 0), size = (375, 30), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -4416,7 +4416,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGYB"/>
-		<widget name="config" position="70,180" size="820,730" font="Regular;30" itemHeight="40" backgroundColor="header" enableWrapAround="1"  
+		<widget name="config" position="70,180" size="820,730" font="Regular;30" itemHeight="40" backgroundColor="header" enableWrapAround="1"
 		        scrollbarMode="showOnDemand" scrollbarWidth="5" scrollbarSliderBorderWidth="1" transparent="1" />
 		<widget backgroundColor="background" font="Regular; 30" halign="left" name="buttonred"    position="110,990" size="240,35" transparent="1" zPosition="1" valign="top" />
 		<widget backgroundColor="background" font="Regular; 30" halign="left" name="buttongreen"  position="400,990" size="240,35" transparent="1" zPosition="1" valign="top" />
@@ -4499,7 +4499,7 @@
 		<panel name="InstallRar"/>
 		<!--eLabel name="DEBUG" text="083a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="InstallIpk" position="fill" title="Select ipk Files" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="InstallRar"/>
 		<!--eLabel name="DEBUG" text="083b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -4509,12 +4509,12 @@
 		<panel name="InstallRar"/>
 		<!--eLabel name="DEBUG" text="083c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="AdvInstallIpk" position="fill" title="Select ipk Files" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="InstallRar"/>
 		<!--eLabel name="DEBUG" text="083d" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** SatLoader ********** P084 -->
 	<!--  SatLoader -->
 	<screen name="Satloader" position="fill" title="Satloader Plugin" backgroundColor="transparent" flags="wfNoBorder" >
@@ -4588,7 +4588,7 @@
 	<!-- Install Manager  Advanced Setup -->
 	<screen name="AdvancedSetup" position="fill" title="PKT Install Manager - Advanced Setup" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGYB" />
 		<widget name="config" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
@@ -4599,7 +4599,7 @@
 	<!-- Boot Setup -->
 	<screen name="BootSetup" position="fill" title="PKT Install Manager - MultiBoot Setup" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGYB" />
 		<widget name="config" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
@@ -4610,7 +4610,7 @@
 	<!-- Disk Manager -->
 	<screen name="DiskManager" position="fill" title="PKT Install Manager - Disk Manager" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGYB" />
 		<widget name="config" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
@@ -4621,7 +4621,7 @@
 	<!-- Remove Image -->
 	<screen name="RemoveImage" position="fill" title="PKT Install Manager - Remove Image" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGY" />
 		<widget name="remove_note" position="70,180" size="820,50" font="Regular;30" backgroundColor="bluette" transparent="0" zPosition="2" />
@@ -4633,7 +4633,7 @@
 	<!-- Restore Uboot -->
 	<screen name="RestoreUboot" position="fill" title="PKT Install Manager - Restore Uboot" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRG" />
 		<widget name="uboot_note" position="70,180" size="820,50" font="Regular;30" backgroundColor="bluette" transparent="0" zPosition="2" />
@@ -4654,7 +4654,7 @@
 	<!-- Deep Standby -->
 	<screen name="DeepS" position="fill" title="Auto DeepStandby" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRG" />
 		<widget name="Label1" position="70,180"	size="820,50"  font="Regular;30" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="bluette" transparent="0" zPosition="2" />
@@ -4668,7 +4668,7 @@
 	<!-- DreamExplorer II -->
 	<screen name="DreamExplorerII" position="fill" title="Dream-Explorer" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="MI" />
 		<widget name="filelist" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
@@ -4687,7 +4687,7 @@
 	<!-- DreamExplorer II Editor -->
 	<screen name="vEditor" position="fill" title="File-Explorer" backgroundColor="#ff000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<widget name="filedata" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="955,640" size="300,300" pixmap="menu/faqlist.png" alphatest="blend"/>
@@ -4698,7 +4698,7 @@
 	<!-- DreamExplorer II Picture Explorer -->
 	<screen name="PictureExplorerII" position="fill" title="Picture-Explorer" backgroundColor="#ff000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<widget name="Picture" position="fill" zPosition="1" alphatest="on" />
 		<widget name="State" font="Regular;30" halign="center" position="0,990" size="1920,90" backgroundColor="#01080911" foregroundColor="#fcc000" transparent="0" zPosition="9"/>
@@ -4724,7 +4724,7 @@
 	<!-- DreamExplorer II CopyMove -->
 	<screen name="CPmaniger" position="fill" title="Select Copy/Move location..." backgroundColor="#ff000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<widget name="File" position="70,180" size="820,200" font="Regular;30" halign="center" valign="center" transparent="1" zPosition="4"/>
 		<widget name="CPto" position="70,400" size="820,440" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="4"/>
@@ -4739,7 +4739,7 @@
 	<!-- DreamExplorer II SoftLink -->
 	<screen name="SoftLinkScreen" position="fill" title="Make a softlink..." backgroundColor="#ff000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<widget name="File" position="70,180" size="820,200" font="Regular;30" halign="center" valign="center" transparent="1" zPosition="4"/>
 		<widget name="SLto" position="70,400" size="820,440" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="4"/>
@@ -4755,7 +4755,7 @@
 	<!-- openVPN Setup -->
 	<screen name="VpnSetup" position="fill" title="OpenVPN Manager v0.7" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGYB" />
 		<widget name="title" position="70,180"  size="0,50"   halign="left" font="Regular;30" backgroundColor="header" transparent="1" />
@@ -4773,9 +4773,9 @@
 
 	<!-- ********** DJCrash List Downloader FHD ********** P090 -->
 	<!-- Dj List Setup Panel -->
-	<screen name="ListManager" position="fill" title="PKT djcrash list downloader" backgroundColor="#ff000000" flags="wfNoBorder" > 
+	<screen name="ListManager" position="fill" title="PKT djcrash list downloader" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGYB" />
 		<widget name="id_note"     position="70,180" size="820,40" font="Regular;30" backgroundColor="header" transparent="1" />
@@ -4789,7 +4789,7 @@
 	<!-- Dj List Downloader Panel -->
 	<screen name="InstallWin" title="InfoFormat" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<widget source="global.CurrentTime" render="Label" position="140,18" size="440,64" font="Regular;18" halign="center" valign="center" transparent="1" foregroundColor="grey" backgroundColor="header" zPosition="2" >
 			<convert type="Status">Status</convert>
@@ -4802,14 +4802,14 @@
 	<!-- ********** KeyMapper FHD ********** P091 -->
 	<screen name="KeyMapper" position="fill" title="KeyMapper 1.8" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRGY" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="955,640" size="300,300" pixmap="menu/input.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="091" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** Shiffle Versenken FHD ********** P092 -->
 	<screen name="Schiffe" position="center,center" size="1200,500" title="Schiffe versenken " >
 		<widget source="Canvas" render="Canvas" position="20,20" size="885,367" />
@@ -4822,7 +4822,7 @@
 		<widget  name="key_blue"     position="920,125" size="210,40" zPosition="1" font="Regular;30" halign="right" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<!--eLabel name="DEBUG" text="092" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="ClearMemInfoScreen" position="fill" title="ClearMem Info" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4835,7 +4835,7 @@
 		<ePixmap pixmap="menu/startboot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="092a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<screen name="ClearMemAutoScreen" position="25,105" zPosition="10" size="500,30" title="ClearMem Status" backgroundColor="#31000000">
                 <widget name="message_label" font="Regular; 30" position="0,0" zPosition="2" valign="center" halign="center" size="498,30" backgroundColor="#31000000" transparent="1" />
 		<!--eLabel name="DEBUG" text="092b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
@@ -4843,15 +4843,14 @@
 
 	<!-- ********** MSN Weather FHD ********** P093 -->
 	<screen name="MSNWeatherPlugin" position="0,0" size="1920,1080" title="MSN Weather" backgroundColor="#FF000000" flags="wfNoBorder">
-		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/msn/meteo.jpg" scale="stretch" alphatest="blend" zPosition="-1"/>
+		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/msn/meteo.jpg" zPosition="-1"/>
  		<widget source="Title" render="Label" position="280,30" size="1600,90" font="Regular;44" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget render="Label" source="observationpoint" position="500,55" size="0,90" font="Regular;36" halign="right" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="5" />
 		<widget render="Label" source="observationtime"  position="770,55" size="1080,90" font="Regular;36" halign="right" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="5" />
 		<ePixmap position="60,30" size="194,75" pixmap="oDreamy-FHD/msn/msnlogo.png" alphatest="blend" zPosition="1" />
 		<!-- Current -->
-		<!-- widget name="currenticon" position="70,130"   size="200,200" alphatest="blend" zPosition="1" /-->
 		<widget source="session.MSNWeather" render="MSNWeatherPixmap" position="50,140" size="256,256" zPosition="1" transparent="1" alphatest="blend">
-		    <convert type="MSNWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
+			<convert type="MSNWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
 		</widget>
 		<widget source="caption"   render="Label" position="320,180" size="700,50" font="Regular;40" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="condition" render="Label" position="320,235" size="700,50" font="Regular;32" foregroundColor="white"  backgroundColor="header" transparent="1" zPosition="1" />
@@ -4897,29 +4896,30 @@
 		<widget render="Label" source="statustext"       position="70,550"  size="0,0"     font="Regular;30" transparent="1" zPosition="1" />
 		<ePixmap position="40,943" size="790,3" pixmap="oDreamy-FHD/skin_default/sep2.png" scale="stretch" alphatest="blend" zPosition="1"/>
 		<ePixmap position="60,965" pixmap="oDreamy-FHD/icons/team_logo.png" size="750,80" alphatest="blend" zPosition="1" />
-		<eLabel text="Menu" position="1770,1000" size="100,40" font="Regular;30" foregroundColor="#808080" backgroundColor="header" transparent="1" zPosition="1" />
+		<eLabel text="Menu" position="1770,980" size="100,40" font="Regular;35" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<eLabel text="Settings" position="1740,1020" size="140,40" font="Regular;30" foregroundColor="white" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<!--eLabel name="DEBUG" text="093" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** Internet Radio Screen FHD ********** P094 -->
 	<!-- ALL Internet Radio Screen -->
-	<screen name="InternetRadioScreen" position="fill" title="Internet Radio" backgroundColor="transpBlack" flags="wfNoBorder"> 
+	<screen name="InternetRadioScreen" position="fill" title="Internet Radio" backgroundColor="transpBlack" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Ext_BiN"/>
-		<panel name="p800_DateMid" /> 
-		<panel name="sRGYB"/> 
+		<panel name="p800_DateMid" />
+		<panel name="sRGYB"/>
 		<panel name="MI"/>
-		 <!-- List Channel --> 
-		<widget name="list" position="70,180" size="1160,720" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" /> 
-		<widget name="station" position="1270,45" size="590,80" font="Regular; 30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" /> 
-		<ePixmap position="1500,150" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend"/> 
-		<widget name="title" position="1290,280" size="550,120" font="Regular; 32" transparent="1" backgroundColor="bluette" foregroundColor="ltbluette" halign="center" zPosition="1" /> 
-		<eLabel position="1260,380" size="610,10" backgroundColor="#FF000000" zPosition="1"/> <eLabel position="1260,390" size="610,120" backgroundColor="header" /> 
-		<eLabel text="INTERNET RADIO EGAMI" position="1260,390" size="610,110" font="Regular; 50" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="bluette" zPosition="1"/> 
-		<widget name="statustext" position="1260,390" size="610,110" font="Regular; 28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="ltbluette" zPosition="2" /> 
-		<widget name="console" position="1260,390" size="610,110" font="Regular; 28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="#808080" zPosition="2" /> 
-		<eLabel position="1260,510" size="610,440" backgroundColor="dreamy" />  
-		<widget name="cover" position="1261,520" size="608,420" alphatest="blend" backgroundColor="transparent" zPosition="2" /> 
+		 <!-- List Channel -->
+		<widget name="list" position="70,180" size="1160,720" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="station" position="1270,45" size="590,80" font="Regular; 30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" />
+		<ePixmap position="1500,150" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend"/>
+		<widget name="title" position="1290,280" size="550,120" font="Regular; 32" transparent="1" backgroundColor="bluette" foregroundColor="ltbluette" halign="center" zPosition="1" />
+		<eLabel position="1260,380" size="610,10" backgroundColor="#FF000000" zPosition="1"/> <eLabel position="1260,390" size="610,120" backgroundColor="header" />
+		<eLabel text="INTERNET RADIO EGAMI" position="1260,390" size="610,110" font="Regular; 50" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="bluette" zPosition="1"/>
+		<widget name="statustext" position="1260,390" size="610,110" font="Regular; 28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="ltbluette" zPosition="2" />
+		<widget name="console" position="1260,390" size="610,110" font="Regular; 28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="#808080" zPosition="2" />
+		<eLabel position="1260,510" size="610,440" backgroundColor="dreamy" />
+		<widget name="cover" position="1261,520" size="608,420" alphatest="blend" backgroundColor="transparent" zPosition="2" />
 		<!--eLabel name="DEBUG" text="094" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
@@ -4933,22 +4933,22 @@
 		<widget position="16,530" size="1730,20" source="consolestatus" render="Label" font="Regular;23" valign="bottom" zPosition="2"/>
 		<!--eLabel name="DEBUG" text="094a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
-	
-	<screen name="InternetRadioFullScreen" position="fill" title="Internet Radio Cover" backgroundColor="transpBlack" flags="wfNoBorder"> 
-		<panel name="p800_Template" /> 
-		<panel name="p800_Ext_BiN" /> 
-		<panel name="p800_Date" /> 
+
+	<screen name="InternetRadioFullScreen" position="fill" title="Internet Radio Cover" backgroundColor="transpBlack" flags="wfNoBorder">
+		<panel name="p800_Template" />
+		<panel name="p800_Ext_BiN" />
+		<panel name="p800_Date" />
 		<panel name="M" />
-    		<!-- List Channel --> 
-		<widget name="station" position="1260,570" size="610,120" font="Regular; 30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" /> 
-		<ePixmap position="1450,145" size="240,240" pixmap="menu/ico_egamiradio.png" alphatest="blend" /> 
-		<widget name="title" position="1260,705" size="610,220" font="Regular; 32" transparent="1" backgroundColor="bluette" foregroundColor="ltbluette" halign="center" zPosition="1" /> 
-		<eLabel position="1260,380" size="610,10" backgroundColor="#FF000000" zPosition="1" /> <eLabel position="1260,390" size="610,120" backgroundColor="header" /> 
-		<eLabel text="INTERNET RADIO EGAMI" position="1260,390" size="610,110" font="Regular; 50" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="bluette" zPosition="1" /> 
-		<widget name="statustext" position="1260,390" size="610,110" font="Regular; 28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="ltbluette" zPosition="2" /> 
-		<widget name="console" position="1260,390" size="610,110" font="Regular; 28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="#808080" zPosition="2" /> 
-		<eLabel position="1260,510" size="610,440" backgroundColor="dreamy" /> 
-		<widget name="cover" position="68,178" size="1160,720" alphatest="blend" backgroundColor="transparent" zPosition="2" /> 
+    		<!-- List Channel -->
+		<widget name="station" position="1260,570" size="610,120" font="Regular; 30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" />
+		<ePixmap position="1450,145" size="240,240" pixmap="menu/ico_egamiradio.png" alphatest="blend" />
+		<widget name="title" position="1260,705" size="610,220" font="Regular; 32" transparent="1" backgroundColor="bluette" foregroundColor="ltbluette" halign="center" zPosition="1" />
+		<eLabel position="1260,380" size="610,10" backgroundColor="#FF000000" zPosition="1" /> <eLabel position="1260,390" size="610,120" backgroundColor="header" />
+		<eLabel text="INTERNET RADIO EGAMI" position="1260,390" size="610,110" font="Regular; 50" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="bluette" zPosition="1" />
+		<widget name="statustext" position="1260,390" size="610,110" font="Regular; 28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="ltbluette" zPosition="2" />
+		<widget name="console" position="1260,390" size="610,110" font="Regular; 28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="#808080" zPosition="2" />
+		<eLabel position="1260,510" size="610,440" backgroundColor="dreamy" />
+		<widget name="cover" position="68,178" size="1160,720" alphatest="blend" backgroundColor="transparent" zPosition="2" />
 		<!--eLabel name="DEBUG" text="094b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
@@ -4956,17 +4956,17 @@
 	<!-- Permanent Clock Setup -->
 	<screen name="PermanentClockMenu" position="fill" title="Permanent Clock Setup" backgroundColor="#ff000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>		
+		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="955,640" size="300,300" pixmap="menu/timer_edit.png" alphatest="blend"/>
 		<ePixmap position="60,970" size="700,90" pixmap="icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="095" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- Permanent Clock Panel -->
 	<screen name="PermanentClockScreen" position="20,20" size="180,80" zPosition="10" backgroundColor="#55000000" title="Clock" flags="wfNoBorder">
-		<widget source="global.CurrentTime" render="Label" zPosition="1" position="10,10" size="160,60" font="Regular;40" 
+		<widget source="global.CurrentTime" render="Label" zPosition="1" position="10,10" size="160,60" font="Regular;40"
 		        valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="#f00000000" shadowColor="#80000000" shadowOffset="2,1" transparent="1">
 			<convert type="ClockToText">Default</convert>
 		</widget>
@@ -4982,9 +4982,9 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_pig" />
-		<ePixmap position="320,988" pixmap="buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" /> 
+		<ePixmap position="320,988" pixmap="buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<ePixmap position="70,988" pixmap="buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<eLabel font="Regular; 30" foregroundColor="foreground" halign="left" position="115,985" size="180,46" text="Cancel" /> 
+		<eLabel font="Regular; 30" foregroundColor="foreground" halign="left" position="115,985" size="180,46" text="Cancel" />
 		<eLabel font="Regular; 30" foregroundColor="foreground" halign="left" position="360,985" size="180,46" text="Save/OK" />
  		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="900,180" size="10,720" pixmap="box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
@@ -4996,33 +4996,33 @@
 	<!-- ********** SleepTimer FHD ********** P097 -->
 	<!--  SleepTimer -->
 	<screen name="SleepTimerEdit" position="fill" title="Sleep Timer" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" /> 
+		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="sRG" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
                 <widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="55" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
-		<widget name="description"     position="170,700" size="580,540" font="Regular;32" halign="center" scrollbarMode="showOnDemand" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />	
+		<widget name="description"     position="170,700" size="580,540" font="Regular;32" halign="center" scrollbarMode="showOnDemand" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="900,180" size="10,720" pixmap="box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<ePixmap pixmap="menu/timer_edit.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" /> 
+		<ePixmap pixmap="menu/timer_edit.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="097a" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="10202020" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!--  Timedate -->
 	<screen name="TimeDateInput" position="fill" title="Time Date Input" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" /> 
+		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="sRG" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
                 <widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="55" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<ePixmap position="900,180" size="10,720" pixmap="box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<ePixmap pixmap="menu/timer_edit.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" /> 
+		<ePixmap pixmap="menu/timer_edit.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="canceltext" position="110,990" zPosition="1" size="115,24" font="Regular;30" halign="center" valign="center" transparent="1"/>
 		<widget name="oktext" position="380,990" zPosition="1" size="115,24" font="Regular;30" halign="center" valign="center" transparent="1"/>
 		<!--eLabel name="DEBUG" text="097b" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="10202020" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!--  SetupMenu -->
 	<screen name="SetupMenu" position="fill" title="" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -5125,7 +5125,7 @@
 		<panel name="p800_DateMid" />
 		<panel name="sRG"/>
         	<widget name="config" position="60,170" size="820,420" font="Regular;28" itemHeight="45" backgroundColor="#00000000" scrollbarMode="showOnDemand" />
-		<ePixmap pixmap="oDreamy-FHD/icons/musicplay.png" position="990,645" size="256,256" zPosition="2" alphatest="blend" /> 
+		<ePixmap pixmap="oDreamy-FHD/icons/musicplay.png" position="990,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="098c" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="10202020" transparent="1" zPosition="99"/-->
         </screen>
 
@@ -5177,7 +5177,7 @@
 		<panel name="sRG"/>
 		<widget name="target"   position="60,170" size="820,50" halign="center" valign="center" font="Regular;24" foregroundColor="white" backgroundColor="bluette" />
         	<widget name="filelist" position="60,230" size="820,720" font="Regular;28" itemHeight="45" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1"/>
-		<ePixmap pixmap="oDreamy-FHD/icons/musicplay.png" position="990,645" size="256,256" zPosition="2" alphatest="blend" /> 
+		<ePixmap pixmap="oDreamy-FHD/icons/musicplay.png" position="990,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="098f" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="10202020" transparent="1" zPosition="99"/-->
 	</screen>
 
@@ -5322,7 +5322,7 @@
 		<widget source="curdir" render="Label" position="140,175" size="1165,40" font="Regular; 34" halign="left" valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" noWrap="1" />
 		<!--eLabel name="DEBUG" text="101" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- ********** NetSpeed FHD ********** P102 -->
 	<screen name="NetSpeedTestScreen"  position="fill" title="Net Speed Test" backgroundColor="transparent" flags="wfNoBorder">
 		<ePixmap position="fill" pixmap="box/netspeed.jpg" zPosition="-1" />
@@ -5330,11 +5330,11 @@
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/lan.png" position="70,30" size="140,140" zPosition="2" scale="1" alphatest="blend" transparent="1">
 			<convert type="RouteInfo">Lan</convert>
 			<convert type="ConditionalShowHide" />
-		</widget>  
+		</widget>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/wifi.png" position="70,30" size="140,140" zPosition="2" scale="1" alphatest="blend" transparent="1" >
 			<convert type="RouteInfo">Wifi</convert>
 			<convert type="ConditionalShowHide" />
-		</widget>	
+		</widget>
 		<widget name="ip"       position="240,70"  size="204,60"   font="Regular;50" foregroundColor="yellow" backgroundColor="header" transparent="1" halign="left"  zPosition="1" />
 		<widget name="host"     position="700,70"  size="1000,200" font="Regular;50" foregroundColor="white"  backgroundColor="header" transparent="1" halign="right" zPosition="4" />
 		<widget name="download" position="270,280" size="600,120"  font="Regular;50" foregroundColor="green"  backgroundColor="header" transparent="1" halign="left"  zPosition="4" />
@@ -5478,7 +5478,7 @@
 		</widget>
 		<!-- eLabel name="DEBUG" text="103d" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
-   
+
 	<screen name="SubsSearchContextMenu" position="1030,170" size="800,280" zPosition="5" flags="wfNoBorder">
 		<eLabel position="0,0" size="800,400" backgroundColor="#10101010" zPosition="-1"/>
 		<widget source="subtitle_release" render="Label" position="10,10" size="780,80" valign="center" halign="center" font="Regular;32" foregroundColor="#66BFFF" zPosition="1" />
@@ -5584,7 +5584,7 @@
 		<panel name="p700_Logo"/>
 		<ePixmap position="60,970"  size="700,90"  pixmap="icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<ePixmap  position="860,640" size="256,256" pixmap="menu/language.png" alphatest="blend"/>
-		<widget source="suggestionstitle" render="Label" position = "70,180" size="750, 50" font="Regular;30" halign="center" valign="center" 
+		<widget source="suggestionstitle" render="Label" position = "70,180" size="750, 50" font="Regular;30" halign="center" valign="center"
 			foregroundColor="ltbluette" transparent="0" />
 		<widget source="suggestionslist"  render="Listbox" position="70,240" size="750, 600" scrollbarMode="showOnDemand" transparent="1" >
 			<convert type="TemplatedMultiContent">
@@ -5665,7 +5665,7 @@
 		<eLabel text="Exit" position="1400,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- eLabel name="DEBUG" text="104a" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
    	</screen>
-   
+
    	<screen name="tmdbScreenPeople" position="fill" title="TMDb - The Movie Database" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_Ext"/>
@@ -5709,7 +5709,7 @@
 		<widget name="genre" position="830,725" size="400,40" zPosition="2" font="Regular; 30" transparent="1" />
 		<widget name="studio_txt" position="700,795" size="150,100" font="Regular; 30" transparent="1" />
 		<widget name="studio" position="830,795" size="400,100" zPosition="2" font="Regular; 30" transparent="1" />
-		<widget name="subtitle" position="0,0" size="0,0" zPosition="2" transparent="1" font="Regular;22" foregroundColor="#00fff000" />			
+		<widget name="subtitle" position="0,0" size="0,0" zPosition="2" transparent="1" font="Regular;22" foregroundColor="#00fff000" />
 		<widget name="description" position="0,0" size="0,0" zPosition="2" transparent="1" font="Regular;22" />
 	        <eLabel text="Exit" position="1400,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- eLabel name="DEBUG" text="104c" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
@@ -5821,7 +5821,7 @@
 		<ePixmap position="980,650" size="256,256" pixmap="menu/ico_iptv.png" alphatest="blend" foregroundColor="00ffff" backgroundColor="header" transparent="1" zPosition="3" />
 		<!-- eLabel name="DEBUG" text="107f" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
-	
+
 	<!-- **********  Yahoo Weather ORIGINAL ********** P108 -->
 	<screen name="XYahooWeather" position="fill" title="Yahoo Weather" backgroundColor="#ffffffff" flags="wfNoBorder" >
 		<ePixmap position="fill" pixmap="msn/meteo.jpg" zPosition="-1" />
