@@ -1296,15 +1296,15 @@
 		<panel name="p800_Ext_BiN" />
 		<panel name="p800_Date"/>
 		<panel name="sR"/>
-		<ePixmap position="70,174" size="40,40" pixmap="oDreamy-FHD/icons/net_off.png" alphatest="blend" zPosition="1"/>
-		<widget name="statuspic" position="70,174" size="40,40" transparent="1" pixmaps="icons/net_on.png,icons/net_off.png" alphatest="on" zPosition="2" />
+		<ePixmap position="75,180" size="40,40" pixmap="oDreamy-FHD/icons/net_off.png" alphatest="blend" zPosition="1"/>
+		<widget name="statuspic" position="75,180" size="40,40" transparent="1" pixmaps="icons/net_on.png,icons/net_off.png" alphatest="on" zPosition="2" />
 		<widget source="IF" render="Label" position="140,180" size="750,40" font="Regular;38" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="10" />
 		<eLabel position="70,230" size="820,1" backgroundColor="#202020" zPosition="1"/>
 		<widget name="menulist" position="70,270" size="820,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1"/>
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend"/>
-		<widget source="description" render="Label" position="1270,540" size="590,280" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1"/>
-		<widget source="IFtext"      render="Label" position="1280,840" size="580,40" transparent="1" font="Regular;28" halign="left" backgroundColor="header" zPosition="1" />
-		<widget source="Statustext"  render="Label" position="1280,890" size="580,40" transparent="1" font="Regular;28" halign="left" backgroundColor="header" zPosition="1" />
+		<widget source="description" render="Label" position="1270,690" size="590,280" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1"/>
+		<widget source="IFtext"      render="Label" position="1280,840" size="0,0" transparent="1" font="Regular;1" halign="left" backgroundColor="header" zPosition="-1" />
+		<widget source="Statustext"  render="Label" position="1280,890" size="0,0" transparent="1" font="Regular;1" halign="left" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend"/>
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="S142" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->

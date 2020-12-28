@@ -65,8 +65,8 @@
 		<widget source="session.CurrentService" render="Label" position="680,100" size="250,26" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="CaidInfo2">CryptInfo2</convert>
 		</widget>
-		<ePixmap pixmap="oDreamy-FHD/icons/net_off.png" alphatest="blend" zPosition="2" position="1520,1040" size="80,40" transparent="1" />
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/net_on.png" position="1520,1040" size="80,40" zPosition="4" alphatest="blend" transparent="1">
+		<ePixmap pixmap="oDreamy-FHD/icons/netw_off.png" alphatest="blend" zPosition="2" position="1520,1040" size="80,40" transparent="1" />
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/netw_on.png" position="1520,1040" size="80,40" zPosition="4" alphatest="blend" transparent="1">
       <convert type="CaidInfo2">Net</convert>
       <convert type="ConditionalShowHide" />
     </widget>
