@@ -297,11 +297,6 @@
 			<convert type="ValueRange">3,3</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="990,135" size="56,23" alphatest="blend" zPosition="1" transparent="1">
-			<convert type="ServiceInfo">IsStream</convert>
-			<convert type="ConditionalShowHide">
-			</convert>
-		</widget>
 		<!-- icon wifi/lan -->
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/lan2.png" position="1078,23" size="30,30" zPosition="2" alphatest="blend">
 			<convert type="RouteInfo">Lan</convert>
@@ -314,6 +309,11 @@
 		<!-- Speed wifi/lan -->
 		<widget source="session.CurrentService" render="Label" position="1015,25" size="336,56" font="Regular;22" halign="center" foregroundColor="yellow" backgroundColor="header" zPosition="2" transparent="1">
 			<convert type="EGNetSpeedInfo">RC_MB</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="990,135" size="56,23" alphatest="blend" zPosition="1" transparent="1">
+			<convert type="ServiceInfo">IsStream</convert>
+			<convert type="ConditionalShowHide">
+			</convert>
 		</widget>
 	</screen>
 	<!-- secondinfobar FHD -->
