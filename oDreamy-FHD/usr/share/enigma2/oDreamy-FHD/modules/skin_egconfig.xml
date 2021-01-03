@@ -36,6 +36,85 @@
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">InMinutes</convert>
 		</widget>
+		<!--info-tuner-->
+		<widget source="session.CurrentService" render="Label" position="30,1045" size="770,45" font="Regular; 23" halign="left" foregroundColor="#808080" backgroundColor="#10101010" transparent="1" zPosition="3">
+			<convert type="PliExtraInfo">TransponderInfo</convert>
+		</widget>
+		<eLabel text="SNR:" position="1660,58" size="200,40" font="Regular;25" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
+		<widget source="session.FrontendStatus" render="Label" position="1730,60" size="200,35" font="Regular;23" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1">
+			<convert type="FrontendInfo">SNR</convert>
+		</widget>
+		<eLabel text="AGC:" position="1660,87" size="200,40" font="Regular;25" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
+		<widget source="session.FrontendStatus" render="Label" position="1730,89" size="200,35" font="Regular;23" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1">
+			<convert type="FrontendInfo">AGC</convert>
+		</widget>
+		<eLabel text="BER:" position="1660,117" size="200,40" font="Regular;25" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
+		<widget source="session.FrontendStatus" render="Label" position="1730,119" size="200,35" font="Regular;23" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1">
+			<convert type="FrontendInfo">BER</convert>
+		</widget>
+		<!-- *** Time/Date infobar *** -->
+		<widget source="global.CurrentTime" render="Label" position="1635,20" size="240,30" font="Regular;25" halign="center" foregroundColor="white" backgroundColor="header" transparent="1">
+			<convert type="ClockToText">Format %a %d %b | %H:%M</convert>
+		</widget>
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerA.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">0,0</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--B-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerB.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">1,1</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--C-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerC.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">2,2</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--D-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerD.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">3,3</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--E-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerE.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">4,4</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--F-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerF.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">5,5</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--G-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerG.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">6,6</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--H-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerH.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">7,7</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--I-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerI.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">8,8</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<!--J-->
+		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerG.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
+			<convert type="FrontendInfo">NUMBER</convert>
+			<convert type="ValueRange">9,9</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
 		<!-- *** Event (NEXT) *** -->
 		<widget source="session.Event_Next" render="Label" position="355,990" size="140,40" font="Regular;36" foregroundColor="#505050" backgroundColor="header" transparent="1">
 			<convert type="EventTime">StartTime</convert>
@@ -50,26 +129,6 @@
 			<convert type="EventTime">Duration</convert>
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
-		<!-- Card / Network / Emu  -->
-		<widget source="session.CurrentService" render="Label" position="1015,100" size="420,35" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1">
-			<convert type="EGExtraInfo">E-C-N</convert>
-		</widget>
-		<!-- ECM  -->
-		<widget source="session.CurrentService" render="Label" position="600,135" size="800,33" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
-			<convert type="EGExtraInfo">NetInfo</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="870,100" size="300,35" font="Regular;23" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1">
-			<convert type="EGExtraInfo">CamName</convert>
-		</widget>
-		<!-- nagra/nds/etc -->
-		<widget source="session.CurrentService" render="Label" position="680,100" size="250,26" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1">
-			<convert type="CaidInfo2">CryptInfo2</convert>
-		</widget>
-		<ePixmap pixmap="oDreamy-FHD/icons/netw_off.png" alphatest="blend" zPosition="2" position="1520,1040" size="80,40" transparent="1" />
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/netw_on.png" position="1520,1040" size="80,40" zPosition="4" alphatest="blend" transparent="1">
-      <convert type="CaidInfo2">Net</convert>
-      <convert type="ConditionalShowHide" />
-    </widget>
 		<!-- cpu/mem -->
 		<ePixmap pixmap="oDreamy-FHD/icons/disco.png" position="1665,1045" size="30,30" zPosition="1" alphatest="blend" transparent="1" />
     <widget source="session.CurrentService" render="Label" position="1707,1043" size="250,32" font="Regular; 14" halign="left" foregroundColor="#FFFFFF" backgroundColor="header" transparent="1">
@@ -174,24 +233,6 @@
       <convert type="EGServiceInfo">HasTelext</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-		<!-- color curve -->
-		<ePixmap pixmap="oDreamy-FHD/icons/curve_off.png" position="980,1045" size="60,30" zPosition="4" alphatest="blend" transparent="1" />
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hdr.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">IsHDR</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hdr10.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">IsHDR10</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/sdr.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">IsSDR</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hlg.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">IsHLG</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
 		<ePixmap pixmap="oDreamy-FHD/icons/stream-box-blue.png" position="760,1042"  size="90,36" alphatest="blend" zPosition="2" />
 		<ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/txt_off.png" position="1603,1045" size="60,32" />
 		<widget source="session.CurrentService" render="Label" position="740,1043" size="130,30" backgroundColor="header" transparent="1" zPosition="15" font="Regular; 22" halign="center" valign="center" noWrap="1">
@@ -255,46 +296,22 @@
 			<convert type="EGBaseInfo">HasAVS</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="30,1045" size="770,45" font="Regular; 23" halign="left" foregroundColor="#808080" backgroundColor="#10101010" transparent="1" zPosition="3">
-			<convert type="PliExtraInfo">TransponderInfo</convert>
-		</widget>
-		<eLabel text="SNR:" position="1660,58" size="200,40" font="Regular;25" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
-		<widget source="session.FrontendStatus" render="Label" position="1730,60" size="200,35" font="Regular;23" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1">
-			<convert type="FrontendInfo">SNR</convert>
-		</widget>
-		<eLabel text="AGC:" position="1660,87" size="200,40" font="Regular;25" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
-		<widget source="session.FrontendStatus" render="Label" position="1730,89" size="200,35" font="Regular;23" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1">
-			<convert type="FrontendInfo">AGC</convert>
-		</widget>
-		<eLabel text="BER:" position="1660,117" size="200,40" font="Regular;25" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
-		<widget source="session.FrontendStatus" render="Label" position="1730,119" size="200,35" font="Regular;23" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1">
-			<convert type="FrontendInfo">BER</convert>
-		</widget>
-		<!-- *** Time/Date infobar *** -->
-		<widget source="global.CurrentTime" render="Label" position="1635,20" size="240,30" font="Regular;25" halign="center" foregroundColor="white" backgroundColor="header" transparent="1">
-			<convert type="ClockToText">Format %a %d %b | %H:%M</convert>
-		</widget>
-		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerA.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
-			<convert type="FrontendInfo">NUMBER</convert>
-			<convert type="ValueRange">0,0</convert>
+		<!-- color curve -->
+		<ePixmap pixmap="oDreamy-FHD/icons/curve_off.png" position="980,1045" size="60,30" zPosition="4" alphatest="blend" transparent="1" />
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hdr.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
+			<convert type="EGBaseInfo">IsHDR</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<!--B-->
-		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerB.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
-			<convert type="FrontendInfo">NUMBER</convert>
-			<convert type="ValueRange">1,1</convert>
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hdr10.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
+			<convert type="EGBaseInfo">IsHDR10</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<!--C-->
-		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerC.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
-			<convert type="FrontendInfo">NUMBER</convert>
-			<convert type="ValueRange">2,2</convert>
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/sdr.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
+			<convert type="EGBaseInfo">IsSDR</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<!--D-->
-		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerD.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
-			<convert type="FrontendInfo">NUMBER</convert>
-			<convert type="ValueRange">3,3</convert>
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hlg.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
+			<convert type="EGBaseInfo">IsHLG</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<!-- icon wifi/lan -->
@@ -309,6 +326,26 @@
 		<!-- Speed wifi/lan -->
 		<widget source="session.CurrentService" render="Label" position="1015,25" size="336,56" font="Regular;22" halign="center" foregroundColor="yellow" backgroundColor="header" zPosition="2" transparent="1">
 			<convert type="EGNetSpeedInfo">RC_MB</convert>
+		</widget>
+		<!-- Card / Network / Emu  -->
+		<widget source="session.CurrentService" render="Label" position="1015,100" size="420,35" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1">
+			<convert type="EGExtraInfo">E-C-N</convert>
+		</widget>
+		<!-- ECM  -->
+		<widget source="session.CurrentService" render="Label" position="600,135" size="800,33" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
+			<convert type="EGExtraInfo">NetInfo</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="870,100" size="300,35" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
+			<convert type="EGExtraInfo">CamName</convert>
+		</widget>
+		<!-- nagra/nds/etc -->
+		<widget source="session.CurrentService" render="Label" position="680,100" size="250,26" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1">
+			<convert type="CaidInfo2">CryptInfo2</convert>
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/icons/netw_off.png" alphatest="blend" zPosition="2" position="1520,1040" size="80,40" transparent="1" />
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/netw_on.png" position="1520,1040" size="80,40" zPosition="4" alphatest="blend" transparent="1">
+			<convert type="CaidInfo2">Net</convert>
+			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="990,135" size="56,23" alphatest="blend" zPosition="1" transparent="1">
 			<convert type="ServiceInfo">IsStream</convert>
