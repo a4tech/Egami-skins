@@ -694,7 +694,7 @@
 	</screen>
 	<!--  EGAMI MultiBoot FHD -->
 	<screen name="EGAMIBootInstallation" position="fill" title="EGAMI Multiboot Installation" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="nRG" />

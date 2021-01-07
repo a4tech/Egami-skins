@@ -1877,7 +1877,7 @@
 	</screen>
 	<!-- Info Devices FHD -->
 	<screen name="Devices" title="Device Information" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template"/>
+		<panel name="p800_Template_notime"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="fakeExit"/>
@@ -1892,7 +1892,7 @@
 	</screen>
 	<!-- Info System Memory Info FHD -->
 	<screen name="SystemMemoryInfo" title="Memory Information" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template"/>
+		<panel name="p800_Template_notime"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="fakeExit"/>
@@ -1904,7 +1904,7 @@
 	</screen>
 	<!-- Info Network Info FHD -->
 	<screen name="SystemNetworkInfo" title="Network Information" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template"/>
+		<panel name="p800_Template_notime"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="sR"/>
@@ -1959,7 +1959,7 @@
 	</screen>
 	<!-- Info Translation FHD -->
 	<screen name="TranslationInfo" title="Translation" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template"/>
+		<panel name="p800_Template_notime"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="fakeExit"/>
