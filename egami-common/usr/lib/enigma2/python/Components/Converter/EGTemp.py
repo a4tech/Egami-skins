@@ -1,10 +1,9 @@
+# -*- coding: utf-8 -*-
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Components.Converter.Poll import Poll
 from enigma import eConsoleAppContainer
-import os
-from os import system, path, popen
-from boxbranding import getMachineBuild
+import os, re, socket
 
 class EGTemp(Poll, Converter):
     TEMPERATURE = 0
@@ -13,6 +12,7 @@ class EGTemp(Poll, Converter):
     CPUSPEED = 3
     FANINFO = 4
     UPTIME = 5
+    IPLOCAL = 6
 
     def __init__(self, type):
         Converter.__init__(self, type)
@@ -30,6 +30,8 @@ class EGTemp(Poll, Converter):
             self.type = self.TEMPERATURE
         elif 'Uptime' in type:
             self.type = self.UPTIME
+        elif 'Iplocal' in type:
+            self.type = self.IPLOCAL
         elif 'HDDTemp' in type:
             self.type = self.HDDTEMP
             self.hddtemp_output = ''
@@ -73,62 +75,46 @@ class EGTemp(Poll, Converter):
 
                 cpuload = load.replace('\n', '').replace(' ', '')
                 return 'CPU Load: %s' % cpuload
-        else:
-            if self.type == self.TEMPERATURE:
-                tempinfo = ''
-                if path.exists('/proc/stb/sensors/temp0/value'):
-                    f = open('/proc/stb/sensors/temp0/value', 'r')
-                    tempinfo = f.read()
-                    f.close()
-                elif path.exists('/proc/stb/fp/temp_sensor'):
-                    f = open('/proc/stb/fp/temp_sensor', 'r')
-                    tempinfo = f.read()
-                    f.close()
-                elif path.exists('/proc/stb/sensors/temp/value'):
-                    f = open('/proc/stb/sensors/temp/value', 'r')
-                    tempinfo = f.read()
-                    f.close()
-                if tempinfo and int(tempinfo.replace('\n', '')) > 0:
-                    mark = str('\xc2\xb0')
-                    AboutText = _('%s') % tempinfo.replace('\n', '').replace(' ', '') + mark + 'C\n'
-                tempinfo = ''
-                if path.exists('/proc/stb/fp/temp_sensor_avs'):
-                    f = open('/proc/stb/fp/temp_sensor_avs', 'r')
-                    tempinfo = f.read()
-                    f.close()
-                elif path.exists('/proc/stb/power/avs'):
-                    f = open('/proc/stb/power/avs', 'r')
-                    tempinfo = f.read()
-                    f.close()
-                elif path.exists('/sys/devices/virtual/thermal/thermal_zone0/temp'):
-                    try:
-                        f = open('/sys/devices/virtual/thermal/thermal_zone0/temp', 'r')
-                        tempinfo = f.read()
-                        tempinfo = tempinfo[:-4]
-                        f.close()
-                    except:
-                        tempinfo = ''
-
-                elif path.exists('/proc/hisi/msp/pm_cpu'):
-                    try:
-                        for line in open('/proc/hisi/msp/pm_cpu').readlines():
-                            line = [ x.strip() for x in line.strip().split(':') ]
-                            if line[0] in 'Tsensor':
-                                temp = line[1].split('=')
-                                temp = line[1].split(' ')
-                                tempinfo = temp[2]
-                                if getMachineBuild() in ('u41', 'u42', 'u43'):
-                                    tempinfo = str(int(tempinfo) - 15)
-
-                    except:
-                        tempinfo = ''
-
-                if tempinfo and int(tempinfo.replace('\n', '')) > 0:
-                    mark = str('\xc2\xb0')
-                    AboutText = _('%s') % tempinfo.replace('\n', '').replace(' ', '') + mark + 'C\n'
-                return AboutText
-            if self.type == self.HDDTEMP:
-                return self.hddtemp
+        if self.type == self.TEMPERATURE:
+            systemp = ""
+            cputemp = ""
+            try:
+                if os.path.exists("/proc/stb/sensors/temp0/value"):
+                    with open("/proc/stb/sensors/temp0/value") as stemp:
+                        systemp = "%s°C" % stemp.readline().replace("\n", "")
+                elif os.path.exists("/proc/stb/fp/temp_sensor"):
+                    with open("/proc/stb/fp/temp_sensor") as stemp:
+                        systemp = "%s°C" % stemp.readline().replace("\n", "")
+                if os.path.exists("/proc/stb/fp/temp_sensor_avs"):
+                    with open("/proc/stb/fp/temp_sensor_avs") as ctemp:
+                        cputemp = "%s°C" % ctemp.readline().replace("\n", "")
+                elif os.path.exists("/sys/devices/virtual/thermal/thermal_zone0/temp"):
+                    with open("/sys/devices/virtual/thermal/thermal_zone0/temp") as ctemp:
+                        cputemp = "%s°C" % ctemp.read()[:2].replace("\n", "")
+                elif os.path.exists("/proc/hisi/msp/pm_cpu"):
+                    for line in open("/proc/hisi/msp/pm_cpu").readlines():
+                        line = [x.strip() for x in line.strip().split(":")]
+                        if line[0] in ("Tsensor"):
+                            ctemp = line[1].split("=")
+                            ctemp = line[1].split(" ")
+                            cputemp = "%s°C" % ctemp[2]
+            except:
+                pass
+            if systemp == "" and cputemp == "":
+                return "N/A"
+            if systemp == "":
+                return "%s" % cputemp
+            if cputemp == "":
+                return systemp
+            return "%s" % (cputemp)
+        if self.type == self.HDDTEMP:
+            return self.hddtemp
+        if self.type == self.IPLOCAL:
+            gw = os.popen("ip -4 route show default").read().split()
+            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            s.connect((gw[2], 0))
+            ipaddr = s.getsockname()[0]
+        return "%s" % ipaddr
         if self.type == self.CPUSPEED:
             try:
                 cpuspeed = 0
