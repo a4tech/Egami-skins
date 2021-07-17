@@ -5192,7 +5192,7 @@
 	<!-- Permanent Clock Panel -->
 	<screen name="PermanentClockScreen" position="20,20" size="180,80" zPosition="10" backgroundColor="#55000000" title="Clock" flags="wfNoBorder">
 		<widget source="global.CurrentTime" render="Label" zPosition="1" position="10,10" size="160,60" font="Regular;40"
-		        valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="#f00000000" shadowColor="#80000000" shadowOffset="2,1" transparent="1">
+		        valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="#00000000" shadowColor="#80000000" shadowOffset="2,1" transparent="1">
 			<convert type="ClockToText">Default</convert>
 		</widget>
 		<widget backgroundColor="blue" position="10,70" render="Progress" size="160,5" source="session.Event_Now" zPosition="2" >

@@ -13,17 +13,17 @@
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<!-- Blinking pixmap (recording in progress) -->
-		<ePixmap pixmap="oDreamy-FHD/icons/icon_event.png" position="300,937" size="44,35" alphatest="blend" zPosition="1" />
-		<widget source="session.RecordState" render="Pixmap" position="300,937" size="44,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="10" >
+		<ePixmap pixmap="oDreamy-FHD/icons/icon_event.png" position="300,935" size="44,35" alphatest="blend" zPosition="1" />
+		<widget source="session.RecordState" render="Pixmap" position="300,935" size="44,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="10" >
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="355,923" size="124,55" font="Regular;36" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel position="480,990" size="1102,40" backgroundColor="#10202020" transparent="0" zPosition="1" />
-		<eLabel position="480,923" size="1103,55" backgroundColor="#10202020" transparent="0" zPosition="1" />
-		<widget source="session.Event_Now" render="Progress" position="480,923" size="1103,55" pixmap="oDreamy-FHD/skin_default/progress_infobar55.png" backgroundColor="#10202020" zPosition="2">
+		<eLabel position="480,990" size="904,40" backgroundColor="#10202020" transparent="0" zPosition="1" />
+		<eLabel position="480,923" size="903,55" backgroundColor="#10202020" transparent="0" zPosition="1" />
+		<widget source="session.Event_Now" render="Progress" position="480,923" size="903,55" pixmap="oDreamy-FHD/skin_default/progress_infobar55.png" backgroundColor="#10202020" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- *** Event (NOW) *** -->
@@ -31,7 +31,8 @@
 			options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=6,oneshot=1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
-		<widget source="session.Event_Now" render="Label" position="1323,923" size="255,55" font="Regular;36" foregroundColor="ltbluette" backgroundColor="header" halign="right" valign="center" transparent="1" zPosition="5">
+		<eLabel position="1393,923" size="220,55" backgroundColor="#10202020" transparent="0" zPosition="1" />
+		<widget source="session.Event_Now" render="Label" position="1373,923" size="255,55" font="Regular;36" foregroundColor="ltbluette" backgroundColor="header" halign="center" valign="center" transparent="1" zPosition="5">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">InMinutes</convert>
 		</widget>
@@ -39,11 +40,12 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="session.Event_Next" render="DRRunningText" position="487,987" size="922,40" font="Regular2;33" valign="center" foregroundColor="#707070" backgroundColor="#5202020" noWrap="1" transparent="1"
+		<widget source="session.Event_Next" render="DRRunningText" position="487,987" size="900,40" font="Regular2;33" valign="center" foregroundColor="#707070" backgroundColor="#5202020" noWrap="1" transparent="1"
 			options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=6,oneshot=1" zPosition="3" >
 			<convert type="EventName">Name</convert>
 		</widget>
-		<widget source="session.Event_Next" render="Label" position="1402,990" size="176,40" font="Regular;34" foregroundColor="#707070" backgroundColor="header" halign="right" valign="center" transparent="1" zPosition="5">
+		<eLabel position="1393,990" size="220,40" backgroundColor="#10202020" transparent="0" zPosition="1" />
+		<widget source="session.Event_Next" render="Label" position="1417,990" size="176,40" font="Regular;34" foregroundColor="#707070" backgroundColor="header" halign="center" valign="center" transparent="1" zPosition="5">
 			<convert type="EventTime">Duration</convert>
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
@@ -70,10 +72,10 @@
 			<convert type="EGFrontendInfo">BER</convert>
 		</widget>
 		<!-- *** Time/Date infobar *** -->
-    <widget source="global.CurrentTime" render="Label" position="1639,920" size="240,30" font="Regular;25" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="1649,930" size="240,30" font="Regular;25" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
       <convert type="ClockToText">Format %A %d %B</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="1640,960" size="240,60" font="Regular;56" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="1650,965" size="240,60" font="Regular;56" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
       <convert type="ClockToText">Format %H:%M</convert>
     </widget>
 		<!-- cpu/mem -->
@@ -296,6 +298,10 @@
 		</widget>
 		<panel name="wifi_lan" />
 		<panel name="Card_Network_Emu" />
+		<widget name="key_red" position="120,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<widget name="key_green"  position="400,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<widget name="key_yellow" position="680,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<widget name="key_blue" position="950,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 	</screen>
 	<!-- secondinfobar FHD -->
 	<screen name="SecondInfoBar" position="fill" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
@@ -646,7 +652,6 @@
 		<widget name="list" position="790,135" size="1080,770" scrollbarMode="showOnDemand" transparent="1" zPosition="1"
 			serviceNumberFont="Regular;30" serviceNameFont="Regular;30" serviceInfoFont="Regular2;30"
 			foregroundColor="#ffffff" foregroundColorSelected="yellow" backgroundColor="header" backgroundColorSelected="bluette"
-			additionalInfoFont="Regular2;30" colorAdditionalInfo="#808080"
 			colorServiceDescription="ltbluette" colorServiceDescriptionSelected="white" foregroundColorServiceNotAvail="#505050"
 			colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="white" picServiceEventProgressbar="oDreamy-FHD/skin_default/progcl.png" />
 		<!-- PIG CHANNEL  -->
@@ -1074,6 +1079,11 @@
 	</screen>
 	<!-- Timeshift state -->
 	<screen name="TimeshiftState" title="TimeShift" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
+		<widget name="PTSSeekBack" position="25,43" size="0,0" pixmap="slider_back.png" alphatest="on" zPosition="2"/>
+		<widget name="PTSSeekPointer" position="10,40" size="0,0" pixmap="position_pointer2.png" alphatest="on" zPosition="4"/>
+		<widget name="statusicon" position="25,60" size="0,0" pixmaps="icons/play.png,icons/pause.png,icons/stop.png,icons/forward.png,icons/backward.png,icons/slow.png" zPosition="5" alphatest="on"/>
+		<widget name="speed" position="55,62" size="0,0" font="Regular;17" halign="left" foregroundColor="bluette" backgroundColor="header" transparent="1" zPosition="5"/>
+		<widget name="eventname" position="75,60" size="0,0" font="Regular;18" halign="center" foregroundColor="bluette" backgroundColor="header" transparent="1" zPosition="2"/>
 		<ePixmap pixmap="oDreamy-FHD/box/grad.png" position="0,820" size="1920,500" zPosition="-1" alphatest="blend" />
 		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1680,890" size="185,60" zPosition="1" alphatest="blend" transparent="1" />
 		<widget name="state" position="40,810" size="300,35" font="Regular;28" halign="left" foregroundColor="#49bbff" backgroundColor="bluette" transparent="1" zPosition="2" />
@@ -1086,7 +1096,7 @@
 		<widget source="session.CurrentService" render="Progress" position="40,940" size="1290,55" pixmap="oDreamy-FHD/icons/progress_infobar.png" backgroundColor="#10202020" zPosition="2">
 		<convert type="ServicePosition">Position</convert>
 		</widget>
-		<widget source="session.CurrentService" render="DRRunningText" options="movetype=running,startpoint=0,direction=left,steptime=0,repeat=0,always=0,oneshot=0,startdelay=0,wrap" position="40,850" size="1300,68" font="Regular;59" valign="left" noWrap="1" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3">
+		<widget source="session.CurrentService" render="DRRunningText" options="movetype=running,startpoint=0,direction=left,steptime=0,repeat=0,always=0,oneshot=0,startdelay=0,wrap" position="40,850" size="1300,68" font="Regular;59" noWrap="1" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="3">
 		<convert type="ServiceName">Name</convert>
 		</widget>
 		<widget source="session.CurrentService" render="PositionGauge" position="380,937" size="1260,6" transparent="1" zPosition="0">
