@@ -110,11 +110,14 @@ class EGTemp(Poll, Converter):
         if self.type == self.HDDTEMP:
             return self.hddtemp
         if self.type == self.IPLOCAL:
-            gw = os.popen("ip -4 route show default").read().split()
-            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-            s.connect((gw[2], 0))
-            ipaddr = s.getsockname()[0]
-        return "%s" % ipaddr
+            import netifaces
+            PROTO = netifaces.AF_INET
+            ifaces = netifaces.interfaces()
+            if_addrs = [netifaces.ifaddresses(iface) for iface in ifaces]
+            if_inet_addrs = [addr[PROTO] for addr in if_addrs if PROTO in addr]
+            iface_addrs = [s['addr'] for a in if_inet_addrs for s in a if 'addr' in s]
+            ip_local = str(iface_addrs[1])
+        return ip_local
         if self.type == self.CPUSPEED:
             try:
                 cpuspeed = 0
