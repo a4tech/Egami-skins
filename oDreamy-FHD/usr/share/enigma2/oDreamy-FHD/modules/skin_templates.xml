@@ -293,7 +293,7 @@
 		<ePixmap pixmap="oDreamy-FHD/box/maxbargh.png" position="805,180" size="15,720" alphatest="blend" zPosition="5" />
 		<widget source="menu" render="Listbox" position="45,180" size="775,720" scrollbarMode="showOnDemand" transparent="1" zPosition="1"
 			foregroundColor="#707070" foregroundColorSelected="#ffffff" backgroundColor="#272e43" backgroundColorSelected="#272e43"
-			selectionPixmap="box/slider72.png" backgroundPixmap="box/sliderb.png" >
+			selectionPixmap="oDreamy-FHD/box/slider72.png" backgroundPixmap="oDreamy-FHD/box/sliderb.png" >
  			<convert type="TemplatedMultiContent">
  				{"template": [ MultiContentEntryText(pos = (100, 10), size = (685, 65), flags = RT_HALIGN_LEFT, text = 0),
  				MultiContentEntryPixmapAlphaBlend(pos=(20,2),size=(56,56),png=5,)],
