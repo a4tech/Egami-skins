@@ -52,7 +52,7 @@ class ODposter(Renderer):
         if what[0] == self.CHANGED_CLEAR:
             self.instance.hide()
         if what[0] != self.CHANGED_CLEAR:
-            self.timer.start(100, True)
+            self.timer.start(10, True)
 
     def showPoster(self):
         if not path.isdir(folder_path):
