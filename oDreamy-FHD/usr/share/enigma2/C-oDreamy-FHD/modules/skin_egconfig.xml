@@ -70,8 +70,8 @@
 			<convert type="EGFrontendInfo">BER</convert>
 		</widget>
 		<!-- *** Time/Date infobar *** -->
-    <widget source="global.CurrentTime" render="Label" position="1649,930" size="240,30" font="Regular;25" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
-      <convert type="ClockToText">Format %A %d %B</convert>
+    <widget source="global.CurrentTime" render="Label" position="1650,930" size="240,30" font="Regular;25" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
+      <convert type="ClockToText">Format: %A %d %b</convert>
     </widget>
     <widget source="global.CurrentTime" render="Label" position="1650,965" size="240,60" font="Regular;56" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
       <convert type="ClockToText">Format %H:%M</convert>
