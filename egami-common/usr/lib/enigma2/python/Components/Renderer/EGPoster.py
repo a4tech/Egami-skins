@@ -12,6 +12,7 @@ except ImportError:
     from thread import start_new_thread
 import json
 import re
+import socket
 from os import path
 from Components.config import config
 leng = config.osd.language.value
