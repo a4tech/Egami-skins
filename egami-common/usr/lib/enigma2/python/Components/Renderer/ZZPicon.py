@@ -37,7 +37,7 @@ def onMountpointAdded(mountpoint):
 					print("[Picon] adding path:", path)
 					searchPaths.append(path)
 					break
-	except Exception, ex:
+	except Exception as ex:
 		print("[Picon] Failed to investigate %s:" % mountpoint, ex)
 
 def onMountpointRemoved(mountpoint):
