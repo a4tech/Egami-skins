@@ -27,31 +27,31 @@ def onMountpointAdded(mountpoint):
 		if os.path.isdir(path) and path not in searchPaths:
 			for fn in os.listdir(path):
 				if fn.endswith('.png'):
-					print "[Picon] adding path:", path
+					print("[Picon] adding path:", path)
 					searchPaths.append(path)
 					break
 		path = os.path.join(mountpoint, 'picon') + '/'
 		if os.path.isdir(path) and path not in searchPaths:
 			for fn in os.listdir(path):
 				if fn.endswith('.png'):
-					print "[Picon] adding path:", path
+					print("[Picon] adding path:", path)
 					searchPaths.append(path)
 					break
 	except Exception, ex:
-		print "[Picon] Failed to investigate %s:" % mountpoint, ex
+		print("[Picon] Failed to investigate %s:" % mountpoint, ex)
 
 def onMountpointRemoved(mountpoint):
 	global searchPaths
 	path = os.path.join(mountpoint, 'ZZPicon/picon') + '/'
 	try:
 		searchPaths.remove(path)
-		print "[Picon] removed path:", path
+		print("[Picon] removed path:", path)
 	except:
 		pass
 	path = os.path.join(mountpoint, 'picon') + '/'
 	try:
 		searchPaths.remove(path)
-		print "[Picon] removed path:", path
+		print("[Picon] removed path:", path)
 	except:
 		pass
 	

@@ -23,19 +23,19 @@ def onMountpointAdded(mountpoint):
         if os.path.isdir(path) and path not in searchPaths:
             for fn in os.listdir(path):
                 if fn.endswith('.png'):
-                    print '[PiconList] adding path:', path
+                    print('[PiconList] adding path:', path)
                     searchPaths.append(path)
                     break
 
     except Exception as ex:
-        print '[PiconList] Failed to investigate %s:' % mountpoint, ex
+        print('[PiconList] Failed to investigate %s:' % mountpoint, ex)
 
 
 def onMountpointRemoved(mountpoint):
     path = os.path.join(mountpoint, 'picon_50x30') + '/'
     try:
         searchPaths.remove(path)
-        print '[PiconList] removed path:', path
+        print('[PiconList] removed path:', path)
     except:
         pass
 

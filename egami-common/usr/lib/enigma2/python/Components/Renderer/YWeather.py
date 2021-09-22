@@ -76,7 +76,6 @@ class YWeather(Poll, Converter, object):
                 xweather['ycountry'] = line.split('country')[1].split('"')[1]
             elif line.find("<yweather:wind") > -1:
                 xweather['ydirection'] = line.split('direction')[1].split('"')[1]
-                print "xweather['ydirection']================================",line.split('direction')[1].split('"')[1]
                 xweather['yspeed'] = line.split('speed')[1].split('"')[1]
             elif line.find("<yweather:atmosphere") > -1:
                 xweather['yhumidity'] = line.split('humidity')[1].split('"')[1]
