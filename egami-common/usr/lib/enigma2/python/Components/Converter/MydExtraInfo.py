@@ -83,8 +83,8 @@ class MydExtraInfo(Converter, object):
 
 	def getTemperature(self):
 		while True:
-		systemp = ""
-		cputemp = ""
+			systemp = ""
+			cputemp = ""
 		try:
 			if path.exists('/proc/stb/sensors/temp0/value'):
 				out_line = popen("cat /proc/stb/sensors/temp0/value").readline()
@@ -214,29 +214,29 @@ class MydExtraInfo(Converter, object):
 		if (float(ecmtime) >= 1):
 			ecmtime2 = str(ecmtime) + " s"
 		else:
-					ecmtime2 = str(int(float(ecmtime) * 1000)) + " ms"
+			ecmtime2 = str(int(float(ecmtime) * 1000)) + " ms"
 
 			if (source != ""):
-				   emun = "EMU : MgCamd"
+				emun = "EMU : MgCamd"
 		ecmtime = ecmtime.rstrip('ce')
 		if (int(ecmtime.split()[0]) >= 1000):
 			ecmtime2 = str(float(ecmtime.split()[0])/1000) + " s"
 		else:
-					ecmtime2 = str(ecmtime)
+			ecmtime2 = str(ecmtime)
 
 		if (len(provid) == 8 and using != "") or (using == "SBox"):
 		emun = "EMU : SBox"
 		if (int(ecmtime.split()[0]) >= 1000):
 			ecmtime2 = str(float(ecmtime.split()[0])/1000) + " s"
 		else:
-					ecmtime2 = str(ecmtime)
+			ecmtime2 = str(ecmtime)
 
 		if ((len(provid)<= 7) and (using != "")):
 		emun = "EMU : CCcam"
 		if (float(ecmtime) >= 1):
 			ecmtime2 = str(ecmtime) + " s"
 		else:
-					ecmtime2 = str(int(float(ecmtime) * 1000)) + " ms"
+			ecmtime2 = str(int(float(ecmtime) * 1000)) + " ms"
 
 		file.close()
 		if self.hex_str2dec(caid) == 0:
