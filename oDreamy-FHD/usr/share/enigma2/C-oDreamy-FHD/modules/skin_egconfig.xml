@@ -492,23 +492,15 @@
   		<convert type="ConditionalShowHide" />
   	</widget>
 		<!-- ***** KeyColors ***** -->
-		<eLabel position="50,750" size="390,150" backgroundColor="header" zPosition="-1" />
-		<eLabel position="60,770"  size="10,45" backgroundColor="red"    zPosition="1" />
-		<widget source="session.CurrentService" render="Label" position="80,770"  size="200,40" backgroundColor="header" zPosition="10" transparent="0" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">labelred</convert>
-		</widget>
-		<eLabel position="60,840"  size="10,45" backgroundColor="green"  zPosition="1" />
-		<widget source="session.CurrentService" render="Label" position="80,840"  size="200,40" backgroundColor="header" zPosition="10" transparent="0" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">labelgreen</convert>
-		</widget>
+				<eLabel position="50,750" size="390,150" backgroundColor="header" zPosition="-1" />
+		<eLabel position="60,770" size="10,45" backgroundColor="red" zPosition="1" />
+    <eLabel  text="EPG" position="80,770" size="200,40" font="Regular;34" foregroundColor="#FFFFFF" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
+		<eLabel position="60,840" size="10,45" backgroundColor="green" zPosition="1" />
+    <eLabel  text="Plugins" position="80,840"  size="200,40" font="Regular;34" foregroundColor="#FFFFFF" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
 		<eLabel position="420,770" size="10,45" backgroundColor="yellow" zPosition="1" />
-		<widget source="session.CurrentService" render="Label" position="205,770"  size="200,40" backgroundColor="header" zPosition="10" transparent="0" font="Regular;34" halign="right" >
-			<convert type="Colorlabel">labelyellow</convert>
-		</widget>
-		<eLabel position="420,840" size="10,45" backgroundColor="blue"   zPosition="1" />
-		<widget source="session.CurrentService" render="Label" position="205,840" size="200,40" backgroundColor="header" zPosition="10" transparent="0" font="Regular;34" halign="right" >
-			<convert type="Colorlabel">labelblue</convert>
-		</widget>
+    <eLabel  text="Extensions" position="205,770" size="200,40" font="Regular;34" foregroundColor="#FFFFFF" halign="right" backgroundColor="header" transparent="1" zPosition="10" />
+		<eLabel position="420,840" size="10,45" backgroundColor="blue" zPosition="1" />
+    <eLabel  text="EGAMI" position="205,840" size="200,40" font="Regular;34" foregroundColor="#FFFFFF" halign="right" backgroundColor="header" transparent="1" zPosition="10" />
 		<!-- ***** Infobar ***** -->
 		<ePixmap pixmap="oDreamy-FHD/icons/icon_event.png" position="55,937" size="44,35" zPosition="1" alphatest="blend" />
 		<widget source="session.RecordState" render="Pixmap" position="55,937" size="44,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="2" >
