@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import absolute_import
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Components.Converter.Poll import Poll
@@ -110,13 +111,16 @@ class EGTemp(Poll, Converter):
         if self.type == self.HDDTEMP:
             return self.hddtemp
         if self.type == self.IPLOCAL:
-            import netifaces
-            PROTO = netifaces.AF_INET
-            ifaces = netifaces.interfaces()
-            if_addrs = [netifaces.ifaddresses(iface) for iface in ifaces]
-            if_inet_addrs = [addr[PROTO] for addr in if_addrs if PROTO in addr]
-            iface_addrs = [s['addr'] for a in if_inet_addrs for s in a if 'addr' in s]
-            ip_local = str(iface_addrs[1])
+            try:
+                import netifaces
+                PROTO = netifaces.AF_INET
+                ifaces = netifaces.interfaces()
+                if_addrs = [netifaces.ifaddresses(iface) for iface in ifaces]
+                if_inet_addrs = [addr[PROTO] for addr in if_addrs if PROTO in addr]
+                iface_addrs = [s['addr'] for a in if_inet_addrs for s in a if 'addr' in s]
+                ip_local = str(iface_addrs[1])
+            except:
+                ip_local = ''
         return ip_local
         if self.type == self.CPUSPEED:
             try:
