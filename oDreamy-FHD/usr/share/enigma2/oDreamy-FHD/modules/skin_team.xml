@@ -516,10 +516,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="nRG" />
-		<widget name="label1" position="70,180" size="820,40"  zPosition="1" halign="center" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1"/>
-		<widget name="label2" position="70,240" size="820,120" zPosition="1" halign="center" font="Regular;30" foregroundColor="white"     backgroundColor="header" transparent="1"/>
-		<eLabel position="70,400" size="540,1" backgroundColor="#10303030" zPosition="2"/>
-		<widget name="config" position="70,430" size="820,450" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1"/>
+		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG16" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
