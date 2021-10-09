@@ -27,6 +27,17 @@
 		<!--eLabel name="DEBUG" text="002" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
+	<!-- ***** ChangePasswdScreen ***** 002 -->
+	<screen name="NetworkPassword" position="fill" title="Password Setup" backgroundColor="transparent" flags="wfNoBorder" >
+		<panel name="p800_Template_notime"/>
+		<panel name="p800_Logo"/>
+		<panel name="sRGY"/>
+		<widget name="config" position="70,180" size="810,400" itemHeight="50" font="Regular; 40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" />
+		<widget source="description" render="Label" position="70,560" size="810,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
+		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
+		<!--eLabel name="DEBUG" text="002" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
+	</screen>
+
 	<!-- MultiBootWizard -->
 	<screen name="MultiBootWizard" position="fill" title="MultiBoot maintenance" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template_menu"/>
@@ -5226,7 +5237,7 @@
 		<panel name="p800_DateMid" />
 		<panel name="sRG" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-                <widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="55" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
+    <widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="55" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<widget name="description"     position="170,700" size="580,540" font="Regular;32" halign="center" scrollbarMode="showOnDemand" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="900,180" size="10,720" pixmap="box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<ePixmap pixmap="menu/timer_edit.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -5910,9 +5921,9 @@
 		<panel name="p800_Date" />
 		<panel name="nRGYB" />
 		<panel name="M" />
-                <widget name="searchinfo" position="60,180" size="600,40" font="Regular;32" transparent="1" foregroundColor="#00fff000" />
-                <widget name="cover" position="1165,155" size="800,770" alphatest="blend" />
-	        <widget name="fulldescription" position="60,220" size="600,680" font="Regular;32" transparent="1" />
+    <widget name="searchinfo" position="60,180" size="600,40" font="Regular;32" transparent="1" foregroundColor="#00fff000" />
+    <widget name="cover" position="1165,155" size="800,770" alphatest="blend" />
+	  <widget name="fulldescription" position="60,220" size="600,680" font="Regular;32" transparent="1" />
 		<ePixmap position="775,150" size="100,100" zPosition="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tmdb/pic/star.png" transparent="1" alphatest="blend" />
 		<widget name="rating" position="750,185" size="150,40" zPosition="2" font="Regular; 30" halign="center" foregroundColor="black" backgroundColor="#00ffba00" transparent="1" />
 		<widget name="votes_brackets" position="745,255" size="150,40" zPosition="2" font="Regular; 30" halign="center" transparent="1" />
@@ -5936,7 +5947,7 @@
 		<widget name="studio" position="830,795" size="400,100" zPosition="2" font="Regular; 30" transparent="1" />
 		<widget name="subtitle" position="0,0" size="0,0" zPosition="2" transparent="1" font="Regular;22" foregroundColor="#00fff000" />
 		<widget name="description" position="0,0" size="0,0" zPosition="2" transparent="1" font="Regular;22" />
-	        <eLabel text="Exit" position="1400,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+	  <eLabel text="Exit" position="1400,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- eLabel name="DEBUG" text="104c" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
    	</screen>
 
@@ -5945,8 +5956,8 @@
 		<panel name="p700_Template" />
 		<panel name="p700_Logo"/>
 		<ePixmap position="60,970"  size="700,90"  pixmap="icons/team_logo.png"  alphatest="blend" zPosition="2" />
-	        <widget name="text" position="60,180" size="740,50" font="Regular;36" halign="center" foregroundColor="#00fff000" backgroundColor="bluette" transparent="0"/>
-	        <widget name="list" position="60,265" size="740,633" itemHeight="45" font="Regular;32" transparent="1" scrollbarMode="showOnDemand"/>
+	  <widget name="text" position="60,180" size="740,50" font="Regular;36" halign="center" foregroundColor="#00fff000" backgroundColor="bluette" transparent="0"/>
+	  <widget name="list" position="60,265" size="740,633" itemHeight="45" font="Regular;32" transparent="1" scrollbarMode="showOnDemand"/>
 		<widget name="bild" position="860,740" size="256,216" backgroundColor="#00000000" transparent="1" alphatest="blend" zPosition="1"/>
 		<widget source="previewtext" render="Label" position="762,120" size="0,0" font="Regular;38" foregroundColor="#00ffffff"  backgroundColor="#00000000" Alphatest="on" zPosition="1" />
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/SpinnerSelector/images/key_ok_1920.png"   position="960,985"  size="65,33" alphatest="blend" />
