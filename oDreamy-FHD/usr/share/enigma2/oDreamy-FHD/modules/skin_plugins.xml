@@ -1615,7 +1615,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_Ext"/>
 		<panel name="p800_Date" />
-		<panel name="nR"/>
+		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="choosen"     position="70,180"   size="825,90"  itemHeight="40" font="Regular; 34" halign="center" valign="center" scrollbarMode="showOnDemand" backgroundColor="bluette" transparent="0" />
 		<widget name="list"        position="70,300"   size="840,600" itemHeight="40" font="Regular; 32" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" zPosition="1" />
 		<eLabel                    position="1260,140" size="610,330" backgroundColor="#20000000" zPosition="2"/>
