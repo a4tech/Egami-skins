@@ -1013,24 +1013,24 @@
 		<panel name="M"/>
 		<eLabel text="Info" position="1370,1000" size="200,43" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1"/>
 		<eLabel text="Exit" position="1435,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1"/>
-		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/buttons/key_8_epg.png" position="985,50" size="60,35" alphatest="blend" zPosition="2"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/key_8_epg.png" position="985,50" size="60,35" alphatest="blend" zPosition="2"/>
 		<widget name="page" position="1015,55" size="200,30" font="Regular;17" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1"/>
-		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/buttons/key_9_epg.png" position="985,92" size="60,50" alphatest="blend" zPosition="2"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/key_9_epg.png" position="985,92" size="60,50" alphatest="blend" zPosition="2"/>
 		<widget name="primetime" position="1015,95" size="250,25" font="Regular;17" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1"/>
-		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/buttons/vkey_prev_next.png" position="782,45" size="60,25" alphatest="blend" zPosition="2"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/vkey_prev_next.png" position="782,45" size="60,25" alphatest="blend" zPosition="2"/>
 		<widget name="change_bouquet" position="830,55" size="200,25" font="Regular;17" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1"/>
-		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/buttons/vkey_ch.png" position="782,85" size="60,30" alphatest="blend" zPosition="2"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/vkey_ch.png" position="782,85" size="60,30" alphatest="blend" zPosition="2"/>
 		<widget name="jump" position="830,95" size="200,25" font="Regular;17" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1"/>
 	<!-- Channels + Bar -->
 		<widget name="timeline_text" position="60,390" size="1800,30" font="Regular;24" selectionDisabled="1" halign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2"/>
 		<widget name="list" position="60,435" size="1800,500" itemHeight="60" scrollbarMode="showNever" EntryBackgroundColor="#2f4974" EntryBackgroundColorSelected="#688cbf" EntryBorderColor="grey" transparent="1"/>
 	<!-- Bouquet -->
 		<widget name="lab1" position="70,455" size="1800,390" halign="center" transparent="0" valign="center" zPosition="20"/>
-		<widget name="timeline_now" position="80,314" size="13,500" pixmap="epg/timeline-now2.png" alphatest="blend" zPosition="21"/>
+		<widget name="timeline_now" position="80,314" size="13,500" pixmap="oDreamy-FHD/epg/timeline-now2.png" alphatest="blend" zPosition="21"/>
 	<!-- Time -->
 		<widget name="bouquetlist" position="60,435" size="1800,500" itemHeight="35" scrollbarMode="showNever" foregroundColor="red" backgroundColor="header" transparent="0" zPosition="4"/>
-		<widget name="timeline_now" position="2,435" size="19,495" pixmap="epg/timeline-now-pig.png" alphatest="blend" zPosition="3"/>
-		<ePixmap position="1270,38" size="200,90" pixmap="/usr/share/enigma2/oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2"/>
+		<widget name="timeline_now" position="2,435" size="19,495" pixmap="oDreamy-FHD/epg/timeline-now-pig.png" alphatest="blend" zPosition="3"/>
+		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2"/>
 	<!-- Event -->
 		<widget source="Event" render="Label" position="70,150" zPosition="2" size="1300,40" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1">
 			<convert type="EventName">Name</convert>
