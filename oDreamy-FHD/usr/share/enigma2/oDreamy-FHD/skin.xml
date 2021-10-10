@@ -1313,7 +1313,7 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Logo" />
 		<panel name="p800_Date"/>
-		<panel name="sRB"/>
+		<panel name="sRG"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="70,177"  size="40,40"   pixmap="oDreamy-FHD/icons/net_on.png" zPosition="1" alphatest="blend"/>
 		<widget source="Adaptertext" render="Label" position="130,180" size="100,50" font="Regular;36" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
