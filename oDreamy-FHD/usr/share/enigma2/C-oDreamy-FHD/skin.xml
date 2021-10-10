@@ -1918,15 +1918,13 @@
 	<!-- ServiceInfo FHD -->
 	<screen name="ServiceInfo" title="ServiceInfo" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
 		<panel name="nRGYB"/>
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="infolist" position="70,180" font="Regular;26" size="820,700" itemHeight="45" selectionDisabled="1" backgroundColor="header" transparent="1"/>
+		<widget name="infolist" position="70,180" font="Regular;26" size="1740,750" itemHeight="45" selectionDisabled="1" backgroundColor="header" transparent="1"/>
 		<widget source="session.CurrentService" render="Label" position="70,850" size="685,30" font="Regular;24" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ServiceInfo">HasHBBTV</convert>
 		</widget>
-		<ePixmap position="960,640" size="300,300" pixmap="/usr/share/enigma2/oDreamy-FHD/menu/plugin_selection.png" alphatest="blend"/>
+		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="S189" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- History Zap -->
