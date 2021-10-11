@@ -27,8 +27,7 @@
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- *** Event (NOW) *** -->
-		<widget source="session.Event_Now" render="DRRunningText" position="487,923" size="880,55" font="Regular2;40" valign="center" backgroundColor="#202020" transparent="1" noWrap="1"
-			options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=6,oneshot=1" zPosition="3">
+		<widget source="session.Event_Now" render="Label" position="487,923" size="880,55" font="Regular2;40" valign="center" backgroundColor="#202020" transparent="1" noWrap="1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
 		<eLabel position="1393,923" size="220,55" backgroundColor="#10202020" transparent="0" zPosition="1" />
@@ -40,8 +39,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="session.Event_Next" render="DRRunningText" position="487,987" size="880,40" font="Regular2;33" valign="center" foregroundColor="#707070" backgroundColor="#5202020" noWrap="1" transparent="1"
-			options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=6,oneshot=1" zPosition="3" >
+		<widget source="session.Event_Next" render="Label" position="487,987" size="880,40" font="Regular2;33" valign="center" foregroundColor="#707070" backgroundColor="#5202020" noWrap="1" transparent="1" zPosition="3" >
 			<convert type="EventName">Name</convert>
 		</widget>
 		<eLabel position="1393,990" size="220,40" backgroundColor="#10202020" transparent="0" zPosition="1" />
