@@ -356,22 +356,22 @@
 		<eLabel text="Upper"     position="900,367" size="220,40" font="Regular;30" halign="right" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="2" />
 	</screen>
 	<!-- Numerical help dialog FHD -->
-	<screen name="NumericalTextInputHelpDialog" position="1161,15" size="729,153" backgroundColor="transparent" flags="wfNoBorder" zPosition="8">
-		<eLabel name="b" position="0,0" size="729,153" backgroundColor="black" zPosition="-10" />
-		<eLabel name="a" position="2,2" size="726,150" backgroundColor="black" zPosition="-9" />
-		<widget name="key1" position="15,15" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key2" position="261,15" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key3" position="486,15" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key4" position="15,48" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key5" position="243,48" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key6" position="486,48" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key7" position="15,81" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key8" position="243,81" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key9" position="486,81" size="243,30" font="Console;24" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="help1" position="15,114" size="243,30" font="Console;30" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="key0" position="122,114" size="486,30" font="Console;24" noWrap="1"  halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
-		<widget name="help2" position="486,114" size="243,30" font="Console;30" noWrap="1" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="black" transparent="1"/>
+	<screen name="NumericalTextInputHelpDialog" position="1260,30" size="609,244" backgroundColor="#10101010" zPosition="8" flags="wfNoBorder" >
+		<eLabel position="2,2" size="609,244" backgroundColor="#404040" zPosition="-1" />
+		<widget name="key1"  position="2,2"     size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key2"  position="204,2"   size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key3"  position="406,2"   size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key4"  position="2,62"    size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key5"  position="204,62"  size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key6"  position="406,62"  size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key7"  position="2,122"   size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key8"  position="204,122" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key9"  position="406,122" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="help1" position="2,183"   size="100,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="key0"  position="104,183" size="400,59" font="Regular;28" halign="center" valign="center" backgroundColor="black"/>
+		<widget name="help2" position="506,183" size="100,59" font="Regular;25" halign="center" valign="center" backgroundColor="black"/>
 	</screen>
+
 	<!-- Help menu FHD -->
 	<screen name="HelpMenu" position="fill" title="HELP WINDOW" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
