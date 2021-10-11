@@ -739,6 +739,14 @@
 		<widget name="menu" position="70,180" size="1170,700" scrollbarMode="showOnDemand" transparent="1" itemHeight="38" font="Regular;28" zPosition="2" foregroundColor="#ffffff" backgroundColor="header"/>
 	</screen>
 
+	<screen name="vEditorScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p900_Template"/>
+		<panel name="p900_Date"/>
+		<panel name="sRGYB"/>
+		<widget name="list_head" position="70,160" size="1790,50" font="Regular;24" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="#202020" transparent="0"/>
+		<widget name="filedata" position="70,210" size="1790,735" font="Regular;28" itemHeight="38" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
+	</screen>
+
 	<!--  File Comander TaskListScreen (Import) FHD -->
 	<screen name="TaskListScreen" position="fill" title="Task list" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
