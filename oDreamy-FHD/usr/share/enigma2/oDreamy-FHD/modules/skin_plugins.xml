@@ -6249,8 +6249,8 @@
 		<widget name="lab6" position="335,220" halign="left" size="600,40" zPosition="1" font="Regular;30" foregroundColor="white" backgroundColor="#000000" transparent="1" />
 		<!-- Temperature -->
 		<ePixmap position="355,290" size="50,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/temp.png" alphatest="blend" transparent="1" />
-        	<widget name="lab4" position="370,285" halign="right" size="92,77" font="Regular; 50" foregroundColor="yellow" backgroundColor="#000000" valign="top" transparent="1" zPosition="1" />
-        	<widget name="lab4b" position="470,290" halign="left" size="240,50" zPosition="1" font="Regular;30" foregroundColor="red" backgroundColor="black" valign="top" transparent="1" />
+    <widget name="lab4" position="370,285" halign="right" size="92,77" font="Regular; 50" foregroundColor="yellow" backgroundColor="#000000" valign="top" transparent="1" zPosition="1" />
+    <widget name="lab4b" position="470,290" halign="left" size="240,50" zPosition="1" font="Regular;30" foregroundColor="red" backgroundColor="black" valign="top" transparent="1" />
 		<!-- Wind -->
 		<ePixmap position="350,370" size="30,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/wind.png" alphatest="blend" transparent="1" />
 		<widget name="lab12b" position="407,370" halign="left" size="514,40" font="Regular;30" foregroundColor="white" backgroundColor="#000000" valign="top" transparent="1" zPosition="1" />
@@ -6296,7 +6296,7 @@
 		<widget name="lab15b" position="1465,250" halign="left" size="150,40" font="Regular;30" foregroundColor="#0073c6ff" backgroundColor="#10000000" transparent="1" zPosition="1" />
         	<!-- ForeCast 1Day Date -->
 		<widget name="daydate0" position="1640,170" halign="right" size="200,40" font="Regular;30" foregroundColor="#606060" backgroundColor="#10000000" transparent="1" zPosition="1" />
-        	<eLabel position="1040,300" size="800,1" backgroundColor="#303030" />
+    <eLabel position="1040,300" size="800,1" backgroundColor="#303030" />
 		<eLabel position="1040,300" size="800,1" backgroundColor="#404040" />
 		<!-- ForeCast 2Day Pic -->
 		<widget name="lab22" position="1020,320" size="128,128" zPosition="1" alphatest="blend" transparent="1" />
@@ -6312,7 +6312,7 @@
 		<widget name="lab20b" position="1465,420" halign="left" size="150,40" font="Regular;30" foregroundColor="#0073c6ff" backgroundColor="#10000000" transparent="1" zPosition="1" />
         	<!-- ForeCast 2Day Date -->
 		<widget name="daydate1" position="1640,330" halign="right" size="200,40" font="Regular;30" foregroundColor="#606060" backgroundColor="#10000000" transparent="1" zPosition="1" />
-        	<eLabel position="1040,470" size="800,1" backgroundColor="#303030" />
+    <eLabel position="1040,470" size="800,1" backgroundColor="#303030" />
 		<eLabel position="1040,470" size="800,1" backgroundColor="#404040" />
 		<!-- ForeCast 3Day Pic -->
 		<widget name="3lab22" position="1020,490" size="128,128" zPosition="1" alphatest="blend" transparent="1" />
@@ -6328,7 +6328,7 @@
 		<widget name="3lab20b" position="1465,580" halign="left" size="150,40" font="Regular;30" foregroundColor="#0073c6ff" backgroundColor="#10000000" transparent="1" zPosition="1" />
         	<!-- ForeCast 3Day Date -->
 		<widget name="daydate2" position="1640,500" halign="right" size="200,40" font="Regular;30" foregroundColor="#606060" backgroundColor="#10000000" transparent="1" zPosition="1" />
-        	<eLabel position="1040,630" size="800,1" backgroundColor="#303030" />
+    <eLabel position="1040,630" size="800,1" backgroundColor="#303030" />
 		<eLabel position="1040,630" size="800,1" backgroundColor="#404040" />
 		<!-- ForeCast 4Day Pic -->
 		<widget name="4lab22" position="1020,640" size="128,128" zPosition="1" alphatest="blend" transparent="1" />
@@ -6344,7 +6344,7 @@
 		<widget name="4lab20b" position="1465,730" halign="left" size="150,40" font="Regular;30" foregroundColor="#0073c6ff" backgroundColor="#10000000" transparent="1" zPosition="1" />
         	<!-- ForeCast 4Day Date -->
 		<widget name="daydate3" position="1640,640" halign="right" size="200,40" font="Regular;30" foregroundColor="#606060" backgroundColor="#10000000" transparent="1" zPosition="1" />
-        	<eLabel position="1040,780" size="800,1" backgroundColor="#303030" />
+    <eLabel position="1040,780" size="800,1" backgroundColor="#303030" />
 		<eLabel position="1040,780" size="800,1" backgroundColor="#404040" />
 		<!-- ForeCast 5Day Pic -->
 		<widget name="5lab22" position="1020,800" size="128,128" zPosition="1" alphatest="blend" transparent="1" />
@@ -6363,8 +6363,8 @@
 		<!-- UpDate Meteo -->
 		<widget name="lab3" position="1180,987" size="650,50" font="Regular;40" halign="right" foregroundColor="#606060" backgroundColor="#10000000" transparent="1" zPosition="3" />
 		<!-- BoxSet ButtonColors -->
-        	<eLabel  position="70,960" size="1780,1" backgroundColor="#404040" />
-        	<eLabel  position="70,961" size="1780,1" backgroundColor="#505050" />
+    <eLabel  position="70,960" size="1780,1" backgroundColor="#404040" />
+    <eLabel  position="70,961" size="1780,1" backgroundColor="#505050" />
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/red.png" size="40,40" alphatest="blend" zPosition="2" />
 		<eLabel text="Change City :" position="120,990" size="250,40" font="Regular;30" foregroundColor="white"  transparent="1" zPosition="2" />
 		<ePixmap position="350,988" pixmap="oDreamy-FHD/buttons/green.png" size="0,0" alphatest="blend" zPosition="2" />
@@ -6374,23 +6374,27 @@
 
 	<!-- RemoteChannelStreamConverter -->
 	<screen name="StreamingChannelFromServerScreen" position="0,0" size="1920,1080" title="Streaming Channel from Server" flags="wfNoBorder" backgroundColor="transparent">
-		<widget name="list" position="70,180" size="1170,870" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
-		<widget source="statusbar" render="Label" position="290,870" size="680,50" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" valign="center" transparent="1"/>
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="O"/>
 		<panel name="sRGYB"/>
+		<widget name="list" position="70,180" size="1170,870" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
+		<widget source="statusbar" render="Label" position="290,870" size="680,50" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" valign="center" transparent="1"/>
 	</screen>
 
 		<screen name="ServerEditor" position="0,0" size="1920,1080" title="Server Editor" flags="wfNoBorder" backgroundColor="transparent">
+			<panel name="p800_Template"/>
+			<panel name="p800_DateMid"/>
+			<panel name="O"/>
+			<panel name="sRGYB"/>
 		<widget name="config" position="70,180" size="1170,870" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
-		<panel name="p800_Template"/>
-		<panel name="p800_DateMid"/>
-		<panel name="O"/>
-		<panel name="sRGYB"/>
 	</screen>
 	<!-- xstreamity -->
 	<screen name="XStreamity_MainMenu" position="0,0" size="1920,1080" backgroundColor="transparent" title="" flags="wfNoBorder">
+		<panel name="p800_Template"/>
+		<panel name="p800_Logo"/>
+		<panel name="p800_DateMid"/>
+		<panel name="sRG"/>
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skin/fhd/common/logo.png" position="975,650" size="200,145" alphatest="blend" zPosition="1" />
 		<widget source="version" render="Label" position="970,800" size="400,27" font="Regular;28" transparent="1" />
 		<widget source="list" render="Listbox" position="70,180" size="830,600" itemHeight="120" scrollbarMode="showAlways" transparent="1" zPosition="2">
@@ -6404,19 +6408,19 @@
 			}
 			</convert>
 		</widget>
-		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>
-		<panel name="p800_DateMid"/>
-		<panel name="sRG"/>
 	</screen>
 	<screen name="XStreamity_Settings" position="0,0" size="1920,1080" backgroundColor="transparent" title="" flags="wfNoBorder">
-		<widget name="config" position="70,160" size="1170,800" font="Regular;26" itemHeight="47" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" zPosition="2" />
-		<widget name="HelpWindow" position="1280,30" size="486,102" zPosition="1" transparent="1" alphatest="blend" />
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="sRG"/>
+		<widget name="config" position="70,160" size="1170,800" font="Regular;26" itemHeight="47" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" zPosition="2" />
+		<widget name="HelpWindow" position="1280,30" size="486,102" zPosition="1" transparent="1" alphatest="blend" />
 	</screen>
 		<screen name="XStreamity_Playlists" position="0,0" size="1920,1080" backgroundColor="transparent" title="" flags="wfNoBorder">
+			<panel name="p800_Template"/>
+			<panel name="p800_Logo"/>
+			<panel name="p800_DateMid"/>
+			<panel name="sRGYB"/>
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skin/fhd/common/logo.png" position="975,650" size="200,145" alphatest="blend" zPosition="1" />
 		<widget source="version" render="Label" position="970,800" size="400,27" font="Regular;28" transparent="1" />
 		<widget source="playlists" render="Listbox" position="70,180" size="820,600" itemHeight="120" scrollbarMode="showNever" transparent="1" zPosition="2">
@@ -6437,12 +6441,12 @@
 			}
 		</convert>
 	</widget>
+	</screen>
+		<screen name="XStreamity_Menu" position="0,0" size="1920,1080" backgroundColor="transparent" title="" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
-	</screen>
-		<screen name="XStreamity_Menu" position="0,0" size="1920,1080" backgroundColor="transparent" title="" flags="wfNoBorder">
+		<panel name="sRGB"/>
 		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skin/fhd/common/logo.png" position="975,650" size="200,145" alphatest="blend" zPosition="1" />
 		<widget source="version" render="Label" position="970,800" size="400,27" font="Regular;28" transparent="1" />
 		<widget source="list" render="Listbox" position="70,180" size="830,600" itemHeight="120" scrollbarMode="showNever" transparent="1" zPosition="2">
@@ -6457,13 +6461,14 @@
 			</convert>
 		</widget>
 		<widget source="lastchecked" render="Label" position="90,900" size="738,30" font="Regular;24" valign="center" halign="center" transparent="1" noWrap="1" zPosition="2" />
-		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>
-		<panel name="p800_DateMid"/>
-		<panel name="sRGB"/>
 	</screen>
 
 	<screen name="XStreamity_Categories" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p900_Template"/>
+		<panel name="p900_Logo"/>
+		<panel name="p900_Date"/>
+		<panel name="I"/>
+		<panel name="sRGYB"/>
 		<widget source="channel_list" render="Listbox" position="70,160" size="705,720" scrollbarMode="showOnDemand" transparent="1" zPosition="3" >
 		<convert type="TemplatedMultiContent">{"template": [
 			MultiContentEntryText(pos=(18, 0), size = (700, 72), font=0, color = 0x00ffffff, color_sel = 0x00ffffff, backcolor_sel = None, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
@@ -6520,11 +6525,18 @@
 		<widget source="page" render="Label" position="70,885" size="219,60" font="Regular;24" foregroundColor="grey" backgroundColor="header" valign="center" transparent="1" noWrap="1" />
 		<widget source="listposition" render="Label" position="580,885" size="165,60" font="Regular;24" foregroundColor="grey" backgroundColor="header" valign="center" halign="right" transparent="1" noWrap="1" />
 		<widget name="downloading" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skin/fhd/common/downloading.png" position="15,15" size="60,60" alphatest="blend" zPosition="5" />
-		<panel name="p900_Template"/>
-		<panel name="p900_Logo"/>
-		<panel name="p900_Date"/>
-		<panel name="I"/>
+	</screen>
+
+	<screen name="PluginHiderSetup" title="PluginHider Setup" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="sRGYB"/>
+		<panel name="p800_Template"/>
+		<panel name="p800_Logo"/>
+		<panel name="p800_DateMid"/>
+		<widget name="tabbar" size="320,25" alphatest="blend" position="925,910" zPosition="1" pixmaps="/usr/share/enigma2/skin_default/epg_now.png,/usr/share/enigma2/skin_default/epg_next.png,/usr/share/enigma2/skin_default/epg_more.png" />
+		<widget source="plugins" render="Label" position="925,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
+		<widget source="extensions" render="Label" position="1031,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
+		<widget source="eventinfo" render="Label" position="1136,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
+		<widget name="list" position="70,180" size="830,700" scrollbarMode="showOnDemand" transparent="1" zPosition="2"/>
 	</screen>
 
 </skin>
