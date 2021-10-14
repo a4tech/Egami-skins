@@ -513,18 +513,18 @@
 		<panel name="M"/>
 		<eLabel text="Exit" position="1390,980" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Code -->
-		<widget source="key_red" render="Pixmap"    position="70,186" size="30,30" itemHeight="30" pixmap="/usr/share/enigma2/oDreamy-FHD/buttons/redpanel.png"    alphatest="blend" zPosition="1">
+		<widget source="key_red" render="Pixmap" position="70,186" size="30,30" itemHeight="30" pixmap="oDreamy-FHD/buttons/redpanel.png"    alphatest="blend" zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="key_green" render="Pixmap"  position="70,233" size="30,30" itemHeight="30" pixmap="/usr/share/enigma2/oDreamy-FHD/buttons/greenpanel.png"  alphatest="blend" zPosition="1">
+		<widget source="key_green" render="Pixmap" position="70,233" size="30,30" itemHeight="30" pixmap="oDreamy-FHD/buttons/greenpanel.png"  alphatest="blend" zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="key_yellow" render="Pixmap" position="70,278" size="30,30" itemHeight="30" pixmap="/usr/share/enigma2/oDreamy-FHD/buttons/yellowpanel.png" alphatest="blend" zPosition="1">
+		<widget source="key_yellow" render="Pixmap" position="70,278" size="30,30" itemHeight="30" pixmap="oDreamy-FHD/buttons/yellowpanel.png" alphatest="blend" zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget name="config" position="120,180" size="770,320" itemHeight="45" font="Regular;34" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-		<eLabel position="70,420" size="820,1" backgroundColor="#303030"/>
-		<widget source="streams" render="Listbox" position="70,480" size="820,270" zPosition="3" scrollbarMode="showOnDemand" transparent="1" >
+		<widget name="config" position="120,180" size="770,620" itemHeight="45" font="Regular;34" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
+		<eLabel position="70,720" size="820,1" backgroundColor="#303030"/>
+		<widget source="streams" render="Listbox" position="70,740" size="820,570" zPosition="3" scrollbarMode="showOnDemand" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"templates":
 					{"default": (45, [
@@ -547,8 +547,8 @@
 				}
 			</convert>
 		</widget>
-		<ePixmap position="950,645" size="300,300" pixmap="/usr/share/enigma2/oDreamy-FHD/menu/audio.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="60,970"  size="700,90"  pixmap="/usr/share/enigma2/oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
+		<ePixmap position="950,645" size="300,300" pixmap="oDreamy-FHD/menu/audio.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="S108" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- Radio Stuff FHD -->
