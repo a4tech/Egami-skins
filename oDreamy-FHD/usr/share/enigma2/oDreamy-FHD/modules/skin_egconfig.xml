@@ -71,10 +71,10 @@
 		</widget>
 		<!-- *** Time/Date infobar *** -->
 		<widget source="global.CurrentTime" render="Label" position="1650,930" size="240,30" font="Regular;25" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
-      <convert type="ClockToText">Format: %A %d %b</convert>
+      <convert type="ClockToText">Date</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="1650,965" size="240,60" font="Regular;56" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
-      <convert type="ClockToText">Format %H:%M</convert>
+    <widget source="global.CurrentTime" render="Label" position="1643,965" size="240,60" font="Regular;56" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
+      <convert type="ClockToText">Format: %H:%M</convert>
     </widget>
 		<!-- cpu/mem -->
 		<!--<ePixmap pixmap="oDreamy-FHD/icons/disco.png" position="1665,1045" size="30,30" zPosition="1" alphatest="blend" transparent="1" />
