@@ -90,50 +90,50 @@
 	<!-- resolution9 -->
 	<screen name="resolution9">
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/480.png" position="1125,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">0,480</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/sd_on.png" position="1125,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">481,576</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/sd_on.png" position="1125,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">577,719</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/hd_on.png" position="1125,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">720,1279</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/fhd_on.png" position="1125,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">1280,1920</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/uhd_on.png" position="1125,1040" render="Pixmap" size="81,45" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">1921,3840</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/format_on.png" position="1200,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">IsWidescreen</convert>
+			<convert type="ServiceInfo">IsWidescreen</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/format_off.png" position="1200,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">IsSDAndNotWidescreen</convert>
+			<convert type="ServiceInfo">IsSDAndNotWidescreen</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/format_on.png" position="1200,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">720,1920</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/format_off.png" position="1200,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 			<convert type="ValueRange">0,719</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
