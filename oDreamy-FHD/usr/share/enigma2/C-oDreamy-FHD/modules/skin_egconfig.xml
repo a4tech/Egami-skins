@@ -95,28 +95,28 @@
 		</widget>
 		<ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/audio_off.png" transparent="1" position="1180,1040" size="80,40" />
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/audio_on.png" position="1180,1040" transparent="1" render="Pixmap" size="80,38" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">AudioTracksAvailable</convert>
+      <convert type="ServiceInfo">AudioTracksAvailable</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/dolby_off.png" transparent="1" position="1266,1040" size="80,40" />
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/dolby_on.png" transparent="1" position="1266,1040" render="Pixmap" size="80,38" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">IsMultichannel</convert>
+      <convert type="ServiceInfo">IsMultichannel</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/hbbtv_off.png" transparent="1" position="1350,1040" size="80,40" />
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/hbbtv_on.png" transparent="1" position="1350,1040" render="Pixmap" size="80,39" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">HasHBBTV</convert>
+      <convert type="ServiceInfo">HasHBBTV</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/sub_off.png" transparent="1" position="1435,1040" size="80,40" />
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/sub_on.png" transparent="1" position="1435,1040" render="Pixmap" size="80,38" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">SubtitlesAvailable</convert>
+      <convert type="ServiceInfo">SubtitlesAvailable</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <!-- HD icon -->
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/txt_off.png" transparent="1" position="1518,1045" size="60,32" />
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/txt_on.png" transparent="1" position="1518,1045" render="Pixmap" size="60,32" source="session.CurrentService" zPosition="5">
-      <convert type="EGServiceInfo">HasTelext</convert>
+      <convert type="ServiceInfo">HasTelext</convert>
       <convert type="ConditionalShowHide" />
     </widget>
 		<!-- iplocal -->
@@ -130,51 +130,51 @@
       <convert type="ConditionalShowHide" />
     </widget>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="1789,125" size="56,23" alphatest="blend" zPosition="1" transparent="1">
-      <convert type="EGServiceInfo">IsStream</convert>
+      <convert type="ServiceInfo">IsStream</convert>
       <convert type="ConditionalShowHide">
       </convert>
     </widget>
 		<ePixmap pixmap="oDreamy-FHD/icons/resolution.png" position="790,1045" size="120,30" alphatest="blend" zPosition="2" />
 		<widget source="session.CurrentService" render="Label" position="770,1045" size="70,29" font="Regular;20" halign="right" valign="center" backgroundColor="#000000" foregroundColor="white" transparent="1">
-			<convert type="EGServiceInfo">VideoWidth</convert>
+			<convert type="ServiceInfo">VideoWidth</convert>
 		</widget>
 		<eLabel text="x" position="843,1044" size="16,29" font="Regular;20" halign="center" valign="center" backgroundColor="#000000" foregroundColor="white" transparent="1" zPosition="1" />
 		<widget source="session.CurrentService" render="Label" position="860,1045" size="70,29" font="Regular;20" halign="left" valign="center" backgroundColor="#000000" foregroundColor="white" transparent="1" zPosition="1">
-			<convert type="EGServiceInfo">VideoHeight</convert>
+			<convert type="ServiceInfo">VideoHeight</convert>
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/480.png" position="922,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">VideoWidth</convert>
+      <convert type="ServiceInfo">VideoWidth</convert>
       <convert type="ValueRange">0,480</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/sd_on.png" position="922,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">VideoWidth</convert>
+      <convert type="ServiceInfo">VideoWidth</convert>
       <convert type="ValueRange">481,576</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/sd_on.png" position="922,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">VideoWidth</convert>
+      <convert type="ServiceInfo">VideoWidth</convert>
       <convert type="ValueRange">576,720</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/hd_on.png" position="922,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">VideoWidth</convert>
+      <convert type="ServiceInfo">VideoWidth</convert>
       <convert type="ValueRange">721,1280</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/fhd_on.png" position="922,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">VideoWidth</convert>
+      <convert type="ServiceInfo">VideoWidth</convert>
       <convert type="ValueRange">1281,1920</convert>
       <convert type="ConditionalShowHide" />
     </widget>
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/uhd_on.png" position="922,1040" render="Pixmap" size="81,45" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">VideoWidth</convert>
+      <convert type="ServiceInfo">VideoWidth</convert>
       <convert type="ValueRange">1921,3840</convert>
       <convert type="ConditionalShowHide" />
     </widget>
 		<ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/ico_crypt_offbar.png" transparent="1" position="1005,1040" size="80,40" zPosition="1" />
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/ico_crypt_onbar.png" transparent="1" position="1005,1040" render="Pixmap" size="80,38" source="session.CurrentService" zPosition="2">
-      <convert type="EGServiceInfo">IsCrypted</convert>
+      <convert type="ServiceInfo">IsCrypted</convert>
       <convert type="ConditionalShowHide" />
     </widget>
 		<ePixmap pixmap="oDreamy-FHD/icons/codecs/codec_off.png" position="1090,1045" size="84,30" zPosition="4" alphatest="blend" transparent="1" />
