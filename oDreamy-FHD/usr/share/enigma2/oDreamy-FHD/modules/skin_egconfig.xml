@@ -14,10 +14,9 @@
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<!-- Blinking pixmap (recording in progress) -->
-		<!--<ePixmap pixmap="oDreamy-FHD/icons/icon_event.png" position="300,935" size="44,35" alphatest="blend" zPosition="1" />
-		<widget source="session.RecordState" render="Pixmap" position="300,935" size="44,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="10" >
+		<widget source="session.RecordState" render="Pixmap" position="730,1043" size="35,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="10" >
 			<convert type="ConditionalShowHide">Blink</convert>
-		</widget>-->
+		</widget>
 		<widget source="session.Event_Now" render="Label" position="355,923" size="124,55" font="Regular;36" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
