@@ -2589,6 +2589,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
+		<panel name="M"/>
 		<panel name="nRGYB"/>
 		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/box/maxbar.png" position="900,180" size="10,700" zPosition="5" alphatest="blend"/>
 		<widget source="languages" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" >
