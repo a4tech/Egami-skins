@@ -1604,7 +1604,7 @@
 		<widget source="finished" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="70,995" size="30,30" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="backgroundable" render="Pixmap" pixmap="oDreamy-FHD/buttons/bluepanel.png" position="530,995" size="30,30" alphatest="blend">
+		<widget source="backgroundable" render="Pixmap" pixmap="oDreamy-FHD/buttons/bluepanel.png" position="910,988" size="30,30" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget source="cancelable" render="FixedLabel" text="Cancel" position="120,960" size="210,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1" >
@@ -1613,7 +1613,7 @@
 		<widget source="finished" render="FixedLabel" text="OK" position="120,960" size="210,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1"  zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="backgroundable" render="FixedLabel" text="Continue in background" position="760,960" size="210,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1">
+		<widget source="backgroundable" render="FixedLabel" text="Continue in background" position="950,955" size="250,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend"/>
