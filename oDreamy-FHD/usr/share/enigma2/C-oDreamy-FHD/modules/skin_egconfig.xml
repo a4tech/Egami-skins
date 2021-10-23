@@ -5,7 +5,7 @@
 		<eLabel position="0,900" size="1920,200" backgroundColor="header" zPosition="-1" />
 		<eLabel position="0,0" size="1920,175" backgroundColor="header" zPosition="-1" />
 		<!-- Service name -->
-		<widget source="session.CurrentService" render="Label" position="350,805" size="1800,95" font="Regular2;80" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="3" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="350,801" size="1800,100" font="Regular2;80" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="3" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
 		<!-- Picon -->
