@@ -2237,13 +2237,16 @@
 	<!-- FlashOnline FHD -->
 	<screen name="FlashOnline" position="fill" title="Flash On the Fly" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
-		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGY"/>
+		<panel name="p800_Ext"/>
+		<panel name="Ex"/>
+		<panel name="sRGY"/>
+		<ePixmap position="1420,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png"  alphatest="blend" zPosition="1" />
+		<widget name="list" position="70,180" size="1160,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" zPosition="3" transparent="1"/>
 		<widget name="info-local"  position="70,180" zPosition="1" size="820,120" font="Regular;32" halign="left" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget name="info-flash"  position="70,360" zPosition="1" size="820,300" font="Regular;32" halign="left" valign="top" foregroundColor="white"     backgroundColor="header" transparent="1" />
 		<widget name="info-online" position="70,700" zPosition="1" size="820,100" font="Regular;32" halign="left" valign="top" foregroundColor="yellow"    backgroundColor="header" transparent="1" />
-		<ePixmap position="960,640" size="256,256" pixmap="/usr/share/enigma2/oDreamy-FHD/menu/download.png" alphatest="blend"/>
+		<ePixmap position="1460,640" size="256,256" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="S219" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- FlashImage FHD -->
