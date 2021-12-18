@@ -21,7 +21,7 @@ import os
 from Components.Label import Label
 from Components.Converter.Converter import Converter
 from Components.Element import cached
-from Poll import Poll
+from Components.Converter.Poll import Poll
 
 class VNetSpeedInfo(Poll, Converter, object):
 	RCL = 0 			# Receive Lan in Megabit/s = Geschwindigkeit/Bandbreite

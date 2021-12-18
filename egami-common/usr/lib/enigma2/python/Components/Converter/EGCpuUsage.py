@@ -1,5 +1,5 @@
 from Converter import Converter
-from Poll import Poll
+from Components.Converter.Poll import Poll
 from Components.Element import cached
 
 class EGCpuUsage(Converter, object):

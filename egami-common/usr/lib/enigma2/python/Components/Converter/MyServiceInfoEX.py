@@ -15,7 +15,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 # modified to suit my needs, by j,puig 13-1-2015
 
-from Poll import Poll
+from Components.Converter.Poll import Poll
 from Components.Converter.Converter import Converter
 from enigma import iServiceInformation, iPlayableService, iAudioTrackInfo
 from Components.config import config

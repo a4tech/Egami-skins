@@ -16,7 +16,7 @@
 
 #Fotmat string: %C - capacity, %F - free, %M - model, %S - file system, %D - devpoint
 
-from Poll import Poll
+from Components.Converter.Poll import Poll
 from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Components.Harddisk import harddiskmanager
