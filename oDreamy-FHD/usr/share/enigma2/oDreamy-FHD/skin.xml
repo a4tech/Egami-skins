@@ -1882,7 +1882,7 @@
 		<widget source="TunerHeader" render="Label" position="70,180" size="830,50" font="Regular;40" halign="left" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" />
 		<widget source="nims" render="Label" position="70,230" size="830,300" font="Regular;30" halign="left" backgroundColor="header" transparent="1" valign="top" />
 		<widget source="HDDHeader" render="Label" position="70,540" size="830,50" font="Regular;40" halign="left" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" />
-		<widget source="hdd" render="Label" position="70,590" size="830,200" font="Regular;28" halign="left" backgroundColor="header" transparent="1" valign="top" />
+		<widget source="hdd" render="Label" position="70,590" size="830,200" font="Regular;27" halign="left" backgroundColor="header" transparent="1" valign="top" />
 		<widget source="MountsHeader" render="Label" position="70,750" size="820,50" font="Regular;40" halign="left" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" />
 		<widget source="mounts" render="Label" position="70,800" size="800,200" font="Regular;28" halign="left" backgroundColor="header" transparent="1" valign="top" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/devices.png" alphatest="blend" />
