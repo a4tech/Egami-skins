@@ -330,9 +330,8 @@
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/egpanel.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<ePixmap position="895,180" size="15,720" pixmap="oDreamy-FHD/box/maxbargh.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget name="list" position="70,180" size="840,720" itemHeight="72" scrollbarMode="showOnDemand" transparent="1" />
-		<widget name="description" position="1280,480" size="580,600" font="Regular;34" halign="center" valign="top" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="1"/>
+		<widget name="list" position="70,180" size="840,720" itemHeight="72" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="description" position="1280,480" size="580,600" font="Regular;34" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
 		<!--eLabel name="DEBUG"  text="EG01" position="40,40" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI SoftCam CCCam Info FHD -->
@@ -602,15 +601,14 @@
 		<panel name="sRGYB"/>
 		<panel name="I"/>
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<widget name="header" position="1265,480" size="600,200" font="Regular;32" halign="center" valign="top" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="1"/>
-		<ePixmap position="1220,180" size="10,715" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget source="menu" render="Listbox" position="70,180" size="1160,715" scrollbarMode="showOnDemand" transparent="1" zPosition="3">
+		<widget name="header" position="1265,480" size="600,200" font="Regular;32" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="1"/>
+		<widget source="menu" render="Listbox" position="70,180" size="1160,715" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent" transparent="0">
 				{"template": [
 					MultiContentEntryPixmapAlphaBlend(pos = (5, 4), size = (50, 50), png = 2), # index 4 is the status pixmap
 					MultiContentEntryText(pos = (65, 6), size = (1080, 44), font=0, color=0xdddddd, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
 					],
-					"fonts": [gFont("Regular", 28),gFont("Regular", 20)],
+					"fonts": [gFont("Regular", 34),gFont("Regular", 26)],
 					"itemHeight": 55
 				}
 			</convert>
@@ -624,10 +622,8 @@
 		<panel name="p800_Date" />
 		<panel name="sRGYB"/>
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" transparent="1" />
-		<widget name="header" position="1265,480" size="600,200" font="Regular;32" halign="center" valign="top" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="1"/>
-		<ePixmap position="1220,180" size="10,742" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget name="update" position="70,180" size="1160,740" font="Regular;28" itemHeight="40" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" zPosition="3"/>
-		<!--eLabel name="DEBUG" text="EG24" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<widget name="header" position="1265,480" size="600,200" font="Regular;32" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="1"/>
+		<widget name="update" position="70,180" size="1160,740" font="Regular;28" itemHeight="40" zPosition="3" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8"/>
 	</screen>
 	<!--  EGAMI BootManager FHD -->
 	<screen name="EGAMIBootImageChoose" position="fill" title="EGAMI Multiboot Image Choose" backgroundColor="transparent" flags="wfNoBorder">
@@ -643,7 +639,7 @@
 		<widget name="device_icon" position="70,350" size="80,80" alphatest="blend" />
 		<widget name="label2"  position="160,360" size="820,40" halign="left" font="Regular;30" backgroundColor="#101010" foregroundColor="ltbluette" transparent="1" zPosition="1" />
 		<widget name="label6"  position="160,400" size="820,40" halign="left" font="Regular;30" backgroundColor="#101010" foregroundColor="ltbluette" transparent="1" zPosition="1" />
-		<eLabel                position="895,460" size="5,440" backgroundColor="#20000000" zPosition="5"/>
+		<eLabel position="895,460" size="5,440" backgroundColor="#20000000" zPosition="5"/>
 		<widget name="config"  position="70,460" size="840,440" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" transparent="1" />
 		<widget name="label3"  position="1280,540" size="300,40" font="Regular;34" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="1" />
@@ -662,8 +658,7 @@
 	<screen name="EGAMIChooseOnLineImage" position="fill" title="EGAMIBoot - Download OnLine Images" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
-		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget source="list" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand" transparent="1" zPosition="3">
+		<widget source="list" render="Listbox" position="70,180" size="840,720" zPosition="3" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (150, 2), size = (690, 35), font=0, color=0x3589ff, flags = RT_HALIGN_LEFT, text = 0),
@@ -676,7 +671,7 @@
 			</convert>
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
+		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="EG26" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI MultiBoot Download Images FHD -->
@@ -685,8 +680,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="nRG" />
-		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget name="imageList" position="70,180" size="840,720" font="Regular;30" itemHeight="40" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" zPosition="3"/>
+		<widget name="imageList" position="70,180" size="840,720" font="Regular;30" itemHeight="40" zPosition="3" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG27" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
@@ -722,8 +716,7 @@
 		<panel name="p800_DateMid" />
 		<panel name="nRGYB"/>
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget source="list" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand" transparent="1" zPosition="3">
+		<widget source="list" render="Listbox" position="70,180" size="840,720" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryText(pos = (170, 0), size = (650, 36), font=0, text = 0),
@@ -744,8 +737,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="nR"/>
-		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget name="list" position="70,180" size="840,720" itemHeight="72" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
+		<widget name="list" position="70,180" size="840,720" itemHeight="72" zPosition="3" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG31" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
@@ -786,7 +778,7 @@
     <!-- Modified for new icons -->
 	<screen name="EGConnectionAnimation" position="center,100" size="550,300" title="EGAMI" flags="wfNoBorder">
 		<widget name="connect" position="0,0" size="550,300" zPosition="-1" transparent="1"
-			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" />
+			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" alphatest="blend" />
 		<widget name="lab1" position="55,165" halign="center" size="460,60" zPosition="1" font="Regular;20" valign="top" transparent="1" />
 		<!--eLabel name="DEBUG" text="EG34" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
@@ -911,7 +903,6 @@
 		</widget>
 		<widget name="ecminfo" position="80,500" size="720,380" font="Regular;32" zPosition="2" foregroundColor="ltbluette" backgroundColor="header" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/camcenter.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<eLabel position="1250,180" size="10,720" backgroundColor="bluette" zPosition="2"/>
 		<!-- ***** SAT Icon ***** -->
 		<widget source="session.FrontendInfo" render="Pixmap" pixmap="oDreamy-FHD/icons/sat.png" position="1280,180" size="70,70" alphatest="blend" zPosition="1" >
 			<convert type="FrontendInfo">TYPE</convert>
