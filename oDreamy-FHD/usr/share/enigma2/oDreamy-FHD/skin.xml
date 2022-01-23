@@ -2952,8 +2952,7 @@
     <panel name="p800_DateMid" />
     <eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
     <widget name="text" position="70,180" size="1160,50" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" halign="left" transparent="1" />
-    <widget name="list" position="70,180" size="1160,700" font="Regular;32" itemHeight="70" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" zPosition="1" />
-    <ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="1220,180" size="10,700" zPosition="2" alphatest="blend" />
+    <widget name="list" position="70,180" size="1160,700" font="Regular;32" itemHeight="70" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
     <ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
   </screen>
   <!-- Script Panel FHD-->
