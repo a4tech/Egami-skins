@@ -1411,15 +1411,17 @@
   <!-- Info About FHD -->
   <screen name="AboutOE" title="Image Information" position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_DateMid" />
+		<panel name="p800_Ext" />
+		<panel name="p800_Date" />
     <panel name="fakeExit" />
     <panel name="I" />
-    <widget source="lab1" render="Label" position="70,180" size="820,80" font="Regular; 40" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-    <widget name="AboutScrollLabel" position="70,260" size="820,720" itemHeight="45" font="Regular;27" backgroundColor="header" transparent="1" />
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
+    <widget name="image_stb" position="1315,610" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
+    <widget source="lab1" render="Label" position="70,180" size="820,80" font="Regular; 42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+    <widget name="AboutScrollLabel" position="70,250" size="1200,720" itemHeight="40" font="Regular;32" foregroundColor="#ffffff" backgroundColor="header" transparent="1" />
     <ePixmap position="350,985" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
     <widget source="key_green" render="Label" position="400,955" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-    <ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" />
+    <!--<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" /> -->
   </screen>
   <!--Setup Configs FHD -->
   <screen name="Setup" title="Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
