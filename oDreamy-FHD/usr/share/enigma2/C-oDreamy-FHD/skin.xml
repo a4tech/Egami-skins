@@ -1368,16 +1368,16 @@
 		<widget name="AdapterInfo_OK" 		 position="70,180"   size="30,30"  zPosition="2" pixmap="/usr/share/enigma2/oDreamy-FHD/buttons/greenpanel.png" alphatest="blend"/>
 		<widget name="Adaptertext" 		 position="120,178"  size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1"/>
 		<widget name="Adapter" 			 position="1020,178" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1"/>
-		<widget name="NetworkInfo_Check"	 position="70,240"   size="30,30"  zPosition="2" pixmaps="buttons/greenpanel.png,buttons/redpanel.png" alphatest="blend"/>
+		<widget name="NetworkInfo_Check"	 position="70,240"   size="30,30"  zPosition="2" pixmaps="/usr/share/enigma2/oDreamy-FHD/buttons/greenpanel.png,/usr/share/enigma2/oDreamy-FHD/buttons/redpanel.png" alphatest="blend"/>
 		<widget name="Networktext"		 position="120,238"  size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1"/>
 		<widget name="Network" 			 position="1020,238" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1"/>
-		<widget name="DhcpInfo_Check" 		 position="70,300"   size="30,30"  zPosition="2" pixmaps="buttons/greenpanel.png,buttons/redpanel.png" alphatest="blend"/>
+		<widget name="DhcpInfo_Check" 		 position="70,300"   size="30,30"  zPosition="2" pixmaps="/usr/share/enigma2/oDreamy-FHD/buttons/greenpanel.png,/usr/share/enigma2/oDreamy-FHD/buttons/redpanel.png" alphatest="blend"/>
 		<widget name="Dhcptext" 		 position="120,298"  size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1"/>
 		<widget name="Dhcp" 			 position="1020,298" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1"/>
-		<widget name="IPInfo_Check" 		 position="70,360"   size="30,30"  zPosition="2" pixmaps="buttons/greenpanel.png,buttons/redpanel.png" alphatest="blend"/>
+		<widget name="IPInfo_Check" 		 position="70,360"   size="30,30"  zPosition="2" pixmaps="/usr/share/enigma2/oDreamy-FHD/buttons/greenpanel.png,/usr/share/enigma2/oDreamy-FHD/buttons/redpanel.png" alphatest="blend"/>
 		<widget name="IPtext" 			 position="120,358"  size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1"/>
 		<widget name="IP" 			 position="1020,358" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1"/>
-		<widget name="DNSInfo_Check" 		 position="70,420"   size="30,30"  zPosition="2" pixmaps="buttons/greenpanel.png,buttons/redpanel.png" alphatest="blend"/>
+		<widget name="DNSInfo_Check" 		 position="70,420"   size="30,30"  zPosition="2" pixmaps="/usr/share/enigma2/oDreamy-FHD/buttons/greenpanel.png,/usr/share/enigma2/oDreamy-FHD/buttons/redpanel.png" alphatest="blend"/>
 		<widget name="DNStext" 			 position="120,418"  size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1"/>
 		<widget name="DNS" 			 position="1020,418" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1"/>
 		<widget name="AdapterInfo" 		 position="315,178" size="200,40"  halign="center" zPosition="1"/>
@@ -1584,7 +1584,7 @@
 		<panel name="p800_DateMid"/>
 		<panel name="sR"/>
 		<!-- widget source="Statustext" render="Label" position="40,590" size="200,25" zPosition="10" font="Regular;21" transparent="1" backgroundColor="header" /-->
-		<widget name="statuspic" position="70,184" size="30,30" transparent="1" pixmaps="buttons/greenpanel.png,buttons/greeypanel.png" alphatest="blend"/>
+		<widget name="statuspic" position="70,184" size="30,30" transparent="1" pixmaps="/usr/share/enigma2/oDreamy-FHD/buttons/greenpanel.png,/usr/share/enigma2/oDreamy-FHD/buttons/greeypanel.png" alphatest="blend"/>
 		<widget source="IFtext" render="Label"       position="120,180" size="300,40" font="Regular;36" transparent="1" foregroundColor="#73c6ff" backgroundColor="header"/>
 		<widget source="IF" render="Label"           position="480,180" size="350,40" font="Regular;36" transparent="1" backgroundColor="header"/>
 		<eLabel position="70,250" size="820,1" backgroundColor="#303030" zPosition="1"/>
@@ -1907,7 +1907,7 @@
 		<panel name="p800_DateMid"/>
 		<panel name="sR"/>
 		<widget source="Statustext" render="Label" position="70,180" size="120,40" font="Regular;32" halign="left" backgroundColor="header" transparent="1"/>
-		<widget name="statuspic" position="160,184" size="30,30" pixmaps="buttons/greenpanel.png,/buttons/redpanel.png" alphatest="blend" transparent="1"/>
+		<widget name="statuspic" position="160,184" size="30,30" pixmaps="/usr/share/enigma2/oDreamy-FHD/buttons/greenpanel.png,/usr/share/enigma2/oDreamy-FHD/buttons/redpanel.png" alphatest="blend" transparent="1"/>
 		<eLabel position="70,230" size="820,1" backgroundColor="#202020" zPosition="0"/>
 		<widget source="IFtext" render="Label" position="70,250" size="120,40" font="Regular;32" halign="left" foregroundColor="#73c6ff" backgroundColor="header" transparent="1"/>
 		<widget source="IF"     render="Label" position="300,250" size="420,40" font="Regular;32" halign="left" transparent="1" backgroundColor="header" zPosition="10"/>
@@ -3426,7 +3426,7 @@
 		<!--eLabel name="DEBUG" text="W013" position="40,25" size="500,50" font="Regular;40" backgroundColor="#102e59" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- MessageBox FHD -->
-	<screen name="MessageBox" title="Message" position="center,255" size=" 900, 80">
+	<screen name="MessageBox" title="Message" position="center,255" size="900,80">
 		<!--eLabel name="DEBUG" text="S278" position="40,25" size="500,50" font="Regular;34" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 		<widget name="text" position="120,10" size="620,80" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="ErrorPixmap"    pixmap="/usr/share/enigma2/oDreamy-FHD/icons/input_error.png"    position="20,25" size="80,80" alphatest="blend"/>
