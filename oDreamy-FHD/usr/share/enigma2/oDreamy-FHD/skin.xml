@@ -1417,8 +1417,8 @@
     <panel name="I" />
     <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <widget name="image_stb" position="1315,610" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-    <widget source="lab1" render="Label" position="70,180" size="820,80" font="Regular; 42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-    <widget name="AboutScrollLabel" position="70,250" size="1200,720" itemHeight="40" font="Regular;32" foregroundColor="#ffffff" backgroundColor="header" transparent="1" />
+    <widget source="lab1" render="Label" position="70,165" size="820,80" font="Regular; 42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+    <widget name="AboutScrollLabel" position="70,235" size="1200,720" itemHeight="39" font="Regular;32" foregroundColor="#ffffff" backgroundColor="header" transparent="1" />
     <ePixmap position="350,985" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
     <widget source="key_green" render="Label" position="400,955" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
     <!--<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" /> -->
@@ -1599,12 +1599,11 @@
   </screen>
   <!-- Console FHD -->
   <screen name="Console" title="Command Console" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="p800_Template" />
+    <panel name="p800_Template_notime" />
     <panel name="p800_DateMid" />
-    <ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="1230,180" size="10,730" zPosition="2" alphatest="blend" />
-    <widget name="text" position="70,180" size="1170,730" font="Console;26" foregroundColor="#ffffff" backgroundColor="black" transparent="1" zPosition="2" />
+    <panel name="nRG" />
+    <widget name="text" position="70,180" size="1170,730" font="Console;26" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2" />
     <eLabel position="70,900" size="1160,5" backgroundColor="header" zPosition="1" />
-    <ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
   </screen>
   <!-- ChoiceBox FHD -->
   <screen name="ChoiceBox" title="Choice Box" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4223,12 +4222,12 @@
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/menu/setup_selection.png" position="920,230" size="256,256" transparent="1" zPosition="2" />
   </screen>
   <!-- MessageBox FHD -->
-  <screen name="MessageBox" title="Message" position="center,255" size=" 900, 80">
+  <screen name="MessageBox" title="Message" position="center,255" size="900,80">
     <widget name="text" position="120,10" size="620,80" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
     <widget name="ErrorPixmap" pixmap="oDreamy-FHD/icons/input_error.png" position="20,25" size="80,80" alphatest="blend" />
     <widget name="QuestionPixmap" pixmap="oDreamy-FHD/icons/input_question.png" position="20,25" size="80,80" alphatest="blend" />
     <widget name="InfoPixmap" pixmap="oDreamy-FHD/icons/input_info.png" position="20,25" size="80,80" alphatest="blend" />
-    <widget name="list" position="20,85" font="Regular;30" size="860,350" itemHeight="35" transparent="1" />
+    <widget name="list" position="0,0" size="0,0" font="Regular;30" itemHeight="35" scrollbarMode="showNever" enableWrapAround="1" backgroundColor="header" transparent="1" />
     <applet type="onLayoutFinish">
 # this should be factored out into some helper code, but currently demonstrates applets.
 from enigma import eSize, ePoint
@@ -4260,7 +4259,7 @@ self["list"].instance.resize(eSize(*listsize))
 
 # center window
 newwidth = wsize[0]
-self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
+self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)//2, orgpos.y()))
 			</applet>
   </screen>
   <!-- MessageBoxSimple FHD -->
