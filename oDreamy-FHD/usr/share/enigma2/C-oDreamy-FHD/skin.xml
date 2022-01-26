@@ -655,13 +655,11 @@
 	</screen>
 	<!-- Console FHD -->
 	<screen name="Console" title="Command Console" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template"/>
-		<panel name="p800_DateMid"/>
-		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/box/maxbar.png" position="1230,180" size="10,730" zPosition="2" alphatest="blend"/>
-		<widget name="text" position="70,180" size="1170,730" font="Console;26" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" zPosition="2"/>
-		<eLabel  position="70,900" size="1160,5" backgroundColor="header" zPosition="1"/>
-		<ePixmap position="60,970" size="700,90"  pixmap="/usr/share/enigma2/oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="S114" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
+		<panel name="p800_Template_notime" />
+		<panel name="p800_DateMid" />
+		<panel name="nRG" />
+		<widget name="text" position="70,180" size="1170,730" font="Console;26" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2" />
+		<eLabel position="70,900" size="1160,5" backgroundColor="header" zPosition="1" />
 	</screen>
 	<!-- ChoiceBox FHD -->
 	<screen name="ChoiceBox" title="Choice Box" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
