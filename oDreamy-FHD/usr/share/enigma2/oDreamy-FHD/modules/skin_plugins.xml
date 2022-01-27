@@ -1095,10 +1095,10 @@
 
 	<!-- EPG Import Sources FHD -->
 	<screen name="EPGImportSources" title="EPG Import Sources" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template"/>
+		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
 		<panel name="nRG"/>
-		<widget name="list"  position="70,180" size="1140,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
+		<widget name="list" position="70,180" size="1140,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1"/>
 		<!--eLabel name="DEBUG" text="018a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
