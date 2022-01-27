@@ -1079,17 +1079,17 @@
 	<!-- EPG Import Configuration FHD -->
 	<screen name="EPGImportConfig" title="EPG Import Configuration" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>
-		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext"/>
 		<panel name="nRGYB"/>
 		<panel name="I"/>
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_listch.png" alphatest="blend"/>
-		<widget name="config" position="70,180" size="820,500" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
-		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<widget name="status" position="1280,460" size="600,100" font="Regular;32" halign="center" valign="center" backgroundColor="bluette" transparent="1" />
-		<widget name="statusbar" position="1280,820" size="600,100" font="Regular;30" halign="center" valign="center" backgroundColor="bluette" transparent="1" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
+		<!-- Date -->
+		<widget source="global.CurrentTime" render="Label" position="1540,30" size="300,95" font="Regular;35" halign="right" valign="center" foregroundColor="white" backgroundColor="#101010" transparent="1" zPosition="1" >
+			<convert type="ClockToText">Format %A %d %B</convert>
+		</widget>
+		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_listch.png" alphatest="blend"/>
+		<widget name="config" position="70,180" size="1166,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1"/>
+		<widget name="status" position="1270,460" size="600,100" font="Regular;32" foregroundColor="ltbluette" halign="center" valign="center" backgroundColor="header" transparent="1" />
+		<widget name="statusbar" position="1270,820" size="600,100" font="Regular;30" foregroundColor="yellow" halign="center" valign="center" backgroundColor="header" transparent="1" />
 		<!--eLabel name="DEBUG" text="018" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
@@ -3954,117 +3954,37 @@
 		<!--eLabel name="DEBUG" text="054" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
-	<!-- **********  MSN Weather ********** 055 -->
-	<screen name="MSNWeatherPlugin" position="fill" title="Weather Plugin" backgroundColor="transparent" flags="wfNoBorder" >
-		<ePixmap pixmap="msn/msnback.png"          position="0,0"     size="1920,1080" alphatest="1" transparent="1" zPosition="-1" />
-		<ePixmap pixmap="msn/temp_high_low.png"    position="350,60"  size="28,120"    alphatest="blend" transparent="1" zPosition="3"  />
-		<widget source="currentTemp"   render="Label"    position="400,55"  size="250,120"   font="Regular;70" foregroundColor="yellow"  backgroundColor="header" transparent="1" zPosition="3" />
-		<widget source="feelsliketemp" render="Label"    position="350,150" size="300,120"   font="Regular;34" foregroundColor="white"   backgroundColor="header" transparent="1" zPosition="3" />
-		<widget source="weekday1_temp" render="Label"    position="350,230" size="300,100"    font="Regular;32" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="weekday1_icon" position="400,330" size="210,170"  zPosition="1" transparent="1" alphatest="blend">
-      			<convert type="MSNWeather">weathericon,day2,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
-    		</widget>
-		<!-- Week 1 -->
-		<!-- widget source="weekday1"  render="Label"    position="120,290" size="250,80"     font="Regular;34" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" /-->
-		<widget render="Label" source="caption"          font="Regular;38" position="750,50"  size="840,55"  foregroundColor="yellow" backgroundColor="header" zPosition="3" transparent="1" halign="center" valign="top" />
-		<widget source="observationtime"  render="Label" position="760,110" size="840,60"     font="Regular;38" halign="center" valign="top" foregroundColor="green" backgroundColor="header" transparent="1" zPosition="3" />
-		<widget render="Label" source="observationpoint" font="Regular;32" position="750,175" size="840,80"  foregroundColor="white"  backgroundColor="header" zPosition="3" transparent="1" halign="center" valign="top" />
-		<eLabel position="750,260" size="830,2" backgroundColor="#404040" zPosition="1"/>
-		<!-- Week 1 Data Ext-->
-		<widget source="condition" render="Label"        position="840,280"  size="500,120" font="Regular;38" halign="left" foregroundColor="yellow"  backgroundColor="header" transparent="1" zPosition="3" />
-		<ePixmap pixmap="msn/wind.png"             position="760,350"  size="60,60"   alphatest="blend" transparent="1" zPosition="3" />
-		<widget render="Label" source="wind_condition"   position="840,360"  size="700,40"  font="Regular;36" backgroundColor="header" transparent="1" zPosition="3" />
-		<ePixmap pixmap="msn/umbrella.png"         position="760,435"  size="50,54"   alphatest="blend" transparent="1" zPosition="3" />
-		<widget render="Label" source="humidity"         position="840,440"  size="700,40"  font="Regular;36" backgroundColor="header" transparent="1" zPosition="3" />
-		<widget name="currenticon" position="1340,300" size="240,200" zPosition="1" transparent="1" alphatest="blend">
-      			<convert type="MSNWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
-    		</widget>
-		<!-- Week 2 -->
-		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="170,570" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center" foregroundColor="blue">
-      			<convert type="MSNWeather">weekday,day2</convert>
-    		</widget>
-		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="170,610" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center">
-			<convert type="MSNWeather">date,day2</convert>
-		</widget>
-		<ePixmap pixmap="msn/temp_high_low.png"    position="130,690" size="28,120"   alphatest="blend" transparent="1" zPosition="3"  />
-		<widget render="Label" source="weekday2_temp"    position="165,690" size="280,120"  font="Regular;32" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="weekday2_icon" position="180,820" size="240,200" zPosition="1" transparent="1" alphatest="blend">
-      			<convert type="MSNWeather">weathericon,day2,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
-    		</widget>
-		<!-- Week 3 -->
-		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="610,570" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center" foregroundColor="blue">
-      			<convert type="MSNWeather">weekday,day3</convert>
-    		</widget>
-		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="610,610" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center">
-      			<convert type="MSNWeather">date,day3</convert>
-    		</widget>
-		<ePixmap pixmap="msn/temp_high_low.png"    position="575,690" size="28,120"   alphatest="blend" transparent="1" zPosition="3"  />
-		<widget render="Label" source="weekday3_temp"    position="610,690" size="280,120"  font="Regular;32" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="weekday3_icon" position="620,820" size="240,200" zPosition="1" transparent="1" alphatest="blend">
-      			<convert type="MSNWeather">weathericon,day3,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
-    		</widget>
-		<!-- Week 4 -->
-		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="1050,570" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center" foregroundColor="blue">
-      			<convert type="MSNWeather">weekday,day4</convert>
-    		</widget>
-		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="1050,610" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center">
-      			<convert type="MSNWeather">date,day4</convert>
-    		</widget>
-		<ePixmap pixmap="msn/temp_high_low.png"    position="1020,690" size="28,120"  alphatest="blend" transparent="1" zPosition="3"  />
-		<widget render="Label" source="weekday4_temp"    position="1055,690" size="280,120" font="Regular;32" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="weekday4_icon" position="1070,820" size="240,200" zPosition="1" transparent="1" alphatest="blend">
-      			<convert type="MSNWeather">weathericon,day4,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
-    		</widget>
-		<!-- Week 5 -->
-		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="1500,570" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center" foregroundColor="blue">
-      			<convert type="MSNWeather">weekday,day5</convert>
-    		</widget>
-		<widget source="session.MSNWeather" render="Label" font="Regular; 34" position="1500,610" size="260,60" backgroundColor="black" zPosition="3" transparent="1" halign="center" valign="center">
-      			<convert type="MSNWeather">date,day5</convert>
-    		</widget>
-		<ePixmap pixmap="msn/temp_high_low.png"    position="1465,690" size="28,120"  alphatest="blend" transparent="1" zPosition="3"  />
-		<widget render="Label" source="weekday5_temp"    position="1500,690" size="280,120" font="Regular;32" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="weekday5_icon" position="1510,820" size="240,200" zPosition="1" transparent="1" alphatest="blend">
-      			<convert type="MSNWeather">weathericon,day5,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
-    		</widget>
-    		<eLabel position="20,45" size="110,90" backgroundColor="transpBlack" zPosition="1" />
-    		<eLabel text="MENU" position="30,55" size="115,34" halign="left" font="Regular;30" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="6" />
-    		<eLabel text="EXIT" position="30,90" size="113,34" halign="left" font="Regular;30" foregroundColor="#5483fe" backgroundColor="#10000000" transparent="1" zPosition="6" />
-		<!--eLabel name="DEBUG" text="055" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
-	</screen>
-
 	<!--* MSNWeatherPlugin -->
 	<screen name="MSNWeatherPluginEntriesListConfigScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
 		<panel name="sRGYB"/>
-		<eLabel position="70,180" size="820,50" backgroundColor="bluette" transparent="0" />
-		<widget render="Label" source="city"       position="80,180"  size="400,50" font="Regular;32" backgroundColor="bluette" foregroundColor="white" halign="left" zPosition="1" />
-		<widget render="Label" source="degreetype" position="480,180" size="400,40" font="Regular;32" backgroundColor="bluette" foregroundColor="white" halign="left" zPosition="2" />
-		<widget name="entrylist"                   position="70,240"  size="820,450" itemHeight="50" font="Regular;30" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
-		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend"/>
+		<widget render="Label" source="city" position="80,180" size="400,50" font="Regular;32" backgroundColor="header" foregroundColor="yellow" halign="left" zPosition="1" />
+		<widget render="Label" source="degreetype" position="480,180" size="400,40" font="Regular;32" backgroundColor="header" foregroundColor="yellow" halign="left" zPosition="2" />
+		<widget name="entrylist" position="70,240" size="820,450" itemHeight="50" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1" zPosition="3" />
+		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="055a" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
 	<screen name="MSNWeatherPluginEntryConfigScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
 		<panel name="sRGYB"/>
-		<widget name="config" position="70,180" size="820,500" zPosition="3" itemHeight="50" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" transparent="1" />
-	        <widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,800" size="440,350" transparent="1" alphatest="on" />
+		<widget name="config" position="70,180" size="820,500" zPosition="3" itemHeight="50" font="Regular;35" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" foregroundColor="white" transparent="1" />
+		<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,800" size="440,350" transparent="1" alphatest="on" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="055b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
 	<screen name="MSNWeatherPluginSearch" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
 		<panel name="sRG"/>
-		<widget name="entrylist" position="70,180" size="820,500" itemHeight="70" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="3" />
-	        <widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,800" size="440,350" transparent="1" alphatest="on" />
+		<widget name="entrylist" position="70,180" size="820,500" itemHeight="70" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" foregroundColor="white" transparent="1" zPosition="3" />
+		<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,800" size="440,350" transparent="1" alphatest="on" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend"/>
 		<!--eLabel name="DEBUG" text="055c" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -5082,10 +5002,11 @@
 
 	<!-- ********** MSN Weather FHD ********** P093 -->
 	<screen name="MSNWeatherPlugin" position="0,0" size="1920,1080" title="MSN Weather" backgroundColor="#FF000000" flags="wfNoBorder">
+		<panel name="fakeExit" />
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/msn/meteo.jpg" zPosition="-1"/>
  		<widget source="Title" render="Label" position="280,30" size="1600,90" font="Regular;44" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget render="Label" source="observationpoint" position="500,55" size="0,90" font="Regular;36" halign="right" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="5" />
-		<widget render="Label" source="observationtime"  position="770,55" size="1080,90" font="Regular;36" halign="right" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="5" />
+		<widget render="Label" source="observationpoint" position="0,970" size="1920,40" font="Regular;30" halign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="5" />
+		<widget render="Label" source="observationtime"  position="0,1010" size="1920,40" font="Regular;30" halign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="5" />
 		<ePixmap position="60,30" size="194,75" pixmap="oDreamy-FHD/msn/msnlogo.png" alphatest="blend" zPosition="1" />
 		<!-- Current -->
 		<widget source="session.MSNWeather" render="MSNWeatherPixmap" position="50,140" size="256,256" zPosition="1" transparent="1" alphatest="blend">
@@ -5133,10 +5054,9 @@
 		<widget render="Label" source="weekday5_temp"    position="1500,650" size="350,120" font="Regular;32" halign="right" foregroundColor="#ffff00" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Logo /-->
 		<widget render="Label" source="statustext"       position="70,550"  size="0,0"     font="Regular;30" transparent="1" zPosition="1" />
-		<ePixmap position="40,943" size="790,3" pixmap="oDreamy-FHD/skin_default/sep2.png" scale="stretch" alphatest="blend" zPosition="1"/>
-		<ePixmap position="60,965" pixmap="oDreamy-FHD/icons/team_logo.png" size="750,80" alphatest="blend" zPosition="1" />
-		<eLabel text="Menu" position="1770,980" size="100,40" font="Regular;35" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel text="Settings" position="1740,1020" size="140,40" font="Regular;30" foregroundColor="white" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
+		<ePixmap position="1450,35" pixmap="oDreamy-FHD/icons/team_logo.png" size="750,80" alphatest="blend" zPosition="1" />
+		<eLabel text="Menu" position="1780,970" size="100,40" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<eLabel text="Settings" position="1710,1010" size="200,40" font="Regular;28" foregroundColor="yellow" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<!--eLabel name="DEBUG" text="093" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
 
