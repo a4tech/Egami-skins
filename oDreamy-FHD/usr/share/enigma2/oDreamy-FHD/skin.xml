@@ -3889,16 +3889,15 @@
   <!-- Video Wizzard FHD -->
   <screen name="VideoWizard" title="Welcome..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
+    <panel name="p800_Ext" />
     <panel name="p800_Date" />
+    <panel name="Ex" />
     <!-- Code -->
-    <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1">
+    <widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 32)],
@@ -3919,18 +3918,16 @@
   <!-- Language Wizzard FHD -->
   <screen name="LanguageWizard" title="Language Selection..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
+    <panel name="p800_Ext" />
     <panel name="p800_Date" />
     <panel name="sRG" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/language.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,260" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <ePixmap pixmap="oDreamy-FHD/menu/maxbar.png" position="900,180" size="10,720" zPosition="2" alphatest="blend" />
-    <widget source="languages" render="Listbox" position="70,280" size="820,615" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1" zPosition="1">
+    <widget source="languages" render="Listbox" position="70,280" size="820,615" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (100, 5), size = (700, 60), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
@@ -3950,16 +3947,15 @@
   <!-- Position Wizzard FHD -->
   <screen name="StartWizard" title="Start Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
     <panel name="p800_Date" />
+    <panel name="p800_Ext" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/startboot.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1">
+    <widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 32)],
@@ -3979,17 +3975,16 @@
   <!-- Network Wizard DRE FHD -->
   <screen name="NetworkWizard" position="fill" title="Network Wizard" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
     <panel name="p800_Date" />
+    <panel name="p800_Ext" />
     <eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1">
+    <widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 32)],
@@ -4013,12 +4008,11 @@
   <!-- Update Wizard FHD -->
   <screen name="InstallWizardIpkgUpdater" title="Update Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
     <panel name="p800_Date" />
+    <panel name="p800_Ext" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <ePixmap pixmap="oDreamy-FHD/icons/info_on.png" position="70,180" size="40,40" zPosition="10" alphatest="blend" />
     <widget source="statusbar" render="Label" position="70,150" size="820,250" font="Regular;32" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="1" />
@@ -4026,18 +4020,17 @@
   <!-- Restore Wizard FHD -->
   <screen name="MessageBoxWizard" title="Message Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
     <panel name="p800_Date" />
+    <panel name="p800_Ext" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/script.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="ErrorPixmap" pixmap="oDreamy-FHD/icons/input_error.png" position="70,100" size="80,80" alphatest="blend" />
     <widget name="QuestionPixmap" pixmap="oDreamy-FHD/icons/input_question.png" position="70,100" size="80,80" alphatest="blend" />
     <widget name="InfoPixmap" pixmap="oDreamy-FHD/icons/input_info.png" position="70,100" size="80,80" alphatest="blend" />
     <widget name="text" position="70,180" size="640,270" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget source="list" render="Listbox" position="70,220" size="820,400" scrollbarMode="showOnDemand" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1">
+    <widget source="list" render="Listbox" position="70,220" size="820,400" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (20, 2), size = (780, 29), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 28)],
@@ -4056,16 +4049,15 @@
   <!-- Image Wizard FHD -->
   <screen name="ImageWizard" title="Image Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
     <panel name="p800_Date" />
+    <panel name="p800_Ext" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1">
+    <widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 32)],
@@ -4073,7 +4065,7 @@
 				}
 			</convert>
     </widget>
-    <widget name="config" position="70,500" size="820,320" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
+    <widget name="config" position="70,500" size="820,320" font="Regular;32" itemHeight="40" zPosition="1" scrollbarMode="showOnDemand" transparent="5" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
     <widget source="VKeyIcon" render="Pixmap" position="70,780" size="0,0" zPosition="1" pixmap="oDreamy-FHD/icons/text.png" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
@@ -4089,12 +4081,11 @@
   <!-- Tutorial Wizard FHD -->
   <screen name="TutorialWizard" title="Tutorial Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
     <panel name="p800_Date" />
+    <panel name="p800_Ext" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,600" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
@@ -4138,16 +4129,15 @@
   <!-- Default Wizard FHD -->
   <screen name="DefaultWizard" title="Default Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
     <panel name="p800_Date" />
+    <panel name="p800_Ext" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1">
+    <widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 32)],
@@ -4175,16 +4165,15 @@
   <!-- CleanupWizard FHD -->
   <screen name="CleanupWizard" title="Cleanup Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
-    <panel name="p800_Ext_Bi" />
+    <panel name="p800_Ext" />
     <panel name="p800_Date" />
     <!-- Code -->
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend" />
-    <ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1">
+    <widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 32)],
@@ -4207,13 +4196,12 @@
   <!-- CleanupWizard Config FHD -->
   <screen name="CleanupWizardConfiguration" title="Cleanup Wizard Settings" position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
-    <panel name="p800_Logo" />
     <panel name="p800_Ext" />
     <panel name="p800_Date" />
+    <ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
     <widget name="config" position="70,500" size="820,320" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
-    <!-- widget source="Title"  render="Label" font="Regular;35" position="70,47" size="800,43" backgroundColor="header" transparent="1"/-->
     <widget source="status" render="Label" font="Regular;32" halign="center" position="70,820" size="820,40" backgroundColor="header" transparent="1" />
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/buttons/redpanel.png" position=" 70,988" size="30,30" />
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="320,988" size="30,30" />
