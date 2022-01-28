@@ -777,10 +777,10 @@
 	</screen>
 	<!--  EGAMI Animation FHD -->
     <!-- Modified for new icons -->
-	<screen name="EGConnectionAnimation" position="center,100" size="550,300" title="EGAMI" flags="wfNoBorder">
-		<widget name="connect" position="0,0" size="550,300" zPosition="-1" transparent="1"
+	<screen name="EGConnectionAnimation" position="center,100" size="550,300" backgroundColor="header" title="EGAMI" flags="wfNoBorder">
+		<widget name="connect" position="0,20" size="550,227" zPosition="-1" transparent="1"
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" alphatest="blend" />
-		<widget name="lab1" position="55,165" halign="center" size="460,60" zPosition="1" font="Regular;20" valign="top" transparent="1" />
+		<widget name="lab1" position="0,254" halign="center" size="550,30" zPosition="1" backgroundColor="header" foregroundColor="ltbluette" font="Regular;28" valign="top" transparent="1" />
 		<!--eLabel name="DEBUG" text="EG34" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Permanent Clock FHD -->
