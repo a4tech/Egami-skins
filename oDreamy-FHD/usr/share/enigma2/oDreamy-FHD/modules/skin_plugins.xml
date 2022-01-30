@@ -1641,12 +1641,12 @@
 		<panel name="p800_Date" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="choosen"     position="70,180"   size="825,90"  itemHeight="40" font="Regular; 34" halign="center" valign="center" scrollbarMode="showOnDemand" backgroundColor="bluette" transparent="0" />
-		<widget name="list"        position="70,300"   size="840,600" itemHeight="40" font="Regular; 32" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel                    position="1260,140" size="610,330" backgroundColor="#20000000" zPosition="2"/>
-		<ePixmap                   position="1440,175" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="5" />
-		<eLabel                    position="1260,470" size="620,10"  backgroundColor="#FF000000" zPosition="2"/>
+		<widget name="list"        position="70,300"   size="840,600" itemHeight="40" font="Regular; 32" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
+		<eLabel position="1260,140" size="610,330" backgroundColor="#20000000" zPosition="2"/>
+		<ePixmap position="1440,175" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="5" />
+		<eLabel position="1260,470" size="620,10"  backgroundColor="#FF000000" zPosition="2"/>
 		<widget name="description" position="1260,520" size="600,200" font="Regular; 30" foregroundColor="white" halign="center" backgroundColor="header" transparent="1" />
-		<ePixmap                   position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend"/>
+		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend"/>
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="024" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -1697,11 +1697,11 @@
 
 	<!-- CCCam InfoMain FHD -->
 	<screen name="CCcamInfoMain" position="fill" title="CCcam Info" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template"/>
+		<panel name="p800_Template_notime"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend"/>
-		<widget name="menu" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
+		<widget name="menu" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="60,970"  size="900,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="025b" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
 	</screen>
@@ -1837,7 +1837,8 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<widget name="mainmenu" position="70,180" size="820,720" font="Regular;30" itemHeight="40" noWrap="1" backgroundColor="header" transparent="1" />
+		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="mainmenu" position="70,180" size="820,720" scrollbarMode="showAlways" font="Regular;30" itemHeight="40" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend"/>
 		<ePixmap position="60,970"  size="900,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="026" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
