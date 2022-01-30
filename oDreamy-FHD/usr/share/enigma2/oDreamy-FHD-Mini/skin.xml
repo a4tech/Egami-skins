@@ -1172,7 +1172,7 @@
     <ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
     <widget name="description" position="1260,560" size="600,420" font="Regular;30" halign="center" valign="top" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="1" />
     <widget name="footnote" position="1260,1840" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="60,35" transparent="1" alphatest="on">
+    <widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
     <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
@@ -1378,7 +1378,7 @@
     <ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
     <widget name="description" position="1270,480" size="580,400" font="Regular;32" halign="center" scrollbarMode="showOnDemand" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
     <widget name="HelpWindow" position="1260,720" size="1,1" zPosition="1" alphatest="on" transparent="1" />
-    <widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="60,35" transparent="1" alphatest="on">
+    <widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
     <ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
@@ -2004,7 +2004,9 @@
     <widget source="DNS1" render="Label" position="1550,730" size="300,40" font="Regular;32" valign="center" halign="left" backgroundColor="bluette" transparent="1" zPosition="1" />
     <widget source="DNS2text" render="Label" position="1280,780" size="280,40" font="Regular;32" halign="left" foregroundColor="backpurple" backgroundColor="bluette" transparent="1" zPosition="1" />
     <widget source="DNS2" render="Label" position="1550,780" size="300,40" font="Regular;32" valign="center" halign="left" backgroundColor="bluette" transparent="1" zPosition="1" />
-    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" alphatest="on" zPosition="1" position="80,420" size="50,25" />
+    <widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget>
     <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
     <widget source="introduction2" render="Label" position="1280,880" size="640,40" font="Regular;32" halign="left" foregroundColor="#ffffff" backgroundColor="bluette" transparent="1" />
     <ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
@@ -2167,7 +2169,7 @@
     <panel name="p800_DateMid" />
     <panel name="sRG" />
     <widget name="config" position="70,180" size="820,450" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" zPosition="3" transparent="1" />
-    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" alphatest="on" zPosition="1" position="80,420" size="50,25" />
+    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend" />
     <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
     <widget source="introduction" render="Label" position="50,1580" size="680,40" font="Regular;32" halign="left" backgroundColor="header" transparent="1" zPosition="1" />
     <ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/folders.png" alphatest="blend" />
@@ -2227,7 +2229,7 @@
     <panel name="p800_DateMid" />
     <panel name="sR" />
     <widget name="config" position="70,180" size="820,450" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" zPosition="3" transparent="1" />
-    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" alphatest="on" zPosition="1" position="2120,420" size="50,25" />
+    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend" />
     <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
     <widget source="introduction" render="Label" position="50,1580" size="600,27" font="Regular;24" halign="left" backgroundColor="header" transparent="1" zPosition="1" />
     <ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_user.png" alphatest="blend" />
@@ -2333,7 +2335,7 @@
     <panel name="p800_DateMid" />
     <panel name="nR" />
     <widget name="config" position="70,180" size="820,450" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" zPosition="3" transparent="1" />
-    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" alphatest="on" zPosition="1" position="80,620" size="50,25" />
+    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend" />
     <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
     <ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_inadyn.png" alphatest="blend" />
   </screen>
@@ -2489,7 +2491,7 @@
     <panel name="p800_DateMid" />
     <panel name="nRG" />
     <widget name="config" position="70,180" size="820,450" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" zPosition="3" transparent="1" />
-    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" alphatest="on" zPosition="1" position="80,620" size="50,25" />
+    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend" />
     <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
     <ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
   </screen>
@@ -3069,7 +3071,7 @@
     <widget name="footnote" position="70,180" size="820,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
     <widget name="config" position="70,180" size="820,760" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
     <widget name="description" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
-    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" alphatest="on" zPosition="1" position="70,680" size="50,25" />
+    <widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend" />
     <widget name="HelpWindow" position="70,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
     <ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
     <ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
