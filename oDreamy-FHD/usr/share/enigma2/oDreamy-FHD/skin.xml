@@ -2201,7 +2201,7 @@
     <panel name="p800_DateMid" />
     <panel name="sRGYB" />
     <ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-    <widget source="list" render="Listbox" position="70,180" size="820,540" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" zPosition="2" transparent="1">
+    <widget source="list" render="Listbox" position="70,180" size="820,540" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="2">
       <convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (90,2),size = (740,40),font=0,flags = RT_HALIGN_LEFT|RT_VALIGN_TOP,text = 1),# index 1 is the interfacename
@@ -2342,7 +2342,7 @@
     <panel name="p800_Date" />
     <panel name="sR" />
     <ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
-    <widget name="menulist" position="70,180" size="820,360" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
+    <widget name="menulist" position="70,180" size="820,360" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
     <widget source="introduction" render="Label" position="1280,560" size="560,80" font="Regular;34" halign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2" />
     <ePixmap position="1450,200" size="300,300" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/folders.png" alphatest="blend" />
@@ -3398,12 +3398,12 @@
     <panel name="fakeExit" />
     <panel name="I" />
     <eLabel text="Choose your Skin" position="70,170" size="820,50" font="Regular;44" halign="left" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="SkinList" position="70,240" size="820,630" font="Regular;32" scrollbarMode="showOnDemand" itemHeight="45" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1" />
+    <widget name="SkinList" position="70,240" size="820,630" font="Regular;32" scrollbarMode="showAlways" itemHeight="45" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
     <eLabel text="Preview" position="1260,600" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="bluette" transparent="1" zPosition="2" />
     <eLabel position="1260,600" size="610,70" backgroundColor="trbluette" zPosition="1" />
     <eLabel position="1260,680" size="610,267" backgroundColor="background" zPosition="1" />
     <widget name="Preview" position="1370,705" size="390,220" alphatest="on" zPosition="10" />
-    <widget source="introduction" render="Label" position="300,982" size="500,40" font="Regular;32" halign="left" foregroundColor="backpurple" backgroundColor="header" zPosition="1" transparent="1" />
+    <widget source="introduction" render="Label" position="300,982" size="500,40" font="Regular;32" halign="left" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" transparent="1" />
     <ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
   </screen>
   <!-- User Positioner Interface FHD -->
@@ -3441,8 +3441,7 @@
     <panel name="p800_DateMid" />
     <panel name="M" />
     <panel name="nRGYB" />
-    <ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="900,180" size="10,700" zPosition="5" alphatest="blend" />
-    <widget source="languages" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1">
+    <widget source="languages" render="Listbox" position="70,180" size="840,720" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (80, 10), size = (300, 50), flags = RT_HALIGN_LEFT, text = 1), # index 1 is the language name,
@@ -3869,11 +3868,11 @@
   </screen>
   <!-- Input Device Selection FHD -->
   <screen name="InputDeviceSelection" title="Select input device" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="p800_Template" />
+    <panel name="p800_Template_notime" />
     <panel name="p800_Logo" />
     <panel name="p800_DateMid" />
     <panel name="sRG" />
-    <widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1">
+    <widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
         <!-- device, description, devicepng, divpng -->
 				{"template": [
