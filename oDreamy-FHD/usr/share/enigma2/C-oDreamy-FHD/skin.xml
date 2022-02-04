@@ -2242,6 +2242,7 @@
     <widget name="info-online" position="1270,900" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="yellow" backgroundColor="header" transparent="1" />
   <!--<ePixmap position="1450,510" size="256,256" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend" /> -->
     <widget name="image_stb" position="1315,610" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
+    <widget name="header" position="1265,530" size="600,200" font="Regular;32" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="1"/>
 
   </screen>
 	<!-- FlashImage FHD -->
