@@ -2196,12 +2196,12 @@
   </screen>
   <!-- Network Adapter Selection FHD -->
   <screen name="NetworkAdapterSelection" position="fill" title="Network Adapter Selection" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="p800_Template" />
+    <panel name="p800_Template_notime" />
     <panel name="p800_Logo" />
     <panel name="p800_DateMid" />
     <panel name="sRGYB" />
     <ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-    <widget source="list" render="Listbox" position="70,180" size="820,540" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="2">
+    <widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="2">
       <convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (90,2),size = (740,40),font=0,flags = RT_HALIGN_LEFT|RT_VALIGN_TOP,text = 1),# index 1 is the interfacename
@@ -2824,14 +2824,13 @@
     <ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
   </screen>
   <!-- History Zap -->
-  <screen name="HistoryZapSelector" Title="History Zap" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+  <screen name="HistoryZapSelector" title="History Zap" position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p8000_Template" />
     <panel name="p8001_Ext" />
     <panel name="p800_Date" />
     <ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
     <ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
-    <eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="unb0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-    <ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="1855,180" size="10,720" zPosition="2" alphatest="blend" />
+    <eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
     <widget source="menu" render="Listbox" position="60,180" size="1805,720" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
       <convert type="TemplatedMultiContent">
  				{"template": [
@@ -3019,7 +3018,7 @@
     <panel name="p800_Logo" />
     <panel name="p800_DateMid" />
     <panel name="M" />
-    <widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1" />
+    <widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
     <widget source="introduction" render="Label" position="70,800" size="820,80" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
     <ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" />
     <ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
@@ -3124,10 +3123,8 @@
     <widget name="info-local" position="1270,800" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
     <widget name="info-flash" position="1270,850" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" />
     <widget name="info-online" position="1270,900" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="yellow" backgroundColor="header" transparent="1" />
-  <!--<ePixmap position="1450,510" size="256,256" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend" /> -->
     <widget name="image_stb" position="1315,610" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-    <widget name="header" position="1265,530" size="600,200" font="Regular;32" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="1"/>
-
+    <widget name="header" position="1265,530" size="600,200" font="Regular;32" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
   </screen>
   <!-- FlashImage FHD -->
   <screen name="doFlashImage" position="fill" title="Flash On the fly (select a image)" backgroundColor="transparent" flags="wfNoBorder">
