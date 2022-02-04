@@ -446,11 +446,11 @@
 		<eLabel position="52,142"   size="1815,795" backgroundColor="header" zPosition="-1" />
 		<!-- Footer -->
 		<eLabel position="50,955"   size="1200,96"  backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,957"   size="1198,91"  backgroundColor="header" zPosition="-1" />
+		<eLabel position="52,957"   size="1195,91"  backgroundColor="header" zPosition="-1" />
 		<eLabel position="1260,955" size="250,96"   backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1262,957" size="248,91"   backgroundColor="header" zPosition="-1" />
+		<eLabel position="1262,957" size="245,91"   backgroundColor="header" zPosition="-1" />
 		<eLabel position="1520,955" size="350,96"   backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1522,957" size="348,91"   backgroundColor="header" zPosition="-1" />
+		<eLabel position="1522,957" size="345,91"   backgroundColor="header" zPosition="-1" />
 		<!-- Clock %d.%m.%Y - %H:%M:%S -->
 		<ePixmap position="1275,975" size="90,60"   pixmap="oDreamy-FHD/icons/select.png"    alphatest="blend" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="1570,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="white" backgroundColor="#10101010" transparent="1" zPosition="1">

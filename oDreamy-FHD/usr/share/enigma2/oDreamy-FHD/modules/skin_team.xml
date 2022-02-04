@@ -462,7 +462,7 @@
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/devices.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="lab1" position="70,180" size="820,60" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget source="list" render="Listbox" position="70,180" size="820,600" scrollbarMode="showOnDemand" zPosition="1" transparent="1" >
+		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" >
 		      <convert type="TemplatedMultiContent">
 			      {"template": [
 					      MultiContentEntryText(pos = (100, 2), size = (800, 50), font=0, color=0x3589ff, text = 0),
