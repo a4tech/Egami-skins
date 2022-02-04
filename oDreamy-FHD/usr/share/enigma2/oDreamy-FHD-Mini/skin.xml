@@ -2858,7 +2858,7 @@
     <panel name="sRGY" />
     <widget source="usbhdd" render="Label" position="1280,630" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="bluette" transparent="1" zPosition="5" />
     <ePixmap position="1410,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
-    <widget name="list" position="70,180" size="1160,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" zPosition="3" transparent="1" />
+    <widget name="list" position="70,180" size="1160,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="3" />
     <widget name="info-local" position="1270,800" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
     <widget name="info-flash" position="1270,850" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" />
     <widget name="info-online" position="1270,900" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="yellow" backgroundColor="header" transparent="1" />
