@@ -2863,7 +2863,9 @@
     <widget name="info-local" position="1270,800" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
     <widget name="info-flash" position="1270,850" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" />
     <widget name="info-online" position="1270,900" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="yellow" backgroundColor="header" transparent="1" />
-    <ePixmap position="1450,510" size="256,256" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend" />
+  <!--<ePixmap position="1450,510" size="256,256" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend" /> -->
+    <widget name="image_stb" position="1315,610" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
+
   </screen>
   <!-- FlashImage FHD -->
   <screen name="doFlashImage" position="fill" title="Flash On the fly (select a image)" backgroundColor="transparent" flags="wfNoBorder">
