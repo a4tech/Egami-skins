@@ -281,7 +281,7 @@
     <widget noWrap="1" backgroundColor="background" font="Regular;28" render="Label" position="1586,124" size="88,35" source="session.MSNWeather" transparent="1" zPosition="1" halign="center" foregroundColor="white" text="45 `C" valign="center">
       <convert type="MSNWeather">temperature_current</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="30,708" valign="center" size="996,90" font="Regular2;75" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="2" transparent="1">
+    <widget source="session.CurrentService" render="Label" position="30,708" valign="center" size="1600,90" font="Regular2;75" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="2" transparent="1">
       <convert type="ServiceName">Name</convert>
     </widget>
     <widget source="session.CurrentService" render="Label" position="1087,808" size="801,26" font="Regular;23" halign="left" foregroundColor="grey" backgroundColor="header" transparent="1">
@@ -311,7 +311,7 @@
       <convert type="EventTime">StartTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="session.Event_Now" render="Label" position="541,849" size="959,60" font="Regular2;45" valign="center" backgroundColor="header" transparent="1" noWrap="1" zPosition="3">
+    <widget source="session.Event_Now" render="Label" position="551,849" size="959,60" font="Regular2;45" valign="center" backgroundColor="header" transparent="1" noWrap="1" zPosition="3">
       <convert type="EventName">Name</convert>
     </widget>
     <widget source="session.Event_Now" render="Label" position="1501,850" size="220,55" font="Regular;36" foregroundColor="yellow" backgroundColor="header" halign="right" valign="center" transparent="1" zPosition="5">
@@ -325,7 +325,7 @@
     <widget source="session.Event_Now" render="Progress" position="537,847" size="1186,63" foregroundColor="bluette" backgroundColor="trasparent" transparent="1" zPosition="2">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="session.Event_Next" render="Label" position="542,920" size="958,55" font="Regular2;37" valign="center" foregroundColor="#707070" backgroundColor="header" noWrap="1" transparent="1" zPosition="3">
+    <widget source="session.Event_Next" render="Label" position="551,920" size="958,55" font="Regular2;37" valign="center" foregroundColor="#707070" backgroundColor="header" noWrap="1" transparent="1" zPosition="3">
       <convert type="EventName">Name</convert>
     </widget>
     <widget source="session.Event_Next" render="Label" position="1500,928" size="220,40" font="Regular;34" foregroundColor="#707070" backgroundColor="header" halign="right" valign="center" transparent="1" zPosition="5">
