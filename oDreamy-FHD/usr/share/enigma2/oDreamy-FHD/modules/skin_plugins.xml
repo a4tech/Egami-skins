@@ -32,7 +32,10 @@
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_Logo"/>
 		<panel name="sRGY"/>
-		<widget name="config" position="70,180" size="810,400" itemHeight="50" font="Regular; 40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" />
+		<ePixmap position="972,978" size="60,48" pixmap="oDreamy-FHD/skin_default/vkey_icon.png" alphatest="blend" zPosition="2" />
+		<widget name="HelpWindow" pixmap="oDreamy-FHD/skin_default/vkey_icon.png" position="910,988" size="0,0" zPosition="1" transparent="1" alphatest="on" />
+		<eLabel text="TXT" position="1050,955" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<widget name="config" position="70,180" size="810,400" itemHeight="50" font="Regular; 40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1" />
 		<widget source="description" render="Label" position="70,560" size="810,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="002" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="red" transparent="1" zPosition="99"/-->
