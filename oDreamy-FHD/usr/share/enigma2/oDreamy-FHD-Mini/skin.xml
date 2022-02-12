@@ -3214,21 +3214,19 @@
   </screen>
   <!-- Nim selection FHD -->
   <screen name="NimSelection" title="Nim Selection" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="p800_Template" />
+    <panel name="p800_Template_notime" />
     <panel name="p800_Logo" />
     <panel name="p800_DateMid" />
     <panel name="sRGYB" />
     <ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
-    <eLabel text="Choose Tuner" position="70,175" size="820,100" font="Regular;50" foregroundColor="#505050" backgroundColor="header" transparent="1" zPosition="1" />
-    <eLabel position="70,240" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <widget source="nimlist" render="Listbox" position="70,270" size="820,550" scrollbarMode="showOnDemand" backgroundColor="header" zPosition="2" transparent="1">
+    <widget source="nimlist" render="Listbox" position="70,170" size="820,740" scrollbarMode="showAlways" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="2" transparent="1">
       <convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryText(pos = (10, 3), size = (800, 40), color=0x73c6ff, flags = RT_HALIGN_LEFT, text = 1), # index 1 is the nim name,
 				MultiContentEntryText(pos = (30, 37), size = (800, 120), font = 1, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER | RT_WRAP,text = 2), # index 2 is a description of the nim settings,
 				],
 				"fonts": [gFont("Regular", 32), gFont("Regular", 30)],
-				"itemHeight": 150
+				"itemHeight": 148
 				}
 			</convert>
     </widget>
