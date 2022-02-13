@@ -3121,11 +3121,11 @@
   </screen>
   <!-- Choose upgrade source FHD -->
   <screen name="IPKGMenu" title="IPKG Menu" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="p800_Template" />
+    <panel name="p800_Template_notime" />
     <panel name="p800_Logo" />
     <panel name="p800_DateMid" />
     <panel name="sRG" />
-    <widget name="filelist" position="60,180" size="830,720" font="Regular;35" itemHeight="60" scrollbarMode="showOnDemand" backgroundColor="header" />
+    <widget name="filelist" position="60,180" size="830,720" font="Regular;35" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
   </screen>
   <!-- Edit upgrade source FHD -->
