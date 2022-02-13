@@ -3797,15 +3797,14 @@
 		<!--eLabel name="DEBUG" text="S236" position="40,45" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- Choose upgrade source FHD -->
-	<screen name="IPKGMenu" title="IPKG Menu" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>
-		<panel name="p800_DateMid"/>
-		<panel name="sRG"/>
-		<widget name="filelist" position="60,180" size="830,720" font="Regular;35" itemHeight="60" scrollbarMode="showOnDemand" backgroundColor="header" />
-		<ePixmap position="960,640" size="256,256" pixmap="/usr/share/enigma2/oDreamy-FHD/menu/plugin_selection.png" alphatest="blend"/>
-		<!--eLabel name="DEBUG" text="S238" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
-	</screen>
+  <screen name="IPKGMenu" title="IPKG Menu" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+    <panel name="p800_Template_notime" />
+    <panel name="p800_Logo" />
+    <panel name="p800_DateMid" />
+    <panel name="sRG" />
+    <widget name="filelist" position="60,180" size="830,720" font="Regular;35" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" />
+    <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
+  </screen>
 	<!-- Edit upgrade source FHD -->
 	<screen name="IPKGSource" title="IPKG source" position="center,center" size="1500,160" backgroundColor="10000000" >
 		<panel name="sRG"/>
