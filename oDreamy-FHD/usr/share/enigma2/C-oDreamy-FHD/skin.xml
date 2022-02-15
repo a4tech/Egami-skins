@@ -222,16 +222,15 @@
 		<!--eLabel name="DEBUG" text="S003" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
   </screen>
 	<!-- Mute FHD -->
-	<screen name="Mute" title="Mute" position="1750,50" size="100,100" backgroundColor="transparent" zPosition="10" flags="wfNoBorder">
-		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/skin_default/mute.png" position="0,0" size="100,100" alphatest="on" zPosition="0"/>
-		<!--eLabel name="DEBUG" text="S004" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
-	</screen>
-	<!-- Volumebar FHD -->
-	<screen name="Volume" position="center,50" size="890,85" zPosition="10" backgroundColor="transparent" title="Volume" flags="wfNoBorder">
-		<ePixmap position="0,0" size="890,85" pixmap="/usr/share/enigma2/oDreamy-FHD/skin_default/volbg.png" alphatest="blend" transparent="1" zPosition="1" />
-		<widget name="Volume" position="125,33" size="653,18" pixmap="/usr/share/enigma2/oDreamy-FHD/skin_default/volbar.png" transparent="1" alphatest="blend" zPosition="2" />
-		<widget name="VolumeText" position="805,25" size="60,30" font="Regular; 32" backgroundColor="background" foregroundColor="ltbluette" halign="center" valign="center" transparent="1" zPosition="20" />
-	</screen>
+  <screen name="Mute" title="Mute" position="30,30" size="150,150" backgroundColor="transparent" zPosition="10" flags="wfNoBorder">
+    <ePixmap pixmap="oDreamy-FHD/skin_default/mute.png" position="0,0" size="150,150" transparent="1" alphatest="blend" zPosition="0" />
+  </screen>
+  <!-- Volumebar FHD -->
+  <screen name="Volume" position="center,50" size="890,85" zPosition="10" backgroundColor="transparent" title="Volume" flags="wfNoBorder">
+    <ePixmap position="0,0" size="890,85" pixmap="oDreamy-FHD/skin_default/volbg.png" alphatest="blend" transparent="1" zPosition="1" />
+    <widget name="Volume" position="125,33" size="653,18" pixmap="oDreamy-FHD/skin_default/volbar.png" transparent="1" alphatest="blend" zPosition="2" />
+    <widget name="VolumeText" position="805,25" size="60,30" font="Regular; 32" backgroundColor="background" foregroundColor="ltbluette" halign="center" valign="center" transparent="1" zPosition="20" />
+  </screen>
 	<!-- Unhandled key FHD -->
 	<screen name="UnhandledKey" title="UnhandledKey" position="1770,40" size="80,105" backgroundColor="transparent" zPosition="100" flags="wfNoBorder">
 		<widget name="UnhandledKeyPixmap" pixmap="/usr/share/enigma2/oDreamy-FHD/skin_default/unhandled-key.png" position="0,0" size="80,105" alphatest="off" />
