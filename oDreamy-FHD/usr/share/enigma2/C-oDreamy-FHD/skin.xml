@@ -528,7 +528,7 @@
       <convert type="EGTemp">Temperature</convert>
     </widget>
 		<widget source="session.CurrentService" render="Label" zPosition="6" position="598,66" size="800,23" halign="center" valign="center" font="Regular; 23" transparent="1" foregroundColor="white" backgroundColor="black">
-			<convert type="pliLayoutInfo">MemTotal</convert>
+			<convert type="EGLayoutInfo">MemTotal</convert>
 		</widget>
 		<ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/audio_off.png" transparent="1" position="1180,1040" size="80,40" />
     <widget alphatest="blend" pixmap="oDreamy-FHD/icons/audio_on.png" position="1180,1040" transparent="1" render="Pixmap" size="80,38" source="session.CurrentService" zPosition="2">
