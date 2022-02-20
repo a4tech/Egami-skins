@@ -2452,6 +2452,21 @@
     <widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
   </screen>
+  <!-- NetWork Tailscale Setup FHD -->
+  <screen name="NetworkTailscale" title="Tailscale Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+    <panel name="p800_Template" />
+    <panel name="p800_Logo" />
+    <panel name="p800_DateMid" />
+    <panel name="nRGY" />
+    <eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+    <widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
+    <widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="bluette" zPosition="2" />
+    <widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
+    <widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="red" zPosition="1" />
+    <widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
+    <widget name="activetail" position="70,440" size="720,500" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />
+    <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
+  </screen>
   <!-- NetWork Telnet Setup FHD -->
   <screen name="NetworkTelnet" title="Telnet" position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
