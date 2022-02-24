@@ -2697,6 +2697,7 @@
     <widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
     <widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="red" zPosition="1" />
     <widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
+    <widget name="activevpn" position="70,340" size="720,500" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />
     <ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
   </screen>
   <!-- NetWork Samba Setup FHD -->
