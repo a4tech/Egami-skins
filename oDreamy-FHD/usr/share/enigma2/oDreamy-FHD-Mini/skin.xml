@@ -322,7 +322,7 @@
       <convert type="EventTime">StartTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="session.Event_Now" render="Progress" position="537,847" size="1186,63" foregroundColor="bluette" backgroundColor="trasparent" transparent="1" zPosition="2">
+    <widget source="session.Event_Now" render="Progress" position="537,847" size="1186,63" foregroundColor="bluette" backgroundColor="transparent" transparent="1" zPosition="2">
       <convert type="EventTime">Progress</convert>
     </widget>
     <widget source="session.Event_Next" render="Label" position="551,920" size="958,55" font="Regular2;37" valign="center" foregroundColor="#707070" backgroundColor="header" noWrap="1" transparent="1" zPosition="3">
