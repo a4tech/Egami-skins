@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <skin>
 	<!--
-	#################### mmark_openDreamy_PLUGINS v.2.0 #####################
-	#                                                                       #
-	#      mmark             Version 2.0.0 released          03-01-2021     #
-	#                                                                       #
-	#########################################################################
+	# mmark Version 2.0.0 released
 	-->
-	<!-- openDreamy v2.0 skin, based on Dreamy by mmark (E2skin.blogspot.com) -->
 	<!-- This skin is a Freeware. Everyone can modify and use it in other images -->
 	<!-- !!!!!!! BUT DO NOT REMOVE OR CHANGE THIS DISCLAIMER !!!!!!! -->
 	<!-- Do whatever you want with this skin,but don't tell it's yours, or your idea -->
 	<!--    and leave the credentials in the "About-box" as they are -->
-	<!--    Mod Madhouse    -->
+	<!--    Mod for Egami -   by Madhouse    -->
+
+	<!-- ***** LCD4linux ***** -->
+	<screen name="LCDdisplayConfig" position="0,0" size="1920,1080" title="LCD4linux Settings" flags="wfNoBorder" backgroundColor="transparent">
+		<widget name="config" position="60,160" size="980,770" itemHeight="40" font="Regular;28" secondfont="Regular;26" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget source="introduction" render="Label" position="1060,800" size="800,100" font="Regular; 28" foregroundColor="ltbluette" backgroundColor="header"  halign="center" valign="center" transparent="1" />
+		<widget source="Version" render="Label" position="1250,14" size="300,66" zPosition="1" font="Regular; 23" backgroundColor="header" halign="left" valign="bottom" transparent="1" />
+		<widget source="LibUSB" render="Label" position="1030,850" size="300,66" zPosition="1" font="Regular; 23" backgroundColor="header" halign="center" valign="bottom" transparent="1" />
+		<widget source="About" render="Label" position="1250,40" size="300,66" zPosition="1" font="Regular; 23" backgroundColor="header" halign="lrftr" valign="bottom" transparent="1" />
+		<widget name="LCD1" position="1005,160" zPosition="1" size="880,490" transparent="1" alphatest="blend" />
+		<widget source="LCD1text" render="Label" position="1032,225" size="825,55" zPosition="1" font="Regular; 25" halign="center" valign="center" transparent="1" />
+		<panel name="p900_Template"/>
+		<panel name="p900_Logo"/>
+		<panel name="p900_Date"/>
+		<panel name="M"/>
+		<panel name="nRGYB"/>
+	</screen>
 
 	<!-- ***** MultiBootSelector ***** 002 -->
 	<screen name="MultiBootSelector" position="fill" title="MultiBoot Image Selector" flags="wfNoBorder" backgroundColor="transparent">
