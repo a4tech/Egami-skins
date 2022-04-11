@@ -541,8 +541,10 @@
     <ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" alphatest="on" zPosition="-1" />
     <ePixmap position="30,108" size="1860,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="on" zPosition="3" />
     <ePixmap position="1700,35" pixmap="oDreamy-FHD/icons/select.png" size="89,60" alphatest="on" zPosition="2" />
-    <eLabel text="Menu" position="1800,25" size="100,50" font="Regular;28" backgroundColor="header" foregroundColor="#ffffff" transparent="1" zPosition="1" />
+    <eLabel text="MENU" position="1800,25" size="100,50" font="Regular;28" backgroundColor="header" foregroundColor="ltbluette" transparent="1" zPosition="1" />
     <eLabel text="Info" position="1800,60" size="100,50" font="Regular;28" backgroundColor="header" foregroundColor="#ffffff" transparent="1" zPosition="1" />
+    <widget name="textvod" position="1530,25" size="150,50" font="Regular;28" halign="right" backgroundColor="header" foregroundColor="ltbluette" transparent="1" zPosition="1" />
+    <widget name="key_vod" position="1455,60" size="225,32" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" />
     <widget source="Title" render="Label" position="140,25" size="1550,80" font="Regular;42" valign="center" noWrap="1" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
     <!-- Panel SatType -->
     <eLabel position="1176,135" size="710,413" backgroundColor="header" />
@@ -1147,74 +1149,6 @@
     <widget name="about" position="70,180" size="820,720" font="Regular;30" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
     <ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
   </screen>
-  <!-- Info About FHD -->
-  <screen name="AboutOE" title="Image Information" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="p800_Template" />
-		<panel name="p800_Ext" />
-		<panel name="p800_Date" />
-    <panel name="fakeExit" />
-    <panel name="I" />
-    <ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
-		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
-			<convert type="EGLayoutInfo">MemTotal</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="1335,800" size="500,26" halign="left" valign="center" font="Regular; 20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
-			<convert type="EGLayoutInfo">MemTotal</convert>
-		</widget>
-		<ePixmap position="1275,830" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/cpu.png" alphatest="blend" />
-		<widget source="session.Event_Now" render="Progress" position="1335,840" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
-			<convert type="CpuUsage">$0</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="1335,845" size="500,46" halign="left" valign="center" font="Regular; 20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
-			<convert type="CpuUsage">CPU Utilization:$0 (Core #1: $1, Core #2: $2)</convert>
-		</widget>
-		<ePixmap position="1275,887" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/flash.png" alphatest="blend" />
-		<widget source="session.Event_Now" render="Progress" position="1335,900" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
-			<convert type="EGLayoutInfo">FleshInfo</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="1335,910" size="500,26" halign="left" valign="center" font="Regular; 20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
-			<convert type="EGLayoutInfo">Flesh</convert>
-		</widget>
-    <ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
-    <widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-    <widget source="lab1" render="Label" position="70,165" size="820,80" font="Regular; 42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-    <widget name="AboutScrollLabel" position="70,230" size="1200,720" itemHeight="39" font="Regular;32" foregroundColor="#ffffff" backgroundColor="header" transparent="1" />
-    <ePixmap position="350,985" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-    <widget source="key_green" render="Label" position="400,955" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-    <!--<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" /> -->
-  </screen>
-  <!-- Info About FHD -->
-  <screen name="AboutOECommit" title="Image Information" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="p800_Template" />
-		<panel name="p800_Ext" />
-		<panel name="p800_Date" />
-    <panel name="nR" />
-    <ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
-    <widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
-      <convert type="EGLayoutInfo">MemTotal</convert>
-    </widget>
-    <widget source="session.CurrentService" render="Label" position="1335,800" size="500,26" halign="left" valign="center" font="Regular; 20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
-      <convert type="EGLayoutInfo">MemTotal</convert>
-    </widget>
-    <ePixmap position="1275,830" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/cpu.png" alphatest="blend" />
-    <widget source="session.Event_Now" render="Progress" position="1335,840" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
-      <convert type="CpuUsage">$0</convert>
-    </widget>
-    <widget source="session.CurrentService" render="Label" position="1335,845" size="500,46" halign="left" valign="center" font="Regular; 20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
-      <convert type="CpuUsage">CPU Utilization:$0 (Core #1: $1, Core #2: $2)</convert>
-    </widget>
-    <ePixmap position="1275,887" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/flash.png" alphatest="blend" />
-    <widget source="session.Event_Now" render="Progress" position="1335,900" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
-      <convert type="EGLayoutInfo">FleshInfo</convert>
-    </widget>
-    <widget source="session.CurrentService" render="Label" position="1335,910" size="500,26" halign="left" valign="center" font="Regular; 20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
-      <convert type="EGLayoutInfo">Flesh</convert>
-    </widget>
-    <widget name="HintText" render="Label" position="70,165" size="0,0" font="Regular; 42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-    <ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
-    <widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-    <widget name="AboutScrollLabel" position="70,180" size="1165,718" itemHeight="39" font="Regular;32" foregroundColor="#ffffff" backgroundColor="header" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
-  </screen>
   <!--Setup Configs FHD -->
   <screen name="Setup" title="Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p800_Template" />
@@ -1329,7 +1263,7 @@
   <screen name="ChannelContextMenu" title="Channel Context Menu" position="fill" backgroundColor="transparent" flags="wfNoBorder">
     <panel name="p700_Template" />
     <panel name="p700_Logo" />
-    <widget name="menu" position="70,180" size="725,600" itemHeight="40" font="Regular;40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
+    <widget name="menu" position="70,180" size="725,710" itemHeight="40" font="Regular;40" zPosition="2" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
     <ePixmap position="860,645" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" zPosition="2" />
     <ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
     <ePixmap position="800,975" size="90,60" pixmap="oDreamy-FHD/icons/select.png" alphatest="blend" zPosition="1" />
@@ -4093,11 +4027,12 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <widget name="list" position="30,120" size="840,350" font="Regular;30" itemHeight="40" transparent="1" />
     <applet type="onLayoutFinish">
 from enigma import eSize, ePoint
-if self.timerRunning:
-	titleheight = 10
+titleheight = 0
+if hasattr(self, 'timerRunning') and self.timerRunning:
+  titleheight = 10
 else:
-	titleheight = 0
-	self.setTitle("")
+  titleheight = 0
+  self.setTitle("")
 orgwidth = self.instance.size().width()
 orgheight = self.instance.size().height() + 10
 orgpos = self.instance.position()
