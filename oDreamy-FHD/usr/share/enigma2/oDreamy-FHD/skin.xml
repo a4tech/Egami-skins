@@ -4072,7 +4072,7 @@
     <widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
     <widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
     <eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
-    <widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8">
+    <widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="1">
       <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 32)],
