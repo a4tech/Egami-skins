@@ -73,7 +73,7 @@
     <parameter name="ServiceInfo" value="0,0,450,50" />
     <parameter name="ServiceInfoLeft" value="0,0,450,45" />
     <parameter name="ServiceInfoRight" value="450,0,1000,45" />
-    <parameter name="SelectionListDescr" value="55, 3, 1000, 50" />
+    <parameter name="SelectionListDescr" value="75, 3, 1000, 50" />
     <parameter name="SelectionListLock" value="10, 7, 50, 50" />
     <parameter name="VirtualKeyboard" value="60, 50" />
     <parameter name="PartnerBoxEntryListName" value="8, 2, 225, 38" />
@@ -3859,8 +3859,9 @@
     <panel name="p800_Date" />
     <panel name="nR" />
     <ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-    <widget name="list" position="70,180" size="840,720" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" font="Regular;32" itemHeight="45" transparent="1" enableWrapAround="1" zPosition="5" />
-    <widget name="choosen" position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" halign="left" foregroundColor="red" backgroundColor="bluette" transparent="1" zPosition="5" />
+    <ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2" />
+    <widget name="list" position="70,180" size="840,720" scrollbarMode="showOnDemand" font="Regular;30" transparent="1" enableWrapAround="1" zPosition="5" />
+    <widget name="choosen" position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" halign="left" foregroundColor="red" backgroundColor="bluette" transparent="1" zPosition="5" />
     <widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="bluette" transparent="1" zPosition="5" />
     <ePixmap position="960,640" size="2560,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
     <ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
@@ -3874,8 +3875,8 @@
     <panel name="nR" />
     <ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
     <ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2" />
-    <widget name="list" position="70,180" size="820,720" scrollbarMode="showOnDemand" font="Regular;32" itemHeight="45" transparent="1" enableWrapAround="1" zPosition="5" />
-    <widget name="choosen" position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" halign="left" foregroundColor="red" backgroundColor="bluette" transparent="1" zPosition="5" />
+    <widget name="list" position="70,180" size="820,720" scrollbarMode="showOnDemand" font="Regular;30" transparent="1" enableWrapAround="1" zPosition="5" />
+    <widget name="choosen" position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" halign="left" foregroundColor="red" backgroundColor="bluette" transparent="1" zPosition="5" />
     <widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="bluette" transparent="1" zPosition="5" />
     <ePixmap position="960,640" size="2560,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
     <ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
