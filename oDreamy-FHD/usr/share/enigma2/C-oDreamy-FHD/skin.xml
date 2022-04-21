@@ -56,52 +56,52 @@
 		<alias name="MenuList"                  font="Regular" size="28" height="50"/>
 	</fonts>
 	<parameters>
-		<parameter name="ConfigListSeperator" value="500" />
-		<parameter name="ChoicelistDash" value="0,3,1000,50" />
-		<parameter name="ChoicelistName" value="85,3,1000,50" />
-		<parameter name="ChoicelistIcon" value="10,4,64,50" />
-		<parameter name="FileListName" value="68,4,1000,50" />
-		<parameter name="FileListIcon" value="7,4,52,50" />
-		<parameter name="FileListMultiName" value="90,3,1000,50" />
-		<parameter name="FileListMultiIcon" value="45, 4, 50, 50" />
-		<parameter name="FileListMultiLock" value="2,0,50,50" />
-		<parameter name="PluginBrowserName" value="180,8,38" />
-		<parameter name="PluginBrowserDescr" value="180,42,25" />
-		<parameter name="PluginBrowserIcon" value="15,8,150,60" />
-		<parameter name="PluginBrowserDownloadName" value="120,8,38" />
-		<parameter name="PluginBrowserDownloadDescr" value="120,42,25" />
-		<parameter name="PluginBrowserDownloadIcon" value="15,0,90,76" />
-		<parameter name="ServiceInfo" value="0,0,450,50" />
-		<parameter name="ServiceInfoLeft" value="0,0,450,45" />
-		<parameter name="ServiceInfoRight" value="450,0,1000,45" />
-		<parameter name="SelectionListDescr" value="55, 3, 1000, 50" />
-		<parameter name="SelectionListLock" value="10, 7, 50, 50" />
-		<parameter name="VirtualKeyboard" value="60, 50" />
-		<parameter name="PartnerBoxEntryListName" value="8, 2, 225, 38" />
-		<parameter name="PartnerBoxEntryListIP" value="180, 2, 225, 38" />
-		<parameter name="PartnerBoxEntryListPort" value="405, 2, 150, 38" />
-		<parameter name="PartnerBoxEntryListType" value="615, 2, 150, 38" />
-		<parameter name="PartnerBoxTimerServicename" value="0, 0, 45" />
-		<parameter name="PartnerBoxTimerName" value="0, 42, 30" />
-		<parameter name="PartnerBoxE1TimerTime" value="0, 78, 255, 30" />
-		<parameter name="PartnerBoxE1TimerState" value="255, 78, 255, 30" />
-		<parameter name="PartnerBoxE2TimerTime" value="0, 78, 225, 30" />
-		<parameter name="PartnerBoxE2TimerState" value="225, 78, 225, 30" />
-		<parameter name="PartnerBoxE2TimerIcon" value="735, 8, 60, 60" />
-		<parameter name="PartnerBoxBouquetListName" value="0, 0, 45" />
-		<parameter name="PartnerBoxChannelListName" value="0, 0, 45" />
-		<parameter name="PartnerBoxChannelListTitle" value="0, 42, 30" />
-		<parameter name="PartnerBoxChannelListTime" value="0, 78, 225, 30" />
-		<parameter name="HelpMenuListHlp" value="0, 0, 900, 42" />
-		<parameter name="HelpMenuListExtHlp0" value="0, 0, 900, 39" />
-		<parameter name="HelpMenuListExtHlp1" value="0, 42, 900, 30" />
-		<parameter name="AboutHddSplit" value="1" />
-		<parameter name="DreamexplorerName" value="62, 0, 1200, 38" />
-		<parameter name="DreamexplorerIcon" value="15, 4, 30, 30" />
-		<parameter name="PicturePlayerThumb" value="30, 285, 45, 300, 30, 25" />
-		<parameter name="PlayListName" value="65,2,1000,50" />
-		<parameter name="PlayListIcon" value="10,0,50,50" />
-	</parameters>
+    <parameter name="ConfigListSeperator" value="500" />
+    <parameter name="ChoicelistDash" value="0,3,1000,50" />
+    <parameter name="ChoicelistName" value="85,3,1000,50" />
+    <parameter name="ChoicelistIcon" value="10,4,64,50" />
+    <parameter name="FileListName" value="68,4,1000,50" />
+    <parameter name="FileListIcon" value="7,4,52,50" />
+    <parameter name="FileListMultiName" value="90,3,1000,50" />
+    <parameter name="FileListMultiIcon" value="45, 4, 50, 50" />
+    <parameter name="FileListMultiLock" value="2,0,50,50" />
+    <parameter name="PluginBrowserName" value="180,8,38" />
+    <parameter name="PluginBrowserDescr" value="180,42,25" />
+    <parameter name="PluginBrowserIcon" value="15,8,150,60" />
+    <parameter name="PluginBrowserDownloadName" value="120,8,38" />
+    <parameter name="PluginBrowserDownloadDescr" value="120,42,25" />
+    <parameter name="PluginBrowserDownloadIcon" value="15,0,90,76" />
+    <parameter name="ServiceInfo" value="0,0,450,50" />
+    <parameter name="ServiceInfoLeft" value="0,0,450,45" />
+    <parameter name="ServiceInfoRight" value="450,0,1000,45" />
+    <parameter name="SelectionListDescr" value="75, 3, 1000, 50" />
+    <parameter name="SelectionListLock" value="10, 7, 50, 50" />
+    <parameter name="VirtualKeyboard" value="60, 50" />
+    <parameter name="PartnerBoxEntryListName" value="8, 2, 225, 38" />
+    <parameter name="PartnerBoxEntryListIP" value="180, 2, 225, 38" />
+    <parameter name="PartnerBoxEntryListPort" value="405, 2, 150, 38" />
+    <parameter name="PartnerBoxEntryListType" value="615, 2, 150, 38" />
+    <parameter name="PartnerBoxTimerServicename" value="0, 0, 45" />
+    <parameter name="PartnerBoxTimerName" value="0, 42, 30" />
+    <parameter name="PartnerBoxE1TimerTime" value="0, 78, 255, 30" />
+    <parameter name="PartnerBoxE1TimerState" value="255, 78, 255, 30" />
+    <parameter name="PartnerBoxE2TimerTime" value="0, 78, 225, 30" />
+    <parameter name="PartnerBoxE2TimerState" value="225, 78, 225, 30" />
+    <parameter name="PartnerBoxE2TimerIcon" value="735, 8, 60, 60" />
+    <parameter name="PartnerBoxBouquetListName" value="0, 0, 45" />
+    <parameter name="PartnerBoxChannelListName" value="0, 0, 45" />
+    <parameter name="PartnerBoxChannelListTitle" value="0, 42, 30" />
+    <parameter name="PartnerBoxChannelListTime" value="0, 78, 225, 30" />
+    <parameter name="HelpMenuListHlp" value="0, 0, 900, 42" />
+    <parameter name="HelpMenuListExtHlp0" value="0, 0, 900, 39" />
+    <parameter name="HelpMenuListExtHlp1" value="0, 42, 900, 30" />
+    <parameter name="AboutHddSplit" value="1" />
+    <parameter name="DreamexplorerName" value="62, 0, 1200, 38" />
+    <parameter name="DreamexplorerIcon" value="15, 4, 30, 30" />
+    <parameter name="PicturePlayerThumb" value="30, 285, 45, 300, 30, 25" />
+    <parameter name="PlayListName" value="65,2,1000,50" />
+    <parameter name="PlayListIcon" value="10,0,50,50" />
+  </parameters>
 	<!-- Colors FHD -->
 	<colors>
 		<color name="background" value="#20000000"/>
@@ -4283,37 +4283,35 @@
 		<!--eLabel name="DEBUG" text="S272" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- Button Setup FHD -->
-	<screen name="HotkeySetup" position="fill" title="Hotkey Setup" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_Ext"/>
-		<panel name="p800_Date" />
-		<panel name="nR"/>
-		<ePixmap position="1440,180" size="256,256" pixmap="/usr/share/enigma2/oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<ePixmap position="900,180" size="10,720" pixmap="/usr/share/enigma2/oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2"/>
-		<widget name="list" position="70,180" size="840,720" scrollbarMode="showOnDemand" font="Regular;30" transparent="1" enableWrapAround="1" zPosition="5" />
-		<widget name="choosen"     position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" halign="left" foregroundColor="red" backgroundColor="bluette" transparent="1" zPosition="5" />
-		<widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="bluette" transparent="1" zPosition="5" />
-		<ePixmap position="960,640" size="2560,256" pixmap="/usr/share/enigma2/oDreamy-FHD/menu/input.png" alphatest="blend"/>
-		<ePixmap position="1270,38" size="200,90" pixmap="/usr/share/enigma2/oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="S273" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
-	</screen>
-	<!-- Button Setup FHD -->
-	<screen name="HotkeySetupSelect" title="Hotkey Setup Select" position="fill" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_Ext"/>
-		<panel name="p800_Date" />
-		<panel name="nR"/>
-		<ePixmap position="1440,180" size="256,256" pixmap="/usr/share/enigma2/oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<ePixmap position="900,180" size="10,720" pixmap="/usr/share/enigma2/oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2"/>
-		<widget name="list" position="70,180" size="820,720" scrollbarMode="showOnDemand" font="Regular;30" transparent="1" enableWrapAround="1" zPosition="5" />
-		<widget name="choosen"     position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" halign="left" foregroundColor="red" backgroundColor="bluette" transparent="1" zPosition="5" />
-		<widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="bluette" transparent="1" zPosition="5" />
-		<ePixmap position="960,640" size="2560,256" pixmap="/usr/share/enigma2/oDreamy-FHD/menu/input.png" alphatest="blend"/>
-		<ePixmap position="1270,38" size="200,90" pixmap="/usr/share/enigma2/oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="S274" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
-	</screen>
+  <screen name="HotkeySetup" position="fill" title="Hotkey Setup" backgroundColor="transparent" flags="wfNoBorder">
+    <panel name="p800_Template" />
+    <panel name="p800_Logo" />
+    <panel name="p800_Ext" />
+    <panel name="p800_Date" />
+    <panel name="nR" />
+    <ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
+    <ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2" />
+    <widget name="list" position="70,180" size="840,720" scrollbarMode="showOnDemand" font="Regular;30" transparent="1" enableWrapAround="1" zPosition="5" />
+    <widget name="choosen" position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" halign="left" foregroundColor="red" backgroundColor="bluette" transparent="1" zPosition="5" />
+    <widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="bluette" transparent="1" zPosition="5" />
+    <ePixmap position="960,640" size="2560,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
+    <ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
+  </screen>
+  <!-- Button Setup FHD -->
+  <screen name="HotkeySetupSelect" title="Hotkey Setup Select" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+    <panel name="p800_Template" />
+    <panel name="p800_Logo" />
+    <panel name="p800_Ext" />
+    <panel name="p800_Date" />
+    <panel name="nR" />
+    <ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
+    <ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2" />
+    <widget name="list" position="70,180" size="820,720" scrollbarMode="showOnDemand" font="Regular;30" transparent="1" enableWrapAround="1" zPosition="5" />
+    <widget name="choosen" position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" halign="left" foregroundColor="red" backgroundColor="bluette" transparent="1" zPosition="5" />
+    <widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="bluette" transparent="1" zPosition="5" />
+    <ePixmap position="960,640" size="2560,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
+    <ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
+  </screen>
 	<!-- Input Device Selection FHD -->
 	<screen name="InputDeviceSelection" title="Select input device" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
