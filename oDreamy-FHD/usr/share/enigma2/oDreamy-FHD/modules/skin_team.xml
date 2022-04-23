@@ -1,6 +1,4 @@
 <skin>
-	<!-- openDreamy v1.0 skin, based on Dreamy by mmark (E2skin.blogspot.com) -->
-	<!-- This skin is a Freeware. Everyone can modify and use it in other images -->
 	<!-- !!!!!!! BUT DO NOT REMOVE OR CHANGE THIS DISCLAIMER !!!!!!! -->
 	<!-- Do whatever you want with this skin,but don't tell it's yours, or your idea -->
 	<!--    and leave the credentials in the "About-box" as they are -->
@@ -16,7 +14,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL01" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL OSD 3D Setup -->
@@ -31,7 +29,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL02" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Video Setup -->
@@ -46,7 +44,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL03" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- O-ATV LED GigaBlue Setup -->
@@ -74,7 +72,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="60,35" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
 		</widget>
@@ -92,7 +90,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL05" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPGEnhanced Setup -->
@@ -107,7 +105,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL06" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPG Infobar Setup -->
@@ -122,7 +120,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL07" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPG Infobar Graphical Setup -->
@@ -137,7 +135,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL08" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPG Graphical Setup -->
@@ -152,7 +150,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL09" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL SubTitle Setup -->
@@ -167,7 +165,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL10" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL DVDPlayer Setup -->
@@ -182,7 +180,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL11" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Logs Setup -->
@@ -197,7 +195,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL12" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Time Setup -->
@@ -212,7 +210,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="60,35" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
 		</widget>
@@ -230,7 +228,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL14" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Recording Setup -->
@@ -245,7 +243,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL15" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL TimeShift Setup -->
@@ -260,7 +258,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL16" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Special Features Setup -->
@@ -275,7 +273,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL17" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Display Setup -->
@@ -290,7 +288,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL18" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Channel Selection Setup -->
@@ -305,7 +303,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL19" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Usage Setup -->
@@ -320,7 +318,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL20" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Remote Setup -->
@@ -335,7 +333,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL21" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL AutoLanguage Setup -->
@@ -350,7 +348,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL22" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL HardDisk Setup -->
@@ -365,7 +363,7 @@
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<!--eLabel name="DEBUG" text="ALL23" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI SCREENS FHD -->
@@ -476,16 +474,16 @@
 		<ePixmap pixmap="oDreamy-FHD/menu/devices.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="lab1" position="70,180" size="820,60" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" >
-		      <convert type="TemplatedMultiContent">
-			      {"template": [
-					      MultiContentEntryText(pos = (100, 2), size = (800, 50), font=0, color=0x3589ff, text = 0),
-					      MultiContentEntryText(pos = (120, 45), size = (780, 70), font=1, flags = RT_VALIGN_TOP, text = 1),
-					      MultiContentEntryPixmapAlphaTest(pos = (0, 5), size = (100, 100), png = 2),
-				      ],
-				      "fonts": [gFont("Regular", 32),gFont("Regular", 26)],
-				      "itemHeight": 120
-			      }
-		      </convert>
+					<convert type="TemplatedMultiContent">
+						{"template": [
+								MultiContentEntryText(pos = (100, 2), size = (800, 50), font=0, color=0x3589ff, text = 0),
+								MultiContentEntryText(pos = (120, 45), size = (780, 70), font=1, flags = RT_VALIGN_TOP, text = 1),
+								MultiContentEntryPixmapAlphaTest(pos = (0, 5), size = (100, 100), png = 2),
+							],
+							"fonts": [gFont("Regular", 32),gFont("Regular", 26)],
+							"itemHeight": 120
+						}
+					</convert>
 		</widget>
 		<!--eLabel name="DEBUG" text="EG09" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
@@ -529,7 +527,7 @@
 		<!--eLabel name="DEBUG" text="EG012" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel FHD -->
-    <!-- Modified for new icons -->
+		<!-- Modified for new icons -->
 	<screen name="EGAMIBackupPanel_Step3" position="center,center" size="550,300" title="EGAMI Backup in progress..." flags="wfNoBorder">
 		<widget name="status" position="0,0" size="550,300" zPosition="-1"
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png
@@ -845,7 +843,7 @@
 		<!--eLabel name="DEBUG" text="EG33" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Animation FHD -->
-    <!-- Modified for new icons -->
+		<!-- Modified for new icons -->
 	<screen name="EGConnectionAnimation" position="center,100" size="550,300" backgroundColor="header" title="EGAMI" flags="wfNoBorder">
 		<widget name="connect" position="0,20" size="550,227" zPosition="-1" transparent="1"
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" alphatest="blend" />
@@ -853,10 +851,10 @@
 		<!--eLabel name="DEBUG" text="EG34" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Permanent Clock FHD -->
-  <screen name="EGPermanentClock" position="1650,40" size="200,90" flags="wfNoBorder" title="Egami Permanent Clock" backgroundColor="#55000000" >
-    <widget source="global.CurrentTime" render="Label" position="10,10" size="180,50" font="LCD;40" foregroundColor="#d0d0d0" valign="center" halign="center" transparent="1" >
-      <convert type="ClockToText">Default</convert>
-    </widget>
+	<screen name="EGPermanentClock" position="1650,40" size="200,90" flags="wfNoBorder" title="Egami Permanent Clock" backgroundColor="#55000000" >
+		<widget source="global.CurrentTime" render="Label" position="10,10" size="180,50" font="LCD;40" foregroundColor="#d0d0d0" valign="center" halign="center" transparent="1" >
+			<convert type="ClockToText">Default</convert>
+		</widget>
 		<!--eLabel name="DEBUG" text="EG35" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI News Updates FHD -->
@@ -958,7 +956,7 @@
 		<ePixmap position="70,150" zPosition="3" size="120,157" pixmap="oDreamy-FHD/icons/emupic.png" alphatest="blend" transparent="1" />
 		<widget name="choose_cam"  position="180,180" size="710,40" font="Regular;30" halign="center" valign="center" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget name="config"      position="180,250" size="710,40" font="Regular;30" itemHeight="40" transparent="1" zPosition="2" />
- 		<eLabel text="OK to Start" position="680,250" size="200,40" font="Regular;30" halign="right" valign="center" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="2"/>
+		 <eLabel text="OK to Start" position="680,250" size="200,40" font="Regular;30" halign="right" valign="center" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="2"/>
 		<eLabel position="180,305" size="710,1" backgroundColor="#10404040" zPosition="2"/>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/lan.png" position="70,330" size="140,140" zPosition="2" scale="1" alphatest="blend" transparent="1">
 			<convert type="RouteInfo">Lan</convert>
@@ -1120,13 +1118,13 @@
 	</screen>
 	<!--  EGAMI Skin Menu -->
 	<screen name="UserSkin_Menu" position="fill" title="" backgroundColor="transparent" flags="wfNoBorder">
-  	<panel name="p700_Template" />
+		<panel name="p700_Template" />
 		<panel name="p700_Date" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="830,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/box/maxbargh.png" position="805,180" size="15,720" alphatest="blend" zPosition="5" />
 		<widget source="list" render="Listbox" position="45,180" size="775,720" scrollbarMode="showOnDemand" transparent="1" zPosition="1" foregroundColor="#707070" foregroundColorSelected="#ffffff" backgroundColor="#272e43" backgroundColorSelected="#272e43" selectionPixmap="box/slider72.png" backgroundPixmap="box/sliderb.png">
- 			<convert type="TemplatedMultiContent">
+			 <convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryPixmapAlphaTest(pos = (25, 10), size = (40, 40), png = 0),
 				MultiContentEntryText(pos = (90, 0), size = (800, 60), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
@@ -1158,13 +1156,13 @@
 		<!--eLabel name="DEBUG" text="EG51" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  IpTV Player -->
-  <screen name="ConfigMenu" title="IPTV Player - ustawienia" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="sRG" />
-    <panel name="p1800_Template" />
-    <panel name="p800_DateMid" />
-    <widget name="config" position="70,180" size="1165,720" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+	<screen name="ConfigMenu" title="IPTV Player - ustawienia" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="sRG" />
+		<panel name="p1800_Template" />
+		<panel name="p800_DateMid" />
+		<widget name="config" position="70,180" size="1165,720" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<eLabel position="50,30" size="1200,96" backgroundColor="#201b3c85" zPosition="-1" />
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
@@ -1180,12 +1178,12 @@
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="ConfigHostsMenu" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="sRG" />
+		<panel name="sRG" />
 		<panel name="p1800_Template" />
 		<panel name="p800_DateMid" />
-    <widget name="config" position="70,180" size="1165,720" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
+		<widget name="config" position="70,180" size="1165,720" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
 		<eLabel position="50,30" size="1200,96" backgroundColor="#201b3c85" zPosition="-1" />
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
@@ -1201,11 +1199,11 @@
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="IPTVDMWidget" title="IPTV Player download manager" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-    <panel name="sRGYB" />
-    <panel name="p1800_Template" />
-    <panel name="p800_DateMid" />
-    <widget name="titel" position="70,160" size="820,40" font="Regular;30" backgroundColor="bluette" transparent="0" zPosition="1" />
-    <widget name="list" position="70,220" size="1165,700" font="Regular;28" itemHeight="70" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="sRGYB" />
+		<panel name="p1800_Template" />
+		<panel name="p800_DateMid" />
+		<widget name="titel" position="70,160" size="820,40" font="Regular;30" backgroundColor="bluette" transparent="0" zPosition="1" />
+		<widget name="list" position="70,220" size="1165,700" font="Regular;28" itemHeight="70" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<eLabel position="50,30" size="1200,96" backgroundColor="#201b3c85" zPosition="-1" />
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
@@ -1226,9 +1224,9 @@
 		<panel name="p800_DateMid" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-    <widget name="list" position="70,210" size="820,720" font="Regular;30" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
-    <widget name="sub_title" position="70,160" size="1160,30" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" halign="left" valign="center" transparent="1" zPosition="1" />
-    <widget name="console" position="1047,476" size="550,426" font="Regular;23" foregroundColor="white" backgroundColor="background" transparent="1" enableWrapAround="1" zPosition="1" />
+		<widget name="list" position="70,210" size="820,720" font="Regular;30" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="sub_title" position="70,160" size="1160,30" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" halign="left" valign="center" transparent="1" zPosition="1" />
+		<widget name="console" position="1047,476" size="550,426" font="Regular;23" foregroundColor="white" backgroundColor="background" transparent="1" enableWrapAround="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="EG55" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
@@ -1241,7 +1239,7 @@
 		<widget source="title" render="Label" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-    <widget name="list" position="70,180" size="820,720" font="Regular;30" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="list" position="70,180" size="820,720" font="Regular;30" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
 		<!--eLabel name="DEBUG" text="EG56" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
@@ -1254,7 +1252,7 @@
 		<panel name="sRG" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-    <widget name="config" position="70,180" size="820,720" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<!--eLabel name="DEBUG" text="EG57" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  Egami MultiBoot -->
@@ -1265,9 +1263,9 @@
 		<panel name="sRGY" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-    <widget source="config" render="Label" position="70,180" size="830,50" halign="left" transparent="1" font="Regular; 34" backgroundColor="#00000000" foregroundColor="blue" />
-    <widget source="options" render="Label" position="70,240" size="830,35" halign="left" transparent="1" font="Regular; 28" backgroundColor="#00000000" foregroundColor="grey" />
-    <widget name="description" position="70,300" size="830,26" transparent="1" font="Regular; 24" foregroundColor="#00ffffff" halign="left" backgroundColor="#00000000" valign="grey" />
+		<widget source="config" render="Label" position="70,180" size="830,50" halign="left" transparent="1" font="Regular; 34" backgroundColor="#00000000" foregroundColor="blue" />
+		<widget source="options" render="Label" position="70,240" size="830,35" halign="left" transparent="1" font="Regular; 28" backgroundColor="#00000000" foregroundColor="grey" />
+		<widget name="description" position="70,300" size="830,26" transparent="1" font="Regular; 24" foregroundColor="#00ffffff" halign="left" backgroundColor="#00000000" valign="grey" />
 		<ePixmap pixmap="oDreamy-FHD/menu/startboot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG58" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
@@ -1313,17 +1311,17 @@
 			<convert type="EGLayoutInfo">UsbInfo</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="1336,455" size="500,26" halign="left" valign="center" font="Regular; 20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
-		  <convert type="EGLayoutInfo">UsbInfo</convert>
+			<convert type="EGLayoutInfo">UsbInfo</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="1280,540" size="500,100" font="Regular;30" backgroundColor="#10000000" foregroundColor="ltbluette" transparent="1" zPosition="99">
-      <convert type="EGStbInfo">All</convert>
-    </widget>
-    <ePixmap pixmap="oDreamy-FHD/menu/info_screen.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
+			<convert type="EGStbInfo">All</convert>
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/menu/info_screen.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget source="session.CurrentService" render="Label" position="650,980" size="800,35" halign="left" valign="center" font="Regular; 32" transparent="1" foregroundColor="ltbluette" backgroundColor="header" zPosition="6">
 			<convert type="EGBoxInfo">Uptime</convert>
 		</widget>
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-    <!--eLabel name="DEBUG" text="EG59" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG59" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="j00zekBouquets" position="fill" title="j00zekBouquets @j00zek" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -1333,7 +1331,7 @@
 		<widget name="config" font="Regular; 28" itemHeight="44" position="60,180" size="840,720" scrollbarMode="showOnDemand"/>
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-    <!--eLabel name="DEBUG" text="EG60" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG60" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="GOSconsole" position="fill" title="Command execution..." backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -1342,7 +1340,7 @@
 		<widget name="text" position="70,180" size="840,720" font="Console;22"/>
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-    <!--eLabel name="DEBUG" text="EG61" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG61" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Master" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1359,7 +1357,7 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-    <!--eLabel name="DEBUG" text="EG62" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG62" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Seto" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1376,7 +1374,7 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-    <!--eLabel name="DEBUG" text="EG63" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG63" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="HSWG" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1393,7 +1391,7 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-    <!--eLabel name="DEBUG" text="EG64" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG64" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Fk" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1410,7 +1408,7 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-    <!--eLabel name="DEBUG" text="EG65" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG65" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="K80" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1427,7 +1425,7 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-    <!--eLabel name="DEBUG" text="EG66" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG66" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Ritcher" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1444,7 +1442,7 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-    <!--eLabel name="DEBUG" text="EG67" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG67" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Djcrash" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1467,7 +1465,7 @@
 		<widget name="newVersion4x" position="330,480" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion20x" position="580,480" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-    <!--eLabel name="DEBUG" text="EG68" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG68" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="MasterPicon" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1484,6 +1482,6 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-    <!--eLabel name="DEBUG" text="EG69" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
+		<!--eLabel name="DEBUG" text="EG69" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 </skin>

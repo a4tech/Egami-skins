@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <skin>
 	<!--
-	################### mmark_openDreamy Templates v.1.0 ####################
-	#                                                                       #
-	#      mmark             Version 2.0.0 released          30-07-2016     #
-	#                                                                       #
-	#########################################################################
+	################### mmark_openDreamy Templates ####################
+	#                                                                 #
+	#      mmark          Version 2.0.0 released       mod madhouse   #
+	#                                                                 #
+	###################################################################
 	-->
 	<!-- openDreamy v1.0 skin, based on Dreamy by mmark (E2skin.blogspot.com) -->
 	<!-- This skin is a Freeware. Everyone can modify and use it in other images -->
 	<!-- !!!!!!! BUT DO NOT REMOVE OR CHANGE THIS DISCLAIMER !!!!!!! -->
 	<!-- Do whatever you want with this skin,but don't tell it's yours, or your idea -->
-	<!--    and leave the credentials in the "About-box" as they are -->
 
 	<!-- iptv  -->
 	<screen name="iptv_png">
@@ -288,17 +286,17 @@
 		<panel name="p700_Template_black" />
 		<panel name="menu_sort_bl" />
 		<!-- menu list -->
-		<ePixmap position="830,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
-		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarMode="showAlways" enableWrapAround="1" transparent="1" zPosition="1"
+		<ePixmap position="830,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" transparent="1" zPosition="1" />
+		<widget source="menu" render="Listbox" position="53,180" size="760,720" transparent="1" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1"
 			foregroundColor="grey" foregroundColorSelected="#ffffff" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" >
- 			<convert type="TemplatedMultiContent">
- 				{"template": [ MultiContentEntryText(pos = (110, 10), size = (680, 65), flags = RT_HALIGN_LEFT, text = 0),
- 				MultiContentEntryPixmapAlphaBlend(pos=(25,3),size=(56,56),png=5,)],
- 				"fonts": [gFont("Regular", 38)],
- 				"itemHeight": 60
- 				}
- 			</convert>
- 		</widget>
+			 <convert type="TemplatedMultiContent">
+				 {"template": [ MultiContentEntryText(pos = (110, 10), size = (680, 65), flags = RT_HALIGN_LEFT, text = 0),
+				 MultiContentEntryPixmapAlphaBlend(pos=(25,3),size=(56,56),png=5,)],
+				 "fonts": [gFont("Regular", 38)],
+				 "itemHeight": 60
+				 }
+			 </convert>
+		 </widget>
 	</screen>
 
 	<!-- Button Templates Menu Sort -->
