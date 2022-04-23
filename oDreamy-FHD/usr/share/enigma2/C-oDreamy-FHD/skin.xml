@@ -1063,7 +1063,7 @@
 	</screen>
 	<!-- Channel Selection PIG FHD -->
 	<screen name="ChannelSelection" position="fill" size="1920,1080" title="Channel Selection" flags="wfNoBorder">
-		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" alphatest="on" zPosition="-1" />
+		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/box/chbc.jpg" alphatest="on" zPosition="-1" />
 		<ePixmap position="30,108" size="1860,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="1690,35" pixmap="oDreamy-FHD/icons/select.png"  size="89,60" alphatest="blend" zPosition="2" />
 		<widget name="textvod" position="1530,25" size="150,50" font="Regular;28" halign="right" backgroundColor="header" foregroundColor="ltbluette" transparent="1" zPosition="1" />
