@@ -501,7 +501,7 @@
 	</screen>
 	<!--  EGAMI Backup Panel FHD -->
 	<screen name="EGAMIBackupPanel" position="fill" title="EGAMI Image Backup Panel - STEP 1" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="nRGY" />
@@ -509,7 +509,7 @@
 		<widget name="label2" position="70,240" size="820,40" zPosition="1" halign="center" font="Regular;30" foregroundColor="white"     backgroundColor="header" transparent="1"/>
 		<widget name="label3" position="70,300" size="820,40" zPosition="1" halign="center" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1"/>
 		<eLabel position="70,340" size="820,1" backgroundColor="#10303030" zPosition="2"/>
-		<widget name="list" position="70,360" size="820,450" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1"/>
+		<widget name="list" position="70,360" size="820,495" font="Regular;30" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG11" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
@@ -522,46 +522,47 @@
 		<widget name="label1" position="70,180" size="820,40"  zPosition="1" halign="center" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1"/>
 		<widget name="label2" position="70,240" size="820,120" zPosition="1" halign="center" font="Regular;30" foregroundColor="white"     backgroundColor="header" transparent="1"/>
 		<eLabel position="70,400" size="540,1" backgroundColor="#10303030" zPosition="2"/>
-		<widget name="config" position="70,430" size="820,450" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1"/>
+		<widget name="config" position="70,430" size="820,450" font="Regular;30" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG012" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel FHD -->
 		<!-- Modified for new icons -->
 	<screen name="EGAMIBackupPanel_Step3" position="center,center" size="550,300" title="EGAMI Backup in progress..." flags="wfNoBorder">
-		<widget name="status" position="0,0" size="550,300" zPosition="-1"
+		<eLabel position="0,0" size="550,300" backgroundColor="header" zPosition="1" />
+		<widget name="status" position="center,center" size="550,227" zPosition="2"
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png
-			,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" />
-		<widget name="label" position="55,165" halign="center" size="460,60" zPosition="1" font="Regular;30" valign="top" transparent="1" />
+			,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" transparent="1" alphatest="blend" />
+		<widget name="label" position="0,245" halign="center" size="550,60" foregroundColor="ltbluette" font="Regular;30" valign="top" zPosition="2" transparent="1" />
 		<!--eLabel name="DEBUG" text="EG13" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel Step 2 FHD -->
 	<screen name="EGAMIRestorePanel_Step1" position="fill" title="EGAMI Image Restore Panel - STEP 1" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="nRG" />
-		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget name="config" position="70,180" size="840,720" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" zPosition="3"/>
+		<widget name="config" position="70,180" size="840,720" font="Regular;30" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="3"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/ico_storage.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG14" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel Step 3 FHD -->
 	<!-- Modified for new icons -->
-	<screen name="EGAMIRestorePanel_Step2" position="center,center" size="700,400" title="EGAMI Restore in progress..." >
-		<widget name="status" position="85,30" size="550,300" zPosition="-1"
+	<screen name="EGAMIRestorePanel_Step2" position="center,center" size="700,300" title="EGAMI Restore in progress..." >
+		<eLabel position="0,0" size="700,300" backgroundColor="header" zPosition="1" />
+		<widget name="status" position="85,30" size="550,227" zPosition="2"
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png,
-			oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" />
-		<widget name="label" position="10,340" halign="center" size="680,100" font="Regular;30" valign="top" transparent="1" zPosition="1" />
+			oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" transparent="1" alphatest="blend" />
+		<widget name="label" position="0,245" halign="center" size="700,60" foregroundColor="ltbluette" font="Regular;30" valign="top" transparent="1" zPosition="2" />
 		<!--eLabel name="DEBUG" text="EG15" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Full Backup Panel FHD -->
 	<screen name="EGFullBackup" position="fill" title="EGAMI Full Image Backup Panel - STEP 1" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nRG" />
-		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1"/>
+		<panel name="sRG" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG16" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
