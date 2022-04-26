@@ -849,7 +849,6 @@
 		<widget name="connect" position="center,230" size="680,281" zPosition="2" transparent="1"
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" alphatest="blend" />
 		<widget name="lab1" position="0,510" halign="center" size="1920,100" zPosition="3" backgroundColor="header" foregroundColor="ltbluette" font="Regular;63" valign="top" transparent="1" />
-		<widget name="image_stb" position="center,600" alphatest="blend" size="500,165" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/egami/bar_center.png" position="center,505" size="1186,86" transparent="1" zPosition="1" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG34" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
