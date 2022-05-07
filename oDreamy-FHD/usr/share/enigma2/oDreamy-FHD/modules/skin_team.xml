@@ -529,8 +529,7 @@
 	<!--  EGAMI Backup Panel FHD -->
 	<screen name="EGAMIBackupPanel_Step3" position="0,0" size="1920,1080" title="EGAMI Backup in progress..." backgroundColor="transparent" flags="wfNoBorder">
 		<widget name="status" position="center,225" size="680,281" zPosition="2" transparent="1"
-			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png
-			,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" alphatest="blend" />
+			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png" alphatest="blend" />
 		<widget name="label" position="0,510" halign="center" size="1920,100" zPosition="3" backgroundColor="header" foregroundColor="ltbluette" font="Regular;63" valign="top" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/egami/bar_center.png" position="center,220" size="1186,372" transparent="1" zPosition="1" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG13" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
@@ -548,8 +547,7 @@
 	<!--  EGAMI Backup Panel Step 3 FHD -->
 	<screen name="EGAMIRestorePanel_Step2" position="0,0" size="1920,1080" title="EGAMI Restore in progress..." backgroundColor="transparent" flags="wfNoBorder" >
 		<widget name="status" position="center,225" size="680,281" zPosition="2" transparent="1"
-			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png
-			,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" alphatest="blend" />
+			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png" alphatest="blend" />
 		<widget name="label" position="0,510" halign="center" size="1920,100" zPosition="3" backgroundColor="header" foregroundColor="ltbluette" font="Regular;63" valign="top" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/egami/bar_center.png" position="center,220" size="1186,372" transparent="1" zPosition="1" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG15" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
@@ -845,7 +843,7 @@
 		<!-- Modified for new icons -->
 	<screen name="EGConnectionAnimation" position="0,0" size="1920,1080" title="EGAMI" backgroundColor="transparent" flags="wfNoBorder">
 		<widget name="connect" position="center,225" size="680,281" zPosition="2" transparent="1"
-			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_4.png,oDreamy-FHD/egami/connection_5.png,oDreamy-FHD/egami/connection_6.png" alphatest="blend" />
+			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png" alphatest="blend" />
 		<widget name="lab1" position="0,510" halign="center" size="1920,100" zPosition="3" backgroundColor="header" foregroundColor="ltbluette" font="Regular;63" valign="top" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/egami/bar_center.png" position="center,220" size="1186,372" transparent="1" zPosition="1" alphatest="blend" />
 		<!--eLabel name="DEBUG" text="EG34" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
