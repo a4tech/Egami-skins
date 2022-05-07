@@ -1010,7 +1010,7 @@
 		</widget>
 	</screen>
 	<!-- Timeshift state -->
-  <screen name="TimeshiftState" title="TimeShift" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+	<screen name="TimeshiftState" title="TimeShift" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<widget name="PTSSeekBack" position="25,43" size="0,0" pixmap="oDreamy-FHD/icons/slider_back.png" alphatest="blend" zPosition="2" />
 		<widget name="PTSSeekPointer" position="10,40" size="0,0" pixmap="oDreamy-FHD/icons/position_pointer2.png" alphatest="blend" zPosition="4" />
 		<widget name="statusicon" position="331,779" size="50,50" pixmaps="oDreamy-FHD/icons/play.png,oDreamy-FHD/icons/pause.png,oDreamy-FHD/icons/stop.png,oDreamy-FHD/icons/forward.png,oDreamy-FHD/icons/backward.png,oDreamy-FHD/icons/slow.png" zPosition="5" alphatest="on" />
@@ -1105,7 +1105,7 @@
 			<convert type="ValueRange">1921,3840</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-  </screen>
+	</screen>
 	<!-- DVD Player -->
 	<screen name="DVDPlayer" position="fill" title="DVD Player" backgroundColor="transparent" flags="wfNoBorder">
 		<!-- Bar -->
@@ -1597,10 +1597,9 @@
 	<screen name="ChoiceBox" title="Choice Box" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
-		<panel name="M" />
-		<widget name="list" position="70,180" size="1160,720" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="2" />
+		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="list" position="70,180" size="1160,720" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="grey" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="2" />
 		<widget name="text" position="70,700" size="800,300" halign="left" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Timer Edit List FHD -->
@@ -4230,9 +4229,7 @@
 # this should be factored out into some helper code,but currently demonstrates applets.
 from __future__ import division
 from enigma import eSize, ePoint, getDesktop
-#orgwidth = self.instance.size().width()
-#orgheight = self.instance.size().height()
-#---
+
 offset_listposx = 15
 offset_listposy = 135
 offset_listwidth = 15
@@ -4241,7 +4238,7 @@ offset_textwidth = 255
 offset_textheight = 30
 min_width = 600
 min_height = 75
-#----
+
 deskwidth = getDesktop(0).size().width()
 deskheight = getDesktop(0).size().height()
 textsize = self["text"].getSize()
@@ -4300,9 +4297,56 @@ self.instance.move(ePoint(int(deskwidth - newwidth)//2,int(deskheight - newheigh
 		<panel name="MessageBox-template" />
 	</screen>
 	<!-- MessageBoxSimple FHD -->
-	<screen name="MessageBoxSimple" position="360,240" size="1200,600" zPosition="10" title="Message" flags="wfNoBorder" backgroundColor="header">
-		<panel name="MessageBox-template" />
+	<screen name="MessageBoxSimple" title="Message" position="center,255" size="900,80" >
+		<widget source="Title" render="Label" position="2,2" size="200,40" backgroundColor="header" transparent="1" zPosition="1" font="Regular;30" valign="center" halign="left"/>
+		<widget name="ErrorPixmap" pixmap="oDreamy-FHD/icons/input_error.png" position="10,10" size="80,80" alphatest="blend"/>
+		<widget name="QuestionPixmap" pixmap="oDreamy-FHD/icons/input_question.png" position="10,10" size="80,80" alphatest="blend"/>
+		<widget name="InfoPixmap" pixmap="oDreamy-FHD/icons/input_info.png" position="10,10" size="80,80" alphatest="blend"/>
+		<widget name="text" position="140,20" size="720,80" font="Regular;36" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" />
+		<widget name="list" position="30,120" size="840,350" font="Regular;30" itemHeight="40" scrollbarSliderBorderWidth="1" scrollbarWidth="12" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderColor="ltbluette" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" foregroundColorSelected="white" backgroundColor="header" foregroundColor="white" transparent="1"/>
+			<applet type="onLayoutFinish">
+from enigma import eSize, ePoint
+titleheight = 0
+if hasattr(self, 'timerRunning') and self.timerRunning:
+	titleheight = 10
+else:
+	titleheight = 0
+	self.setTitle("")
+orgwidth = self.instance.size().width()
+orgheight = self.instance.size().height() + 10
+orgpos = self.instance.position()
+textsize = self["text"].getSize()
+textsize = (textsize[0] + 100, textsize[1] + 10)
+wsizex = textsize[0] + 120
+wsizey = textsize[1]
+lenlist = len(self.list)*40
+if (lenlist &gt; 160):
+	lenlist = 160
+if (64 &gt; wsizey):
+	wsizey = 64
+if self.type == self.TYPE_YESNO:
+	wsizey += lenlist + 10
+if (280 &gt; wsizex):
+	wsizex = 280
+wsize = (wsizex, wsizey + titleheight + 25)
+self.instance.resize(eSize(*wsize))
+self["text"].instance.move(ePoint(110, 8 + titleheight))
+self["text"].instance.resize(eSize(*textsize))
+self["ErrorPixmap"].instance.move(ePoint(20, 10 + titleheight))
+self["ErrorPixmap"].instance.resize(eSize(80,80))
+self["QuestionPixmap"].instance.move(ePoint(20, 10 + titleheight))
+self["QuestionPixmap"].instance.resize(eSize(80,80))
+self["InfoPixmap"].instance.move(ePoint(20, 10 + titleheight))
+self["InfoPixmap"].instance.resize(eSize(80,80))
+if self.type == self.TYPE_YESNO:
+	listsize = (wsizex-4, lenlist)
+	self["list"].instance.move(ePoint(2, wsizey - lenlist + titleheight + 20))
+	self["list"].instance.resize(eSize(*listsize))
+newwidth = wsize[0]
+self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)//2, orgpos.y() + (orgheight - wsizey)//2))
+			</applet>
 	</screen>
+
 	<screen name="MessageBoxExt" position="360,240" size="1200,600" zPosition="10" title="Message" flags="wfNoBorder" backgroundColor="header">
 		<panel name="MessageBox-template" />
 	</screen>
@@ -4348,7 +4392,7 @@ self["menu"].instance.resize(eSize(*listsize))
 
 # center window
 newwidth = wsize[0]
-self.instance.move(ePoint((1920-wsizex), (1280-wsizex)//2, (720-wsizey)/(count &gt; 7 and 2 or 3)))
+self.instance.move(ePoint((1920-wsizex), (1280-wsizex)//2, (720-wsizey)//(count &gt; 7 and 2 or 3)))
 			</applet>
 	</screen>
 </skin>
