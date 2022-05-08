@@ -3735,7 +3735,6 @@
 		<ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
 		<widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
 		<widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
 		<widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
