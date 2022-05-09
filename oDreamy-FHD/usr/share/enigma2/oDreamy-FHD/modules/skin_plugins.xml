@@ -8,6 +8,40 @@
 	<!--    and leave the credentials in the "About-box" as they are -->
 	<!--    Mod for Egami -   by Madhouse    -->
 
+	<!-- QuadPiPChannelSelection -->
+	<screen name="QuadPiPChannelSelection" position="fill" title="Quad PiP Channel Selection" flags="wfNoBorder" >
+		<panel name="p800_Template_notime"/>
+		<panel name="p800_DateMid"/>
+		<panel name="p800_Logo"/>
+		<panel name="nRGYB"/>
+		<widget source="ChannelList" render="Listbox" position="70,180" size="820,700" foregroundColor="#ffffff" backgroundColor="header" foregroundColorSelected="#ffffff" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showAlways" transparent="1" >
+			<convert type="TemplatedMultiContent">
+			{"template":
+					[
+						MultiContentEntryText(pos = (20, 0), size = (930, 53), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0), # index 0 is Name
+						MultiContentEntryText(pos = (20, 58), size = (465, 42), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1), # index 1 is Type
+						MultiContentEntryText(pos = (20, 88), size = (465, 42), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 2), # index 1 is status
+						MultiContentEntryText(pos = (20, 118), size = (465, 42), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3), # index 1 is status
+						MultiContentEntryText(pos = (20, 148), size = (465, 42), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 4), # index 1 is status
+					],
+					"fonts": [gFont("Regular", 32), gFont("Regular", 28)],
+					"itemHeight": 200
+			}
+			</convert>
+		</widget>
+		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend"/>
+	</screen>
+
+	<!-- CreateQuadPipChannelEntry -->
+	<screen name="CreateQuadPipChannelEntry" position="fill" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p900_Template"/>
+		<panel name="nRGYB"/>
+		<widget name="list" position="80,150" size="1770,560" serviceItemHeight="40" serviceNumberFont="Regular;28" serviceNameFont="Regular;28" serviceInfoFont="Regular;24" foregroundColorServiceNotAvail="#58595b" transparent="1" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" />
+		<widget name="textChannels" position="400,720" size="1250,30" foregroundColor="ltbluette" font="Regular;33" transparent="1" />
+		<widget name="selectedList" position="410,760" size="700,160" foregroundColor="ltbluette" font="Regular;28" itemHeight="40" transparent="1" />
+		<widget name="description" position="1160,770" size="650,160" foregroundColor="ltbluette" font="Regular;28" halign="left" transparent="1" />
+	</screen>
+
 	<!-- H9SDmanager FHD -->
 	<screen name="H9SDmanager" position="fill" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template_notime" />
@@ -572,7 +606,7 @@
 
 	<!-- AutoTimer Help FHD -->
 	<screen name="AutoTimerHelp" title="AutoTimer Help" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template"/>
+		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
 		<panel name="sRYB"/>
