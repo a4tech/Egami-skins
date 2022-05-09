@@ -3767,7 +3767,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
 		<ePixmap position="1460,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
 		<widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
-		<ePixmap pixmap="oDreamy-FHD/icons/info_on.png" position="70,180" size="40,40" zPosition="10" alphatest="blend" />
+		<ePixmap pixmap="oDreamy-FHD/icons/info_on.png" position="70,200" size="40,40" zPosition="10" alphatest="blend" />
 		<widget source="statusbar" render="Label" position="70,150" size="820,250" font="Regular;32" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 	<!-- Restore Wizard FHD -->
