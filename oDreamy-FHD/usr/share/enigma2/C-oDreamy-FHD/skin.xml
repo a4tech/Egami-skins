@@ -3289,7 +3289,7 @@
 		<panel name="p800_Date" />
 		<panel name="p800_Ext" />
 		<panel name="Ex" />
-		<panel name="sRGY" />
+		<panel name="sRGYB" />
 		<ePixmap position="1410,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="list" position="70,180" size="1160,703" font="Regular;32" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="3" />
 		<widget name="info-local" position="1270,800" size="600,100" font="Regular;32" halign="left" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
