@@ -201,7 +201,7 @@
 		<widget name="descriptiontxt" position="995,650" size="920,40" font="Regular;35" halign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2"/>
 		<widget source="description" position="1025,695" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="#FFFFFF" backgroundColor="#10000000" size="880,279" font="Regular;31" transparent="1" zPosition="2"/>
 		<widget name="list" position="70,160" size="900,815" font="Regular;33" itemHeight="45" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1"/>
-		<widget source="progresstext" render="Label" position="1204,1017" zPosition="2" font="Regular;30" valign="center" halign="center" size="565,40" foregroundColor="#ecbb41" backgroundColor="header" />
+		<widget source="progresstext" render="Label" position="1120,1020" size="750,40" zPosition="2" font="Regular;28" valign="center" halign="center" foregroundColor="#ecbb41" backgroundColor="header" />
 	</screen>
 
 	<!-- Info About FHD -->
@@ -2017,17 +2017,17 @@
 	<!-- ********** Job Manager ********** P023 -->
 	<!-- JobManager FHD -->
 	<screen name="JobView" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template"/>
+		<panel name="p800_Template_notime"/>
 		<panel name="p800_Logo"/>
 		<widget source="job_name" render="Label" position="70,170" size="820,90" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />
 		<eLabel	position="70,310" size="820,1" backgroundColor="#505050" />
-		<widget source="job_status" render="Label"      position="70,330" size="820,40" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget source="job_task" render="Label"        position="70,380" size="820,40" font="Regular;30" backgroundColor="ltbluette" halign="center" />
-		<widget source="job_progress" render="Progress" position="70,380" size="820,40" borderWidth="1"   foregroundColor="ltbluette" backgroundColor="bluette"/>
-		<widget source="job_progress" render="Label"    position="70,380" size="820,40" font="Regular;30" foregroundColor="white" backgroundColor="ltbluette" halign="center" transparent="1" zPosition="2" >
+		<widget source="job_status" render="Label" position="70,330" size="820,40" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget source="job_task" render="Label" position="70,380" size="820,40" font="Regular;30" backgroundColor="ltbluette" halign="center" />
+		<widget source="job_progress" render="Progress" position="70,380" size="820,40" borderWidth="1" foregroundColor="ltbluette" backgroundColor="bluette"/>
+		<widget source="job_progress" render="Label" position="70,380" size="820,40" font="Regular;30" foregroundColor="white" backgroundColor="ltbluette" halign="center" transparent="1" zPosition="2" >
 			<convert type="ProgressToText" />
 		</widget>
-		<widget name="config" position="70,440" size="820,30" font="Regular;30" itemHeight="40" transparent="1" />
+		<widget name="config" position="70,440" size="820,50" font="Regular;30" itemHeight="40" backgroundColorSelected="bluette" transparent="1" />
 		<widget source="cancelable" render="Pixmap" pixmap="oDreamy-FHD/buttons/redpanel.png" position="70,995" size="30,30" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
