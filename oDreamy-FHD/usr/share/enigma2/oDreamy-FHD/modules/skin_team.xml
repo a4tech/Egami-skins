@@ -15,7 +15,6 @@
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL01" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL OSD 3D Setup -->
 	<screen name="setup_osd3d" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -23,14 +22,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL02" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Video Setup -->
 	<screen name="VideoSetup" position="fill" title="Video Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -38,14 +35,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL03" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- O-ATV LED GigaBlue Setup -->
 	<screen name="LED_GigaSetup" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -58,7 +53,6 @@
 		<widget name="description" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
-		<!-- eLabel name="DEBUG" text="AT29" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPG Setup -->
 	<screen name="setup_epgsettings" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -66,7 +60,6 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
@@ -76,7 +69,6 @@
 		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="60,35" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<!--eLabel name="DEBUG" text="ALL04" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPGMulti Setup -->
 	<screen name="setup_epgmulti" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -84,14 +76,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL05" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPGEnhanced Setup -->
 	<screen name="setup_epgenhanced" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -99,14 +89,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL06" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPG Infobar Setup -->
 	<screen name="setup_epginfobar" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -121,7 +109,6 @@
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL07" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPG Infobar Graphical Setup -->
 	<screen name="setup_epginfobargraphical" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -136,7 +123,6 @@
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL08" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL EPG Graphical Setup -->
 	<screen name="setup_epggraphical" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -144,14 +130,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL09" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL SubTitle Setup -->
 	<screen name="setup_subtitlesetup" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -159,14 +143,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL10" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL DVDPlayer Setup -->
 	<screen name="setup_dvdplayer" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -181,7 +163,6 @@
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL11" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Logs Setup -->
 	<screen name="setup_logs" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -189,14 +170,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL12" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Time Setup -->
 	<screen name="setup_time" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -204,7 +183,6 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
@@ -214,7 +192,6 @@
 		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="60,35" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<!--eLabel name="DEBUG" text="ALL13" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL KeyBoard Setup -->
 	<screen name="setup_keyboard" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -222,14 +199,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL14" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Recording Setup -->
 	<screen name="setup_recording" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -237,14 +212,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL15" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL TimeShift Setup -->
 	<screen name="setup_timeshift" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -252,14 +225,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL16" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Special Features Setup -->
 	<screen name="setup_specialfeatures" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -267,14 +238,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL17" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Display Setup -->
 	<screen name="setup_display" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -282,14 +251,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL18" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Channel Selection Setup -->
 	<screen name="setup_channelselection" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -297,14 +264,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL19" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Usage Setup -->
 	<screen name="setup_usage" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -312,14 +277,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL20" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL Remote Setup -->
 	<screen name="setup_remotesetup" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -327,14 +290,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL21" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL AutoLanguage Setup -->
 	<screen name="setup_autolanguagesetup" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -342,14 +303,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL22" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- ALL HardDisk Setup -->
 	<screen name="setup_harddisk" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
@@ -357,14 +316,12 @@
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="sRG"/>
-		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="80,700" size="1,1" transparent="1" zPosition="1" alphatest="on" />
-		<!--eLabel name="DEBUG" text="ALL23" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI SCREENS FHD -->
 	<!-- Modified for corret screen icon -->
@@ -379,7 +336,6 @@
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget name="list" position="70,180" size="840,720" itemHeight="72" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
 		<widget name="description" position="1280,480" size="580,600" font="Regular;34" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"/>
-		<!--eLabel name="DEBUG"  text="EG01" position="40,40" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI SoftCam CCCam Info FHD -->
 	<screen name="EGSoftCamInfo" position="fill" title="EGAMI Softcam Info" backgroundColor="transparent" flags="wfNoBorder">
@@ -390,7 +346,6 @@
 		<ePixmap pixmap="oDreamy-FHD/menu/camcenter.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8"/>
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG02" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI EmuInfo Scripts FHD -->
 	<screen name="EGEmuInfoScript" position="fill" title="EGAMI Emu Info Scripts" backgroundColor="transparent" flags="wfNoBorder">
@@ -404,7 +359,6 @@
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8"/>
 		<widget name="statuslab" position="1280,480" size="580,600" font="Regular;34" halign="center" valign="top" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="1"/>
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG03" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Plugin Downloads FHD -->
 	<screen name="EG_PrzegladaczAddonow" position="fill" title="EGAMI Internet Addons" backgroundColor="transparent" flags="wfNoBorder">
@@ -416,7 +370,6 @@
 		<ePixmap pixmap="oDreamy-FHD/menu/download.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="status" position="70,180" size="820,60" font="Regular;35" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" />
 		<widget name="menu" position="70,270" size="840,630" font="Regular;30" itemHeight="70" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8"/>
-		<!--eLabel name="DEBUG" text="EG04" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Plugin Addons Preview FHD -->
 	<screen name="EGAddonInfo" position="fill" title="EGAMI Addon Informations" backgroundColor="transparent" flags="wfNoBorder">
@@ -427,7 +380,6 @@
 		<widget name="text" position="70,670" size="840,240" font="Regular;30" backgroundColor="#10202020" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/animation_setup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG05" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Internet Addons FHD -->
 	<screen name="EG_InternetAddons" position="fill" title="EGAMI Internet Addons" backgroundColor="transparent" flags="wfNoBorder">
@@ -439,7 +391,6 @@
 		<ePixmap pixmap="oDreamy-FHD/menu/camcenter.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="status" position="70,180" size="820,60" font="Regular;35" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" />
 		<widget name="menu" position="70,270" size="840,630" font="Regular;30" itemHeight="70" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
-		<!--eLabel name="DEBUG" text="EG06" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI EGS Script FHD
 	<screen name="EGScript" position="fill" title="EGAMI Script Tool" backgroundColor="transparent" flags="wfNoBorder" >
@@ -462,7 +413,6 @@
 		<ePixmap pixmap="oDreamy-FHD/menu/script.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="list"        position="70,180" size="840,720" font="Regular;28" itemHeight="50" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8"/>
 		<widget name="statuslab"   position="1240,480" size="600,200" font="Regular;33" halign="center" scrollbarMode="showOnDemand" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG08" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Mount Manager FHD -->
 	<screen name="EGDeviceManager" position="fill"  title="EGAMI Devices Panel" backgroundColor="transparent" flags="wfNoBorder" >
@@ -485,7 +435,6 @@
 						}
 					</convert>
 		</widget>
-		<!--eLabel name="DEBUG" text="EG09" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI EGS NetBrowser FHD -->
 	<screen name="EGNetBrowser" position="fill" title="Select Network Interface" backgroundColor="transparent" flags="wfNoBorder" >
@@ -497,7 +446,6 @@
 			<convert type="StringList" />
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/net.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG10" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel FHD -->
 	<screen name="EGAMIBackupPanel" position="fill" title="EGAMI Image Backup Panel - STEP 1" backgroundColor="transparent" flags="wfNoBorder">
@@ -511,7 +459,6 @@
 		<eLabel position="70,340" size="820,1" backgroundColor="#10303030" zPosition="2"/>
 		<widget name="list" position="70,360" size="820,495" font="Regular;30" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG11" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel Step 2 FHD -->
 	<screen name="EGAMIBackupPanel_Step2" position="fill" title="EGAMI Image Backup Panel - STEP 2" backgroundColor="transparent" flags="wfNoBorder">
@@ -524,7 +471,6 @@
 		<eLabel position="70,400" size="540,1" backgroundColor="#10303030" zPosition="2"/>
 		<widget name="config" position="70,430" size="820,450" font="Regular;30" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG012" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel FHD -->
 	<screen name="EGAMIBackupPanel_Step3" position="0,0" size="1920,1080" title="EGAMI Backup in progress..." backgroundColor="transparent" flags="wfNoBorder">
@@ -532,7 +478,6 @@
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png" alphatest="blend" />
 		<widget name="label" position="0,510" halign="center" size="1920,100" zPosition="3" backgroundColor="header" foregroundColor="ltbluette" font="Regular;63" valign="top" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/egami/bar_center.png" position="center,220" size="1186,372" transparent="1" zPosition="1" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG13" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel Step 2 FHD -->
 	<screen name="EGAMIRestorePanel_Step1" position="fill" title="EGAMI Image Restore Panel - STEP 1" backgroundColor="transparent" flags="wfNoBorder">
@@ -542,7 +487,6 @@
 		<panel name="nRG" />
 		<widget name="config" position="70,180" size="840,720" font="Regular;30" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="3"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/ico_storage.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG14" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Backup Panel Step 3 FHD -->
 	<screen name="EGAMIRestorePanel_Step2" position="0,0" size="1920,1080" title="EGAMI Restore in progress..." backgroundColor="transparent" flags="wfNoBorder" >
@@ -550,7 +494,6 @@
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png" alphatest="blend" />
 		<widget name="label" position="0,510" halign="center" size="1920,100" zPosition="3" backgroundColor="header" foregroundColor="ltbluette" font="Regular;63" valign="top" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/egami/bar_center.png" position="center,220" size="1186,372" transparent="1" zPosition="1" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG15" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Full Backup Panel FHD -->
 	<screen name="EGFullBackup" position="fill" title="EGAMI Full Image Backup Panel - STEP 1" backgroundColor="transparent" flags="wfNoBorder">
@@ -560,7 +503,6 @@
 		<panel name="sRG" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG16" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Remove Addons FHD -->
 	<screen name="EGAddonRemove" position="fill" title="EGAMI Remove Addons" backgroundColor="transparent" flags="wfNoBorder">
@@ -573,7 +515,6 @@
 		<eLabel position="70,240" size="820,1" backgroundColor="#10303030" zPosition="2"/>
 		<widget name="remove" position="70,270" size="820,720" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/utility.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG17" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Manual Addons Install FHD -->
 	<screen name="EG_Manual_installation" position="fill" title="EGAMI Manual Addons Installation" backgroundColor="transparent" flags="wfNoBorder">
@@ -586,7 +527,6 @@
 		<eLabel position="70,240" size="820,1" backgroundColor="#10303030" zPosition="2"/>
 		<widget name="listaaddonow" position="70,270" size="820,720" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/utility.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG18" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI E2 Config Info FHD -->
 	<screen name="EGEnigma2ConfigInfo" position="fill" title="EGAMI Enigma2 Config" backgroundColor="transparent" flags="wfNoBorder" >
@@ -598,7 +538,6 @@
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG19" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Kernel Info FHD -->
 	<screen name="EGKernelInfo" position="fill" title="EGAMI Kernel Informations" backgroundColor="transparent" flags="wfNoBorder" >
@@ -610,7 +549,6 @@
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG20" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Process Info FHD -->
 	<screen name="EGProcessInfo" position="fill" title="EGAMI Process Informations" backgroundColor="transparent" flags="wfNoBorder" >
@@ -622,7 +560,6 @@
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG21" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI EGS StreamInfo FHD -->
 	<screen name="EGStreamInfo" position="fill" title="EGAMI Stream Informations" backgroundColor="transparent" flags="wfNoBorder" >
@@ -634,7 +571,6 @@
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG22" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI News About FHD -->
 	<screen name="EGAMIMainNews" position="fill" title="EGAMI News" backgroundColor="transparent" flags="wfNoBorder">
@@ -678,7 +614,6 @@
 				}
 			</convert>
 		</widget>
-		<!--eLabel name="DEBUG" text="EG23" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI News Updates Info FHD -->
 	<screen name="EGAMIUpdateInfo" position="fill" title="EGAMI News" backgroundColor="transparent" flags="wfNoBorder">
@@ -717,7 +652,6 @@
 		<widget name="label5"  position="1280,750" size="600,70" font="Regular;30" backgroundColor="bluette" transparent="1" zPosition="1" />
 		<widget name="label9"  position="1280,820" size="600,50" font="Regular;44" backgroundColor="bluette" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG25" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI MultiBoot FHD -->
 	<screen name="EGAMIChooseOnLineImage" position="fill" title="EGAMIBoot - Download OnLine Images" backgroundColor="transparent" flags="wfNoBorder" >
@@ -737,7 +671,6 @@
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG26" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI MultiBoot Download Images FHD -->
 	<screen name="DownloadOnLineImage" position="fill" title="EGAMIBoot - Download Image" backgroundColor="transparent" flags="wfNoBorder">
@@ -747,7 +680,6 @@
 		<panel name="nRG" />
 		<widget name="imageList" position="70,180" size="840,720" font="Regular;30" itemHeight="40" zPosition="3" scrollbarMode="showOnDemand" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG27" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI MultiBoot FHD -->
 	<screen name="EGAMIBootInstallation" position="fill" title="EGAMI Multiboot Installation" backgroundColor="transparent" flags="wfNoBorder">
@@ -761,7 +693,6 @@
 		<widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" alphatest="on" zPosition="1" position="80,420" size="50,25"/>
 		<widget name="HelpWindow" position="50,450" size="1,1" transparent="1" zPosition="2" alphatest="on"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG28" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI MultiBoot FHD -->
 	<screen name="EGAMIBootImageInstall" position="fill" title="EGAMIBoot - Image Installation" backgroundColor="transparent" flags="wfNoBorder" >
@@ -772,7 +703,6 @@
 		<widget name="config" position="70,180" size="820,280" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="#101010" transparent="1"/>
 		<widget name="HelpWindow" position="160,700" size="1,1" transparent="1" alphatest="on" zPosition="5" />
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG29" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Plugin FHD -->
 	<screen name="EGGreenPanel" position="fill" title="EGAMI Green Panel" backgroundColor="transparent" flags="wfNoBorder" >
@@ -794,7 +724,6 @@
 			</convert>
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG30" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Plugin Addons FHD -->
 	<screen name="EGAddonMenu" position="fill" title="EGAMI Addons Panel" backgroundColor="transparent" flags="wfNoBorder" >
@@ -804,7 +733,6 @@
 		<panel name="nR"/>
 		<widget name="list" position="70,180" size="840,720" itemHeight="72" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG31" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI FAQ List FHD -->
 	<screen name="EGAMIFaq_YTChannel" position="fill" title="EGAMI FAQ List" backgroundColor="transparent" flags="wfNoBorder">
@@ -817,7 +745,6 @@
 		<widget name="name"         position="70,310" size="820,80"  font="Regular;32" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="0" />
 		<widget name="ContentTitle" position="70,650" size="820,200" font="Regular;32" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="4" />
 		<ePixmap pixmap="oDreamy-FHD/menu/faqlist.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG32" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI ListChannel FHD -->
 	<screen name="EGAMIFaq_ListChannel_ListScreen" position="fill" title="EGAMI FAQ List" backgroundColor="transparent" flags="wfNoBorder">
@@ -837,7 +764,6 @@
 		<widget name="page"         position="1350,850" size="95,25"   backgroundColor="#00101214" transparent="1" font="Regular;20" valign="center" halign="right" zPosition="0" />
 		<widget name="header" position="1240,900" size="600,120" font="Regular;33" halign="center" valign="top" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/faqlist.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG33" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Animation FHD -->
 		<!-- Modified for new icons -->
@@ -846,14 +772,12 @@
 			pixmaps="oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png,oDreamy-FHD/egami/connection_1.png,oDreamy-FHD/egami/connection_2.png,oDreamy-FHD/egami/connection_3.png" alphatest="blend" />
 		<widget name="lab1" position="0,510" halign="center" size="1920,100" zPosition="3" backgroundColor="header" foregroundColor="ltbluette" font="Regular;63" valign="top" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/egami/bar_center.png" position="center,220" size="1186,372" transparent="1" zPosition="1" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG34" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Permanent Clock FHD -->
 	<screen name="EGPermanentClock" position="1650,40" size="200,90" flags="wfNoBorder" title="Egami Permanent Clock" backgroundColor="#55000000" >
 		<widget source="global.CurrentTime" render="Label" position="10,10" size="180,50" font="LCD;40" foregroundColor="#d0d0d0" valign="center" halign="center" transparent="1" >
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<!--eLabel name="DEBUG" text="EG35" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI News Updates FHD -->
 	<screen name="UpdateEGAMI" position="center,center" size="900,300" title="Software update" >
@@ -862,12 +786,10 @@
 		<eLabel position="20,150" size="860,40" backgroundColor="bluette" transparent="1" zPosition="1" />
 		<widget name="slider" position="25,155" size="850,30" borderColor="ltbluette" borderWidth="1" zPosition="1" />
 		<widget source="status"  render="Label" position="20,200" size="860,100" font="Regular;30" halign="center" valign="center" backgroundColor="header" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG36" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Execute FHD -->
 	<screen name="EGExecute" position="center,center" size="1200,600">
 		<widget name="linelist" position="10,10"  size="1180,580" font="Regular;30" itemHeight="40" backgroundColor="header" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG37" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI CCCam Edit FHD -->
 	<screen name="EGCCcamEditAddLine" position="center,150" size="1200,600" title="EGAMI CCcam Lines Editor">
@@ -877,7 +799,6 @@
 		<eLabel position="320,580" size="250,5" backgroundColor="green" />
 		<widget name="key_red" position="20,540"    size="250,40" font="Regular;30" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="key_green" position="320,540" size="250,40" font="Regular;30" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="1" />
-		<!--eLabel name="DEBUG" text="EG38" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Execute FHD -->
 	<screen name="EGCCcamConfigEdit" position="center,150" size="1200,600" title="Config Edit">
@@ -891,7 +812,6 @@
 		<widget source="key_green"  render="Label" position="320,540" size="250,40" font="Regular;30" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="key_yellow" render="Label" position="620,540" size="250,40" font="Regular;30" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="key_blue"   render="Label" position="920,540" size="250,40" font="Regular;30" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="1" />
-		<!--eLabel name="DEBUG" text="EG39" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI ExtraMenu FHD -->
 	<screen name="EGExtrasMenu" position="fill" title="EGAMI Extras Panel" backgroundColor="transparent" flags="wfNoBorder" >
@@ -911,7 +831,6 @@
 			</convert>
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/ico_plugin.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG40" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI DropBear FHD -->
 	<screen name="EGDropbearConfig" position="fill" title="EGAMI DropBear Setup" backgroundColor="transparent" flags="wfNoBorder" >
@@ -922,7 +841,6 @@
 		<widget name="state"  position="70,180" size="810,40" font="Regular;34" halign="center" valign="center" noWrap="1"  backgroundColor="red" foregroundColor="white" transparent="0" />
 		<widget name="config" position="70,250" size="810,400" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/net.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG41" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Choose Mount FHD -->
 	<screen name="EGDeviceManager_Setup" position="fill" title="EGAMI Devices Panel" backgroundColor="transparent" flags="wfNoBorder" >
@@ -932,7 +850,6 @@
 		<panel name="nRGYB" />
 		<widget name="config" position="70,180" itemHeight="40" size="820,840" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/folders.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG42" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI EGS NetBrowser -->
 	<screen name="EGSwapManager" position="fill" title="EGAMI Swap File Manager" backgroundColor="transparent" flags="wfNoBorder" >
@@ -942,7 +859,6 @@
 		<panel name="nRGYB" />
 		<widget name="state"  position="70,180" size="820,80" font="Regular;30" halign="center" noWrap="1" backgroundColor="red" foregroundColor="white" />
 		<widget name="config" position="70,280" size="820,600" scrollbarMode="showOnDemand" backgroundColor="#101010" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG43" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI EmuManager FHD -->
 	<screen name="EmuManager" position="fill"  title="EMU Manager" backgroundColor="transparent" flags="wfNoBorder" >
@@ -1044,7 +960,6 @@
 		<widget name="lb_provider"    position="1280,480" size="580,40" font="Regular;36" zPosition="2" foregroundColor="yellow" backgroundColor="header" transparent="1"/>
 		<widget name="lb_videosize"   position="1280,580" size="580,80" font="Regular;34" zPosition="2" foregroundColor="grey" backgroundColor="transpBlack" transparent="1"/>
 		<widget name="lb_aspectratio" position="1280,630" size="580,40" font="Regular;34" zPosition="2" foregroundColor="grey" backgroundColor="transpBlack" transparent="1"/>
-		<!--eLabel name="DEBUG" text="EG44" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI EmuManager FHD -->
 	<!-- Modified for new icons -->
@@ -1053,7 +968,6 @@
 		<widget name="starting" position="center,110" size="200,200" zPosition="1" pixmaps="oDreamy-FHD/egami/sc1.png,oDreamy-FHD/egami/sc2.png,oDreamy-FHD/egami/sc3.png,oDreamy-FHD/egami/sc4.png
 			,oDreamy-FHD/egami/sc5.png,oDreamy-FHD/egami/sc6.png,oDreamy-FHD/egami/sc7.png,oDreamy-FHD/egami/sc8.png,oDreamy-FHD/egami/sc9.png,oDreamy-FHD/egami/sc10.png,oDreamy-FHD/egami/sc11.png
 			,oDreamy-FHD/egami/sc12.png,oDreamy-FHD/egami/sc13.png" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG45" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- EGAMI EGAMISwap -->
 	<screen name="EGAMISwap" position="fill" title="EGAMI Swap" backgroundColor="transparent" flags="wfNoBorder">
@@ -1066,7 +980,6 @@
 		<widget name="label3" position="70,300" size="820,40" zPosition="1" halign="center" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1"/>
 		<widget name="lab1" position="70,180" size="820,450" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG46" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- EGAMI EGAMI_UsbFormat -->
 	<screen name="EGAMI_UsbFormat" position="fill" title="EGAMI Usb Format" backgroundColor="transparent" flags="wfNoBorder" >
@@ -1077,7 +990,6 @@
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="lab1" position="70,180" font="Regular;28" itemHeight="40" size="820,840" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/deviceusb.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG47" position="20,20" size="300,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!-- EGAMI EgamiBootLogoSelector -->
 	<screen name="EgamiBootLogoSelector" title="Egami BootLogo Selector" position="fill" backgroundColor="transparent" flags="wfNoBorder"> <panel name="p800_Template" />
@@ -1090,7 +1002,6 @@
 		<eLabel position="1260,680" size="610,267" backgroundColor="#20000000" zPosition="1"/>
 		<widget name="Preview" position="1370,705" size="390,220" alphatest="on" zPosition="10"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG48" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Plugin List -->
 	<screen name="ChannelListUpdateMenu" position="fill" title="" backgroundColor="transparent" flags="wfNoBorder" >
@@ -1113,7 +1024,6 @@
 		<widget name="info" position="70,830" size="840,234" font="Regular;30" halign="center" transparent="1" backgroundColor="#10000000" foregroundColor="blue" />
 		<eLabel text="Rango Polskie Listy Kanalow" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/ico_listch.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG49" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  EGAMI Skin Menu -->
 	<screen name="UserSkin_Menu" position="fill" title="" backgroundColor="transparent" flags="wfNoBorder">
@@ -1134,7 +1044,6 @@
 			</convert>
 		</widget>
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG50" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  OpenDreamy Setup -->
 	<screen name="oDreamySetup" position="fill" title="oDreamy_FHD Skin Controler" backgroundColor="transparent" flags="wfNoBorder">
@@ -1152,7 +1061,6 @@
 		<eLabel font="Regular;30" foregroundColor="foreground" halign="left" position="115,985" size="180,46" text="Cancel" />
 		<eLabel font="Regular;30" foregroundColor="foreground" halign="left" position="360,985" size="180,46" text="Save" />
 		<eLabel font="Regular;30" foregroundColor="foreground" halign="left" position="605,985" size="380,46" text="Reboot" />
-		<!--eLabel name="DEBUG" text="EG51" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="ConfigMenu" title="IPTV Player - ustawienia" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -1173,7 +1081,6 @@
 		<eLabel position="52,142" size="1196,795" backgroundColor="#20000000" zPosition="-1" />
 		<eLabel position="50,136" size="860,10" backgroundColor="bluette" zPosition="0" />
 		<eLabel position="900,934" size="350,10" backgroundColor="bluette" zPosition="0" />
-		<!--eLabel name="DEBUG" text="EG52" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="ConfigHostsMenu" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -1194,7 +1101,6 @@
 		<eLabel position="52,142" size="1196,795" backgroundColor="#20000000" zPosition="-1" />
 		<eLabel position="50,136" size="860,10" backgroundColor="bluette" zPosition="0" />
 		<eLabel position="900,934" size="350,10" backgroundColor="bluette" zPosition="0" />
-		<!--eLabel name="DEBUG" text="EG53" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="IPTVDMWidget" title="IPTV Player download manager" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -1214,7 +1120,6 @@
 		<eLabel position="52,142" size="1196,795" backgroundColor="#20000000" zPosition="-1" />
 		<eLabel position="50,136" size="860,10" backgroundColor="bluette" zPosition="0" />
 		<eLabel position="900,934" size="350,10" backgroundColor="bluette" zPosition="0" />
-		<!--eLabel name="DEBUG" text="EG54" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="IPTVUpdateWindow" title="Update Main" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -1228,7 +1133,6 @@
 		<widget name="console" position="1047,476" size="550,426" font="Regular;23" foregroundColor="white" backgroundColor="background" transparent="1" enableWrapAround="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG55" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="IPTVChoiceBoxWidget" position="fill" title="" backgroundColor="transparent" flags="wfNoBorder">
@@ -1241,7 +1145,6 @@
 		<widget name="list" position="70,180" size="820,720" font="Regular;30" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG56" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="ConfigHostMenu" position="fill" title="" backgroundColor="transparent" flags="wfNoBorder">
@@ -1252,7 +1155,6 @@
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
-		<!--eLabel name="DEBUG" text="EG57" position="40,25" size="500,50" font="Regular;40" backgroundColor="#10000000" foregroundColor="#bc0004" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  Egami MultiBoot -->
 	<screen name="MultiBootStartupOPT" position="fill" title="MultiBoot STARTUP Selector" backgroundColor="transparent" flags="wfNoBorder">
@@ -1266,7 +1168,6 @@
 		<widget source="options" render="Label" position="70,240" size="830,35" halign="left" transparent="1" font="Regular;28" backgroundColor="#00000000" foregroundColor="grey" />
 		<widget name="description" position="70,300" size="830,26" transparent="1" font="Regular;24" foregroundColor="#00ffffff" halign="left" backgroundColor="#00000000" valign="grey" />
 		<ePixmap pixmap="oDreamy-FHD/menu/startboot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG58" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="ExtensionsList" position="fill" title="ExtensionsList" flags="wfNoBorder" backgroundColor="transparent">
@@ -1320,7 +1221,6 @@
 			<convert type="EGBoxInfo">Uptime</convert>
 		</widget>
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
-		<!--eLabel name="DEBUG" text="EG59" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="j00zekBouquets" position="fill" title="j00zekBouquets @j00zek" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -1330,7 +1230,6 @@
 		<widget name="config" font="Regular;28" itemHeight="44" position="60,180" size="840,720" scrollbarMode="showOnDemand"/>
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG60" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="GOSconsole" position="fill" title="Command execution..." backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -1339,7 +1238,6 @@
 		<widget name="text" position="70,180" size="840,720" font="Console;22"/>
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<!--eLabel name="DEBUG" text="EG61" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Master" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1356,7 +1254,6 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG62" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Seto" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1373,7 +1270,6 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG63" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="HSWG" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1390,7 +1286,6 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG64" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Fk" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1407,7 +1302,6 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG65" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="K80" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1424,7 +1318,6 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG66" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Ritcher" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1441,7 +1334,6 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG67" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="Djcrash" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1464,7 +1356,6 @@
 		<widget name="newVersion4x" position="330,480" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion20x" position="580,480" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG68" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 	<screen name="MasterPicon" title="" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
@@ -1481,6 +1372,5 @@
 		<widget name="newVersion1x" position="330,300" size="190,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="newVersion2x" position="580,300" size="290,25" font="Regular;24" halign="left" transparent="1" />
 		<widget name="status" position="85,820" size="780,40" font="Regular;30" halign="center" valign="center" transparent="1" />
-		<!--eLabel name="DEBUG" text="EG69" position="20,20" size="300,60" font="Regular;40"  foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99"/-->
 	</screen>
 </skin>
