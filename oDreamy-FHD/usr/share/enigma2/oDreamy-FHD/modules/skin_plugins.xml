@@ -344,7 +344,7 @@
 		<panel name="p800_Ext" />
 		<panel name="M" />
 		<panel name="p800_Date" />
-		<panel name="sRG"/>
+		<panel name="sRGYB"/>
 		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
 			<convert type="EGLayoutInfo">MemTotal</convert>
@@ -378,6 +378,7 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
 		<panel name="sRG"/>
+		<panel name="M"/>
 		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
 			<convert type="EGLayoutInfo">MemTotal</convert>
