@@ -3,6 +3,17 @@
 	<!-- Do whatever you want with this skin,but don't tell it's yours, or your idea -->
 	<!--    and leave the credentials in the "About-box" as they are -->
 	<!-- ALL User Interface Setup -->
+	<!-- Software Manager Setup FHD -->
+	<screen name="SoftwareManagerSetup" position="fill" title="SoftwareManager setup" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template" />
+		<panel name="p800_Logo" />
+		<panel name="p800_DateMid" />
+		<panel name="Ex" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget source="introduction" render="Label" position="60,700" size="800,200" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" />
+		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
+	</screen>
 	<screen name="setup_userinterface" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
