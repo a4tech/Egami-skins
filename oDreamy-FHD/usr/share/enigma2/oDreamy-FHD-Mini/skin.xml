@@ -1069,22 +1069,6 @@
 		<widget name="key0" position="104,183" size="400,59" font="Regular;28" halign="center" valign="center" backgroundColor="black" />
 		<widget name="help2" position="506,183" size="100,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
 	</screen>
-	<!-- Help menu FHD -->
-	<screen name="HelpMenu" position="fill" title="HELP WINDOW" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<!-- Code -->
-		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="3" />
-		<widget name="list" position="70,180" size="840,720" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
-		<widget name="rc" position="1000,180" pixmaps="skin_default/rc.png,skin_default/rc1.png,skin_default/rc2.png" zPosition="10" size="160,500" alphatest="blend" />
-		<widget name="long_key" position="920,830" size="300,80" font="Regular;30" zPosition="10" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-		<widget name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="on" />
-		<widget name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" zPosition="11" size="37,70" alphatest="on" />
-		<widget name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="on" />
-		<widget name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" zPosition="11" size="37,70" alphatest="on" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
-	</screen>
 	<!--  Animations FHD -->
 	<screen name="Animmain" position="0,0" size="1920,1080" title="Mainmenu" backgroundColor="transparent" flags="wfNoBorder">
 		<eLabel position="0,810" size="1920,270" backgroundColor="header" zPosition="-1" />
