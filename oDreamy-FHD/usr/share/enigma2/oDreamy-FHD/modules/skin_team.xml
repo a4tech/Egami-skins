@@ -874,6 +874,42 @@
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/language.png" alphatest="blend" zPosition="2" />
 	</screen>
 
+	<!--  EGAMI LocaleWizard FHD -->
+	<screen name="LocaleWizard" position="0,0" size="1920,1080" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p800_Template" />
+		<panel name="p800_Ext" />
+		<panel name="p800_Date" />
+		<panel name="Ex" />
+		<panel name="sRG"/>
+		<widget name="icons" position="0,0" size="25,24" pixmaps="oDreamy-FHD/icons/lock_off.png,oDreamy-FHD/icons/lock_on.png,oDreamy-FHD/icons/lock_error.png" alphatest="blend" />
+		<widget source="Title" render="Label" position="87,54" font="Regular;51" foregroundColor="ltbluette" size="0,0" valign="bottom" backgroundColor="header" transparent="1" />
+		<widget source="locales" render="Listbox" position="70,180" size="1160,714" scrollbarMode="showAlways" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
+			<convert type="TemplatedMultiContent">
+				{
+				"template":
+					[
+					MultiContentEntryPixmapAlphaBlend(pos = (8, 5), size = (84, 42), flags = BT_SCALE, png = 0),  # Flag.
+					MultiContentEntryText(pos = (120, 0), size = (398, 51), font = 0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 1),  # Language name (Native).
+					MultiContentEntryText(pos = (518, 0), size = (338, 51), font = 0, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text = 2),  # Lanuage name (English).
+					# MultiContentEntryText(pos = (570, 0), size = (75, 34), font = 0, flags = RT_HALIGN_CENTER | RT_VALIGN_CENTER, text = 3),  # Locale name.
+					MultiContentEntryText(pos = (855, 0), size = (113, 51), font = 0, flags = RT_HALIGN_CENTER | RT_VALIGN_CENTER, text = 4),  # Package name.
+					MultiContentEntryPixmapAlphaBlend(pos = (1050, 15), size = (25, 24), flags = BT_SCALE, png = 5)  # Status icon.
+					],
+				"fonts": [gFont("Regular",30)],
+				"itemHeight": 51
+				}
+			</convert>
+		</widget>
+		<widget source="key_info" render="Label" position="1500,880" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="key_help" render="Label" position="1650,880" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="description" render="Label" position="1290,560" size="570,263" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" valign="center" transparent="1" />
+		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/language.png" alphatest="blend" zPosition="2" />
+	</screen>
+
 	<!--  EGAMI News Updates Info FHD -->
 	<screen name="EGAMIUpdateInfo" position="fill" title="EGAMI News" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
