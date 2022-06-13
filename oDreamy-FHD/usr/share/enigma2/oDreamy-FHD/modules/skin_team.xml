@@ -748,7 +748,29 @@
 		<panel name="p800_Date" />
 		<panel name="Ex" />
 		<panel name="fakeExit" />
-		<widget source="Title" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" zPosition="1" halign="left" valign="bottom" font="global_title;51" backgroundColor="header" transparent="1" />
+		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
+		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
+		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
+			<convert type="EGLayoutInfo">MemTotal</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1335,800" size="500,26" halign="left" valign="center" font="Regular;20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
+			<convert type="EGLayoutInfo">MemTotal</convert>
+		</widget>
+		<ePixmap position="1275,830" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/cpu.png" alphatest="blend" />
+		<widget source="session.Event_Now" render="Progress" position="1335,840" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
+			<convert type="CpuUsage">$0</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1335,845" size="500,46" halign="left" valign="center" font="Regular;20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
+			<convert type="CpuUsage">CPU Utilization:$0 (Core #1: $1, Core #2: $2)</convert>
+		</widget>
+		<ePixmap position="1275,887" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/flash.png" alphatest="blend" />
+		<widget source="session.Event_Now" render="Progress" position="1335,900" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
+			<convert type="EGLayoutInfo">FleshInfo</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1335,910" size="500,26" halign="left" valign="center" font="Regular;20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
+			<convert type="EGLayoutInfo">Flesh</convert>
+		</widget>
+		<widget source="Title" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" zPosition="1" halign="left" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<eLabel text="Software Update" position="8,803" size="1920,300" font="Regular;150" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="white" valign="bottom" zPosition="-50" />
 		<widget name="activity" position="70,180" size="1150,30" borderColor="ltbluette" foregroundColor="white" borderWidth="2" transparent="1" />
 		<widget name="update" position="70,240" size="1150,639" font="Regular;30" backgroundColor="header" foregroundColor="white" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" transparent="1"/>
