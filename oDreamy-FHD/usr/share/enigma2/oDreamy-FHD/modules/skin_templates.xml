@@ -288,7 +288,7 @@
 		<!-- menu list -->
 		<ePixmap position="830,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" transparent="1" zPosition="1" />
 		<widget source="menu" render="Listbox" position="53,180" size="760,720" transparent="1" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1"
-			foregroundColor="grey" foregroundColorSelected="#ffffff" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarSliderForegroundColor="ltbluette" scrollbarSliderBorderWidth="1" scrollbarSliderBorderColor="ltbluette" scrollbarWidth="8" >
+			foregroundColor="grey" foregroundColorSelected="#ffffff" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" >
 			 <convert type="TemplatedMultiContent">
 				 {"template": [ MultiContentEntryText(pos = (110, 10), size = (680, 65), flags = RT_HALIGN_LEFT, text = 0),
 				 MultiContentEntryPixmapAlphaBlend(pos=(25,3),size=(56,56),png=5,)],
