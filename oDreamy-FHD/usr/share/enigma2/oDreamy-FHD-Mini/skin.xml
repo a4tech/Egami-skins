@@ -46,7 +46,7 @@
 		<alias name="PartnerBoxChannelList1" font="Regular" size="28" />
 		<alias name="PartnerBoxChannelEPGList0" font="Regular" size="32" height="38" />
 		<alias name="PartnerBoxChannelEPGList1" font="Regular" size="24" />
-		<alias name="VirtualKeyboard" font="Regular" size="34" height="50" />
+		<alias name="VirtualKeyBoard" font="Regular" size="42" height="68" />
 		<alias name="HelpMenuList" font="Regular" size="30" height="45" />
 		<alias name="HelpMenuListExt0" font="Regular" size="32" height="75" />
 		<alias name="HelpMenuListExt1" font="Regular" size="28" />
@@ -75,7 +75,10 @@
 		<parameter name="ServiceInfoRight" value="450,0,1000,45" />
 		<parameter name="SelectionListDescr" value="75, 3, 1000, 50" />
 		<parameter name="SelectionListLock" value="10, 7, 50, 50" />
-		<parameter name="VirtualKeyboard" value="60, 50" />
+		<parameter name="VirtualKeyBoard" value="68,68"/>
+		<parameter name="VirtualKeyBoardAlignment" value="0,0"/>
+		<parameter name="VirtualKeyBoardPadding" value="6,6"/>
+		<parameter name="VirtualKeyBoardShiftColors" value="0x00ffffff,0x00ffffff,0x0000ffff,0x00ff00ff"/>
 		<parameter name="PartnerBoxEntryListName" value="8, 2, 225, 38" />
 		<parameter name="PartnerBoxEntryListIP" value="180, 2, 225, 38" />
 		<parameter name="PartnerBoxEntryListPort" value="405, 2, 150, 38" />
@@ -1038,16 +1041,18 @@
 		<ePixmap position="fill" pixmap="oDreamy-FHD/box/wiz1.jpg" alphatest="blend" zPosition="-2" />
 		<widget name="picture" pixmap="distro-logo.png" position="0,0" size="500,500" alphatest="on" zPosition="1" />
 	</screen>
-	<screen name="VirtualKeyBoard" title="Virtual KeyBoard" position="center,center" size="1190,500" backgroundColor="#101010" zPosition="90">
+	<screen name="VirtualKeyBoard" title="Virtual KeyBoard" position="center,center" size="1190,500" flags="wfNoBorder" backgroundColor="#101010" zPosition="90">
 		<eLabel position="5,70" size="780,50" backgroundColor="#10808080" />
 		<eLabel position="7,72" size="776,46" backgroundColor="#10101010" zPosition="1" />
-		<widget name="text" position="5,70" size="750,40" font="Regular;36" transparent="1" noWrap="1" halign="right" foregroundColor="#ffffff" backgroundColor="#10101010" zPosition="5" />
+		<widget name="text" position="5,73" size="750,40" font="Regular;36" transparent="1" noWrap="1" halign="right" foregroundColor="#ffffff" backgroundColor="#10101010" zPosition="5" />
 		<widget name="prompt" conditional="prompt" position="5,15" size="990,45" font="Regular;34" backgroundColor="header" foregroundColor="ltbluette" halign="left" transparent="1" noWrap="1" />
 		<widget name="header" conditional="header" position="5,15" size="990,45" font="Regular;34" backgroundColor="header" foregroundColor="ltbluette" halign="left" transparent="1" noWrap="1" />
-		<widget name="list" position="5,150" size="1190,420" font="Regular;50" itemHeight="70" selectionDisabled="1" backgroundColor="#10101010" transparent="1" />
+		<widget name="list" position="5,150" size="1190,420" font="Regular;50" selectionDisabled="1" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="1140,230" size="30,30" alphatest="blend" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="1140,300" size="30,30" alphatest="blend" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/bluepanel.png" position="1140,370" size="30,30" alphatest="blend" />
+		<widget name="locale" conditional="locale" position="1215,615" size="0,0" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" valign="center" transparent="1"/>
+		<widget name="language" conditional="language" position="0,0" size="0,0" font="Regular;30" backgroundColor="header" foregroundColor="ltbluette" transparent="1" noWrap="1" />
 		<eLabel text="Canc" position="900,227" size="220,40" font="Regular;30" halign="right" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="2" />
 		<eLabel text="Ok" position="900,297" size="220,40" font="Regular;30" halign="right" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="2" />
 		<widget source="country" position="900,167" size="220,37" font="Regular;30" halign="right" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="2" render="Label" />
