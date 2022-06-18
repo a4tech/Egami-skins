@@ -785,10 +785,10 @@
 		<panel name="Ex" />
 		<panel name="sRGY"/>
 		<widget source="Title" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" zPosition="1" halign="left" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
-		<eLabel text="Software Update" position="70,803" size="1920,300" font="Regular;150" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="#ffffff" valign="bottom" zPosition="-50" />
+		<eLabel text="Software Update" position="70,803" size="1920,300" font="Regular;150" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="white" valign="bottom" zPosition="-50" />
 		<widget name="package_text" position="70,173" size="375,53" zPosition="1" foregroundColor="ltbluette" font="Regular;36" halign="left" backgroundColor="header" transparent="1" />
 		<widget name="package_count" position="451,173" size="75,53" zPosition="1" foregroundColor="yellow" font="Regular;36" halign="left" backgroundColor="header" transparent="1" />
-		<widget name="feedmessage" position="1215,578" size="623,330" font="Regular;30" foregroundColor="#ffffff" halign="center" backgroundColor="header" valign="center" transparent="1"/>
+		<widget name="feedmessage" position="1215,578" size="623,330" font="Regular;30" foregroundColor="white" halign="center" backgroundColor="header" valign="center" transparent="1"/>
 		<widget name="activity" position="70,240" size="465,8" />
 		<widget source="list" render="Listbox" position="70,250" size="1160,624" scrollbarMode="showAlways" backgroundColor="bluette" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
 			<convert type="TemplatedMultiContent">
@@ -829,7 +829,7 @@
 		<widget name="traffic_red" position="850,165" zPosition="1" size="80,80" pixmap="oDreamy-FHD/icons/ared.png" alphatest="on" />
 		<widget name="traffic_yellow" position="850,165" zPosition="1" size="80,80" pixmap="oDreamy-FHD/icons/ayellow.png" alphatest="on" />
 		<widget name="traffic_green" position="850,165" zPosition="1" size="80,80" pixmap="oDreamy-FHD/icons/agreen.png" alphatest="on" />
-		<widget name="feedstatus_off" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="#ffffff" backgroundColor="header" transparent="1" />
+		<widget name="feedstatus_off" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="feedstatus_red" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="red" backgroundColor="header" transparent="1" />
 		<widget name="feedstatus_yellow" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<widget name="feedstatus_green" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="green" backgroundColor="header" transparent="1" />
@@ -1327,7 +1327,7 @@
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="830,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/box/maxbargh.png" position="805,180" size="15,720" alphatest="blend" zPosition="5" />
-		<widget source="list" render="Listbox" position="45,180" size="775,720" scrollbarMode="showOnDemand" transparent="1" zPosition="1" foregroundColor="#707070" foregroundColorSelected="#ffffff" backgroundColor="#272e43" backgroundColorSelected="#272e43" selectionPixmap="box/slider72.png" backgroundPixmap="box/sliderb.png">
+		<widget source="list" render="Listbox" position="45,180" size="775,720" scrollbarMode="showOnDemand" transparent="1" zPosition="1" foregroundColor="#707070" foregroundColorSelected="white" backgroundColor="#272e43" backgroundColorSelected="#272e43" selectionPixmap="box/slider72.png" backgroundPixmap="box/sliderb.png">
 			 <convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryPixmapAlphaTest(pos = (25, 10), size = (40, 40), png = 0),
@@ -1369,7 +1369,7 @@
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
 		<ePixmap position="48,28" size="52,52" pixmap="oDreamy-FHD/box/angle30.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="75,50" size="52,70" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Middle -->
 		<eLabel position="50,140" size="1200,800" backgroundColor="#201b3c85" zPosition="-1" />
@@ -1389,7 +1389,7 @@
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
 		<ePixmap position="48,28" size="52,52" pixmap="oDreamy-FHD/box/angle30.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="75,50" size="52,70" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Middle -->
 		<eLabel position="50,140" size="1200,800" backgroundColor="#201b3c85" zPosition="-1" />
@@ -1408,7 +1408,7 @@
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
 		<ePixmap position="48,28" size="52,52" pixmap="oDreamy-FHD/box/angle30.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="75,50" size="52,70" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
 		<!-- Middle -->
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<eLabel position="50,140" size="1200,800" backgroundColor="#201b3c85" zPosition="-1" />
