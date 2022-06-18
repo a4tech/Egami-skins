@@ -55,7 +55,7 @@
 		<eLabel position="50,30" size="1200,96" backgroundColor="ltbluette" zPosition="-1" />
 		<eLabel position="52,32" size="1196,91" backgroundColor="header" zPosition="-1" />
 		<!-- Code -->
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="1000,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Middle -->
 		<eLabel position="50,140"   size="1200,800" backgroundColor="ltbluette" zPosition="-1" />
@@ -180,7 +180,7 @@
 		<widget name="key_blue" position="950,990" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
 		<eLabel position="50,30" size="940,96" backgroundColor="ltbluette" zPosition="-1" />
 		<eLabel position="52,32" size="936,91" backgroundColor="header" zPosition="-1" />
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="700,50" size="50,50" pixmap="oDreamy-FHD/box/buttonTv.png" alphatest="blend" zPosition="2" />
 		<widget source="ButtonTv" render="Label" position="765,60" size="200,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -214,7 +214,7 @@
 		<widget name="key_green" position="400,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
 		<eLabel position="50,30" size="940,96" backgroundColor="ltbluette" zPosition="-1" />
 		<eLabel position="52,32" size="936,91" backgroundColor="header" zPosition="-1" />
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<eLabel position="50,140" size="940,850" backgroundColor="ltbluette" zPosition="-1" />
 		<eLabel position="52,142" size="936,846" backgroundColor="header" zPosition="-1" />
@@ -1044,7 +1044,7 @@
 		<eLabel position="50,30" size="2,95" backgroundColor="ltbluette" zPosition="-1" />
 		<eLabel position="50,125" size="1820,1" backgroundColor="ltbluette" zPosition="-1" />
 		<eLabel position="1870,30" size="2,95" backgroundColor="ltbluette" zPosition="-1" />
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;45" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Middle -->
 		<eLabel position="52,138" size="1820,802" backgroundColor="header" zPosition="-1" />
@@ -3019,7 +3019,7 @@
 		<ePixmap position="0,0"  size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" zPosition="-1" />
 		<ePixmap position="30,120" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="30,980" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="DRRunningText" position="150,30" size="1180,80" font="Regular;34" halign="left" valign="center"
 			foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"
 			options="movetype=swimming,startpoint=0,startdelay=3000,wrap=0,always=0,repeat=6,oneshot=1" />
@@ -3029,7 +3029,7 @@
 		<!-- Cover -->
 		<ePixmap position="1430,140" size="320,440" pixmap="oDreamy-FHD/box/mpnocover.png" zPosition="1" alphatest="blend" transparent="1" />
 		<widget name="poster" position="1420,140" size="320,440" zPosition="4" alphatest="on" />
-		<widget name="Cover" position="1420,140" size="320,440" backgroundColor="whiteFF" alphatest="on" zPosition="4" />
+		<widget name="Cover" position="1420,140" size="320,440" backgroundColor="white" alphatest="on" zPosition="4" />
 		<ePixmap position="1290,610" size="100,100" pixmap="oDreamy-FHD/icons/daytime.png" alphatest="blend" transparent="1" zPosition="1" />
 		<widget source="Service" render="Label" position="1385,620" size="450,40" font="Regular;32" halign="left" foregroundColor="white" backgroundColor="bluette" transparent="1">
 			<convert type="EMCServiceTime">StartTime</convert>
@@ -3107,7 +3107,7 @@
 		<ePixmap position="0,0"  size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" zPosition="-1" />
 		<ePixmap position="30,120" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="30,980" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="DRRunningText" position="150,30" size="1180,80" font="Regular;34" halign="left" valign="center"
 			foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1"
 			options="movetype=swimming,startpoint=0,startdelay=3000,wrap=0,always=0,repeat=6,oneshot=1" />
@@ -3117,7 +3117,7 @@
 		<!-- PIG CHANNEL  -->
 		<eLabel position="1130,140" size="720,423" backgroundColor="bluette" />
 		<eLabel position="1135,145" size="710,413" backgroundColor="header" />
-		<eLabel position="1145,155" size="690,393" backgroundColor="whiteFF" />
+		<eLabel position="1145,155" size="690,393" backgroundColor="white" />
 		<widget source="session.VideoPicture" render="Pig" position="1150,160" size="680,383" backgroundColor="#AA001842" transparent="1"  zPosition="2" />
 		<widget source="session.Event_Now" render="Label" position="1660,515" size="160,25" font="Regular;22" halign="right" foregroundColor="white" backgroundColor="header" shadowColor="black" shadowOffset="-2,-2" transparent="1" zPosition="10" >
 			<convert type="EventTime">Remaining</convert>
@@ -3157,7 +3157,7 @@
 		<!-- Cover -->
 		<ePixmap position="1430,140" size="320,440" pixmap="oDreamy-FHD/box/mpnocover.png" zPosition="1" alphatest="blend" transparent="1" />
 		<widget name="poster" position="1670,710" size="192,260" zPosition="4" alphatest="on" />
-		<widget name="Cover" position="1670,710" size="192,260" backgroundColor="whiteFF" alphatest="on" zPosition="4" />
+		<widget name="Cover" position="1670,710" size="192,260" backgroundColor="white" alphatest="on" zPosition="4" />
 		<widget source="Service" render="DRRunningText" position="1130,720" size="530,235" font="Regular;30" halign="center" options="movetype=swimming,startpoint=0,startdelay=3000,wrap=0,always=0,repeat=6,oneshot=1" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="2">
 			<convert type="EMCMovieInfo">ShortDescription</convert>
 		</widget>
@@ -5354,7 +5354,7 @@
 	<screen name="MerlinMusicPlayerScreen" position="fill" title="iDream Merlin Player" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<eLabel  position="0,0"      size="1920,1080" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="0,0"      size="1920,1080" pixmap="oDreamy-FHD/box/radiook.jpg" zPosition="-1"/>
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,130"   size="1920,3"    pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="1"/>
 		<!-- Title Panel -->
 		<widget source="Title" render="Label" position="140,38" size="1050,80" font="Regular;70" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -5396,7 +5396,7 @@
 	<screen name="MerlinMusicPlayerSongList" position="fill" title="Merlin Songlist" backgroundColor="#FF000000" flags="wfNoBorder">
 		<eLabel  position="0,0"      size="1920,1080" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="0,0"      size="1920,1080" pixmap="oDreamy-FHD/box/radiook.jpg" zPosition="-1"/>
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,130"   size="1920,3"    pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="1"/>
 		<!-- Title Panel -->
 		<widget source="Title" render="Label" position="140,38" size="1050,80" font="Regular;70" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -5415,7 +5415,7 @@
 	<screen name="MerlinMusicPlayerFileList" position="fill" title="iDream Music Player" backgroundColor="#FF000000" flags="wfNoBorder">
 		<eLabel  position="0,0"      size="1920,1080" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="0,0"      size="1920,1080" pixmap="oDreamy-FHD/box/radiook.jpg" zPosition="-1"/>
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,130"   size="1920,3"    pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="1"/>
 		<!-- Title Panel -->
 		<widget source="Title" render="Label" position="140,38" size="1050,80" font="Regular;70" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -5444,7 +5444,7 @@
 		<panel name="sRGYB"/>
 		<eLabel  position="0,0"      size="1920,1080" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="0,0"      size="1920,1080" pixmap="oDreamy-FHD/box/radiook.jpg" zPosition="-1"/>
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,130"   size="1920,3"    pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="1"/>
 		<!-- Title Panel -->
 		<widget source="Title" render="Label" position="140,38" size="1050,80" font="Regular;70" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -5462,7 +5462,7 @@
 	<screen name="MerlinMusicPlayerLyrics" position="fill" title="Merlin Music Player Lyrics" backgroundColor="#FF000000" flags="wfNoBorder">
 		<eLabel  position="0,0"      size="1920,1080" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="0,0"      size="1920,1080" pixmap="oDreamy-FHD/box/radiook.jpg" zPosition="-1"/>
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,130"   size="1920,3"    pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="1"/>
 		<!-- Title Panel -->
 		<widget source="Title" render="Label" position="140,38" size="1050,80" font="Regular;70" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -6108,7 +6108,7 @@
 	</screen>
 
 	<!-- **********  Yahoo Weather ORIGINAL ********** P108 -->
-	<screen name="XYahooWeather" position="fill" title="Yahoo Weather" backgroundColor="whiteff" flags="wfNoBorder" >
+	<screen name="XYahooWeather" position="fill" title="Yahoo Weather" backgroundColor="white" flags="wfNoBorder" >
 		<ePixmap position="fill" pixmap="msn/meteo.jpg" zPosition="-1" />
 		<ePixmap position="60,35" size="121,70" pixmap="msn/yh.png" alphatest="blend" transparent="1" />
 		<widget source="Title" render="Label" position="200,20" size="900,95" font="Regular;45" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1" zPosition="1" />
@@ -6249,7 +6249,7 @@
 	</screen>
 
 	<!-- **********  Yahoo Weather MODDED FHD ********** P108 -->
-	 <screen name="YahooWeather" position="fill" title="Yahoo Weather" backgroundColor="whiteff" flags="wfNoBorder" >
+	 <screen name="YahooWeather" position="fill" title="Yahoo Weather" backgroundColor="white" flags="wfNoBorder" >
 		<ePixmap position="fill" pixmap="oDreamy-FHD/msn/meteo.jpg" zPosition="-1" />
 		<ePixmap position="60,35" size="121,70" pixmap="msn/yh.png" alphatest="blend" transparent="1" />
 		<widget source="Title" render="Label" position="200,20" size="900,95" font="Regular;45" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1" zPosition="1" />
