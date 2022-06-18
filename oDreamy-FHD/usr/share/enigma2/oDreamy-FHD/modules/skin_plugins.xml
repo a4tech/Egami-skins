@@ -457,7 +457,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="sRGY"/>
 		<ePixmap position="972,978" size="60,48" pixmap="oDreamy-FHD/skin_default/vkey_icon.png" alphatest="blend" zPosition="2" />
-		<widget name="HelpWindow" pixmap="oDreamy-FHD/skin_default/vkey_icon.png" position="910,988" size="0,0" zPosition="1" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<eLabel text="TXT" position="1050,955" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="config" position="70,180" size="810,400" itemHeight="50" font="Regular;40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="bluette" backgroundColorSelected="bluette" transparent="1" />
 		<widget source="description" render="Label" position="70,560" size="810,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="bluette" transparent="1" zPosition="2" />
@@ -706,7 +706,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="sRGYB"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header"/>
-					<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,640" size="440,350" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend"/>
 	</screen>
 
@@ -1683,7 +1683,7 @@
 			}
 			</convert>
 		</widget>
-		<widget name="HelpWindow" position="center,650" zPosition="1" size="1,1"/>
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="thumbnail" position="10,10" size="130,94" alphatest="on"/> # fake entry for dynamic thumbnail resizing, currently there is no other way doing this.
 		<widget name="ButtonBlue" position="0,0" size="0,0"/>
 	</screen>
@@ -4219,7 +4219,7 @@
 		<panel name="p800_DateMid" />
 		<panel name="sRGYB"/>
 		<widget name="config" position="70,180" size="820,500" zPosition="3" itemHeight="50" font="Regular;35" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" foregroundColor="white" transparent="1" />
-		<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,800" size="440,350" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend"/>
 	</screen>
 
@@ -4229,7 +4229,7 @@
 		<panel name="p800_DateMid" />
 		<panel name="sRG"/>
 		<widget name="entrylist" position="70,180" size="820,500" itemHeight="70" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="bluette" backgroundColorSelected="bluette" foregroundColor="white" transparent="1" zPosition="3" />
-		<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,800" size="440,350" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend"/>
 	</screen>
 
@@ -4263,7 +4263,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<widget name="config" position="70,180" size="1160,760" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="3" />
-		<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,640" size="440,350" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="60,970"  size="700,90"  pixmap="oDreamy-FHD/icons/team_logo.png"  alphatest="blend" zPosition="2" />
 	</screen>
 
@@ -4387,7 +4387,7 @@
 		<panel name="sRGYB"/>
 		<widget name="config" position="70,180" size="820,480" itemHeight="40" font="Regular;32" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="3" />
 		<widget name="VKeyIcon" pixmap="skin_default/buttons/key_text.png" position="50,200" zPosition="10" size="0,0" transparent="1" alphatest="on" />
-		<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="70,600" zPosition="1" size="1,1" transparent="1" alphatest="on" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/peripheric.png" alphatest="blend"/>
 	</screen>
 
