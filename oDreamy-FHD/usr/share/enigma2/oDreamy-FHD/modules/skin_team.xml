@@ -3418,16 +3418,18 @@
 	</screen>
 	<!-- NetWork OpenVPN Setup FHD -->
 	<screen name="NetworkOpenvpn" title="OpenVPN" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nRGYB" />
+		<panel name="sRGYB" />
 		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
 		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="bluette" zPosition="2" />
 		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
 		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
 		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<widget name="activevpn" position="70,340" size="720,500" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />
+		<widget name="labconfig" position="70,375" size="780,45" font="Regular;33" valign="center" halign="left" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
+		<widget name="labconfigfilename" position="650,375" size="270,45" font="Regular;33" valign="center" halign="left" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
+		<!--<widget name="activevpn" position="70,340" size="720,500" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />-->
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
 	<!-- NetWork Samba Setup FHD -->
