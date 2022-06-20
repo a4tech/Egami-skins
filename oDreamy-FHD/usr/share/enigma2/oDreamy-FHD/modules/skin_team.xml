@@ -2158,7 +2158,7 @@
 	<!-- Menu FHD -->
 	<screen name="Menu" position="fill" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="MenuTemplate" />
-		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,670" size="256,256" zPosition="2" alphatest="on" />
+		<!--<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,670" size="256,256" zPosition="2" alphatest="blend" />-->
 	</screen>
 	<!--  About -->
 	<screen name="About" position="fill" title="About" backgroundColor="transparent" flags="wfNoBorder">
