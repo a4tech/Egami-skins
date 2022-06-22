@@ -287,7 +287,7 @@
 		<panel name="MENU_BGY" />
 		<!-- menu list -->
 		<ePixmap position="830,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" transparent="1" zPosition="1" />
-		<widget name="menuimage" position="860,650" size="256,256" zPosition="2" alphatest="blend" conditional="menuimage" scaleFlags="scaleCenter" transparent="1" />
+		<widget name="menuimage" position="860,650" size="0,0" zPosition="2" alphatest="blend" conditional="menuimage" scaleFlags="scaleCenter" transparent="1" />
 		<widget name="description" position="1260,560" size="600,420" font="Regular;30" halign="center" valign="top" foregroundColor="white" backgroundColor="bluette" transparent="1" zPosition="1" />
 		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1"
 			foregroundColor="grey" foregroundColorSelected="white" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" >
@@ -372,21 +372,21 @@
 	<!-- P800 Template FHD -->
 	<screen name="p800_Template" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- 800p Upper Panel -->
-		<eLabel position="50,30" size="1200,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,32" size="1196,91" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,30" size="1200,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,32" size="1196,91" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Code -->
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="1000,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Middle -->
-		<eLabel position="50,140" size="1200,800" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,142" size="1196,796" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,140" size="1200,800" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,142" size="1196,796" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Footer -->
-		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,957" size="1196,91" backgroundColor="header" zPosition="-1" />
-		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1262,957" size="246,91" backgroundColor="header" zPosition="-1" />
-		<eLabel position="1520,955" size="350,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1522,957" size="346,91" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,957" size="1196,91" backgroundColor="header" transparent="0" zPosition="-10" />
+		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="1262,957" size="246,91" backgroundColor="header" transparent="0" zPosition="-10" />
+		<eLabel position="1520,955" size="350,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="1522,957" size="346,91" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Clock %d.%m.%Y - %H:%M:%S -->
 		<ePixmap position="1275,975" size="90,60" pixmap="oDreamy-FHD/icons/select.png" alphatest="blend" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="1570,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="white" backgroundColor="#10101010" transparent="1" zPosition="1">
@@ -397,19 +397,19 @@
 	<!-- P800 Template FHD -->
 	<screen name="p800_Template_notime" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- 800p Upper Panel -->
-		<eLabel position="50,30" size="1200,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,32" size="1196,91" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,30" size="1200,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,32" size="1196,91" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Code -->
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="1000,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Middle -->
-		<eLabel position="50,140" size="1200,800" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,142" size="1196,796" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,140" size="1200,800" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,142" size="1196,796" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Footer -->
-		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,957" size="1196,91" backgroundColor="header" zPosition="-1" />
-		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1262,957" size="246,91" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,957" size="1196,91" backgroundColor="header" transparent="0" zPosition="-10" />
+		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="1262,957" size="246,91" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Clock %d.%m.%Y - %H:%M:%S -->
 		<widget source="global.CurrentTime" render="Label" position="1240,955" size="250,95" font="Regular;48" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format:%H:%M:%S</convert>
@@ -554,21 +554,21 @@
 	<!-- P900 Template FHD -->
 	<screen name="p900_Template" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- 900p Upper Panel -->
-		<eLabel position="50,30" size="1820,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,32" size="1816,91" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,30" size="1820,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,32" size="1816,91" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Code -->
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;45" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Middle -->
-		<eLabel position="50,140" size="1820,800" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,142" size="1816,795" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,140" size="1820,800" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,142" size="1816,795" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Footer -->
-		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,957" size="1196,91" backgroundColor="header" zPosition="-1" />
-		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1262,957" size="246,91" backgroundColor="header" zPosition="-1" />
-		<eLabel position="1520,955" size="350,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1522,957" size="346,91" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,957" size="1196,91" backgroundColor="header" transparent="0" zPosition="-10" />
+		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="1262,957" size="246,91" backgroundColor="header" transparent="0" zPosition="-10" />
+		<eLabel position="1520,955" size="350,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="1522,957" size="346,91" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Clock %d.%m.%Y - %H:%M:%S -->
 		<ePixmap position="1275,975" size="90,60" pixmap="oDreamy-FHD/icons/select.png" alphatest="blend" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="1570,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="white" backgroundColor="#10101010" transparent="1" zPosition="1">

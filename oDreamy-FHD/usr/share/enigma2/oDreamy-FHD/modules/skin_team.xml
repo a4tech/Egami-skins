@@ -778,7 +778,7 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
 		<panel name="Ex" />
-		<panel name="sRGY"/>
+		<panel name="s_RGYB"/>
 		<widget source="Title" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" zPosition="1" halign="left" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<eLabel text="Software Update" position="70,803" size="1920,300" font="Regular;150" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="white" valign="bottom" zPosition="-50" />
 		<widget name="package_text" position="70,173" size="375,53" zPosition="1" foregroundColor="ltbluette" font="Regular;36" halign="left" backgroundColor="header" transparent="1" />
@@ -2158,7 +2158,7 @@
 	<!-- Menu FHD -->
 	<screen name="Menu" position="fill" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="MenuTemplate" />
-		<!--<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,670" size="256,256" zPosition="2" alphatest="blend" />-->
+		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,670" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  About -->
 	<screen name="About" position="fill" title="About" backgroundColor="transparent" flags="wfNoBorder">
@@ -4755,7 +4755,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext" />
-		<panel name="sY" />
+		<panel name="s_RGYB" />
 		<!-- Code -->
 		<ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/startboot.png" alphatest="blend" />
