@@ -698,20 +698,20 @@
 		<widget source="key_blue" render="Label" position="130,955" size="210,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_blue,StaticText" transparent="1" />
 
 		<!-- Button Green -->
-		<ePixmap position="340,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" objectTypes="key_green,Button,Label" transparent="1" zPosition="2" />
-		<widget source="key_green" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="380,988" size="210,95" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
+		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" objectTypes="key_green,Button,Label" transparent="1" zPosition="2" />
+		<widget source="key_green" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="400,988" size="210,95" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget name="key_green" position="420,955" size="210,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_green,Button,Label" transparent="1" />
-		<widget source="key_green" render="Label" position="420,955" size="210,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_green,StaticText" transparent="1" />
+		<widget name="key_green" position="440,955" size="210,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_green,Button,Label" transparent="1" />
+		<widget source="key_green" render="Label" position="440,955" size="210,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_green,StaticText" transparent="1" />
 
 		<!-- Button Yellow -->
-		<ePixmap position="620,988" pixmap="oDreamy-FHD/buttons/yellowpanel.png" size="30,30" alphatest="blend" objectTypes="key_yellow,Button,Label" transparent="1" />
-		<widget source="key_yellow" render="Pixmap" pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="660,988" size="210,95" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
+		<ePixmap position="660,988" pixmap="oDreamy-FHD/buttons/yellowpanel.png" size="30,30" alphatest="blend" objectTypes="key_yellow,Button,Label" transparent="1" />
+		<widget source="key_yellow" render="Pixmap" pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="700,988" size="210,95" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget name="key_yellow" position="700,955" size="210,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_yellow,Button,Label" transparent="1" />
-		<widget source="key_yellow" render="Label" position="700,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" zPosition="1" objectTypes="key_yellow,StaticText" transparent="1" />
+		<widget name="key_yellow" position="740,955" size="210,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_yellow,Button,Label" transparent="1" />
+		<widget source="key_yellow" render="Label" position="740,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" zPosition="1" objectTypes="key_yellow,StaticText" transparent="1" />
 	</screen>
 
 	<screen name="s_RGYB">
@@ -843,36 +843,6 @@
 	<screen name="fakeExit">
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<eLabel text="Exit" position="120,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-	</screen>
-
-	<screen name="infocolor">
-		<widget source="session.CurrentService" render="Label" position="100,1007" size="200,40" backgroundColor="header" zPosition="10" transparent="0" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">labelred</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="400,1007" size="200,40" backgroundColor="header" zPosition="10" transparent="0" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">labelgreen</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="700,1007" size="200,40" backgroundColor="header" zPosition="10" transparent="0" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">labelyellow</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="1000,1007" size="200,40" backgroundColor="header" zPosition="10" transparent="0" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">labelblue</convert>
-		</widget>
-	</screen>
-
-	<screen name="plugincolor">
-		<widget source="session.CurrentService" render="Label" position="120,955" size="200,95" valign="center" backgroundColor="header" zPosition="1" transparent="1" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">pluginred</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="405,955" size="300,95" valign="center" backgroundColor="header" zPosition="1" transparent="1" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">plugingreen</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="685,955" size="200,95" valign="center" backgroundColor="header" zPosition="1" transparent="1" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">pluginyellow</convert>
-		</widget>
-		<widget source="session.CurrentService" render="Label" position="1000,955" size="200,95" valign="center" backgroundColor="header" zPosition="1" transparent="1" font="Regular;34" halign="left" >
-			<convert type="Colorlabel">pluginblue</convert>
-		</widget>
 	</screen>
 
 </skin>
