@@ -4,7 +4,7 @@
 		<font name="Console" filename="tuxtxt.ttf" scale="100" />
 		<font name="Fixed" filename="andale.ttf" scale="100" />
 		<font name="Replacement" filename="ae_AlMateen.ttf" scale="100" replacement="1" />
-		<font name="Regular" filename="/usr/share/enigma2/oDreamy-FHD/fonts/verdana.ttf" scale="93" />
+		<font name="Regular" filename="/usr/share/enigma2/oDreamy-FHD/fonts/verdana.ttf" scale="90" />
 		<font name="xRegular" filename="/usr/share/fonts/nmsbd.ttf" scale="100" />
 		<font name="Regular2" filename="/usr/share/enigma2/oDreamy-FHD/fonts/verdana2.ttf" scale="93" />
 		<alias name="Body" font="Regular" size="32" height="50" />
@@ -130,6 +130,9 @@
 		<configList entryFont="Regular;28" valueFont="Regular;27" />
 		<scrolllabel scrollbarWidth="8" scrollbarBorderWidth="1"/>
  		<listbox scrollbarWidth="8" scrollbarBorderWidth="1" enableWrapAround="1"/>
+		<!--<color name="SliderForeground" color="red" />
+		<color name="SliderBorder" color="yellow" />
+		<color name="SliderBackground" color="green" />-->
 		<color name="Background" color="background" />
 		<color name="LabelForeground" color="#ffffff" />
 		<color name="ListboxBackground" color="background" />

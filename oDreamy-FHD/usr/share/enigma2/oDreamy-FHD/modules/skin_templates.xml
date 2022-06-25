@@ -294,10 +294,16 @@
 			<convert type="TemplatedMultiContent">
 				 {"template": [ MultiContentEntryText(pos = (105, 8), size = (680, 65), flags = RT_HALIGN_LEFT, text = 0),
 				 MultiContentEntryPixmapAlphaBlend(pos = (25, 3), size = (56, 56), png = 1),],
-				 "fonts": [gFont("Regular", 38)],
+				 "fonts": [gFont("Regular", 35)],
 				 "itemHeight": 60
 				 }
 			</convert>
+		</widget>
+		<widget source="key_menu" render="Label" position="838,860" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="grey" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="key_help" render="Label" position="988,860" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="grey" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
 		</widget>
 	</screen>
 
@@ -509,11 +515,11 @@
 
 	<!-- P800 Extensions FHD -->
 	<screen name="p800_Ext_BiN" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
-		<eLabel position="1260,30" size="610,96" backgroundColor="ltbluette" zPosition="-2" />
-		<eLabel position="1262,32" size="606,92" backgroundColor="header" zPosition="-2" />
-		<eLabel position="1260,140" size="610,802" backgroundColor="header" zPosition="-2" />
-		<eLabel position="1260,510" size="610,432" backgroundColor="header" zPosition="-2" />
-		<eLabel position="1260,510" size="610,10" backgroundColor="#FF000000" zPosition="-1" />
+		<eLabel position="1260,30" size="610,96" backgroundColor="ltbluette" zPosition="-10" />
+		<eLabel position="1262,32" size="606,92" backgroundColor="header" zPosition="-10" />
+		<eLabel position="1260,140" size="610,802" backgroundColor="header" zPosition="-10" />
+		<eLabel position="1260,510" size="610,432" backgroundColor="header" zPosition="-10" />
+		<eLabel position="1260,510" size="610,10" backgroundColor="header" zPosition="-10" />
 	</screen>
 
 	<!-- P800 Logo FHD -->
