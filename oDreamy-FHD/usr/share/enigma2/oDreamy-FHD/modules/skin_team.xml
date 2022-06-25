@@ -617,12 +617,18 @@
 	</screen>
 	<!--  EGAMI Full Backup Panel FHD -->
 	<screen name="EGFullBackup" position="fill" title="EGAMI Full Image Backup Panel - STEP 1" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template_notime" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="sRG" />
-		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<panel name="p800_Template"/>
+		<panel name="p800_Logo"/>
+		<panel name="p800_Date"/>
+		<panel name="p800_Ext_BiN"/>
+		<panel name="s_RGYB"/>
+		<panel name="Ex"/>
+		<widget source="options" render="Label" position="2,130" size="0,0" halign="center" font="Regular; 22" backgroundColor="header" foregroundColor="#00ffffff" />
+		<widget source="description" render="Label" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" enableWrapAround="1" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
+		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!--  EGAMI Remove Addons FHD -->
 	<screen name="EGAddonRemove" position="fill" title="EGAMI Remove Addons" backgroundColor="transparent" flags="wfNoBorder">
@@ -2204,6 +2210,8 @@
 		<panel name="nRGYB" />
 		<panel name="MI" />
 		<!-- List Channel -->
+		<widget name="textvod" position="1530,25" size="0,0" font="Regular;28" halign="right" backgroundColor="header" foregroundColor="ltbluette" transparent="1" zPosition="1" />
+		<widget name="key_vod" position="1455,60" size="0,0" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<ePixmap position="1230,165" size="10,750" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2" />
 		<widget name="list" position="70,165" size="1170,750" serviceItemHeight="50" serviceNumberFont="Regular;32" serviceInfoFont="Regular;30" serviceNameFont="Regular;30" zPosition="2" foregroundColor="white" foregroundColorSelected="white" foregroundColorServiceNotAvail="#5e5e5e" colorServiceDescription="#0073c6ff" colorServiceDescriptionSelected="#00ffffff" backgroundColor="header" foregroundColorEventSelected="#0036c6" foregroundColorMarkedSelected="#902020" scrollbarMode="showOnDemand" picServiceEventProgressbar="skin_default/progcl.png" transparent="1" />
 	</screen>
@@ -3732,10 +3740,13 @@
 			</convert>
 		</widget>
 	</screen>
+
 	<!-- Download Addons FHD -->
 	<screen name="PluginDownloadBrowser" title="Downloadable plugins" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="text" position="70,180" size="1160,50" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" halign="left" transparent="1" />
 		<widget name="list" position="70,180" size="1160,700" font="Regular;32" itemHeight="70" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
