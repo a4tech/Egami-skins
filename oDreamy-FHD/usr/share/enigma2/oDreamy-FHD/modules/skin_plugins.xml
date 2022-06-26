@@ -446,7 +446,7 @@
 		<panel name="p800_Ext_BiN"/>
 		<panel name="s_RGYB"/>
 		<widget name="slotlist" position="70,180" size="1160,720" itemHeight="45" font="Regular;35" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8"/>
-		<widget source="description" render="Label" position="1260,560" size="610,400" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="description" position="1260,560" size="610,400" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 	</screen>
@@ -535,9 +535,9 @@
 		<panel name="p800_DateMid"/>
 		<panel name="nRG"/>
 		<widget name="config" position="70,180" size="820,400" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
-		<ePixmap position="70,988"  pixmap="oDreamy-FHD/buttons/redpanel.png"    size="30,30" alphatest="blend" zPosition="2" />
+		<ePixmap position="70,988"  pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="cancel" position="120,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png"  size="30,30" alphatest="blend" zPosition="2" />
+		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="ok" position="400,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/3d.png" alphatest="blend"/>
 	</screen>
@@ -692,9 +692,10 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="1230,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" zPosition="4" alphatest="blend"/>
-		<widget name="config" position="70,180" size="1170,720" itemHeight="45" font="Regular;32" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
+		<widget name="config" position="70,180" size="1170,720" itemHeight="45" font="Regular;32" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget source="help" render="Label" position="1280,460" size="590,400" font="Regular;30" halign="center" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="10" />
 		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
@@ -1374,7 +1375,7 @@
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		 <widget name="lab1" position="70,180"  size="250,40" font="Regular;32" halign="left" valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1"/>
 		 <widget name="labactive" position="350,180" size="540,40" font="Regular;32" halign="center" valign="center" foregroundColor="#000000" backgroundColor="green" zPosition="1"/>
 		 <widget name="labdisabled" position="350,180" size="540,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1"/>
