@@ -1,16 +1,4 @@
 <skin>
-	<!--
-	################### mmark_openDreamy Templates ####################
-	#                                                                 #
-	#      mmark          Version 2.0.0 released       mod madhouse   #
-	#                                                                 #
-	###################################################################
-	-->
-	<!-- openDreamy v1.0 skin, based on Dreamy by mmark (E2skin.blogspot.com) -->
-	<!-- This skin is a Freeware. Everyone can modify and use it in other images -->
-	<!-- !!!!!!! BUT DO NOT REMOVE OR CHANGE THIS DISCLAIMER !!!!!!! -->
-	<!-- Do whatever you want with this skin,but don't tell it's yours, or your idea -->
-
 	<!-- iptv  -->
 	<screen name="iptv_png">
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="990,135" size="56,23" alphatest="blend" zPosition="1" transparent="1">

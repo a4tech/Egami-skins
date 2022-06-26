@@ -1,19 +1,10 @@
 <skin>
-	<!--
-	# mmark Version 2.0.0 released
-	-->
-	<!-- This skin is a Freeware. Everyone can modify and use it in other images -->
-	<!-- !!!!!!! BUT DO NOT REMOVE OR CHANGE THIS DISCLAIMER !!!!!!! -->
-	<!-- Do whatever you want with this skin,but don't tell it's yours, or your idea -->
-	<!--    and leave the credentials in the "About-box" as they are -->
-	<!--    Mod for Egami -   by Madhouse    -->
-
 	<!-- QuadPiPChannelSelection -->
 	<screen name="QuadPiPChannelSelection" position="fill" title="Quad PiP Channel Selection" flags="wfNoBorder" >
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget source="ChannelList" render="Listbox" position="70,180" size="820,700" foregroundColor="white" backgroundColor="header" foregroundColorSelected="white" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showAlways" transparent="1" >
 			<convert type="TemplatedMultiContent">
 			{"template":
@@ -35,7 +26,7 @@
 	<!-- CreateQuadPipChannelEntry -->
 	<screen name="CreateQuadPipChannelEntry" position="fill" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p900_Template"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="list" position="80,150" size="1770,560" serviceItemHeight="40" serviceNumberFont="Regular;28" serviceNameFont="Regular;28" serviceInfoFont="Regular;24" foregroundColorServiceNotAvail="#58595b" transparent="1" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" />
 		<widget name="textChannels" position="400,720" size="1250,30" foregroundColor="ltbluette" font="Regular;33" transparent="1" />
 		<widget name="selectedList" position="410,760" size="700,160" foregroundColor="ltbluette" font="Regular;28" itemHeight="40" transparent="1" />
@@ -241,8 +232,9 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
-		<panel name="fakeExit" />
+		<panel name="s_RGYB" />
 		<panel name="I" />
+		<widget name="lab1" position="70,155" size="0,0" font="Regular;40" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
 			<convert type="EGLayoutInfo">MemTotal</convert>
@@ -267,10 +259,7 @@
 		<ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
 		<widget source="lab1" render="Label" position="70,155" size="820,80" font="Regular;40" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-		<widget name="AboutScrollLabel" position="70,205" size="1160,720" itemHeight="39" font="Regular;32" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
-		<ePixmap position="350,985" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_green" render="Label" position="400,955" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<!--<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" /> -->
+		<widget name="AboutScrollLabel" position="70,205" size="1160,720" font="Regular;32" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 	<!-- Info About FHD -->
 	<screen name="AboutOECommit" title="Image Information" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -310,7 +299,8 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
+		<panel name="Ex"/>
 		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
 			<convert type="EGLayoutInfo">MemTotal</convert>
@@ -334,8 +324,8 @@
 		</widget>
 		<ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-		<widget source="description" render="Label" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" leftColAlign="left" rightColAlign="left" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<widget name="description" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 
 	<!-- Info SystemInformation FHD -->
@@ -344,7 +334,7 @@
 		<panel name="p800_Ext" />
 		<panel name="M" />
 		<panel name="p800_Date" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
 			<convert type="EGLayoutInfo">MemTotal</convert>
@@ -368,8 +358,8 @@
 		</widget>
 		<ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-		<widget source="description" render="Label" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" leftColAlign="left" rightColAlign="left" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<widget name="description" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 
 	<!-- Info CommitLogInformation FHD -->
@@ -377,8 +367,8 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
-		<panel name="sRG"/>
-		<panel name="M"/>
+		<panel name="s_RGYB"/>
+		<panel name="Ex"/>
 		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
 			<convert type="EGLayoutInfo">MemTotal</convert>
@@ -402,8 +392,8 @@
 		</widget>
 		<ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-		<widget source="description" render="Label" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" leftColAlign="left" rightColAlign="left" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<widget name="description" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 
 	<!-- Info TranslationInformation FHD -->
@@ -424,7 +414,7 @@
 		<panel name="p900_Logo"/>
 		<panel name="p900_Date"/>
 		<panel name="M"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 	</screen>
 
 	<!-- ***** MultiBootSelector ***** 002 -->
@@ -455,7 +445,7 @@
 	<screen name="NetworkPassword" position="fill" title="Password Setup" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_Logo"/>
-		<panel name="sRGY"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="972,978" size="60,48" pixmap="oDreamy-FHD/skin_default/vkey_icon.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="105,915" size="0,0" font="Regular;24" halign="right" valign="center" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -471,7 +461,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_BiN"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="1160,720" itemHeight="45" font="Regular;35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget source="description" render="Label" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget source="options" render="Label" position="1260,760" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2"/>
@@ -484,7 +474,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,300" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<widget name="status"    position="70,600" size="840,130" font="Regular;30" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
 		<widget name="statusbar" position="70,800" size="840,40"  font="Regular;30" backgroundColor="header" foregroundColor="white"     transparent="1" />
@@ -495,7 +485,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="checkList" position="70,180" size="820,300" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/backup.png" alphatest="blend"/>
 	</screen>
@@ -505,7 +495,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config"     position="70,180" size="820,400" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<widget name="PluginInfo" position="70,630" size="490,200" font="Regular;28" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="4" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/audio.png" alphatest="blend"/>
@@ -516,7 +506,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<!-- Code -->
 		<widget name="ChannelLabel" position="33,155"  size="130,30" font="Regular;22" halign="center" valign="center" transparent="1" backgroundColor="header" foregroundColors="white,#fe6b1b" zPosition="2" />
 		<widget name="ChannelImg"   position="20,158"  size="22,22"  transparent="1" pixmaps="~/img/OptionButtonOff.png,~/img/OptionButtonOn.png" alphatest="on" zPosition="2" />
@@ -533,7 +523,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,400" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="70,988"  pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="cancel" position="120,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
@@ -547,7 +537,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<!-- Code -->
 		<widget name="config" position="70,180" size="820,400" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/folders.png" alphatest="blend"/>
@@ -589,7 +579,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend"/>
 	</screen>
@@ -599,7 +589,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend"/>
 	</screen>
@@ -608,7 +598,7 @@
 	<screen name="AutoTimerOverview" title="AutoTimer Overview" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<widget name="entries" position="70,180" size="1170,720" font="Regular;32" itemHeight="80" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 	</screen>
@@ -639,7 +629,7 @@
 	<screen name="AutoTimerImporter" title="Import AutoTimer" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="list" position="70,180" size="1160,720" font="Regular;32" itemHeight="45" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend"/>
 	</screen>
@@ -650,7 +640,7 @@
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext_BiN"/>
 		<panel name="p800_Logo"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" itemHeight="40" font="Regular;32" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="1440,180" size="300,300" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend"/>
 		<widget source="help" render="Label" position="1265,600" size="600,360" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
@@ -661,7 +651,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="detailtext" position="70,180" size="820,480" itemHeight="40" font="Regular;32" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend"/>
 	</screen>
@@ -706,7 +696,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header"/>
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend"/>
@@ -729,7 +719,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="pleasewait"  position="70,180" size="820,280" font="Regular;32" halign="left" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="2"/>
 		<widget name="config"      position="70,180" size="820,280" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<widget name="description" position="70,500" size="820,300" font="Regular;30" halign="left" valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="1"/>
@@ -761,7 +751,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="pleasewait"  position="70,180" size="820,400" font="Regular;32" halign="left" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="2"/>
 		<widget name="config"      position="70,180" size="820,400" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<widget name="description" position="70,620" size="820,210" font="Regular;30" halign="left" valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="1"/>
@@ -773,7 +763,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -794,7 +784,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="pleasewait" position="70,180" size="720,180" font="Regular;30" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
@@ -824,7 +814,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<widget name="about" position="70,180" size="820,600" font="Regular;30" backgroundColor="header" transparent="1"/>
 		<widget name="oealogo" position="600,660" size="200,135" zPosition="4" transparent="1" alphatest="blend"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend"/>
@@ -836,7 +826,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="1320,180" size="15,360" pixmap="box/maxbar.png" zPosition="4" alphatest="blend"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
@@ -847,7 +837,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="sRGY"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<ePixmap position="900,180" size="10,720" pixmap="box/maxbar.png" alphatest="blend" zPosition="4" />
 		<widget name="filelist" position="70,180" size="840,720" font="Regular;32" itemHeight="45" zPosition="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
@@ -864,9 +854,9 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="sR"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="895,180" size="15,720" pixmap="box/maxbar.png" zPosition="4" alphatest="blend"/>
-		<widget source="menu" render="Listbox" position="70,180" size="820,720" selectionDisabled="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1">
+		<widget source="menu" render="Listbox" position="70,180" size="820,720" selection="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (5,3),size = (350,40),flags = RT_HALIGN_LEFT,text = 0),
@@ -895,7 +885,7 @@
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/web_browser.png" alphatest="blend"/>
 		<widget name="lab1"   position="70,180" size="820,90"  font="Regular;34" foregroundColor="white" halign="center" valign="top" backgroundColor="header" transparent="0" zPosition="1" />
 		<eLabel position="70,290" size="820,1" backgroundColor="#303030" zPosition="1"/>
@@ -977,7 +967,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="oldversion_label" position="70,180"   size="300,40" font="Regular;32" foregroundColor="#73c6ff" backgroundColor="header" transparent="1"/>
 		<widget name="oldversion"       position="400,180"  size="400,40" font="Regular;32" backgroundColor="header" transparent="1"/>
 		<widget name="newversion_label" position="70,240"   size="300,40" font="Regular;32" foregroundColor="#73c6ff" backgroundColor="header" transparent="1"/>
@@ -1030,7 +1020,7 @@
 		<eLabel position="50,940" size="1820,2" backgroundColor="ltbluette" zPosition="-1" />
 		<!-- Code -->
 		<widget name="list_left_head1" position="70,162" size="890,60" font="Regular;28" halign="center" valign="center" foregroundColor="yellow" backgroundColor="header" zPosition="1" transparent="0" />
-		<widget source="list_left_head2" render="Listbox" position="70,180" size="720,20" foregroundColor="#00fff000" selectionDisabled="1" transparent="1" >
+		<widget source="list_left_head2" render="Listbox" position="70,180" size="720,20" foregroundColor="#00fff000" selection="1" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (0, 0), size = (115, 20), font = 0, flags = RT_HALIGN_LEFT, text = 1), # index 1 is a symbolic mode
@@ -1045,7 +1035,7 @@
 		</widget>
 		<widget name="list_left" position="70,240" size="890,645" font="Regular;30" itemHeight="40" zPosition="1" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<widget name="list_right_head1" position="990,162" size="860,60" font="Regular;28" foregroundColor="yellow" halign="center" valign="center" backgroundColor="header" zPosition="2" transparent="0" />
-		<widget source="list_right_head2" render="Listbox" position="990,180" size="720,20" foregroundColor="#00fff000" selectionDisabled="1" transparent="1" >
+		<widget source="list_right_head2" render="Listbox" position="990,180" size="720,20" foregroundColor="#00fff000" selection="1" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (0, 0), size = (115, 20), font = 0, flags = RT_HALIGN_LEFT, text = 1), # index 1 is a symbolic mode
@@ -1080,6 +1070,7 @@
 		<widget source="global.CurrentTime" render="Label" position="1345,30" size="500,95" font="Regular;35" halign="right" valign="center" foregroundColor="#505050" backgroundColor="#101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
+		<widget name="key_menu" position="950,955" size="0,0" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
 		<ePixmap position="910,988" pixmap="oDreamy-FHD/buttons/bluepanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="key_blue" position="950,955" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<ePixmap position="640,988" pixmap="oDreamy-FHD/buttons/yellowpanel.png" size="30,30" alphatest="blend" zPosition="2" />
@@ -1125,7 +1116,7 @@
 
 	<screen name="UnzipMenuScreen" position="fill" title="File Commander - Unzip" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template_notime"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="list_left_head" position="70,180" size="720,60" font="Regular;30" foregroundColor="#00fff000" backgroundColorSelected="bluette"/>
 		<widget name="list_left" position="70,270" size="720,600" scrollbarMode="showOnDemand" backgroundColorSelected="bluette"/>
 		<widget name="unpacking" position="70,620" size="720,30" scrollbarMode="showOnDemand" foregroundColor="#00ffffff"/>
@@ -1134,7 +1125,7 @@
 	<screen name="vEditorScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p900_Template"/>
 		<panel name="p900_Date"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="list_head" position="70,160" size="1790,50" font="Regular;24" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="#202020" transparent="0"/>
 		<widget name="filedata" position="70,210" size="1790,735" font="Regular;28" itemHeight="38" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
 	</screen>
@@ -1164,7 +1155,7 @@
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget source="deviceList" render="Listbox" position="70,180" size="820,700" scrollbarMode="showOnDemand" transparent="1" >
 			<convert type="TemplatedMultiContent">
 			{"template":
@@ -1187,7 +1178,7 @@
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget source="deviceList" render="Listbox" position="70,180" size="820,700" scrollbarMode="showOnDemand" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"template":
@@ -1208,7 +1199,7 @@
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget source="deviceList" render="Listbox" position="70,180" size="820,700" scrollbarMode="showOnDemand" transparent="1" >
 			<convert type="TemplatedMultiContent">
 			{"template":
@@ -1260,7 +1251,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="devicelist" position="70,180" size="820,300" font="Regular;30" itemHeight="40" foregroundColor="white" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" zPosition="10" />
 		<widget name="ConnStatus" position="70,820" size="820,150" font="Regular;30" halign="center" valign="center" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/deviceusb.png" alphatest="blend"/>
@@ -1270,7 +1261,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="background" zPosition="1" position="0,0" size="560,360" alphatest="blend" />
 		<widget name="label1" zPosition="2" position="220,200" size="540,35" font="Regular;30" halign="center" valign="center" transparent="1" />
 		<widget name="label2" zPosition="2" position="120,255" foregroundColor="yellow" size="700,40" font="Regular;35" halign="center" valign="center" transparent="1" />
@@ -1296,7 +1287,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,400" font="Regular;32" itemHeight="45" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
@@ -1316,7 +1307,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="head"   position="70,180" size="820,40"  font="Regular;34" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="0" zPosition="5" />
 		<widget name="config" position="70,250" size="820,400" font="Regular;30" itemHeight="40" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
 		<widget name="check"  position="70,780" size="820,120" font="Regular;30" valign="top" halign="left" foregroundColor="ltbluette"  backgroundColor="header" transparent="1" zPosition="5"/>
@@ -1327,7 +1318,7 @@
 	<screen name="mediaInfo" title="MediaInfo" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_TemplateSlim"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="info"         position="1370,958"   size="140,95" font="Regular;24" halign="center" valign="center" foregroundColor="white" backgroundColor="header"  transparent="0" zPosition="5" />
 		<widget name="head"         position="70,170" size="1170,50"  font="Regular;34" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="0" zPosition="5" />
 		<widget name="downloadList" position="70,240" size="1170,665" font="Regular;32" itemHeight="35" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
@@ -1339,7 +1330,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="media"      position="70,180" size="820,40" valign="top" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget name="folderlist" position="70,260" size="820,560" font="Regular;30" itemHeight="40" backgroundColor="header" scrollbarMode="showOnDemand" zPosition="1" />
 	</screen>
@@ -1349,7 +1340,7 @@
 	<screen name="TranscodingSetup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p900_Template"/>
 		<panel name="p900_Date"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="1350,185" size="256,256" pixmap="oDreamy-FHD/icons/hdmic.png" alphatest="blend"/>
 		<widget name="description" position="1060,315" size="760,440" font="Regular;30" halign="center" valign="top" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget name="config" position="70,180" size="870,200" font="Regular;30" itemHeight="35" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
@@ -1366,7 +1357,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="menu" position="70,180" size="820,500" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/cron.png" alphatest="blend"/>
 	 </screen>
@@ -1393,7 +1384,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		 <widget name="lab1"        position="70,180"  size="250,40" font="Regular;32" halign="left"   valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1"/>
 		 <widget name="labactive"   position="350,180" size="540,40" font="Regular;32" halign="center" valign="center" foregroundColor="#000000" backgroundColor="green"  zPosition="1"/>
@@ -1413,7 +1404,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,500" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/cron.png" alphatest="blend"/>
 	</screen>
@@ -1425,7 +1416,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="MI"/>
 		<!-- Cover -->
 		<ePixmap position="70,170" size="100,170" pixmap="oDreamy-FHD/icons/imdb.png" zPosition="1" alphatest="blend"/>
@@ -1460,7 +1451,7 @@
 	<screen name="EPGImportConfig" title="EPG Import Configuration" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_Ext"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="I"/>
 		<!-- Date -->
 		<widget source="global.CurrentTime" render="Label" position="1540,30" size="300,95" font="Regular;35" halign="right" valign="center" foregroundColor="white" backgroundColor="#101010" transparent="1" zPosition="1" >
@@ -1476,7 +1467,7 @@
 	<screen name="EPGImportSources" title="EPG Import Sources" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="list" position="70,180" size="1140,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8"/>
 	</screen>
 
@@ -1497,7 +1488,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/crossepg.png" alphatest="blend"/>
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
@@ -1531,7 +1522,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/crossepg.png" alphatest="blend"/>
 		<widget name="version"            position="70,180" size="840,40" font="Regular;36" foregroundColor="#73c6ff" backgroundColor="header" transparent="1"/>
 		<widget name="create"             position="70,250" size="840,40" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1"/>
@@ -1551,7 +1542,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/crossepg.png" alphatest="blend"/>
 		<ePixmap pixmap="box/maxbar.png" position="900,180" size="10,720" zPosition="2" alphatest="blend"/>
 		<widget name="menu" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
@@ -1562,7 +1553,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/crossepg.png" alphatest="blend"/>
 		<ePixmap pixmap="box/maxbar.png" position="900,180" size="10,720" zPosition="2" alphatest="blend"/>
 		<widget source="list" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand"  backgroundColor="header" transparent="1">
@@ -1583,7 +1574,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/crossepg.png" alphatest="blend"/>
 		<ePixmap pixmap="box/maxbar.png" position="900,180" size="10,720" zPosition="2" alphatest="blend"/>
 		<widget source="list" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2">
@@ -1604,7 +1595,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/crossepg.png" alphatest="blend"/>
 		<widget name="about"        position="70,180" size="840,800" font="Regular;26" foregroundColor="#73c6ff" backgroundColor="header" transparent="1"/>
 		<widget name="rytec_pix"    position="50,530" size="0,0" alphatest="blend"/>
@@ -1618,7 +1609,7 @@
 		<ePixmap pixmap="oDreamy-FHD/menu/ico_yt.png" position="530,500" size="256,256" alphatest="blend" />
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<eLabel text="Exit" position="120,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 
@@ -1702,7 +1693,7 @@
 		<widget name="key_red"    position="60,10"  size="250,40" halign="left" font="Regular;32" backgroundColor="header" transparent="1" zPosition="1" />
 		<eLabel	position="10,60" size="1200,1" backgroundColor="#303030"/>
 		<!-- ePixmap position="0,65" size="200,470" pixmap="icons/film.png" alphatest="blend"/-->
-		<widget source="infolist" render="Listbox" position="10,70" size="140,640" zPosition="6" scrollbarMode="showNever" selectionPixmap="icons/1.png" backgroundPixmap="icons/1.png" selectionDisabled="1" transparent="1">
+		<widget source="infolist" render="Listbox" position="10,70" size="140,640" zPosition="6" scrollbarMode="showNever" selectionPixmap="icons/1.png" backgroundPixmap="icons/1.png" selection="1" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"templates":
 					{"default": (640,[
@@ -1911,7 +1902,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<ePixmap pixmap="box/maxbargh.png" position="895,180" size="15,720" zPosition="2" alphatest="blend"/>
 		<widget name="LogsSize" position="70,180" size="820,50" font="Regular;32" foregroundColor="#73c6ff" halign="center" valign="center" backgroundColor="header" />
 		<widget name="list" position="70,250" size="820,685" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1"/>
@@ -1980,7 +1971,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="lab1" position="70,180" size="820,50" font="Regular;32" halign="left" valign="center" backgroundColor="trbluette" transparent="0" />
 		<widget name="list" position="70,230" size="820,600" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_log.png" alphatest="blend" zPosition="2" />
@@ -2010,7 +2001,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_Ext"/>
 		<panel name="p800_Date" />
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<eLabel position="1260,140" size="610,502" backgroundColor="#20000000" zPosition="-1" />
 		<eLabel position="1260,640" size="610,10" backgroundColor="#FF000000" zPosition="-1" />
 		<widget name="list" position="70,180" size="840,700" itemHeight="50" font="Regular;32" scrollbarMode="showAlways" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
@@ -2138,7 +2129,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 	</screen>
@@ -2148,7 +2139,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="840,720" font="Regular;32" itemHeight="102" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 	</screen>
@@ -2157,7 +2148,7 @@
 	<screen name="CCcamInfoConfigSwitcher" position="fill" title="CCcam Info" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 	</screen>
@@ -2167,7 +2158,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 	</screen>
@@ -2206,7 +2197,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend"/>
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
@@ -2295,31 +2286,42 @@
 		<ePixmap position="60,970"  size="900,90"  pixmap="icons/team_logo.png"  alphatest="blend" zPosition="2" />
 	</screen>
 
-	<!-- ********** User Interface ********** P026 -->
 	<!-- UserInterface Positioner 2 -->
-				<screen name="UserInterfacePositioner2" position="fill" backgroundColor="#FF000000" title="OSD Adjustment" flags="wfNoBorder" >
-					<widget source="text" render="Label" position="160,100" size="1600,300" font="Regular;36" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-					<widget name="config" position="160,300" size="1600,340" font="Regular;30" itemHeight="40"  transparent="1" zPosition="1" />
-					<widget source="status" render="Label" position="160,900" size="1600,100" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-					<eLabel position="0,0"     size="1920,1080" backgroundColor="#100066ea" borderColor="red"    borderWidth="2" zPosition="-1" />
-					<eLabel position="50,50"   size="1820,980"  backgroundColor="#30008000" borderColor="green"  borderWidth="2" zPosition="-1" />
-					<eLabel position="100,100" size="1720,880"  backgroundColor="#60000080" borderColor="yellow" borderWidth="2" zPosition="-1" />
-					<eLabel position="150,150" size="1620,780"  backgroundColor="#20000000" borderColor="blue"   borderWidth="2" zPosition="-1" />
-					<eLabel backgroundColor="red"     position="160,850"  size="370,5" zPosition="0" />
-					<eLabel backgroundColor="green"   position="560,850"  size="380,5" zPosition="0" />
-					<eLabel backgroundColor="yellow"  position="970,850"  size="380,5" zPosition="0" />
-					<widget source="key_red"    render="Label" position="160,810"  zPosition="1" size="370,40" font="Regular;32" halign="center" valign="center" backgroundColor="header" transparent="1" />
-					<widget source="key_green"  render="Label" position="500,810"  zPosition="1" size="380,40" font="Regular;32" halign="center" valign="center" backgroundColor="header" transparent="1" />
-					<widget source="key_yellow" render="Label" position="970,810"  zPosition="1" size="380,40" font="Regular;32" halign="center" valign="center" backgroundColor="header" transparent="1" />
-				</screen>
+	<screen name="UserInterfacePositioner2" position="0,0" size="1920,1080" backgroundColor="header" flags="wfNoBorder" title="OSD Adjustment" >
+		<widget name="text" position="300,165" zPosition="1" size="1320,180" valign="center" font="Regular;33" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
+		<widget name="config" position="225,375" zPosition="1" size="1470,315" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColorSelected="bluette" foregroundColorSelected="white" backgroundColor="header" foregroundColor="grey" transparent="1" />
+		<widget source="status" render="Label" position="300,713" zPosition="1" size="1320,120" font="Regular;30" halign="center" valign="center" foregroundColor="grey" backgroundColor="header" transparent="1" />
+		<eLabel backgroundColor="red" position="0,0" size="1920,2" zPosition="0" />
+		<eLabel backgroundColor="red" position="0,1079" size="1920,2" zPosition="0" />
+		<eLabel backgroundColor="red" position="0,0" size="2,1080" zPosition="0" />
+		<eLabel backgroundColor="red" position="1919,0" size="2,1080" zPosition="0" />
+		<eLabel backgroundColor="green" position="38,38" size="1845,2" zPosition="0" />
+		<eLabel backgroundColor="green" position="38,1041" size="1845,2" zPosition="0" />
+		<eLabel backgroundColor="green" position="38,38" size="2,1005" zPosition="0" />
+		<eLabel backgroundColor="green" position="1881,38" size="2,1005" zPosition="0" />
+		<eLabel backgroundColor="yellow" position="75,75" size="1770,2" zPosition="0" />
+		<eLabel backgroundColor="yellow" position="75,1004" size="1770,2" zPosition="0" />
+		<eLabel backgroundColor="yellow" position="75,75" size="2,930" zPosition="0" />
+		<eLabel backgroundColor="yellow" position="1844,75" size="2,930" zPosition="0" />
+		<eLabel backgroundColor="blue" position="113,113" size="1695,2" zPosition="0" />
+		<eLabel backgroundColor="blue" position="113,966" size="1695,2" zPosition="0" />
+		<eLabel backgroundColor="blue" position="113,113" size="2,855" zPosition="0" />
+		<eLabel backgroundColor="blue" position="1806,113" size="2,855" zPosition="0" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<ePixmap pixmap="oDreamy-FHD/buttons/key_red.png" position="505,885" size="30,30" alphatest="blend" />
+		<ePixmap pixmap="oDreamy-FHD/buttons/key_green.png" position="779,885" size="30,30" alphatest="blend" />
+		<ePixmap pixmap="oDreamy-FHD/buttons/key_yellow.png" position="1054,885" size="30,30" alphatest="blend" />
+		<widget source="key_red" render="Label" position="552,875" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
+		<widget source="key_green" render="Label" position="827,875" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
+		<widget source="key_yellow" render="Label" position="1101,875" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
+	</screen>
 
-	<!-- ********** Usb Format ********** P027 -->
 	<!-- Usb Format -->
 	<screen name="UsbFormat"  backgroundColor="transparent" flags="wfNoBorder" position="fill" title="Usb Format Wizard">
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="lab1" position="70,180" font="Regular;32" size="820,800" halign="center" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/deviceusb.png" alphatest="blend"/>
 	</screen>
@@ -2329,7 +2331,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
@@ -2340,7 +2342,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
@@ -2350,7 +2352,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend"/>
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
@@ -2375,7 +2377,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="balken" position="70,600" size="820,40"  font="Regular;30" foregroundColor="#FFD700" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
@@ -2390,7 +2392,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="1270,38" size="200,90" pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1500,156" size="120,160" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
@@ -2407,7 +2409,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="balken" position="70,350" zPosition="1" size="550,47"  font="Regular;20" foregroundColor="#FFD700" backgroundColor="#20343c4f" transparent="0" />
 		<widget name="pic_red"    pixmap="skin_default/buttons/button_red.png"    position="10,10"  size="0,0" backgroundColor="#000000" alphatest="blend" />
@@ -2421,7 +2423,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="MI"/>
 		<widget name="pc_list" position="70,190" size="840,700" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<eLabel position="1260,30"  size="610,96"  backgroundColor="#201b3c85" zPosition="-2" />
@@ -2532,7 +2534,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="titel" position="120,40" size="0,0" font="Regular;32" valign="center" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_webradio.png" alphatest="blend"/>
@@ -2547,7 +2549,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<!-- Config -->
 		<widget name="config" position="70,180" size="840,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_webradio.png" alphatest="blend"/>
@@ -2563,7 +2565,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<!-- Config -->
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_webradio.png" alphatest="blend"/>
@@ -2612,7 +2614,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<panel name="MI"/>
 		<!-- List -->
 		<widget name="streamlist" position="70,180" size="840,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="#001842" transparent="1" zPosition="3" />
@@ -2637,7 +2639,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Date"/>
 		<panel name="p800_Ext_Bi"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<!--left site in Screen for Streams, Genres...-->
 		<widget name="config" position="70,180" size="1160,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
@@ -2755,7 +2757,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 								<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend"/>
 	</screen>
@@ -2765,7 +2767,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="logo" position="10,10" size="400,64" alphatest="on" />
 		<!-- Later -->
 		<widget name="cover" position="10,10" size="540,80" alphatest="on" />
@@ -2783,14 +2785,14 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="list" position="70,180" size="840,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 	</screen>
 
 	<screen name="SeriesPluginConfiguration" position="fill" title="SeriesPlugin Setup" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="1040,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 	</screen>
 
@@ -2799,7 +2801,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,620" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="info" position="70,820" size="820,40" font="Regular;30" halign="center" valign="center" foregroundColor="LTBLUETTE" backgroundColor="header" transparent="1" zPosition="4" />
 	</screen>
@@ -2808,7 +2810,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,620" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="info" position="70,820" size="820,40" font="Regular;30" halign="center" valign="center" foregroundColor="LTBLUETTE" backgroundColor="header" transparent="1" zPosition="4" />
 	 </screen>
@@ -2845,7 +2847,7 @@
 	<screen name="WeatherList" position="fill" title="WeatherCity" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="myMenu" position="70,180" size="1160,620" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 	</screen>
 
@@ -2853,7 +2855,7 @@
 	<screen name="UserSkin_Config" position="fill" title="UserSkin Setup" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="1160,620" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<eLabel text="Preview" position="1260,600" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="2" />
 		<eLabel position="1260,600" size="610,70"  backgroundColor="trbluette" zPosition="1"/>
@@ -2864,8 +2866,8 @@
 	<screen name="UserSkinScreens" position="fill" title="UserSkin Setup" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
+		<panel name="s_RGYB"/>
 		<widget source="menu" render="Listbox" position="70,180" size="1160,620" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template":
@@ -2952,7 +2954,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="p800_Logo"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<widget name="lab2"          position="70,180"  size="200,50"  font="Regular;34" foregroundColor="white" backgroundColor="header" valign="center" transparent="1"/>
 		<widget name="labplace"      position="300,180" size="580,100" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="0" />
@@ -2972,7 +2974,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="autostart_off" pixmap="skin_default/icons/lock_off.png" position="70,180" size="24,24" font="Regular;30" zPosition="20" alphatest="blend" />
 		<widget name="autostart_on"  pixmap="skin_default/icons/lock_on.png"  position="70,180" size="24,24" font="Regular;30" zPosition="20" alphatest="blend" />
 		<widget name="lab1"     position="130,174" size="600,40" font="Regular;34" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
@@ -3289,7 +3291,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="1270,38"  size="200,90"  pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="config" position="70,180" size="1160,720" font="Regular;30" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
@@ -3300,7 +3302,7 @@
 		<panel name="p900_Template" />
 		<panel name="p900_Logo"/>
 		<panel name="p900_Date" />
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="1770,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 	</screen>
 
@@ -3308,7 +3310,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget source="menu" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" zPosition="1">
 			<convert type="StringList" />
 		</widget>
@@ -3347,7 +3349,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/mediacenter.png" alphatest="blend"/>
 	</screen>
@@ -3550,7 +3552,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_dyn.png" alphatest="blend"/>
 	</screen>
@@ -3576,7 +3578,7 @@
 		<panel name="p800_Ext_BiN"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<widget source="titles" render="Listbox" position="70,180" size="820,700" scrollbarMode="showOnDemand" transparent="1" zPosition="3" >
 			<convert type="TemplatedMultiContent">
@@ -3614,7 +3616,7 @@
 		<panel name="p800_Ext_BiN"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="1270,38"  size="200,90"  pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
@@ -3627,7 +3629,7 @@
 		<panel name="p800_Ext_BiN"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date" />
-		<panel name="sRGY"/>
+		<panel name="s_RGYB"/>
 		<ePixmap position="1270,38"  size="200,90"  pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="info"  position="1420,170" size="450,160" font="Regular;30" foregroundColor="white"     backgroundColor="header" transparent="1" zPosition="1" />
@@ -3642,7 +3644,7 @@
 		<panel name="p800_Ext_BiN"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date" />
-		<panel name="sRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="config"    position="70,180"   size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<widget name="thumbnail" position="1265,152" size="620,340" alphatest="on" />
 		<widget source="serviceinfo" render="Label" position="1275,530" size="600,300" font="Regular;28" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -3710,7 +3712,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="MI"/>
 		<widget name="maintain"     position="70,180" size="820,44" font="Regular;38" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="link1"        position="70,250" size="820,44" font="Regular;34" halign="center" valign="center" foregroundColor="white"     backgroundColor="header" transparent="1" zPosition="1" />
@@ -3727,7 +3729,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<panel name="I"/>
 		<ePixmap position="1270,38"  size="200,90"  pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
@@ -3742,7 +3744,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="I"/>
 		<ePixmap position="1270,38"  size="200,90"  pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
@@ -3755,7 +3757,7 @@
 	<screen name="FAQ" position="fill" title="FAQ IPTV List Updater" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<widget name="text" position="70,180" size="1170,720" font="Regular;26" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<ePixmap  position="940,650" size="256,256" pixmap="oDreamy-FHD/menu/ico_iptv.png" alphatest="blend"/>
@@ -3765,7 +3767,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<widget name="text" position="70,180" size="840,720" font="Regular;30" backgroundColor="header" transparent="1" />
 		<widget name="title" position="70,1860" halign="center" size="820,34" foregroundColor="#FFE500" font="Regular;28" valign="center" transparent="1" zPosition="1" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_iptv.png" alphatest="blend"/>
@@ -3775,7 +3777,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<widget name="text" position="70,180" size="840,720" font="Regular;30" backgroundColor="header" transparent="1" />
 		<widget name="title" position="70,1860" halign="center" size="820,34" foregroundColor="#FFE500" font="Regular;28" valign="center" transparent="1" zPosition="1" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_iptv.png" alphatest="blend"/>
@@ -3816,7 +3818,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config"    position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<widget name="key_ok"    position="70,880" size="600,35" valign="center" halign="center" font="Regular;28" transparent="1" foregroundColor="white" zPosition="2" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_iptv.png" alphatest="blend"/>
@@ -3833,7 +3835,7 @@
 	<screen name="FTPBrowser" position="fill" title="FTP Browser" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p900_Template" />
 		<panel name="p800_Date" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<widget source="localText" render="Label"   position="70,180"   size="900,50"  font="Regular;40" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="0" zPosition="2" />
 		<widget name="local"                        position="70,250"   size="900,560" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
@@ -3847,7 +3849,7 @@
 	<screen name="FTPServerEditor" position="fill" title="FTP Server Editor" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="MI"/>
 		<!-- List Channel -->
 		<widget name="config" position="70,180" size="1170,700" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
@@ -3858,7 +3860,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<!-- List Channel -->
 		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showAlways">
 			<convert type="TemplatedMultiContent">
@@ -3878,7 +3880,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="MI"/>
 		<!-- List Channel -->
 		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showAlways">
@@ -3916,7 +3918,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Ext_BiN"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="M"/>
 		<!-- List Channel -->
 		<widget name="list" position="70,180" size="1160,700" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
@@ -3936,7 +3938,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend"/>
 	</screen>
@@ -3945,7 +3947,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="target"   position="70,180" size="820,50" halign="center" valign="center" font="Regular;30" backgroundColor="header" transparent="0" zPosition="1"/>
 		<widget name="filelist" position="70,230" size="820,600" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend"/>
@@ -3966,7 +3968,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="currentDir" position="70,180" size="820,80" font="Regular;30" backgroundColor="header" foregroundColor="white" transparent="0" zPosition="1" />
 		<widget name="filelist"   position="70,280" size="820,480" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/dlna.png" alphatest="blend"/>
@@ -3976,7 +3978,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config"      position="70,180" size="820,400" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="information" position="70,600" size="820,280" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/dlna.png" alphatest="blend"/>
@@ -3987,7 +3989,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="directory" position="70,180" size="820,80" font="Regular;30" backgroundColor="header" foregroundColor="white" transparent="0" zPosition="1" />
 		<widget name="filelist"   position="70,280" size="820,480" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/dlna.png" alphatest="blend"/>
@@ -3997,7 +3999,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/dlna.png" alphatest="blend"/>
 	</screen>
@@ -4006,7 +4008,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="devicelist" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/dlna.png" alphatest="blend"/>
 	</screen>
@@ -4031,7 +4033,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="infotext"   position="70,180" size="820,240" font="Regular;30" halign="center" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="resulttext" position="70,390" size="820,160" font="Regular;40" halign="center" valign="center" foregroundColor="yellow"  backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="infotext2"  position="70,550" size="820,120" font="Regular;30" halign="center" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
@@ -4182,7 +4184,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget render="Label" source="city" position="80,180" size="400,50" font="Regular;32" backgroundColor="header" foregroundColor="yellow" halign="left" zPosition="1" />
 		<widget render="Label" source="degreetype" position="480,180" size="400,40" font="Regular;32" backgroundColor="header" foregroundColor="yellow" halign="left" zPosition="2" />
 		<widget name="entrylist" position="70,240" size="820,450" itemHeight="50" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="3" />
@@ -4193,7 +4195,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,500" zPosition="3" itemHeight="50" font="Regular;35" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" foregroundColor="white" transparent="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend"/>
@@ -4203,7 +4205,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="entrylist" position="70,180" size="820,500" itemHeight="70" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" foregroundColor="white" transparent="1" zPosition="3" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend"/>
@@ -4298,7 +4300,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		 <widget name="lab1"        position="70,180"  size="250,40" font="Regular;32" halign="left"   valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1"/>
 		 <widget name="labactive"   position="350,180" size="520,40" font="Regular;32" halign="center" valign="center" foregroundColor="#000000" backgroundColor="green"  zPosition="1"/>
 		 <widget name="labdisabled" position="350,180" size="520,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red"    zPosition="1"/>
@@ -4320,7 +4322,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,480" itemHeight="40" font="Regular;32" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="3" />
 		<widget source="current_settings" render="Label" position="70,690"  size="820,50" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" transparent="1" />
 		<widget source="IPAddress_text"   render="Label" position="70,760"  size="250,40" font="Regular;30" transparent="1" />
@@ -4337,7 +4339,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="lab1"    position="70,165"  size="820,640" font="Regular;28" halign="center" transparent="1"/>
 		<widget name="lab2"    position="70,855"  size="300,40"  font="Regular;30" valign="center" halign="right" transparent="0"/>
 		<widget name="labstop" position="400,855" size="350,40"  font="Regular;30" valign="center" halign="center" backgroundColor="red"/>
@@ -4360,7 +4362,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,480" itemHeight="40" font="Regular;32" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="3" />
 		<widget name="VKeyIcon" pixmap="skin_default/buttons/key_text.png" position="50,200" zPosition="10" size="0,0" transparent="1" alphatest="on" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -4371,7 +4373,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="menulist" position="70,180" size="320,720" itemHeight="40" font="Regular;28" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="3" />
 		<widget name="apnInfo" position="420,180" size="420,600" font="Regular;30" halign="left" backgroundColor="#a08500" transparent="1" />
 		<ePixmap  position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/peripheric.png" alphatest="blend"/>
@@ -4381,7 +4383,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="statusTitle" position="70,180"  size="180,300" font="Regular;30" halign="left" backgroundColor="#a08500" transparent="1" />
 		<widget name="statusInfo"  position="250,180" size="600,300" font="Regular;30" halign="left"   backgroundColor="#a08500" transparent="1" />
 		<widget name="menulist"    position="70,520"  size="300,240" itemHeight="40" font="Regular;28" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="3" />
@@ -4424,7 +4426,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="M"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<widget source="Title" render="Label" position="70,47" foregroundColor="header" size="525,50" font="Regular;35" backgroundColor="header" transparent="1" />
 		<widget name="autostart" position="70,130" size="150,30" font="Regular;22" valign="center" halign="left" backgroundColor="header" foregroundColor="white" transparent="1" />
 		<widget name="labdisabled" position="320,130" size="172,30" font="Regular;22" valign="center" halign="center" backgroundColor="red" zPosition="1" />
@@ -4445,23 +4447,10 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="M"/>
-		<panel name="nR"/>
+		<panel name="s_RGYB"/>
 		<panel name="template1_2layer" />
 		<widget source="Title" render="Label" position="70,47" foregroundColor="header" size="525,50" font="Regular;35" backgroundColor="header" transparent="1" />
 		<widget name="config" position="70,110" size="700,510" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" itemHeight="30" font="Regular;20" scrollbarMode="showOnDemand" transparent="1" />
-	</screen>
-
-	<!-- ********** CableScan ********** P063 -->
-	<screen name="CableScanScreen" title="Cable Scan" position="fill" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Template"/>
-		<panel name="p800_Logo"/>
-		<panel name="p800_DateMid"/>
-		<panel name="M"/>
-		<eLabel text="Cable Scan" position="70,47" foregroundColor="header" size="525,50" noWrap="0" font="Regular;35" backgroundColor="header" transparent="1" />
-		<!--widget source="Title" render="Label" position="70,47" foregroundColor="header" size="525,50" font="Regular;35" backgroundColor="header" transparent="1" /-->
-		<widget name="config" position="70,110" size="700,510" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" itemHeight="30" font="Regular;20" scrollbarMode="showOnDemand" transparent="1" />
-		<widget name="introduction" position="810,415" size="415,190" font="Regular;20" foregroundColor="white" halign="center" backgroundColor="header" valign="center" transparent="1"/>
-		<ePixmap position="995,420" size="64,64" zPosition="3" pixmap="skin_default/icons/scan-c.png"  transparent="1" alphatest="blend" />
 	</screen>
 
 	<screen name="CableScanStatus" title="CableScan Status" position="fill" flags="wfNoBorder" backgroundColor="transparent">
@@ -4482,8 +4471,8 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,800" itemHeight="40" scrollbarMode="showNever" enableWrapAround="1" transparent="1" />
 		<widget name="status" position="0,0" size="0,0"/>
 		<widget name="statusbar" position="0,0" size="0,0"/>
@@ -4494,8 +4483,8 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="MI"/>
 		<widget name="menu" position="70,180" size="820,800" itemHeight="40" scrollbarMode="showNever" enableWrapAround="1" transparent="1"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/mediacenter.png" alphatest="blend"/>
@@ -4506,7 +4495,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="filelist"      position="494,121" size="735,293" zPosition="3" scrollbarMode="showOnDemand"/>
 		<widget name="filelist_text" position="494,82" zPosition="4" size="250,32" font="Regular;16" halign="left" backgroundColor="transpBlack" transparent="1" valign="top"/>
 		<widget name="playlist_text" position="494,419" zPosition="4" size="250,32" font="Regular;16" halign="left" backgroundColor="transpBlack" transparent="1" foregroundColor="white" valign="top"/>
@@ -4518,7 +4507,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="serverlabel" position="70,180" size="820,50" font="Regular;22" transparent="1"/>
 		<widget name="serverlist"  position="70,250" size="820,550" scrollbarMode="showOnDemand" borderWidth="1" borderColor="white"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/mediacenter.png" alphatest="blend"/>
@@ -4528,7 +4517,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,800" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/mediacenter.png" alphatest="blend"/>
 	</screen>
@@ -4547,7 +4536,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="list" position="70,180" size="820,600" font="Regular;30" itemHeight="50" backgroundColor="header" foregroundColor="white" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend"/>
 	</screen>
@@ -4557,7 +4546,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="detailtext" position="70,180" size="820,800" zPosition="10" font="Regular;30" transparent="1" halign="left" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend"/>
 	</screen>
@@ -4567,7 +4556,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,800" zPosition="3" backgroundColor="header" foregroundColor="white" scrollbarMode="showOnDemand"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend"/>
 	</screen>
@@ -4576,23 +4565,10 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,600" itemHeight="30" backgroundColor="header" foregroundColor="white" scrollbarMode="showOnDemand" transparent="1"/>
 		<widget source="introduction" render="Label" position="70,780" size="820,60" font="Regular;30" backgroundColor="header" transparent="1"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend"/>
-	</screen>
-
-	<!-- ********** Video Enhancement Setup ********** P070 -->
-	<screen name="VideoEnhancementSetup" position="fill" title="Setup" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Template"/>
-		<panel name="p800_DateMid"/>
-		<panel name="p800_Ext_BiN"/>
-		<panel name="sRG"/>
-		<panel name="M"/>
-		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="description" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 	</screen>
 
 	<!-- ********** HddMount Screens ********** P071 -->
@@ -4601,7 +4577,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="M"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="lab1" position="70,180" size="820,40" font="Regular;32" backgroundColor="header" transparent="1"  zPosition="2"/>
 		<widget source="list" render="Listbox" position="70,180" size="820,660" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" >
 			<convert type="TemplatedMultiContent">
@@ -4676,8 +4652,8 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nRGYB"/>
-		<widget source="total" render="Label" position="70,180" size="820,80"  zPosition="1" font="Regular;30" halign="left" backgroundColor="layer-a-background" transparent="1" valign="center" />
+		<panel name="s_RGYB"/>
+		<widget source="total" render="Label" position="70,180" size="820,80"  zPosition="1" font="Regular;30" halign="left" backgroundColor="header" transparent="1" valign="center" />
 		<widget name="ScrollLabel" position="70,350" size="820,600" zPosition="1" transparent="1" noWrap="1" font="Regular;30" valign="top" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/mediacenter.png" alphatest="blend"/>
 	</screen>
@@ -4688,8 +4664,8 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="M"/>
-		<panel name="nRGYB"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="ServiceList.desc" position="70,180" size="820,50" font="Regular;30" backgroundColor="header" foregroundColor="white" transparent="1" />
 		<widget name="ServiceList" position="70,260" size="820,500" itemHeight="30" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" transparent="1" />
 		<widget source="press_menu" render="Label" position="70,700" size="820,120" font="Regular;28" foregroundColor="white" halign="center" backgroundColor="header" valign="center" transparent="1"/>
@@ -4701,7 +4677,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="M"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,600" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/audio.png" alphatest="blend"/>
 	</screen>
@@ -4711,7 +4687,7 @@
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
 		<panel name="M"/>
-		<panel name="nRGY"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,600" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" transparent="1" />
 		<widget source="infotext" render="Label" position="70,700" size="820,140" font="Regular;28" foregroundColor="white" halign="center" backgroundColor="header" valign="center" transparent="1"/>
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/audio.png" alphatest="blend"/>
@@ -4743,7 +4719,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,730" font="Regular;30" itemHeight="40" backgroundColor="header" enableWrapAround="1"
 						scrollbarMode="showOnDemand" scrollbarWidth="5" scrollbarBorderWidth="1" transparent="1" />
 		<widget backgroundColor="background" font="Regular;30" halign="left" name="buttonred"    position="110,990" size="240,35" transparent="1" zPosition="1" valign="top" />
@@ -4773,7 +4749,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="820,800" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_log.png" alphatest="blend"/>
 	</screen>
@@ -4790,7 +4766,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="I"/>
 		<widget name="filedata" position="70,180" size="8200,720" itemHeight="40" backgroundColor="header" transparent="1" />
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_log.png" alphatest="blend"/>
@@ -4801,7 +4777,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_Date"/>
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget source="menu" render="Listbox" position="70,180" size="820,420" scrollbarMode="showOnDemand" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -5198,7 +5174,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Ext_BiN"/>
 		<panel name="p800_DateMid" />
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="MI"/>
 		 <!-- List Channel -->
 		<widget name="list" position="70,180" size="1160,720" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
@@ -5310,7 +5286,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="memory" position="70,545" zPosition="2" size="820,40" valign="center" halign="left" font="Regular;30" transparent="1" foregroundColor="white" />
 		<widget name="slide" position="70,600" zPosition="2" borderWidth="1" foregroundColor="red" size="820,8" backgroundColor="blue" />
 		<widget name="config" position="70,180" size="820,420" font="Regular;28" itemHeight="45" zPosition="1" transparent="1" backgroundColor="#31000000" scrollbarMode="showOnDemand" />
@@ -5401,13 +5377,13 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="60,170" size="820,420" font="Regular;28" itemHeight="45" backgroundColor="#00000000" scrollbarMode="showOnDemand" />
 		<ePixmap pixmap="oDreamy-FHD/icons/musicplay.png" position="990,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 
 	<screen name="iDreamMerlin" position="fill" title="iDream" backgroundColor="#FF000000" flags="wfNoBorder">
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<eLabel  position="0,0"      size="1920,1080" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="0,0"      size="1920,1080" pixmap="oDreamy-FHD/box/radiook.jpg" zPosition="-1"/>
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
@@ -5449,7 +5425,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="target"   position="60,170" size="820,50" halign="center" valign="center" font="Regular;24" foregroundColor="white" backgroundColor="header" />
 		<widget name="filelist" position="60,230" size="820,720" font="Regular;28" itemHeight="45" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1"/>
 		<ePixmap pixmap="oDreamy-FHD/icons/musicplay.png" position="990,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -5459,7 +5435,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="output" position="60,230" size="820,720" font="Regular;28" itemHeight="45" backgroundColor="header" transparent="1" />
 		<ePixmap position="1660,160" size="200,200" pixmap="oDreamy-FHD/icons/musicplay.png" alphatest="blend" scale="1" zPosition="1"/>
 	</screen>
@@ -5540,7 +5516,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="sRG"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,170" size="820,600" scrollbarMode="showOnDemand" />
 		<ePixmap  position="910,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_storage.png" alphatest="blend"/>
 	</screen>
@@ -5875,7 +5851,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,170" size="820,120" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" />
 	</screen>
 
@@ -5912,7 +5888,7 @@
 		<widget name="header"  position="10,10"  size="500,20" font="Regular;20" transparent="1" noWrap="1" />
 		<widget name="captcha" position="10, 50" size ="540,110" alphatest="blend" zPosition="-1" />
 		<widget name="text"    position="12,165" size="536,46" font="Regular;46" transparent="1" noWrap="1" halign="right" />
-		<widget name="list"    position="10,220" size="540,225" selectionDisabled="1" transparent="1" />
+		<widget name="list"    position="10,220" size="540,225" selection="1" transparent="1" />
 	</screen>
 
 	<!-- ********** tmdb FHD ********** P104 -->
@@ -6360,7 +6336,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="O"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="list" position="70,180" size="1170,870" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
 		<widget source="statusbar" render="Label" position="290,870" size="680,50" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" valign="center" transparent="1"/>
 	</screen>
@@ -6369,12 +6345,12 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_DateMid"/>
 		<panel name="O"/>
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<widget name="config" position="70,180" size="1170,870" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
 	</screen>
 
 	<screen name="PluginHiderSetup" title="PluginHider Setup" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="sRGYB"/>
+		<panel name="s_RGYB"/>
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
