@@ -4,9 +4,8 @@
 		<font name="Console" filename="tuxtxt.ttf" scale="100" />
 		<font name="Fixed" filename="andale.ttf" scale="100" />
 		<font name="Replacement" filename="ae_AlMateen.ttf" scale="100" replacement="1" />
-		<font name="Regular" filename="/usr/share/enigma2/oDreamy-FHD/fonts/verdana.ttf" scale="92" />
+		<font name="Regular" filename="/usr/share/enigma2/oDreamy-FHD/fonts/verdana.ttf" scale="100" />
 		<font name="xRegular" filename="/usr/share/fonts/nmsbd.ttf" scale="100" />
-		<font name="Regular2" filename="/usr/share/enigma2/oDreamy-FHD/fonts/verdana2.ttf" scale="93" />
 		<alias name="Body" font="Regular" size="32" height="50" />
 		<alias name="TextNormal" font="Regular" size="30" height="50" />
 		<alias name="ChoiceList" font="Regular" size="32" height="50" />
@@ -36,12 +35,12 @@
 	</fonts>
 	<parameters>
 		<parameter name="ConfigListSeperator" value="500" />
-		<parameter name="ChoicelistDash" value="0,3,1000,50"/>
-		<parameter name="ChoicelistName" value="85,3,1000,53"/>
-		<parameter name="ChoicelistIcon" value="10,5,64,50"/>
-		<parameter name="ChoicelistIconVerticalline" value="15,0,45,50"/>
-		<parameter name="ChoicelistIconExpanded" value="15,5,45,50"/>
-		<parameter name="ChoicelistNameSingle" value="5,0,1000,50"/>
+		<parameter name="ChoicelistDash" value="0,3,1000,50" />
+		<parameter name="ChoicelistName" value="85,3,1000,53" />
+		<parameter name="ChoicelistIcon" value="10,5,64,50" />
+		<parameter name="ChoicelistIconVerticalline" value="15,0,45,50" />
+		<parameter name="ChoicelistIconExpanded" value="15,5,45,50" />
+		<parameter name="ChoicelistNameSingle" value="5,0,1000,50" />
 		<parameter name="FileListName" value="68,4,1000,50" />
 		<parameter name="FileListIcon" value="7,4,52,50" />
 		<parameter name="FileListMultiName" value="90,3,1000,50" />
@@ -58,10 +57,10 @@
 		<parameter name="ServiceInfoRight" value="450,0,1000,45" />
 		<parameter name="SelectionListDescr" value="75, 3, 1000, 50" />
 		<parameter name="SelectionListLock" value="10, 7, 50, 50" />
-		<parameter name="VirtualKeyBoard" value="68,68"/>
-		<parameter name="VirtualKeyBoardAlignment" value="0,0"/>
-		<parameter name="VirtualKeyBoardPadding" value="6,6"/>
-		<parameter name="VirtualKeyBoardShiftColors" value="0x00ffffff,0x00ffffff,0x0000ffff,0x00ff00ff"/>
+		<parameter name="VirtualKeyBoard" value="68,68" />
+		<parameter name="VirtualKeyBoardAlignment" value="0,0" />
+		<parameter name="VirtualKeyBoardPadding" value="6,6" />
+		<parameter name="VirtualKeyBoardShiftColors" value="0x00ffffff,0x00ffffff,0x0000ffff,0x00ff00ff" />
 		<parameter name="PartnerBoxEntryListName" value="8, 2, 225, 38" />
 		<parameter name="PartnerBoxEntryListIP" value="180, 2, 225, 38" />
 		<parameter name="PartnerBoxEntryListPort" value="405, 2, 150, 38" />
@@ -89,38 +88,38 @@
 	</parameters>
 	<!-- Colors FHD -->
 	<colors>
-		<color name="background" value="#20000000"/>
-		<color name="header" value="#00272e43"/>
-		<color name="bkblue" value="#00162b49"/>
-		<color name="bkinfobar" value="#00204372"/>
-		<color name="black" value="#00000000"/>
-		<color name="blue" value="#00879ce1"/>
-		<color name="bluetransparent" value="#08001e4b"/>
-		<color name="dark" value="#00242424"/>
-		<color name="darkgrey" value="#00555556"/>
-		<color name="foreground" value="#00f0f0f0"/>
-		<color name="green" value="#0056c856"/>
-		<color name="greentransparent" value="#08004c00"/>
-		<color name="grey" value="#00aaaaaa"/>
-		<color name="infobarBG" value="#41080808"/>
-		<color name="listbox" value="#000f56a4"/>
-		<color name="noTransBG" value="#00101214"/>
-		<color name="orange" value="#00ffc000"/>
-		<color name="rds_text_bg" value="#00003258"/>
-		<color name="red" value="#00ff4a3c"/>
-		<color name="redtransparent" value="#084c0000"/>
-		<color name="rssviewtop" value="#00005050"/>
-		<color name="secondBG" value="#18101214"/>
-		<color name="secondFG" value="#00fcc000"/>
-		<color name="selectedBG" value="#06303240"/>
-		<color name="selectedFG" value="#00fcc000"/>
-		<color name="transparent" value="#ff000000"/>
-		<color name="transpBlack" value="#54111112"/>
-		<color name="transpWhite" value="#70f0f0f0"/>
-		<color name="white" value="#ffffff"/>
-		<color name="yellow" value="#00ffc000"/>
-		<color name="yellowtransparent" value="#084b4b00"/>
-		<color name="backpurple" value="#73c6ff"/>
+		<color name="background" value="#20000000" />
+		<color name="header" value="#00272e43" />
+		<color name="bkblue" value="#00162b49" />
+		<color name="bkinfobar" value="#00204372" />
+		<color name="black" value="#00000000" />
+		<color name="blue" value="#00879ce1" />
+		<color name="bluetransparent" value="#08001e4b" />
+		<color name="dark" value="#00242424" />
+		<color name="darkgrey" value="#00555556" />
+		<color name="foreground" value="#00f0f0f0" />
+		<color name="green" value="#0056c856" />
+		<color name="greentransparent" value="#08004c00" />
+		<color name="grey" value="#00aaaaaa" />
+		<color name="infobarBG" value="#41080808" />
+		<color name="listbox" value="#000f56a4" />
+		<color name="noTransBG" value="#00101214" />
+		<color name="orange" value="#00ffc000" />
+		<color name="rds_text_bg" value="#00003258" />
+		<color name="red" value="#00ff4a3c" />
+		<color name="redtransparent" value="#084c0000" />
+		<color name="rssviewtop" value="#00005050" />
+		<color name="secondBG" value="#18101214" />
+		<color name="secondFG" value="#00fcc000" />
+		<color name="selectedBG" value="#06303240" />
+		<color name="selectedFG" value="#00fcc000" />
+		<color name="transparent" value="#ff000000" />
+		<color name="transpBlack" value="#54111112" />
+		<color name="transpWhite" value="#70f0f0f0" />
+		<color name="white" value="#ffffff" />
+		<color name="yellow" value="#00ffc000" />
+		<color name="yellowtransparent" value="#084b4b00" />
+		<color name="backpurple" value="#73c6ff" />
 		<color name="trbluette" value="#201b3c85" />
 		<color name="bluette" value="#1b3c85" />
 		<color name="ltbluette" value="#49bbff" />
@@ -131,11 +130,8 @@
 	<windowstyle type="skinned" id="0">
 		<title offset="130,15" font="Regular;40" />
 		<configList entryFont="Regular;28" valueFont="Regular;27" />
-		<scrolllabel scrollbarWidth="8" scrollbarBorderWidth="1"/>
- 		<listbox scrollbarWidth="8" scrollbarBorderWidth="1" enableWrapAround="1"/>
-		<!--<color name="SliderForeground" color="red" />
-		<color name="SliderBorder" color="yellow" />
-		<color name="SliderBackground" color="green" />-->
+		<scrolllabel scrollbarWidth="8" scrollbarBorderWidth="1" />
+ 		<listbox scrollbarWidth="8" scrollbarBorderWidth="1" enableWrapAround="1" />
 		<color name="Background" color="background" />
 		<color name="LabelForeground" color="#ffffff" />
 		<color name="ListboxBackground" color="background" />

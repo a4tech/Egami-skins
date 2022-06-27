@@ -15,7 +15,7 @@
 		<eLabel position="0,900" size="1920,200" backgroundColor="header" zPosition="-1" />
 		<eLabel position="0,0" size="1920,175" backgroundColor="header" zPosition="-1" />
 		<!-- Service name -->
-		<widget source="session.CurrentService" render="Label" position="350,801" size="1800,100" font="Regular2;80" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="3" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="350,801" size="1800,100" font="Regular;80" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="3" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
 		<!-- Picon -->
@@ -38,7 +38,7 @@
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- *** Event (NOW) *** -->
-		<widget source="session.Event_Now" render="Label" position="487,923" size="880,55" font="Regular2;40" valign="center" backgroundColor="#202020" transparent="1" noWrap="1" zPosition="3">
+		<widget source="session.Event_Now" render="Label" position="487,923" size="880,55" font="Regular;40" valign="center" backgroundColor="#202020" transparent="1" noWrap="1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
 		<eLabel position="1393,923" size="220,55" backgroundColor="#10202020" transparent="0" zPosition="1" />
@@ -50,7 +50,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="session.Event_Next" render="Label" position="487,987" size="880,40" font="Regular2;33" valign="center" foregroundColor="#707070" backgroundColor="#5202020" noWrap="1" transparent="1" zPosition="3" >
+		<widget source="session.Event_Next" render="Label" position="487,987" size="880,40" font="Regular;33" valign="center" foregroundColor="#707070" backgroundColor="#5202020" noWrap="1" transparent="1" zPosition="3" >
 			<convert type="EventName">Name</convert>
 		</widget>
 		<eLabel position="1393,990" size="220,40" backgroundColor="#10202020" transparent="0" zPosition="1" />
@@ -659,7 +659,7 @@
 		</widget>
 		<!-- List Channel -->
 		<widget name="list" position="790,135" size="1080,770" scrollbarMode="showOnDemand" transparent="1" zPosition="1"
-			serviceNumberFont="Regular;30" serviceNameFont="Regular;30" serviceInfoFont="Regular2;30"
+			serviceNumberFont="Regular;30" serviceNameFont="Regular;30" serviceInfoFont="Regular;30"
 			foregroundColor="#ffffff" foregroundColorSelected="yellow" backgroundColor="header" backgroundColorSelected="bluette"
 			colorServiceDescription="ltbluette" colorServiceDescriptionSelected="white" foregroundColorServiceNotAvail="#505050"
 			colorEventProgressbarBorder="grey" colorEventProgressbarBorderSelected="yellow" picServiceEventProgressbar="oDreamy-FHD/skin_default/progcl.png" />
