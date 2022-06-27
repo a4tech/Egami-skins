@@ -626,16 +626,16 @@
 		<widget source="key_yellow" render="Pixmap" pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="640,988" size="30,30" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget name="key_yellow" position="680,955" size="210,95" noWrap="1" zPosition="+1" valign="center" font="Regular;28" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_yellow,Button,Label" transparent="1" />
-		<widget source="key_yellow" render="Label" position="680,955" size="210,95" font="Regular;28" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" zPosition="+1" objectTypes="key_yellow,StaticText" transparent="1" />
+		<widget name="key_yellow" position="680,955" size="220,95" noWrap="1" zPosition="+1" valign="center" font="Regular;28" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_yellow,Button,Label" transparent="1" />
+		<widget source="key_yellow" render="Label" position="680,955" size="220,95" font="Regular;28" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" zPosition="+1" objectTypes="key_yellow,StaticText" transparent="1" />
 
 		<!-- Button Blue -->
 		<ePixmap position="910,988" pixmap="oDreamy-FHD/buttons/bluepanel.png" size="30,30" alphatest="blend" objectTypes="key_blue,Button,Label" transparent="1" />
 		<widget source="key_blue" render="Pixmap" pixmap="oDreamy-FHD/buttons/bluepanel.png" position="910,988" size="30,30" alphatest="blend" objectTypes="key_blue,StaticText" transparent="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget name="key_blue" position="950,955" size="210,95" noWrap="1" zPosition="+1" valign="center" font="Regular;28" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_blue,Button,Label" transparent="1" />
-		<widget source="key_blue" position="950,955" size="210,95" render="Label" font="Regular;28" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" noWrap="1" zPosition="+1" objectTypes="key_blue,StaticText" transparent="1" />
+		<widget name="key_blue" position="950,955" size="260,95" noWrap="1" zPosition="+1" valign="center" font="Regular;28" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_blue,Button,Label" transparent="1" />
+		<widget source="key_blue" position="950,955" size="260,95" render="Label" font="Regular;28" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" noWrap="1" zPosition="+1" objectTypes="key_blue,StaticText" transparent="1" />
 	</screen>
 
 	<screen name="MI">
