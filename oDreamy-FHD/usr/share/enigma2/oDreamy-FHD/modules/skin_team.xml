@@ -131,7 +131,6 @@
 		<!--panel name="M"/-->
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -144,7 +143,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -157,7 +155,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -171,7 +168,6 @@
 		<panel name="M" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- ALL EPG Setup -->
@@ -182,7 +178,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -198,7 +193,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -211,7 +205,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -225,7 +218,6 @@
 		<panel name="M" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -239,7 +231,6 @@
 		<panel name="M" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -252,7 +243,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -265,7 +255,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -279,7 +268,6 @@
 		<panel name="M" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -292,7 +280,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -305,7 +292,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -321,7 +307,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -334,7 +319,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -347,7 +331,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -360,7 +343,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -373,7 +355,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -386,7 +367,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -399,7 +379,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -412,7 +391,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -425,7 +403,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -438,7 +415,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -459,7 +435,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
-		<panel name="s_RGYB" />
+		<panel name="s_RG" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/egpanel.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
@@ -595,6 +571,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<widget name="label1" position="70,180" size="820,40" zPosition="1" halign="center" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget name="label2" position="70,240" size="820,120" zPosition="1" halign="center" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<eLabel position="70,400" size="540,1" backgroundColor="#10303030" zPosition="2" />
@@ -636,7 +613,6 @@
 		<widget source="description" render="Label" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" enableWrapAround="1" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!--  EGAMI Remove Addons FHD -->
@@ -1481,7 +1457,6 @@
 		<panel name="p800_Ext_BiN" />
 		<panel name="p800_Date" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<widget name="list" position="70,180" size="840,720" font="Regular;30" transparent="1" zPosition="3" scrollbarMode="showAlways" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="1275,175" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,190" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
@@ -2211,7 +2186,6 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Slim Channel Selection FHD -->
 	<screen name="SlimChannelSelection" title="Slim Channel Selection" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -2427,7 +2401,6 @@
 		<widget name="canceltext" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="ok" position="400,955" size="210,95" zPosition="1" backgroundColor="header" transparent="1" />
 		<widget name="oktext" position="410,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Timer Log FHD -->
 	<screen name="TimerLog" title="Timer log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -2508,7 +2481,6 @@
 		</widget>
 		<ePixmap pixmap="picon_default.png" position="1280,150" size="220,132" alphatest="blend" zPosition="2" />
 		<widget name="number" position="990,500" size="250,100" font="Regular;34" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="5" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- EPG Selection Multi FHD -->
 	<screen name="EPGSelectionMulti" title="EPG Selection" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -2550,7 +2522,6 @@
 		<widget source="Event" render="DRRunningText" position="1280,320" size="580,595" halign="center" foregroundColor="#a0a0a0" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" zPosition="2" font="Regular;32" backgroundColor="header" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- EPG Search FHD -->
 	<screen name="EPGSearch" title="EPG Search" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -2583,7 +2554,6 @@
 		</widget>
 		<ePixmap pixmap="picon_default.png" position="1280,150" size="220,132" alphatest="blend" zPosition="2" />
 		<widget name="number" position="990,500" size="250,100" font="Regular;34" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="5" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- EPG Search Setup FHD -->
 	<!-- Modified for error correction Skin -->
@@ -2597,7 +2567,6 @@
 		<eLabel position="1260,480" size="610,460" backgroundColor="#10101010" zPosition="0" />
 		<eLabel position="1260,480" size="610,10" backgroundColor="#ff101010" zPosition="0" />
 		<widget name="description" position="1280,520" size="560,440" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap position="1270,38" size="200,90" pixmap="icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- EPG Selection Bouquet FHD -->
 	<screen name="SelectBouquet" position="fill" title="Choose bouquet" flags="wfNoBorder">
@@ -2616,7 +2585,6 @@
 		<panel name="M" />
 		<eLabel text="Info" position="1370,1000" size="200,43" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<eLabel text="Exit" position="1435,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<eLabel text="Vertical Program Guide" position="678,18" size="450,60" font="Regular;34" transparent="1" halign="left" valign="center" foregroundColor="orange" />
 		<!-- DO NOT CHANGE THIS LINE !!!!!!!!!!!!!!! -->
 		<widget enableWrapAround="0" itemHeight="30" font="Regular;0" name="list" position="0,0" size="0,150" zPosition="-10" />
@@ -2686,7 +2654,6 @@
 		<widget source="Event" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" position="1270,611" size="590,319" zPosition="2" font="Regular;32" halign="center" foregroundColor="#a0a0a0" backgroundColor="header" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<eLabel text="Vertical Program Guide" position="678,18" size="450,60" font="Regular;34" transparent="1" halign="left" valign="center" foregroundColor="orange" />
 		<!-- DO NOT CHANGE THIS LINE !!!!!!!!!!!!!!! -->
 		<widget enableWrapAround="0" itemHeight="30" font="Regular;0" name="list" position="0,0" size="0,150" zPosition="-10" />
@@ -2735,7 +2702,6 @@
 		<!-- Time -->
 		<widget name="bouquetlist" position="60,435" size="1800,500" itemHeight="35" scrollbarMode="showNever" foregroundColor="red" backgroundColor="header" transparent="0" zPosition="4" />
 		<widget name="timeline_now" position="2,435" size="19,495" pixmap="epg/timeline-now-pig.png" alphatest="blend" zPosition="3" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<!-- Event -->
 		<widget source="Event" render="Label" position="70,150" zPosition="2" size="1300,40" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1">
 			<convert type="EventName">Name</convert>
@@ -2804,7 +2770,6 @@
 		<widget source="Event" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" position="1270,611" size="590,319" zPosition="2" font="Regular;32" halign="center" foregroundColor="#a0a0a0" backgroundColor="header" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- GraphicInfobarEPG FHD -->
 	<screen name="GraphicalInfoBarEPG" title="InfoBar EPG" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -3006,7 +2971,6 @@
 		<widget source="IFtext" render="Label" position="1280,840" size="0,0" transparent="1" font="Regular;1" halign="left" backgroundColor="header" zPosition="-1" />
 		<widget source="Statustext" render="Label" position="1280,890" size="0,0" transparent="1" font="Regular;1" halign="left" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Network Adapter Setup FHD -->
 	<screen name="AdapterSetup" title="Adapter Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -3042,7 +3006,6 @@
 		</widget>
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget source="introduction2" render="Label" position="1280,880" size="640,40" font="Regular;32" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Network NameServer Setup FHD -->
 	<screen name="NameserverSetup" title="Network NameServer" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -3119,7 +3082,6 @@
 		<panel name="p800_Date" />
 		<panel name="Ex" />
 		<panel name="s_RGYB" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<widget name="menulist" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget source="introduction" render="Label" position="1280,560" size="560,80" font="Regular;34" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="1450,200" size="300,300" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
@@ -3627,7 +3589,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="infolist" position="70,180" font="Regular;26" size="820,640" itemHeight="45" selection="1" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
+		<widget name="infolist" position="70,180" font="Regular;26" size="1140,640" itemHeight="45" selection="1" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<widget source="session.CurrentService" render="Label" position="70,850" size="685,30" font="Regular;24" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ServiceInfo">HasHBBTV</convert>
 		</widget>
@@ -3638,7 +3600,6 @@
 		<panel name="p8001_Ext" />
 		<panel name="p800_Date" />
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="menu" render="Listbox" position="60,180" size="1805,720" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
@@ -3822,7 +3783,6 @@
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" />
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 
 	<!-- Plugin Manager FHD -->
@@ -3831,6 +3791,7 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/box/maxbargh.png" position="1215,180" size="15,700" alphatest="blend" zPosition="2" />
 		<widget source="list" render="Listbox" position="70,180" size="1160,700" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
@@ -3855,7 +3816,6 @@
 		</widget>
 		<eLabel position="50,530" size="770,60" font="Regular;40" foregroundColor="red" backgroundColor="#10202020" transparent="1" zPosition="99" />
 		<widget source="status" render="Label" position="1260,480" size="600,100" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="3" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Plugin Details FHD -->
 	<screen name="PluginDetails" flags="wfNoBorder" position="fill" backgroundColor="transparent" title="Plugin Details">
@@ -4133,8 +4093,15 @@
 		<widget name="VKeyIcon" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
+	</screen>
+	<!-- Opkg installer FHD -->
+	<screen name="Opkg" position="center,center" size="1000,370" title="Installing Software..." backgroundColor="header">
+		<widget source="Title" render="Label" position="58,36" foregroundColor="white" size="0,0" valign="bottom" font="Regular;34" backgroundColor="header" transparent="1" />
+		<widget name="package" position="20,20" size="960,80" font="Regular;30" halign="center" valign="center" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="2" />
+		<widget name="activityslider" position="20,140" size="960,40" borderColor="header" foregroundColor="white" backgroundColor="header" borderWidth="4" transparent="1" zPosition="2" />
+		<widget name="slider" position="24,144" size="952,32" borderColor="white" foregroundColor="ltbluette" backgroundColor="white" borderWidth="0" transparent="1" zPosition="3" />
+		<widget name="status" position="20,200" size="960,140" font="Regular;30" halign="center" valign="center" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="2" />
 	</screen>
 	<!-- Ipkg installer FHD -->
 	<screen name="IpkgInstaller" title="IPKG Installer" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4551,7 +4518,6 @@
 		<widget name="ServiceList" position="70,400" size="820,450" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<widget source="ServiceList_info" render="Label" position="1280,260" size="560,600" font="Regular;30" foregroundColor="backpurple" backgroundColor="header" zPosition="2" transparent="1" />
 		<ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/ico_ci.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Service CI MMIDIALOG FHD -->
 	<screen name="MMIDialog" title="CI MMI Dialog" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4652,7 +4618,6 @@
 		<widget name="choosen" position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" halign="left" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="5" />
 		<widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="header" transparent="1" zPosition="5" />
 		<ePixmap position="960,640" size="2560,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Button Setup FHD -->
 	<screen name="HotkeySetupSelect" title="Hotkey Setup Select" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4667,7 +4632,6 @@
 		<widget name="choosen" position="1280,460" size="560,200" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" halign="left" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="5" />
 		<widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" halign="center" backgroundColor="header" transparent="1" zPosition="5" />
 		<ePixmap position="960,640" size="2560,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
-		<ePixmap position="1270,38" size="200,90" pixmap="oDreamy-FHD/icons/logosmall.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Input Device Selection FHD -->
 	<screen name="InputDeviceSelection" title="Select input device" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4900,9 +4864,6 @@
 			</convert>
 		</widget>
 		<widget name="config" position="70,500" size="820,320" font="Regular;32" itemHeight="40" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
-		<widget source="VKeyIcon" render="Pixmap" position="70,780" size="0,0" zPosition="1" pixmap="oDreamy-FHD/icons/text.png" alphatest="blend">
-			<convert type="ConditionalShowHide" />
-		</widget>
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
