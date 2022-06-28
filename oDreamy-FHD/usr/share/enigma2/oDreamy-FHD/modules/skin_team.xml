@@ -150,9 +150,10 @@
 	<!-- ALL Video Setup -->
 	<screen name="VideoSetup" position="fill" title="Video Setup" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
-		<panel name="p800_DateMid" />
+		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget name="description" position="1290,560" size="550,350" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
@@ -2148,7 +2149,6 @@
 	<!-- Menu FHD -->
 	<screen name="Menu" position="fill" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="MenuTemplate" />
-		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,550" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  About -->
 	<screen name="About" position="fill" title="About" backgroundColor="transparent" flags="wfNoBorder">
@@ -2309,11 +2309,12 @@
 		<widget source="session.CurrentService" render="Label" position="835,170" size="400,60" font="Regular;40" halign="right" foregroundColor="#808080" backgroundColor="header" transparent="1" zPosition="2">
 			<convert type="ServiceName">Provider</convert>
 		</widget>
+		<widget name="epg_description" position="105,150" size="0,0" font="Regular;33" scrollbarMode="showNever" backgroundColor="header" foregroundColor="white" transparent="1" />
+		<widget name="FullDescription" position="105,150" size="0,0" font="Regular;33" scrollbarMode="showNever" backgroundColor="header" foregroundColor="white" transparent="1" />
 		<widget name="channel" position="70,170" size="740,60" font="Regular;46" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="datetime" position="70,240" size="300,40" font="Regular;34" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget name="duration" position="320,240" size="300,40" font="Regular;34" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="duration" position="420,240" size="300,40" font="Regular;34" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
 		<eLabel position="70,290" size="1160,1" backgroundColor="#303030" zPosition="2" />
-		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/box/maxbar.png" position="1220,310" size="10,580" zPosition="2" alphatest="blend" />
 		<widget source="Event" render="RunningText" position="70,310" size="1150,590" halign="center" foregroundColor="white" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" zPosition="2" font="Regular;32" backgroundColor="header" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
@@ -2683,6 +2684,13 @@
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
 		<panel name="M" />
+		<widget name="timeline0" position="0,597" zPosition="1" size="0,0" />
+		<widget name="timeline1" position="0,597" zPosition="1" size="0,0" />
+		<widget name="timeline2" position="0,597" zPosition="1" size="0,0" />
+		<widget name="timeline3" position="0,597" zPosition="1" size="0,0" />
+		<widget name="timeline4" position="0,597" zPosition="1" size="0,0" />
+		<widget name="timeline5" position="0,597" zPosition="1" size="0,0" />
+		<widget name="number" position="170,1900" size="500,60" font="Regular;34" valign="center" halign="left" foregroundColor="backpurple" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" zPosition="2" />
 		<eLabel text="Info" position="1370,1000" size="200,43" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<eLabel text="Exit" position="1435,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/key_8_epg.png" position="985,50" size="60,35" alphatest="blend" zPosition="2" />
@@ -2694,14 +2702,14 @@
 		<ePixmap pixmap="oDreamy-FHD/buttons/vkey_ch.png" position="782,85" size="60,30" alphatest="blend" zPosition="2" />
 		<widget name="jump" position="830,95" size="200,25" font="Regular;17" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<!-- Channels + Bar -->
-		<widget name="timeline_text" position="60,390" size="1800,30" font="Regular;24" selection="1" halign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="timeline_text" position="60,390" size="1800,30" font="Regular;24" selection="1" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="list" position="60,435" size="1800,500" itemHeight="60" scrollbarMode="showNever" EntryBackgroundColor="#2f4974" EntryBackgroundColorSelected="#688cbf" EntryBorderColor="grey" transparent="1" />
 		<!-- Bouquet -->
 		<widget name="lab1" position="70,455" size="1800,390" halign="center" transparent="0" valign="center" zPosition="20" />
-		<widget name="timeline_now" position="80,314" size="13,500" pixmap="epg/timeline-now2.png" alphatest="blend" zPosition="21" />
+		<widget name="timeline_now" position="80,314" size="13,500" pixmap="oDreamy-FHD/epg/timeline-now2.png" alphatest="blend" zPosition="21" />
 		<!-- Time -->
 		<widget name="bouquetlist" position="60,435" size="1800,500" itemHeight="35" scrollbarMode="showNever" foregroundColor="red" backgroundColor="header" transparent="0" zPosition="4" />
-		<widget name="timeline_now" position="2,435" size="19,495" pixmap="epg/timeline-now-pig.png" alphatest="blend" zPosition="3" />
+		<widget name="timeline_now" position="2,435" size="19,495" pixmap="oDreamy-FHD/epg/timeline-now-pig.png" alphatest="blend" zPosition="3" />
 		<!-- Event -->
 		<widget source="Event" render="Label" position="70,150" zPosition="2" size="1300,40" font="Regular;30" halign="left" foregroundColor="yellow" backgroundColor="black" transparent="1">
 			<convert type="EventName">Name</convert>
@@ -2714,7 +2722,7 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:- %H:%M</convert>
 		</widget>
-		<widget source="Event" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" position="70,190" zPosition="2" size="1790,200" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="black" transparent="1">
+		<widget source="Event" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,wrap=1,always=0,repeat=2,oneshot=1" position="70,190" zPosition="2" size="1790,195" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="black" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 	</screen>
