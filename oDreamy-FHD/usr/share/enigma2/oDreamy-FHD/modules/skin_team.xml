@@ -1,54 +1,47 @@
 <skin>
 	<!-- wizard_rc_templateNew -->
 		<screen name="wizard_rc_templateNew">
-			<widget name="rc" pixmaps="rc.png,rcold.png" position="1475,250" zPosition="10" size="154,500" alphatest="blend" transparent="0" />
-			<widget alphatest="blend" name="indicatorU0" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU1" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU2" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU3" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU4" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU5" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU6" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU7" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU8" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU9" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU10" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU11" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU12" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU13" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU14" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorU15" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL0" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL1" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL2" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL3" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL4" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL5" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL6" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL7" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL8" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL9" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL10" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL11" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL12" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL13" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL14" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-			<widget alphatest="blend" name="indicatorL15" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
-		</screen>
-		<screen name="wizard_rc_template">
-			<widget name="rc" position="955,100" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
-			<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="blend" />
-			<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="blend" />
-			<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="blend" />
-			<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="blend" />
+			<widget name="rc" position="1475,250" zPosition="10" size="154,500" alphatest="blend" transparent="0" />
+			<widget alphatest="blend" name="indicatorU0" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU1" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU2" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU3" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU4" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU5" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU6" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU7" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU8" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU9" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU10" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU11" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU12" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU13" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU14" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorU15" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL0" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL1" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL2" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL3" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL4" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL5" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL6" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL7" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL8" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL9" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL10" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL11" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL12" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL13" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL14" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
+			<widget alphatest="blend" name="indicatorL15" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" offset="11,11" size="23,23" zPosition="11" />
 		</screen>
 	<!-- wizard_rc_template -->
 		<screen name="wizard_rc_template">
-			<widget name="rc" position="1475,250" size="154,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" zPosition="10" alphatest="blend" />
-			<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="blend" />
-			<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" zPosition="11" alphatest="blend" />
-			<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="blend" />
-			<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" zPosition="11" alphatest="blend" />
+			<widget name="rc" position="1475,250" pixmaps="oDreamy-FHD/skin_default/rc.png,oDreamy-FHD/skin_default/rcold.png" zPosition="10" size="154,500" alphatest="blend" transparent="0" />
+			<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" zPosition="11" alphatest="blend" />
+			<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" zPosition="11" alphatest="blend" />
+			<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" zPosition="11" alphatest="blend" />
+			<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" zPosition="11" alphatest="blend" />
 		</screen>
 	<!-- HelpMenu -->
 		<screen name="HelpMenu" position="0,0" size="1920,1080" title="Menu" flags="wfNoBorder" backgroundColor="transparent">
@@ -1666,7 +1659,7 @@
 		<ePixmap position="1650,42" pixmap="oDreamy-FHD/icons/select.png" size="89,60" alphatest="blend" zPosition="2" />
 		<eLabel text="Menu Help " position="1760,40" size="100,70" font="Regular;32" valign="center" foregroundColor="white" backgroundColor="#152a62" transparent="1" zPosition="3" />
 		<!-- Code -->
-		<widget name="coverArt" position="60,150" size="250,250" pixmap="menu/logodream.png" zPosition="1" transparent="1" alphatest="blend" scale="1" />
+		<widget name="coverArt" position="60,150" size="250,250" pixmap="oDreamy-FHD/menu/logodream.png" zPosition="1" transparent="1" alphatest="blend" scale="1" />
 		<widget name="titletext" position="140,145" size="0,50" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget name="artisttext" position="340,155" size="170,50" font="Regular;32" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<widget name="artist" position="480,155" size="455,50" font="Regular;32" halign="left" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" noWrap="1" />
@@ -1957,12 +1950,12 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="subtitleLabel" position="930,655" size="160,36" font="Regular;26" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="anglePix" position="730,658" size="50,30" pixmap="skin_default/icons/icon_view.png" alphatest="on" />
+		<widget name="anglePix" position="730,658" size="50,30" pixmap="oDreamy-FHD/skin_default/icons/icon_view.png" alphatest="on" />
 		<widget name="angleLabel" position="790,655" size="120,22" font="Regular;17" backgroundColor="#10000000" foregroundColor="grey" transparent="1" zPosition="1" />
 	</screen>
 	<!-- RDS info FHD -->
 	<screen name="RdsInfoDisplay" position="fill" backgroundColor="transparent" flags="wfNoBorder" zPosition="-2">
-		<widget name="RassLogo" position="70,600" size="100,50" pixmap="skin_default/icons/rass_logo.png" />
+		<widget name="RassLogo" position="70,600" size="100,50" pixmap="oDreamy-FHD/skin_default/icons/rass_logo.png" />
 		<widget name="RadioText" position="70,650" size="1800,50" font="Regular;32" noWrap="1" halign="left" backgroundColor="rds_text_bg" />
 		<widget name="RtpText" position="70,700" size="1800,50" font="Regular;32" noWrap="1" halign="right" backgroundColor="rds_text_bg" />
 	</screen>
@@ -2034,7 +2027,7 @@
 	</screen>
 	<!-- Subservice quickzap FHD -->
 	<screen name="SubservicesQuickzap" position="center,center" size="600,300" title="Subservices" backgroundColor="transparent" flags="wfNoBorder">
-		<widget source="session.RecordState" render="Pixmap" pixmap="skin_default/icons/record.png" position="450,0" zPosition="2" size="14,14" alphatest="on">
+		<widget source="session.RecordState" render="Pixmap" pixmap="oDreamy-FHD/skin_default/icons/record.png" position="450,0" zPosition="2" size="14,14" alphatest="on">
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
 		<eLabel text="Subservices" position="0,0" size="600,30" font="Regular;24" backgroundColor="#33294a6b" />
@@ -2197,7 +2190,7 @@
 		<widget name="textvod" position="1530,25" size="0,0" font="Regular;28" halign="right" backgroundColor="header" foregroundColor="ltbluette" transparent="1" zPosition="1" />
 		<widget name="key_vod" position="1455,60" size="0,0" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<ePixmap position="1230,165" size="10,750" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2" />
-		<widget name="list" position="70,165" size="1170,750" serviceItemHeight="50" serviceNumberFont="Regular;32" serviceInfoFont="Regular;30" serviceNameFont="Regular;30" zPosition="2" foregroundColor="white" foregroundColorSelected="white" foregroundColorServiceNotAvail="#5e5e5e" colorServiceDescription="#0073c6ff" colorServiceDescriptionSelected="#00ffffff" backgroundColor="header" foregroundColorEventSelected="#0036c6" foregroundColorMarkedSelected="#902020" scrollbarMode="showOnDemand" picServiceEventProgressbar="skin_default/progcl.png" transparent="1" />
+		<widget name="list" position="70,165" size="1170,750" serviceItemHeight="50" serviceNumberFont="Regular;32" serviceInfoFont="Regular;30" serviceNameFont="Regular;30" zPosition="2" foregroundColor="white" foregroundColorSelected="white" foregroundColorServiceNotAvail="#5e5e5e" colorServiceDescription="#0073c6ff" colorServiceDescriptionSelected="#00ffffff" backgroundColor="header" foregroundColorEventSelected="#0036c6" foregroundColorMarkedSelected="#902020" scrollbarMode="showOnDemand" picServiceEventProgressbar="oDreamy-FHD/skin_default/progcl.png" transparent="1" />
 	</screen>
 	<!-- Simple channelselection TV FHD -->
 	<screen name="SimpleChannelSelection" position="fill" title="Channel Selection" backgroundColor="transparent" flags="wfNoBorder">
@@ -2274,7 +2267,7 @@
 			<convert type="ServiceInfo">IsMultichannel</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="RdsDecoder" render="Pixmap" pixmap="skin_default/icons/rass_logo.png" position="0,120" size="100,60" zPosition="2" alphatest="on">
+		<widget source="RdsDecoder" render="Pixmap" pixmap="oDreamy-FHD/skin_default/icons/rass_logo.png" position="0,120" size="100,60" zPosition="2" alphatest="on">
 			<convert type="RdsInfo">RasInteractiveAvailable</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
@@ -2491,6 +2484,10 @@
 		<panel name="s_RGYB" />
 		<panel name="p800_Date" />
 		<panel name="MI" />
+		<widget name="date" position="780,198" size="0,0" font="Regular;33" foregroundColor="white" backgroundColor="header" valign="center" halign="right" transparent="1" />
+		<widget name="list" position="105,270" size="0,0" itemHeight="45" EventFontMulti="Regular;30" backgroundColor="header" foregroundColor="white" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="0" />
+		<widget name="lab1" position="150,450" size="0,0" font="Regular;36" halign="center" valign="center" zPosition="20" backgroundColor="header" foregroundColor="white" transparent="1" />
+		<widget name="bouquetlist" position="105,203" size="1050,53" zPosition="5" itemHeight="53" font="Regular;36" backgroundColor="header" foregroundColor="white" transparent="0" />
 		<widget name="now_button" pixmap="oDreamy-FHD/buttons/epg_off.png" position="70,160" size="200,40" alphatest="blend" zPosition="2" />
 		<widget name="now_button_sel" pixmap="oDreamy-FHD/buttons/epg_now_on.png" position="70,160" size="200,40" alphatest="blend" zPosition="3" />
 		<widget name="now_text" text="NOW" size="200,40" position="70,161" font="Regular;30" valign="center" halign="center" backgroundColor="header" zPosition="4" transparent="1" />
@@ -2503,7 +2500,7 @@
 		<eLabel position="70,220" size="1165,1" backgroundColor="#10202020" zPosition="2" />
 		<eLabel position="70,222" size="1165,1" backgroundColor="#10404040" zPosition="2" />
 		<ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="1230,240" size="10,690" zPosition="2" alphatest="blend" />
-		<widget name="list" position="70,240" size="1170,690" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="list" position="70,240" size="1170,690" font="Regular;30" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" />
 		<!-- Event Name -->
 		<widget source="Event" render="DRRunningText" font="Regular;34" foregroundColor="yellow" backgroundColor="header" position="1280,160" halign="center" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="550,60" transparent="1" noWrap="1">
 			<convert type="EventName">Name</convert>
@@ -4442,7 +4439,7 @@
 		<panel name="p800_DateMid" />
 		<widget name="frontend" pixmap="oDreamy-FHD/icons/scan-s.png" position="70,170" size="64,64" zPosition="2" transparent="1" alphatest="on" />
 		<widget name="scan_state" position="150,180" zPosition="2" size="740,60" valign="center" font="Regular;32" backgroundColor="header" transparent="1" />
-		<widget name="scan_progress" position="70,230" size="820,15" pixmap="skin_default/progress_big.png" borderWidth="2" borderColor="#cccccc" />
+		<widget name="scan_progress" position="70,230" size="820,15" pixmap="oDreamy-FHD/skin_default/progress_big.png" borderWidth="2" borderColor="#cccccc" />
 		<ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
@@ -4686,11 +4683,11 @@
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="portpic" position="70,820" size="40,40" zPosition="2" alphatest="on" transparent="1" />
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,oDreamy-FHD/skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- Language Wizzard FHD -->
 	<screen name="LanguageWizard" title="Language Selection..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4715,47 +4712,47 @@
 				}
 			</convert>
 		</widget>
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,oDreamy-FHD/skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- Position Wizzard FHD -->
 	<screen name="StartWizard" title="Start Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<widget name="rc" position="1475,250" size="0,0" zPosition="10" alphatest="blend" />
-		<widget alphatest="blend" name="indicatorU0" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU1" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU2" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU3" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU4" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU5" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU6" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU7" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU8" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU9" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU10" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU11" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU12" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU13" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU14" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU15" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL0" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL1" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL2" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL3" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL4" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL5" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL6" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL7" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL8" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL9" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL10" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL11" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL12" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL13" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL14" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL15" pixmap="skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget name="rc" position="1475,250" size="0,0" pixmaps="oDreamy-FHD/skin_default/rc.png,oDreamy-FHD/skin_default/rcold.png" zPosition="10" alphatest="blend" />
+		<widget alphatest="blend" name="indicatorU0" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU1" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU2" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU3" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU4" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU5" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU6" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU7" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU8" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU9" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU10" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU11" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU12" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU13" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU14" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorU15" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL0" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL1" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL2" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL3" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL4" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL5" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL6" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL7" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL8" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL9" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL10" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL11" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL12" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL13" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL14" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
+		<widget alphatest="blend" name="indicatorL15" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext" />
@@ -4806,11 +4803,11 @@
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="rc" position="2960,180" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2960,180" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- Update Wizard FHD -->
 	<screen name="InstallWizardIpkgUpdater" title="Update Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4845,11 +4842,11 @@
 				}
 			</convert>
 		</widget>
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="50,658" pixmap="oDreamy-FHD/buttons/redpanel.png" size="22,22" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="90,642" size="180,55" zPosition="1" font="Regular;22" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 	</screen>
@@ -4876,11 +4873,11 @@
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- Tutorial Wizard FHD -->
 	<screen name="TutorialWizard" title="Tutorial Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4892,10 +4889,10 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend" />
 		<widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
 		<widget name="text" position="70,180" size="820,600" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- Default SatList Wizard FHD -->
 	<screen name="DefaultSatLists" title="Default Sat Lists..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4924,11 +4921,11 @@
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="wizard" position="1020,415" size="160,180" pixmap="oDreamy-FHD/menu/wizard.png" zPosition="1" />
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- Default Wizard FHD -->
 	<screen name="DefaultWizard" title="Default Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4955,11 +4952,11 @@
 		</widget>
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- Default Wizard FHD -->
 	<screen name="SoftwareUpdateChoices" title="Software Update..." position="center,center" size="650,340">
@@ -4991,11 +4988,11 @@
 		</widget>
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
+		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- CleanupWizard Config FHD -->
 	<screen name="CleanupWizardConfiguration" title="Cleanup Wizard Settings" position="fill" backgroundColor="transparent" flags="wfNoBorder">
