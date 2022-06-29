@@ -2149,6 +2149,7 @@
 	<!-- Menu FHD -->
 	<screen name="Menu" position="fill" title="Menu" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="MenuTemplate" />
+		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,550" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  About -->
 	<screen name="About" position="fill" title="About" backgroundColor="transparent" flags="wfNoBorder">
@@ -2336,7 +2337,7 @@
 			<convert type="EventName">Name</convert>
 		</widget>
 		<ePixmap pixmap="/usr/share/enigma2/oDreamy-FHD/icons/miniinfo.png" position="1520,280" size="120,120" zPosition="2" alphatest="blend" />
-		<widget source="session.Event_Next" render="DRRunningText" position="1280,415" size="580,495" halign="center" foregroundColor="white" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" zPosition="2" font="Regular;32" backgroundColor="header" transparent="1">
+		<widget source="session.Event_Next" render="DRRunningText" position="1280,415" size="580,510" halign="center" foregroundColor="white" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" zPosition="2" font="Regular;32" backgroundColor="header" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 	</screen>
