@@ -16,7 +16,7 @@
 		<eLabel position="0,900" size="1920,200" backgroundColor="header" zPosition="-1" />
 		<eLabel position="0,0" size="1920,175" backgroundColor="header" zPosition="-1" />
 		<!-- Service name -->
-		<widget source="session.CurrentService" render="Label" position="350,801" size="1800,100" font="Regular;80" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="3" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="350,811" size="1800,100" font="Regular;80" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="1" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
 		<!-- Picon -->
@@ -457,7 +457,7 @@
 		</widget>
 		<!-- ***** Channel ***** -->
 		<eLabel position="50,420" size="390,320" backgroundColor="header" zPosition="-1" />
-		<widget source="session.CurrentService" render="Picon" position="50,430" size="250,106" alphatest="blend" zPosition="5" >
+		<widget source="session.CurrentService" render="Picon" position="80,440" size="177,106" alphatest="blend" zPosition="5" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<eLabel text="Ch." position="300,430" size="100,50" font="Regular;34" backgroundColor="#10000000" foregroundColor="white" transparent="1" zPosition="9"/>
@@ -577,7 +577,6 @@
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">InMinutes</convert>
 		</widget>
-		<widget source="session.CurrentService" position="1640,150" size="187,336" render="EGPoster" zPosition="2" alphatest="blend" transparent="1" />
 		<widget source="session.Event_Now" render="DRRunningText" position="465,150" size="1370,326" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2"
 			options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" >
 			<convert type="EventName">ExtendedDescription</convert>

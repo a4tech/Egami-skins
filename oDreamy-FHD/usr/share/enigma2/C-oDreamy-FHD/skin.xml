@@ -458,7 +458,7 @@
 		</widget>
 		<!-- ***** Channel ***** -->
 		<eLabel position="50,420" size="390,320" backgroundColor="header" zPosition="-1" />
-		<widget source="session.CurrentService" render="Picon" position="50,430" size="250,106" alphatest="blend" zPosition="5" >
+		<widget source="session.CurrentService" render="Picon" position="80,440" size="177,106" alphatest="blend" zPosition="5" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<eLabel text="Ch." position="300,430" size="100,50" font="Regular;34" backgroundColor="#10000000" foregroundColor="#ffffff" transparent="1" zPosition="9"/>
