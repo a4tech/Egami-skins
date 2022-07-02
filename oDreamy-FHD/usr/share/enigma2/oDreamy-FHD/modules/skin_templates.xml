@@ -280,7 +280,7 @@
 		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1"
 			foregroundColor="grey" foregroundColorSelected="white" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" >
 			<convert type="TemplatedMultiContent">
-				 {"template": [ MultiContentEntryText(pos = (105, 8), size = (680, 68), flags = RT_HALIGN_LEFT, text = 0),
+				 {"template": [ MultiContentEntryText(pos = (105, 11), size = (680, 68), flags = RT_HALIGN_LEFT, text = 0),
 				 MultiContentEntryPixmapAlphaBlend(pos = (25, 5), size = (56, 56), png = 1),],
 				 "fonts": [gFont("Regular", 35)],
 				 "itemHeight": 60
@@ -512,7 +512,7 @@
 	<!-- P800 Logo FHD -->
 	<screen name="p800_Logo" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- Logo -->
-		<ePixmap position="930,160" size="300,323" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
+		<ePixmap position="920,160" size="300,323" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 	</screen>
 
 	<!-- P800 Logo FHD -->

@@ -1826,7 +1826,6 @@
 		<eLabel text=" [ -10s ]" position="1395,931" size="150,35" font="Regular;28" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<eLabel text=" [ -1m ]" position="1395,978" size="150,35" font="Regular;28" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<eLabel text=" [ -5m ]" position="1395,1025" size="150,35" font="Regular;28" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
-
 		<ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/audio_off.png" transparent="1" position="120,1021" size="80,38" />
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/audio_on.png" position="120,1021" size="80,38" transparent="1" render="Pixmap" source="session.CurrentService" zPosition="2">
 			<convert type="ServiceInfo">AudioTracksAvailable</convert>
@@ -2970,7 +2969,7 @@
 		<panel name="Ex" />
 		<panel name="s_RGYB" />
 		<ePixmap position="75,180" size="40,40" pixmap="oDreamy-FHD/icons/net_off.png" alphatest="blend" zPosition="1" />
-		<widget name="statuspic" position="75,180" size="40,40" transparent="1" pixmaps="icons/net_on.png,icons/net_off.png" alphatest="on" zPosition="2" />
+		<widget name="statuspic" position="75,180" size="40,40" transparent="1" pixmaps="oDreamy-FHD/icons/net_on.png,oDreamy-FHD/icons/net_off.png" alphatest="on" zPosition="2" />
 		<widget source="IF" render="Label" position="140,180" size="750,40" font="Regular;38" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="10" />
 		<eLabel position="70,230" size="820,1" backgroundColor="#202020" zPosition="1" />
 		<widget name="menulist" position="70,270" size="820,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
@@ -3044,16 +3043,16 @@
 		<widget name="AdapterInfo_OK" position="70,180" size="30,30" zPosition="2" pixmap="oDreamy-FHD/buttons/greenpanel.png" alphatest="blend" />
 		<widget name="Adaptertext" position="120,178" size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="Adapter" position="1020,178" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1" />
-		<widget name="NetworkInfo_Check" position="70,240" size="30,30" zPosition="2" pixmaps="buttons/greenpanel.png,buttons/redpanel.png" alphatest="blend" />
+		<widget name="NetworkInfo_Check" position="70,240" size="30,30" zPosition="2" pixmaps="oDreamy-FHD/buttons/greenpanel.png,oDreamy-FHD/buttons/redpanel.png" alphatest="blend" />
 		<widget name="Networktext" position="120,238" size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="Network" position="1020,238" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1" />
-		<widget name="DhcpInfo_Check" position="70,300" size="30,30" zPosition="2" pixmaps="buttons/greenpanel.png,buttons/redpanel.png" alphatest="blend" />
+		<widget name="DhcpInfo_Check" position="70,300" size="30,30" zPosition="2" pixmaps="oDreamy-FHD/buttons/greenpanel.png,oDreamy-FHD/buttons/redpanel.png" alphatest="blend" />
 		<widget name="Dhcptext" position="120,298" size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="Dhcp" position="1020,298" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1" />
-		<widget name="IPInfo_Check" position="70,360" size="30,30" zPosition="2" pixmaps="buttons/greenpanel.png,buttons/redpanel.png" alphatest="blend" />
+		<widget name="IPInfo_Check" position="70,360" size="30,30" zPosition="2" pixmaps="oDreamy-FHD/buttons/greenpanel.png,oDreamy-FHD/buttons/redpanel.png" alphatest="blend" />
 		<widget name="IPtext" position="120,358" size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="IP" position="1020,358" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1" />
-		<widget name="DNSInfo_Check" position="70,420" size="30,30" zPosition="2" pixmaps="buttons/greenpanel.png,buttons/redpanel.png" alphatest="blend" />
+		<widget name="DNSInfo_Check" position="70,420" size="30,30" zPosition="2" pixmaps="oDreamy-FHD/buttons/greenpanel.png,oDreamy-FHD/buttons/redpanel.png" alphatest="blend" />
 		<widget name="DNStext" position="120,418" size="300,40" zPosition="1" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="DNS" position="1020,418" size="200,60" zPosition="1" font="Regular;24" halign="right" foregroundColors="#8c8c93,#f23d21,#538eff" backgroundColor="header" transparent="1" />
 		<widget name="AdapterInfo" position="315,178" size="200,40" zPosition="1" />
