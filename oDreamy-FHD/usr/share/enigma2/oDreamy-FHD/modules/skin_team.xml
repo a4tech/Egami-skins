@@ -3983,12 +3983,11 @@
 	</screen>
 	<!-- Backup Selection FHD -->
 	<screen name="BackupSelection" title="Backup Selection" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<panel name="s_RGYB" />
-		<widget name="checkList" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
+		<widget name="checkList" position="70,180" size="820,720" font="Regular;32" enableWrapAround="1" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/backup.png" alphatest="blend" />
 	</screen>
 	<!-- Extra Plugins FHD -->
