@@ -276,7 +276,7 @@
 		<!-- menu list -->
 		<ePixmap position="830,160" size="300,323" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="menuimage" position="860,650" size="0,0" zPosition="2" alphatest="blend" conditional="menuimage" scaleFlags="scaleCenter" transparent="1" />
-		<widget source="description" render="Label" position="1155,770" size="510,165" conditional="description" font="Regular;27" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="header">
+		<widget source="description" render="Label" position="1155,955" size="750,95" conditional="description" font="Regular;27" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="header">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<!-- <widget name="description" position="1260,560" size="0,0" font="Regular;30" halign="center" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />-->

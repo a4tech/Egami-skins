@@ -423,6 +423,7 @@
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<widget name="slotlist" position="70,180" size="1160,720" itemHeight="45" font="Regular;35" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<widget name="description" position="1260,560" size="610,400" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
@@ -1365,8 +1366,6 @@
 		<widget name="headline" position="4,0" size="128,22" font="Regular;20" />
 		<widget source="parent.title" render="Label" position="6,26" size="120,34" font="Regular;14" />
 	</screen>
-
-	<!-- ********** EPG Import ********** P018 -->
 	<!-- EPG Import Configuration FHD -->
 	<screen name="EPGImportConfig" title="EPG Import Configuration" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -1378,11 +1377,11 @@
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/ico_listch.png" alphatest="blend" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="config" position="70,180" size="1166,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<widget name="status" position="1270,460" size="600,100" font="Regular;32" foregroundColor="ltbluette" halign="center" valign="center" backgroundColor="header" transparent="1" />
 		<widget name="statusbar" position="1270,820" size="600,100" font="Regular;30" foregroundColor="yellow" halign="center" valign="center" backgroundColor="header" transparent="1" />
 	</screen>
-
 	<!-- EPG Import Sources FHD -->
 	<screen name="EPGImportSources" title="EPG Import Sources" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template_notime" />
@@ -1390,7 +1389,6 @@
 		<panel name="s_RGYB" />
 		<widget name="list" position="70,180" size="1140,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 	</screen>
-
 	<!-- EPG Import Log FHD -->
 	<screen name="EPGImportLog" position="fill" title="EPG Import Log" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -1400,8 +1398,6 @@
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/swapp.png" alphatest="blend" />
 		<widget name="list" position="70,180" size="840,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 	</screen>
-
-	<!-- ********** CrossEPG ********** P019 -->
 	<!-- Cross EPG SETUP FHD -->
 	<screen name="CrossEPG_Setup" title="CrossEPG Setup" position="fill" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -1917,6 +1913,7 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<eLabel position="1260,140" size="610,502" backgroundColor="#20000000" zPosition="-1" />
 		<eLabel position="1260,640" size="610,10" backgroundColor="#FF000000" zPosition="-1" />
 		<widget name="list" position="70,180" size="840,700" itemHeight="50" font="Regular;32" scrollbarMode="showAlways" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
@@ -4912,8 +4909,6 @@
 		<eLabel text="Make SoftLink" position="400,955" size="210,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/faqlist.png" alphatest="blend" />
 	</screen>
-
-	<!-- ********** openVPN FHD ********** P089 -->
 	<!-- openVPN Setup -->
 	<screen name="VpnSetup" position="fill" title="OpenVPN Manager v0.7" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template" />

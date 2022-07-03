@@ -1263,7 +1263,7 @@
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="lab1" position="70,180" font="Regular;28" itemHeight="40" size="820,840" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
+		<widget name="lab1" position="70,180" font="Regular;28" foregroundColor="white" backgroundColor="header" size="820,840" zPosition="1" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/deviceusb.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!-- EGAMI EgamiBootLogoSelector -->
@@ -2958,7 +2958,7 @@
 				}
 			</convert>
 		</widget>
-		<widget source="introduction" render="Label" position="70,820" size="820,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget source="introduction" render="Label" position="70,820" size="820,40" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 	</screen>
 	<!-- Network Configuration FHD -->
 	<screen name="AdapterSetupConfiguration" title="Adapter Configuration" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -2986,6 +2986,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="70,177" size="40,40" pixmap="oDreamy-FHD/icons/net_on.png" zPosition="1" alphatest="blend" />
 		<widget source="Adaptertext" render="Label" position="130,180" size="100,50" font="Regular;36" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
@@ -3026,7 +3027,6 @@
 		<widget name="description" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="footnote" position="70,180" size="0,0" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
-		<widget name="introduction" position="0,0" size="0,0" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
@@ -3078,7 +3078,7 @@
 		<panel name="s_RGYB" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
-		<widget source="introduction" render="Label" position="70,840" size="820,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget source="introduction" render="Label" position="70,840" size="820,40" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
 	<!-- Network Mounts Setup FHD -->
@@ -3348,7 +3348,7 @@
 	</screen>
 	<!-- NetWork Inadyn Log FHD -->
 	<screen name="NetworkInadynLog" title="Inadyn Log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="fakeExit" />
 		<widget name="infotext" position="70,180" size="1160,715" font="Console;20" backgroundColor="header" transparent="1" zPosition="1" />
@@ -3425,7 +3425,19 @@
 		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
 		<widget name="labconfig" position="70,375" size="780,45" font="Regular;33" valign="center" halign="left" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
 		<widget name="labconfigfilename" position="650,375" size="270,45" font="Regular;33" valign="center" halign="left" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
-		<!--<widget name="activevpn" position="70,340" size="720,500" font="Regular;32" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />-->
+		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
+	</screen>
+	<!-- NetworkSATPI Setup FHD -->
+	<screen name="NetworkSATPI" title="SATPI Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template_notime" />
+		<panel name="p800_Logo" />
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
+		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
+		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
+		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
+		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
+		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
 	<!-- NetWork Samba Setup FHD -->
@@ -4755,7 +4767,7 @@
 		<ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 		<widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
-		<widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
