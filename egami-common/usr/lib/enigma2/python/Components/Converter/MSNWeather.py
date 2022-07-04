@@ -24,7 +24,7 @@ from Components.Converter.Converter import Converter
 from Components.Element import cached
 
 
-class MSNWeather(Converter, object):
+class MSNWeather(Converter):
 
 	CURRENT = -1
 	CITY = 0

@@ -5,7 +5,7 @@ from Tools.Directories import fileExists
 from os import path, popen
 import re
 
-class MydExtraInfo(Converter, object):
+class MydExtraInfo(Converter):
     TEMPERATURE = 1
     EMU = 2
     HOPS = 3

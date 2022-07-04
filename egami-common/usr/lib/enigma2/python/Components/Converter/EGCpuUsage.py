@@ -2,7 +2,7 @@ from Converter import Converter
 from Components.Converter.Poll import Poll
 from Components.Element import cached
 
-class EGCpuUsage(Converter, object):
+class EGCpuUsage(Converter):
     CPU_ALL = -2
     CPU_TOTAL = -1
 
@@ -70,7 +70,7 @@ class EGCpuUsage(Converter, object):
     range = 100
 
 
-class CpuUsageMonitor(Poll, object):
+class CpuUsageMonitor(Poll):
 
     def __init__(self):
         Poll.__init__(self)

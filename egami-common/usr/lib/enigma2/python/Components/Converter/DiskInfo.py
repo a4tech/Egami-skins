@@ -22,7 +22,7 @@ from Components.Element import cached
 from Components.Harddisk import harddiskmanager
 from Tools.Directories import fileExists
 
-class DiskInfo(Poll, Converter, object):
+class DiskInfo(Poll, Converter):
 	capacity = 0
 	free = 1
 	model = 2
