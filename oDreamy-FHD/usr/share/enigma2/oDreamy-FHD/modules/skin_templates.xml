@@ -17,18 +17,21 @@
 	</screen>
 	<!-- Card / Network / Emu  -->
 	<screen name="Card_Network_Emu">
-		<widget source="session.CurrentService" render="Label" position="1015,100" size="420,35" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1">
+		<widget source="session.CurrentService" render="Label" position="1015,100" size="420,35" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" zPosition="1">
 			<convert type="EGExtraInfo">E-C-N</convert>
 		</widget>
 		<!-- ECM  -->
-		<widget source="session.CurrentService" render="Label" position="600,135" size="800,33" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
-			<convert type="EGCaid">Default</convert>
+		<widget source="session.CurrentService" render="Label" position="40,135" size="1920,33" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1">
+			<convert type="EGExtraInfo">NetInfo</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="870,100" size="300,35" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
+		<!--<widget source="session.CurrentService" render="Label" position="600,135" size="800,33" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
+			<convert type="EGCaid">Default</convert>
+		</widget>-->
+		<widget source="session.CurrentService" render="Label" position="870,100" size="300,35" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1">
 			<convert type="EGExtraInfo">CamName</convert>
 		</widget>
 		<!-- nagra/nds/etc -->
-		<widget source="session.CurrentService" render="Label" position="680,100" size="250,26" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1">
+		<widget source="session.CurrentService" render="Label" position="680,100" size="250,26" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" zPosition="1">
 			<convert type="CaidInfo2">CryptInfo2</convert>
 		</widget>
 	</screen>

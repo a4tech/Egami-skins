@@ -330,7 +330,7 @@
 			<convert type="ClockToText">Format:%H:%M:%S</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="460,30" size="1000,33" font="Regular;32" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
-			<convert type="EGCaid">Default</convert>
+			<convert type="EGExtraInfo">NetInfo</convert>
 		</widget>
 		<!-- ***** Meteo Panel ***** -->
 		<eLabel position="50,30" size="390,195" backgroundColor="header" zPosition="-1" />
