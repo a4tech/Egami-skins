@@ -3,7 +3,7 @@ from Components.Converter.Converter import Converter
 from Components.Element import cached
 from Screens.InfoBar import InfoBar
 
-class DRRefString(Converter, object):
+class DRRefString(Converter):
     CURRENT = 0
     EVENT = 1
 

@@ -10,7 +10,7 @@ from Components.Converter.Converter import Converter
 from time import localtime, strftime
 from Components.Element import cached
 
-class ClockToTextMod(Converter, object):
+class ClockToTextMod(Converter):
 	DEFAULT = 0
 	WITH_SECONDS = 1
 	IN_MINUTES = 2

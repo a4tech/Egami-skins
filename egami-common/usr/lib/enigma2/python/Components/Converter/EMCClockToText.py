@@ -3,7 +3,7 @@ from time import localtime, strftime, gmtime
 from Components.Element import cached
 from Components.config import config
 
-class EMCClockToText(Converter, object):
+class EMCClockToText(Converter):
 	DEFAULT = 0
 	WITH_SECONDS = 1
 	IN_MINUTES = 2

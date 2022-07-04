@@ -23,7 +23,7 @@ from Components.Element import cached
 
 WIDESCREEN = [3, 4, 7, 8, 0xB, 0xC, 0xF, 0x10]
 
-class MyServiceInfoEX(Poll, Converter, object):
+class MyServiceInfoEX(Poll, Converter):
 	apid = 0
 	vpid = 1
 	sid = 2

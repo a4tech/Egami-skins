@@ -100,7 +100,7 @@ try:
 except:
   RedPlug,GreenPlug,YellowPlug,BluePlug = BasePlug[0] 
   
-class Colorlabel(Converter, object):	
+class Colorlabel(Converter):	
     def __init__(self, type):
         Converter.__init__(self, type)		
         self.type = type
