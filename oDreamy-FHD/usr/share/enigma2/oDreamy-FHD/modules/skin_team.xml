@@ -2693,13 +2693,13 @@
 		<eLabel text="Info" position="1370,1000" size="200,43" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<eLabel text="Exit" position="1435,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/key_8_epg.png" position="985,50" size="60,35" alphatest="blend" zPosition="2" />
-		<widget name="page" position="1015,55" size="200,30" font="Regular;17" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+		<widget name="page" position="1015,55" size="200,30" font="Regular;17" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/key_9_epg.png" position="985,92" size="60,50" alphatest="blend" zPosition="2" />
-		<widget name="primetime" position="1015,95" size="250,25" font="Regular;17" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+		<widget name="primetime" position="1015,95" size="250,25" font="Regular;17" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/vkey_prev_next.png" position="782,45" size="60,25" alphatest="blend" zPosition="2" />
-		<widget name="change_bouquet" position="830,55" size="200,25" font="Regular;17" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+		<widget name="change_bouquet" position="830,55" size="200,25" font="Regular;17" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/vkey_ch.png" position="782,85" size="60,30" alphatest="blend" zPosition="2" />
-		<widget name="jump" position="830,95" size="200,25" font="Regular;17" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+		<widget name="jump" position="830,95" size="200,25" font="Regular;17" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<!-- Channels + Bar -->
 		<widget name="timeline_text" position="60,390" size="1800,30" font="Regular;24" selection="1" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="list" position="60,435" size="1800,500" itemHeight="60" scrollbarMode="showNever" EntryBackgroundColor="#2f4974" EntryBackgroundColorSelected="#688cbf" EntryBorderColor="grey" transparent="1" />
@@ -3608,7 +3608,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="infolist" position="70,180" font="Regular;26" size="1140,640" itemHeight="45" selection="1" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
+		<widget name="infolist" position="70,180" font="Regular;28" size="1140,640" itemHeight="45" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<widget source="session.CurrentService" render="Label" position="70,850" size="685,30" font="Regular;24" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ServiceInfo">HasHBBTV</convert>
 		</widget>

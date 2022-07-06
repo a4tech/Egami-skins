@@ -1898,7 +1898,7 @@
 		<panel name="p800_Date" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="choosen" position="70,180" size="825,90" itemHeight="40" font="Regular;34" halign="center" valign="center" scrollbarMode="showOnDemand" backgroundColor="header" transparent="0" />
-		<widget name="list" position="70,300" size="840,600" itemHeight="40" font="Regular;32" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
+		<widget name="list" position="70,300" size="840,600" itemHeight="53" font="Regular;32" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<eLabel position="1260,140" size="610,330" backgroundColor="#20000000" zPosition="2" />
 		<ePixmap position="1440,175" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="5" />
 		<eLabel position="1260,470" size="620,10" backgroundColor="#FF000000" zPosition="2" />
@@ -1916,8 +1916,8 @@
 		<panel name="Ex" />
 		<eLabel position="1260,140" size="610,502" backgroundColor="#20000000" zPosition="-1" />
 		<eLabel position="1260,640" size="610,10" backgroundColor="#FF000000" zPosition="-1" />
-		<widget name="list" position="70,180" size="840,700" itemHeight="50" font="Regular;32" scrollbarMode="showAlways" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
-		<widget name="choosen" position="1270,150" size="590,480" itemHeight="40" font="Regular;32" halign="center" foregroundColor="yellow" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="list" position="70,180" size="840,700" itemHeight="50" font="Regular;32" scrollbarMode="showAlways" backgroundColor="header" enableWrapAround="1" transparent="1" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="choosen" position="1270,150" size="590,480" itemHeight="53" font="Regular;32" halign="center" foregroundColor="yellow" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="description" position="1260,680" size="600,200" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
 	</screen>
