@@ -319,7 +319,6 @@
 		</widget>
 		<ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-		<widget name="description" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 	<!-- Info SystemInformation FHD -->
@@ -352,7 +351,6 @@
 		</widget>
 		<ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-		<widget name="description" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 	<!-- Info CommitLogInformation FHD -->
@@ -385,7 +383,6 @@
 		</widget>
 		<ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-		<widget name="description" position="70,135" size="1,1" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget name="information" position="70,180" size="1160,720" colPosition="475" conditional="information" divideChar="|" font="Regular;29" noWrap="1" split="1" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 	<!-- Info TranslationInformation FHD -->
@@ -583,7 +580,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
-		<panel name="sRYB" />
+		<panel name="s_RGYB" />
 		<widget render="Label" source="title" position="70,180" size="820,90" zPosition="5" valign="center" halign="center" font="Regular;32" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" />
 		<widget name="detailtext" font="Regular;32" position="70,340" size="820,480" halign="center" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
@@ -622,7 +619,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
-		<panel name="sRY" />
+		<panel name="s_RGYB" />
 		<widget source="timerlist" render="Listbox" position="70,180" size="820,700" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -664,7 +661,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
-		<panel name="sRYB" />
+		<panel name="s_RGYB" />
 		<widget render="Label" source="title" position="70,180" size="820,50" font="Regular;32" zPosition="5" valign="center" halign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" />
 		<widget name="detailtext" position="70,270" size="820,520" font="Regular;32" halign="center" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
@@ -1897,7 +1894,7 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="choosen" position="70,180" size="825,90" itemHeight="40" font="Regular;34" halign="center" valign="center" scrollbarMode="showOnDemand" backgroundColor="header" transparent="0" />
+		<widget name="choosen" position="70,180" size="825,90" itemHeight="53" font="Regular;34" foregroundColor="yellow" halign="center" valign="center" scrollbarMode="showOnDemand" backgroundColor="header" transparent="0" />
 		<widget name="list" position="70,300" size="840,600" itemHeight="53" font="Regular;32" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<eLabel position="1260,140" size="610,330" backgroundColor="#20000000" zPosition="2" />
 		<ePixmap position="1440,175" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="5" />
@@ -2655,7 +2652,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-								<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
 	</screen>
 
@@ -3455,7 +3452,7 @@
 		<panel name="p800_Ext_BiN" />
 		<panel name="p800_Logo" />
 		<panel name="p800_Date" />
-		<panel name="nRGB" />
+		<panel name="s_RGYB" />
 		<ePixmap position="1275,156" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<widget name="info" position="1420,170" size="450,160" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
@@ -4979,7 +4976,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nRGB" />
+		<panel name="s_RGYB" />
 		<ePixmap position="900,180" size="10,720" pixmap="box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="memtext" font="Regular;22" position="70,180" zPosition="2" valign="center" halign="left" size="230,720" backgroundColor="#31000000" transparent="1" />
 		<widget name="memvalue" font="Regular;22" position="750,180" zPosition="2" valign="center" halign="right" size="140,720" backgroundColor="#31000000" transparent="1" />
@@ -5169,12 +5166,12 @@
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
-		<widget name="memory" position="70,545" zPosition="2" size="800,40" valign="center" halign="left" font="Regular;30" backgroundColor="header" foregroundColor="ltbluette" />
-		<widget name="slide" position="70,600" zPosition="2" borderWidth="1" foregroundColor="bluette" size="800,8" backgroundColor="white" />
+		<widget name="memory" position="70,545" zPosition="2" size="800,40" valign="center" halign="left" font="Regular;30" backgroundColor="header" foregroundColor="yellow" />
+		<widget name="slide" position="68,600" zPosition="2" borderWidth="2" foregroundColor="ltbluette" size="800,28" backgroundColor="white" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="45" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" transparent="1" backgroundColor="header" scrollbarMode="showAlways" />
 	</screen>
 
-	<!-- ********** Merlin Music Player FHD ********** P098 -->
+	<!-- Merlin Music Player FHD  -->
 	<screen name="MerlinMusicPlayerScreen" position="fill" title="iDream Merlin Player" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<eLabel  position="0,0" size="1920,1080" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/box/radiook.jpg" zPosition="-1" />
@@ -5403,7 +5400,7 @@
 		<ePixmap position="910,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_storage.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** BitRate Viewer FHD ********** P100 -->
+	<!--  BitRate Viewer FHD  -->
 	<screen name="BitrateViewer" position="fill" title="Bitrate viewer" backgroundColor="transparent" flags="wfNoBorder">
 		<eLabel position="0,900" size="1920,270" backgroundColor="header" zPosition="-1" />
 		<ePixmap pixmap="oDreamy-FHD/box/closebar.png" position="0,870" size="1670,60" zPosition="-1" alphatest="blend" />
@@ -5447,36 +5444,37 @@
 
 	<!--  Script NETSPEEDTEST FHD -->
 	<screen name="NetSpeedTestScreen" position="fill" title="Internet Speed Test" flags="wfNoBorder">
-			<ePixmap position="70,1025" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-			<widget name="key_red" position="120,995" size="210,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
-			<widget name="green" position="560,1025" size="30,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/greenpanel.png" alphatest="blend" zPosition="2" />
-			<widget name="key_green" position="605,995" size="210,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
-			<widget name="yellow" position="1140,1025" size="30,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/yellowpanel.png" alphatest="blend" zPosition="2" />
-			<widget name="key_yellow" position="1185,995" size="310,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
-			<widget name="blue" position="1630,1025" size="30,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/bluepanel.png" alphatest="blend" zPosition="2" />
-			<widget name="key_blue" position="1675,995" size="310,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
-			<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/netspeed.jpg" zPosition="-1" />
-			<widget name="ip" position="210,20" size="300,200" font="speedtest;38" foregroundColor="white" backgroundColor="#20000000" transparent="1" halign="left" zPosition="1" />
-			<widget name="host" position="1080,20" size="600,200" font="speedtest;35" foregroundColor="white" backgroundColor="#20000000" transparent="1" halign="right" zPosition="4" />
-			<widget name="download" position="110,445" size="600,100" font="speedtest;85" foregroundColor="#51fff7" backgroundColor="#20000000" transparent="1" halign="left" zPosition="4" />
-			<widget name="upload" position="1185,445" size="600,100" font="speedtest;85" foregroundColor="#dc87ff" backgroundColor="#20000000" transparent="1" halign="right" zPosition="4" />
-			<widget name="ping" position="660,840" size="600,60" font="speedtest;50" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" halign="center" zPosition="4" />
-			<widget name="data" position="0,745" size="1920,44" font="speedtest;36" foregroundColor="#9dc042" backgroundColor="#20000000" transparent="1" halign="center" zPosition="4" />
-			<widget source="session.CurrentService" render="Label" position="80,630" size="500,200" font="speedtest;50" foregroundColor="white" backgroundColor="#20000000" transparent="1" halign="center" zPosition="4">
-				<convert type="EGNetSpeedInfo">RC</convert>
-			</widget>
-			<widget source="session.CurrentService" render="Label" position="1330,630" size="500,200" font="speedtest;50" foregroundColor="white" backgroundColor="#20000000" transparent="1" halign="center" zPosition="4">
-				<convert type="EGNetSpeedInfo">TM</convert>
-			</widget>
-			<widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/lan.png" position="50,20" size="140,140" zPosition="2" scale="1" alphatest="blend" transparent="1">
-				<convert type="RouteInfo">Lan</convert>
-				<convert type="ConditionalShowHide" />
-			</widget>
-			<widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/wifi.png" position="50,20" size="140,140" zPosition="2" scale="1" alphatest="blend" transparent="1" >
-				<convert type="RouteInfo">Wifi</convert>
-				<convert type="ConditionalShowHide" />
-			</widget>
+		<ePixmap position="70,1025" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
+		<widget name="key_red" position="120,995" size="210,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
+		<widget name="green" position="560,1025" size="30,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/greenpanel.png" alphatest="blend" zPosition="2" />
+		<widget name="key_green" position="605,995" size="210,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
+		<widget name="yellow" position="1140,1025" size="30,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/yellowpanel.png" alphatest="blend" zPosition="2" />
+		<widget name="key_yellow" position="1185,995" size="310,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
+		<widget name="blue" position="1630,1025" size="30,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/bluepanel.png" alphatest="blend" zPosition="2" />
+		<widget name="key_blue" position="1675,995" size="310,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
+		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/netspeed.jpg" zPosition="-1" />
+		<widget name="ip" position="210,20" size="300,200" font="speedtest;38" foregroundColor="white" backgroundColor="#20000000" transparent="1" halign="left" zPosition="1" />
+		<widget name="host" position="1080,20" size="600,200" font="speedtest;35" foregroundColor="white" backgroundColor="#20000000" transparent="1" halign="right" zPosition="4" />
+		<widget name="download" position="110,445" size="600,100" font="speedtest;85" foregroundColor="#51fff7" backgroundColor="#20000000" transparent="1" halign="left" zPosition="4" />
+		<widget name="upload" position="1185,445" size="600,100" font="speedtest;85" foregroundColor="#dc87ff" backgroundColor="#20000000" transparent="1" halign="right" zPosition="4" />
+		<widget name="ping" position="660,840" size="600,60" font="speedtest;50" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" halign="center" zPosition="4" />
+		<widget name="data" position="0,745" size="1920,44" font="speedtest;36" foregroundColor="#9dc042" backgroundColor="#20000000" transparent="1" halign="center" zPosition="4" />
+		<widget source="session.CurrentService" render="Label" position="80,630" size="500,200" font="speedtest;50" foregroundColor="white" backgroundColor="#20000000" transparent="1" halign="center" zPosition="4">
+			<convert type="EGNetSpeedInfo">RC</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1330,630" size="500,200" font="speedtest;50" foregroundColor="white" backgroundColor="#20000000" transparent="1" halign="center" zPosition="4">
+			<convert type="EGNetSpeedInfo">TM</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/lan.png" position="50,20" size="140,140" zPosition="2" scale="1" alphatest="blend" transparent="1">
+			<convert type="RouteInfo">Lan</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/wifi.png" position="50,20" size="140,140" zPosition="2" scale="1" alphatest="blend" transparent="1" >
+			<convert type="RouteInfo">Wifi</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
 	</screen>
+
 	<screen name="showresult" position="fill" title="Internet Speed Test" flags="wfNoBorder">
 		<ePixmap position="70,1025" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="key_red" position="120,995" size="210,95" zPosition="1" font="speedtest;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="#20000000" transparent="1" />
@@ -5484,7 +5482,7 @@
 		<ePixmap position="0,0" size="1920,1080" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/EGAMIVpn/skin/fhd/buttons/speedtest.jpg" zPosition="-1" />
 	</screen>
 
-	<!-- ********** SubsSupport FHD ********** P103 -->
+	<!-- SubsSupport FHD -->
 	<screen name="SubsChooser" position="fill" title="Choose Subtitle" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p700_Template" />
 		<panel name="p700_Logo" />
@@ -5512,7 +5510,7 @@
 	<screen name="SubsDownloadedSelection" position="fill" title="Subtitles Download" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p900_Template" />
 		<panel name="p900_Date" />
-		<panel name="sRB" />
+		<panel name="s_RGYB" />
 		<panel name="I" />
 		<widget source="header_name" render="Label" position = "70,170" size="900,40" font="Regular;34" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="header_provider" render="Label" position = "1060,170" size="450,40" font="Regular;34" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -5639,7 +5637,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="sRGB" />
+		<panel name="s_RGYB" />
 		<widget name="config" position="70,170" size="820,120" font="Regular;30" scrollbarMode="showOnDemand" itemHeight="37" />
 		<eLabel position="70,192" size="780,118" backgroundColor="#ff0000" />
 		<widget source="fname" render="Label" position="70,180" size="780,112" valign="center" halign="center" font="Regular;28" foregroundColor="white" zPosition="1" />
@@ -5919,7 +5917,7 @@
 
 	<screen name="E2m3u2b_Log" position="fill" title="IPTV Log" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="p800_Template" />
-		<panel name="nRGB" />
+		<panel name="s_RGYB" />
 		<widget name="list" position="60,180" size="1175,720" itemHeight="40" font="Regular;32" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
 

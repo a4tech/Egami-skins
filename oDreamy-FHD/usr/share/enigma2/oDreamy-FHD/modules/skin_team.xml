@@ -2287,7 +2287,7 @@
 		<panel name="p700_Template" />
 		<panel name="p700_Logo" />
 		<panel name="fakeExitNoButton" />
-		<widget name="menu" position="70,180" size="725,710" itemHeight="40" font="Regular;32" enableWrapAround="1" zPosition="2" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="menu" position="70,180" size="730,700" itemHeight="53" font="Regular;32" enableWrapAround="1" zPosition="2" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="860,645" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Eventview FHD -->
@@ -2897,11 +2897,10 @@
 	</screen>
 	<!-- Harddisk selection FHD -->
 	<screen name="HarddiskSelection" title="HardDisk Selection" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="hddlist" position="70,180" size="1160,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="2" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
+		<panel name="fakeExitNoButton" />
+		<widget name="hddlist" position="70,180" size="1160,720" font="Regular;32" valign="center" itemHeight="53" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="2" />
 	</screen>
 	<!-- Harddisk setup FHD -->
 	<screen name="HarddiskSetup" title="Harddisk Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -3812,7 +3811,6 @@
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbargh.png" position="1215,180" size="15,700" alphatest="blend" zPosition="2" />
 		<widget source="list" render="Listbox" position="70,180" size="1160,700" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"templates":
@@ -3838,7 +3836,7 @@
 	</screen>
 	<!-- Plugin Details FHD -->
 	<screen name="PluginDetails" flags="wfNoBorder" position="fill" backgroundColor="transparent" title="Plugin Details">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
@@ -4105,6 +4103,7 @@
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<widget name="footnote" position="70,180" size="820,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="70,180" size="820,760" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
 		<widget name="description" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
@@ -4274,13 +4273,14 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
-		<!--panel name="MI"/-->
+		<panel name="Ex" />
 		<panel name="p800_Ext_BiN" />
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 		<widget name="header" position="70,160" size="820,50" font="Regular;38" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
 		<eLabel position="70,210" size="820,1" backgroundColor="#202020" />
 		<widget name="config" position="70,220" size="1165,675" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
-		<widget name="footer" position="0,0" size="0,0" />
+		<widget name="footer" position="70,840" size="300,95" font="Regular;32" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 	</screen>
 	<!-- Scan setup FHD -->
 	<screen name="ScanSetup" title="Scan Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4288,6 +4288,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 		<widget name="header" position="70,180" size="0,0" font="Regular;38" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
@@ -4309,7 +4310,7 @@
 	</screen>
 	<!-- Service CableScanStatus -->
 	<screen name="CableScanStatus" title="Cable Scan" position="fill" flags="wfNoBorder">
-		<ePixmap position="fill" pixmap="oDreamy-FHD/box/wiz1.jpg" alphatest="blend" zPosition="-2" />
+		<ePixmap position="fill" pixmap="oDreamy-FHD/box/wiz1.jpg" alphatest="blend" zPosition="-15" />
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
@@ -4319,11 +4320,13 @@
 	</screen>
 	<!-- Service Scan FHD -->
 	<screen name="ServiceScan" title="Service scan" position="fill" flags="wfNoBorder">
-		<ePixmap position="fill" pixmap="oDreamy-FHD/box/wiz1.jpg" alphatest="blend" zPosition="-2" />
+		<ePixmap position="fill" pixmap="oDreamy-FHD/box/wiz1.jpg" alphatest="blend" zPosition="-15" />
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
+		<widget name="Title" position="150,30" size="1000,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 		<widget source="FrontendInfo" render="Pixmap" pixmap="oDreamy-FHD/icons/scan-s.png" position="70,170" size="120,120" zPosition="2" transparent="1" alphatest="blend">
 			<convert type="FrontendInfo">TYPE</convert>
@@ -4564,9 +4567,10 @@
 	</screen>
 	<!-- Parental Control FHD -->
 	<screen name="ParentalControlSetup" title="Parental control setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="config" position="70,180" size="1160,720" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 	</screen>
 	<!-- Parental Control Editor FHD -->
@@ -4835,13 +4839,13 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext" />
-		<panel name="Rc_templates" />
+		<panel name="Ex" />
+		<panel name="Rc_templates_2" />
 		<!-- Code -->
 		<ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/boot.png" alphatest="blend" />
 		<widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
-		<widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
+		<widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="list" render="Listbox" position="70,500" size="820,320" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
@@ -4854,11 +4858,6 @@
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,oDreamy-FHD/skin_default/rcold.png" alphatest="blend" zPosition="2" />
-		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
 	</screen>
 	<!-- Tutorial Wizard FHD -->
 	<screen name="TutorialWizard" title="Tutorial Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
