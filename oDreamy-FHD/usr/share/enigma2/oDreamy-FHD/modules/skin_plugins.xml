@@ -1328,7 +1328,6 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/cron.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** IMDB ********** P017 -->
 	<!--  IMBB FHD -->
 	<screen name="IMDB" position="fill" title="Internet Movie Database Details Plugin" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -1342,8 +1341,7 @@
 		<widget name="poster" position="920,170" size="320,450" alphatest="on" zPosition="2" />
 		<widget name="statusbar" position="200,170" size="660,520" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel position="70,390" size="820,1" backgroundColor="#404040" zPosition="2" />
-		<widget name="menu" position="70,400" size="840,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" enableWrapAround="1"
-			foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="menu" position="70,400" size="840,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="castlabel" position="70,410" size="840,510" font="Regular;30" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="2" />
 		<widget name="extralabel" position="70,410" size="840,510" font="Regular;30" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="2" />
 		<!-- Voting -->
@@ -1391,7 +1389,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="nRB" />
+		<panel name="s_RGYB" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/swapp.png" alphatest="blend" />
 		<widget name="list" position="70,180" size="840,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 	</screen>
@@ -1848,10 +1846,11 @@
 		<panel name="p800_Logo" />
 		<widget source="job_name" render="Label" position="70,170" size="820,90" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />
 		<eLabel	position="70,310" size="820,1" backgroundColor="#505050" />
-		<widget source="job_status" render="Label" position="70,330" size="820,40" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget source="job_status" render="Label" position="70,330" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget source="job_task" render="Label" position="70,380" size="820,40" font="Regular;30" backgroundColor="ltbluette" halign="center" />
 		<widget source="job_progress" render="Progress" position="70,380" size="820,40" borderWidth="1" foregroundColor="ltbluette" backgroundColor="header" />
-		<widget source="job_progress" render="Label" position="70,380" size="820,40" font="Regular;30" foregroundColor="white" backgroundColor="ltbluette" halign="center" transparent="1" zPosition="2" >
+		<widget source="job_progress" render="Label" position="70,380" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="ltbluette" valign="center" halign="center" transparent="1" zPosition="2" >
 			<convert type="ProgressToText" />
 		</widget>
 		<widget name="config" position="70,440" size="820,50" font="Regular;30" itemHeight="40" backgroundColorSelected="bluette" transparent="1" />
@@ -1867,7 +1866,7 @@
 		<widget source="cancelable" render="FixedLabel" text="Cancel" position="120,960" size="210,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1" >
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="finished" render="FixedLabel" text="OK" position="120,960" size="210,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1">
+		<widget source="finished" render="FixedLabel" text="OK" position="120,963" size="210,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget source="backgroundable" render="FixedLabel" text="Continue in background" position="950,955" size="250,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1">
@@ -3984,7 +3983,7 @@
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 
-	<!-- **********  TempFan Control ********** 054 -->
+	<!--  TempFan Control -->
 	<screen name="TempFanControl" position="fill" title="Fan Control" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4066,9 +4065,9 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget render="Label" source="city" position="80,180" size="400,50" font="Regular;32" backgroundColor="header" foregroundColor="yellow" halign="left" zPosition="1" />
-		<widget render="Label" source="degreetype" position="480,180" size="400,40" font="Regular;32" backgroundColor="header" foregroundColor="yellow" halign="left" zPosition="2" />
-		<widget name="entrylist" position="70,240" size="820,450" itemHeight="50" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="3" />
+		<widget render="Label" source="city" position="80,180" size="400,50" font="Regular;36" backgroundColor="header" foregroundColor="yellow" halign="left" zPosition="1" />
+		<widget render="Label" source="degreetype" position="480,180" size="400,40" font="Regular;36" backgroundColor="header" foregroundColor="yellow" halign="left" zPosition="2" />
+		<widget name="entrylist" position="70,240" size="820,450" itemHeight="45" font="Regular;36" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="3" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend" />
 	</screen>
 
@@ -4611,20 +4610,19 @@
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 
-	<!-- ********** Sortable Menu FHD ********** P080 -->
+	<!-- Sortable Menu FHD -->
 	<screen name="SortableMenu" position="fill" title="Sortable Menu" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="fakeExit" />
-		<panel name="nRB" />
+		<panel name="s_RGYB" />
 		<panel name="M" />
 		<widget name="menu" position="70,180" size="820,720" font="Regular;30" itemHeight="40" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_log.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** Enigma2 LOG FHD ********** P081 -->
-	<!--  NFR E2 LOG -->
+	<!-- Enigma2 LOG FHD -->
 	<screen name="E2log" position="fill" title="E2log" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4641,7 +4639,7 @@
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 
-	<!-- ********** NFS Editor FHD ********** P082 -->
+	<!-- NFS Editor FHD -->
 	<screen name="NFS_Edit" position="fill" title="File-Explorer" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4652,7 +4650,7 @@
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_log.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** Install ZIPPED FHD ********** P083 -->
+	<!-- Install ZIPPED FHD -->
 	<screen name="InstallRar" position="fill" title="Select rar Files" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4672,24 +4670,19 @@
 		</widget>
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/utility.png" alphatest="blend" />
 	</screen>
-
 	<screen name="InstallTarGZ" position="fill" title="Select tar.gz , bh.tgz , nab.tgz Files" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="InstallRar" />
 	</screen>
-
 	<screen name="InstallIpk" position="fill" title="Select ipk Files" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="InstallRar" />
 	</screen>
-
 	<screen name="InstallZip" position="fill" title="Select zip Files" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="InstallRar" />
 	</screen>
-
 	<screen name="AdvInstallIpk" position="fill" title="Select ipk Files" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<panel name="InstallRar" />
 	</screen>
 
-	<!-- ********** SatLoader ********** P084 -->
 	<!--  SatLoader -->
 	<screen name="Satloader" position="fill" title="Satloader Plugin" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
@@ -4746,13 +4739,11 @@
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 	</screen>
 
-	<!-- ********** SatLoader FHD ********** P085 -->
 	<!--  PluginLoad Config -->
 	<screen name="PlugLoadConfig" position="center,center" size="600,150" title="PlugLoad" backgroundColor="header">
 		<widget name="text" position="10,10" size="580,120" font="Regular;30" valign="center" halign="center" transparent="1" zPosition="1" />
 	</screen>
 
-	<!-- ********** Install Manager FHD ********** P086 -->
 	<!-- Install Manager  Advanced Setup -->
 	<screen name="AdvancedSetup" position="fill" title="PKT Install Manager - Advanced Setup" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="p800_Template" />
@@ -4813,7 +4804,6 @@
 		<widget name="howto8" position="70,680" size="820,50" halign="center" font="Regular;26" backgroundColor="header" transparent="1" />
 	</screen>
 
-	<!-- ********** Auto Deep Standby FHD ********** P087 -->
 	<!-- Deep Standby -->
 	<screen name="DeepS" position="fill" title="Auto DeepStandby" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template" />
@@ -4826,7 +4816,6 @@
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** Dream Explorer II ********** P088 -->
 	<!-- DreamExplorer II -->
 	<screen name="DreamExplorerII" position="fill" title="Dream-Explorer" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template" />
@@ -4924,7 +4913,6 @@
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** DJCrash List Downloader FHD ********** P090 -->
 	<!-- Dj List Setup Panel -->
 	<screen name="ListManager" position="fill" title="PKT djcrash list downloader" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template" />
@@ -4950,7 +4938,7 @@
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 
-	<!-- ********** KeyMapper FHD ********** P091 -->
+	<!--  KeyMapper FHD -->
 	<screen name="KeyMapper" position="fill" title="KeyMapper 1.8" backgroundColor="#ff000000" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4960,7 +4948,7 @@
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** Shiffle Versenken FHD ********** P092 -->
+	<!-- Shiffle Versenken FHD  -->
 	<screen name="Schiffe" position="center,center" size="1200,500" title="Schiffe versenken " >
 		<widget source="Canvas" render="Canvas" position="20,20" size="885,367" />
 		<widget name="message" position="20,420" size="1180,50" valign="center" halign="center" foregroundColor="#20808080" backgroundColor="header" transparent="1" font="Regular;40" />
@@ -4984,10 +4972,10 @@
 	</screen>
 
 	<screen name="ClearMemAutoScreen" position="25,105" zPosition="10" size="500,30" title="ClearMem Status" backgroundColor="#31000000">
-	<widget name="message_label" font="Regular;30" position="0,0" zPosition="2" valign="center" halign="center" size="498,30" backgroundColor="#31000000" transparent="1" />
+		<widget name="message_label" font="Regular;30" position="0,0" zPosition="2" valign="center" halign="center" size="498,30" backgroundColor="#31000000" transparent="1" />
 	</screen>
 
-	<!-- ********** MSN Weather FHD ********** P093 -->
+	<!-- MSN Weather FHD -->
 	<screen name="MSNWeatherPlugin" position="0,0" size="1920,1080" title="MSN Weather" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="fakeExit" />
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/msn/meteo.jpg" zPosition="-1" />
@@ -4995,7 +4983,6 @@
 		<widget render="Label" source="observationpoint" position="0,970" size="1920,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
 		<widget render="Label" source="observationtime" position="0,1010" size="1920,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
 		<ePixmap position="60,30" size="194,75" pixmap="oDreamy-FHD/msn/msnlogo.png" alphatest="blend" zPosition="1" />
-		<!-- Current -->
 		<widget source="session.MSNWeather" render="MSNWeatherPixmap" position="50,140" size="256,256" zPosition="1" transparent="1" alphatest="blend">
 			<convert type="MSNWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
 		</widget>
@@ -5020,25 +5007,31 @@
 			<convert type="MSNWeather">weathericon,day2,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
 		</widget>
 		<widget render="Label" source="weekday2" position="1280,200" size="250,80" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget render="Label" source="weekday2_temp" position="1500,200" size="350,120" font="Regular;32" halign="right" foregroundColor="#ffff00" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget render="Label" source="weekday2_temp" position="1500,200" size="350,120" font="Regular;32" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Day 3 /-->
 		<widget render="MSNWeatherPixmap" source="session.MSNWeather" position="1100,330" size="140,140" alphatest="blend" transparent="1" zPosition="1" >
 			<convert type="MSNWeather">weathericon,day3,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
 		</widget>
 		<widget render="Label" source="weekday3" position="1280,350" size="250,80" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget render="Label" source="weekday3_temp" position="1500,350" size="350,120" font="Regular;32" halign="right" foregroundColor="#ffff00" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget render="Label" source="weekday3_temp" position="1500,350" size="350,120" font="Regular;32" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Day 4 /-->
 		<widget render="MSNWeatherPixmap" source="session.MSNWeather" position="1100,480" size="140,140" alphatest="blend" transparent="1" zPosition="1" >
 			<convert type="MSNWeather">weathericon,day4,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
 		</widget>
 		<widget render="Label" source="weekday4" position="1280,500" size="250,80" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget render="Label" source="weekday4_temp" position="1500,500" size="350,120" font="Regular;32" halign="right" foregroundColor="#ffff00" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget render="Label" source="weekday4_temp" position="1500,500" size="350,120" font="Regular;32" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Day 5 /-->
 		<widget render="MSNWeatherPixmap" source="session.MSNWeather" position="1100,630" size="140,140" alphatest="blend" transparent="1" zPosition="1" >
 			<convert type="MSNWeather">weathericon,day5,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
 		</widget>
 		<widget render="Label" source="weekday5" position="1280,650" size="250,80" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget render="Label" source="weekday5_temp" position="1500,650" size="350,120" font="Regular;32" halign="right" foregroundColor="#ffff00" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="currenticon" position="1280,650" size="0,0" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="weekday1_icon" position="1280,650" size="0,0" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="weekday2_icon" position="1280,650" size="0,0" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="weekday3_icon" position="1280,650" size="0,0" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="weekday4_icon" position="1280,650" size="0,0" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="weekday5_icon" position="1280,650" size="0,0" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Logo /-->
 		<widget render="Label" source="statustext" position="70,550" size="0,0" font="Regular;30" transparent="1" zPosition="1" />
 		<ePixmap position="1450,35" pixmap="oDreamy-FHD/icons/team_logo.png" size="750,80" alphatest="blend" zPosition="1" />
@@ -5046,7 +5039,6 @@
 		<eLabel text="Settings" position="1710,1010" size="200,40" font="Regular;28" foregroundColor="yellow" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 
-	<!-- ********** Internet Radio Screen FHD ********** P094 -->
 	<!-- ALL Internet Radio Screen -->
 	<screen name="InternetRadioScreen" position="fill" title="Internet Radio" backgroundColor="transpBlack" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -5059,7 +5051,8 @@
 		<widget name="station" position="1270,45" size="590,80" font="Regular;30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" />
 		<ePixmap position="1500,150" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" />
 		<widget name="title" position="1290,280" size="550,120" font="Regular;32" transparent="1" backgroundColor="header" foregroundColor="ltbluette" halign="center" zPosition="1" />
-		<eLabel position="1260,380" size="610,10" backgroundColor="#FF000000" zPosition="1" /> <eLabel position="1260,390" size="610,120" backgroundColor="header" />
+		<eLabel position="1260,380" size="610,10" backgroundColor="#FF000000" zPosition="1" />
+		<eLabel position="1260,390" size="610,120" backgroundColor="header" />
 		<eLabel text="INTERNET RADIO EGAMI" position="1260,390" size="610,110" font="Regular;50" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="bluette" zPosition="1" />
 		<widget name="statustext" position="1260,390" size="610,110" font="Regular;28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="ltbluette" zPosition="2" />
 		<widget name="console" position="1260,390" size="610,110" font="Regular;28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="#808080" zPosition="2" />
@@ -5082,7 +5075,6 @@
 		<panel name="p800_Ext_BiN" />
 		<panel name="p800_Date" />
 		<panel name="M" />
-				<!-- List Channel -->
 		<widget name="station" position="1260,570" size="610,120" font="Regular;30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" />
 		<ePixmap position="1450,145" size="240,240" pixmap="oDreamy-FHD/menu/ico_egamiradio.png" alphatest="blend" />
 		<widget name="title" position="1260,705" size="610,220" font="Regular;32" transparent="1" backgroundColor="header" foregroundColor="ltbluette" halign="center" zPosition="1" />
