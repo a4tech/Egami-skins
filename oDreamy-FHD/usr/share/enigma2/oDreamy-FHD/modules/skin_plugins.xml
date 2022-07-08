@@ -3227,8 +3227,9 @@
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
-		<widget name="config" position="70,180" size="1160,720" font="Regular;30" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="config" position="70,180" size="1160,720" font="Regular;30" itemHeight="40" enableWrapAround="1" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="help" render="Label" position="1275,570" size="600,200" font="Regular;28" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 	</screen>
 
