@@ -620,10 +620,10 @@
 	</screen>
 	<!-- AutoTimer Import FHD -->
 	<screen name="AutoTimerImporter" title="Import AutoTimer" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="list" position="70,180" size="1160,720" font="Regular;32" itemHeight="45" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
+		<widget name="list" position="70,180" size="840,720" font="Regular;32" itemHeight="45" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend" />
 	</screen>
 	<!-- AutoTimer Setting FHD -->
