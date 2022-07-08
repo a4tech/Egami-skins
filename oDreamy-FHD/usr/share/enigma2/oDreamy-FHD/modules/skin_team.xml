@@ -4119,13 +4119,13 @@
 	</screen>
 	<!-- Ipkg installer FHD -->
 	<screen name="IpkgInstaller" title="IPKG Installer" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="sRGB" />
+		<panel name="s_RGYB" />
 		<eLabel text="Install extensions" position="70,180" size="820,50" font="Regular;40" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="list" position="70,280" size="820,450" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" zPosition="3" transparent="1" />
-		<widget source="introduction" render="Label" position="50,870" size="820,40" font="Regular;30" halign="center" foregroundColor="backpurple" backgroundColor="header" zPosition="1" transparent="1" />
+		<widget name="list" position="70,280" size="820,450" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" zPosition="3" transparent="1" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget source="introduction" render="Label" position="50,870" size="820,40" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
 	</screen>
 	<!-- Ipkg installer Software Update FHD -->
