@@ -148,7 +148,7 @@
 			<convert type="EGVpn">vpn</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="1789,125" size="56,23" alphatest="blend" zPosition="1" transparent="1">
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="1789,125" size="56,23" alphatest="blend" zPosition="5" transparent="1">
 			<convert type="ServiceInfo">IsStream</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>

@@ -1,7 +1,7 @@
 <skin>
 	<!-- iptv  -->
 	<screen name="iptv_png">
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="990,135" size="56,23" alphatest="blend" zPosition="1" transparent="1">
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="990,135" size="56,23" alphatest="blend" zPosition="5" transparent="1">
 			<convert type="ServiceInfo">IsStream</convert>
 			<convert type="ConditionalShowHide">
 			</convert>
@@ -41,13 +41,13 @@
 		<widget alphatest="blend" render="MSNWeatherPixmap" position="20,20" size="150,113" source="session.MSNWeather" transparent="1" zPosition="1">
 			<convert type="MSNWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
 		</widget>
-		<widget noWrap="1" backgroundColor="background" font="Regular; 30" render="Label" position="180,20" size="450,39" source="session.MSNWeather" zPosition="1" halign="left" transparent="1" foregroundColor="white">
+		<widget noWrap="1" backgroundColor="background" font="Regular;30" render="Label" position="180,20" size="450,39" source="session.MSNWeather" zPosition="1" halign="left" transparent="1" foregroundColor="white">
 			<convert type="MSNWeather">temperature_text,current</convert>
 		</widget>
-		<widget noWrap="1" backgroundColor="background" font="Regular; 48" render="Label" position="180,55" size="150,68" source="session.MSNWeather" transparent="1" zPosition="1" halign="left" foregroundColor="white" text="45 `C" valign="top">
+		<widget noWrap="1" backgroundColor="background" font="Regular;48" render="Label" position="180,55" size="150,68" source="session.MSNWeather" transparent="1" zPosition="1" halign="left" foregroundColor="white" text="45 `C" valign="top">
 			<convert type="MSNWeather">temperature_current</convert>
 		</widget>
-		<widget noWrap="1" backgroundColor="background" font="Regular; 30" render="Label" foregroundColor="ltbluette" position="180,110" size="449,62" source="session.MSNWeather" zPosition="1" halign="left" transparent="1">
+		<widget noWrap="1" backgroundColor="background" font="Regular;30" render="Label" foregroundColor="ltbluette" position="180,110" size="449,62" source="session.MSNWeather" zPosition="5" halign="left" transparent="1">
 			<convert type="MSNWeather">city</convert>
 		</widget>
 	</screen>
@@ -71,7 +71,7 @@
 	<!-- FPS9 -->
 	<screen name="fps9">
 		<ePixmap pixmap="oDreamy-FHD/icons/stream-box-blue.png" position="760,1042" size="90,36" alphatest="blend" zPosition="2" />
-		<widget source="session.CurrentService" render="Label" position="740,1043" size="130,30" backgroundColor="header" transparent="1" zPosition="15" font="Regular; 22" halign="center" valign="center" noWrap="1">
+		<widget source="session.CurrentService" render="Label" position="740,1043" size="130,30" backgroundColor="header" transparent="1" zPosition="15" font="Regular;22" halign="center" valign="center" noWrap="1">
 			<convert type="EGBaseInfo">Fps</convert>
 		</widget>
 	</screen>
@@ -286,8 +286,8 @@
 		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1"
 			foregroundColor="grey" foregroundColorSelected="white" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" >
 			<convert type="TemplatedMultiContent">
-				 {"template": [ MultiContentEntryText(pos = (105, 11), size = (680, 68), flags = RT_HALIGN_LEFT, text = 0),
-				 MultiContentEntryPixmapAlphaBlend(pos = (25, 5), size = (56, 56), png = 1),],
+				 {"template": [ MultiContentEntryText(pos=(105,11), size=(680,68), flags=RT_HALIGN_LEFT, text=0),
+				 MultiContentEntryPixmapAlphaBlend(pos=(25,5), size=(56,56), png=1),],
 				 "fonts": [gFont("Regular", 35)],
 				 "itemHeight": 60
 				 }
