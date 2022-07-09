@@ -687,7 +687,8 @@
 	</screen>
 
 	<screen name="fakeExitNoButton">
-		<eLabel text="EXIT" position="100,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<ePixmap position="80,986" pixmap="oDreamy-FHD/buttons/fake_Exit.png" size="35,30" alphatest="blend" zPosition="2" />
+		<eLabel text="EXIT" position="140,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 
 	<screen name="fakeExit">
