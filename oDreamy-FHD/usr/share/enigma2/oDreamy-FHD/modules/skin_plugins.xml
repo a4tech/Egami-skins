@@ -263,6 +263,7 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
 			<convert type="EGLayoutInfo">MemTotal</convert>
@@ -284,10 +285,10 @@
 		<widget source="session.CurrentService" render="Label" position="1335,910" size="500,26" halign="left" valign="center" font="Regular;20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
 			<convert type="EGLayoutInfo">Flesh</convert>
 		</widget>
-		<widget name="HintText" render="Label" position="70,165" size="0,0" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
+		<widget name="HintText" position="70,165" size="0,0" font="Regular;42" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<ePixmap position="1405,180" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
-		<widget name="AboutScrollLabel" position="70,180" size="1165,718" itemHeight="39" font="Regular;32" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<widget name="AboutScrollLabel" position="70,180" size="1165,718" font="Regular;32" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 	<!-- Info Information FHD -->
 	<screen name="Information" title="Information" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -806,7 +807,6 @@
 		<panel name="s_RGYB" />
 		<ePixmap position="1320,180" size="15,360" pixmap="box/maxbar.png" zPosition="4" alphatest="blend" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!-- Picture Player Show FHD -->
 	<screen name="picshow" title="PicturePlayer Show" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -822,7 +822,6 @@
 		<eLabel position="1260,588" size="610,70" backgroundColor="trbluette" zPosition="1" />
 		<eLabel position="1260,660" size="610,280" backgroundColor="header" zPosition="1" />
 		<widget name="thn" position="1260,660" size="610,280" alphatest="on" zPosition="2" />
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!-- Picture Player Exif FHD -->
 	<screen name="Pic_Exif" title="PictirePlayer Exif" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -841,7 +840,6 @@
 				}
 			</convert>
 		</widget>
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!-- Picture Player Full FHD -->
 	<screen name="Pic_Full_View" title="PictirePlayer FullView" position="fill" flags="wfNoBorder">
@@ -2313,7 +2311,6 @@
 		<panel name="s_RGYB" />
 		<widget name="balken" position="70,600" size="820,40" font="Regular;30" foregroundColor="#FFD700" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="pic_red" pixmap="oDreamy-FHD/skin_default/buttons/button_red.png" position="10,10" size="0,0" backgroundColor="#FF000000" alphatest="blend" />
 		<widget name="pic_green" pixmap="oDreamy-FHD/skin_default/buttons/button_green.png" position="155,10" size="0,0" backgroundColor="#FF000000" alphatest="blend" />
 		<widget name="pic_yellow" pixmap="oDreamy-FHD/skin_default/buttons/button_yellow.png" position="300,10" size="0,0" backgroundColor="#FF000000" alphatest="blend" />
@@ -2329,7 +2326,6 @@
 		<ePixmap position="1500,156" size="120,160" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="balken" position="1260,350" zPosition="1" size="610,200" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="pic_red" pixmap="oDreamy-FHD/skin_default/buttons/button_red.png" position="10,10" size="0,0" backgroundColor="#000000" alphatest="blend" />
 		<widget name="pic_green" pixmap="oDreamy-FHD/skin_default/buttons/button_green.png" position="155,10" size="0,0" backgroundColor="#000000" alphatest="blend" />
 		<widget name="pic_yellow" pixmap="oDreamy-FHD/skin_default/buttons/button_yellow.png" position="300,10" size="0,0" backgroundColor="#000000" alphatest="blend" />
@@ -2360,7 +2356,6 @@
 		<eLabel position="1260,30" size="610,96" backgroundColor="#201b3c85" zPosition="-2" />
 		<eLabel position="1262,32" size="606,92" backgroundColor="#20000000" zPosition="-2" />
 		<eLabel position="1260,140" size="610,455" backgroundColor="#10000000" zPosition="-2" />
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="1500,156" size="120,180" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />
 		<widget name="button_ok" position="1280,350" size="60,30" pixmap="oDreamy-FHD/buttons/key_ok.png" alphatest="blend" zPosition="1" />
 		<widget name="key_ok" position="1360,350" size="300,40" font="Regular;28" foregroundColor="ltbluette" backgroundColor="header" transparent="1" noWrap="1" zPosition="1" />
@@ -3967,7 +3962,6 @@
 		<widget name="kRed" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="kGreen" position="400,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 
 	<!-- **********  Job Manager ********** P053 -->
@@ -4473,16 +4467,6 @@
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<widget name="detailtext" position="70,180" size="820,800" zPosition="10" font="Regular;30" transparent="1" halign="left" />
-		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
-	</screen>
-
-	<!-- ********** Scan IPV6 ********** P068 -->
-	<screen name="ScanIP" position="fill" title="Network" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<widget name="config" position="70,180" size="820,800" zPosition="3" backgroundColor="header" foregroundColor="white" scrollbarMode="showOnDemand" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
 	</screen>
 

@@ -510,8 +510,8 @@
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<ePixmap pixmap="oDreamy-FHD/menu/script.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<widget name="list" position="70,180" size="840,720" font="Regular;28" itemHeight="50" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
-		<widget name="statuslab" position="1240,480" size="600,200" font="Regular;33" halign="center" scrollbarMode="showOnDemand" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="list" position="70,180" size="840,720" font="Regular;32" itemHeight="50" valign="center" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="lab1" position="1240,480" size="0,0" font="Regular;33" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 	</screen>
 	<!--  EGAMI Mount Manager FHD -->
 	<screen name="EGDeviceManager" position="fill" title="EGAMI Devices Panel" backgroundColor="transparent" flags="wfNoBorder" >
@@ -537,11 +537,11 @@
 	</screen>
 	<!--  EGAMI EGS NetBrowser FHD -->
 	<screen name="EGNetBrowser" position="fill" title="Select Network Interface" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget source="list" render="Listbox" position="70,180" size="820,630" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1">
+		<widget source="list" render="Listbox" position="70,180" size="820,630" font="Regular;32" valign="center" backgroundColorSelected="bluette" itemHeight="45" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="StringList" />
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/net.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -618,7 +618,7 @@
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="status" position="70,180" size="820,40" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel position="70,240" size="820,1" backgroundColor="#10303030" zPosition="2" />
-		<widget name="remove" position="70,270" size="820,720" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="remove" position="70,270" size="820,720" font="Regular;30" backgroundColorSelected="bluette" valign="center" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/utility.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  EGAMI Manual Addons Install FHD -->
@@ -1245,15 +1245,11 @@
 	</screen>
 	<!-- EGAMI EGAMISwap -->
 	<screen name="EGAMISwap" position="fill" title="EGAMI Swap" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="label1" position="70,180" size="820,40" zPosition="1" halign="center" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-		<widget name="label2" position="70,240" size="820,40" zPosition="1" halign="center" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" />
-		<widget name="label3" position="70,300" size="820,40" zPosition="1" halign="center" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
-		<widget name="lab1" position="70,180" size="820,450" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" />
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
+		<widget name="lab1" position="70,180" size="820,450" font="Regular;30" foregroundColor="yellow" backgroundColor="header" />
 	</screen>
 	<!-- EGAMI EGAMI_UsbFormat -->
 	<screen name="EGAMI_UsbFormat" position="fill" title="EGAMI Usb Format" backgroundColor="transparent" flags="wfNoBorder" >
@@ -1275,7 +1271,6 @@
 		<eLabel position="1260,600" size="610,70" backgroundColor="trbluette" zPosition="1" />
 		<eLabel position="1260,680" size="610,267" backgroundColor="#20000000" zPosition="1" />
 		<widget name="Preview" position="1370,705" size="390,220" alphatest="on" zPosition="10" />
-		<ePixmap pixmap="oDreamy-FHD/menu/drlogo.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  EGAMI Plugin List -->
 	<screen name="ChannelListUpdateMenu" position="fill" title="" backgroundColor="transparent" flags="wfNoBorder" >
@@ -2190,11 +2185,11 @@
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
-		<widget name="config" position="70,180" size="1165,720" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="1" />
+		<widget name="config" position="70,180" size="1165,720" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="5" />
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="description" position="1260,560" size="600,420" font="Regular;30" halign="center" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="footnote" position="1260,1840" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1390,970" zPosition="1" size="80,35" transparent="1" alphatest="blend">
+		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1380,1005" zPosition="1" size="80,35" transparent="1" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -2372,7 +2367,7 @@
 		<panel name="fakeExitNoButton" />
 		<widget name="windowtitle" position="87,54" foregroundColor="ltbluette" size="0,0" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<widget source="windowtitle" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
-		<widget name="list" position="70,180" size="1160,705" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="2" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="list" position="70,180" size="1160,705" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" zPosition="5" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<widget name="text" position="70,700" size="800,300" halign="left" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 	<!-- Timer Edit List FHD -->
@@ -3108,20 +3103,19 @@
 	</screen>
 	<!-- Network Browser FHD -->
 	<screen name="NetworkBrowser" title="Network Neighbourhood" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbargh.png" position="900,180" size="10,720" zPosition="2" alphatest="blend" />
-		<widget source="list" render="Listbox" position="70,180" size="820,720" backgroundColor="header" transparent="1" zPosition="1">
+		<widget source="list" render="Listbox" position="70,180" size="820,720" backgroundColorSelected="bluette" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
-					MultiContentEntryPixmapAlphaTest(pos = (0,0),size = (48,48),png = 1),# index 1 is the expandable/expanded/verticalline icon
-					MultiContentEntryText(pos = (55,2),size = (760,28),font=2,flags = RT_HALIGN_LEFT,text = 2),# index 2 is the Hostname
-					MultiContentEntryText(pos = (160,2),size = (660,28),font=0,flags = RT_HALIGN_LEFT,text = 3),# index 3 is the sharename
-					MultiContentEntryText(pos = (160,32),size = (660,28),font=1,flags = RT_HALIGN_LEFT,text = 4),# index 4 is the sharedescription
-					MultiContentEntryPixmapAlphaTest(pos = (55,0),size = (48,48),png = 5),# index 5 is the nfs/cifs icon
-					MultiContentEntryPixmapAlphaTest(pos = (100,0),size = (48,48),png = 6),# index 6 is the isMounted icon
+					MultiContentEntryPixmapAlphaTest(pos=(0,0), size=(48,48), png=1),# index 1 is the expandable/expanded/verticalline icon
+					MultiContentEntryText(pos=(55,2), size=(760,28), font=2, flags = RT_HALIGN_LEFT,text = 2),# index 2 is the Hostname
+					MultiContentEntryText(pos=(160,2), size=(660,28), font=0, flags = RT_HALIGN_LEFT,text = 3),# index 3 is the sharename
+					MultiContentEntryText(pos=(160,32), size=(660,28), font=1, flags = RT_HALIGN_LEFT,text = 4),# index 4 is the sharedescription
+					MultiContentEntryPixmapAlphaTest(pos=(55,0), size=(48,48), png=5),# index 5 is the nfs/cifs icon
+					MultiContentEntryPixmapAlphaTest(pos=(100,0), size=(48,48), png=6),# index 6 is the isMounted icon
 					],
 					"fonts": [gFont("Regular",26),gFont("Regular",20),gFont("Regular",30)],
 					"itemHeight": 60
@@ -3133,11 +3127,12 @@
 	</screen>
 	<!-- Scan IP FHD -->
 	<screen name="ScanIP" title="Scan IP" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="3" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" valign="center" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="3" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
 	<!-- WirelessLan Scan FHD -->
@@ -3164,10 +3159,10 @@
 	</screen>
 	<!-- Mount Manager FHD -->
 	<screen name="AutoMountManager" title="MountManager" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget source="config" render="Listbox" position="70,180" size="1160,700" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
+		<widget source="config" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (60,1),size = (1080,40),font=0,color=0x73c6ff,flags = RT_HALIGN_LEFT,text = 0),# index 2 is the Menu Titel
@@ -3574,6 +3569,7 @@
 		<panel name="p900_Template" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<widget name="text" position="70,170" size="1780,760" font="Regular;32" halign="left" backgroundColor="header" transparent="1" noWrap="1" zPosition="5" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 	</screen>
 	<!-- Info Devices FHD -->
@@ -3620,8 +3616,8 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="infolist" position="70,180" font="Regular;28" size="1140,640" itemHeight="45" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
-		<widget source="session.CurrentService" render="Label" position="70,850" size="685,30" font="Regular;24" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
+		<widget name="infolist" position="70,180" font="Regular;28" scrollbarMode="showOnDemand" zPosition="5" size="1140,680" valign="center" itemHeight="45" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget source="session.CurrentService" render="Label" position="70,870" size="1120,30" font="Regular;28" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ServiceInfo">HasHBBTV</convert>
 		</widget>
 	</screen>
