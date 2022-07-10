@@ -684,6 +684,7 @@
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
 		<panel name="I" />
+		<widget name="status" position="300,100" size="0,0" font="Regular;30" halign="center" valign="center" transparent="1" />
 		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
 		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
