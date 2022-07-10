@@ -2187,7 +2187,7 @@
 		<panel name="Ex" />
 		<widget name="config" position="70,180" size="1165,720" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="5" />
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
-		<widget name="description" position="1260,560" size="600,420" font="Regular;30" halign="center" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="description" position="1290,560" size="550,420" font="Regular;30" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="footnote" position="1260,1840" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1380,1005" zPosition="1" size="80,35" transparent="1" alphatest="blend">
 			<convert type="ConditionalShowHide" />
@@ -4284,19 +4284,17 @@
 		<panel name="Ex" />
 		<panel name="p800_Ext_BiN" />
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
-		<widget name="header" position="70,160" size="820,50" font="Regular;38" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel position="70,210" size="820,1" backgroundColor="#202020" />
+		<widget name="header" position="70,160" size="820,50" font="Regular;38" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="70,220" size="1165,675" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<widget name="footer" position="70,840" size="300,95" font="Regular;32" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 	</screen>
 	<!-- Scan setup FHD -->
 	<screen name="ScanSetup" title="Scan Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<panel name="Ex" />
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 		<widget name="header" position="70,180" size="0,0" font="Regular;38" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
@@ -4309,12 +4307,12 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
+		<panel name="fakeExit" />
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 		<widget name="config" position="70,180" size="820,630" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<widget name="introduction" position="0,0" size="0,0" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<eLabel text="OK Start Scan" position="70,840" size="300,95" font="Regular;32" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel text="Exit" position="120,955" size="210,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 	<!-- Service CableScanStatus -->
 	<screen name="CableScanStatus" title="Cable Scan" position="fill" flags="wfNoBorder">
@@ -4355,8 +4353,8 @@
 		<widget name="transponder" position="220,230" size="600,80" valign="center" zPosition="2" font="Regular;34" backgroundColor="header" transparent="1" />
 		<widget name="pass" position="70,320" size="750,50" valign="center" font="Regular;32" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<widget name="scan_state" position="70,370" size="750,90" valign="center" zPosition="2" font="Regular;34" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="scan_progress" position="70,460" size="820,25" borderWidth="2" borderColor="#cccccc" foregroundColor="bluette" />
-		<widget name="servicelist" position="70,530" size="820,370" selection="1" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
+		<widget name="scan_progress" position="70,460" size="820,35" borderWidth="2" borderColor="#cccccc" foregroundColor="ltbluette" />
+		<widget name="servicelist" position="70,530" size="820,365" selection="1" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="1" />
 	</screen>
 	<!-- Satfinder FHD -->
 	<screen name="Satfinder" title="Satfinder" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -4365,6 +4363,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="header" position="1280,45" size="640,60" font="Regular;40" halign="center" noWrap="1" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
 		<ePixmap position="1450,100" size="300,200" pixmap="oDreamy-FHD/icons/satellite.png" alphatest="blend" />

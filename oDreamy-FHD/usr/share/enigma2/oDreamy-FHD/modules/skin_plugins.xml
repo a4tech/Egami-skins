@@ -2221,7 +2221,7 @@
 	<screen name="UserInterfacePositioner2" position="0,0" size="1920,1080" backgroundColor="header" flags="wfNoBorder" title="OSD Adjustment" >
 		<widget name="text" position="300,165" zPosition="1" size="1320,180" valign="center" font="Regular;33" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="config" position="225,375" zPosition="1" size="1470,315" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColorSelected="bluette" foregroundColorSelected="white" backgroundColor="header" foregroundColor="grey" transparent="1" />
-		<widget source="status" render="Label" position="300,713" zPosition="1" size="1320,120" font="Regular;30" halign="center" valign="center" foregroundColor="grey" backgroundColor="header" transparent="1" />
+		<widget source="status" render="Label" position="300,713" zPosition="1" size="1320,120" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel backgroundColor="red" position="0,0" size="1920,2" zPosition="0" />
 		<eLabel backgroundColor="red" position="0,1079" size="1920,2" zPosition="0" />
 		<eLabel backgroundColor="red" position="0,0" size="2,1080" zPosition="0" />
@@ -2239,12 +2239,12 @@
 		<eLabel backgroundColor="blue" position="113,113" size="2,855" zPosition="0" />
 		<eLabel backgroundColor="blue" position="1806,113" size="2,855" zPosition="0" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
-		<ePixmap pixmap="oDreamy-FHD/buttons/key_red.png" position="505,885" size="30,30" alphatest="blend" />
-		<ePixmap pixmap="oDreamy-FHD/buttons/key_green.png" position="779,885" size="30,30" alphatest="blend" />
-		<ePixmap pixmap="oDreamy-FHD/buttons/key_yellow.png" position="1054,885" size="30,30" alphatest="blend" />
-		<widget source="key_red" render="Label" position="552,875" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
-		<widget source="key_green" render="Label" position="827,875" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
-		<widget source="key_yellow" render="Label" position="1101,875" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
+		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="505,885" size="30,30" alphatest="blend" />
+		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="779,885" size="30,30" alphatest="blend" />
+		<ePixmap pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="1054,885" size="30,30" alphatest="blend" />
+		<widget source="key_red" render="Label" position="552,880" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
+		<widget source="key_green" render="Label" position="827,880" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
+		<widget source="key_yellow" render="Label" position="1101,880" size="255,45" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="grey" transparent="1" />
 	</screen>
 
 	<!-- Usb Format -->
