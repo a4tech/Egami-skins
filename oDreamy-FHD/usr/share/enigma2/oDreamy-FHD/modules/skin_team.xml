@@ -430,7 +430,7 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
 		<panel name="s_RG" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/egpanel.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget name="list" position="70,180" size="840,720" itemHeight="72" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
@@ -441,7 +441,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/camcenter.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
@@ -452,7 +452,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/camcenter.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
@@ -465,7 +465,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/download.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="status" position="70,180" size="820,60" font="Regular;35" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" />
 		<widget name="menu" position="70,270" size="840,630" font="Regular;30" itemHeight="70" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
@@ -486,7 +486,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/camcenter.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="status" position="70,180" size="820,60" font="Regular;35" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" />
 		<widget name="menu" position="70,270" size="840,630" font="Regular;30" itemHeight="70" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
@@ -519,7 +519,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/devices.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="lab1" position="70,180" size="820,60" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" >
@@ -615,7 +615,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="status" position="70,180" size="820,40" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel position="70,240" size="820,1" backgroundColor="#10303030" zPosition="2" />
 		<widget name="remove" position="70,270" size="820,720" font="Regular;30" backgroundColorSelected="bluette" valign="center" itemHeight="45" scrollbarMode="showOnDemand" transparent="1" />
@@ -627,7 +627,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="status" position="70,180" size="820,40" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel position="70,240" size="820,1" backgroundColor="#10303030" zPosition="2" />
 		<widget name="listaaddonow" position="70,270" size="820,720" font="Regular;30" itemHeight="45" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" transparent="1" />
@@ -638,7 +638,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -646,21 +646,21 @@
 	</screen>
 	<!--  EGAMI Kernel Info FHD -->
 	<screen name="EGKernelInfo" position="fill" title="EGAMI Kernel Informations" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
+		<panel name="fakeExitNoButton" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
-		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
+		<widget name="menu" position="70,180" size="840,720" font="Regular;32" itemHeight="45" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!--  EGAMI Process Info FHD -->
 	<screen name="EGProcessInfo" position="fill" title="EGAMI Process Informations" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -671,7 +671,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -978,7 +978,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget source="list" render="Listbox" position="70,180" size="840,720" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -1135,7 +1135,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_Ext" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="70,150" zPosition="3" size="120,157" pixmap="oDreamy-FHD/icons/emupic.png" alphatest="blend" transparent="1" />
 		<widget name="choose_cam" position="180,180" size="710,40" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="180,250" size="710,40" font="Regular;30" itemHeight="40" transparent="1" backgroundColorSelected="bluette" zPosition="2" />
@@ -1251,7 +1251,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="lab1" position="70,180" font="Regular;28" foregroundColor="white" backgroundColor="header" size="820,840" zPosition="1" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/deviceusb.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
@@ -1313,7 +1313,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="config" font="Regular;28" itemHeight="44" position="70,180" scrollbarMode="showOnDemand" size="810,160" />
 		<widget name="Preview" position="60,395" size="840,472" zPosition="1" />
@@ -1389,7 +1389,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="list" position="70,210" size="820,720" font="Regular;30" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="sub_title" position="70,160" size="1160,30" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" halign="left" valign="center" transparent="1" zPosition="1" />
@@ -1403,7 +1403,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<widget source="title" render="Label" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="list" position="70,180" size="820,720" font="Regular;30" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -1415,7 +1415,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;28" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
@@ -1425,7 +1425,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget source="config" render="Label" position="70,180" size="830,50" halign="left" transparent="1" font="Regular;34" backgroundColor="#00000000" foregroundColor="blue" />
 		<widget source="options" render="Label" position="70,240" size="830,35" halign="left" transparent="1" font="Regular;28" backgroundColor="#00000000" foregroundColor="grey" />
@@ -1441,7 +1441,7 @@
 		<widget name="windowtitle" position="87,54" foregroundColor="ltbluette" size="0,0" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<widget source="windowtitle" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<widget name="text" position="70,700" size="0,0" halign="left" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="list" position="70,180" size="840,720" font="Regular;30" transparent="1" zPosition="3" scrollbarMode="showAlways" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="1275,175" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,190" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
@@ -2406,7 +2406,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="loglist" position="70,180" size="820,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<widget name="logentry" position="70,560" size="850,0" font="Regular;20" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend" />
@@ -2909,7 +2909,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="model" position="70,180" size="820,40" font="Regular;32" backgroundColor="header" foregroundColor="backpurple" transparent="1" zPosition="1" />
 		<widget name="capacity" position="70,240" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="bus" position="70,290" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" zPosition="1" />
@@ -3447,7 +3447,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
 		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
 		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
@@ -3461,7 +3461,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
 		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
 		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
@@ -3476,7 +3476,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
 		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
 		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
@@ -4514,7 +4514,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<widget name="text" position="70,180" size="820,50" font="Regular;42" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
 		<eLabel position="70,230" size="820,1" backgroundColor="#404040" />
 		<widget name="entries" position="70,250" size="820,665" itemHeight="35" font="Regular;30" backgroundColor="header" transparent="1" />
@@ -4771,7 +4771,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="Ex" />
 		<!-- Code -->
 		<ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />

@@ -913,19 +913,16 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
-		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_red" render="Label" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_green" render="Label" position="400,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<panel name="s_RGYB" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/web_browser.png" alphatest="blend" />
-		<widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
+		<widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" />
 	</screen>
 	<!-- Picture Micon Firmware FileBrowser FHD -->
 	<screen name="Filebrowser" position="fill" title="File Browser" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
-		<panel name="sYB" />
+		<panel name="s_RGYB" />
 		<widget name="file_list" position="70,180" size="820,450" font="Regular;30" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<widget source="status" render="Label" position="70,640" zPosition="5" size="820,120" font="Regular;30" halign="left" valign="center" backgroundColor="header" transparent="1" />
 		<ePixmap position="780,440" size="300,300" pixmap="oDreamy-FHD/menu/ico_italy.png" alphatest="blend" />
@@ -947,7 +944,7 @@
 	<screen name="FilebrowserScreen" position="fill" title="File Browser" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
-		<panel name="nkRGYB" />
+		<panel name="s_RGYB" />
 		<panel name="M" />
 		<ePixmap position="630,180" size="10,720" pixmap="box/maxbar.png" zPosition="4" alphatest="blend" />
 		<widget name="list_left" position="70,180" size="570,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
@@ -959,7 +956,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
-		<panel name="nkRG" />
+		<panel name="s_RGYB" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_folder.png" alphatest="blend" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
@@ -1054,7 +1051,7 @@
 		<panel name="p800_Ext" />
 		<panel name="s_RGYB" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<widget name="config" position="70,180" size="1160,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
+		<widget name="config" position="70,180" size="1160,720" font="Regular;30" itemHeight="40" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
 		<widget name="help" position="1280,480" size="600,440" font="Regular;26" halign="center" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 	<!--  File Comander FileSelect FHD -->
@@ -1201,7 +1198,7 @@
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget source="key_red" render="Label" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="300,300" zPosition="2" pixmap="oDreamy-FHD/icons/bluetooth.png" transparent="1" alphatest="blend" />
-		<widget name="config" position="70,180" size="820,400" font="Regular;32" itemHeight="45" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="config" position="70,180" size="820,400" font="Regular;32" backgroundColorSelected="bluette" itemHeight="45" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
 	<!--  BlueTooth Device Manager FHD -->
 	<screen name="BluetoothDevicesManager" position="fill" title="BlueTooth Devices" backgroundColor="transparent" flags="wfNoBorder" >
@@ -1225,10 +1222,6 @@
 		<widget source="list" render="Listbox" position="70,340" itemHeight="40" font="Regular;35" foregroundColorSelected="yellow" backgroundColorSelected="bluette" zPosition="3" size="810,560" scrollbarMode="showAlways" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
 			<convert type="StringList" />
 		</widget>
-		<widget name="key_blue" position="950,955" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="key_yellow" position="680,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="key_green" position="400,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="key_red" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!-- **** OMBManagerAbout ****-->
@@ -1245,7 +1238,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="config" position="70,180" size="820,400" font="Regular;32" itemHeight="45" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="config" position="70,180" size="820,400" font="Regular;32" itemHeight="45" backgroundColorSelected="bluette" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!-- **** OMBManagerInstall ****-->
@@ -1253,7 +1246,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<widget source="list" render="Listbox" position="70,340" itemHeight="40" font="Regular;35" foregroundColorSelected="yellow" zPosition="3" size="810,600" scrollbarMode="showOnDemand" transparent="1">
+		<widget source="list" render="Listbox" position="70,340" itemHeight="40" font="Regular;35" backgroundColorSelected="bluette" foregroundColorSelected="yellow" zPosition="3" size="810,600" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="StringList" />
 		 </widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -1911,7 +1904,7 @@
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<widget name="lab1" position="70,180" size="820,50" font="Regular;32" halign="left" valign="center" backgroundColor="trbluette" transparent="0" />
-		<widget name="list" position="70,230" size="820,600" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
+		<widget name="list" position="70,230" size="820,600" itemHeight="40" font="Regular;30" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_log.png" alphatest="blend" zPosition="2" />
 	</screen>
 
@@ -1924,9 +1917,7 @@
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="choosen" position="70,180" size="825,90" itemHeight="53" font="Regular;34" foregroundColor="yellow" halign="center" valign="center" scrollbarMode="showOnDemand" backgroundColor="header" transparent="0" />
 		<widget name="list" position="70,300" size="840,600" itemHeight="53" font="Regular;32" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
-		<eLabel position="1260,140" size="610,330" backgroundColor="#20000000" zPosition="2" />
 		<ePixmap position="1440,175" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="5" />
-		<eLabel position="1260,470" size="620,10" backgroundColor="#FF000000" zPosition="2" />
 		<widget name="description" position="1260,520" size="600,200" font="Regular;30" foregroundColor="white" halign="center" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
 	</screen>
@@ -1939,8 +1930,6 @@
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
-		<eLabel position="1260,140" size="610,502" backgroundColor="#20000000" zPosition="-1" />
-		<eLabel position="1260,640" size="610,10" backgroundColor="#FF000000" zPosition="-1" />
 		<widget name="list" position="70,180" size="840,700" itemHeight="50" font="Regular;32" scrollbarMode="showAlways" backgroundColor="header" enableWrapAround="1" transparent="1" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<widget name="choosen" position="1270,150" size="590,480" itemHeight="53" font="Regular;32" halign="center" foregroundColor="yellow" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="description" position="1260,680" size="600,200" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" transparent="1" />
