@@ -824,7 +824,7 @@
 		<panel name="s_RGYB" />
 		<widget name="icons" position="0,0" size="30,30" pixmaps="oDreamy-FHD/icons/leng_off.png,oDreamy-FHD/icons/leng_on.png,oDreamy-FHD/icons/leng_error.png" alphatest="blend" />
 		<widget source="Title" render="Label" position="87,54" font="Regular;51" foregroundColor="ltbluette" size="0,0" valign="bottom" backgroundColor="header" transparent="1" />
-		<widget source="locales" render="Listbox" position="70,180" size="1160,714" scrollbarMode="showAlways" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
+		<widget source="locales" render="Listbox" position="70,180" size="1160,714" scrollbarMode="showAlways" foregroundColor="grey" foregroundColorSelected="white" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{
 				"template":
@@ -841,16 +841,10 @@
 				}
 			</convert>
 		</widget>
-		<widget source="key_menu" render="Label" position="1350,880" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
+		<widget source="key_menu" render="Label" position="1500,880" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="key_info" render="Label" position="1500,880" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="key_help" render="Label" position="1650,880" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="description" render="Label" position="1290,560" size="570,263" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" valign="center" transparent="1" />
+		<widget source="description" render="Label" position="1290,560" size="550,420" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" valign="center" transparent="1" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/language.png" alphatest="blend" zPosition="2" />
 	</screen>
 
@@ -4065,10 +4059,14 @@
 	<screen name="InputDeviceSetup" title="Input device setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
+		<panel name="p800_Date" />
+		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
-		<widget name="config" position="70, 180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
-		<widget source="introduction" render="Label" position="70,820" size="820,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" zPosition="1" transparent="1" />
+		<panel name="Ex" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget name="footnote" position="70,180" size="0,0" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="description" position="1290,560" size="550,420" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
 	</screen>
 	<!-- Video Enhancement Preview FHD -->
