@@ -520,7 +520,7 @@
 	<!-- P800 Logo FHD -->
 	<screen name="p800_Logo" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- Logo -->
-		<ePixmap position="920,160" size="300,323" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
+		<ePixmap position="925,160" size="300,323" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 	</screen>
 
 	<!-- P800 Logo FHD -->
