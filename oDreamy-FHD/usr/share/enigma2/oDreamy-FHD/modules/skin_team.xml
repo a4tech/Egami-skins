@@ -810,10 +810,10 @@
 		<widget name="traffic_red" position="850,165" zPosition="1" size="80,80" pixmap="oDreamy-FHD/icons/ared.png" alphatest="on" />
 		<widget name="traffic_yellow" position="850,165" zPosition="1" size="80,80" pixmap="oDreamy-FHD/icons/ayellow.png" alphatest="on" />
 		<widget name="traffic_green" position="850,165" zPosition="1" size="80,80" pixmap="oDreamy-FHD/icons/agreen.png" alphatest="on" />
-		<widget name="feedstatus_off" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" />
-		<widget name="feedstatus_red" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="red" backgroundColor="header" transparent="1" />
-		<widget name="feedstatus_yellow" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" />
-		<widget name="feedstatus_green" position="940,180" size="300,45" zPosition="1" font="Regular;35" halign="left" foregroundColor="green" backgroundColor="header" transparent="1" />
+		<widget name="feedstatus_off" position="940,165" size="300,80" zPosition="1" font="Regular;35" valign="center" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" />
+		<widget name="feedstatus_red" position="940,165" size="300,80" zPosition="1" font="Regular;35" valign="center" halign="left" foregroundColor="red" backgroundColor="header" transparent="1" />
+		<widget name="feedstatus_yellow" position="940,165" size="300,80" zPosition="1" font="Regular;35" valign="center" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" />
+		<widget name="feedstatus_green" position="940,165" size="300,80" zPosition="1" font="Regular;35" valign="center" halign="left" foregroundColor="green" backgroundColor="header" transparent="1" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 	</screen>
 	<!--  EGAMI LocaleSelection FHD -->
@@ -891,9 +891,32 @@
 		<panel name="p800_Ext" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" transparent="1" />
 		<widget name="header" position="1265,480" size="600,200" font="Regular;32" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="update" position="70,180" size="1160,740" font="Regular;28" itemHeight="40" zPosition="3" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="update" position="70,180" size="1160,740" font="Regular;28" zPosition="3" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="image_stb" position="1315,570" alphatest="blend" size="500,148" transparent="1" zPosition="1" />
+		<ePixmap position="1275,775" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
+		<widget source="session.Event_Now" render="Progress" position="1335,790" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
+			<convert type="EGLayoutInfo">MemTotal</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1335,800" size="500,26" halign="left" valign="center" font="Regular;20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
+			<convert type="EGLayoutInfo">MemTotal</convert>
+		</widget>
+		<ePixmap position="1275,830" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/cpu.png" alphatest="blend" />
+		<widget source="session.Event_Now" render="Progress" position="1335,840" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
+			<convert type="CpuUsage">$0</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1335,845" size="500,46" halign="left" valign="center" font="Regular;20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
+			<convert type="CpuUsage">CPU Utilization:$0 (Core #1: $1, Core #2: $2)</convert>
+		</widget>
+		<ePixmap position="1275,887" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/flash.png" alphatest="blend" />
+		<widget source="session.Event_Now" render="Progress" position="1335,900" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
+			<convert type="EGLayoutInfo">FleshInfo</convert>
+		</widget>
+		<widget source="session.CurrentService" render="Label" position="1335,910" size="500,26" halign="left" valign="center" font="Regular;20" transparent="1" foregroundColor="white" backgroundColor="header" zPosition="6">
+			<convert type="EGLayoutInfo">Flesh</convert>
+		</widget>
 	</screen>
 	<!--  EGAMI BootManager FHD -->
 	<screen name="EGAMIBootImageChoose" position="fill" title="EGAMI Multiboot Image Choose" backgroundColor="transparent" flags="wfNoBorder">
