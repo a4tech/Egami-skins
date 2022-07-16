@@ -1667,10 +1667,9 @@
 	<screen name="MediaPlayer" position="0,0" size="1920,1080" title="Audio Player" backgroundColor="transparent" flags="wfNoBorder">
 		<eLabel position="0,0" size="1920,1080" backgroundColor="header" zPosition="-1" />
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/box/radiook.jpg" zPosition="-1" />
-		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
 		<ePixmap position="20,130" size="1920,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="1" />
 		<!-- Title Panel -->
-		<widget source="Title" render="Label" position="140,38" size="1050,80" font="Regular;70" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget source="Title" render="Label" position="70,38" size="1050,80" font="Regular;70" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="1650,42" pixmap="oDreamy-FHD/icons/select.png" size="89,60" alphatest="blend" zPosition="2" />
 		<eLabel text="Menu Help " position="1760,40" size="100,70" font="Regular;32" valign="center" foregroundColor="white" backgroundColor="#152a62" transparent="1" zPosition="3" />
 		<!-- Code -->
@@ -1703,7 +1702,7 @@
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<widget name="title" position="255,975" size="1410,50" font="Regular;34" halign="center" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="5" />
-		<ePixmap position="60,1033" size="1860,32" pixmap="oDreamy-FHD/skin_default/sh1920.png" zPosition="5" />
+		<!--<ePixmap position="60,1033" size="1860,32" pixmap="oDreamy-FHD/skin_default/sh1920.png" zPosition="5" />-->
 		<eLabel position="1665,975" size="5,50" backgroundColor="#121212" zPosition="3" />
 		<widget source="session.CurrentService" render="Label" position="1670,975" size="190,50" font="Regular;40" halign="center" valign="center" noWrap="1" foregroundColor="white" backgroundColor="header" transparent="0" zPosition="3">
 			<convert type="ServicePosition">Remaining</convert>
@@ -2116,20 +2115,19 @@
 		<eLabel text="Upper" position="900,367" size="220,40" font="Regular;30" halign="right" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="2" />
 	</screen>
 	<!-- Numerical help dialog FHD -->
-	<screen name="NumericalTextInputHelpDialog" position="1260,30" size="609,244" backgroundColor="#10101010" zPosition="8" flags="wfNoBorder">
-		<eLabel position="2,2" size="609,244" backgroundColor="#404040" zPosition="-1" />
-		<widget name="key1" position="2,2" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key2" position="204,2" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key3" position="406,2" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key4" position="2,62" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key5" position="204,62" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key6" position="406,62" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key7" position="2,122" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key8" position="204,122" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key9" position="406,122" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="help1" position="2,183" size="100,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
-		<widget name="key0" position="104,183" size="400,59" font="Regular;28" halign="center" valign="center" backgroundColor="black" />
-		<widget name="help2" position="506,183" size="100,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+	<screen name="NumericalTextInputHelpDialog" position="1260,30" size="610,244" backgroundColor="grey" zPosition="8" flags="wfNoBorder">
+		<widget name="key1" position="3,2" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key2" position="205,2" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key3" position="407,2" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key4" position="3,62" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key5" position="205,62" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key6" position="407,62" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key7" position="3,122" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key8" position="205,122" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key9" position="407,122" size="200,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="help1" position="3,183" size="100,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
+		<widget name="key0" position="105,183" size="400,59" font="Regular;28" halign="center" valign="center" backgroundColor="black" />
+		<widget name="help2" position="507,183" size="100,59" font="Regular;25" halign="center" valign="center" backgroundColor="black" />
 	</screen>
 	<!--  Animations FHD -->
 	<screen name="Animmain" position="0,0" size="1920,1080" title="Mainmenu" backgroundColor="transparent" flags="wfNoBorder">
