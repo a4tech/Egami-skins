@@ -438,7 +438,7 @@
 		<panel name="M" />
 		<panel name="s_RGYB" />
 	</screen>
-	<!-- ***** MultiBootSelector ***** 002 -->
+	<!-- MultiBootSelector -->
 	<screen name="MultiBootSelector" position="fill" title="MultiBoot Image Selector" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
@@ -448,7 +448,7 @@
 		<widget source="description" render="Label" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 	</screen>
-	<!-- ***** MultiBootSelector ***** 002 -->
+	<!-- MultiBootSelector -->
 	<screen name="MultiBootManager" position="fill" title="MultiBoot Image Selector" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
@@ -456,10 +456,10 @@
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
 		<widget name="slotlist" position="70,180" size="1160,720" itemHeight="45" font="Regular;35" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
-		<widget name="description" position="1260,560" size="610,400" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="description" position="1290,560" size="550,450" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 	</screen>
-	<!-- ***** ChangePasswdScreen ***** 002 -->
+	<!-- ChangePasswdScreen -->
 	<screen name="NetworkPassword" position="fill" title="Password Setup" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
@@ -1042,7 +1042,6 @@
 		<widget name="key_red" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<eLabel text="Menu" position="1390,965" size="200,43" font="Regular;32" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<eLabel text="Info" position="1390,1002" size="200,43" font="Regular;32" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
-		<widget position="1120,2667" size="210,21" name="key_menu" font="Regular;19" halign="left" foregroundColor="white" backgroundColor="black" zPosition="1" transparent="1" />
 	</screen>
 	<!--  File Comander Setup FHD -->
 	<screen name="FileCommanderConfigScreen" position="fill" title="File Commander - Settings" backgroundColor="transparent" flags="wfNoBorder" >
@@ -1087,9 +1086,9 @@
 		<widget name="list_head" position="70,160" size="1790,50" font="Regular;24" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="#202020" transparent="0" />
 		<widget name="filedata" position="70,210" size="1790,735" font="Regular;28" itemHeight="38" scrollbarMode="showOnDemand" zPosition="1" transparent="1" />
 	</screen>
-	<!--  File Comander TaskListScreen (Import) FHD -->
+	<!--  File Comander TaskListScreen -->
 	<screen name="TaskListScreen" position="fill" title="Task list" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<widget source="tasklist" render="Listbox" position="70,180" size="1170,700" zPosition="7" scrollbarMode="showOnDemand">
@@ -1210,7 +1209,7 @@
 		<widget name="ConnStatus" position="70,820" size="820,150" font="Regular;30" halign="center" valign="center" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/deviceusb.png" alphatest="blend" />
 	</screen>
-	<!-- **** OpenMultibootManager ****-->
+	<!-- OpenMultibootManager -->
 	<screen name="OMBManagerList" title="Open Multiboot Manager" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
@@ -1224,7 +1223,7 @@
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
-	<!-- **** OMBManagerAbout ****-->
+	<!-- OMBManagerAbout -->
 	<screen name="OMBManagerAbout" title="OpenMultiBoot About" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
@@ -1232,7 +1231,7 @@
 		<widget name="about" position="70,180" size="820,400" font="Regular;32" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
-	<!-- **** OMBManagerPreferences ****-->
+	<!-- OMBManagerPreferences -->
 	<screen name="OMBManagerPreferences" title="Preferences" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
@@ -1241,7 +1240,7 @@
 		<widget name="config" position="70,180" size="820,400" font="Regular;32" itemHeight="45" backgroundColorSelected="bluette" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
-	<!-- **** OMBManagerInstall ****-->
+	<!-- OMBManagerInstall -->
 	<screen name="OMBManagerInstall" title="OpenMultiBoot Install" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
@@ -4449,7 +4448,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** MediaPlayer Help ********** P067 -->
+	<!-- MediaPlayer Help -->
 	<screen name="MPHelp" position="fill" title="MP Help" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />

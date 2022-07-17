@@ -3751,14 +3751,13 @@
 	</screen>
 	<!-- Packet Manager FHD -->
 	<screen name="PacketManager" title="IPKG upgrade" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="1225,180" size="10,720" zPosition="2" alphatest="blend" />
-		<widget source="list" render="Listbox" position="45,180" size="1190,720" zPosition="1" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" selectionPixmap="box/slider72.png" backgroundPixmap="box/sliderb72.png">
+		<widget source="list" render="Listbox" position="70,180" size="1160,720" zPosition="1" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
-					MultiContentEntryText(pos = (60,1),  size = (1160,36), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+					MultiContentEntryText(pos = (60,1), size = (1160,36), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
 					MultiContentEntryText(pos = (60,36), size = (1160,30), font=1, color=0x73c6ff, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
 					MultiContentEntryPixmapAlphaTest(pos = (5,1), size = (48,48), png = 4), # index 5 is the status pixmap
 					MultiContentEntryPixmapAlphaTest(pos = (0,49), size = (1100,0), png = 5), # index 6 is the div pixmap
@@ -3975,7 +3974,7 @@
 	</screen>
 	<!-- Restore FHD -->
 	<screen name="RestoreMenu" title="Restore Backups" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
@@ -4029,7 +4028,26 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="checkList" position="70,180" size="820,720" font="Regular;32" enableWrapAround="1" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
+		<widget name="checkList" position="70,180" size="820,720" font="Regular;32" valign="center" enableWrapAround="1" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
+		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/backup.png" alphatest="blend" />
+	</screen>
+	<!-- SoftwareManagerInfo -->
+	<screen name="SoftwareManagerInfo" title="Software Manager Info" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template_notime" />
+		<panel name="p800_Logo" />
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
+		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="2">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryText(pos = (5,2), size = (740,40), font=0, flags = RT_HALIGN_LEFT | RT_HALIGN_CENTER, text = 0),
+					],
+					"fonts": [gFont("Regular",32),gFont("Regular",26)],
+					"itemHeight": 40
+				}
+			</convert>
+		</widget>
+		<widget source="introduction" render="Label" position="5,410" size="0,0" zPosition="10" font="Regular;21" halign="center" valign="center" backgroundColor="#25062748" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/backup.png" alphatest="blend" />
 	</screen>
 	<!-- Extra Plugins FHD -->
