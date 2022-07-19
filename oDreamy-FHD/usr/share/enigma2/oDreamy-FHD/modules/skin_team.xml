@@ -2338,16 +2338,16 @@
 		<widget source="Event" render="RunningText" position="70,310" size="1150,590" halign="center" foregroundColor="white" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" zPosition="2" font="Regular;32" backgroundColor="header" transparent="1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<eLabel text="N e x t" position="1260,13" size="610,120" font="Regular;110" halign="center" foregroundColor="#10404040" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel position="1260,140" size="610,110" backgroundColor="background" zPosition="-1" />
-		<eLabel position="1260,250" size="610,10" backgroundColor="white" zPosition="-1" />
+		<eLabel text="N e x t" position="1260,13" size="610,120" font="Regular;102" halign="center" foregroundColor="#10404040" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<eLabel position="1260,140" size="610,110" backgroundColor="ltbluette" zPosition="-10" />
+		<eLabel position="1262,142" size="606,106" backgroundColor="header" zPosition="-10" />
 		<eLabel text="Start" position="1270,145" size="100,145" font="Regular;36" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="session.Event_Next" render="Label" position="1370,145" size="200,100" font="Regular;36" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel text="-" position="1490,145" size="20,95" font="Regular;36" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget source="session.Event_Next" render="Label" position="1530,145" size="200,40" font="Regular;36" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="2">
+		<eLabel text="-" position="1480,145" size="20,95" font="Regular;36" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget source="session.Event_Next" render="Label" position="1530,145" size="200,40" font="Regular;36" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="2">
 			<convert type="EventTime">Duration</convert>
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>

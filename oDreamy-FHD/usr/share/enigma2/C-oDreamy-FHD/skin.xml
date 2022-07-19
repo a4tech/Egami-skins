@@ -342,7 +342,7 @@
 		<widget source="session.MSNWeather" render="Label" position="230,40" size="150,60" font="Regular;50" halign="left" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="2">
 			<convert type="MSNWeather">temperature_current</convert>
 		</widget>
-		<widget source="session.MSNWeather" render="Label" position="190,100" size="190,80" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2">
+		<widget source="session.MSNWeather" render="Label" position="190,100" size="230,80" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="20">
 			<convert type="MSNWeather">city</convert>
 		</widget>
 		<!-- ***** Wind ***** -->
