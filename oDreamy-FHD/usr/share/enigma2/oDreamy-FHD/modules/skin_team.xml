@@ -1673,7 +1673,7 @@
 		<ePixmap position="1650,42" pixmap="oDreamy-FHD/icons/select.png" size="89,60" alphatest="blend" zPosition="2" />
 		<eLabel text="Menu Help " position="1760,40" size="100,70" font="Regular;32" valign="center" foregroundColor="white" backgroundColor="#152a62" transparent="1" zPosition="3" />
 		<!-- Code -->
-		<widget name="coverArt" position="60,150" size="250,250" pixmap="oDreamy-FHD/menu/logodream.png" zPosition="1" transparent="1" alphatest="blend" scale="1" />
+		<widget name="coverArt" position="60,150" size="250,250" zPosition="1" transparent="1" alphatest="blend" scale="1" />
 		<widget name="titletext" position="140,145" size="0,50" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget name="artisttext" position="340,155" size="170,50" font="Regular;32" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<widget name="artist" position="480,155" size="455,50" font="Regular;32" halign="left" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" noWrap="1" />
@@ -4313,14 +4313,17 @@
 	</screen>
 	<!-- Nim setup FHD -->
 	<screen name="NimSetup" title="Reception Settings" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="fill" pixmap="oDreamy-FHD/box/wiz1.jpg" alphatest="blend" zPosition="-2" />
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
+		<panel name="p800_Ext" />
+		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
+		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 		<widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="1380,500" size="350,337" pixmap="oDreamy-FHD/menu/logodream.png" alphatest="blend" zPosition="2" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" foregroundColor="ltbluette" halign="center" backgroundColor="header" transparent="1" zPosition="5" />
 	</screen>
 	<!-- Scan simple FHD -->
 	<screen name="ScanSimple" title="Scan Simple" position="fill" backgroundColor="transparent" flags="wfNoBorder">

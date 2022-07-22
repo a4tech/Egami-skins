@@ -4327,8 +4327,7 @@
 		<widget name="duration" position="1080,60" size="450,50" font="Regular;40" foregroundColor="ltbluette" backgroundColor="header" transparent="1" noWrap="1" valign="top" halign="right" zPosition="2" />
 		<widget name="epg_description" position="55,120" size="1170,350" font="Regular;32" foregroundColor="white" backgroundColor="header" scrollbarMode="showNever" transparent="1" zPosition="1" />
 	</screen>
-
-	<!-- ********** CI Helper ********** P062 -->
+	<!-- CI Helper -->
 	<screen name="CIHelper" title="CIHelper Setup" position="center,center" size="1280,720" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -5201,7 +5200,7 @@
 		<ePixmap position="20,410" size="1320,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" scale="1" zPosition="1" />
 		<ePixmap position="70,495" size="100,100" pixmap="oDreamy-FHD/icons/next.png" alphatest="blend" scale="1" zPosition="1" />
 		<widget name="nextTitle" position="200,515" size="1100,50" font="Regular;40" foregroundColor="green" transparent="1" zPosition="1" />
-		<widget name="coverArt" position="1360,455" size="500,500" pixmap="oDreamy-FHD/menu/logodream.png" zPosition="1" transparent="1" alphatest="blend" scale="1" />
+		<widget name="coverArt" position="1360,455" size="500,500" zPosition="1" transparent="1" alphatest="blend" scale="1" />
 		<widget name="shuffle" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/placeholder1.png,/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/dvr_shuf.png" position="598,275" size="0,0" transparent="1" alphatest="on" />
 		<widget name="repeat" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/placeholder1.png,/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/dvr_rep.png" position="598,239" size="0,0" transparent="1" alphatest="on" />
 		<widget name="dvrStatus" pixmaps="/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/dvr_pl.png,/usr/lib/enigma2/python/Plugins/Extensions/MerlinMusicPlayer/images/dvr_pau.png" position="683,227" size="0,0" transparent="1" alphatest="on" />
