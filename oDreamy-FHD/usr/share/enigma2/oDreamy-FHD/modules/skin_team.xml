@@ -1319,7 +1319,7 @@
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="860,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="830,160" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/box/maxbargh.png" position="805,180" size="15,720" alphatest="blend" zPosition="5" />
-		<widget source="list" render="Listbox" position="45,180" size="775,720" scrollbarMode="showOnDemand" transparent="1" zPosition="1" foregroundColor="#707070" foregroundColorSelected="white" backgroundColor="#272e43" backgroundColorSelected="#272e43" selectionPixmap="box/slider72.png" backgroundPixmap="box/sliderb.png">
+		<widget source="list" render="Listbox" position="45,180" size="775,720" scrollbarMode="showOnDemand" transparent="1" zPosition="1" foregroundColor="#707070" foregroundColorSelected="white" backgroundColor="#272e43" backgroundColorSelected="#272e43">
 			 <convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryPixmapAlphaTest(pos = (25, 10), size = (40, 40), png = 0),

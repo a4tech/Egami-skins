@@ -282,9 +282,9 @@
 		<widget source="description" render="Label" position="1155,955" size="750,95" conditional="description" font="Regular;27" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="header">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<!-- <widget name="description" position="1260,560" size="0,0" font="Regular;30" halign="center" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />-->
-		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1"
-			foregroundColor="grey" foregroundColorSelected="white" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" >
+		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
+			backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1"
+			scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				 {"template": [ MultiContentEntryText(pos=(105,11), size=(680,68), flags=RT_HALIGN_LEFT, text=0),
 				 MultiContentEntryPixmapAlphaBlend(pos=(25,5), size=(56,56), png=1),],
