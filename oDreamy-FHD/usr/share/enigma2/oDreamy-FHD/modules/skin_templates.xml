@@ -283,8 +283,8 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
-			backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1"
-			scrollbarBorderColor="ltbluette" scrollbarWidth="8">
+			backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1"
+			scrollbarBorderColor="ltbluette" scrollbarWidth="8" selectionPixmap="oDreamy-FHD/box/slider.png" backgroundPixmap="oDreamy-FHD/box/sliderb.png">
 			<convert type="TemplatedMultiContent">
 				{"templates":
 					{"default": (60,[
