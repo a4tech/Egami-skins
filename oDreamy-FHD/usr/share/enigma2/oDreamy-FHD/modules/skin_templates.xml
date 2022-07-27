@@ -617,19 +617,19 @@
 		<widget name="key_blue" position="130,955" size="260,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_blue,Button,Label" transparent="1" />
 		<widget source="key_blue" render="Label" position="130,955" size="260,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_blue,StaticText" transparent="1" />
 		<!-- Button Green -->
-		<ePixmap position="380,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" objectTypes="key_green,Button,Label" transparent="1" zPosition="2" />
-		<widget source="key_green" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="420,988" size="280,95" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
+		<ePixmap position="400,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" objectTypes="key_green,Button,Label" transparent="1" zPosition="2" />
+		<widget source="key_green" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="440,988" size="330,95" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget name="key_green" position="460,955" size="280,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_green,Button,Label" transparent="1" />
-		<widget source="key_green" render="Label" position="460,955" size="280,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_green,StaticText" transparent="1" />
+		<widget name="key_green" position="480,955" size="330,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_green,Button,Label" transparent="1" />
+		<widget source="key_green" render="Label" position="480,955" size="330,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_green,StaticText" transparent="1" />
 		<!-- Button Yellow -->
-		<ePixmap position="730,988" pixmap="oDreamy-FHD/buttons/yellowpanel.png" size="30,30" alphatest="blend" objectTypes="key_yellow,Button,Label" transparent="1" />
-		<widget source="key_yellow" render="Pixmap" pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="770,988" size="260,95" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
+		<ePixmap position="800,988" pixmap="oDreamy-FHD/buttons/yellowpanel.png" size="30,30" alphatest="blend" objectTypes="key_yellow,Button,Label" transparent="1" />
+		<widget source="key_yellow" render="Pixmap" pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="840,988" size="260,95" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget name="key_yellow" position="810,955" size="260,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_yellow,Button,Label" transparent="1" />
-		<widget source="key_yellow" render="Label" position="810,955" size="260,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" zPosition="1" objectTypes="key_yellow,StaticText" transparent="1" />
+		<widget name="key_yellow" position="880,955" size="260,95" noWrap="1" zPosition="1" valign="center" font="Regular;30" halign="left" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="key_yellow,Button,Label" transparent="1" />
+		<widget source="key_yellow" render="Label" position="880,955" size="260,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" zPosition="1" objectTypes="key_yellow,StaticText" transparent="1" />
 	</screen>
 
 	<screen name="s_RGYB">
