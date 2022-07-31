@@ -86,6 +86,10 @@
 		<parameter name="PicturePlayerThumb" value="30,285,45,300,30,25" />
 		<parameter name="PlayListName" value="65,2,1000,50" />
 		<parameter name="PlayListIcon" value="10,0,50,50" />
+		<parameter name="WeatherPluginSearchlocation" value="10,0,550,70" />
+		<parameter name="WeatherPluginSearchresult" value="470,0,500,70" />
+		<parameter name="WeatherPluginCity" value="10,0,700,50" />
+		<parameter name="WeatherPluginDegreetype" value="465,0,100,50" />
 	</parameters>
 	<!-- Colors FHD -->
 	<colors>
