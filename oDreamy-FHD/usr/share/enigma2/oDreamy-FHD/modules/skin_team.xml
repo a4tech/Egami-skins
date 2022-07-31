@@ -1731,8 +1731,8 @@
 		<widget source="session.CurrentService" render="Label" position="1100,940" size="290,55" font="Regular;37" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3">
 			<convert type="ServicePosition">Remaining</convert>
 		</widget>
-		<eLabel position="180,964" size="980,7" backgroundColor="grey" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" render="Progress" position="180,955" size="980,25" pixmap="oDreamy-FHD/icons/progress_vod.png" transparent="1" zPosition="2">
+		<eLabel position="180,964" size="980,9" backgroundColor="grey" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" render="Progress" foregroundColor="bluette" position="180,964" size="980,9" transparent="1" zPosition="2">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<widget source="session.CurrentService" render="DRRunningText" options="movetype=running,startpoint=0,direction=left,steptime=0,repeat=0,always=0,oneshot=0,startdelay=0,wrap" position="40,860" size="1300,68" font="Regular;59" noWrap="1" foregroundColor="white" borderColor="black" borderWidth="2" backgroundColor="header" transparent="1" zPosition="3">
@@ -1831,8 +1831,8 @@
 		<widget source="session.CurrentService" render="Label" position="1100,940" size="290,55" font="Regular;37" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3">
 			<convert type="ServicePosition">Remaining</convert>
 		</widget>
-		<eLabel position="180,964" size="980,7" backgroundColor="grey" transparent="0" zPosition="1" />
-		<widget source="session.CurrentService" render="Progress" position="180,955" size="980,25" pixmap="oDreamy-FHD/icons/progress_vod.png" transparent="1" zPosition="2">
+		<eLabel position="180,964" size="980,9" backgroundColor="grey" transparent="0" zPosition="1" />
+		<widget source="session.CurrentService" render="Progress" position="180,964" size="980,9" foregroundColor="bluette" transparent="1" zPosition="2">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<widget source="session.CurrentService" render="DRRunningText" options="movetype=running,startpoint=0,direction=left,steptime=0,repeat=0,always=0,oneshot=0,startdelay=0,wrap" position="40,860" size="1300,68" font="Regular;59" noWrap="1" foregroundColor="white" borderColor="black" borderWidth="2" backgroundColor="header" transparent="1" zPosition="3">
