@@ -390,7 +390,7 @@
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
 		<eLabel text="End :" position="1644,566" size="120,40" font="Regular;30" halign="left" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="30" />
-		<widget source="ServiceEvent" render="Label" position="1730,570" size="101,40" font="Regular;30" backgroundColor="header" transparent="1" zPosition="1">
+		<widget source="ServiceEvent" render="Label" position="1730,570" size="98,40" font="Regular;30" halign="left" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
