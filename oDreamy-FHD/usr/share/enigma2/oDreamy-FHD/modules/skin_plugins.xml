@@ -5533,11 +5533,10 @@
 	<screen name="SubsChooser" position="fill" title="Choose Subtitle" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p700_Template" />
 		<panel name="p700_Logo" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
-		<widget source="menu" render="Listbox" position="70,180" size="750,720" font="Regular;30" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" zPosition="1">
+		<panel name="fakeExitNoButton" />
+		<widget source="menu" render="Listbox" position="70,180" size="750,720" backgroundColorSelected="bluette" font="Regular;30" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" transparent="1" zPosition="1">
 			<convert type="StringList" />
 		</widget>
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="860,640" size="256,256" pixmap="oDreamy-FHD/menu/language.png" alphatest="blend" />
 		<widget name="file_list" position="70,180" size="720,600" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="menu_list" position="70,850" size="720,120" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
@@ -5586,7 +5585,7 @@
 		<panel name="p900_Template" />
 		<panel name="p900_Date" />
 		<panel name="s_RGYB" />
-		<panel name="M" />
+		<panel name="Ex" />
 		<widget source="search_info" render="Listbox" position="70,170" size="1790,280" zPosition="3" scrollbarMode="showNever" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"templates":
@@ -5600,10 +5599,10 @@
 				}
 			</convert>
 		</widget>
-		<widget source="header_country" render="Label" position = "70,450" size="300,40" font="Regular;30" halign="left" foregroundColor="ltbluette" />
-		<widget source="header_release" render="Label" position = "330,450" size="1300,40" font="Regular;30" halign="left" foregroundColor="ltbluette" />
-		<widget source="header_provider" render="Label" position = "1420,450" size="200,40" font="Regular;30" halign="left" foregroundColor="ltbluette" />
-		<widget source="header_sync" render="Label" position = "1650,450" size="36,36" font="Regular;30" halign="left" foregroundColor="ltbluette" />
+		<widget source="header_country" render="Label" position="70,450" size="300,40" font="Regular;30" halign="left" foregroundColor="ltbluette" />
+		<widget source="header_release" render="Label" position="330,450" size="1300,40" font="Regular;30" halign="left" foregroundColor="ltbluette" />
+		<widget source="header_provider" render="Label" position="1420,450" size="200,40" font="Regular;30" halign="left" foregroundColor="ltbluette" />
+		<widget source="header_sync" render="Label" position="1650,450" size="36,36" font="Regular;30" halign="left" foregroundColor="ltbluette" />
 		<eLabel position="70,490" size="1790,2" backgroundColor="#303030" />
 		<widget name="loadmessage" position="70,520" size="1780,400" valign="center" halign="center" font="Regular;30" foregroundColor="white" zPosition="4" />
 		<widget name="errormessage" position="70,520" size="1780,400" valign="center" halign="center" font="Regular;30" foregroundColor="#ff0000" zPosition="5" />
@@ -5611,10 +5610,10 @@
 			<convert type="TemplatedMultiContent">
 				{"templates":
 					{"default": (40, [
-						MultiContentEntryPixmapAlphaBlend(pos = (5,5),   size = (36,36), png=0), # key,
-						MultiContentEntryText(pos = (50,1),   size = (200,40), font = 0, flags = RT_HALIGN_LEFT,  text = 1), # language,
-						MultiContentEntryText(pos = (260,1),  size = (1300,40),font = 0, flags = RT_HALIGN_LEFT,  text = 2), # filename,
-						MultiContentEntryText(pos = (1350,1), size = (200,37), font = 0, flags = RT_HALIGN_LEFT,  text = 3), # size,
+						MultiContentEntryPixmapAlphaBlend(pos = (5,5), size = (36,36), png=0), # key,
+						MultiContentEntryText(pos = (50,1), size = (200,40), font = 0, flags = RT_HALIGN_LEFT, text = 1), # language,
+						MultiContentEntryText(pos = (260,1), size = (1300,40),font = 0, flags = RT_HALIGN_LEFT, text = 2), # filename,
+						MultiContentEntryText(pos = (1350,1), size = (200,37), font = 0, flags = RT_HALIGN_LEFT, text = 3), # size,
 						MultiContentEntryPixmapAlphaBlend(pos = (1560,5), size = (36,36), png=4), # syncPng,
 						], True, "showOnDemand"),
 					},
@@ -5632,23 +5631,25 @@
 		<panel name="p900_Template" />
 		<panel name="p900_Date" />
 		<panel name="s_RGYB" />
-		<widget name="config" position="70,180" size="970,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" transparent="1" />
+		<panel name="Ex" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget name="config" position="70,180" size="970,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<eLabel position="1060,180" size="790,40" backgroundColor="header" zPosition="1" />
-		<widget source="header_name" render="Label" position = "1070,180" size="257,40" font="Regular;30" halign="left" foregroundColor="#0xcccccc" zPosition="2" transparent="1" />
-		<widget source="header_lang" render="Label" position = "1300,180" size="300,40" font="Regular;30" halign="left" foregroundColor="#0xcccccc" zPosition="2" transparent="1" />
-		<widget source="header_state" render="Label" position = "1540,180" size="257,40" font="Regular;30" halign="right" foregroundColor="#0xcccccc" zPosition="2" transparent="1" />
-		<widget source="providers" render="Listbox" scrollbarMode="showOnDemand" position="1070,250" size="800,680" zPosition="3" transparent="1" >
+		<widget source="header_name" render="Label" position="1070,180" size="257,40" font="Regular;30" halign="left" foregroundColor="white" zPosition="2" />
+		<widget source="header_lang" render="Label" position="1300,180" size="300,40" font="Regular;30" halign="left" foregroundColor="white" zPosition="2" />
+		<widget source="header_state" render="Label" position="1540,180" size="257,40" font="Regular;30" halign="right" foregroundColor="white" zPosition="2" />
+		<widget source="providers" render="Listbox" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" position="1070,250" size="800,680" zPosition="3" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"templates":
 					{"default": (37, [
-						MultiContentEntryText(pos = (0,0),   size = (257,32),  font = 0, flags = RT_HALIGN_LEFT,  text = 0), # name,
-						MultiContentEntryText(pos = (290,0), size = (231,32),  font = 0, flags = RT_HALIGN_LEFT,  text = 1), # lang,
+						MultiContentEntryText(pos = (0,0), size = (257,32), font = 0, flags = RT_HALIGN_LEFT, text = 0), # name,
+						MultiContentEntryText(pos = (290,0), size = (231,32), font = 0, flags = RT_HALIGN_LEFT, text = 1), # lang,
 						MultiContentEntryText(pos = (514,0), size = (257,32), font = 0, flags = RT_HALIGN_RIGHT, text = 2, color=0xFF000003) # enabled,
 						], True, "showOnDemand"),
 						"notselected": (37, [
-						MultiContentEntryText(pos = (0,0),   size = (257,32),  font = 0, flags = RT_HALIGN_LEFT,  text = 0), # name,
-						MultiContentEntryText(pos = (270,0), size = (231,32),  font = 0, flags = RT_HALIGN_LEFT,  text = 1), # lang,
-						MultiContentEntryText(pos = (514,0), size = (257,32), font = 0, flags = RT_HALIGN_RIGHT,  text = 2, color=0xFF000003) # enabled,
+						MultiContentEntryText(pos = (0,0), size = (257,32), font = 0, flags = RT_HALIGN_LEFT, text = 0), # name,
+						MultiContentEntryText(pos = (270,0), size = (231,32), font = 0, flags = RT_HALIGN_LEFT, text = 1), # lang,
+						MultiContentEntryText(pos = (514,0), size = (257,32), font = 0, flags = RT_HALIGN_RIGHT, text = 2, color=0xFF000003) # enabled,
 						], False, "showOnDemand")
 					},
 					"fonts": [gFont("Regular", 28)],
@@ -5696,9 +5697,9 @@
 	<screen name="SubsSupportSettings" position="fill" title="Options Download" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p700_Template" />
 		<panel name="p700_Logo" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
+		<panel name="fakeExitNoButton" />
 		<ePixmap position="860,640" size="256,256" pixmap="oDreamy-FHD/menu/language.png" alphatest="blend" />
-		<widget source="menuList" render="Listbox" scrollbarMode="showOnDemand" position="70,180" size="750,720" zPosition="3" transparent="1" >
+		<widget source="menuList" render="Listbox" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" position="70,180" size="750,720" zPosition="3" transparent="1" >
 			<convert type="TemplatedMultiContent">
 				{"templates":
 				{"default": (40, [
