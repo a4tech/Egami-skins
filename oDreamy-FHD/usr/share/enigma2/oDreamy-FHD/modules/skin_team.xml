@@ -4264,13 +4264,12 @@
 	</screen>
 	<!-- Bouquet Selector FHD -->
 	<screen name="BouquetSelector" title="Bouquet Selector" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="900,16" size="10,740" zPosition="2" alphatest="blend" />
-		<widget name="menu" position="70,165" size="820,750" itemHeight="50" font="Regular;32" foregroundColor="white" foregroundColorSelected="#000000" foregroundColorServiceNotAvail="#5e5e5e" colorServiceDescription="#0073c6ff" colorServiceDescriptionSelected="#00ffffff" backgroundColor="header" backgroundColorSelected="#0073c6ff" foregroundColorEventSelected="#0036c6" backgroundColorEventSelected="#73c6ff" foregroundColorMarkedSelected="#902020" backgroundColorMarkedSelected="#73c6ff" scrollbarMode="showOnDemand" transparent="1" />
+		<panel name="fakeExitNoButton" />
+		<widget name="menu" position="70,165" size="820,750" itemHeight="50" valign="center" font="Regular;32" foregroundColor="white" foregroundColorSelected="yellow" backgroundColor="header" backgroundColorSelected="bluette" scrollbarMode="showAlways" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Language selection FHD -->
 	<screen name="LanguageSelection" title="Language selection" position="fill" backgroundColor="transparent" flags="wfNoBorder">
