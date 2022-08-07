@@ -8,7 +8,7 @@
 		<panel name="Ex" />
 		<widget name="info2" position="320,5" size="600,500" font="Regular;35" itemHeight="50" foregroundColor="white" backgroundColor="#0242FD" transparent="1" zPosition="1"/>
 	  <ePixmap position="1365,570" size="400,142" pixmap="oDreamy-FHD/icons/vpnscreen.png" alphatest="blend" zPosition="2" />
-	  <widget name="list" position="70,190" size="1170,700" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" backgroundColorSelected="#000066" scrollbarMode="showOnDemand" scrollbarSliderBorderWidth="1" scrollbarWidth="6" zPosition="3" transparent="1" />
+	  <widget name="list" position="70,190" size="1170,700" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" backgroundColorSelected="#000066" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarWidth="6" zPosition="3" transparent="1" />
 	  <widget name="vpnLoad" position="300,500" size="570,160" backgroundColor="#00000000" foregroundColor="#00B8B8B8" font="Regular;40" valign="top" halign="center" zPosition="2" transparent="1" />
 	  <widget name="ip" position="1440,200" size="250,100" font="Regular;35" valign="top" halign="center" zPosition="2" foregroundColor="yellow" backgroundColor="#00000000" transparent="1" />
 	  <widget name="auth" position="1270,200" size="600,200" font="Regular;35" valign="top" halign="center" zPosition="2" foregroundColor="red" backgroundColor="#00000000" transparent="1" />
@@ -25,6 +25,47 @@
 	  <widget name="vpnInfo" position="1215,890" size="700,50" backgroundColor="#00000000" foregroundColor="white" font="Regular;32" valign="top" halign="center" zPosition="2" transparent="1" />
 	</screen>
 
+	<!-- YouTubeMain -->
+	<screen name="YouTubeMain" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p900_Template"/>
+		<panel name="p900_Date"/>
+		<panel name="M"/>
+		<panel name="s_RGYB"/>
+		<widget source="list" render="Listbox" position="70,180" size="1259,720" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" transparent="1" >
+			<convert type="TemplatedMultiContent">
+				{"template": [
+					MultiContentEntryPixmapAlphaTest(pos=(-7,6), size=(140,90), png=2), # Thumbnail
+					MultiContentEntryText(pos=(140,0), size=(895,88), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER|RT_WRAP, text=3), # Title
+					MultiContentEntryText(pos=(1050,50), size=(180,35), font=1, flags=RT_HALIGN_RIGHT, text=4), # Views
+					MultiContentEntryText(pos=(1050,20), size=(180,35), font=1, flags=RT_HALIGN_RIGHT, text=5), # Duration
+					],
+				"fonts": [gFont("Regular",32), gFont("Regular",25)],
+				"itemHeight": 90}
+			</convert>
+		</widget>
+		<widget name="thumbnail" position="0,0" size="100,72" />
+		<ePixmap position="1450,350" size="256,256" zPosition="2" pixmap="oDreamy-FHD/icons/youtube.png" transparent="1" alphatest="blend" />
+	</screen>
+
+	<!-- YouTubeSearch -->
+	<screen name="YouTubeSearch" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p800_Template"/>
+		<panel name="p800_Logo"/>
+		<panel name="p800_DateMid"/>
+		<panel name="M"/>
+		<panel name="s_RGYB"/>
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget name="config" position="70,180" font="Regular;30" itemHeight="50" size="800,55" backgroundColorSelected="bluette" backgroundColor="bluette" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
+		<widget source="list" render="Listbox" position="70,200" size="800,700" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" transparent="1" >
+			<convert type="TemplatedMultiContent" >
+				{"template": [MultiContentEntryText(pos=(10,1), size=(580,500), font=0, flags=RT_HALIGN_LEFT, text=0)],
+					"fonts": [gFont("Regular",30)],
+					"itemHeight": 50}
+			</convert>
+		</widget>
+		<ePixmap position="950,550" size="256,256" zPosition="2" pixmap="oDreamy-FHD/icons/youtube.png" transparent="1" alphatest="blend" />
+	</screen>
+
 	<!-- EGAMIVpnConfig -->
 	<screen name="EgamiVpnConfig" position="fill" title="EGAMI Vpn Config" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="p800_Template" />
@@ -34,7 +75,7 @@
 		<panel name="Ex" />
 	  <ePixmap position="1260,140" size="610,802" pixmap="oDreamy-FHD/icons/list_vpn.png" alphatest="blend" zPosition="15" />
 	  <ePixmap position="460,180" size="400,142" pixmap="oDreamy-FHD/icons/vpn.png" alphatest="blend" zPosition="15" />
-	  <widget name="config" position="70,250" size="1170,700" itemHeight="50" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" backgroundColorSelected="#000066" scrollbarMode="showOnDemand" scrollbarSliderBorderWidth="1" scrollbarWidth="6" zPosition="1" transparent="1" />
+	  <widget name="config" position="70,250" size="1170,700" itemHeight="50" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" backgroundColorSelected="#000066" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarWidth="6" zPosition="1" transparent="1" />
 		<widget name="lab1" position="1260,250" size="600,600" font="Regular;42" halign="center" valign="top" foregroundColor="white" backgroundColor="#0242FD" transparent="1" zPosition="1"/>
 	</screen>
 
