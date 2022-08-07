@@ -527,7 +527,7 @@
 						{"template": [
 								MultiContentEntryText(pos = (100,2), size = (800,50), font=0, color=0x3589ff, text = 0),
 								MultiContentEntryText(pos = (120,45), size = (780,70), font=1, flags = RT_VALIGN_TOP, text = 1),
-								MultiContentEntryPixmapAlphaTest(pos = (0,5), size = (100,100), png = 2),
+								MultiContentEntryPixmapAlphaTest(pos = (0,5), size = (100,100), png = 2, flags = BT_SCALE | BT_KEEP_ASPECT_RATIO),
 							],
 							"fonts": [gFont("Regular", 32),gFont("Regular", 26)],
 							"itemHeight": 120
@@ -635,21 +635,19 @@
 	</screen>
 	<!--  EGAMI E2 Config Info FHD -->
 	<screen name="EGEnigma2ConfigInfo" position="fill" title="EGAMI Enigma2 Config" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="Ex" />
+		<panel name="fakeExitNoButton" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!--  EGAMI Kernel Info FHD -->
 	<screen name="EGKernelInfo" position="fill" title="EGAMI Kernel Informations" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="Ex" />
 		<panel name="fakeExitNoButton" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;32" itemHeight="45" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
@@ -657,14 +655,13 @@
 	</screen>
 	<!--  EGAMI Process Info FHD -->
 	<screen name="EGProcessInfo" position="fill" title="EGAMI Process Informations" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="Ex" />
+		<panel name="s_RGYB" />
 		<ePixmap position="900,180" size="10,720" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" zPosition="3" />
 		<ePixmap pixmap="oDreamy-FHD/menu/logview.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!--  EGAMI EGS StreamInfo FHD -->
 	<screen name="EGStreamInfo" position="fill" title="EGAMI Stream Informations" backgroundColor="transparent" flags="wfNoBorder" >
@@ -1284,6 +1281,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
+		<panel name="Ex" />
 		<widget name="config" position="70,180" size="820,630" font="Regular;32" scrollbarMode="showOnDemand" itemHeight="45" backgroundColor="header" transparent="1" />
 		<eLabel text="Preview" position="1260,600" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="2" />
 		<eLabel position="1260,600" size="610,70" backgroundColor="trbluette" zPosition="1" />
