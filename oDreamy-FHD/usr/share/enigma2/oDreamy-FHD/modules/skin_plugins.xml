@@ -855,7 +855,7 @@
 		<panel name="s_RGYB" />
 		<panel name="M" />
 		<ePixmap position="900,180" size="10,720" pixmap="box/maxbar.png" alphatest="blend" zPosition="4" />
-		<widget name="filelist" position="70,180" size="840,720" font="Regular;32" itemHeight="45" zPosition="1" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
+		<widget name="filelist" position="70,180" size="840,720" font="Regular;32" itemHeight="45" zPosition="1" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<widget name="label" position="1340,480" size="550,40" font="Regular;32" backgroundColor="header" transparent="1" zPosition="2" />
 		<eLabel text="Preview" position="1260,588" size="610,70" font="Regular;40" backgroundColor="header" halign="center" valign="center" foregroundColor="ltbluette" transparent="1" zPosition="2" />
 		<eLabel position="1260,588" size="610,70" backgroundColor="trbluette" zPosition="1" />
@@ -898,7 +898,8 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/web_browser.png" alphatest="blend" />
 		<widget name="lab1" position="70,180" size="820,90" font="Regular;34" foregroundColor="white" halign="center" valign="top" backgroundColor="header" transparent="0" zPosition="1" />
 		<eLabel position="70,290" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget name="config" position="70,310" size="820,540" font="Regular;27" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget name="config" position="70,310" size="820,540" font="Regular;27" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 	</screen>
 	<!-- ChromiumOSSettings -->
 	<screen name="ChromiumOSSettings" position="fill" title="ChromiumOS Settings" backgroundColor="transparent" flags="wfNoBorder">
