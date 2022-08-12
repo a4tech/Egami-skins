@@ -367,7 +367,7 @@
 		<eLabel position="52,32" size="1096,91" backgroundColor="header" zPosition="-10" transparent="0" />
 		<!-- Code -->
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
-		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;42" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Middle -->
 		<eLabel position="50,140" size="1100,800" backgroundColor="ltbluette" zPosition="-10" transparent="0" />
 		<eLabel position="52,142" size="1096,796" backgroundColor="header" zPosition="-10" transparent="0" />
@@ -398,7 +398,7 @@
 		<eLabel position="52,32" size="1196,92" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Code -->
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
-		<widget source="Title" render="Label" position="150,30" size="1000,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget source="Title" render="Label" position="150,30" size="800,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Middle -->
 		<eLabel position="50,140" size="1200,800" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
 		<eLabel position="52,142" size="1196,796" backgroundColor="header" transparent="0" zPosition="-10" />
@@ -426,7 +426,7 @@
 		<eLabel position="52,32" size="1196,92" backgroundColor="header" transparent="0" zPosition="-10" />
 		<!-- Code -->
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
-		<widget source="Title" render="Label" position="150,30" size="1000,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<widget source="Title" render="Label" position="150,30" size="800,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Middle -->
 		<eLabel position="50,140" size="1200,800" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
 		<eLabel position="52,142" size="1196,796" backgroundColor="header" transparent="0" zPosition="-10" />
