@@ -319,7 +319,7 @@
 		<widget source="key_help" render="Label" position="988,860" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>-->
-		<widget source="key_menu" render="Label" position="915,845" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+		<widget source="key_menu" render="Label" position="1008,898" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
 	</screen>
