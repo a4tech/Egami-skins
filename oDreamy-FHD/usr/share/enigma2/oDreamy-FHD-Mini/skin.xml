@@ -144,7 +144,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="session.Event_Now" alphatest="blend" render="PositionGauge" position="537,902" size="1186,30" pointer="oDreamy-FHD/icons/progressbarnow.png:1186,10" transparent="1" zPosition="2">
+		<widget source="session.Event_Now" render="PositionGauge" position="537,902" size="1186,30" pointer="oDreamy-FHD/icons/progressbarnow.png:1186,10" transparent="1" zPosition="2">
       <convert type="EGEventPosition">Gauge</convert>
     </widget>
 		<widget source="session.Event_Next" render="Label" position="551,920" size="958,55" font="Regular;37" valign="center" foregroundColor="#707070" backgroundColor="header" noWrap="1" transparent="1" zPosition="3">
