@@ -1194,9 +1194,10 @@
 		<panel name="p900_Template" />
 		<panel name="p900_Date" />
 		<panel name="s_RGYB" />
-		<ePixmap position="1350,185" size="256,256" pixmap="oDreamy-FHD/icons/hdmic.png" alphatest="blend" />
-		<widget name="description" position="1060,315" size="760,440" font="Regular;30" halign="center" valign="top" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="config" position="70,180" size="870,200" font="Regular;30" itemHeight="35" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
+		<panel name="Ex" />
+		<ePixmap position="1350,165" size="256,256" pixmap="oDreamy-FHD/icons/hdmic.png" alphatest="blend" />
+		<widget name="description" position="1060,290" size="760,440" font="Regular;30" halign="center" valign="top" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="config" position="70,170" size="870,210" font="Regular;30" itemHeight="35" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" transparent="1" />
 		<eLabel position="70,390" size="1800,2" backgroundColor="#303030" zPosition="1" />
 		<widget name="HelpTextHeader1" position="70,430" size="1800,40" font="Regular;27" halign="center" valign="center" foregroundColor="#ff0000" backgroundColor="header" transparent="1" />
 		<widget name="HelpText1" position="70,480" size="1800,240" font="Regular;27" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
