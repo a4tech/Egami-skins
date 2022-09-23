@@ -61,7 +61,7 @@
 		</widget>
 		<!--info-tuner-->
 		<widget source="session.CurrentService" render="Label" position="10,1045" size="770,45" font="Regular;23" halign="left" foregroundColor="#808080" backgroundColor="#10101010" transparent="1" zPosition="3">
-			<convert type="PliExtraInfo">TransponderInfo</convert>
+			<convert type="TransponderInfo">NoRoot</convert>
 		</widget>
 		<eLabel text="SNR" position="1610,70" size="100,30" font="Regular;21" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="6" />
 		<ePixmap name="" position="1610,20" size="100,100" pixmap="/usr/share/enigma2/oDreamy-FHD/icons/blue.png" alphatest="blend" zPosition="2" transparent="1" />
@@ -577,7 +577,7 @@
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">InMinutes</convert>
 		</widget>
-		<widget source="session.Event_Now" render="DRRunningText" position="465,150" size="1370,326" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2"
+		<widget source="session.Event_Now" render="DRRunningText" position="465,150" size="1370,326" font="Regular;30" halign="center" foregroundColor="#f2f2f2" backgroundColor="#10000000" transparent="1" zPosition="2"
 			options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" >
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
@@ -606,6 +606,8 @@
 	</screen>
 	<!-- Channel Selection PIG FHD -->
 	<screen name="ChannelSelection" position="fill" size="1920,1080" title="Channel Selection" backgroundColor="transparent" flags="wfNoBorder">
+		<eLabel position="1191,150" size="680,384" backgroundColor="transparent" zPosition="1" />
+		<widget source="session.VideoPicture" render="Pig" position="1191,150" size="680,384" backgroundColor="transparent" zPosition="3" />
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" zPosition="-1" />
 		<ePixmap position="30,108" size="1860,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="1700,35" pixmap="oDreamy-FHD/icons/select.png" size="89,60" alphatest="blend" zPosition="2" />
@@ -615,9 +617,6 @@
 		<widget name="key_vod" position="1455,60" size="225,32" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget source="Title" render="Label" position="140,25" size="1550,80" font="Regular;42" valign="center" noWrap="1" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Panel SatType -->
-		<eLabel position="1176,135" size="710,413" backgroundColor="header" />
-		<eLabel position="1186,145" size="690,393" backgroundColor="#ffffffff" />
-		<widget source="session.VideoPicture" render="Pig" position="1191,150" size="680,383" backgroundColor="#aa001842" transparent="1" zPosition="7" />
 		<widget source="session.FrontendInfo" render="Pixmap" pixmap="oDreamy-FHD/icons/scan-s.png" scale="1" position="50,25" size="70,80" zPosition="2" alphatest="blend" transparent="1">
 			<convert type="FrontendInfo">TYPE</convert>
 			<convert type="ValueRange">0,0</convert>
@@ -656,21 +655,29 @@
 		<widget source="ServiceEvent" render="Progress" position="1240,612" size="580,7" foregroundColor="grey" borderWidth="1" borderColor="#404040" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<!-- EPG CURRENT EVENT Interlinea 23 size 450 -->
-		<widget source="ServiceEvent" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" position="1173,628" size="720,260" font="Regular;30" foregroundColor="white" backgroundColor="header" valign="top" halign="center" transparent="1" zPosition="1">
+		<!-- EPG CURRENT EVENT -->
+		<widget source="ServiceEvent" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1"
+			position="1173,628" size="720,260" font="Regular;30" foregroundColor="#f2f2f2" backgroundColor="transparent" valign="top" halign="center" transparent="1" zPosition="1">
 			<convert type="EventName">FullDescription</convert>
 		</widget>
 		<!-- Next Event -->
-		<widget source="ServiceEvent" render="DRRunningText" position="790,955" size="1100,40" font="Regular;30" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="5" options="movetype=swimming,direction=right,startpoint=0,startdelay=5000,steptime=40,wrap=1,always=0,repeat=6,oneshot=1">
+		<widget source="ServiceEvent" render="DRRunningText" position="840,955" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="5" options="movetype=swimming,direction=right,startpoint=0,startdelay=5000,steptime=40,wrap=1,always=0,repeat=6,oneshot=1">
 			<convert type="DRNextEvents">Event1,onlyStart</convert>
 		</widget>
 		<!-- Next Event 2 -->
-		<widget source="ServiceEvent" render="DRRunningText" position="790,990" size="1100,40" font="Regular;30" foregroundColor="#707070" backgroundColor="header" transparent="1" zPosition="5" options="movetype=swimming,direction=right,startpoint=0,startdelay=5000,steptime=40,wrap=1,always=0,repeat=6,oneshot=1">
+		<widget source="ServiceEvent" render="DRRunningText" position="840,990" size="820,40" font="Regular;30" foregroundColor="#707070" backgroundColor="header" transparent="1" zPosition="5" options="movetype=swimming,direction=right,startpoint=0,startdelay=5000,steptime=40,wrap=1,always=0,repeat=6,oneshot=1">
 			<convert type="DRNextEvents">Event2,onlyStart</convert>
 		</widget>
 		<!-- Next Event 3 -->
-		<widget source="ServiceEvent" render="DRRunningText" position="790,1025" size="1100,40" font="Regular;30" foregroundColor="#505050" backgroundColor="header" transparent="1" zPosition="5" options="movetype=swimming,direction=right,startpoint=0,startdelay=5000,steptime=40,wrap=1,always=0,repeat=6,oneshot=1">
+		<widget source="ServiceEvent" render="DRRunningText" position="840,1025" size="820,40" font="Regular;30" foregroundColor="#505050" backgroundColor="header" transparent="1" zPosition="5" options="movetype=swimming,direction=right,startpoint=0,startdelay=5000,steptime=40,wrap=1,always=0,repeat=6,oneshot=1">
 			<convert type="DRNextEvents">Event3,onlyStart</convert>
+		</widget>
+		<!-- clock -->
+		<widget source="global.CurrentTime" render="Label" position="1700,950" size="210,90" font="Regular;75" noWrap="1" halign="center" valign="bottom" foregroundColor="#707070" backgroundColor="header" transparent="1">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget source="global.CurrentTime" render="Label" position="1653,1000" size="300,54" font="Regular;20" halign="center" valign="bottom" foregroundColor="#707070" backgroundColor="header" transparent="1" zPosition="1">
+			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
 		<!-- SAT POSITION -->
 		<widget source="ServiceEvent" render="Label" position="1174,903" size="720,30" foregroundColor="ltbluette" backgroundColor="header" font="Regular;25" valign="center" halign="center" transparent="1" zPosition="1">

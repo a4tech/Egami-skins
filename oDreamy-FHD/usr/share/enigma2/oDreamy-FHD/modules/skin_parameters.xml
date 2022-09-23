@@ -55,7 +55,7 @@
 		<parameter name="ServiceInfo" value="0,0,450,50" />
 		<parameter name="ServiceInfoLeft" value="5,5,450,45" />
 		<parameter name="ServiceInfoRight" value="450,5,1000,45" />
-		<parameter name="SelectionListDescr" value="75,5,1000,50" />
+		<parameter name="SelectionListDescr" value="75,10,1000,50" />
 		<parameter name="SelectionListLock" value="10,7,50,50" />
 		<parameter name="SelectionListLockOff" value="10,7,50,50" />
 		<parameter name="VirtualKeyBoard" value="68,68" />
@@ -136,7 +136,8 @@
 		<title offset="130,15" font="Regular;40" />
 		<configList entryFont="Regular;28" valueFont="Regular;28" />
 		<scrolllabel scrollbarWidth="8" scrollbarBorderWidth="1" />
- 		<listbox scrollbarWidth="8" scrollbarBorderWidth="1" enableWrapAround="1" />
+ 		<!--<listbox scrollbarWidth="8" scrollbarBorderWidth="1" enableWrapAround="1" />-->
+		<listbox scrollbarWidth="8" scrollbarBorderWidth="1" pageSize="0" scrollbarOffset="5"/>
 		<color name="Background" color="background" />
 		<color name="LabelForeground" color="#ffffff" />
 		<color name="ListboxBackground" color="background" />

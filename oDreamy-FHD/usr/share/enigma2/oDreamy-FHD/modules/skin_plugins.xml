@@ -6149,13 +6149,13 @@
 
 	<screen name="PluginHiderSetup" title="PluginHider Setup" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="s_RGYB" />
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<widget name="tabbar" size="320,25" alphatest="blend" position="925,910" zPosition="1" pixmaps="/usr/share/enigma2/skin_default/epg_now.png,/usr/share/enigma2/skin_default/epg_next.png,/usr/share/enigma2/skin_default/epg_more.png" />
 		<widget source="plugins" render="Label" position="925,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
 		<widget source="extensions" render="Label" position="1031,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
 		<widget source="eventinfo" render="Label" position="1136,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
-		<widget name="list" position="70,180" size="830,700" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
+		<widget name="list" position="70,180" size="830,750" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="2" />
 	</screen>
 </skin>
