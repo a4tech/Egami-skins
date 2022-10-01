@@ -472,13 +472,13 @@
 	</screen>
 	<!--  EGAMI Plugin Addons Preview FHD -->
 	<screen name="EGAddonInfo" position="fill" title="EGAMI Addon Informations" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
+		<panel name="fakeExitNoButton" />
 		<widget name="image" position="70,180" size="800,420" alphatest="on" />
 		<widget name="text" position="70,670" size="840,240" font="Regular;30" backgroundColor="#10202020" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/animation_setup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!--  EGAMI Internet Addons FHD -->
 	<screen name="EG_InternetAddons" position="fill" title="EGAMI Internet Addons" backgroundColor="transparent" flags="wfNoBorder">
@@ -2003,6 +2003,8 @@
 	<screen name="TimeshiftState" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="InfoBar">
 		<panel name="Bottom" />
 		<widget source="session.CurrentService" position="20,341" size="280,437" render="EGPoster" zPosition="2" alphatest="blend" />
+		<widget name="eventname" position="75,60" size="0,0" font="Regular;18" halign="center" foregroundColor="bluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="state" position="center,center" size="0,0" font="Regular;120" halign="center" foregroundColor="black" borderColor="white" borderWidth="3" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="PTSSeekBack" position="25,43" size="0,0" pixmap="oDreamy-FHD/icons/slider_back.png" alphatest="blend" zPosition="4" />
 		<widget name="PTSSeekPointer" position="10,40" size="0,0" pixmap="oDreamy-FHD/icons/position_pointer2.png" alphatest="blend" zPosition="4" />
 		<widget name="statusicon" alphatest="on" pixmaps="oDreamy-FHD/icons/splay.png,oDreamy-FHD/icons/spause.png,oDreamy-FHD/icons/sstop.png,oDreamy-FHD/icons/sbackward.png,oDreamy-FHD/icons/sforward.png,oDreamy-FHD/icons/sslow.png" position="20,848" size="175,175" zPosition="5" transparent="1" />

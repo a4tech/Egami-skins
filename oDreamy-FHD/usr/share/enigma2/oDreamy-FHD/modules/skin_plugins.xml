@@ -5665,19 +5665,6 @@
 		<widget name="copyright" position="70,800" size="750,40" valign="center" halign="center" font="Regular;30" transparent="1" foregroundColor="white" />
 	</screen>
 
-	<screen name="SubsControllerDVB" position="fill" zPosition="2" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<widget name="subtitle" position="70,180" size="800,50" valign="center" halign="left" font="Regular;30" transparent="1" foregroundColor="white" shadowColor="#40101010" shadowOffset="2,2" />
-		<widget name="subtitlesTime" position="180,230" size="800,50" valign="center" halign="left" font="Regular;30" transparent="1" foregroundColor="white" shadowColor="#40101010" shadowOffset="2,2" />
-		<widget name="subtitlesPosition" position="180,380" size="800,50" valign="center" halign="left" font="Regular;30" transparent="1" foregroundColor="white" shadowColor="#40101010" shadowOffset="2,2" />
-		<widget name="subtitlesFps" position="180,430" size="800,50" valign="center" halign="left" font="Regular;30" transparent="1" foregroundColor="#6F9EF5" shadowColor="#40101010" shadowOffset="2,2" />
-		<widget name="eventName" position="180,480" size="800,50" valign="center" halign="left" font="Regular;30" transparent="1" foregroundColor="white" shadowColor="#40101010" shadowOffset="2,2" />
-		<widget name="eventTime" position="180,530" size="800,50" valign="center" halign="left" font="Regular;30" transparent="1" foregroundColor="white" shadowColor="#40101010" shadowOffset="2,2" />
-		<widget name="eventDuration" position="180,80" size="800,50" valign="center" halign="left" font="Regular;30" transparent="1" foregroundColor="white" shadowColor="#40101010" shadowOffset="2,2" />
-	</screen>
-
 	<screen name="XXXCaptchDialog" position="center,center" size="560,460" zPosition="99" title="Virtual keyboard">
 		<ePixmap pixmap="oDreamy-FHD/skin_default/vkey_text.png" position="9,165" zPosition="-4" size="542,52" alphatest="on" />
 		<widget source="country" render="Pixmap" position="490,0" size="60,40" alphatest="on" borderWidth="2" borderColor="yellow" >
