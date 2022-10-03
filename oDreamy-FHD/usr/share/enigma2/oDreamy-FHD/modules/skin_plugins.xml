@@ -1,4 +1,58 @@
 <skin>
+	<!-- tailscaleVpn -->
+	<screen name="TailscaleSetup" position="fill" title="Tailscale Settings" flags="wfNoBorder" backgroundColor="transparent" >
+		<panel name="s_RGYB" />
+		<panel name="p800_Template"/>
+		<panel name="Ex"/>
+		<panel name="p800_Ext_BiN" />
+		<panel name="p800_Date" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget name="description" position="1290,560" size="550,450" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="config" position="70,180" font="Regular;30" itemHeight="40" valign="center" size="1170,720" backgroundColorSelected="bluette" backgroundColor="bluette" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
+	</screen>
+	<!-- TailscaleNetwork -->
+	<screen name="TailscaleNetwork" position="0,0" size="1920,1080" title="Tailscale Network" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p800_Template"/>
+		<panel name="p800_Logo"/>
+		<panel name="p800_DateMid"/>
+		<panel name="M"/>
+		<panel name="s_RGYB"/>
+		<widget name="lblStatus" position="70,170" size="733,34" font="Regular;30" foregroundColor="ltbluette" zPosition="2" />
+		<widget source="list" render="Listbox" position="70,200" size="800,700" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" transparent="1" >
+			<convert type="TemplatedMultiContent">
+				{ "template": [ MultiContentEntryText(pos=(110,5), size=(710,35), font=0, text=4),
+				MultiContentEntryPixmapAlphaBlend(pos=(10,20),size = (80,80), png=1, flags = BT_SCALE | BT_KEEP_ASPECT_RATIO),
+				MultiContentEntryPixmapAlphaBlend(pos=(15,20),size = (70,70), png=2, flags = BT_SCALE | BT_KEEP_ASPECT_RATIO),
+				MultiContentEntryText(pos=(110,42), size=(710,60), font=1, text=3, color=0xa0a0a0),
+				MultiContentEntryPixmapAlphaBlend(pos=(0,0), size=(800,2), png=5, flags = BT_SCALE | BT_KEEP_ASPECT_RATIO)],
+				"fonts": [gFont("Regular",30),gFont("Regular",24)],
+				"itemHeight": 112
+				}
+			</convert>
+		</widget>
+		<ePixmap position="950,550" size="256,256" zPosition="2" pixmap="oDreamy-FHD/icons/tailscale.png" transparent="1" alphatest="blend" />
+	</screen>
+	<!-- TailscaleUser -->
+	<screen name="TailscaleUser" position="0,0" size="1920,1080" title="Devices in your network" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p800_Template_notime"/>
+		<panel name="p800_Logo"/>
+		<panel name="p800_DateMid"/>
+		<panel name="s_RGYB"/>
+		<widget name="lblStatus" position="70,170" size="733,34" font="Regular;30" foregroundColor="ltbluette" zPosition="2" />
+		<widget source="list" render="Listbox" position="70,210" size="800,700" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" transparent="1" >
+			<convert type="TemplatedMultiContent">
+				{ "template": [ MultiContentEntryText(pos=(15,5),size=(800,45),font=0,text=2),
+				MultiContentEntryText(pos=(15,42),size=(800,66),font=1,text=1),
+				MultiContentEntryText(pos=(15,72),size=(800,66),font=1,text=3,color=0xa0a0a0),
+				MultiContentEntryPixmapAlphaBlend(pos=(0,0), size=(800,3), png=4)],
+				"fonts": [gFont("Regular",32),gFont("Regular",24)],
+				"itemHeight": 112
+				}
+			</convert>
+		</widget>
+		<ePixmap position="950,550" size="256,256" zPosition="2" pixmap="oDreamy-FHD/icons/tailscale.png" transparent="1" alphatest="blend" />
+	</screen>
 	<!-- EGAMIVpn -->
 	<screen name="EgamiVpn" position="fill" title="EGAMI Vpn" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="p800_Template" />
