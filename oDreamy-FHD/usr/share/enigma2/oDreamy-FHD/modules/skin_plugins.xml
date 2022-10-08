@@ -16,7 +16,7 @@
 		<panel name="p800_Template"/>
 		<panel name="p800_Logo"/>
 		<panel name="p800_DateMid"/>
-		<panel name="M"/>
+		<panel name="MI"/>
 		<panel name="s_RGYB"/>
 		<widget name="lblStatus" position="70,170" size="733,34" font="Regular;30" foregroundColor="ltbluette" zPosition="2" />
 		<widget source="list" render="Listbox" position="70,210" size="800,700" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" transparent="1" >
