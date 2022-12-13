@@ -136,7 +136,6 @@
 		<title offset="130,15" font="Regular;40" />
 		<configList entryFont="Regular;28" valueFont="Regular;28" />
 		<scrolllabel scrollbarWidth="8" scrollbarBorderWidth="1" />
- 		<!--<listbox scrollbarWidth="8" scrollbarBorderWidth="1" enableWrapAround="1" />-->
 		<listbox scrollbarWidth="8" scrollbarBorderWidth="1" pageSize="0" scrollbarOffset="5"/>
 		<color name="Background" color="background" />
 		<color name="LabelForeground" color="#ffffff" />
@@ -193,9 +192,9 @@
 		<color name="WindowTitleBackground" color="black" />
 	</windowstyle>
 	<subtitles>
-		<sub name="Subtitle_TTX" font="Regular;45" shadowColor="#40101010" shadowOffset="5,5" />
-		<sub name="Subtitle_Regular" font="Regular;45" foregroundColor="#00dcdcdc" shadowColor="#40101010" shadowOffset="5,5" />
-		<sub name="Subtitle_Bold" font="Replacement;45" foregroundColor="#00dcdcdc" shadowColor="#40101010" shadowOffset="5,5" />
-		<sub name="Subtitle_Italic" font="Regular;45" foregroundColor="#00dcaaaa" shadowColor="#40101010" shadowOffset="5,5" />
+		<sub name="Subtitle_TTX" font="Regular;45" shadowColor="#40101010" shadowOffset="5,5" borderWidth="3" />
+		<sub name="Subtitle_Regular" font="Regular;45" foregroundColor="#00dcdcdc" shadowColor="#40101010" shadowOffset="5,5" borderWidth="3" />
+		<sub name="Subtitle_Bold" font="Replacement;45" foregroundColor="#00dcdcdc" shadowColor="#40101010" shadowOffset="5,5" borderWidth="3" />
+		<sub name="Subtitle_Italic" font="Regular;45" foregroundColor="#00dcaaaa" shadowColor="#40101010" shadowOffset="5,5" borderWidth="3" />
 	</subtitles>
 </skin>

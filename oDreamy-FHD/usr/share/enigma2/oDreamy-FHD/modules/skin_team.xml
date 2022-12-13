@@ -603,7 +603,7 @@
 		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
-		<widget source="options" render="Label" position="2,130" size="0,0" halign="center" font="Regular; 22" backgroundColor="header" foregroundColor="#00ffffff" />
+		<widget source="options" render="Label" position="2,130" size="0,0" halign="center" font="Regular;22" backgroundColor="header" foregroundColor="#00ffffff" />
 		<widget source="description" render="Label" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" enableWrapAround="1" scrollbarMode="showAlways" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -1931,7 +1931,7 @@
     <eLabel text=" -5m" position="1798,712" size="100,35" font="Regular;28" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1"/>
     <ePixmap position="0,0" size="1920,1080" name="InfoBar" zPosition="-9" pixmap="oDreamy-FHD/icons/sinfobar.png" transparent="1" />
     <eLabel backgroundColor="#006e6e6e" position="210,885" size="1690,1" />
-    <widget font="Regular; 38" noWrap="1" position="220,819" render="Label" size="1430,55" source="session.CurrentService" transparent="1" backgroundColor="header">
+    <widget font="Regular;38" noWrap="1" position="220,819" render="Label" size="1430,55" source="session.CurrentService" transparent="1" backgroundColor="header">
       <convert type="ServiceName">Name</convert>
     </widget>
     <widget font="Regular;30" halign="right" position="1680,838" render="Label" size="200,40" source="global.CurrentTime" transparent="1" backgroundColor="header">
@@ -1966,6 +1966,11 @@
 	<!-- Timeshift state -->
 	<screen name="Bottom" flags="wfNoBorder">
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/sico_tv.png" position="1347,1008" size="507,36" zPosition="1" />
+		<ePixmap pixmap="oDreamy-FHD/icons/vpnoff.png" position="1348,1008" size="60,32" alphatest="blend" transparent="1" />
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/vpnon.png" position="1348,1008" size="60,32" zPosition="2" alphatest="blend">
+			<convert type="EGVpn">vpn</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
     <widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/shbbtv_on.png" position="1425,1008" size="48,36" zPosition="2" alphatest="blend">
       <convert type="ServiceInfo">HasHBBTV</convert>
       <convert type="ConditionalShowHide" />
@@ -2009,11 +2014,6 @@
 		<widget name="PTSSeekPointer" position="10,40" size="0,0" pixmap="oDreamy-FHD/icons/position_pointer2.png" alphatest="blend" zPosition="4" />
 		<widget name="statusicon" alphatest="on" pixmaps="oDreamy-FHD/icons/splay.png,oDreamy-FHD/icons/spause.png,oDreamy-FHD/icons/sstop.png,oDreamy-FHD/icons/sbackward.png,oDreamy-FHD/icons/sforward.png,oDreamy-FHD/icons/sslow.png" position="20,848" size="175,175" zPosition="5" transparent="1" />
 		<widget name="speed" backgroundColor="background" font="Regular;30" halign="center" valign="center" position="51,789" size="114,50" transparent="1" zPosition="1" />
-		<ePixmap pixmap="oDreamy-FHD/icons/vpnoff.png" position="1275,1008" size="60,32" alphatest="blend" transparent="1" />
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/vpnon.png" position="1275,1008" size="60,32" zPosition="2" alphatest="blend">
-			<convert type="EGVpn">vpn</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
 		<ePixmap pixmap="oDreamy-FHD/icons/vod_1.png" position="1429,704" size="45,44" alphatest="blend" transparent="1"/>
     <ePixmap pixmap="oDreamy-FHD/icons/vod_3.png" position="1429,757" size="45,44" alphatest="blend" transparent="1"/>
     <ePixmap pixmap="oDreamy-FHD/icons/vod_4.png" position="1586,703" size="45,44" alphatest="blend" transparent="1"/>
@@ -2028,7 +2028,7 @@
     <eLabel text=" -5m" position="1798,712" size="100,35" font="Regular;28" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1"/>
     <ePixmap position="0,0" size="1920,1080" name="InfoBar" zPosition="-9" pixmap="oDreamy-FHD/icons/sinfobar.png" transparent="1" />
     <eLabel backgroundColor="#006e6e6e" position="210,885" size="1690,1" />
-    <widget font="Regular; 38" noWrap="1" position="220,819" render="Label" size="1430,55" source="session.CurrentService" transparent="1" backgroundColor="header">
+    <widget font="Regular;38" noWrap="1" position="220,819" render="Label" size="1430,55" source="session.CurrentService" transparent="1" backgroundColor="header">
       <convert type="ServiceName">Name</convert>
     </widget>
     <widget font="Regular;30" halign="right" position="1680,838" render="Label" size="200,40" source="global.CurrentTime" transparent="1" backgroundColor="header">
@@ -5208,7 +5208,7 @@
 		<widget name="ErrorPixmap" pixmap="oDreamy-FHD/icons/input_error.png" position="12,12" size="80,80" alphatest="blend" scale="1" transparent="1" />
 		<widget name="QuestionPixmap" pixmap="oDreamy-FHD/icons/input_question.png" position="12,12" size="80,80" alphatest="blend" scale="1" transparent="1" />
 		<widget name="text" position="15,120" size="1170,75" font="Regular;32" valign="center" halign="center" backgroundColor="header" foregroundColor="white" />
-		<widget name="list" position="15,210" size="1170,360" itemHeight="45" font="Regular;32" scrollbarBorderWidth="1" scrollbarWidth="12" scrollbarForegroundColor="ltbluette" scrollbarBorderColor="ltbluette" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" foregroundColorSelected="white" backgroundColor="header" foregroundColor="white" transparent="1" />
+		<widget name="list" position="15,210" size="1170,360" textPadding="15,0" itemHeight="45" font="Regular;32" scrollbarBorderWidth="1" scrollbarWidth="12" scrollbarForegroundColor="ltbluette" scrollbarBorderColor="ltbluette" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" foregroundColorSelected="white" backgroundColor="header" foregroundColor="white" transparent="1" />
 		<applet type="onLayoutFinish">
 # this should be factored out into some helper code,but currently demonstrates applets.
 from __future__ import division
