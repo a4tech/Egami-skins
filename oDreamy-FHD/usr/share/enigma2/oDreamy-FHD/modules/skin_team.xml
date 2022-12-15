@@ -438,13 +438,12 @@
 	</screen>
 	<!--  EGAMI SoftCam CCCam Info FHD -->
 	<screen name="EGSoftCamInfo" position="fill" title="EGAMI Softcam Info" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="Ex" />
+		<panel name="fakeExitNoButton" />
 		<ePixmap pixmap="oDreamy-FHD/menu/camcenter.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="menu" position="70,180" size="840,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!--  EGAMI EmuInfo Scripts FHD -->
 	<screen name="EGEmuInfoScript" position="fill" title="EGAMI Emu Info Scripts" backgroundColor="transparent" flags="wfNoBorder">
