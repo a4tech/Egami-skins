@@ -5065,15 +5065,14 @@
 		<widget name="cover" position="68,178" size="1160,720" alphatest="blend" backgroundColor="transparent" zPosition="2" />
 	</screen>
 
-	<!-- ********** Permanent Clock FHD ********** P095 -->
 	<!-- Permanent Clock Setup -->
 	<screen name="PermanentClockMenu" position="fill" title="Permanent Clock Setup" backgroundColor="#ff000000" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<widget name="list" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="2" />
+		<panel name="fakeExitNoButton" />
+		<widget name="list" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="955,640" size="300,300" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 
 	<!-- Permanent Clock Panel -->
