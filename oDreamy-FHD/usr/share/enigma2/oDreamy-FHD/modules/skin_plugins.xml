@@ -639,9 +639,11 @@
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
+		<panel name="M" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="pleasewait" position="70,180" size="820,280" font="Regular;32" halign="left" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget name="config" position="70,180" size="820,280" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
-		<widget name="description" position="70,500" size="820,300" font="Regular;30" halign="left" valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="config" position="70,180" size="820,495" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1" />
+		<widget name="description" position="70,650" size="820,300" font="Regular;30" halign="left" valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
 	</screen>
 	<!-- AutoBouquetsMaker Menu FHD -->
@@ -649,8 +651,10 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
-		<panel name="fakeExit" />
-		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1">
+		<panel name="M" />
+		<!--<panel name="fakeExit" />-->
+		<panel name="s_RGYB" />
+		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryPixmapAlphaTest(pos = (12, 4), size = (0, 0), png = 0),
@@ -670,22 +674,22 @@
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
 		<widget name="pleasewait" position="70,180" size="820,400" font="Regular;32" halign="left" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget name="config" position="70,180" size="820,400" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
+		<widget name="config" position="70,180" size="820,400" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<widget name="description" position="70,620" size="820,210" font="Regular;30" halign="left" valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
 	</screen>
 	<!-- AutoBouquetsMaker Hide Selection FHD -->
 	<screen name="AutoBouquetsMaker_HideSections" title="AutoBouquet Maker Hide" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
-		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1">
+		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" backgroundColor="header" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryPixmapAlphaTest(pos = (10, 0), size = (0, 0), png = 0),
-					MultiContentEntryText(pos = (5, 2), size = (500, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
-					MultiContentEntryText(pos = (550, 0), size = (250, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
+					MultiContentEntryText(pos = (10, 3), size = (500, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
+					MultiContentEntryText(pos = (550, 3), size = (250, 30), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2),
 					],
 					"fonts": [gFont("Regular", 32)],
 					"itemHeight": 45
@@ -701,7 +705,7 @@
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
 		<widget name="pleasewait" position="70,180" size="720,180" font="Regular;30" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarMode="showOnDemand">
+		<widget source="list" render="Listbox" position="70,180" size="820,720" backgroundColorSelected="bluette" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (5, 1), size = (810, 45), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1),
@@ -718,7 +722,8 @@
 		<panel name="p800_Template" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
-		<panel name="fakeExit" />
+		<panel name="s_RGYB" />
+		<panel name="M" />
 		<widget name="list" position="70,180" size="820,720" font="Console;20" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
 	</screen>
@@ -728,8 +733,9 @@
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
+		<panel name="M" />
 		<widget name="about" position="70,180" size="820,600" font="Regular;30" backgroundColor="header" transparent="1" />
-		<widget name="oealogo" position="600,660" size="200,135" zPosition="4" transparent="1" alphatest="blend" />
+		<widget name="oealogo" position="600,660" size="0,0" zPosition="4" transparent="1" alphatest="blend" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
 	</screen>
 	<!-- Picture Player Setup FHD -->
