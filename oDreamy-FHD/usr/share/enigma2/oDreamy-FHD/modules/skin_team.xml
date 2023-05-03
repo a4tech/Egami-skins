@@ -1198,7 +1198,8 @@
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
-		<widget source="list" render="Listbox" position="70,180" size="840,720" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
+		<widget name="list" position="70,155" size="840,760" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<!--<widget source="list" render="Listbox" position="70,180" size="840,720" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 				MultiContentEntryText(pos = (170, 2), size = (650, 36), font=0, text = 0),
@@ -1209,7 +1210,7 @@
 				"itemHeight": 72
 				}
 			</convert>
-		</widget>
+		</widget>-->
 		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  EGAMI Plugin Addons FHD -->
