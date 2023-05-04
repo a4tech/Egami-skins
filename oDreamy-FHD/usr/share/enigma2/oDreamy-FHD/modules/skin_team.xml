@@ -1193,11 +1193,9 @@
 	</screen>
 	<!--  EGAMI Plugin FHD -->
 	<screen name="EGGreenPanel" position="fill" title="EGAMI Green Panel" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime_plugin" />
 		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<panel name="Ex" />
 		<widget name="list" position="70,155" size="840,760" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<!--<widget source="list" render="Listbox" position="70,180" size="840,720" zPosition="3" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">

@@ -441,6 +441,22 @@
 		</widget>
 	</screen>
 
+	<!-- P800 Template FHD -->
+	<screen name="p800_Template_notime_plugin" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
+		<!-- 800p Upper Panel -->
+		<eLabel position="50,30" size="1200,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,32" size="1196,92" backgroundColor="header" transparent="0" zPosition="-10" />
+		<!-- Code -->
+		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<widget source="Title" render="Label" position="150,30" size="800,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
+		<!-- Middle -->
+		<eLabel position="50,140" size="1200,800" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,142" size="1196,796" backgroundColor="header" transparent="0" zPosition="-10" />
+		<!-- Footer -->
+		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
+		<eLabel position="52,957" size="1196,92" backgroundColor="header" transparent="0" zPosition="-10" />
+	</screen>
+
 	<!-- P1800 Template FHD -->
 	<screen name="p1800_Template" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- Footer -->
