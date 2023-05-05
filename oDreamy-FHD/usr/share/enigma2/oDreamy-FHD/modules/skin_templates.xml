@@ -586,9 +586,9 @@
 	<!-- P800 Date FHD -->
 	<screen name="p800_Date" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- Date -->
-		<!--<widget source="key_help" render="Label" position="1080,58" conditional="key_help" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+		<widget source="key_help" render="Label" position="1080,58" conditional="key_help" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
-		</widget>-->
+		</widget>
 		<widget source="key_info" render="Label" position="1290,58" conditional="key_info" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
