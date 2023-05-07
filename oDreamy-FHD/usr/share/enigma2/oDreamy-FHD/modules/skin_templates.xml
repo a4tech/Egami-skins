@@ -38,18 +38,18 @@
 	<!-- Weather infobar -->
 	<screen name="Weather_infobar">
 		<!-- Weather infobar -->
-		<widget alphatest="blend" render="MSNWeatherPixmap" position="20,20" size="150,113" source="session.MSNWeather" transparent="1" zPosition="1">
-			<convert type="MSNWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
-		</widget>
-		<widget noWrap="1" backgroundColor="background" font="Regular;30" render="Label" position="180,20" size="450,39" source="session.MSNWeather" zPosition="1" halign="left" transparent="1" foregroundColor="white">
-			<convert type="MSNWeather">temperature_text,current</convert>
-		</widget>
-		<widget noWrap="1" backgroundColor="background" font="Regular;48" render="Label" position="180,55" size="150,68" source="session.MSNWeather" transparent="1" zPosition="1" halign="left" foregroundColor="white" text="45 `C" valign="top">
-			<convert type="MSNWeather">temperature_current</convert>
-		</widget>
-		<widget noWrap="1" backgroundColor="background" font="Regular;30" render="Label" foregroundColor="ltbluette" position="180,110" size="449,62" source="session.MSNWeather" zPosition="5" halign="left" transparent="1">
-			<convert type="MSNWeather">city</convert>
-		</widget>
+		<widget alphatest="blend" render="OAWeatherPixmap" position="20,20" size="150,113" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
+	    <convert type="OAWeather">weathericon,current</convert>
+	  </widget>
+		<widget noWrap="1" backgroundColor="background" font="Regular; 30" position="180,20" size="450,39" foregroundColor="white" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">temperature_current</convert>
+	  </widget>
+		<widget font="Regular; 32" position="180,60" size="450,69" backgroundColor="background" foregroundColor="white" zPosition="5" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">temperature_text,current</convert>
+	  </widget>
+		<widget font="Regular; 30" position="180,110" size="449,62" backgroundColor="background" foregroundColor="ltbluette" zPosition="5" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">city</convert>
+	  </widget>
 	</screen>
 	<!-- wifi/lan -->
 	<screen name="wifi_lan">

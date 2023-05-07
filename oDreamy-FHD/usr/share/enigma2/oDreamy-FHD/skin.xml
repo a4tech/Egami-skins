@@ -334,22 +334,22 @@
 		</widget>
 		<!-- ***** Meteo Panel ***** -->
 		<eLabel position="50,30" size="390,195" backgroundColor="header" zPosition="-1" />
-		<widget render="MSNWeatherPixmap" source="session.MSNWeather" position="55,30" size="120,120" zPosition="2" alphatest="blend">
-			<convert type="MSNWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/msn/msn3d/,png</convert>
-		</widget>
+		<widget alphatest="blend" render="OAWeatherPixmap" position="55,30" size="120,120" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
+	    <convert type="OAWeather">weathericon,current</convert>
+	  </widget>
 		<!-- ***** Temperature ***** -->
 		<ePixmap position="190,40" size="25,50" pixmap="oDreamy-FHD/msn/temp.png" alphatest="blend" scale="1" zPosition="1" />
-		<widget source="session.MSNWeather" render="Label" position="230,40" size="150,60" font="Regular;50" halign="left" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="20">
-			<convert type="MSNWeather">temperature_current</convert>
-		</widget>
-		<widget source="session.MSNWeather" render="Label" position="190,100" size="230,80" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="20">
-			<convert type="MSNWeather">city</convert>
-		</widget>
+		<widget noWrap="1" backgroundColor="header" font="Regular; 50" position="230,40" size="150,60" foregroundColor="red" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">temperature_current</convert>
+	  </widget>
+		<widget font="Regular; 28" position="190,100" size="230,80" backgroundColor="background" foregroundColor="white" zPosition="20" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">city</convert>
+	  </widget>
 		<!-- ***** Wind ***** -->
 		<ePixmap position="65,150" size="60,60" pixmap="oDreamy-FHD/msn/wind.png" alphatest="blend" scale="1" zPosition="1" />
-		<widget source="session.MSNWeather" render="Label" position="80,182" size="365,40" font="Regular;28" halign="left" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="20">
-			<convert type="MSNWeather">winddisplay</convert>
-		</widget>
+		<widget font="Regular;24" position="80,182" size="365,40" foregroundColor="yellow" backgroundColor="header" zPosition="3" transparent="1" halign="left" noWrap="1" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">winddisplay</convert>
+	  </widget>
 		<!-- ***** Sat Panel ***** -->
 		<eLabel position="50,235" size="390,175" backgroundColor="header" zPosition="-1" />
 		<!-- ***** Icon ***** -->
