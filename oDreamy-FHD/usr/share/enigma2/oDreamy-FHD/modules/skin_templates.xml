@@ -38,18 +38,29 @@
 	<!-- Weather infobar -->
 	<screen name="Weather_infobar">
 		<!-- Weather infobar -->
-		<widget alphatest="blend" render="OAWeatherPixmap" position="20,20" size="150,113" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
+		<widget noWrap="1" backgroundColor="header" font="Regular; 50" position="185,24" size="150,60" foregroundColor="ltbluette" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">temperature_current</convert>
+	  </widget>
+	  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/temperature_high.png" position="195,120" size="32,32" zPosition="3" transparent="1" alphatest="blend" scale="1" />
+		<widget noWrap="1" font="Regular; 28" position="227,121" size="450,39" backgroundColor="background" zPosition="3" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">temperature_high,current</convert>
+	  </widget>
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/temperature_low.png" position="195,85" size="32,32" zPosition="3" transparent="1" alphatest="blend" scale="1" />
+	  <widget noWrap="1" font="Regular; 28" position="227,86" size="450,39" backgroundColor="background" zPosition="3" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">temperature_low,current</convert>
+	  </widget>
+		<widget alphatest="blend" render="OAWeatherPixmap" position="20,20" size="150,128" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
 	    <convert type="OAWeather">weathericon,current</convert>
 	  </widget>
-		<widget noWrap="1" backgroundColor="background" font="Regular; 30" position="180,20" size="450,39" foregroundColor="white" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
+		<!--<widget noWrap="1" backgroundColor="background" font="Regular; 30" position="180,20" size="450,39" foregroundColor="white" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
 	    <convert type="OAWeather">temperature_current</convert>
 	  </widget>
 		<widget font="Regular; 32" position="180,60" size="450,69" backgroundColor="background" foregroundColor="white" zPosition="5" transparent="1" halign="left" render="Label" source="session.OAWeather">
 	    <convert type="OAWeather">temperature_text,current</convert>
 	  </widget>
-		<widget font="Regular; 30" position="180,110" size="449,62" backgroundColor="background" foregroundColor="ltbluette" zPosition="5" transparent="1" halign="left" render="Label" source="session.OAWeather">
+		<widget font="Regular; 30" position="185,105" size="449,62" backgroundColor="background" foregroundColor="ltbluette" zPosition="5" transparent="1" halign="left" render="Label" source="session.OAWeather">
 	    <convert type="OAWeather">city</convert>
-	  </widget>
+	  </widget>-->
 	</screen>
 	<!-- wifi/lan -->
 	<screen name="wifi_lan">
