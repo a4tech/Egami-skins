@@ -4954,9 +4954,8 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/startboot.png" alphatest="blend" />
 		<widget name="stepslider" position="1480,580" size="0,0" zPosition="1" />
 		<widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
-		<widget name="text" position="70,180" size="820,300" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel position="70,470" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget source="list" render="Listbox" position="70,500" size="820,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
+		<widget name="text" position="70,180" size="820,400" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget source="list" render="Listbox" position="70,500" size="840,420" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (10, 2), size = (800, 38), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 32)],
@@ -4964,7 +4963,7 @@
 				}
 			</convert>
 		</widget>
-		<widget name="config" position="70,500" size="820,320" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="5" />
+		<widget name="config" position="70,500" size="840,420" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="5" />
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
@@ -5009,7 +5008,7 @@
 		<!-- Code -->
 		<ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
-		<widget name="wizard" position="1480,580" size="200,294" pixmap="oDreamy-FHD/menu/wizard.png" alphatest="blend" zPosition="1" />
+		<epixmap pixmap="oDreamy-FHD/menu/wizard.png" position="1480,580" size="200,294" alphatest="blend" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/icons/info_on.png" position="70,200" size="40,40" zPosition="10" alphatest="blend" />
 		<widget source="statusbar" render="Label" position="70,150" size="820,250" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
