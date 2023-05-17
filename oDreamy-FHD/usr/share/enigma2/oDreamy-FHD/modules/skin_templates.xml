@@ -31,7 +31,7 @@
 			<convert type="EGExtraInfo">CamName</convert>
 		</widget>
 		<!-- nagra/nds/etc -->
-		<widget source="session.CurrentService" render="Label" position="680,100" size="240,26" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" zPosition="1">
+		<widget source="session.CurrentService" render="Label" position="670,100" size="230,26" font="Regular;23" halign="center" foregroundColor="white" backgroundColor="header" zPosition="1">
 			<convert type="CaidInfo2">CryptInfo2</convert>
 		</widget>
 	</screen>
