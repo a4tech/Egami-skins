@@ -50,7 +50,7 @@
 	    <convert type="OAWeather">temperature_low,current</convert>
 	  </widget>
 		<widget alphatest="blend" render="OAWeatherPixmap" position="20,20" size="150,128" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
-	    <convert type="OAWeather">weathericon,current</convert>
+	    <convert type="OAWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/WeatherIcons/,png</convert>
 	  </widget>
 		<!--<widget noWrap="1" backgroundColor="background" font="Regular; 30" position="180,20" size="450,39" foregroundColor="white" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
 	    <convert type="OAWeather">temperature_current</convert>

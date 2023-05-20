@@ -335,7 +335,7 @@
 		<!-- ***** Meteo Panel ***** -->
 		<eLabel position="50,30" size="390,195" backgroundColor="header" zPosition="-1" />
 		<widget alphatest="blend" render="OAWeatherPixmap" position="55,30" size="120,120" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
-	    <convert type="OAWeather">weathericon,current</convert>
+	    <convert type="OAWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/WeatherIcons/,png</convert>
 	  </widget>
 		<!-- ***** Temperature ***** -->
 		<widget noWrap="1" backgroundColor="header" font="Regular; 50" position="190,40" size="150,60" foregroundColor="red" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
