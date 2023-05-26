@@ -4680,13 +4680,6 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** TimeDate Imput ********** P075 -->
-	<screen name="TimeDateInput" position="fill" title="TimeDateInput" flags="wfNoBorder" backgroundColor="transparent">
-		<widget name="config" position="70,110" size="700,510" itemHeight="30" font="Regular;20" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" backgroundColorSelected="header" foregroundColorSelected="ltbluette" transparent="1" />
-		<widget name="canceltext" position="70,638" size="170,30" zPosition="1" valign="center" font="Regular;20" halign="left" noWrap="1" foregroundColor="header" backgroundColor="header" transparent="1" />
-		<widget name="oktext" position="253,638" size="170,30" zPosition="1" valign="center" font="Regular;20" halign="left" noWrap="1" foregroundColor="header" backgroundColor="header" transparent="1" />
-	</screen>
-
 	<!-- ********** Input Streaming Clients FHD ********** P076 -->
 	<screen name="StreamingClientsInfo" title="Streaming Clients" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -5299,16 +5292,19 @@
 
 	<!--  Timedate -->
 	<screen name="TimeDateInput" position="fill" title="Time Date Input" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="fakeExit" />
 		<widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="55" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" />
 		<ePixmap position="900,180" size="10,720" pixmap="box/maxbar.png" alphatest="blend" transparent="1" zPosition="4" />
 		<ePixmap pixmap="oDreamy-FHD/menu/timer_edit.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
-		<widget name="canceltext" position="110,990" zPosition="1" size="115,24" font="Regular;30" halign="center" valign="center" transparent="1" />
+		<widget name="canceltext" position="110,990" zPosition="1" size="0,0" font="Regular;30" halign="center" valign="center" transparent="1" />
 		<widget name="oktext" position="380,990" zPosition="1" size="115,24" font="Regular;30" halign="center" valign="center" transparent="1" />
+		<widget name="ok" position="110,990" zPosition="1" size="115,24" transparent="1" />
+		<widget name="cancel" position="380,990" zPosition="1" size="0,0" transparent="1" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 	</screen>
 
 	<!--  SetupMenu -->

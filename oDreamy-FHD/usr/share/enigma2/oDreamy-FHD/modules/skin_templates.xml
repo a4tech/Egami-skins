@@ -608,6 +608,16 @@
 		</widget>
 	</screen>
 
+	<screen name="p800_Date_epg" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
+		<!-- Date -->
+		<widget source="key_help" render="Label" position="1290,58" conditional="key_help" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget source="global.CurrentTime" render="Label" position="1550,30" size="300,95" font="Regular;35" halign="right" valign="center" foregroundColor="grey" backgroundColor="#101010" transparent="1" zPosition="1" >
+			<convert type="ClockToText">Format %A %d %B</convert>
+		</widget>
+	</screen>
+
 	<!-- P900 Template FHD -->
 	<screen name="p900_Template" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- 900p Upper Panel -->

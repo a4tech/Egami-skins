@@ -2858,7 +2858,7 @@
 	<screen name="GraphicalEPG" title="E.P Guide" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p8000_Template" />
 		<panel name="p8001_Ext" />
-		<panel name="p800_Date" />
+		<panel name="p800_Date_epg" />
 		<panel name="s_RGYB" />
 		<panel name="M" />
 		<widget name="timeline0" position="0,597" zPosition="1" size="0,0" />
