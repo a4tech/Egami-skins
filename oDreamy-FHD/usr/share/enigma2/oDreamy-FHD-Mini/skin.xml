@@ -68,7 +68,7 @@
 		<widget source="global.CurrentTime" render="Label" position="1576,24" size="328,54" font="Regular;30" halign="center" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
-		<widget alphatest="blend" render="OAWeatherPixmap" position="1610,77" size="50,45" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
+		<widget alphatest="blend" render="OAWeatherPixmap" position="1610,72" size="50,50" source="session.OAWeather" transparent="1" zPosition="3" scale="1">
 	    <convert type="OAWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/WeatherIcons/,png</convert>
 	  </widget>
 		<widget font="Regular; 28" position="1591,124" size="88,35" backgroundColor="background" foregroundColor="white" zPosition="1" transparent="1" halign="center" valign="center" render="Label" source="session.OAWeather">
