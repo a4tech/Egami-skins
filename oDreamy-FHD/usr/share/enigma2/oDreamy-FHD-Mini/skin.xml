@@ -61,18 +61,10 @@
 			<convert type="ValueRange">9,9</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="1684,75" size="110,84" font="Regular;70" halign="center" foregroundColor="ltbluette" backgroundColor="#101010" transparent="1" zPosition="2">
-			<convert type="ClockToText">Format:%H</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="FixedLabel" text=":" position="1783,85" size="10,52" font="Regular;70" foregroundColor="ltbluette" backgroundColor="#101010" transparent="1" halign="center" zPosition="2" valign="center">
-			<convert type="AlwaysTrue">
-			</convert>
-			<convert type="ConditionalShowHide">Blink</convert>
+		<widget source="global.CurrentTime" render="Label" position="1684,75" size="180,84" font="Regular;70" halign="center" foregroundColor="ltbluette" backgroundColor="#101010" transparent="1" zPosition="2">
+			<convert type="ClockToText">Default</convert>
 		</widget>
 		<ePixmap position="1576,23" size="326,142" pixmap="oDreamy-FHD/skin_default/clockbg.png" alphatest="blend" transparent="1" zPosition="-1" />
-		<widget source="global.CurrentTime" render="Label" position="1784,75" size="110,84" font="Regular;70" halign="center" foregroundColor="ltbluette" backgroundColor="#101010" transparent="1" zPosition="2">
-			<convert type="ClockToText">Format:%M</convert>
-		</widget>
 		<widget source="global.CurrentTime" render="Label" position="1576,24" size="328,54" font="Regular;30" halign="center" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
@@ -227,7 +219,7 @@
 		<!-- *** Time *** -->
 		<eLabel position="1693,15" size="179,38" backgroundColor="#10303030" transparent="0" zPosition="-1" />
 		<widget source="global.CurrentTime" render="Label" position="1698,15" size="169,33" font="Regular;34" halign="center" foregroundColor="ltbluette" backgroundColor="background" transparent="1">
-			<convert type="ClockToText">Format:%H:%M:%S</convert>
+			<convert type="ClockToText">Default</convert>
 		</widget>
 		<eLabel position="360,1028" size="10,45" backgroundColor="red" zPosition="1" />
 		<eLabel text="EPG" position="375,1032" size="200,40" font="Regular;34" foregroundColor="white" halign="left" backgroundColor="header" transparent="1" zPosition="10" />

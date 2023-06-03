@@ -82,15 +82,8 @@
 			<convert type="EGFrontendInfo">BER</convert>
 		</widget>
 		<!-- *** Time/Date infobar *** -->
-		<widget source="global.CurrentTime" render="Label" position="1670,910" size="110,90" font="Regular;70" halign="center" foregroundColor="#00abe9" backgroundColor="#101010" transparent="1" zPosition="2">
-			<convert type="ClockToText">Format:%H</convert>
-			</widget>
-		<widget source="global.CurrentTime" render="FixedLabel" text=":" position="1770,910" size="10,70" font="Regular;70" foregroundColor="#00abe9" backgroundColor="#101010" transparent="1" halign="center" zPosition="2" valign="center">
-			<convert type="AlwaysTrue"></convert>
-			<convert type="ConditionalShowHide">Blink</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="Label" position="1770,910" size="110,90" font="Regular;70" halign="center" foregroundColor="#00abe9" backgroundColor="#101010" transparent="1" zPosition="2">
-			<convert type="ClockToText">Format:%M</convert>
+		<widget source="global.CurrentTime" render="Label" position="1670,910" size="180,90" font="Regular;70" halign="center" foregroundColor="#00abe9" backgroundColor="#101010" transparent="1" zPosition="2">
+			<convert type="ClockToText">Default</convert>
 		</widget>
 		<widget source="global.CurrentTime" render="Label" position="1653,983" size="250,50" font="Regular;22" halign="center" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format %A %d %B</convert>
@@ -325,9 +318,9 @@
 		<eLabel position="0,910" size="1920,1" backgroundColor="bluette" zPosition="-1" />
 		<!-- *** Time *** -->
 		<eLabel position="450,30" size="1420,40" backgroundColor="header" zPosition="-1" />
-		<ePixmap position="1670,42" size="16,16" pixmap="oDreamy-FHD/icons/clock.png" alphatest="blend" scale="1" zPosition="1" />
+		<!--<ePixmap position="1670,42" size="16,16" pixmap="oDreamy-FHD/icons/clock.png" alphatest="blend" scale="1" zPosition="1" />-->
 		<widget source="global.CurrentTime" render="Label" position="1455,30" size="400,33" font="Regular;34" halign="right" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
-			<convert type="ClockToText">Format:%H:%M:%S</convert>
+			<convert type="ClockToText">Default</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="460,30" size="1000,33" font="Regular;30" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
 			<convert type="EGExtraInfo">NetInfo</convert>

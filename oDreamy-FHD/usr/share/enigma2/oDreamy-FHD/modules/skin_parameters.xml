@@ -34,6 +34,7 @@
 		<alias name="MenuList" font="Regular" size="28" height="50" />
 	</fonts>
 	<parameters>
+		<parameter name="AllowUserDatesAndTimes" value="2,2" />
 		<parameter name="ConfigListSeperator" value="500" />
 		<parameter name="ChoicelistDash" value="0,3,1000,50" />
 		<parameter name="ChoicelistName" value="85,2,1000,53" />

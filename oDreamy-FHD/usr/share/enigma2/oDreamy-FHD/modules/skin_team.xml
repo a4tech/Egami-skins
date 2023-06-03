@@ -1933,7 +1933,7 @@
       <convert type="ServiceName">Name</convert>
     </widget>
     <widget font="Regular;30" halign="right" position="1680,838" render="Label" size="200,40" source="global.CurrentTime" transparent="1" backgroundColor="header">
-      <convert type="EMCClockToText">Format:%H:%M:%S</convert>
+      <convert type="EMCClockToText">Default</convert>
     </widget>
     <eLabel backgroundColor="#00818181" position="370,937" size="1345,2" />
     <widget position="370,933" render="Progress" size="1345,10" source="session.CurrentService" transparent="1" zPosition="3" foregroundColor="#000050ef">
@@ -2030,7 +2030,7 @@
       <convert type="ServiceName">Name</convert>
     </widget>
     <widget font="Regular;30" halign="right" position="1680,838" render="Label" size="200,40" source="global.CurrentTime" transparent="1" backgroundColor="header">
-      <convert type="EMCClockToText">Format:%H:%M:%S</convert>
+      <convert type="EMCClockToText">Default</convert>
     </widget>
     <eLabel backgroundColor="#00818181" position="370,937" size="1345,2" />
     <widget position="370,933" render="Progress" size="1345,10" source="session.CurrentService" transparent="1" zPosition="3" foregroundColor="#000050ef">
@@ -3074,7 +3074,7 @@
 			<convert type="ExtraNumText">hourHand</convert>
 		</widget>
 		<widget source="global.CurrentTime" render="Label" position="1530,245" size="250,95" font="Regular;35" halign="right" valign="center" foregroundColor="ltbluette" backgroundColor="#10101010" transparent="1" zPosition="1">
-			<convert type="ClockToText">Format:%H:%M:%S</convert>
+			<convert type="ClockToText">Default</convert>
 		</widget>
 		<widget source="global.CurrentTime" render="Label" position="1490,290" size="300,95" font="Regular;20" halign="right" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format %A %d %B</convert>
@@ -4300,7 +4300,7 @@
 		<ePixmap position="1275,975" size="90,60" pixmap="oDreamy-FHD/icons/select.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="1535,970" size="80,80" pixmap="oDreamy-FHD/icons/clock50.png" alphatest="blend" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="1610,955" size="250,95" font="Regular;55" halign="right" valign="center" foregroundColor="#505050" backgroundColor="#10101010" transparent="1" zPosition="1">
-			<convert type="ClockToText">Format:%H:%M:%S</convert>
+			<convert type="ClockToText">Default</convert>
 		</widget>
 	</screen>
 	<!-- Video Enh Setup FHD -->
