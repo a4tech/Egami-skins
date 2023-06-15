@@ -1211,6 +1211,50 @@
 		</widget>-->
 		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
+
+	<!--<screen name="EGgreenList" position="0,0" size="1280,720" title="Plugin browser" flags="wfNoBorder" backgroundColor="transparent">
+		<widget source="Title" render="Label" position="58,36" foregroundColor="white" size="525,50" valign="bottom" font="Regular;34" backgroundColor="header" transparent="1" />
+		<widget source="pluginList" render="Listbox" position="70,180" size="840,720" listOrientation="vertical" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+				MultiContentEntryText(pos = (170, 2), size = (650, 36), font=0, text = 0),
+				MultiContentEntryText(pos = (170, 36), size = (650, 34), font=1, color = 0x6da6ff, text = 1),
+				MultiContentEntryPixmapAlphaTest(pos = (6, 5), size = (150, 60), png = 2, flags = BT_SCALE),
+				],
+				"fonts": [gFont("Regular", 32),gFont("Regular", 28)],
+				"itemHeight": 72
+				}
+			</convert>
+		</widget>
+		<panel name="p800_Template_notime_plugin" />
+		<panel name="p800_Logo" />
+		<panel name="s_RGYB" />
+		<eLabel text="Extensions" position="5,535" size="1280,200" font="Regular;100" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="white" valign="bottom" zPosition="-50" />
+		<widget name="quickselect" position="50,80" size="760,525" backgroundColor="header" foregroundColor="white" font="Regular;100" halign="center" transparent="1" valign="center" zPosition="+1" />
+	</screen>
+
+	<screen name="EGgreenGrid" position="0,0" size="1280,720" title="Plugin browser" flags="wfNoBorder" backgroundColor="transparent">
+		<widget source="Title" render="Label" position="58,36" foregroundColor="white" size="525,50" valign="bottom" font="Regular;34" backgroundColor="header" transparent="1" />
+		<widget name="description" position="58,90" size="e-100,50" font="screen_text;20" valign="center"/>
+		<widget source="pluginGrid" render="Listbox" position="130,150" size="1020,440" scrollbarMode="showAlways" listOrientation="grid">
+			<convert type="TemplatedMultiContent">
+				{
+					"template": [
+						MultiContentEntryText(pos = (0, 0), size = (200, 110), font=0),
+						MultiContentEntryText(pos = (4, 4), size = (192, 102), font=0, backcolor = 0x505050),
+						MultiContentEntryText(pos = (5, 50), size = (190, 50), font=0, flags = RT_VALIGN_CENTER|RT_HALIGN_CENTER|RT_WRAP, text = 1),
+						MultiContentEntryPixmapAlphaBlend(pos=(50, 10), size=(100, 40), png=3, flags=BT_SCALE)
+					],
+					"fonts": [gFont("Regular", 18),gFont("Regular", 14)],
+					"itemWidth" : 200,
+					"itemHeight" : 110
+				}
+			</convert>
+		</widget>
+		<eLabel text="Extensions" position="5,535" size="1280,200" font="global_large_screen;100" noWrap="0" backgroundColor="text-background" transparent="1" foregroundColor="background-text" valign="bottom" zPosition="-50" />
+		<widget name="quickselect" position="50,80" size="760,525" backgroundColor="text-background" foregroundColor="background-text" font="global_large_screen;100" halign="center" transparent="1" valign="center" zPosition="+1" />
+	</screen>-->
+
 	<!--  EGAMI Plugin Addons FHD -->
 	<screen name="EGAddonMenu" position="fill" title="EGAMI Addons Panel" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template_notime" />
@@ -2362,6 +2406,16 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+	</screen>
+	<!-- KexecInit FHD -->
+	<screen name="KexecInit" title="Kexec MultiBoot Manager" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template_notime" />
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
+		<widget source="key_help" render="Label" position="1080,988" conditional="key_help" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget name="description" position="70,180" size="1170,730" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 	<!-- Slim Channel Selection FHD -->
 	<screen name="SlimChannelSelection" title="Slim Channel Selection" position="fill" backgroundColor="transparent" flags="wfNoBorder">
