@@ -1,4 +1,74 @@
 <skin>
+
+	<screen name="satellitesConfigScreen" position="0,0" size="1920,1080" title="Satellite positions" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p800_Template_notime"/>
+		<panel name="p800_DateMid"/>
+		<widget name="txt_title" position="0,0" size="0,0" font="Regular;42" foregroundColor="yellow" transparent="1" halign="center" valign="center" />
+		<widget name="txt_count" position="480,65" size="90,30" font="Regular;30" foregroundColor="white" transparent="1" halign="center" valign="center" />
+		<eLabel name="frame_count" position="480,65" size="90,30" zPosition="-1" backgroundColor="#114C0000" />
+		<widget name="config" position="70,180" font="Regular;30" itemHeight="40" valign="center" size="1170,720" backgroundColorSelected="bluette" backgroundColor="bluette" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" enableWrapAround="1" transparent="1" />
+		<widget name="d" position="355,890" size="0,0" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<widget name="u" position="310,890" size="0,0" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<widget name="r" position="265,890" size="0,0" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<widget name="l" position="220,890" size="0,0" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<!-- Button Red -->
+		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" objectTypes="txt_red,Button,Label" transparent="1" />
+		<widget source="txt_red" render="Pixmap" pixmap="oDreamy-FHD/buttons/redpanel.png" position="70,988" size="30,30" alphatest="blend" objectTypes="txt_red,StaticText" transparent="1">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget name="txt_red" position="110,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_red,Button,Label" transparent="1" />
+		<widget source="txt_red" render="Label" position="110,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_red,StaticText" transparent="1" />
+		<!-- Button Green -->
+		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" objectTypes="txt_green,Button,Label" transparent="1" />
+		<widget source="txt_green" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="360,988" size="30,30" alphatest="blend" objectTypes="txt_green,StaticText" transparent="1">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget name="txt_green" position="400,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_green,Button,Label" transparent="1" />
+		<widget source="txt_green" render="Label" position="400,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_green,StaticText" transparent="1" />
+	</screen>
+
+	<screen name="mainConfigScreen" position="0,0" size="1920,1080" title="Chocholousek picons" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p800_Template_notime"/>
+		<panel name="p800_DateMid"/>
+		<widget name="version_txt" position="0,0" size="0,0" font="Regular;42" foregroundColor="yellow" transparent="1" halign="center" valign="center" />
+		<widget name="author_txt" position="0,60" size="0,0" font="Regular;28" foregroundColor="yellow" transparent="1" halign="center" valign="center" />
+		<widget name="config" position="70,180" font="Regular;30" itemHeight="40" valign="center" size="1170,720" backgroundColorSelected="bluette" backgroundColor="bluette" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" enableWrapAround="1" transparent="1" />
+		<widget name="previewImage" position="0,400" size="500,300" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<widget name="d" position="1105,895" size="45,44" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<widget name="u" position="1060,895" size="45,44" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<widget name="r" position="1015,895" size="45,44" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<widget name="l" position="970,895" size="45,44" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<widget name="o" position="925,895" size="45,44" zPosition="1" alphatest="blend" transparent="1" backgroundColor="transparent" />
+		<!-- Button Red -->
+		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" objectTypes="txt_red,Button,Label" transparent="1" />
+		<widget source="txt_red" render="Pixmap" pixmap="oDreamy-FHD/buttons/redpanel.png" position="70,988" size="30,30" alphatest="blend" objectTypes="txt_red,StaticText" transparent="1">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget name="txt_red" position="110,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_red,Button,Label" transparent="1" />
+		<widget source="txt_red" render="Label" position="110,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_red,StaticText" transparent="1" />
+		<!-- Button Green -->
+		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" objectTypes="txt_green,Button,Label" transparent="1" />
+		<widget source="txt_green" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="360,988" size="30,30" alphatest="blend" objectTypes="txt_green,StaticText" transparent="1">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget name="txt_green" position="400,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_green,Button,Label" transparent="1" />
+		<widget source="txt_green" render="Label" position="400,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_green,StaticText" transparent="1" />
+		<!-- Button Yellow -->
+		<ePixmap position="640,988" pixmap="oDreamy-FHD/buttons/yellowpanel.png" size="30,30" alphatest="blend" objectTypes="txt_yellow,Button,Label" transparent="1" />
+		<widget source="txt_yellow" render="Pixmap" pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="640,988" size="30,30" alphatest="blend" objectTypes="txt_yellow,StaticText" transparent="1">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget name="txt_yellow" position="680,955" size="210,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_yellow,Button,Label" transparent="1" />
+		<widget source="txt_yellow" render="Label" position="680,955" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" zPosition="+1" objectTypes="txt_yellow,StaticText" transparent="1" />
+		<!-- Button Blue -->
+		<ePixmap position="910,988" pixmap="oDreamy-FHD/buttons/bluepanel.png" size="30,30" alphatest="blend" objectTypes="txt_blue,Button,Label" transparent="1" />
+		<widget source="txt_blue" render="Pixmap" pixmap="oDreamy-FHD/buttons/bluepanel.png" position="910,988" size="30,30" alphatest="blend" objectTypes="txt_blue,StaticText" transparent="1">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<widget name="txt_blue" position="950,955" size="250,95" zPosition="+1" halign="left" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="#b0b0b0" objectTypes="txt_blue,Button,Label" transparent="1" />
+		<widget source="txt_blue" position="950,955" size="250,95" zPosition="+1" render="Label" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" objectTypes="txt_blue,StaticText" transparent="1" />
+	</screen>
+
 	<screen name="OAWeatherPlugin" position="0,0" size="1280,720" resolution="1280,720" title="Weather Plugin" flags="wfNoBorder" backgroundColor="#80000000">
 	  <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/background.png" position="0,0" size="1280,720" zPosition="-2" transparent="1" alphatest="blend" scale="1" />
 	  <widget name="current" font="Regular;28" position="60,15" size="240,45" backgroundColor="#363b38" zPosition="3" transparent="1" halign="center" valign="center" />
