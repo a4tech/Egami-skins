@@ -34,7 +34,7 @@
 		</widget>
 		<eLabel position="480,990" size="904,40" backgroundColor="#10202020" transparent="0" zPosition="1" />
 		<eLabel position="480,923" size="903,55" backgroundColor="#10202020" transparent="0" zPosition="1" />
-		<widget source="session.Event_Now" render="Progress" position="480,923" size="903,55" pixmap="/usr/share/enigma2/oDreamy-FHD/skin_default/progress_infobar55.png" backgroundColor="#10202020" zPosition="2">
+		<widget source="session.Event_Now" render="Progress" position="480,923" size="903,55" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- *** Event (NOW) *** -->
