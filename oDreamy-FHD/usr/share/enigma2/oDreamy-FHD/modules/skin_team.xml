@@ -1937,7 +1937,7 @@
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<eLabel position="250,975" size="5,50" backgroundColor="#121212" zPosition="3" />
-		<widget source="session.CurrentService" render="Progress" position="255,975" size="1410,50" pixmap="oDreamy-FHD/skin_default/progress_infobar55.png" backgroundColor="#303030" transparent="0" zPosition="1">
+		<widget source="session.CurrentService" render="Progress" position="255,975" size="1410,50" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="1">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<widget name="title" position="255,975" size="1410,50" font="Regular;34" halign="center" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="5" />
@@ -2698,7 +2698,7 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget source="Event" render="Progress" position="1275,300" pixmap="oDreamy-FHD/skin_default/progress_medium.png" size="580,5" borderWidth="1" borderColor="#202020" zPosition="1">
+		<widget source="Event" render="Progress" position="1275,300" size="580,5" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- FullDescription  Interlinea 23 size 450 -->
@@ -2776,7 +2776,7 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget source="Event" render="Progress" position="1275,300" pixmap="oDreamy-FHD/skin_default/progress_medium.png" size="580,5" borderWidth="1" borderColor="#202020" zPosition="1">
+		<widget source="Event" render="Progress" position="1275,300" size="580,5" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- FullDescription  Interlinea 23 size 450 -->
@@ -2879,7 +2879,7 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget source="Event" render="Progress" position="1275,510" pixmap="oDreamy-FHD/skin_default/progress_medium.png" size="580,5" borderWidth="1" borderColor="#202020" zPosition="1">
+		<widget source="Event" render="Progress" position="1275,510" size="580,5" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- FullDescription  Interlinea 23 size 450 -->
@@ -3002,7 +3002,7 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget source="Event" render="Progress" position="1275,510" pixmap="oDreamy-FHD/skin_default/progress_medium.png" size="580,5" borderWidth="1" borderColor="#202020" zPosition="1">
+		<widget source="Event" render="Progress" position="1275,510" size="580,5" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- FullDescription  Interlinea 23 size 450 -->
@@ -3053,7 +3053,7 @@
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
 		<eLabel position="750,826" size="350,3" backgroundColor="#20303030" zPosition="1" transparent="1" />
-		<widget source="Event" render="Progress" position="750,824" size="350,6" pixmap="oDreamy-FHD/skin_default/progress_medium.png" borderWidth="1" borderColor="#20303030" transparent="1" zPosition="2">
+		<widget source="Event" render="Progress" position="750,824" size="350,6" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/buttons/key_8_epg.png" position="1452,803" size="60,35" alphatest="blend" zPosition="2" />
@@ -4716,7 +4716,7 @@
 		<panel name="p800_DateMid" />
 		<widget name="frontend" pixmap="oDreamy-FHD/icons/scan-s.png" position="70,170" size="64,64" zPosition="2" transparent="1" alphatest="on" />
 		<widget name="scan_state" position="150,180" zPosition="2" size="740,60" valign="center" font="Regular;32" backgroundColor="header" transparent="1" />
-		<widget name="scan_progress" position="70,230" size="820,15" pixmap="oDreamy-FHD/skin_default/progress_big.png" borderWidth="2" borderColor="#cccccc" />
+		<widget name="scan_progress" position="70,230" size="820,15" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" />
 		<ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>

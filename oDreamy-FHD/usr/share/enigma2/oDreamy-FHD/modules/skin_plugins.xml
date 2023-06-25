@@ -3244,7 +3244,7 @@
 			<convert type="EventName">Name</convert>
 		</widget>
 		<!-- Progressbar (current event duration) -->
-		<widget source="session.Event_Now" render="Progress" position="1146,540" size="682,5" pixmap="oDreamy-FHD/skin_default/progress_medium.png" borderWidth="1" borderColor="#303030" zPosition="4" >
+		<widget source="session.Event_Now" render="Progress" position="1146,540" size="682,5" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="4" >
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- DayTime -->
@@ -3553,7 +3553,7 @@
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<eLabel position="30,940" size="10,55" backgroundColor="#000000" transparent="0" zPosition="5" />
-		<widget source="session.CurrentService" render="Progress" position="40,940" size="1290,55" pixmap="oDreamy-FHD/icons/progress_infobar.png" backgroundColor="#10202020" zPosition="2">
+		<widget source="session.CurrentService" render="Progress" position="40,940" size="1290,55" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<widget source="session.CurrentService" render="DRRunningText" options="movetype=running,startpoint=0,direction=left,steptime=0,repeat=0,always=0,oneshot=0,startdelay=0,wrap" position="40,850" size="1300,68" font="Regular;59" noWrap="1" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="3">
@@ -3654,7 +3654,7 @@
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="session.Event_Now" render="Progress" position="14,641" pixmap="oDreamy-FHD/skin_default/progress_medium.png" size="790,5" borderWidth="1" borderColor="#202020" zPosition="1">
+		<widget source="session.Event_Now" render="Progress" position="14,641" size="790,5" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<eLabel position="6,61" size="810,10" backgroundColor="#ff101010" zPosition="0" />
@@ -5419,7 +5419,7 @@
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<eLabel  position="250,975" size="5,50" backgroundColor="#121212" zPosition="3" />
-		<widget source="session.CurrentService" render="Progress" position="255,975" size="1410,50" pixmap="oDreamy-FHD/skin_default/progress_infobar55.png" backgroundColor="#303030" transparent="0" zPosition="1" >
+		<widget source="session.CurrentService" render="Progress" position="255,975" size="1410,50" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="1" >
 			<convert type="ServicePosition">Position</convert>
 		</widget>
 		<ePixmap position="60,1033" size="1860,32" pixmap="oDreamy-FHD/skin_default/sh1920.png" zPosition="5" />
