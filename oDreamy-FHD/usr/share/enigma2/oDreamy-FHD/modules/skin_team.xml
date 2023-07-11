@@ -1070,13 +1070,7 @@
 				}
 			</convert>
 		</widget>
-		<widget source="key_info" render="Label" position="1500,880" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="key_help" render="Label" position="1650,880" size="140,40" backgroundColor="key_back" font="Regular;20" foregroundColor="key_text" halign="center" valign="center">
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="description" render="Label" position="1290,560" size="570,263" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" valign="center" transparent="1" />
+		<widget source="description" render="Label" position="1290,560" size="550,263" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" valign="center" transparent="1" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/language.png" alphatest="blend" zPosition="2" />
 	</screen>
 
@@ -2008,11 +2002,6 @@
 	<!-- Timeshift state -->
 	<screen name="Bottom" flags="wfNoBorder">
     <ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/sico_tv.png" position="1347,1008" size="507,36" zPosition="1" />
-		<ePixmap pixmap="oDreamy-FHD/icons/vpnoff.png" position="1348,1008" size="60,32" alphatest="blend" transparent="1" />
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/vpnon.png" position="1348,1008" size="60,32" zPosition="2" alphatest="blend">
-			<convert type="EGVpn">vpn</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
     <widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/shbbtv_on.png" position="1425,1008" size="48,36" zPosition="2" alphatest="blend">
       <convert type="ServiceInfo">HasHBBTV</convert>
       <convert type="ConditionalShowHide" />
@@ -2049,12 +2038,17 @@
   </screen>
 	<screen name="TimeshiftState" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1920,1080" title="InfoBar">
 		<panel name="Bottom" />
+		<ePixmap pixmap="oDreamy-FHD/icons/vpnoff.png" position="1348,1008" size="60,32" alphatest="blend" transparent="1" />
+		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/vpnon.png" position="1348,1008" size="60,32" zPosition="2" alphatest="blend">
+			<convert type="EGVpn">vpn</convert>
+			<convert type="ConditionalShowHide" />
+		</widget>
 		<widget source="session.CurrentService" position="20,341" size="280,437" render="EGPoster" zPosition="2" alphatest="blend" />
 		<widget name="eventname" position="75,60" size="0,0" font="Regular;18" halign="center" foregroundColor="bluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="state" position="center,center" size="0,0" font="Regular;120" halign="center" foregroundColor="black" borderColor="white" borderWidth="3" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget name="PTSSeekBack" position="25,43" size="0,0" pixmap="oDreamy-FHD/icons/slider_back.png" alphatest="blend" zPosition="4" />
-		<widget name="PTSSeekPointer" position="10,40" size="0,0" pixmap="oDreamy-FHD/icons/position_pointer2.png" alphatest="blend" zPosition="4" />
-		<widget name="statusicon" alphatest="on" pixmaps="oDreamy-FHD/icons/splay.png,oDreamy-FHD/icons/spause.png,oDreamy-FHD/icons/sstop.png,oDreamy-FHD/icons/sbackward.png,oDreamy-FHD/icons/sforward.png,oDreamy-FHD/icons/sslow.png" position="20,848" size="175,175" zPosition="5" transparent="1" />
+		<widget name="PTSSeekBack" position="25,43" size="0,0" zPosition="4" />
+		<widget name="PTSSeekPointer" position="10,40" size="0,0" zPosition="4" />
+		<widget name="statusicon" alphatest="blend" pixmaps="oDreamy-FHD/icons/splay.png,oDreamy-FHD/icons/spause.png,oDreamy-FHD/icons/sstop.png,oDreamy-FHD/icons/sbackward.png,oDreamy-FHD/icons/sforward.png,oDreamy-FHD/icons/sslow.png" position="20,848" size="175,175" zPosition="5" transparent="1" />
 		<widget name="speed" backgroundColor="background" font="Regular;30" halign="center" valign="center" position="51,789" size="114,50" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oDreamy-FHD/icons/vod_1.png" position="1429,704" size="45,44" alphatest="blend" transparent="1"/>
     <ePixmap pixmap="oDreamy-FHD/icons/vod_3.png" position="1429,757" size="45,44" alphatest="blend" transparent="1"/>
@@ -2068,7 +2062,7 @@
     <eLabel text=" -10s" position="1480,712" size="100,35" font="Regular;28" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1"/>
     <eLabel text=" -1m" position="1639,712" size="100,35" font="Regular;28" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1"/>
     <eLabel text=" -5m" position="1798,712" size="100,35" font="Regular;28" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1"/>
-    <ePixmap position="0,0" size="1920,1080" name="InfoBar" zPosition="-9" pixmap="oDreamy-FHD/icons/sinfobar.png" transparent="1" />
+    <ePixmap name="" position="0,0" size="1920,1080" zPosition="-9" pixmap="oDreamy-FHD/icons/sinfobar.png" transparent="1" />
     <eLabel backgroundColor="#006e6e6e" position="210,885" size="1690,1" />
     <widget font="Regular;38" noWrap="1" position="220,819" render="Label" size="1430,55" source="session.CurrentService" transparent="1" backgroundColor="header">
       <convert type="ServiceName">Name</convert>
@@ -4969,14 +4963,14 @@
 			</convert>
 		</widget>
 		<widget name="config" position="70,500" size="820,320" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="5" />
-		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
+		<!--<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="portpic" position="70,820" size="40,40" zPosition="2" alphatest="on" transparent="1" />
 		<widget name="rc" position="2810,100" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,oDreamy-FHD/skin_default/rcold.png" alphatest="blend" zPosition="2" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
 		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
 		<widget name="arrowup" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
-		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />
+		<widget name="arrowup2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowup.png" alphatest="blend" zPosition="3" />-->
 	</screen>
 	<!-- Language Wizzard FHD -->
 	<screen name="LanguageWizard" title="Language Selection..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -5013,6 +5007,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext" />
+		<panel name="Ex" />
 		<panel name="s_RGYB" />
 		<!-- Code -->
 		<ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
@@ -5029,8 +5024,8 @@
 			</convert>
 		</widget>
 		<widget name="config" position="70,500" size="840,400" font="Regular;32" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="5" />
-		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<!--<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
+		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />-->
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 	</screen>
 	<!-- Network Wizard DRE FHD -->
@@ -5057,8 +5052,8 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
-		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<!--<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
+		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />-->
 		<widget name="rc" position="2960,180" size="160,500" pixmaps="oDreamy-FHD/skin_default/rc.png,skin_default/rcold.png" alphatest="blend" zPosition="2" />
 		<widget name="arrowdown" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
 		<widget name="arrowdown2" position="-100,-100" size="37,70" pixmap="oDreamy-FHD/skin_default/arrowdown.png" alphatest="blend" zPosition="3" />
@@ -5070,6 +5065,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext" />
+		<panel name="Ex" />
 		<!-- Code -->
 		<ePixmap position="1405,200" size="400,700" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
@@ -5128,8 +5124,8 @@
 		</widget>
 		<widget name="config" position="70,500" size="820,320" font="Regular;32" itemHeight="40" zPosition="1" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
-		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<!--<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
+		<widget name="languagetext" position="120,955" size="210,95" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />-->
 	</screen>
 	<!-- Tutorial Wizard FHD -->
 	<screen name="TutorialWizard" title="Tutorial Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
