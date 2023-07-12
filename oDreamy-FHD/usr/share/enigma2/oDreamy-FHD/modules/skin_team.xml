@@ -2596,7 +2596,7 @@
 		<panel name="p800_Ext" />
 		<panel name="s_RGYB" />
 		<widget name="description" position="1270,480" size="580,400" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget name="timerlist" position="70,180" size="820,720" itemHeight="75" rowSplit="41" iconMargin="8" satPosLeft="240" setFont="Regular;27" setEventNameFont="Regular;30" setServiceNameFont="Regular;32" foregroundColor="white" backgroundColorSelected="bluette" backgroundColor="background" transparent="1" enableWrapAround="1" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showAlways" zPosition="1" />
+		<widget name="timerlist" position="70,180" size="820,720" backgroundColor="header" backgroundColorSelected="bluette" bottomHeight="30" detailFont="Regular;24" foregroundColor="white" foregroundColorSelected="yellow" iconMargin="15" indent="22" itemHeight="85" showSeparator="1" statusFont="Regular;27" statusOffset="0" satPosLeft="300" timerNameFont="Regular;30" topHeight="44" scrollbarMode="showAlways" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" enableWrapAround="1" transparent="1"/>
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/timer_edit.png" alphatest="blend" />
 	</screen>
 	<!-- Timer Entry FHD -->
