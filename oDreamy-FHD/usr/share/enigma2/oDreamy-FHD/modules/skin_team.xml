@@ -1922,9 +1922,9 @@
 		<widget name="year" position="480,367" size="200,50" zPosition="1" font="Regular;32" halign="left" valign="top" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<ePixmap position="20,420" size="1920,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="1" />
 		<!-- FileList -->
-		<widget name="filelist" position="1000,155" size="860,240" font="Regular;28" itemHeight="40" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="#1842" transparent="1" zPosition="1" />
+		<widget name="filelist" position="1000,155" size="860,250" font="Regular;28" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
 		<!-- PlayList -->
-		<widget name="playlist" position="60,450" size="1800,500" font="Regular;28" itemHeight="50" scrollbarMode="showOnDemand" selection="1" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="playlist" position="60,450" size="1800,500" font="Regular;28" itemHeight="50" scrollbarMode="showOnDemand" selection="1" foregroundColor="ltbluette" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
 		<widget name="currenttext" position="0,985" size="0,0" font="Regular;32" halign="center" valign="center" backgroundColor="header" foregroundColor="white" transparent="1" />
 		<!-- Player -->
 		<widget source="session.CurrentService" render="Label" position="60,975" size="190,50" font="Regular;40" halign="center" valign="center" noWrap="1" foregroundColor="white" backgroundColor="header" transparent="0" zPosition="3">

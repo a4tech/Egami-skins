@@ -1186,8 +1186,8 @@
 		</widget>
 		<widget name="sortleft" position="113,213" size="0,0" font="Regular;27" halign="left" foregroundColor="white" backgroundColor="header" transparent="1"/>
 		<widget name="sortright" position="975,213" size="0,0" font="Regular;27" halign="left" foregroundColor="white" backgroundColor="header" transparent="1"/>
-		<widget name="listleft" position="105,255" size="848,675" font="Regular;30" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="grey" backgroundColorSelected="bluette" foregroundColorSelected="white" transparent="1" />
-		<widget name="listright" position="968,255" size="848,675" font="Regular;30" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="grey" backgroundColorSelected="bluette" foregroundColorSelected="white" transparent="1" />
+		<widget name="listleft" position="105,255" size="848,657" font="Regular;30" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="grey" backgroundColorSelected="bluette" foregroundColorSelected="white" transparent="1" />
+		<widget name="listright" position="968,255" size="848,657" font="Regular;30" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="grey" backgroundColorSelected="bluette" foregroundColorSelected="white" transparent="1" />
 		<widget name="quickselect" position="100,120" size="1720,840" backgroundColor="header" foregroundColor="white" font="Regular;100" halign="center" transparent="1" valign="center" zPosition="+1" />
 		<widget name="status" position="100,880" size="1740,50" font="Regular;30" backgroundColor="#00fff000" borderColor="#00000000" borderWidth="2" foregroundColor="#00ffffff" halign="center" valign="center" zPosition="+1" />
 		<eLabel position="50,30" size="1820,95" backgroundColor="header" zPosition="-1" />
@@ -1216,7 +1216,7 @@
 		<eLabel position="1520,955" size="2,95" backgroundColor="ltbluette" zPosition="-1" />
 		<!-- Clock %d.%m.%Y - %H:%M:%S -->
 		<ePixmap position="1275,975" size="90,60" pixmap="oDreamy-FHD/icons/select.png" alphatest="blend" zPosition="2" />
-		<widget source="global.CurrentTime" render="Label" position="1550,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="#505050" backgroundColor="#10101010" transparent="1" zPosition="1">
+		<widget source="global.CurrentTime" render="Label" position="1570,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="#505050" backgroundColor="#10101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
 		<widget source="global.CurrentTime" render="Label" position="1345,30" size="500,95" font="Regular;35" halign="right" valign="center" foregroundColor="#505050" backgroundColor="#101010" transparent="1" zPosition="1">
