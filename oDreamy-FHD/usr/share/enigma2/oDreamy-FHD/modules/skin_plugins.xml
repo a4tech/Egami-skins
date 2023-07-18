@@ -1446,22 +1446,19 @@
 	</screen>
 
 	<screen name="BluetoothSetupConfig" position="0,0" size="1920,1080" title="Bluetooth Setup Options" flags="wfNoBorder" backgroundColor="transparent">
-		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_green" render="Label" position="400,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_red" render="Label" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<panel name="s_RGYB" />
 		<ePixmap position="960,640" size="300,300" zPosition="2" pixmap="oDreamy-FHD/icons/bluetooth.png" transparent="1" alphatest="blend" />
 		<widget name="config" position="70,180" size="820,400" font="Regular;32" backgroundColorSelected="bluette" itemHeight="45" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
 	<!--  BlueTooth Device Manager FHD -->
 	<screen name="BluetoothDevicesManager" position="fill" title="BlueTooth Devices" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
-		<widget name="devicelist" position="70,180" size="820,300" font="Regular;30" itemHeight="40" foregroundColor="white" backgroundColor="header" scrollbarMode="showOnDemand" transparent="1" zPosition="10" />
+		<widget name="devicelist" position="70,180" size="820,580" itemHeight="35" font="Regular;30" foregroundColor="white" backgroundColor="header" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" transparent="1" zPosition="10" />
 		<widget name="ConnStatus" position="70,820" size="820,150" font="Regular;30" halign="center" valign="center" backgroundColor="header" foregroundColor="white" transparent="1" zPosition="1" />
-		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/deviceusb.png" alphatest="blend" />
+		<ePixmap position="960,640" size="300,300" zPosition="2" pixmap="oDreamy-FHD/icons/bluetooth.png" transparent="1" alphatest="blend" />
 	</screen>
 	<!-- OpenMultibootManager -->
 	<screen name="OMBManagerList" title="Open Multiboot Manager" position="fill" backgroundColor="transparent" flags="wfNoBorder">
