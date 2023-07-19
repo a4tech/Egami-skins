@@ -1691,7 +1691,6 @@
 	</screen>
 	<!--  IpTV Player -->
 	<screen name="ExtensionsList" position="fill" title="ExtensionsList" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Logo" />
 		<panel name="p800_Template" />
 		<panel name="p800_Ext_BiN" />
 		<panel name="p800_Date" />
@@ -1699,7 +1698,7 @@
 		<widget source="windowtitle" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<widget name="text" position="70,700" size="0,0" halign="left" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<panel name="Ex" />
-		<widget name="list" position="70,180" size="840,720" font="Regular;30" transparent="1" zPosition="3" scrollbarMode="showAlways" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="list" position="70,180" size="1160,705" font="Regular;30" transparent="1" zPosition="3" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="1275,175" zPosition="2" size="50,50" pixmap="oDreamy-FHD/icons/ram.png" alphatest="blend" />
 		<widget source="session.Event_Now" render="Progress" position="1335,190" size="500,8" foregroundColor="ltbluette" backgroundColor="header" transparent="1" borderColor="#808080" borderWidth="1" zPosition="6">
 			<convert type="EGLayoutInfo">MemTotal</convert>
