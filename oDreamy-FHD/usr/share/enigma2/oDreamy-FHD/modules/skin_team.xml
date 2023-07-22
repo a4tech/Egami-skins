@@ -3880,12 +3880,11 @@
 	</screen>
 	<!-- MediaPlayer FileBrowser FHD -->
 	<screen name="FileBrowser" title="DVD File Browser" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<panel name="s_RGYB" />
-		<widget name="filelist" position="70,180" font="Regular;24" size="820,600" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
+		<widget name="filelist" position="70,180" font="Regular;24" size="820,600" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/folders.png" alphatest="blend" />
 	</screen>
 	<!-- Location Box FHD -->
@@ -3895,14 +3894,13 @@
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<panel name="M" />
-		<widget name="text" position="70,170" size="820,40" font="Regular;34" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
+		<widget name="text" position="70,170" size="820,40" font="Regular;34" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget name="target" position="70,220" size="820,40" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" />
+		<widget name="targetfreespace" position="70,220" size="0,0" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<eLabel position="70,270" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="900,290" size="15,400" zPosition="2" alphatest="blend" />
-		<widget name="filelist" position="70,290" size="840,400" font="Regular;30" itemHeight="40" selection="1" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
-		<widget name="textbook" position="70,710" size="820,40" font="Regular;34" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
+		<widget name="filelist" position="70,290" size="840,400" font="Regular;30" selection="1" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
+		<widget name="textbook" position="70,710" size="820,40" font="Regular;34" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel position="70,760" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="900,780" size="10,90" zPosition="2" alphatest="blend" />
 		<widget name="booklist" position="70,780" size="840,120" font="Regular;30" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/folders.png" alphatest="blend" zPosition="2" />
 	</screen>
