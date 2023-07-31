@@ -2205,26 +2205,30 @@
 		<widget name="UnhandledKeyPixmap" pixmap="oDreamy-FHD/skin_default/unhandled-key.png" position="0,0" size="80,105" alphatest="off" />
 	</screen>
 	<!-- NumberZap FHD -->
-	<screen name="NumberZap" title="Ch." position="70,40" size="800,200" backgroundColor="transparent" flags="wfNoBorder">
-		<widget name="channel" position="0,0" size="250,90" font="Regular;50" valign="center" halign="left" foregroundColor="grey" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" />
-		<widget name="number" position="200,0" size="350,90" font="Regular;50" valign="center" halign="left" foregroundColor="yellow" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" />
-		<widget name="servicename" position="0,80" size="780,60" font="Regular;44" valign="center" halign="left" foregroundColor="grey" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" />
+	<screen name="NumberZap" position="0,945" size="1920,135" title="QuickZap" flags="wfNoBorder" backgroundColor="transparent">
+		<eLabel name="a" position="0,0" size="1920,135" backgroundColor="header" zPosition="-10" />
+		<widget name="channel" position="50,0" size="300,135" font="Regular;60" valign="center" halign="left" foregroundColor="white" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="1" />
+		<widget name="number" position="250,0" size="300,135" halign="center" valign="center" font="Regular;60" backgroundColor="header" foregroundColor="yellow" />
+		<widget name="servicename" position="700,0" size="1320,135" halign="left" valign="center" font="Regular;70" backgroundColor="header" foregroundColor="white" />
+		<widget name="servicenumber" position="0,80" size="0,0" font="Regular;44" valign="center" halign="left" foregroundColor="white" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="1" />
 	</screen>
-	<!-- NumberZapExt With Name FHD -->
-	<screen name="NumberZapWithName" title="Ch." position="70,40" size="800,200" backgroundColor="header" flags="wfNoBorder">
-		<widget name="channel" position="0,0" size="250,90" font="Regular;50" valign="center" halign="left" foregroundColor="grey" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" />
-		<widget name="number" position="200,0" size="350,90" font="Regular;50" valign="center" halign="left" foregroundColor="yellow" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" />
-		<widget name="servicename" position="0,80" size="780,60" font="Regular;44" valign="center" halign="left" foregroundColor="grey" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" />
+	<!-- NumberZapWithName FHD -->
+	<screen name="NumberZapWithName" position="300,32" size="1575,1245" title="QuickZap" flags="wfNoBorder" backgroundColor="transparent">
+		<widget name="servicenumber" position="485,425" size="0,0" font="Regular;150" noWrap="0" halign="right" backgroundColor="header" transparent="1" valign="center" foregroundColor="white" zPosition="-1" />
+		<widget name="servicename" position="279,401" size="750,120" font="Regular;75" halign="left" backgroundColor="header" transparent="1" />
+		<widget name="servicebouquet" position="278,537" size="594,80" font="Regular;42" halign="left" backgroundColor="header" transparent="1" />
+		<eLabel position="242,366" size="825,272" backgroundColor="header" zPosition="-5" />
 	</screen>
-	<!-- NumberZapExt FHD -->
-	<screen name="NumberZapExt" position="654,463" size="700,160" title="Channel">
-		<widget name="chPicon" position="474,10" size="220,132" alphatest="blend" />
-		<widget name="number" position="5,35" size="190,30" halign="right" font="Regular;26" foregroundColor="white" />
-		<widget name="chNum" position="210,34" size="240,30" halign="left" font="Regular;26" foregroundColor="white" />
-		<widget name="channel" position="5,77" size="190,30" halign="right" font="Regular;26" foregroundColor="white" />
-		<widget name="chName" position="209,75" size="254,30" halign="left" font="Regular;24" noWrap="1" foregroundColor="white" />
-		<widget name="bouquet" position="5,115" size="190,30" halign="right" font="Regular;26" foregroundColor="white" />
-		<widget name="chBouq" position="215,115" size="254,30" halign="left" font="Regular;24" noWrap="1" foregroundColor="white" />
+	<!-- NumberZapPicon FHD -->
+	<screen name="NumberZapPicon" position="0,945" size="1920,135" title="QuickZap" flags="wfNoBorder" backgroundColor="transparent">
+		<eLabel name="a" position="0,0" size="1920,135" backgroundColor="header" zPosition="-10" />
+		<widget name="channel" position="0,0" size="0,0" font="Regular;50" valign="center" halign="left" foregroundColor="white" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="1" />
+		<widget name="servicename" position="0,80" size="0,0" font="Regular;44" valign="center" halign="left" foregroundColor="white" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="1" />
+		<widget name="number" position="300,0" size="300,135" halign="center" valign="center" font="Regular;90" backgroundColor="header" foregroundColor="yellow" />
+		<widget source="Service" alphatest="blend" position="51,8" render="Picon" size="198,119" transparent="1" zPosition="1">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+		<widget name="servicename" position="600,0" size="1320,135" halign="center" valign="center" font="Regular;90" backgroundColor="header" foregroundColor="white" />
 	</screen>
 	<!-- TextBox FHD -->
 	<screen name="TextBox" position="center,center" size="900,400" title="Message...">
