@@ -1394,7 +1394,7 @@
 		<panel name="Ex" />
 		<ePixmap position="70,150" zPosition="3" size="120,157" pixmap="oDreamy-FHD/icons/emupic.png" alphatest="blend" transparent="1" />
 		<widget name="choose_cam" position="180,180" size="710,40" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="config" position="180,250" size="710,40" font="Regular;30" itemHeight="40" transparent="1" backgroundColorSelected="bluette" zPosition="2" />
+		<widget name="config" position="180,250" size="710,40" textPadding="10,0" font="Regular;30" itemHeight="40" valign="center" transparent="1" backgroundColorSelected="bluette" zPosition="2" />
 		<eLabel text="OK to Start" position="680,250" size="200,40" font="Regular;30" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
 		<eLabel position="180,305" size="710,1" backgroundColor="#10404040" zPosition="2" />
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/lan.png" position="70,330" size="140,140" zPosition="2" scale="1" alphatest="blend" transparent="1">
