@@ -629,7 +629,7 @@
 		<panel name="Ex" />
 		<widget name="status" position="70,180" size="820,40" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel position="70,240" size="820,1" backgroundColor="#10303030" zPosition="2" />
-		<widget name="listaaddonow" position="70,270" size="820,720" font="Regular;30" itemHeight="45" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="listaaddonow" position="70,270" size="820,720" font="Regular;30" backgroundColorSelected="bluette" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/utility.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  EGAMI E2 Config Info FHD -->
@@ -4122,8 +4122,8 @@
 		<widget source="status" render="Label" position="70,840" size="820,40" transparent="1" font="Regular;32" halign="center" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
 	</screen>
-	<!-- FlashOnline FHD -->
-	<screen name="FlashOnline" position="fill" title="Flash On the Fly" backgroundColor="transparent" flags="wfNoBorder">
+	<!-- FlashManager FHD -->
+	<screen name="FlashManager" position="fill" title="Flash On the Fly" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext" />
@@ -4438,7 +4438,7 @@
 		<panel name="fakeExit" />
 		<panel name="I" />
 		<eLabel text="Choose your Skin" position="70,170" size="820,50" font="Regular;44" halign="left" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="SkinList" position="70,240" size="820,630" font="Regular;32" scrollbarMode="showAlways" itemHeight="45" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="SkinList" position="70,240" size="820,630" font="Regular;32" scrollbarMode="showAlways" valign="center" itemHeight="40" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<eLabel text="Preview" position="1260,600" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="2" />
 		<eLabel position="1260,600" size="610,70" backgroundColor="trbluette" zPosition="1" />
 		<eLabel position="1260,680" size="610,267" backgroundColor="background" zPosition="1" />
