@@ -3207,7 +3207,7 @@
 		<widget name="statuspic" position="75,180" size="40,40" transparent="1" pixmaps="oDreamy-FHD/icons/net_on.png,oDreamy-FHD/icons/net_off.png" alphatest="on" zPosition="2" />
 		<widget source="IF" render="Label" position="140,180" size="750,40" font="Regular;38" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="10" />
 		<eLabel position="70,230" size="820,1" backgroundColor="#202020" zPosition="1" />
-		<widget name="menulist" position="70,270" size="820,540" font="Regular;32" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
+		<widget name="menulist" position="70,270" size="820,540" font="Regular;32" textPadding="10,0" valign="center" itemHeight="45" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" transparent="1" zPosition="1" />
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
 		<widget source="description" render="Label" position="1270,690" size="590,280" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<widget source="IFtext" render="Label" position="1280,840" size="0,0" transparent="1" font="Regular;1" halign="left" backgroundColor="header" zPosition="-1" />
