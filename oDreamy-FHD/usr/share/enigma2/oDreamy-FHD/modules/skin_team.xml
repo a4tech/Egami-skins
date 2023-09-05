@@ -3324,7 +3324,7 @@
 		<panel name="p800_Date" />
 		<panel name="Ex" />
 		<panel name="s_RGYB" />
-		<widget name="menulist" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
+		<widget name="menulist" position="70,180" size="820,720" font="Regular;32" valign="center" textPadding="10,0" itemHeight="45" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 		<widget source="introduction" render="Label" position="1280,560" size="560,80" font="Regular;34" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="1450,200" size="300,300" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/folders.png" alphatest="blend" />
@@ -3421,7 +3421,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="sRY" />
+		<panel name="s_RGYB" />
 		<widget source="legend1" render="Label" position="70,170" size="250,75" font="Regular;26" valign="center" foregroundColor="white" halign="left" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="legend2" render="Label" position="350,170" size="345,75" font="Regular;26" valign="center" foregroundColor="white" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="legend3" render="Label" position="620,170" size="250,75" font="Regular;26" valign="center" foregroundColor="white" halign="right" backgroundColor="header" transparent="1" zPosition="1" />
@@ -3446,10 +3446,10 @@
 	</screen>
 	<!-- User Manager FHD -->
 	<screen name="UserManager" title="UserManager" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<panel name="sRY" />
+		<panel name="s_RGYB" />
 		<widget source="config" render="Listbox" position="70,180" size="820,600" backgroundColor="header" zPosition="3" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
