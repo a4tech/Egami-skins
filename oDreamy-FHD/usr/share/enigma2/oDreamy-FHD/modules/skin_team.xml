@@ -2042,7 +2042,7 @@
 			<convert type="EGVpn">vpn</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="session.CurrentService" position="20,341" size="280,437" render="EGPoster" zPosition="2" alphatest="blend" />
+		<widget source="session.CurrentService" position="20,341" size="280,437" render="EGPoster" borderWidth="1" borderColor="ltbluette" zPosition="2" alphatest="blend" />
 		<widget name="eventname" position="75,60" size="0,0" font="Regular;18" halign="center" foregroundColor="bluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="state" position="center,center" size="0,0" font="Regular;120" halign="center" foregroundColor="black" borderColor="white" borderWidth="3" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="PTSSeekBack" position="25,43" size="0,0" zPosition="4" />
