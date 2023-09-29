@@ -1190,32 +1190,24 @@
 		<widget name="listright" position="968,255" size="848,657" font="Regular;30" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="grey" backgroundColorSelected="bluette" foregroundColorSelected="white" transparent="1" />
 		<widget name="quickselect" position="100,120" size="1720,840" backgroundColor="header" foregroundColor="white" font="Regular;100" halign="center" transparent="1" valign="center" zPosition="+1" />
 		<widget name="status" position="100,880" size="1740,50" font="Regular;30" backgroundColor="#00fff000" borderColor="#00000000" borderWidth="2" foregroundColor="#00ffffff" halign="center" valign="center" zPosition="+1" />
-		<eLabel position="50,30" size="1820,95" backgroundColor="header" zPosition="-1" />
-		<eLabel position="50,30" size="1820,2" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="50,30" size="2,95" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="50,125" size="1820,1" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1870,30" size="2,95" backgroundColor="ltbluette" zPosition="-1" />
+		<eLabel position="50,30" size="1820,100" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="52,32" size="1816,95" backgroundColor="header" cornerRadius="10" zPosition="-1" />
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<!-- Middle -->
-		<eLabel position="52,138" size="1820,802" backgroundColor="header" zPosition="-1" />
-		<eLabel position="50,138" size="1820,2" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="50,138" size="2,802" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1870,center" size="2,800" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="50,940" size="1820,2" backgroundColor="ltbluette" zPosition="-1" />
-		<!-- Code -->
-		<!-- Footer -->
-		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
-		<eLabel position="52,957" size="1196,91" backgroundColor="header" transparent="0" zPosition="-10" />
-		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
-		<eLabel position="1262,957" size="246,91" backgroundColor="header" transparent="0" zPosition="-10" />
-		<eLabel position="1520,955" size="350,96" backgroundColor="ltbluette" transparent="0" zPosition="-10" />
-		<eLabel position="1522,957" size="346,91" backgroundColor="header" transparent="0" zPosition="-10" />
+		<eLabel position="50,138" size="1820,802" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="52,140" size="1816,797" backgroundColor="header" cornerRadius="10" zPosition="-1" />
+		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" cornerRadius="10" transparent="0" zPosition="-10" />
+		<eLabel position="52,957" size="1196,92" backgroundColor="header" cornerRadius="10" transparent="0" zPosition="-10" />
+		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" cornerRadius="10" transparent="0" zPosition="-10" />
+		<eLabel position="1262,957" size="246,92" backgroundColor="header" cornerRadius="10" transparent="0" zPosition="-10" />
+		<eLabel position="1520,955" size="350,96" backgroundColor="ltbluette" cornerRadius="10" transparent="0" zPosition="-10" />
+		<eLabel position="1522,957" size="346,92" backgroundColor="header" cornerRadius="10" transparent="0" zPosition="-10" />
 		<!-- Clock %d.%m.%Y - %H:%M:%S -->
 		<ePixmap position="1275,975" size="90,60" pixmap="oDreamy-FHD/icons/select.png" alphatest="blend" zPosition="2" />
-		<widget source="global.CurrentTime" render="Label" position="1570,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="#505050" backgroundColor="#10101010" transparent="1" zPosition="1">
+		<widget source="global.CurrentTime" render="Label" position="1570,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="white" backgroundColor="#10101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="1345,30" size="500,95" font="Regular;35" halign="right" valign="center" foregroundColor="#505050" backgroundColor="#101010" transparent="1" zPosition="1">
+		<widget source="global.CurrentTime" render="Label" position="1345,30" size="500,95" font="Regular;35" halign="right" valign="center" foregroundColor="white" backgroundColor="#101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
 		<widget name="key_menu" position="950,955" size="0,0" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
