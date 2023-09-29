@@ -9,7 +9,8 @@
 	<include filename="/usr/share/enigma2/oDreamy-FHD/modules/skin_plugins.xml" />
 
 	<screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
-		<ePixmap position="13,841" size="1896,232" pixmap="oDreamy-FHD/skin_default/infobarbg.png" alphatest="blend" transparent="1" zPosition="-1"/>
+		<eLabel position="13,841" size="1896,232" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="15,843" size="1892,227" backgroundColor="#000000" cornerRadius="10" zPosition="-1" />
 		<eLabel text="TUN:" position="1766,900" size="61,25" font="Regular;22" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="3"/>
 		<widget source="session.FrontendInfo" render="FixedLabel" text="A" position="1822,900" size="24,25" font="Regular;22" foregroundColor="ltbluette" backgroundColor="header" zPosition="3" transparent="1">
 			<convert type="FrontendInfo">NUMBER</convert>
@@ -64,7 +65,8 @@
 		<widget source="global.CurrentTime" render="Label" position="1684,75" size="180,84" font="Regular;70" halign="center" foregroundColor="ltbluette" backgroundColor="#101010" transparent="1" zPosition="2">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<ePixmap position="1576,23" size="326,142" pixmap="oDreamy-FHD/skin_default/clockbg.png" alphatest="blend" transparent="1" zPosition="-1" />
+		<eLabel position="1576,23" size="326,142" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="1578,25" size="322,137" backgroundColor="#000000" cornerRadius="10" zPosition="-1" />
 		<widget source="global.CurrentTime" render="Label" position="1576,24" size="328,54" font="Regular;30" halign="center" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
