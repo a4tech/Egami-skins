@@ -101,7 +101,7 @@
 	<!-- Colors FHD -->
 	<colors>
 		<color name="background" value="#20000000" />
-		<color name="header" value="#00272e43" />
+		<color name="bluenew" value="#00272e43" />
 		<color name="bkblue" value="#00162b49" />
 		<color name="bkinfobar" value="#00204372" />
 		<color name="black" value="#00000000" />
