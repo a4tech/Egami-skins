@@ -93,6 +93,11 @@
 		<parameter name="WeatherPluginCity" value="10,0,700,50" />
 		<parameter name="WeatherPluginDegreetype" value="465,0,100,50" />
 	</parameters>
+	<!-- Switch menu pic -->
+	<switchpixmap>
+		<pixmap name="menu_on" filename="egami_skin_default/menu/menu_on.png"  />
+		<pixmap name="menu_off" filename="egami_skin_default/menu/menu_off.png" />
+	</switchpixmap>
 	<!-- Colors FHD -->
 	<colors>
 		<color name="background" value="#20000000" />
