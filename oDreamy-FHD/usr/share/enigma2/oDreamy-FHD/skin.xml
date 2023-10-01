@@ -20,7 +20,7 @@
 			<convert type="ServiceName">Name</convert>
 		</widget>
 		<!-- Picon -->
-		<eLabel backgroundColor="ltbluette" cornerRadius="5" position="0,823" size="338,211" zPosition="-2" />
+		<eLabel backgroundColor="ltbluette" cornerRadius="5" position="0,823" size="339,211" zPosition="-2" />
 		<eLabel backgroundColor="header" cornerRadius="5" position="1,825" size="336,209" zPosition="-1" />
 		<widget source="session.CurrentService" render="Picon" path="picon" position="10,836" size="315,189" alphatest="blend" zPosition="1" >
 			<convert type="ServiceName">Reference</convert>
