@@ -634,7 +634,7 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<!-- List Channel -->
-		<widget name="list" position="50,142" size="1080,770" scrollbarMode="showOnDemand" transparent="1" zPosition="1" serviceNumberFont="Regular;30" serviceNameFont="Regular;30" serviceInfoFont="Regular;30"
+		<widget name="list" position="50,142" size="1080,770" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" zPosition="1" serviceNumberFont="Regular;30" serviceNameFont="Regular;30" serviceInfoFont="Regular;30"
 			foregroundColor="white" foregroundColorSelected="yellow" backgroundColor="header" backgroundColorSelected="bluette" colorServiceDescription="ltbluette" colorServiceDescriptionSelected="white"
 			foregroundColorServiceNotAvail="#505050" colorEventProgressbarBorder="grey" colorEventProgressbarSelected="yellow" colorEventProgressbarBorderSelected="yellow" scrollbarForegroundColor="ltbluette" scrollbarBorderColor="ltbluette" />
 		<!-- Event Time -->

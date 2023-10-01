@@ -293,7 +293,7 @@
 		<widget source="description" render="Label" position="1155,955" size="750,95" cornerRadius="10" conditional="description" font="Regular;27" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="header">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
+		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarRadius="5" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
 			backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1"
 			scrollbarBorderColor="ltbluette" scrollbarWidth="8" selectionZoom="4">
 			<convert type="TemplatedMultiContent">
