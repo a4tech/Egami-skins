@@ -1593,7 +1593,6 @@
 		<eLabel position="50,30" size="1200,96" backgroundColor="#201b3c85" zPosition="-1" />
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
-		<ePixmap position="48,28" size="52,52" pixmap="oDreamy-FHD/box/angle30.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Middle -->
@@ -1613,7 +1612,6 @@
 		<eLabel position="50,30" size="1200,96" backgroundColor="#201b3c85" zPosition="-1" />
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
-		<ePixmap position="48,28" size="52,52" pixmap="oDreamy-FHD/box/angle30.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<!-- Middle -->
@@ -1632,7 +1630,6 @@
 		<eLabel position="50,30" size="1200,96" backgroundColor="#201b3c85" zPosition="-1" />
 		<eLabel position="52,32" size="1196,91" backgroundColor="#20000000" zPosition="-1" />
 		<!-- Code -->
-		<ePixmap position="48,28" size="52,52" pixmap="oDreamy-FHD/box/angle30.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
 		<!-- Middle -->
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="#10000000" transparent="1" zPosition="1" />
@@ -4324,7 +4321,6 @@
 	<!-- Video Enhancement Preview FHD -->
 	<screen name="VideoEnhancementPreview" position="fill" title="VideoEnhancementPreview" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="s_RGYB" />
-		<ePixmap position="48,28" size="52,52" pixmap="oDreamy-FHD/box/angle30.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="20,27" size="141,111" pixmap="oDreamy-FHD/icons/list.png" alphatest="on" zPosition="2" />
 		<eLabel position="50,30" size="1800,96" backgroundColor="trbluette" zPosition="-1" />
 		<eLabel position="52,32" size="1796,91" backgroundColor="background" zPosition="-1" />

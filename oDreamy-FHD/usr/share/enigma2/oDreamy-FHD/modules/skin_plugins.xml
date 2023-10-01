@@ -2721,7 +2721,7 @@
 
 	<!-- Stream Radio -->
 	<screen name="WebradioFSScreen_12" position="fill" title="webradioFS" flags="wfNoBorder" zPosition="-1">
-		<ePixmap pixmap="box/radiofs.png" position="fill" zPosition="-1" />
+		<ePixmap pixmap="oDreamy-FHD/box/radiofs.png" position="fill" zPosition="-1" />
 		<eLabel text="MENU - INFO - HELP" position="230,48" size="400,50" font="Regular;34" foregroundColor="white" backgroundColor="#102e59" transparent="1" zPosition="3" />
 		<eLabel text="WebRadioFS" position="210,98" size="600,140" font="Regular;80" foregroundColor="ltbluette" backgroundColor="#102e59" transparent="1" zPosition="3" />
 		<!--left site in Screen for Streams, Genres -->
@@ -2758,7 +2758,7 @@
 
 	<!-- Stream Music Player -->
 	<screen name="wbrFS_r_site" position="982,43" size="895,445" flags="wfNoBorder" zPosition="-1" >
-		<ePixmap pixmap="box/inforadio.png" position="fill" zPosition="-1" />
+		<ePixmap pixmap="oDreamy-FHD/box/inforadio.png" position="fill" zPosition="-1" />
 		<widget name="picture" position="750,5" size="140,140" alphatest="blend" />
 		<widget name="streamlogo" position="0,15" size="320,130" alphatest="blend" />
 		<eLabel position="10,150" size="880,2" backgroundColor="header" />
