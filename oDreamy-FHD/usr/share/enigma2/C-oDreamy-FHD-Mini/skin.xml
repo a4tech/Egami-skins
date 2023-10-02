@@ -220,17 +220,17 @@
 	<screen name="SecondInfoBar" position="fill" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
 		<eLabel position="0,892" size="1920,188" backgroundColor="header" zPosition="-1" />
 		<!-- *** Time *** -->
-		<eLabel position="1693,15" size="179,38" backgroundColor="#10303030" transparent="0" zPosition="-1" />
+		<eLabel position="1693,15" size="179,38" backgroundColor="#10303030" transparent="0" zPosition="-1" cornerRadius="5" />
 		<widget source="global.CurrentTime" render="Label" position="1698,15" size="169,33" font="Regular;34" halign="center" foregroundColor="ltbluette" backgroundColor="background" transparent="1">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel position="360,1028" size="10,45" backgroundColor="red" zPosition="1" />
+		<eLabel position="360,1028" size="10,45" backgroundColor="red" cornerRadius="5" zPosition="1" />
 		<eLabel text="EPG" position="375,1032" size="200,40" font="Regular;34" foregroundColor="white" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
-		<eLabel position="723,1028" size="10,45" backgroundColor="green" zPosition="1" />
+		<eLabel position="723,1028" size="10,45" backgroundColor="green" cornerRadius="5" zPosition="1" />
 		<eLabel text="Plugins" position="738,1032" size="200,40" font="Regular;34" foregroundColor="white" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
-		<eLabel position="1071,1028" size="10,45" backgroundColor="yellow" zPosition="1" />
+		<eLabel position="1071,1028" size="10,45" backgroundColor="yellow" cornerRadius="5" zPosition="1" />
 		<eLabel text="Extensions" position="1086,1032" size="200,40" font="Regular;34" foregroundColor="white" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
-		<eLabel position="1456,1028" size="10,45" backgroundColor="blue" zPosition="1" />
+		<eLabel position="1456,1028" size="10,45" backgroundColor="blue" cornerRadius="5" zPosition="1" />
 		<eLabel text="EGAMI" position="1472,1032" size="200,40" font="Regular;34" foregroundColor="white" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
 		<!-- ***** Infobar ***** -->
 		<widget source="session.RecordState" render="Pixmap" position="54,914" size="34,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="2">
@@ -242,7 +242,7 @@
 			<convert type="ClockToText">Default</convert>
 		</widget>
 		<!-- Progress -->
-		<widget source="session.Event_Now" render="Progress" position="250,910" size="1400,45" foregroundColor="bluette" backgroundColor="#20202020" transparent="0" zPosition="2">
+		<widget source="session.Event_Now" render="Progress" position="250,910" cornerRadius="5" size="1400,45" foregroundColor="bluette" backgroundColor="#20202020" transparent="0" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="260,910" size="1390,45" font="Regular;38" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" noWrap="1" zPosition="3">
@@ -257,7 +257,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel position="250,975" size="1400,45" backgroundColor="#10202020" transparent="0" zPosition="1" />
+		<eLabel position="250,975" size="1400,45" backgroundColor="#10202020" cornerRadius="5" transparent="0" zPosition="1" />
 		<widget source="session.Event_Next" render="Label" position="260,975" size="1390,45" font="Regular;38" valign="center" foregroundColor="white" backgroundColor="#10202020" transparent="0" noWrap="1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
@@ -266,10 +266,10 @@
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
 		<!-- *****  Event Now ***** -->
-		<eLabel position="48,60" size="1822,50" backgroundColor="#10303030" transparent="0" zPosition="1" />
-		<eLabel position="47,110" size="1823,380" backgroundColor="header" transparent="0" zPosition="0" />
+		<eLabel position="48,60" size="1822,50" backgroundColor="#10303030" cornerRadius="5" transparent="0" zPosition="1" />
+		<eLabel position="47,110" size="1823,380" backgroundColor="header" cornerRadius="5" transparent="0" zPosition="0" />
 		<!-- Progressbar (current event duration) -->
-		<widget source="session.Event_Now" render="Progress" position="48,60" size="1822,50" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2">
+		<widget source="session.Event_Now" render="Progress" position="48,60" backgroundColor="#10303030" cornerRadius="5" size="1822,50" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- EVENTS Info -->
@@ -336,8 +336,7 @@
 	</screen>
 	<!-- Channel Selection PIG FHD -->
 	<screen name="ChannelSelection" position="fill" size="1920,1080" title="Channel Selection" flags="wfNoBorder">
-		<eLabel position="1191,150" size="680,384" backgroundColor="transparent" zPosition="1" />
-		<widget source="session.VideoPicture" render="Pig" position="1191,150" size="680,384" backgroundColor="transparent" zPosition="3" />
+		<widget source="session.VideoPicture" render="Pig" position="1185,145" cornerRadius="20" size="684,385" backgroundColor="transparent" zPosition="3" />
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" zPosition="-1" />
 		<ePixmap position="30,108" size="1860,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="1700,35" pixmap="oDreamy-FHD/icons/select.png" size="89,60" alphatest="blend" zPosition="2" />
@@ -417,13 +416,13 @@
 		</widget>
 		<!-- KEY EVENTS -->
 		<ePixmap position="30,940" size="1860,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
-		<eLabel position="50,965" size="10,30" backgroundColor="red" zPosition="0" />
+		<eLabel position="50,965" size="10,30" backgroundColor="red" cornerRadius="5" zPosition="0" />
 		<widget name="key_red" position="80,962" size="225,32" zPosition="1" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
-		<eLabel position="50,1020" size="10,30" backgroundColor="green" zPosition="0" />
+		<eLabel position="50,1020" size="10,30" backgroundColor="green" cornerRadius="5" zPosition="0" />
 		<widget name="key_green" position="80,1017" size="225,32" zPosition="1" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
-		<eLabel position="750,965" size="10,30" backgroundColor="yellow" zPosition="0" />
+		<eLabel position="750,965" size="10,30" backgroundColor="yellow" cornerRadius="5" zPosition="0" />
 		<widget name="key_yellow" position="508,962" size="225,32" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
-		<eLabel position="750,1020" size="10,30" backgroundColor="blue" zPosition="0" />
+		<eLabel position="750,1020" size="10,30" backgroundColor="blue" cornerRadius="5" zPosition="0" />
 		<widget name="key_blue" position="508,1017" size="225,32" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 	</screen>
 </skin>
