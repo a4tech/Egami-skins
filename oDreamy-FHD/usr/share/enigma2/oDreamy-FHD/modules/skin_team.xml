@@ -433,7 +433,7 @@
 		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/egpanel.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<widget name="list" position="70,180" size="840,720" itemHeight="72" scrollbarRadius="5" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="list" position="70,180" size="840,720" selectionZoom="4" itemHeight="72" scrollbarRadius="5" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<widget name="description" position="1280,480" size="580,600" font="Regular;34" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 	<!--  EGAMI SoftCam CCCam Info FHD -->
