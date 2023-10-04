@@ -1,9 +1,9 @@
 <skin>
 	<fonts>
-		<font name="LCD" filename="lcd.ttf" scale="100" />
-		<font name="Console" filename="tuxtxt.ttf" scale="100" />
-		<font name="Fixed" filename="andale.ttf" scale="100" />
-		<font name="Replacement" filename="ae_AlMateen.ttf" scale="100" replacement="1" />
+		<font name="LCD" filename="/usr/share/fonts/lcd.ttf" scale="100" />
+		<font name="Console" filename="/usr/share/fonts/tuxtxt.ttf" scale="100" />
+		<font name="Fixed" filename="/usr/share/fonts/andale.ttf" scale="100" />
+		<font name="Replacement" filename="/usr/share/fonts/ae_AlMateen.ttf" scale="100" replacement="1" />
 		<font name="Regular" filename="/usr/share/enigma2/oDreamy-FHD/fonts/verdana.ttf" scale="96" />
 		<font name="xRegular" filename="/usr/share/fonts/nmsbd.ttf" scale="100" />
 		<alias name="Body" font="Regular" size="32" height="50" />
