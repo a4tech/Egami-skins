@@ -629,7 +629,7 @@
 		<panel name="Ex" />
 		<widget name="status" position="70,180" size="820,40" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel position="70,240" size="820,1" backgroundColor="#10303030" zPosition="2" />
-		<widget name="listaaddonow" position="70,270" size="820,720" font="Regular;30" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="listaaddonow" position="70,270" size="820,560" font="Regular;30" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/utility.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  EGAMI E2 Config Info FHD -->
@@ -2195,7 +2195,7 @@
 	<screen name="Volume" position="center,50" size="890,85" zPosition="10" backgroundColor="transparent" title="Volume" flags="wfNoBorder">
 		<eLabel position="0,0" size="890,85" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
 		<eLabel position="2,2" size="886,80" backgroundColor="#000000" cornerRadius="10" zPosition="-1" />
-		<eLabel position="125,33" size="653,18" backgroundColor="#565454" cornerRadius="10" transparent="0" zPosition="19" />
+		<eLabel position="125,33" size="653,18" backgroundColor="#413f3f" cornerRadius="10" transparent="0" zPosition="19" />
 		<ePixmap position="20,15" size="75,54" pixmap="oDreamy-FHD/skin_default/vol.png" alphatest="blend" transparent="1" zPosition="20" />
 		<widget name="Volume" position="125,33" size="653,18" pixmap="oDreamy-FHD/skin_default/volbar.png" transparent="1" alphatest="blend" zPosition="20" />
 		<widget name="VolumeText" position="805,25" size="60,30" font="Regular;32" backgroundColor="background" foregroundColor="ltbluette" halign="center" valign="center" transparent="1" zPosition="20" />
