@@ -3238,11 +3238,11 @@
 	</screen>
 
 	<!-- Enhanced Movie Center -->
-	<screen name="EMCSelection" position="fill" title="Enhanced Movie Center" backgroundColor="#FF000000" flags="wfNoBorder">
+	<screen name="EMCSelection" position="fill" title="Enhanced Movie Center" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="EMCSelectionOwn" />
 	</screen>
 
-	<screen name="EMCSelectionOwn" position="fill" title="Enhanced Movie Center" backgroundColor="#FF000000" flags="wfNoBorder">
+	<screen name="EMCSelectionOwn" position="fill" title="Enhanced Movie Center" backgroundColor="transparent" flags="wfNoBorder">
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/box/chb.jpg" zPosition="-1" />
 		<ePixmap position="30,120" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<ePixmap position="30,980" size="1860,1" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
@@ -3279,7 +3279,7 @@
 		<widget source="Service" render="DRRunningText" position="1290,740" options="movetype=swimming,startpoint=0,startdelay=3000,wrap=0,always=0,repeat=6,oneshot=1" size="580,220" font="Regular;30" halign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="2">
 			<convert type="EMCMovieInfo">ShortDescription</convert>
 		</widget>
-		<widget name="list" position="70,140" size="1200,810" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="0" transparent="1" backgroundColorSelected="bluette" itemCornerRadius="12"
+		<widget name="list" position="70,140" size="1200,810" scrollbarRadius="5" zPosition="2" scrollbarMode="showOnDemand" enableWrapAround="0" transparent="1" backgroundColorSelected="bluette"
 			itemHeight="45"
 			CoolCSPos="780"
 			CoolBarHPos="15"

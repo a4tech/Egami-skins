@@ -2516,7 +2516,7 @@
 	<screen name="ChannelContextMenu" title="Channel Context Menu" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p700_Template" />
 		<panel name="p700_Logo" />
-		<panel name="fakeExitNoButton" />
+		<panel name="s_RGYB" />
 		<widget name="menu" position="70,180" size="730,700" itemHeight="53" font="Regular;32" enableWrapAround="1" zPosition="2" scrollbarRadius="5" scrollbarMode="showAlways" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="860,645" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" zPosition="2" />
 	</screen>
@@ -3854,7 +3854,7 @@
 		<panel name="p8000_Template" />
 		<panel name="p8001_Ext" />
 		<panel name="p800_Date" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
+		<panel name="s_RGYB" />
 		<eLabel text="Exit" position="1390,940" size="200,95" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="menu" render="Listbox" position="60,180" size="1805,720" zPosition="1" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
