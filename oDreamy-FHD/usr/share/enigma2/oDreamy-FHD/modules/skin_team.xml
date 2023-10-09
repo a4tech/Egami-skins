@@ -3861,9 +3861,9 @@
 				 {"template": [
 						 MultiContentEntryText(pos=(170,0), size=(10,90), font=1, flags = RT_HALIGN_CENTER | RT_VALIGN_CENTER, text = 1),
 						 MultiContentEntryText(pos=(200,0), size=(650,30), font=1, flags = RT_HALIGN_LEFT | RT_VALIGN_TOP, text=2, color=0x00ffffff, color_sel=0x00ffffff),
-						 MultiContentEntryText(pos=(860,0), size=(920,85), font=3, flags = RT_HALIGN_LEFT|RT_WRAP, text = 4, color=0x00ffffff, color_sel=0x00ffffff),
-						 MultiContentEntryText(pos=(200,30), size=(640,30), font=2, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=3, color=0x00073c6ff, color_sel=0x00ffffff),
-						 MultiContentEntryText(pos=(200,60), size=(640,30), font=3, flags = RT_HALIGN_LEFT, text = 5, color=0x0073c6ff, color_sel=0x00ffffff),
+						 MultiContentEntryText(pos=(860,0), size=(920,85), font=3, flags = RT_HALIGN_LEFT|RT_WRAP, text = 4, color=0x00073c6ff, color_sel=0x00ffc000),
+						 MultiContentEntryText(pos=(200,30), size=(640,30), font=2, flags = RT_HALIGN_LEFT | RT_VALIGN_CENTER, text=3, color=0x00073c6ff, color_sel=0x00ffc000),
+						 MultiContentEntryText(pos=(200,60), size=(640,30), font=3, flags = RT_HALIGN_LEFT, text = 5, color=0x0073c6ff, color_sel=0x00ffc000),
 						 MultiContentEntryPixmapAlphaBlend(pos=(20,5), size=(132,79), png=6, flags=BT_SCALE)
 					 ],
 					"fonts": [gFont("Regular", 32), gFont("Regular", 30), gFont("Regular", 28), gFont("Regular", 26)],
