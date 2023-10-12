@@ -308,7 +308,7 @@
 		<panel name="Ex" />
 		<widget name="info2" position="320,5" size="600,500" font="Regular;35" itemHeight="50" foregroundColor="white" backgroundColor="#0242FD" transparent="1" zPosition="1"/>
 	  <ePixmap position="1365,570" size="400,142" pixmap="oDreamy-FHD/icons/vpnscreen.png" alphatest="blend" zPosition="2" />
-	  <widget name="list" position="70,190" size="1170,700" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" backgroundColorSelected="#000066" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarWidth="6" zPosition="3" transparent="1" />
+	  <widget name="list" position="70,190" size="1170,700" font="Regular;40" itemCornerRadius="12" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" backgroundColorSelected="#000066" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarWidth="6" zPosition="3" transparent="1" />
 	  <widget name="vpnLoad" position="300,500" size="570,160" backgroundColor="#00000000" foregroundColor="#00B8B8B8" font="Regular;40" valign="top" halign="center" zPosition="2" transparent="1" />
 	  <widget name="ip" position="1440,200" size="250,100" font="Regular;35" valign="top" halign="center" zPosition="2" foregroundColor="yellow" backgroundColor="#00000000" transparent="1" />
 	  <widget name="auth" position="1270,200" size="600,200" font="Regular;35" valign="top" halign="center" zPosition="2" foregroundColor="red" backgroundColor="#00000000" transparent="1" />
@@ -375,7 +375,7 @@
 		<panel name="Ex" />
 	  <ePixmap position="1260,140" size="610,802" pixmap="oDreamy-FHD/icons/list_vpn.png" alphatest="blend" zPosition="15" />
 	  <ePixmap position="460,180" size="400,142" pixmap="oDreamy-FHD/icons/vpn.png" alphatest="blend" zPosition="15" />
-	  <widget name="config" position="70,250" size="1170,700" itemHeight="50" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" backgroundColorSelected="#000066" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarWidth="6" zPosition="1" transparent="1" />
+	  <widget name="config" position="70,250" size="1170,700" itemHeight="50" font="Regular;40" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" itemCornerRadius="12" backgroundColorSelected="#000066" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarWidth="6" zPosition="1" transparent="1" />
 		<widget name="lab1" position="1260,250" size="600,600" font="Regular;42" halign="center" valign="top" foregroundColor="white" backgroundColor="#0242FD" transparent="1" zPosition="1"/>
 	</screen>
 
@@ -547,18 +547,18 @@
 		<widget name="key_yellow" position="680,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
 		<ePixmap position="910,1023" pixmap="oDreamy-FHD/buttons/bluepanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="key_blue" position="950,990" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
-		<eLabel position="50,30" size="940,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,32" size="936,91" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,30" size="940,96" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="52,32" size="936,91" backgroundColor="header" cornerRadius="10" zPosition="-1" />
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<ePixmap position="700,50" size="50,50" pixmap="oDreamy-FHD/box/buttonTv.png" alphatest="blend" zPosition="2" />
 		<widget source="ButtonTv" render="Label" position="765,60" size="200,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel position="50,140" size="940,850" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,142" size="936,846" backgroundColor="header" zPosition="-1" />
-		<eLabel position="50,1000" size="1860,76" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,1003" size="1856,71" backgroundColor="header" zPosition="-1" />
-		<eLabel position="1000,30" size="910,960" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1002,33" size="906,955" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,140" size="940,850" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="52,142" size="936,846" backgroundColor="header" cornerRadius="10" zPosition="-1" />
+		<eLabel position="50,1000" size="1860,76" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="52,1003" size="1856,71" backgroundColor="header" cornerRadius="10" zPosition="-1" />
+		<eLabel position="1000,30" size="910,960" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="1002,33" size="906,955" backgroundColor="header" cornerRadius="10" zPosition="-1" />
 		<widget name="bouquet" position="400,30" size="900,95" font="Regular;30" halign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="vod_cover" position="1030,47" alphatest="blend" size="390,585" transparent="1" zPosition="2" />
 		<widget name="countrytxt" position="1450,55" size="200,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
@@ -580,16 +580,16 @@
 		<widget name="key_red" position="108,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
 		<ePixmap position="360,1023" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
 		<widget name="key_green" position="400,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
-		<eLabel position="50,30" size="940,96" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,32" size="936,91" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,30" size="940,96" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="52,32" size="936,91" backgroundColor="header" cornerRadius="10" zPosition="-1" />
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel position="50,140" size="940,850" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,142" size="936,846" backgroundColor="header" zPosition="-1" />
-		<eLabel position="50,1000" size="1860,76" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="52,1003" size="1856,71" backgroundColor="header" zPosition="-1" />
-		<eLabel position="1000,30" size="910,960" backgroundColor="ltbluette" zPosition="-1" />
-		<eLabel position="1002,33" size="906,955" backgroundColor="header" zPosition="-1" />
+		<eLabel position="50,140" size="940,850" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="52,142" size="936,846" backgroundColor="header" cornerRadius="10" zPosition="-1" />
+		<eLabel position="50,1000" size="1860,76" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="52,1003" size="1856,71" backgroundColor="header" cornerRadius="10" zPosition="-1" />
+		<eLabel position="1000,30" size="910,960" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
+		<eLabel position="1002,33" size="906,955" backgroundColor="header" cornerRadius="10" zPosition="-1" />
 		<widget name="vod_cover" position="1030,47" alphatest="blend" size="390,585" transparent="1" zPosition="2" />
 		<widget name="countrytxt" position="1450,55" size="200,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="country" position="1570,57" size="350,145" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
@@ -685,7 +685,7 @@
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/audio.png" alphatest="blend" />
 	</screen>
 	<!-- Audio Sync -->
-	<screen name = "AC3LipSync" position="fill" title="Audio Sync" backgroundColor="#FF000000" flags="wfNoBorder">
+	<screen name="AC3LipSync" position="fill" title="Audio Sync" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
@@ -1297,7 +1297,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget source="tasklist" render="Listbox" position="70,180" size="1170,700" zPosition="7" scrollbarRadius="5" scrollbarMode="showOnDemand">
+		<widget source="tasklist" render="Listbox" position="70,180" size="1170,700" zPosition="7" scrollbarRadius="5" itemCornerRadius="12" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos = (5, 1), size = (1160, 34), font=1, color=0x3faaff, flags = RT_HALIGN_LEFT, text = 1), # name
@@ -2236,6 +2236,23 @@
 		<widget source="backgroundable" render="FixedLabel" text="Continue in background" position="950,955" size="250,95" font="Regular;32" valign="center" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="ConditionalShowHide" />
 		</widget>
+		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend" />
+	</screen>
+
+	<!-- TaskView FHD -->
+	<screen name="TaskView" position="fill" title="TaskView" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template_notime" />
+		<panel name="p800_Logo" />
+		<panel name="s_RGYB" />
+		<widget source="name" render="Label" position="70,170" size="820,90" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />
+		<eLabel	position="70,310" size="820,1" backgroundColor="#505050" />
+		<widget source="status" render="Label" position="70,330" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget source="task" render="Label" position="70,380" size="820,40" font="Regular;30" backgroundColor="ltbluette" halign="center" />
+		<widget source="progress" render="Progress" position="70,380" size="820,40" borderWidth="1" foregroundColor="ltbluette" backgroundColor="header" />
+		<widget source="progress" render="Label" position="70,380" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="ltbluette" valign="center" halign="center" transparent="1" zPosition="2" >
+			<convert type="ProgressToText" />
+		</widget>
+		<widget name="config" position="70,440" size="820,50" font="Regular;30" itemHeight="40" backgroundColorSelected="bluette" itemCornerRadius="12" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend" />
 	</screen>
 

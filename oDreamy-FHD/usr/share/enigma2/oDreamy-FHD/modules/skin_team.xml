@@ -2680,9 +2680,8 @@
 		<panel name="M" />
 		<eLabel text="Info" position="1370,1000" size="200,43" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<eLabel text="Exit" position="1435,975" size="200,95" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
-		<eLabel position="1260,140" size="610,260" backgroundColor="#10101010" zPosition="0" />
-		<eLabel position="1260,400" size="610,10" backgroundColor="#ff101010" zPosition="0" />
-		<widget name="list" position="70,180" size="1170,720" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showAlways" enableWrapAround="1" backgroundColorSelected="bluette" itemCornerRadius="12" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
+
+		<widget name="list" position="70,180" size="1170,720" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showAlways" enableWrapAround="1" backgroundColorSelected="bluette" itemCornerRadius="12" foregroundColor="white" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="number" position="170,1900" size="500,60" font="Regular;34" valign="center" halign="left" foregroundColor="backpurple" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" zPosition="2" />
 		<widget name="lab1" position="70,1950" size="150,30" font="Regular;24" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="2" />
 		<!-- Event Name - Time -->
@@ -2691,7 +2690,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<eLabel text="End Time  :" position="1540,220" size="200,40" font="Regular;32" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
+		<eLabel text="End Time   :" position="1540,220" size="200,40" font="Regular;32" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="Event" render="Label" position="1730,220" size="200,40" font="Regular;32" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="1">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
@@ -2728,7 +2727,6 @@
 		<widget name="more_text" text="MORE" size="200,40" position="710,161" font="Regular;30" valign="center" halign="center" backgroundColor="header" zPosition="4" transparent="1" />
 		<eLabel position="70,220" size="1165,1" backgroundColor="#10202020" zPosition="2" />
 		<eLabel position="70,222" size="1165,1" backgroundColor="#10404040" zPosition="2" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="1230,240" size="10,690" zPosition="2" alphatest="blend" />
 		<widget name="list" position="70,240" size="1170,690" font="Regular;30" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
 		<!-- Event Name -->
 		<widget source="Event" render="DRRunningText" font="Regular;34" foregroundColor="yellow" backgroundColor="header" position="1280,160" halign="center" options="movetype=running,startpoint=0,startdelay=2000,wrap=0,always=0,repeat=2,oneshot=1" size="550,60" transparent="1" noWrap="1">
@@ -2759,9 +2757,6 @@
 		<panel name="p800_Ext" />
 		<panel name="s_RGYB" />
 		<panel name="MI" />
-		<eLabel position="1260,140" size="610,260" backgroundColor="#10101010" zPosition="0" />
-		<eLabel position="1260,400" size="610,10" backgroundColor="#ff101010" zPosition="0" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="1230,180" size="10,720" alphatest="blend" zPosition="2" />
 		<widget name="list" position="70,180" size="1170,720" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" enableWrapAround="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2" />
 		<!-- Event Name - Time -->
 		<eLabel text="Start Time :" position="1540,165" size="200,40" font="Regular;32" halign="left" backgroundColor="header" foregroundColor="yellow" transparent="1" zPosition="1" />
