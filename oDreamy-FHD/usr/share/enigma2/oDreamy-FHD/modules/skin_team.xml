@@ -4433,13 +4433,13 @@
 		<panel name="fakeExit" />
 		<panel name="I" />
 		<eLabel text="Choose your Skin" position="70,170" size="820,50" font="Regular;44" halign="left" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="SkinList" position="70,240" size="820,630" font="Regular;32" scrollbarRadius="5" scrollbarMode="showAlways" valign="center" itemHeight="40" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="SkinList" position="70,240" size="820,600" font="Regular;37" scrollbarRadius="5" textPadding="15,0" scrollbarMode="showOnDemand" valign="center" itemHeight="50" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<eLabel text="Preview" position="1260,600" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="header" transparent="1" zPosition="2" />
-		<eLabel position="1260,600" size="610,70" backgroundColor="trbluette" zPosition="1" />
-		<eLabel position="1260,680" size="610,267" backgroundColor="background" zPosition="1" />
-		<widget name="Preview" position="1370,705" size="390,220" alphatest="on" zPosition="10" />
-		<widget source="introduction" render="Label" position="300,982" size="500,40" font="Regular;32" halign="left" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" transparent="1" />
-		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,670" size="256,256" zPosition="2" alphatest="blend" />
+		<eLabel position="1260,600" size="610,70" backgroundColor="trbluette" cornerRadius="10" zPosition="1" />
+		<eLabel position="1260,680" size="610,267" backgroundColor="background" cornerRadius="10" zPosition="1" />
+		<widget name="Preview" position="1370,705" size="390,220" alphatest="blend" zPosition="10" />
+		<widget source="introduction" render="Label" position="400,987" size="500,40" font="Regular;32" halign="left" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" transparent="1" />
+		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,570" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!-- User Positioner Interface FHD -->
 	<screen name="UserInterfacePositioner" Title="Positioner" position="fill" backgroundColor="transparent" flags="wfNoBorder">
