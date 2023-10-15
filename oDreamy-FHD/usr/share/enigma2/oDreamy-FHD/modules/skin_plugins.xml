@@ -385,7 +385,7 @@
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
-		<widget source="ChannelList" render="Listbox" position="70,180" size="820,700" foregroundColor="white" backgroundColor="header" foregroundColorSelected="white" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showAlways" transparent="1" >
+		<widget source="ChannelList" render="Listbox" position="70,180" size="820,700" foregroundColor="white" backgroundColor="header" foregroundColorSelected="white" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" >
 			<convert type="TemplatedMultiContent">
 			{"template":
 					[
@@ -1560,7 +1560,7 @@
 		<widget name="background" zPosition="1" position="0,0" size="560,360" alphatest="blend" />
 		<widget name="label1" zPosition="2" position="220,200" size="540,35" font="Regular;30" halign="center" valign="center" transparent="1" />
 		<widget name="label2" zPosition="2" position="120,255" foregroundColor="yellow" size="700,40" font="Regular;35" halign="center" valign="center" transparent="1" />
-		<widget source="list" render="Listbox" position="70,340" itemHeight="40" font="Regular;35" foregroundColorSelected="yellow" backgroundColorSelected="bluette" itemCornerRadius="12" zPosition="3" size="810,560" scrollbarRadius="5" scrollbarMode="showAlways" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
+		<widget source="list" render="Listbox" position="70,340" itemHeight="40" font="Regular;35" foregroundColorSelected="yellow" backgroundColorSelected="bluette" itemCornerRadius="12" zPosition="3" size="810,560" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
 			<convert type="StringList" />
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
@@ -1658,7 +1658,7 @@
 		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" halign="left" valign="center" foregroundColor="#73c6ff" backgroundColor="header" transparent="1" />
 		<widget name="labstop" position="350,240" size="540,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
 		<widget name="labrun" position="350,240" size="540,40" font="Regular;32" halign="center" valign="center" foregroundColor="#000000" backgroundColor="green" zPosition="1" />
-		<widget source="list" render="Listbox" position="70,320" size="820,580" itemHeight="35" font="Regular;30" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showAlways" transparent="1">
+		<widget source="list" render="Listbox" position="70,320" size="820,580" itemHeight="35" font="Regular;30" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="StringList" />
 		</widget>
 		<widget name="key" position="50,840" size="820,80" font="Regular;25" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
@@ -2289,7 +2289,7 @@
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
-		<widget name="list" position="70,180" size="840,700" itemHeight="50" font="Regular;32" scrollbarRadius="5" scrollbarMode="showAlways" backgroundColor="header" enableWrapAround="1" transparent="1" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="list" position="70,180" size="840,700" itemHeight="50" font="Regular;32" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" enableWrapAround="1" transparent="1" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<widget name="choosen" position="1270,150" size="590,480" itemHeight="53" font="Regular;32" halign="center" foregroundColor="yellow" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="description" position="1260,680" size="600,200" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/input.png" alphatest="blend" />
@@ -2440,7 +2440,7 @@
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend" />
-		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showAlways" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColor="header" transparent="1" />
+		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColor="header" transparent="1" />
 	</screen>
 
 	<!-- OsCAM Info -->
@@ -2449,7 +2449,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="fakeExitNoButton" />
-		<widget name="mainmenu" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showAlways" font="Regular;30" itemHeight="40" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="mainmenu" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend" />
 	</screen>
 
@@ -4130,7 +4130,7 @@
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
 		<!-- List Channel -->
-		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showAlways">
+		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos=(35,1), size=(780,40), text = 0, font = 0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER),
 					MultiContentEntryText(pos=(35,30), size=(780,40), text = 1, font = 0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER),
@@ -4151,7 +4151,7 @@
 		<panel name="s_RGYB" />
 		<panel name="MI" />
 		<!-- List Channel -->
-		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showAlways">
+		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos=(1,1), size=(710,40), text = 0, font = 0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER),
 					],
@@ -4167,7 +4167,7 @@
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<widget source="list" render="Listbox" position="70,180" size="820,800" scrollbarRadius="5" scrollbarMode="showAlways">
+		<widget source="list" render="Listbox" position="70,180" size="820,800" scrollbarRadius="5" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
 					MultiContentEntryText(pos=(35,1), size=(510,24), text = 0, font = 0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER),
@@ -4948,7 +4948,7 @@
 		<widget name="text" position="70,180" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" />
 		<widget source="constellation" render="Canvas" position="700,180" size="100,100" correct_aspect="width" />
 		<widget name="progress" position="70,250" size="820,40" font="Regular;30" backgroundColor="header" transparent="1" />
-		<widget source="list" render="Listbox" position="70,300" size="820,480" scrollbarRadius="5" scrollbarMode="showAlways" transparent="1">
+		<widget source="list" render="Listbox" position="70,300" size="820,480" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (0, 0), size = (375, 30), flags = RT_HALIGN_LEFT, text = 0) ],
 					"fonts": [gFont("Regular", 26],
@@ -5530,7 +5530,7 @@
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="memory" position="70,545" zPosition="2" size="800,40" valign="center" halign="left" font="Regular;30" backgroundColor="header" foregroundColor="yellow" />
 		<widget name="slide" position="68,600" zPosition="2" borderWidth="2" foregroundColor="ltbluette" size="800,28" backgroundColor="white" />
-		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="45" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" transparent="1" backgroundColor="header" scrollbarRadius="5" scrollbarMode="showAlways" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="45" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" transparent="1" backgroundColor="header" scrollbarRadius="5" scrollbarMode="showOnDemand" />
 	</screen>
 
 	<!-- Merlin Music Player FHD  -->
@@ -6587,6 +6587,6 @@
 		<widget source="plugins" render="Label" position="925,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
 		<widget source="extensions" render="Label" position="1031,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
 		<widget source="eventinfo" render="Label" position="1136,910" size="108,22" halign="center" valign="center" font="Regular;18" foregroundColor="white" transparent="1" backgroundColor="header" zPosition="2" />
-		<widget name="list" position="70,180" size="830,750" scrollbarRadius="5" scrollbarMode="showAlways" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="2" />
+		<widget name="list" position="70,180" size="830,750" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="2" />
 	</screen>
 </skin>

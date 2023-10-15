@@ -294,7 +294,7 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1"
-		scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showAlways" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
+		scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
 			backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" selectionZoom="4">
 			<convert type="TemplatedMultiContent">
 				{"templates":
