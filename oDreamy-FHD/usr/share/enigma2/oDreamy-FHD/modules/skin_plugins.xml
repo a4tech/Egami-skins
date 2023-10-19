@@ -308,21 +308,21 @@
 		<panel name="Ex" />
 		<widget name="info2" position="320,5" size="600,500" font="Regular;35" itemHeight="50" foregroundColor="white" backgroundColor="#0242FD" transparent="1" zPosition="1"/>
 	  <ePixmap position="1365,570" size="400,142" pixmap="oDreamy-FHD/icons/vpnscreen.png" alphatest="blend" zPosition="2" />
-	  <widget name="list" position="70,190" size="1170,700" font="Regular;40" itemCornerRadius="12" foregroundColor="#ffffff" backgroundColor="#000066" foregroundColorSelected="#ffffff" backgroundColorSelected="#000066" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarWidth="6" zPosition="3" transparent="1" />
-	  <widget name="vpnLoad" position="300,500" size="570,160" backgroundColor="#00000000" foregroundColor="#00B8B8B8" font="Regular;40" valign="top" halign="center" zPosition="2" transparent="1" />
-	  <widget name="ip" position="1440,200" size="250,100" font="Regular;35" valign="top" halign="center" zPosition="2" foregroundColor="yellow" backgroundColor="#00000000" transparent="1" />
-	  <widget name="auth" position="1270,200" size="600,200" font="Regular;35" valign="top" halign="center" zPosition="2" foregroundColor="red" backgroundColor="#00000000" transparent="1" />
-	  <widget name="VpnipLabel" position="1380,250" size="360,50" backgroundColor="#00000000" foregroundColor="white" font="Regular;45" halign="center" valign="top" zPosition="2" transparent="1" />
-	  <widget name="Nazione" position="1290,330" size="300,45" backgroundColor="#00000000" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;38" valign="top" halign="left" />
-	  <widget name="regionLabel" position="1460,330" size="700,50" backgroundColor="#00000000" foregroundColor="white" font="Regular;38" valign="top" halign="left" zPosition="1" transparent="1" />
-	  <eLabel text="Provider:" position="1290,410" size="300,45" backgroundColor="#00000000" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;38" valign="top" halign="left" />
-	  <widget name="provLabel" position="1465,410" size="400,100" backgroundColor="#00000000" foregroundColor="white" font="Regular;38" valign="top" halign="left" zPosition="1" transparent="1" />
-	  <eLabel text="Provider Vpn:" position="1290,500" size="300,45" backgroundColor="#00000000" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;38" valign="top" halign="left" />
-	  <widget name="checkLabel" position="1550,500" size="337,45" backgroundColor="#00000000" foregroundColor="white" font="Regular;38" valign="top" halign="left" zPosition="2" transparent="1" />
-	  <widget name="StatoOpenVpn" position="1362,730" size="400,50" backgroundColor="#00000000" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;40" valign="top" halign="center" />
-	  <widget name="vpnStatus" position="1400,780" size="337,50" backgroundColor="#00000000" foregroundColor="white" font="Regular;40" valign="top" halign="center" zPosition="2" transparent="1" />
-	  <widget name="ServerSelezionato" position="1215,840" size="700,50" backgroundColor="#00000000" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;40" valign="top" halign="center" />
-	  <widget name="vpnInfo" position="1215,890" size="700,50" backgroundColor="#00000000" foregroundColor="white" font="Regular;32" valign="top" halign="center" zPosition="2" transparent="1" />
+	  <widget name="list" position="70,190" size="1170,700" font="Regular;40" itemCornerRadius="12" foregroundColor="#ffffff" backgroundColor="header" foregroundColorSelected="#ffffff" backgroundColorSelected="bluette" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarWidth="6" zPosition="3" transparent="1" />
+	  <widget name="vpnLoad" position="300,500" size="570,160" backgroundColor="header" foregroundColor="#00B8B8B8" font="Regular;40" valign="top" halign="center" zPosition="2" transparent="1" />
+	  <widget name="ip" position="1440,200" size="250,100" font="Regular;35" valign="top" halign="center" zPosition="2" foregroundColor="yellow" backgroundColor="header" transparent="1" />
+	  <widget name="auth" position="1270,200" size="600,200" font="Regular;35" valign="top" halign="center" zPosition="2" foregroundColor="red" backgroundColor="header" transparent="1" />
+	  <widget name="VpnipLabel" position="1380,250" size="360,50" backgroundColor="header" foregroundColor="white" font="Regular;45" halign="center" valign="top" zPosition="2" transparent="1" />
+	  <widget name="Nazione" position="1290,330" size="300,45" backgroundColor="header" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;38" valign="top" halign="left" />
+	  <widget name="regionLabel" position="1460,330" size="700,50" backgroundColor="header" foregroundColor="white" font="Regular;38" valign="top" halign="left" zPosition="1" transparent="1" />
+	  <eLabel text="Provider:" position="1290,410" size="300,45" backgroundColor="header" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;38" valign="top" halign="left" />
+	  <widget name="provLabel" position="1465,410" size="400,100" backgroundColor="header" foregroundColor="white" font="Regular;38" valign="top" halign="left" zPosition="1" transparent="1" />
+	  <eLabel text="Provider Vpn:" position="1290,500" size="300,45" backgroundColor="header" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;38" valign="top" halign="left" />
+	  <widget name="checkLabel" position="1550,500" size="337,45" backgroundColor="header" foregroundColor="white" font="Regular;38" valign="top" halign="left" zPosition="2" transparent="1" />
+	  <widget name="StatoOpenVpn" position="1362,730" size="400,50" backgroundColor="header" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;40" valign="top" halign="center" />
+	  <widget name="vpnStatus" position="1400,780" size="337,50" backgroundColor="header" foregroundColor="white" font="Regular;40" valign="top" halign="center" zPosition="2" transparent="1" />
+	  <widget name="ServerSelezionato" position="1215,840" size="700,50" backgroundColor="header" transparent="1" foregroundColor="yellow" zPosition="2" font="Regular;40" valign="top" halign="center" />
+	  <widget name="vpnInfo" position="1215,890" size="700,50" backgroundColor="header" foregroundColor="white" font="Regular;32" valign="top" halign="center" zPosition="2" transparent="1" />
 	</screen>
 
 	<!-- YouTubeMain -->
