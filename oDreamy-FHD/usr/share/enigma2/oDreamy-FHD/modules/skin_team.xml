@@ -3835,16 +3835,6 @@
 		<widget name="AboutScrollLabel" position="70,310" size="820,680" font="Regular;32" backgroundColor="header" transparent="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
-	<!-- ServiceInfo FHD -->
-	<screen name="ServiceInfo" title="ServiceInfo" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template_notime" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<widget name="infolist" position="70,180" font="Regular;28" scrollbarRadius="5" scrollbarMode="showOnDemand" zPosition="5" size="1140,680" valign="center" itemHeight="45" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
-		<widget source="session.CurrentService" render="Label" position="70,870" size="1120,30" font="Regular;28" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1">
-			<convert type="ServiceInfo">HasHBBTV</convert>
-		</widget>
-	</screen>
 	<!-- History Zap -->
 	<screen name="HistoryZapSelector" title="History Zap" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p8000_Template" />
