@@ -96,7 +96,7 @@
 			<convert type="ServiceInfo">IsCrypted</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="session.CurrentService" render="Picon" path="picon" position="26,853" size="350,210" alphatest="blend" zPosition="2">
+		<widget source="session.CurrentService" render="Picon" path="picon" cornerRadius="10" position="26,851" size="350,210" alphatest="blend" zPosition="2">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="session.RecordState" render="Pixmap" position="451,852" size="35,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="10">
