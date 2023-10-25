@@ -2702,7 +2702,9 @@
 		<widget source="Event" render="Label" position="1270,420" size="590,510" font="Regular;32" foregroundColor="#a0a0a0" backgroundColor="header" valign="center" halign="left" transparent="1" zPosition="1">
 			<convert type="EventName">FullDescription</convert>
 		</widget>
-		<ePixmap pixmap="picon_default.png" position="1280,150" size="220,132" alphatest="blend" zPosition="2" />
+		<widget position="1280,150" size="220,132" render="Picon" source="Service" alphatest="blend" transparent="1" zPosition="2">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
 		<widget name="number" position="990,500" size="250,100" font="Regular;34" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="5" />
 	</screen>
 	<!-- EPG Selection Multi FHD -->
@@ -2776,7 +2778,9 @@
 		<widget source="Event" render="Label" position="1270,420" size="590,510" font="Regular;32" foregroundColor="#a0a0a0" backgroundColor="header" valign="center" halign="left" transparent="1" zPosition="1">
 			<convert type="EventName">FullDescription</convert>
 		</widget>
-		<ePixmap pixmap="picon_default.png" position="1280,150" size="220,132" alphatest="blend" zPosition="2" />
+		<widget position="1280,150" size="220,132" render="Picon" source="Service" alphatest="blend" transparent="1" zPosition="2">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
 		<widget name="number" position="990,500" size="250,100" font="Regular;34" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="5" />
 	</screen>
 	<!-- EPG Search Setup FHD -->
