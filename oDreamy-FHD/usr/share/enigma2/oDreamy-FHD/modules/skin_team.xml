@@ -4029,7 +4029,6 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 	</screen>
-
 	<!-- PluginAction FHD -->
 	<screen name="PluginAction" position="0,0" size="1920,1080" title="Downloadable plugins" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="p900_Template"/>
@@ -4042,13 +4041,13 @@
 					[
 					MultiContentEntryPixmapAlphaBlend(pos=(8, 0), size=(90, 75), png=6, flags=BT_SCALE),
 					MultiContentEntryText(pos=(105, 0), size=(920, 75), font=0, flags=RT_VALIGN_CENTER, text=2), # Category
-					MultiContentEntryText(pos=(105, 2), size=(920, 38), font=1, flags=RT_VALIGN_CENTER, text=11), # Name + Version
+					MultiContentEntryText(pos=(105, 2), size=(920, 38), font=1, flags=RT_VALIGN_CENTER, text=11, color_sel=0x00ffc000), # Name + Version
 					# MultiContentEntryText(pos=(70, 1), size=(430, 25), font=1, flags=RT_VALIGN_CENTER, text=3), Name
 					# MultiContentEntryText(pos=(480, 1), size=(160, 25), font=1, flags=RT_VALIGN_CENTER, text=5), Version
 					MultiContentEntryText(pos=(105, 42), size=(920, 32), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0), # Description
 					MultiContentEntryPixmapAlphaBlend(pos=(990, 2), size=(72, 72), png=7, flags=BT_SCALE)
 					],
-				"fonts": [gFont("Regular", 38),gFont("Regular", 27),gFont("Regular", 24)],
+				"fonts": [gFont("Regular", 38),gFont("Regular", 30),gFont("Regular", 26)],
 				"itemHeight": 75
 				}
 			</convert>
