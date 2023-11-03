@@ -3960,17 +3960,6 @@
 			</convert>
 		</widget>
 	</screen>
-
-	<!-- Download Addons FHD -->
-	<screen name="PluginDownloadBrowser" title="Downloadable plugins" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template_notime" />
-		<panel name="p800_DateMid" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<panel name="fakeExitNoButton" />
-		<widget name="text" position="70,180" size="1160,50" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" halign="left" transparent="1" />
-		<widget name="list" position="70,180" size="1160,700" font="Regular;32" itemHeight="70" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
-	</screen>
 	<!-- Script Panel FHD-->
 	<screen name="ScriptExecuter" title="Script Executer" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -3987,14 +3976,100 @@
 	<!-- Plugin Browser FHD -->
 	<screen name="PluginBrowser" title="Plugin Browser" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
-		<panel name="p800_Logo_Nobar" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<panel name="plugincolor" />
-		<ePixmap pixmap="oDreamy-FHD/box/maxbar.png" position="900,170" size="10,750" alphatest="blend" zPosition="2" />
 		<eLabel position="895,170" size="5,750" backgroundColor="header" zPosition="1" />
 		<widget name="list" position="70,170" size="840,750" font="Regular;30" itemHeight="75" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
+	</screen>
+	<!-- PluginBrowserGrid FHD -->
+	<screen name="PluginBrowserGrid" position="0,0" size="1920,1080" title="Plugin browser" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p900_Template"/>
+    <panel name="s_RGYB"/>
+    <panel name="M"/>
+		<widget name="description" position="87,185" size="e-150,35" font="Regular;30" transparent="1" zPosition="5" backgroundColor="header" foregroundColor="#00ffc000" valign="center"/>
+		<widget source="pluginGrid" render="Listbox" position="150,245" size="1680,660" transparent="1" zPosition="5" itemSpacing="15,15" selectionZoom="10" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarBorderWidth="1" scrollbarForegroundColor="ltbluette" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColorSelected="bluette" itemCornerRadius="12" listOrientation="grid" moveBackgroundColor="bluette">
+			<convert type="TemplatedMultiContent">
+				{
+					"template": [
+						MultiContentEntryText(pos = (0, 0), size = (300, 165), font=0),
+						MultiContentEntryText(pos = (8, 75), size = (285, 75), font=0, color_sel=0x00ffc000, flags = RT_VALIGN_CENTER|RT_HALIGN_CENTER|RT_WRAP, text = 1),
+						MultiContentEntryPixmapAlphaBlend(pos=(75, 15), size=(150, 60), png=3, flags=BT_SCALE)
+					],
+					"fonts": [gFont("Regular", 25),gFont("Regular", 21)],
+					"itemWidth": 300,
+					"itemHeight": 165
+				}
+			</convert>
+		</widget>
+		<eLabel text="Extensions" position="8,803" size="1920,300" font="Regular;150" noWrap="0" backgroundColor="header" transparent="1" valign="bottom" zPosition="-50" />
+		<widget name="quickselect" position="75,120" size="1140,788" backgroundColor="header" foregroundColor="Regular" font="Regular;150" halign="center" transparent="1" valign="center" zPosition="5" />
+	</screen>
+	<!-- PluginBrowserList FHD -->
+	<screen name="PluginBrowserList" position="0,0" size="1920,1080" title="Plugin browser" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p800_Template_notime_plugin" />
+		<panel name="p800_Logo" />
+		<panel name="s_RGYB" />
+		<widget source="pluginList" render="Listbox" scrollbarMode="showOnDemand" selectionZoom="4" position="70,180" size="840,720" listOrientation="vertical" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarRadius="5" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
+			<convert type="TemplatedMultiContent">
+				{"template": [
+				MultiContentEntryText(pos = (170, 2), size = (650, 36), font=0, text = 1),
+				MultiContentEntryText(pos = (170, 36), size = (650, 34), font=1, color = 0x6da6ff, color_sel=0x00ffc000, text = 2),
+				MultiContentEntryPixmapAlphaBlend(pos = (6, 5), size = (150, 60), png = 3, flags = BT_SCALE),
+				],
+				"fonts": [gFont("Regular", 32),gFont("Regular", 28)],
+				"itemHeight": 72
+				}
+			</convert>
+		</widget>
+		<eLabel text="Extensions" position="5,535" size="1280,200" font="Regular;100" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="white" valign="bottom" zPosition="-50" />
+		<widget name="quickselect" position="50,80" size="760,525" backgroundColor="header" foregroundColor="white" font="Regular;100" halign="center" transparent="1" valign="center" zPosition="+1" />
+		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,545" size="256,256" zPosition="2" alphatest="blend" />
+		<widget source="key_menu" render="Label" position="1015,860" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+			<convert type="ConditionalShowHide" />
+		</widget>
+	</screen>
+
+	<!-- PluginAction FHD -->
+	<screen name="PluginAction" position="0,0" size="1920,1080" title="Downloadable plugins" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="p900_Template"/>
+    <panel name="s_RGYB"/>
+		<panel name="Ex"/>
+		<widget source="plugins" render="Listbox" position="70,170" size="1100,750" zPosition="4" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="white" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarBorderWidth="1" scrollbarForegroundColor="ltbluette" scrollbarBorderColor="ltbluette" scrollbarWidth="8" foregroundColorSelected="white" transparent="1">
+			<convert type="TemplatedMultiContent">
+				{
+				"template":
+					[
+					MultiContentEntryPixmapAlphaBlend(pos=(8, 0), size=(90, 75), png=6, flags=BT_SCALE),
+					MultiContentEntryText(pos=(105, 0), size=(920, 75), font=0, flags=RT_VALIGN_CENTER, text=2), # Category
+					MultiContentEntryText(pos=(105, 2), size=(920, 38), font=1, flags=RT_VALIGN_CENTER, text=11), # Name + Version
+					# MultiContentEntryText(pos=(70, 1), size=(430, 25), font=1, flags=RT_VALIGN_CENTER, text=3), Name
+					# MultiContentEntryText(pos=(480, 1), size=(160, 25), font=1, flags=RT_VALIGN_CENTER, text=5), Version
+					MultiContentEntryText(pos=(105, 42), size=(920, 32), font=2, flags=RT_VALIGN_CENTER, text=4, color=0x00b0b0b0), # Description
+					MultiContentEntryPixmapAlphaBlend(pos=(990, 2), size=(72, 72), png=7, flags=BT_SCALE)
+					],
+				"fonts": [gFont("Regular", 38),gFont("Regular", 27),gFont("Regular", 24)],
+				"itemHeight": 75
+				}
+			</convert>
+		</widget>
+		<ePixmap position="1400,200" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
+		<widget name="description" position="1215,623" size="623,285" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" valign="center" transparent="1" conditional="description"/>
+		<widget name="quickselect" position="75,120" size="1140,788" backgroundColor="header" foregroundColor="ltbluette" font="Regular;150" halign="center" transparent="1" valign="center" zPosition="5" />
+	</screen>
+	<screen name="Processing" title="Processing" position="0,0" size="900,60" backgroundColor="header" flags="wfNoBorder">
+    <widget name="progress" position="0,2" size="e,25" borderWidth="1" borderColor="white" backgroundColor="header" />
+    <widget name="description" position="0,35" size="900,28" foregroundColor="ltbluette" font="Regular; 26" halign="center" />
+  </screen>
+	<!-- Download Addons FHD -->
+	<screen name="PluginDownloadBrowser" title="Downloadable plugins" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template_notime" />
+		<panel name="p800_DateMid" />
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
+		<panel name="fakeExitNoButton" />
+		<widget name="text" position="70,180" size="1160,50" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" halign="left" transparent="1" />
+		<widget name="list" position="70,180" size="1160,700" font="Regular;32" itemHeight="70" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="1" />
 	</screen>
 	<!-- Software Manager FHD -->
 	<screen name="UpdatePluginMenu" title="Softwaremanager" position="fill" backgroundColor="transparent" flags="wfNoBorder">
