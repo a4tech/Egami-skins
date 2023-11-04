@@ -45,8 +45,8 @@
 		<parameter name="ChoicelistVerticalAlignment" value="*center" />
 		<parameter name="FileListName" value="68,4,1000,50" />
 		<parameter name="FileListIcon" value="7,4,52,50" />
-		<parameter name="FileListMultiName" value="90,3,1000,50" />
-		<parameter name="FileListMultiIcon" value="45,4,50,50" />
+		<parameter name="FileListMultiName" value="110,3,1000,50" />
+		<parameter name="FileListMultiIcon" value="55,4,50,50" />
 		<parameter name="FileListMultiLock" value="2,0,50,50" />
 		<parameter name="PluginBrowserName" value="180,8,38" />
 		<parameter name="PluginBrowserDescr" value="180,42,25" />
