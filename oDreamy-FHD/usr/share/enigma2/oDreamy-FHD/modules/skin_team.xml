@@ -4016,7 +4016,7 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="description" position="50,105" size="900,100" font="Regular;40" transparent="1" zPosition="5" backgroundColor="header" foregroundColor="#00ffc000" valign="center"/>
-		<widget source="pluginGrid" render="Listbox" itemGradient="grey,black,vertical" position="10,235" size="1900,725" transparent="1" zPosition="5" itemSpacing="15,15" selectionZoom="10" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarWidth="5" backgroundColorSelected="bluette" itemCornerRadius="12" listOrientation="grid" moveBackgroundColor="bluette">
+		<widget source="pluginGrid" render="Listbox" itemGradient="grey,black,vertical" position="10,235" size="1900,725" transparent="1" zPosition="5" itemSpacing="15,15" selectionZoom="10" scrollbarBorderColor="#000000" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarWidth="5" backgroundColorSelected="bluette" itemCornerRadius="12" listOrientation="grid" moveBackgroundColor="bluette">
 			<convert type="TemplatedMultiContent">
 				{
 					"template": [
@@ -4050,7 +4050,7 @@
 				}
 			</convert>
 		</widget>
-		<eLabel text="Extensions" position="5,535" size="1280,200" font="Regular;100" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="#00ffffff" valign="bottom" zPosition="-50" />
+		<eLabel text="Extensions" position="5,535" size="0,0" font="Regular;100" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="#00ffffff" valign="bottom" zPosition="-50" />
 		<widget name="quickselect" position="50,80" size="760,525" backgroundColor="header" foregroundColor="#ffffff" font="Regular;100" halign="center" transparent="1" valign="center" zPosition="+1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,545" size="256,256" zPosition="2" alphatest="blend" />
 		<widget source="key_menu" render="Label" position="1015,860" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="#00ffffff" halign="center" valign="center">
