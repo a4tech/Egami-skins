@@ -3946,7 +3946,7 @@
 		<eLabel position="719,1065" size="300,8" backgroundColor="#FFFF00" foregroundColor="#FFFF00" cornerRadius="10" zPosition="4"/>
 		<eLabel position="1045,1065" size="300,8" backgroundColor="#2B68FF" foregroundColor="#2B68FF" cornerRadius="10" zPosition="4"/>
 		<widget source="key_red" render="Label" position="67,1013" size="300,50" font="Regular;32" zPosition="1" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="#16000000" transparent="1"/>
-		<widget source="key_green" render="Label" position="393,1000" size="300,75" font="Regular;32" zPosition="5" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="#16000000" transparent="1"/>
+		<widget source="key_green" render="Label" position="393,1001" size="300,75" font="Regular;32" zPosition="5" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="#16000000" transparent="1"/>
 		<widget source="key_yellow" render="Label" position="719,1013" size="300,50" font="Regular;32" zPosition="1" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="#16000000" transparent="1"/>
 		<widget source="key_blue" render="Label" position="1045,1013" size="300,50" font="Regular;32" zPosition="1" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="#16000000" transparent="1"/>
 		<widget source="key_menu" render="Label" position="1715,1028" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="#00ffffff" halign="center" valign="center">
