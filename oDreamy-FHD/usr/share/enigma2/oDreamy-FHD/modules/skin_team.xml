@@ -3932,7 +3932,7 @@
 	</screen>
 	<!-- PluginBrowserGrid FHD -->
 	<screen name="PluginBrowserGrid" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="#44000000">
-		<widget name="background" position="0,0" size="1920,1080" zPosition="-2" alphatest="off" conditional="background" />
+		<widget source="Title" render="Label" position="50,12" size="900,100" font="Regular;75" foregroundColor="ltbluette" backgroundColor="#44000000" transparent="1" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="1617,12" size="273,100" font="Regular;80" halign="right" backgroundColor="header" transparent="1" foregroundColor="#b0b0b0">
 			<convert type="ClockToText">
 		</convert>
@@ -3940,7 +3940,6 @@
 		<widget render="Label" source="global.CurrentTime" backgroundColor="#44000000" position="1128,105" size="762,50" font="Regular;40" foregroundColor="ltbluette" halign="right" transparent="1">
 			<convert type="ClockToText">FullDate</convert>
 		</widget>
-		<widget source="Title" render="Label" position="50,12" size="900,100" font="Regular;75" foregroundColor="ltbluette" backgroundColor="#44000000" transparent="1" zPosition="2" />
 		<eLabel position="67,1065" size="300,8" backgroundColor="#00ff2525" foregroundColor="#00ff2525" cornerRadius="10" zPosition="4"/>
 		<eLabel position="393,1065" size="300,8" backgroundColor="#00389416" foregroundColor="#00389416" cornerRadius="10" zPosition="4"/>
 		<eLabel position="719,1065" size="300,8" backgroundColor="#FFFF00" foregroundColor="#FFFF00" cornerRadius="10" zPosition="4"/>
@@ -3968,6 +3967,7 @@
 			</convert>
 		</widget>
 		<widget name="quickselect" position="75,120" size="1140,788" backgroundColor="header" foregroundColor="#00FFFFFF" font="Regular;150" halign="center" transparent="1" valign="center" zPosition="5" />
+		<widget name="background" position="0,0" size="1920,1080" zPosition="-2" alphatest="off" conditional="background" />
 	</screen>
 	<!-- PluginActionLog FHD -->
 	<screen name="PluginActionLog" title="Plugin Action Log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
