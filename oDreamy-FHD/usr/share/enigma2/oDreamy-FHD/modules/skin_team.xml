@@ -3918,9 +3918,9 @@
 		<widget source="pluginList" render="Listbox" position="70,180" size="840,720" scrollbarMode="showOnDemand" scrollbarRadius="5" selectionZoom="4" listOrientation="vertical" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [
-				MultiContentEntryText(pos = (170, 2), size = (650, 36), font=0, text = 0, backcolor_sel=0x1b3c85),
-				MultiContentEntryText(pos = (170, 36), size = (650, 34), font=1, color = 0x6da6ff, color_sel=0x00ffc000, backcolor_sel=0x1b3c85, text = 1),
-				MultiContentEntryPixmapAlphaTest(pos = (6, 5), size = (150, 60), png = 2, backcolor_sel=0x1b3c85, flags = BT_SCALE),
+				MultiContentEntryText(pos = (170, 2), size = (650, 36), font=0, text=0, backcolor_sel=0x1b3c85),
+				MultiContentEntryText(pos = (170, 36), size = (650, 34), font=1, color=0x6da6ff, color_sel=0x00ffc000, backcolor_sel=0x1b3c85, text=1),
+				MultiContentEntryPixmapAlphaTest(pos = (6, 5), size = (150, 60), png=2, backcolor_sel=0x1b3c85, flags = BT_SCALE),
 				],
 				"fonts": [gFont("Regular", 32),gFont("Regular", 28)],
 				"itemHeight": 72
@@ -3937,7 +3937,7 @@
 			<convert type="ClockToText">
 		</convert>
 		</widget>
-		<widget render="Label" source="global.CurrentTime" backgroundColor="header" position="1128,105" size="762,50" font="Regular;40" foregroundColor="ltbluette" halign="right" transparent="1">
+		<widget render="Label" source="global.CurrentTime" backgroundColor="#44000000" position="1128,105" size="762,50" font="Regular;40" foregroundColor="ltbluette" halign="right" transparent="1">
 			<convert type="ClockToText">FullDate</convert>
 		</widget>
 		<widget source="Title" render="Label" position="50,12" size="900,100" font="Regular;75" foregroundColor="ltbluette" backgroundColor="#44000000" transparent="1" zPosition="2" />
@@ -3949,16 +3949,16 @@
 		<widget source="key_green" render="Label" position="393,982" size="300,75" font="Regular;32" zPosition="5" halign="center" valign="bottom" foregroundColor="#00ffffff" backgroundColor="header" transparent="1"/>
 		<widget source="key_yellow" render="Label" position="719,1013" size="300,50" font="Regular;32" zPosition="1" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="header" transparent="1"/>
 		<widget source="key_blue" render="Label" position="1045,1013" size="300,50" font="Regular;32" zPosition="1" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="header" transparent="1"/>
-		<widget source="key_menu" render="Label" position="1715,1028" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="#00ffffff" halign="center" valign="center">
+		<widget source="key_menu" render="Label" position="1715,1028" size="140,40" backgroundColor="bluette" font="Regular;22" foregroundColor="#00ffffff" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="description" position="50,105" size="900,100" font="Regular;40" transparent="1" zPosition="5" backgroundColor="header" foregroundColor="#00ffc000" valign="center"/>
-		<widget source="pluginGrid" render="Listbox" itemGradient="grey,black,vertical" position="10,235" size="1900,725" transparent="1" zPosition="5" itemSpacing="15,15" selectionZoom="4" scrollbarBorderColor="#000000" backgroundColorSelected="bluette" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarWidth="5" itemCornerRadius="12" listOrientation="grid" moveBackgroundColor="bluette">
+		<widget source="pluginGrid" render="Listbox" position="20,235" size="1895,720" backgroundColor="#444343" transparent="1" zPosition="5" itemSpacing="15,15" selectionZoom="3" scrollbarBorderColor="#000000" backgroundColorSelected="bluette" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarWidth="5" itemCornerRadius="12" listOrientation="grid" moveBackgroundColor="bluette">
 			<convert type="TemplatedMultiContent">
 				{
 					"template": [
 						MultiContentEntryText(pos = (0, 0), size = (300, 165), font=0),
-						MultiContentEntryText(pos = (8, 75), size = (285, 75), font=0, color_sel=0x00ffc000, flags = RT_VALIGN_CENTER|RT_HALIGN_CENTER|RT_WRAP, text = 1),
+						MultiContentEntryText(pos = (8, 75), size = (285, 75), font=0, color_sel=0x00ffc000, flags = RT_VALIGN_CENTER|RT_HALIGN_CENTER|RT_WRAP, text=1),
 						MultiContentEntryPixmapAlphaBlend(pos=(75, 15), size=(150, 60), png=3, flags=BT_SCALE)
 					],
 					"fonts": [gFont("Regular", 27),gFont("Regular", 23)],
