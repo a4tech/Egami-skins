@@ -3969,6 +3969,13 @@
 		</widget>
 		<widget name="quickselect" position="75,120" size="1140,788" backgroundColor="header" foregroundColor="#00FFFFFF" font="Regular;150" halign="center" transparent="1" valign="center" zPosition="5" />
 	</screen>
+	<!-- PluginActionLog FHD -->
+	<screen name="PluginActionLog" title="Plugin Action Log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template_notime" />
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
+		<widget name="log" position="70,180" size="1160,720" font="Regular;32" backgroundColor="header" transparent="1" scrollbarMode="showOnDemand" />
+	</screen>
 	<!-- PluginBrowserList FHD -->
 	<screen name="PluginBrowserList" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template_notime_plugin" />
