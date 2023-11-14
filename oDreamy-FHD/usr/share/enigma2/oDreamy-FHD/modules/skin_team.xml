@@ -3952,7 +3952,7 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="description" position="50,105" size="900,100" font="Regular;40" transparent="1" zPosition="5" backgroundColor="header" foregroundColor="#00ffc000" valign="center"/>
-		<widget source="pluginGrid" render="Listbox" position="20,235" size="1895,720" backgroundColor="#444343" transparent="1" zPosition="5" itemSpacing="15,15" selectionZoom="3" scrollbarBorderColor="#000000" backgroundColorSelected="bluette" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarWidth="5" itemCornerRadius="12" listOrientation="grid" moveBackgroundColor="bluette">
+		<widget source="pluginGrid" render="Listbox" position="20,235" size="1895,720" backgroundColor="#4d4b4b" transparent="1" zPosition="5" itemSpacing="15,15" selectionZoom="3" scrollbarBorderColor="#000000" backgroundColorSelected="bluette" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarWidth="5" itemCornerRadius="17" listOrientation="grid" moveBackgroundColor="bluette">
 			<convert type="TemplatedMultiContent">
 				{
 					"template": [
