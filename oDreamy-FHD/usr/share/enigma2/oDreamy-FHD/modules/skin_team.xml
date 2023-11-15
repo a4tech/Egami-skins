@@ -4030,7 +4030,7 @@
 	</screen>
 	<screen name="Processing" title="Processing" position="0,0" size="900,60" backgroundColor="header" flags="wfNoBorder">
 		<widget name="progress" position="0,2" size="e,25" borderWidth="1" borderColor="#00ffffff" backgroundColor="header" />
-		<widget name="description" position="0,35" size="900,28" foregroundColor="ltbluette" font="Regular; 26" halign="center" />
+		<widget name="description" position="0,35" size="900,30" foregroundColor="ltbluette" font="Regular; 26" halign="center" />
 	</screen>
 	<!-- Download Addons FHD -->
 	<screen name="PluginDownloadBrowser" title="Downloadable plugins" position="fill" backgroundColor="transparent" flags="wfNoBorder">
