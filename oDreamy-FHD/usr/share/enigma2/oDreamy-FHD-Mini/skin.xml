@@ -210,6 +210,8 @@
 			<convert type="ServiceInfo">IsStream</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
+		<widget source="session.Event_Now" render="ODposter" position="1580,355" size="326,476" cornerRadius="15" alphatest="blend" transparent="1" zPosition="5"/>
+		<widget source="session.CurrentService" render="EGPoster" position="1580,355" size="326,476" cornerRadius="15" transparent="1" zPosition="5" alphatest="blend" />
 		<widget name="key_red" position="120,955" size="0,0" zPosition="1" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1"/>
 		<widget name="key_green" position="400,955" size="0,0" zPosition="1" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1"/>
 		<widget name="key_yellow" position="680,955" size="0,0" zPosition="1" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1"/>
@@ -241,7 +243,7 @@
 			<convert type="ClockToText">Default</convert>
 		</widget>
 		<!-- Progress -->
-		<widget source="session.Event_Now" render="Progress" position="250,910" size="1400,45" cornerRadius="5" foregroundColor="bluette" backgroundColor="#20202020" transparent="0" zPosition="2">
+		<widget source="session.Event_Now" render="Progress" position="250,910" cornerRadius="5" size="1400,45" foregroundColor="bluette" backgroundColor="#20202020" transparent="0" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="260,910" size="1390,45" font="Regular;38" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" noWrap="1" zPosition="3">
@@ -256,7 +258,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel position="250,975" size="1390,45" backgroundColor="#10202020" transparent="0" cornerRadius="5" zPosition="1" />
+		<eLabel position="250,975" size="1400,45" backgroundColor="#10202020" cornerRadius="5" transparent="0" zPosition="1" />
 		<widget source="session.Event_Next" render="Label" position="260,975" size="1390,45" font="Regular;38" valign="center" foregroundColor="white" backgroundColor="#10202020" transparent="0" noWrap="1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
@@ -265,10 +267,10 @@
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
 		<!-- *****  Event Now ***** -->
-		<eLabel position="48,60" size="1822,50" backgroundColor="#10303030" transparent="0" cornerRadius="5" zPosition="1" />
-		<eLabel position="47,110" size="1823,380" backgroundColor="header" transparent="0" cornerRadius="5" zPosition="0" />
+		<eLabel position="48,60" size="1822,50" backgroundColor="#10303030" cornerRadius="5" transparent="0" zPosition="1" />
+		<eLabel position="47,110" size="1823,380" backgroundColor="header" cornerRadius="5" transparent="0" zPosition="0" />
 		<!-- Progressbar (current event duration) -->
-		<widget source="session.Event_Now" render="Progress" position="48,60" size="1822,50" cornerRadius="5" backgroundColor="#10303030" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2">
+		<widget source="session.Event_Now" render="Progress" position="48,60" backgroundColor="#10303030" cornerRadius="5" size="1822,50" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- EVENTS Info -->
@@ -287,12 +289,14 @@
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">InMinutes</convert>
 		</widget>
-		<widget source="session.Event_Now" render="DRRunningText" position="80,135" size="1755,326" font="Regular;30" halign="center" foregroundColor="#f2f2f2" backgroundColor="#10000000" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
+		<widget source="session.Event_Now" render="DRRunningText" position="80,135" size="1485,326" font="Regular;30" halign="center" foregroundColor="#f2f2f2" backgroundColor="#10000000" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
+		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1643,265" size="185,60" zPosition="1" alphatest="blend" />
+		<widget source="session.Event_Now" position="1640,150" size="197,293" render="ODposter" cornerRadius="15" borderWidth="1" borderColor="ltbluette" zPosition="2" alphatest="blend" transparent="1" />
 		<!-- *****  Event Next ***** -->
-		<eLabel position="48,495" size="1822,50" backgroundColor="#10303030" transparent="0" zPosition="1" cornerRadius="5" />
-		<eLabel position="47,495" size="1823,390" backgroundColor="header" transparent="0" zPosition="0" cornerRadius="5" />
+		<eLabel position="48,495" size="1822,50" backgroundColor="#10303030" transparent="0" zPosition="1" />
+		<eLabel position="47,495" size="1823,390" backgroundColor="header" transparent="0" zPosition="0" />
 		<widget source="session.Event_Next" render="Label" position="60,500" size="180,50" font="Regular;36" halign="left" foregroundColor="ltbluette" backgroundColor="#10083980" transparent="1" zPosition="2">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
@@ -308,9 +312,11 @@
 			<convert type="EventTime">Duration</convert>
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
-		<widget source="session.Event_Next" render="DRRunningText" position="80,575" size="1755,294" font="Regular;30" halign="center" foregroundColor="#808080" backgroundColor="header" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
+		<widget source="session.Event_Next" render="DRRunningText" position="80,575" size="1485,294" font="Regular;30" halign="center" foregroundColor="#808080" backgroundColor="header" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
+		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1643,695" size="185,60" zPosition="1" alphatest="blend" />
+		<widget source="session.Event_Next" position="1640,575" size="197,293" cornerRadius="15" render="ODposter" borderWidth="1" borderColor="ltbluette" zPosition="2" alphatest="blend" transparent="1" />
 	</screen>
 	<screen name="Infobar2" position="0,0" size="1920,1080" title="Channel Selection" backgroundColor="background" flags="wfNoBorder">
 		<widget source="session.FrontendInfo" render="Label" position="1615,75" size="115,40" font="Regular;32" halign="left" backgroundColor="header" transparent="1" zPosition="1">

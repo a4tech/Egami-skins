@@ -303,6 +303,8 @@
 		</widget>
 		<panel name="Weather_infobar" />
 		<panel name="Card_Network_Emu" />
+		<widget source="session.Event_Now" render="ODposter" position="1620,460" cornerRadius="10" size="300,438" alphatest="blend" transparent="1" zPosition="-5" />
+		<widget source="session.CurrentService" render="EGPoster" position="1620,460" size="300,438" cornerRadius="15" transparent="1" zPosition="-5" alphatest="blend" />
 		<widget name="key_red" position="120,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="key_green" position="400,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="key_yellow" position="680,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
@@ -314,12 +316,30 @@
 		<eLabel position="0,910" size="1920,1" backgroundColor="bluette" zPosition="-1" cornerRadius="5" />
 		<!-- *** Time *** -->
 		<eLabel position="450,30" size="1420,40" backgroundColor="header" zPosition="-1" cornerRadius="5" />
+		<ePixmap position="1670,42" size="16,16" pixmap="oDreamy-FHD/icons/clock.png" alphatest="blend" scale="1" zPosition="1" />
 		<widget source="global.CurrentTime" render="Label" position="1455,30" size="400,33" font="Regular;34" halign="right" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
-			<convert type="ClockToText">Default</convert>
+			<convert type="ClockToText">Format:%H:%M:%S</convert>
 		</widget>
 		<widget source="session.CurrentService" render="Label" position="460,30" size="1000,33" font="Regular;30" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
 			<convert type="EGExtraInfo">NetInfo</convert>
 		</widget>
+		<!-- ***** Meteo Panel ***** -->
+		<eLabel position="50,30" size="390,195" backgroundColor="header" zPosition="-1" cornerRadius="5" />
+		<widget alphatest="blend" render="OAWeatherPixmap" position="55,30" size="120,120" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
+	    <convert type="OAWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/WeatherIcons/,png</convert>
+	  </widget>
+		<!-- ***** Temperature ***** -->
+		<widget noWrap="1" backgroundColor="header" font="Regular; 50" position="190,40" size="150,60" foregroundColor="red" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">temperature_current</convert>
+	  </widget>
+		<widget font="Regular; 28" position="190,100" size="230,80" backgroundColor="background" foregroundColor="white" zPosition="20" transparent="1" halign="left" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">city</convert>
+	  </widget>
+		<!-- ***** Wind ***** -->
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/wind.png" position="55,155" size="60,60" zPosition="3" transparent="1" alphatest="blend" scale="1" />
+		<widget font="Regular;24" position="80,182" size="365,40" foregroundColor="yellow" backgroundColor="header" zPosition="3" transparent="1" halign="left" noWrap="1" render="Label" source="session.OAWeather">
+	    <convert type="OAWeather">winddisplay</convert>
+	  </widget>
 		<!-- ***** Sat Panel ***** -->
 		<eLabel position="50,235" size="390,175" backgroundColor="header" zPosition="-1" cornerRadius="5" />
 		<!-- ***** Icon ***** -->
@@ -340,7 +360,8 @@
 		</widget>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv.png" position="65,250" size="70,70" alphatest="blend" zPosition="1" transparent="1">
 			<convert type="ServiceInfo">IsStream</convert>
-			<convert type="ConditionalShowHide" />
+			<convert type="ConditionalShowHide">
+			</convert>
 		</widget>
 		<!-- ***** Tuner ***** -->
 		<eLabel text="Tun:" position="150,243" size="90,40" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
@@ -408,6 +429,11 @@
 		<widget source="session.CurrentService" render="Label" position="150,290" size="140,240" font="Regular;28" halign="left" foregroundColor="green" backgroundColor="header" transparent="1" zPosition="1" >
 			<convert type="PliExtraInfo">TunerSystem</convert>
 		</widget>
+		<!-- ***** Net ***** -->
+		<widget source="session.CurrentService" render="Label" position="280,290" size="110,240" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" >
+			<convert type="EGExtraInfo">E-C-N</convert>
+		</widget>
+		<eLabel position="150,330" size="280,1" backgroundColor="#808080" zPosition="1" cornerRadius="5" />
 		<!-- ***** Quality ***** -->
 		<eLabel text="Snr:" position="60,350" size="100,240" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="session.FrontendStatus" render="Label" position="135,350" size="130,40" font="Regular;32" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" >
@@ -425,7 +451,7 @@
 		<widget source="session.CurrentService" render="Picon" position="80,440" size="177,106" alphatest="blend" zPosition="5" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>
-		<eLabel text="Ch." position="300,430" size="100,50" font="Regular;34" backgroundColor="#10000000" foregroundColor="white" transparent="1" zPosition="9"/>
+		<eLabel text="Ch." position="300,430" size="100,50" font="Regular;34" backgroundColor="#10000000" foregroundColor="#ffffff" transparent="1" zPosition="9"/>
 		<widget source="session.CurrentService" render="ChannelNumber" position="300,468" size="120,60" font="Regular;50" halign="left" foregroundColor="#ffff40" backgroundColor="header" transparent="1" zPosition="3" />
 		<!-- ***** Crypt ***** -->
 		<ePixmap pixmap="oDreamy-FHD/icons/ico_crypt_off_bar.png" position="300,530" size="70,35" alphatest="blend" zPosition="3" />
@@ -436,7 +462,7 @@
 		<widget source="session.CurrentService" render="Label" position="60,567" size="370,30" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" >
 			<convert type="ServiceName">Provider</convert>
 		</widget>
-		<eLabel position="60,605" size="370,2" backgroundColor="#404030" zPosition="3" />
+		<eLabel position="60,605" size="370,2" backgroundColor="#404030" zPosition="3" cornerRadius="5" />
 		<!-- Videoformat icon (16:9?) -->
 		<ePixmap pixmap="oDreamy-FHD/icons/ico_format_off.png" position="60,615" size="115,50" zPosition="1" alphatest="blend" />
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/ico_format_on.png" position="60,615" size="115,50" zPosition="2" alphatest="blend">
@@ -473,15 +499,15 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<!-- ***** KeyColors ***** -->
-		<eLabel position="50,750" size="390,150" backgroundColor="header" cornerRadius="5" zPosition="-1" />
-		<eLabel position="60,770" size="10,45" backgroundColor="red" cornerRadius="5" zPosition="1" />
-		<eLabel text="EPG" position="80,770" size="200,40" font="Regular;34" foregroundColor="white" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
-		<eLabel position="60,840" size="10,45" backgroundColor="green" cornerRadius="5" zPosition="1" />
-		<eLabel text="Plugins" position="80,840" size="200,40" font="Regular;34" foregroundColor="white" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
-		<eLabel position="420,770" size="10,45" backgroundColor="yellow" cornerRadius="5" zPosition="1" />
-		<eLabel text="Extensions" position="205,770" size="200,40" font="Regular;34" foregroundColor="white" halign="right" backgroundColor="header" transparent="1" zPosition="10" />
-		<eLabel position="420,840" size="10,45" backgroundColor="blue" cornerRadius="5" zPosition="1" />
-		<eLabel text="EGAMI" position="205,840" size="200,40" font="Regular;34" foregroundColor="white" halign="right" backgroundColor="header" transparent="1" zPosition="10" />
+		<eLabel position="50,750" size="390,150" backgroundColor="header" zPosition="-1" cornerRadius="5" />
+		<eLabel position="60,770" size="10,45" backgroundColor="red" zPosition="1" cornerRadius="5" />
+		<eLabel text="EPG" position="80,770" size="200,40" font="Regular;34" foregroundColor="#FFFFFF" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
+		<eLabel position="60,840" size="10,45" backgroundColor="green" zPosition="1" cornerRadius="5" />
+		<eLabel text="Plugins" position="80,840" size="200,40" font="Regular;34" foregroundColor="#FFFFFF" halign="left" backgroundColor="header" transparent="1" zPosition="10" />
+		<eLabel position="420,770" size="10,45" backgroundColor="yellow" zPosition="1" cornerRadius="5" />
+		<eLabel text="Extensions" position="205,770" size="200,40" font="Regular;34" foregroundColor="#FFFFFF" halign="right" backgroundColor="header" transparent="1" zPosition="10" />
+		<eLabel position="420,840" size="10,45" backgroundColor="blue" zPosition="1" cornerRadius="5" />
+		<eLabel text="EGAMI" position="205,840" size="200,40" font="Regular;34" foregroundColor="#FFFFFF" halign="right" backgroundColor="header" transparent="1" zPosition="10" />
 		<!-- ***** Infobar ***** -->
 		<ePixmap pixmap="oDreamy-FHD/icons/icon_event.png" position="55,937" size="44,35" zPosition="1" alphatest="blend" />
 		<widget source="session.RecordState" render="Pixmap" position="55,937" size="44,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="2" >
@@ -499,7 +525,7 @@
 		<widget source="session.Event_Now" render="Progress" position="250,930" cornerRadius="5" size="1400,45" foregroundColor="bluette" backgroundColor="#20202020" transparent="0" zPosition="2" >
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget source="session.Event_Now" render="Label" position="260,930" size="1400,45" font="Regular;38" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" noWrap="1" zPosition="3" >
+		<widget source="session.Event_Now" render="Label" position="260,930" size="1400,45" font="Regular;38" valign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" noWrap="1" zPosition="3" >
 			<convert type="EventName">Name</convert>
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="1670,930" size="200,44" font="Regular;38" foregroundColor="ltbluette" backgroundColor="header" halign="right" transparent="1">
@@ -512,7 +538,7 @@
 			<convert type="ClockToText">Default</convert>
 		</widget>
 		<eLabel position="250,995" size="1400,45" backgroundColor="#10202020" transparent="0" zPosition="1" cornerRadius="5" />
-		<widget source="session.Event_Next" render="Label" position="260,995" size="1390,45" font="Regular;38" valign="center" foregroundColor="white" backgroundColor="#10202020" transparent="0" noWrap="1" zPosition="3" >
+		<widget source="session.Event_Next" render="Label" position="260,995" size="1390,45" font="Regular;38" valign="center" foregroundColor="#ffffff" backgroundColor="#10202020" transparent="0" noWrap="1" zPosition="3" >
 			<convert type="EventName">Name</convert>
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="1670,995" size="200,44" font="Regular;38" foregroundColor="#505050" backgroundColor="header" halign="right" transparent="1">
@@ -520,10 +546,10 @@
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
 		<!-- *****  Event Now ***** -->
-		<eLabel position="450,80" size="1420,50" backgroundColor="#10303030" cornerRadius="5" transparent="0" zPosition="1" />
-		<eLabel position="450,115" size="1420,380" backgroundColor="header" cornerRadius="5" transparent="0" zPosition="0" />
+		<eLabel position="450,80" size="1420,50" backgroundColor="#10303030" transparent="0" zPosition="1" cornerRadius="5" />
+		<eLabel position="450,115" size="1420,380" backgroundColor="header" transparent="0" zPosition="0" cornerRadius="5" />
 		<!-- Progressbar (current event duration) -->
-		<widget source="session.Event_Now" render="Progress" cornerRadius="5" position="450,80" size="1420,50" backgroundColor="#10303030" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2" >
+		<widget source="session.Event_Now" render="Progress" position="450,80" cornerRadius="5" size="1420,50" backgroundColor="#10303030" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="2" >
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- EVENTS Info -->
@@ -531,7 +557,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
-		<widget source="session.Event_Now" render="Label" position="578,85" size="180,50" font="Regular;36" halign="left" foregroundColor="white" backgroundColor="#10083980" transparent="1" zPosition="3" >
+		<widget source="session.Event_Now" render="Label" position="578,85" size="180,50" font="Regular;36" halign="left" foregroundColor="#FFFFFF" backgroundColor="#10083980" transparent="1" zPosition="3" >
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Format:- %H:%M</convert>
 		</widget>
@@ -542,7 +568,9 @@
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">InMinutes</convert>
 		</widget>
-		<widget source="session.Event_Now" render="DRRunningText" position="465,150" size="1370,326" font="Regular;30" halign="center" foregroundColor="#f2f2f2" backgroundColor="#10000000" transparent="1" zPosition="2"
+		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1640,265" size="185,60" zPosition="1" alphatest="blend" />
+		<widget source="session.Event_Now" position="1640,180" size="187,278" render="ODposter" cornerRadius="10" borderWidth="1" borderColor="ltbluette" zPosition="2" alphatest="blend" transparent="1" />
+		<widget source="session.Event_Now" render="DRRunningText" position="465,150" size="1120,326" font="Regular;30" halign="center" foregroundColor="#f2f2f2" backgroundColor="#10000000" transparent="1" zPosition="2"
 			options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" >
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
@@ -564,32 +592,12 @@
 			<convert type="EventTime">Duration</convert>
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
-		<widget source="session.Event_Next" render="DRRunningText" position="465,575" size="1390,294" font="Regular;30" halign="center" foregroundColor="#808080" backgroundColor="header" transparent="1" zPosition="2"
+		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1640,695" size="185,60" zPosition="1" alphatest="blend" />
+		<widget source="session.Event_Next" position="1640,585" size="187,278" cornerRadius="10" render="ODposter" borderWidth="1" borderColor="ltbluette" zPosition="2" alphatest="blend" transparent="1" />
+		<widget source="session.Event_Next" render="DRRunningText" position="465,575" size="1120,304" font="Regular;30" halign="center" foregroundColor="#808080" backgroundColor="header" transparent="1" zPosition="2"
 			options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1" >
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<!-- ***** Meteo Panel ***** -->
-		<eLabel position="50,30" size="390,195" backgroundColor="header" zPosition="-1" cornerRadius="5" />
-		<widget alphatest="blend" render="OAWeatherPixmap" position="55,30" size="120,120" source="session.OAWeather" transparent="1" zPosition="1" scale="1">
-	    <convert type="OAWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/WeatherIcons/,png</convert>
-	  </widget>
-		<!-- ***** Temperature ***** -->
-		<widget noWrap="1" backgroundColor="header" font="Regular; 50" position="190,40" size="150,60" foregroundColor="red" zPosition="1" transparent="1" halign="left" render="Label" source="session.OAWeather">
-	    <convert type="OAWeather">temperature_current</convert>
-	  </widget>
-		<widget font="Regular; 28" position="190,100" size="230,80" backgroundColor="background" foregroundColor="white" zPosition="20" transparent="1" halign="left" render="Label" source="session.OAWeather">
-	    <convert type="OAWeather">city</convert>
-	  </widget>
-		<!-- ***** Wind ***** -->
-		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/OAWeather/Images/wind.png" position="55,155" size="60,60" zPosition="3" transparent="1" alphatest="blend" scale="1" />
-		<widget font="Regular;24" position="80,182" size="365,40" foregroundColor="yellow" backgroundColor="header" zPosition="3" transparent="1" halign="left" noWrap="1" render="Label" source="session.OAWeather">
-	    <convert type="OAWeather">winddisplay</convert>
-	  </widget>
-		<!-- ***** Net ***** -->
-		<widget source="session.CurrentService" render="Label" position="280,290" size="110,240" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" >
-			<convert type="EGExtraInfo">E-C-N</convert>
-		</widget>
-		<eLabel position="150,330" size="280,1" backgroundColor="#808080" zPosition="1" />
 	</screen>
 	<!-- Channel Selection PIG FHD -->
 	<screen name="ChannelSelection" position="fill" size="1920,1080" title="Channel Selection" backgroundColor="transparent" flags="wfNoBorder">
