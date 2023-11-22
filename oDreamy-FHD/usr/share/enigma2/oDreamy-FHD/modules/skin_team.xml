@@ -4410,13 +4410,12 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
 	</screen>
 	<!-- Edit upgrade source FHD -->
-	<screen name="IPKGSource" title="IPKG source" position="center,center" size="1500,160" backgroundColor="10000000">
+	<screen name="IPKGSource" title="IPKG source" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="s_RGYB" />
-		<widget name="text" position="20,20" size="1460,50" font="Regular;36" zPosition="3" backgroundColor="header" transparent="1" />
-		<ePixmap position="40,115" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_red" render="Label" position="90,85" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap position="330,115" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_green" render="Label" position="370,85" size="210,95" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" zPosition="1" />
+		<panel name="p800_Template_notime" />
+		<panel name="p800_Logo" />
+		<panel name="p800_DateMid" />
+		<widget name="text" position="70,180" size="820,600" font="Regular;36" zPosition="3" backgroundColor="header" transparent="1" />
 	</screen>
 	<!-- Default Wizard FHD -->
 	<screen name="SoftwareUpdateChoices" title="Software Update..." position="fill" size="800,400" backgroundColor="transparent" flags="wfNoBorder">
