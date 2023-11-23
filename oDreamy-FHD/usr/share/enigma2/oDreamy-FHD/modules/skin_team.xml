@@ -948,7 +948,7 @@
 		</widget>
 		<widget source="Title" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" zPosition="1" halign="left" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<eLabel text="Software Update" position="8,803" size="1920,300" font="Regular;150" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="white" valign="bottom" zPosition="-50" />
-		<widget name="activity" position="70,180" size="1150,30" borderColor="ltbluette" foregroundColor="white" borderWidth="2" transparent="1" />
+		<widget name="activity" position="70,180" size="1150,30" backgroundColor="header" foregroundGradient="white,ltbluette,horizontal" borderWidth="1" borderColor="ltbluette" cornerRadius="20" transparent="1" />
 		<widget name="update" position="70,240" size="1150,639" font="Regular;30" backgroundColor="header" foregroundColor="white" scrollbarRadius="5" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 	</screen>
@@ -965,7 +965,7 @@
 		<widget name="package_text" position="70,173" size="375,53" zPosition="1" foregroundColor="ltbluette" font="Regular;36" halign="left" backgroundColor="header" transparent="1" />
 		<widget name="package_count" position="380,173" size="75,53" zPosition="1" foregroundColor="yellow" font="Regular;36" halign="left" backgroundColor="header" transparent="1" />
 		<widget name="feedmessage" position="1215,578" size="623,330" font="Regular;30" foregroundColor="white" halign="center" backgroundColor="header" valign="center" transparent="1" />
-		<widget name="activity" position="70,240" size="465,8" />
+		<widget name="activity" position="70,240" size="465,10" backgroundColor="header" foregroundGradient="white,ltbluette,horizontal" borderWidth="1" borderColor="ltbluette" cornerRadius="20" />
 		<widget source="list" render="Listbox" position="70,250" size="1160,624" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarScroll="byLine" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -3993,7 +3993,7 @@
 		<widget name="quickselect" position="75,120" size="1140,788" backgroundColor="header" foregroundColor="ltbluette" font="Regular;150" halign="center" transparent="1" valign="center" zPosition="5" />
 	</screen>
 	<screen name="Processing" title="Processing" position="0,0" size="900,90" backgroundColor="header" flags="wfNoBorder">
-		<widget name="progress" position="0,2" size="e,25" borderWidth="1" borderColor="#00ffffff" backgroundColor="header" foregroundColor="ltbluette" />
+		<widget name="progress" position="0,2" size="e,25" borderWidth="1" borderColor="white" backgroundColor="header" foregroundGradient="bluette,ltbluette,horizontal" cornerRadius="10" />
 		<widget name="description" position="0,35" size="900,30" foregroundColor="ltbluette" font="Regular;25" halign="center" />
 	</screen>
 	<!-- Download Addons FHD -->
