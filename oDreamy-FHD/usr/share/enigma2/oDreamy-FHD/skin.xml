@@ -16,7 +16,7 @@
 		<eLabel position="0,900" size="1920,200" backgroundColor="header" zPosition="-1" />
 		<eLabel position="0,0" size="1920,175" backgroundColor="header" zPosition="-1" />
 		<!-- Service name -->
-		<widget source="session.CurrentService" render="Label" position="350,811" size="1800,100" font="Regular;80" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="1" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="360,806" size="1800,100" font="Regular;78" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="1" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
 		<!-- Picon -->
@@ -303,8 +303,8 @@
 		</widget>
 		<panel name="Weather_infobar" />
 		<panel name="Card_Network_Emu" />
-		<widget source="session.Event_Now" render="ODposter" position="1620,460" cornerRadius="10" size="300,438" alphatest="blend" transparent="1" zPosition="-5" />
-		<widget source="session.CurrentService" render="EGPoster" position="1620,460" size="300,438" cornerRadius="15" transparent="1" zPosition="-5" alphatest="blend" />
+		<widget source="session.Event_Now" render="ODposter" position="1610,450" cornerRadius="15" size="300,438" alphatest="blend" transparent="1" zPosition="-5" />
+		<widget source="session.CurrentService" render="EGPoster" position="1610,450" size="300,438" cornerRadius="15" transparent="1" zPosition="-5" alphatest="blend" />
 		<widget name="key_red" position="120,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="key_green" position="400,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="key_yellow" position="680,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
