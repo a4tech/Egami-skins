@@ -96,7 +96,7 @@
 			<convert type="ServiceInfo">IsCrypted</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="session.CurrentService" render="Picon" path="picon" cornerRadius="10" position="26,851" size="350,210" alphatest="blend" zPosition="2">
+		<widget source="session.CurrentService" render="Picon" path="picon" position="26,851" size="350,210" alphatest="blend" zPosition="2">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="session.RecordState" render="Pixmap" position="451,852" size="35,35" pixmap="oDreamy-FHD/icons/icon_event_rec.png" alphatest="blend" zPosition="10">
@@ -106,10 +106,10 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="session.Event_Now" render="Label" position="551,889" size="959,60" font="Regular;45" valign="center" backgroundColor="header" transparent="1" noWrap="1" zPosition="3">
+		<widget source="session.Event_Now" render="Label" position="538,889" size="959,60" font="Regular;45" valign="center" backgroundColor="header" transparent="1" noWrap="1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
-		<widget source="session.Event_Now" render="Label" position="1501,890" size="220,55" font="Regular;36" foregroundColor="yellow" backgroundColor="header" halign="right" valign="center" transparent="1" zPosition="5">
+		<widget source="session.Event_Now" render="Label" position="1501,890" size="220,55" font="Regular;36" foregroundColor="ltbluette" backgroundColor="header" halign="right" valign="center" transparent="1" zPosition="5">
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText">InMinutes</convert>
 		</widget>
@@ -117,10 +117,10 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="session.Event_Now" render="PositionGauge" position="537,942" size="1186,30" pointer="oDreamy-FHD/icons/progressbarnow.png:1186,10" transparent="1" zPosition="2">
-      <convert type="EGEventPosition">Gauge</convert>
-    </widget>
-		<widget source="session.Event_Next" render="Label" position="551,960" size="958,55" font="Regular;37" valign="center" foregroundColor="#707070" backgroundColor="header" noWrap="1" transparent="1" zPosition="3">
+		<widget source="session.Event_Now" render="Progress" position="537,948" size="1186,15" backgroundColor="header" foregroundGradient="grey,bluette,ltbluette,horizontal" borderWidth="1" borderColor="ltbluette" cornerRadius="20" transparent="1" zPosition="2">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget source="session.Event_Next" render="Label" position="538,960" size="958,55" font="Regular;37" valign="center" foregroundColor="#707070" backgroundColor="header" noWrap="1" transparent="1" zPosition="3">
 			<convert type="EventName">Name</convert>
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="1500,968" size="220,40" font="Regular;34" foregroundColor="#707070" backgroundColor="header" halign="right" valign="center" transparent="1" zPosition="5">
