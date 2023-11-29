@@ -117,7 +117,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="session.Event_Now" render="Progress" position="537,948" size="1186,15" backgroundColor="header" foregroundGradient="grey,bluette,ltbluette,horizontal" borderWidth="1" borderColor="ltbluette" cornerRadius="20" transparent="1" zPosition="2">
+		<widget source="session.Event_Now" render="Progress" position="537,951" size="1186,12" backgroundColor="#000000" foregroundGradient="grey,bluette,ltbluette,horizontal" cornerRadius="20" transparent="1" zPosition="2">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="538,960" size="958,55" font="Regular;37" valign="center" foregroundColor="#707070" backgroundColor="header" noWrap="1" transparent="1" zPosition="3">
@@ -382,7 +382,7 @@
 			<convert type="ClockToText">Format:%H:%M</convert>
 		</widget>
 		<!-- Progressbar (current event duration) -->
-		<widget source="ServiceEvent" render="Progress" cornerRadius="5" position="1240,612" size="580,7" foregroundColor="grey" borderWidth="1" borderColor="#404040" zPosition="1">
+		<widget source="ServiceEvent" render="Progress" position="1240,609" size="580,10" backgroundColor="header" foregroundGradient="grey,ltbluette,yellow,horizontal" borderWidth="1" borderColor="#404040" cornerRadius="20" zPosition="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
 		<!-- EPG CURRENT EVENT -->
