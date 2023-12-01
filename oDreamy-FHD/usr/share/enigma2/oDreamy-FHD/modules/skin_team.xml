@@ -2415,11 +2415,11 @@
 	</screen>
 	<!-- ChannelContextMenu -->
 	<screen name="ChannelContextMenu" title="Channel Context Menu" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p700_Template" />
-		<panel name="p700_Logo" />
+		<panel name="p800_Template_notime" />
+		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
-		<widget name="menu" position="70,180" size="730,700" itemHeight="53" font="Regular;32" enableWrapAround="1" zPosition="2" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarScroll="byLine" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
-		<ePixmap position="860,645" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" zPosition="2" />
+		<widget name="menu" position="70,180" size="820,700" itemHeight="53" font="Regular;32" enableWrapAround="1" zPosition="2" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarScroll="byLine" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<ePixmap position="960,645" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- Eventview FHD -->
 	<screen name="EventView" position="fill" title="Eventview" backgroundColor="transparent" flags="wfNoBorder">
