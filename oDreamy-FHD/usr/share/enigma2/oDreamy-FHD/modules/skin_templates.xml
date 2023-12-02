@@ -728,6 +728,12 @@
 		<eLabel text="Info" position="1390,1002" size="200,43" font="Regular;32" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
 	</screen>
 
+	<screen name="ME">
+		<!-- Keys Buttons DRE -->
+		<eLabel text="Menu" position="1390,965" size="200,43" font="Regular;32" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
+		<eLabel text="Exit" position="1390,1002" size="200,43" font="Regular;32" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />
+	</screen>
+
 	<screen name="M">
 		<!-- Keys Buttons DRE -->
 		<eLabel text="Menu" position="1390,940" size="200,95" font="Regular;34" valign="center" foregroundColor="#b0b0b0" backgroundColor="#101010" transparent="1" zPosition="1" />

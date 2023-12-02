@@ -1327,7 +1327,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_Ext" />
 		<panel name="s_RGYB" />
-		<panel name="Ex" />
+		<panel name="ME" />
 		<ePixmap position="70,150" zPosition="3" size="120,157" pixmap="oDreamy-FHD/icons/emupic.png" alphatest="blend" transparent="1" />
 		<widget name="choose_cam" position="180,180" size="710,40" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="config" position="180,250" size="710,40" textPadding="10,0" font="Regular;30" itemHeight="40" valign="center" transparent="1" backgroundColorSelected="bluette" itemCornerRadius="12" zPosition="2" />
@@ -1418,8 +1418,8 @@
 		</widget>
 		<widget name="lb_channel" position="1280,380" size="580,80" font="Regular;38" zPosition="2" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<widget name="lb_provider" position="1280,480" size="580,40" font="Regular;36" zPosition="2" foregroundColor="yellow" backgroundColor="header" transparent="1" />
-		<widget name="lb_videosize" position="1280,580" size="580,80" font="Regular;34" zPosition="2" foregroundColor="grey" backgroundColor="transpBlack" transparent="1" />
-		<widget name="lb_aspectratio" position="1280,630" size="580,40" font="Regular;34" zPosition="2" foregroundColor="grey" backgroundColor="transpBlack" transparent="1" />
+		<widget name="lb_videosize" position="1280,580" size="580,80" font="Regular;34" zPosition="2" foregroundColor="grey" backgroundColor="header" transparent="1" />
+		<widget name="lb_aspectratio" position="1280,630" size="580,40" font="Regular;34" zPosition="2" foregroundColor="grey" backgroundColor="header" transparent="1" />
 	</screen>
 	<!--  EGAMI EmuManager FHD -->
 	<!-- Modified for new icons -->
@@ -2317,14 +2317,14 @@
 	</screen>
 	<!-- Slim Channel Selection FHD -->
 	<screen name="SlimChannelSelection" title="Slim Channel Selection" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="s_RGYB" />
-		<panel name="MI" />
 		<!-- List Channel -->
 		<widget name="textvod" position="1530,25" size="0,0" font="Regular;28" halign="right" backgroundColor="header" foregroundColor="ltbluette" transparent="1" zPosition="1" />
 		<widget name="key_vod" position="1455,60" size="0,0" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
-		<ePixmap position="1230,165" size="10,750" pixmap="oDreamy-FHD/box/maxbar.png" alphatest="blend" zPosition="2" />
-		<widget name="list" position="70,165" size="1170,750" serviceItemHeight="50" serviceNumberFont="Regular;32" serviceInfoFont="Regular;30" serviceNameFont="Regular;30" zPosition="2" foregroundColor="white" foregroundColorSelected="white" foregroundColorServiceNotAvail="#5e5e5e" colorServiceDescription="#0073c6ff" colorServiceDescriptionSelected="#00ffffff" backgroundColor="header" foregroundColorEventSelected="#0036c6" foregroundColorMarkedSelected="#902020" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarScroll="byLine" picServiceEventProgressbar="oDreamy-FHD/skin_default/progcl.png" transparent="1" />
+		<widget name="list" position="70,165" size="1170,750" serviceItemHeight="50" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" zPosition="1" serviceNumberFont="Regular;30" serviceNameFont="Regular;30" serviceInfoFont="Regular;30"
+			foregroundColor="white" foregroundColorSelected="yellow" backgroundColor="header" backgroundColorSelected="bluette" colorServiceDescription="ltbluette" colorServiceDescriptionSelected="white"
+			foregroundColorServiceNotAvail="#505050" colorEventProgressbarBorder="grey" colorEventProgressbarSelected="yellow" colorEventProgressbarBorderSelected="yellow" scrollbarForegroundColor="ltbluette" scrollbarBackgroundColor="header" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 	</screen>
 	<!-- Simple channelselection TV FHD -->
 	<screen name="SimpleChannelSelection" position="fill" title="Channel Selection" backgroundColor="transparent" flags="wfNoBorder">
