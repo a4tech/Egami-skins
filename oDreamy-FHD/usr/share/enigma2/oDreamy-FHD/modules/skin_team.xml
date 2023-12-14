@@ -4517,7 +4517,7 @@
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
-		<widget name="config" position="70,180" size="820,540" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarScroll="byLine" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" transparent="1" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarScroll="byLine" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" transparent="1" />
 		<ePixmap position="950,645" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" zPosition="2" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="description" position="1280,600" size="560,400" font="Regular;30" valign="center" foregroundColor="ltbluette" halign="center" backgroundColor="header" transparent="1" zPosition="5" />
