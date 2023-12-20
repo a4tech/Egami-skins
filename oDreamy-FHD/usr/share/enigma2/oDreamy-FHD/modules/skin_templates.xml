@@ -760,42 +760,6 @@
 	</screen>
 
 	<screen name="Rc_templates">
-		<widget name="rc" position="1475,250" size="0,0" pixmaps="oDreamy-FHD/skin_default/rc.png,oDreamy-FHD/skin_default/rcold.png" zPosition="10" alphatest="blend" />
-		<widget alphatest="blend" name="indicatorU0" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU1" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU2" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU3" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU4" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU5" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU6" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU7" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU8" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU9" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU10" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU11" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU12" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU13" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU14" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorU15" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL0" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL1" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL2" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL3" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL4" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL5" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL6" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL7" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL8" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL9" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL10" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL11" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL12" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL13" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL14" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-		<widget alphatest="blend" name="indicatorL15" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
-	</screen>
-
-	<screen name="Rc_templates_2">
 		<widget name="rc" position="1475,250" size="0,0" zPosition="10" alphatest="blend" />
 		<widget alphatest="blend" name="indicatorU0" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
 		<widget alphatest="blend" name="indicatorU1" pixmap="oDreamy-FHD/skin_default/yellow_circle23x23.png" position="1425,210" size="0,0" zPosition="11" />
