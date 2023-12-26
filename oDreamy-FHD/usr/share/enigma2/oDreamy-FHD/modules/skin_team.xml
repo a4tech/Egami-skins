@@ -3366,19 +3366,6 @@
 		<widget name="labrun" position="350,240" size="510,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
-	<!-- Network AFP Setup FHD -->
-	<screen name="NetworkAfp" title="Network AFP" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
-		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-	</screen>
 	<!-- Network FTP Setup FHD -->
 	<screen name="NetworkFtp" title="Network FTP" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
