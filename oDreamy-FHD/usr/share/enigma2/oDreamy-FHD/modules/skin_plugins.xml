@@ -3712,7 +3712,7 @@
 		<ePixmap pixmap="oDreamy-FHD/icons/stream-box.png" position="1820,1040" size="90,36" alphatest="blend" zPosition="2" />
 		<ePixmap pixmap="oDreamy-FHD/icons/stream-box.png" position="1720,1040" size="90,36" alphatest="blend" zPosition="2" />
 		<widget source="session.CurrentService" render="Label" position="1720,1040" size="90,36" font="Regular;24" foregroundColor="#49bbff" backgroundColor="#40000000" valign="center" halign="center" transparent="1" zPosition="3">
-			<convert type="xServiceInfo">Framerate</convert>
+			<convert type="ServiceInfo">Framerate</convert>
 		</widget>
 		<widget text="HD" render="FixedLabel" source="session.CurrentService" position="1820,1040" size="90,36" font="Regular;27" foregroundColor="#49bbff" backgroundColor="#40000000" valign="center" halign="center" transparent="1" zPosition="3">
 			<convert type="ServiceInfo">IsHD</convert>
