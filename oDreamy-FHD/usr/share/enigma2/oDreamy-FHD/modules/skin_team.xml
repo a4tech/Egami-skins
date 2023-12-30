@@ -2513,12 +2513,12 @@
 	<!-- RecordTimerQuestions FHD -->
 	<screen name="RecordTimerQuestion" position="100,100" size="800,380" backgroundColor="background" zPosition="5">
 		<widget name="text" position="10,30" size="780,45" font="Regular;32" backgroundColor="header" transparent="1" zPosition="3" />
-		<widget name="list" position="10,90" size="780,320" font="Regular;32" enableWrapAround="1" backgroundColor="header" transparent="1" />
+		<widget name="list" position="10,90" size="780,320" font="Regular;32" enableWrapAround="1" backgroundColorSelected="bluette" itemCornerRadius="12" backgroundColor="header" transparent="1" />
 	</screen>
 	<!-- RemoveTimerQuestions FHD -->
 	<screen name="RemoveTimerQuestion" position="center,center" size="700,240" backgroundColor="background" zPosition="5">
 		<widget name="text" position="10,10" size="680,40" font="Regular;32" backgroundColor="header" transparent="3" />
-		<widget name="list" position="10,70" size="680,180" font="Regular;32" itemHeight="45" enableWrapAround="1" backgroundColor="header" transparent="1" />
+		<widget name="list" position="10,70" size="680,180" font="Regular;32" itemHeight="45" backgroundColorSelected="bluette" itemCornerRadius="12" enableWrapAround="1" backgroundColor="header" transparent="1" />
 		<applet type="onLayoutFinish">
 			self.autoResize()
 		</applet>
