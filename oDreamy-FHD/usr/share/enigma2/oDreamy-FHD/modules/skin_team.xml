@@ -3366,49 +3366,6 @@
 		<widget name="labrun" position="350,240" size="510,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
-	<!-- Network FTP Setup FHD -->
-	<screen name="NetworkFtp" title="Network FTP" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
-		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="key_green" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-	</screen>
-	<!-- Network Inadyn Setup FHD -->
-	<screen name="NetworkInadyn" title="Network Inadyn" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="M" />
-		<panel name="s_RGYB" />
-		<widget name="autostart" position="70,170" size="300,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labdisabled" position="70,210" size="300,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labactive" position="70,210" size="300,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<widget name="status" position="400,170" size="300,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labstop" position="400,210" size="490,40" font="Regular;32" halign="center" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="400,210" size="490,40" font="Regular;32" halign="center" backgroundColor="green" zPosition="2" />
-		<eLabel position="70,260" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget name="time" position="70,300" size="400,40" font="Regular;32" valign="center" backgroundColor="header" transparent="1" />
-		<widget name="labtime" position="500,300" size="390,40" font="Regular;32" halign="center" valign="center" backgroundColor="header" />
-		<widget name="username" position="70,350" size="300,40" font="Regular;32" valign="center" backgroundColor="header" transparent="1" />
-		<widget name="labuser" position="400,350" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="password" position="70,400" size="300,40" font="Regular;32" valign="center" backgroundColor="header" transparent="1" />
-		<widget name="labpass" position="400,400" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="alias" position="70,450" size="150,40" font="Regular;32" valign="center" backgroundColor="header" transparent="1" />
-		<widget name="labalias" position="400,450" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<eLabel position="70,510" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget name="sinactive" position="70,545" size="32,32" pixmap="oDreamy-FHD/icons/lock_off.png" alphatest="on" zPosition="1" />
-		<widget name="sactive" position="70,545" size="32,32" pixmap="oDreamy-FHD/icons/lock_on.png" alphatest="on" zPosition="2" />
-		<widget name="system" position="100,540" size="150,40" font="Regular;32" valign="center" backgroundColor="header" transparent="1" />
-		<widget name="labsys" position="100,590" size="790,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_inadyn.png" alphatest="blend" />
-	</screen>
 	<!-- NetWork Inadyn Setup FHD -->
 	<screen name="NetworkInadynSetup" title="Inadyn Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -3421,47 +3378,11 @@
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_inadyn.png" alphatest="blend" />
 	</screen>
 	<!-- NetWork Inadyn Log FHD -->
-	<screen name="NetworkInadynLog" title="Inadyn Log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+	<screen name="NetworkLogScreen" title="Network Log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="fakeExit" />
 		<widget name="infotext" position="70,180" size="1160,715" font="Console;20" backgroundColor="header" transparent="1" zPosition="1" />
-	</screen>
-	<!-- NetWork MiniDLNA FHD -->
-	<screen name="NetworkMiniDLNA" title="Mini DLNA" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="M" />
-		<panel name="s_RGYB" />
-		<widget name="autostart" position="70,170" size="300,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labdisabled" position="70,210" size="300,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labactive" position="70,210" size="300,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<widget name="status" position="400,170" size="300,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labstop" position="400,210" size="490,40" font="Regular;32" halign="center" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="400,210" size="490,40" font="Regular;32" halign="center" backgroundColor="green" zPosition="2" />
-		<eLabel position="70,260" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget name="username" position="70,300" size="400,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labuser" position="400,300" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="iface" position="70,350" size="400,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labiface" position="400,350" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="port" position="70,400" size="400,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labport" position="400,400" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="serialno" position="70,450" size="400,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labserialno" position="400,450" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="sharedir" position="70,500" size="400,40" font="Regular;30" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labsharedir" position="400,500" size="490,120" font="Regular;30" valign="top" backgroundColor="header" />
-		<eLabel position="70,660" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget name="inotify" position="70,700" size="490,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="inotifyinactive" position="400,700" zPosition="1" pixmap="oDreamy-FHD/icons/lock_off.png" size="32,32" alphatest="blend" />
-		<widget name="inotifyactive" position="400,700" zPosition="2" pixmap="oDreamy-FHD/icons/lock_on.png" size="32,32" alphatest="blend" />
-		<widget name="dlna" position="70,750" size="490,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="dlnainactive" position="400,755" zPosition="1" pixmap="oDreamy-FHD/icons/lock_off.png" size="32,32" alphatest="blend" />
-		<widget name="dlnaactive" position="400,755" zPosition="2" pixmap="oDreamy-FHD/icons/lock_on.png" size="32,32" alphatest="blend" />
-		<widget name="tivo" position="70,800" size="490,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="tivoinactive" position="400,805" zPosition="1" pixmap="oDreamy-FHD/icons/lock_off.png" size="32,32" alphatest="blend" />
-		<widget name="tivoactive" position="400,805" zPosition="2" pixmap="oDreamy-FHD/icons/lock_on.png" size="32,32" alphatest="blend" />
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
 	<!-- NetWork MiniDLNA FHD -->
 	<screen name="NetworkuShareSetup" title="Mini DLNA Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -3471,61 +3392,6 @@
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="820,450" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" zPosition="3" transparent="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-	</screen>
-	<!-- NetWork NFS Setup FHD -->
-	<screen name="NetworkNfs" title="NFS Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="0" zPosition="2" />
-		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" transparent="0" zPosition="2" />
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-	</screen>
-	<!-- NetWork OpenVPN Setup FHD -->
-	<screen name="NetworkOpenvpn" title="OpenVPN" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template_notime" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
-		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<widget name="labconfig" position="70,375" size="780,45" font="Regular;33" valign="center" halign="left" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
-		<widget name="labconfigfilename" position="650,375" size="270,45" font="Regular;33" valign="center" halign="left" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-	</screen>
-	<!-- NetworkSATPI Setup FHD -->
-	<screen name="NetworkSATPI" title="SATPI Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template_notime" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
-		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-	</screen>
-	<!-- NetWork Samba Setup FHD -->
-	<screen name="NetworkSamba" title="Samba Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<panel name="Ex" />
-		<widget name="lab1" position="70,180" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labactive" position="350,180" size="530,40" font="Regular;32" halign="center" valign="center" transparent="0" backgroundColor="header" zPosition="2" />
-		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
 	<!-- NetWork Tailscale Setup FHD -->
@@ -3556,58 +3422,6 @@
 		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
 		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-	</screen>
-	<!-- NetWork Telnet Setup FHD -->
-	<screen name="NetworkTelnet" title="Telnet" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="fakeExit" />
-		<panel name="s_RGYB" />
-		<widget name="lab1" position="70,180" size="820,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="lab2" position="70,240" size="250,40" font="Regular;32" valign="center" transparent="0" zPosition="2" />
-		<widget name="labstop" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="350,240" size="530,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
-	</screen>
-	<!-- NetWork uShare FHD -->
-	<screen name="NetworkuShare" title="uShare" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<panel name="s_RGYB" />
-		<panel name="M" />
-		<widget name="autostart" position="70,170" size="300,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labdisabled" position="70,210" size="300,40" font="Regular;32" halign="center" valign="center" foregroundColor="white" backgroundColor="red" zPosition="1" />
-		<widget name="labactive" position="70,210" size="300,40" font="Regular;32" halign="center" valign="center" foregroundColor="#4205" backgroundColor="green" zPosition="2" />
-		<widget name="status" position="400,170" size="300,40" font="Regular;32" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labstop" position="400,210" size="490,40" font="Regular;32" halign="center" backgroundColor="red" zPosition="1" />
-		<widget name="labrun" position="400,210" size="490,40" font="Regular;32" halign="center" backgroundColor="green" zPosition="2" />
-		<eLabel position="70,260" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget name="username" position="70,300" size="400,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labuser" position="400,300" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="iface" position="70,350" size="400,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labiface" position="400,350" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="port" position="70,400" size="400,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labport" position="400,400" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="telnetport" position="70,450" size="400,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labtelnetport" position="400,450" size="490,40" font="Regular;32" valign="center" backgroundColor="header" />
-		<widget name="sharedir" position="70,500" size="400,40" font="Regular;30" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="labsharedir" position="400,500" size="490,120" font="Regular;30" valign="top" backgroundColor="header" />
-		<eLabel position="70,660" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget name="web" position="70,700" size="490,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="webinactive" position="400,700" zPosition="1" pixmap="oDreamy-FHD/icons/lock_off.png" size="32,32" alphatest="blend" />
-		<widget name="webactive" position="400,700" zPosition="2" pixmap="oDreamy-FHD/icons/lock_on.png" size="32,32" alphatest="blend" />
-		<widget name="dlna" position="70,750" size="490,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="dlnainactive" position="400,755" zPosition="1" pixmap="oDreamy-FHD/icons/lock_off.png" size="32,32" alphatest="blend" />
-		<widget name="dlnaactive" position="400,755" zPosition="2" pixmap="oDreamy-FHD/icons/lock_on.png" size="32,32" alphatest="blend" />
-		<widget name="xbox" position="70,800" size="490,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="xboxinactive" position="400,805" zPosition="1" pixmap="oDreamy-FHD/icons/lock_off.png" size="32,32" alphatest="blend" />
-		<widget name="xboxactive" position="400,805" zPosition="2" pixmap="oDreamy-FHD/icons/lock_on.png" size="32,32" alphatest="blend" />
-		<widget name="telnet" position="70,850" size="490,40" font="Regular;32" valign="center" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="telnetinactive" position="400,855" zPosition="1" pixmap="oDreamy-FHD/icons/lock_off.png" size="32,32" alphatest="blend" />
-		<widget name="telnetactive" position="400,855" zPosition="2" pixmap="oDreamy-FHD/icons/lock_on.png" size="32,32" alphatest="blend" />
-		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/net.png" alphatest="blend" />
 	</screen>
 	<!-- NetWork uShare Setup FHD -->
 	<screen name="uShareSetup" title="uShare Setup" position="fill" backgroundColor="transparent" flags="wfNoBorder">
