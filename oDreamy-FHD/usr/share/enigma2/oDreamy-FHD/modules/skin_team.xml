@@ -1576,7 +1576,7 @@
 		<widget name="description" position="70,300" size="830,26" transparent="1" font="Regular;24" foregroundColor="#00ffffff" halign="left" backgroundColor="#00000000" valign="grey" />
 		<ePixmap pixmap="oDreamy-FHD/menu/startboot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
-	<!--  IpTV Player -->
+	<!-- ExtensionsList -->
 	<screen name="ExtensionsList" position="fill" title="ExtensionsList" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Ext_BiN" />
@@ -1624,7 +1624,6 @@
 		<widget source="session.CurrentService" render="Label" position="1280,540" size="500,100" font="Regular;30" backgroundColor="#10000000" foregroundColor="ltbluette" transparent="1" zPosition="99">
 			<convert type="EGStbInfo">All</convert>
 		</widget>
-		<ePixmap pixmap="oDreamy-FHD/menu/info_screen.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget source="session.CurrentService" render="Label" position="650,980" size="800,35" halign="left" valign="center" font="Regular;32" transparent="1" foregroundColor="ltbluette" backgroundColor="header" zPosition="6">
 			<convert type="EGBoxInfo">Uptime</convert>
 		</widget>
