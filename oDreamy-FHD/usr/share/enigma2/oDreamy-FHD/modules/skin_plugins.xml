@@ -639,18 +639,6 @@
 		<widget name="description" position="1290,560" size="550,450" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" zPosition="2" />
 	</screen>
-	<!-- ChangePasswdScreen -->
-	<screen name="NetworkPassword" position="fill" title="Password Setup" backgroundColor="transparent" flags="wfNoBorder" >
-		<panel name="p800_Template_notime" />
-		<panel name="p800_Logo" />
-		<panel name="s_RGYB" />
-		<ePixmap position="972,978" size="60,48" pixmap="oDreamy-FHD/skin_default/vkey_icon.png" alphatest="blend" zPosition="2" />
-		<widget name="footnote" position="105,915" size="0,0" font="Regular;24" halign="right" valign="center" backgroundColor="header" foregroundColor="ltbluette" transparent="1" />
-		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
-		<eLabel text="TXT" position="1050,955" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<widget name="config" position="70,180" size="810,400" itemHeight="50" font="Regular;40" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" transparent="1" />
-		<widget name="description" position="70,560" size="810,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
-	</screen>
 	<!-- MultiBootWizard -->
 	<screen name="MultiBootWizard" position="fill" title="MultiBoot maintenance" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template_menu" />
