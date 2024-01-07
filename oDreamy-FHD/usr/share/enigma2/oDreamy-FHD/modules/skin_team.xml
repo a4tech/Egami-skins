@@ -2509,9 +2509,9 @@
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- RecordTimerQuestions FHD -->
-	<screen name="RecordTimerQuestion" position="100,100" size="800,380" backgroundColor="background" zPosition="5">
-		<widget name="text" position="10,30" size="780,45" font="Regular;32" backgroundColor="header" transparent="1" zPosition="3" />
-		<widget name="list" position="10,90" size="780,320" font="Regular;32" enableWrapAround="1" backgroundColorSelected="bluette" itemCornerRadius="12" backgroundColor="header" transparent="1" />
+	<screen name="RecordTimerQuestion" position="100,100" size="800,320" backgroundColor="background" zPosition="5" flags="wfNoBorder">
+		<widget name="text" position="10,30" size="0,0" font="Regular;32" backgroundColor="header" transparent="1" zPosition="3" />
+		<widget name="list" position="10,30" size="780,320" font="Regular;32" enableWrapAround="1" backgroundColorSelected="bluette" itemCornerRadius="12" backgroundColor="header" transparent="1" />
 	</screen>
 	<!-- RemoveTimerQuestions FHD -->
 	<screen name="RemoveTimerQuestion" position="center,center" size="700,240" backgroundColor="background" zPosition="5">
