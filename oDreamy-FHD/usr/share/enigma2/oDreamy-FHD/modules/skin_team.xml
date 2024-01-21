@@ -2251,6 +2251,8 @@
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="description" position="1290,560" size="550,420" font="Regular;30" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="footnote" position="1290,460" size="550,420" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget source="current_address" render="Label" conditional="current_address" position="1290,460" size="550,420" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1"/>
+		<widget source="fixed_address" render="Label" conditional="fixed_address" position="1290,500" size="550,420" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1380,1005" zPosition="1" size="80,35" transparent="1" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
