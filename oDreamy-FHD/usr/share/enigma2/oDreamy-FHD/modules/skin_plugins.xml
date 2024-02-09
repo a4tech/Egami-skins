@@ -3529,7 +3529,7 @@
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN" />
 		<panel name="MI" />
-		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="movie_name" position="70,180" size="820,50" font="Regular;32" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="0" />
 		<widget name="movielist" position="70,260" size="820,600" font="Regular;30" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<widget name="resulttext" position="1265,300" size="600,120" font="Regular;30" foregroundColor="#bab329" backgroundColor="header" transparent="1" zPosition="1" />
@@ -3546,7 +3546,7 @@
 		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
 		<panel name="Ex" />
-		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="config" position="70,180" size="1160,720" font="Regular;30" itemHeight="40" enableWrapAround="1" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="help" render="Label" position="1275,570" size="600,200" font="Regular;28" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 	</screen>
@@ -3867,7 +3867,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
-		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" zPosition="1" />
 		<widget name="info" position="1420,170" size="450,160" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_cd.png" alphatest="blend" />
@@ -3879,7 +3879,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_Date" />
 		<panel name="s_RGYB" />
-		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="info" position="1420,170" size="450,160" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="details" position="70,320" size="820,400" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="space_bar" render="Progress" position="70,850" size="820,40" borderWidth="1" backgroundColor="#254f7497" />
@@ -3978,7 +3978,7 @@
 		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
 		<panel name="I" />
-		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="IPTVList" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="country" position="945,680" size="360,300" backgroundColor="#000000" transparent="0" alphatest="on" zPosition="2" />
 		<widget name="text1" position="1265,550" size="600,120" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
@@ -3992,7 +3992,7 @@
 		<panel name="p800_Ext_BiN" />
 		<panel name="s_RGYB" />
 		<panel name="I" />
-		<ePixmap position="1275,156" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="IPTVList" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="country" position="945,680" size="360,300" backgroundColor="#000000" transparent="0" alphatest="on" zPosition="2" />
 		<widget name="text1" position="1265,550" size="600,120" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
@@ -4167,10 +4167,10 @@
 		<!-- List Channel -->
 		<widget name="list" position="70,180" size="1160,700" font="Regular;30" itemHeight="50" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="station" position="1270,45" size="590,80" font="Regular;30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" />
-		<ePixmap position="1500,150" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="titel" position="1290,280" size="550,120" font="Regular;32" transparent="1" backgroundColor="header" foregroundColor="ltbluette" halign="center" zPosition="1" />
 		<eLabel position="1260,380" size="610,10" backgroundColor="#FF000000" zPosition="1" />
-		<eLabel                   position="1260,390" size="610,120" backgroundColor="header" />
+		<eLabel position="1260,390" size="610,120" backgroundColor="header" />
 		<eLabel text="SHOUTCAST" position="1260,390" size="610,110" font="Regular;99" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="#30101010" zPosition="1" />
 		<widget name="statustext" position="1260,390" size="610,110" font="Regular;28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="ltbluette" zPosition="2" />
 		<widget name="console" position="1260,390" size="610,110" font="Regular;28" backgroundColor="header" halign="center" valign="center" transparent="1" foregroundColor="#808080" zPosition="2" />
@@ -5366,7 +5366,7 @@
 		 <!-- List Channel -->
 		<widget name="list" position="70,180" size="1160,720" font="Regular;30" itemHeight="50" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="station" position="1270,45" size="590,80" font="Regular;30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" />
-		<ePixmap position="1500,150" size="120,120" pixmap="oDreamy-FHD/icons/miniinfo.png" alphatest="blend" />
+		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget name="title" position="1290,280" size="550,120" font="Regular;32" transparent="1" backgroundColor="header" foregroundColor="ltbluette" halign="center" zPosition="1" />
 		<eLabel position="1260,380" size="610,10" backgroundColor="#FF000000" zPosition="1" />
 		<eLabel position="1260,390" size="610,120" backgroundColor="header" />
