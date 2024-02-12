@@ -4596,7 +4596,6 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="fakeExit" />
-		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget name="service" position="70,180" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" />
 		<widget name="text" position="70,230" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" />
 		<widget name="tries" position="70,280" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" />
