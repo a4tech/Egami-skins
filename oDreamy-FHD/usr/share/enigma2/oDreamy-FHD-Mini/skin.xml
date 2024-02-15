@@ -210,8 +210,8 @@
 			<convert type="ServiceInfo">IsStream</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget source="session.Event_Now" render="ODposter" position="1580,355" size="326,476" cornerRadius="15" alphatest="blend" transparent="1" zPosition="5"/>
-		<widget source="session.CurrentService" render="EGPoster" position="1580,355" size="326,476" cornerRadius="15" transparent="1" zPosition="5" alphatest="blend" />
+		<widget source="session.Event_Now" render="ODposter" position="1580,355" size="326,476" cornerRadius="15" zPosition="5"/>
+		<widget source="session.CurrentService" render="EGPoster" position="1580,355" size="326,476" cornerRadius="15" zPosition="5" />
 		<widget name="key_red" position="120,955" size="0,0" zPosition="1" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1"/>
 		<widget name="key_green" position="400,955" size="0,0" zPosition="1" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1"/>
 		<widget name="key_yellow" position="680,955" size="0,0" zPosition="1" font="Regular;30" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1"/>
@@ -293,7 +293,7 @@
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1643,265" size="185,60" zPosition="1" alphatest="blend" />
-		<widget source="session.Event_Now" position="1640,150" size="197,293" render="ODposter" cornerRadius="15" borderWidth="1" borderColor="ltbluette" zPosition="2" alphatest="blend" transparent="1" />
+		<widget source="session.Event_Now" position="1640,150" size="197,293" render="ODposter" cornerRadius="15" zPosition="2" />
 		<!-- *****  Event Next ***** -->
 		<eLabel position="48,495" size="1822,50" backgroundColor="#10303030" transparent="0" zPosition="1" />
 		<eLabel position="47,495" size="1823,390" backgroundColor="header" transparent="0" zPosition="0" />
@@ -316,7 +316,7 @@
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1643,695" size="185,60" zPosition="1" alphatest="blend" />
-		<widget source="session.Event_Next" position="1640,575" size="197,293" cornerRadius="15" render="ODposter" borderWidth="1" borderColor="ltbluette" zPosition="2" alphatest="blend" transparent="1" />
+		<widget source="session.Event_Next" position="1640,575" size="197,293" cornerRadius="15" render="ODposter" zPosition="2" />
 	</screen>
 	<screen name="Infobar2" position="0,0" size="1920,1080" title="Channel Selection" backgroundColor="background" flags="wfNoBorder">
 		<widget source="session.FrontendInfo" render="Label" position="1615,75" size="115,40" font="Regular;32" halign="left" backgroundColor="header" transparent="1" zPosition="1">

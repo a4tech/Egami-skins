@@ -437,7 +437,7 @@
 	</screen>
 	<!-- Timeshift state -->
 	<screen name="SearchPlayer" title="TimeShift" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<widget name="cover" position="1630,630" size="280,437" alphatest="blend" cornerRadius="15" transparent="1" zPosition="2" />
+		<widget name="cover" position="1630,630" size="280,437" cornerRadius="15" zPosition="2" />
 		<widget name="PTSSeekBack" position="25,43" size="0,0" pixmap="oDreamy-FHD/icons/slider_back.png" alphatest="blend" zPosition="4" />
 		<widget name="PTSSeekPointer" position="10,40" size="0,0" pixmap="oDreamy-FHD/icons/position_pointer2.png" alphatest="blend" zPosition="4" />
 		<widget name="statusicon" position="331,779" size="0,0" pixmaps="oDreamy-FHD/icons/play.png,oDreamy-FHD/icons/pause.png,oDreamy-FHD/icons/stop.png,oDreamy-FHD/icons/forward.png,oDreamy-FHD/icons/backward.png,oDreamy-FHD/icons/slow.png" zPosition="5" alphatest="blend" />
@@ -450,7 +450,7 @@
 		<!-- up -->
 		<eLabel position="0,0" size="1920,330" backgroundColor="header" zPosition="-1" />
 		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="70,70" size="185,60" zPosition="1" alphatest="blend" transparent="1" />
-		<widget source="session.CurrentService" position="30,30" size="457,267" cornerRadius="15" render="EGPosterVod" zPosition="3" alphatest="blend" transparent="1" />
+		<widget source="session.CurrentService" position="30,30" size="457,267" cornerRadius="15" render="EGPosterVod" zPosition="3" />
 		<widget source="session.CurrentService" render="Label" position="535,30" size="1350,326" font="Regular;28" foregroundColor="white" backgroundColor="header" zPosition="2" transparent="1" halign="left">
 			<convert type="EGDescr">DESCRIPTION</convert>
 		</widget>
@@ -561,7 +561,7 @@
 		<eLabel position="1000,30" size="910,960" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
 		<eLabel position="1002,33" size="906,955" backgroundColor="header" cornerRadius="10" zPosition="-1" />
 		<widget name="bouquet" position="400,30" size="900,95" font="Regular;30" halign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="vod_cover" position="1030,47" alphatest="blend" cornerRadius="15" size="390,585" transparent="1" zPosition="2" />
+		<widget name="vod_cover" position="1030,47" cornerRadius="15" size="390,585" zPosition="2" />
 		<widget name="countrytxt" position="1450,55" size="200,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="country" position="1570,57" size="350,145" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="yearstxt" position="1450,105" size="100,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
@@ -591,7 +591,7 @@
 		<eLabel position="52,1003" size="1856,71" backgroundColor="header" cornerRadius="10" zPosition="-1" />
 		<eLabel position="1000,30" size="910,960" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
 		<eLabel position="1002,33" size="906,955" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<widget name="vod_cover" position="1030,47" alphatest="blend" cornerRadius="15" size="390,585" transparent="1" zPosition="2" />
+		<widget name="vod_cover" position="1030,47" cornerRadius="15" size="390,585" zPosition="2" />
 		<widget name="countrytxt" position="1450,55" size="200,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="country" position="1570,57" size="350,145" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="yearstxt" position="1450,105" size="100,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
