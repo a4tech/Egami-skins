@@ -570,8 +570,8 @@
 		<widget name="casttxt" position="1420,350" size="460,32" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="cast" position="1420,385" size="460,420" font="Regular;25" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="descriptiontxt" position="520,850" size="300,40" font="Regular;35" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget source="description" position="520,890" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="white"
-			backgroundColor="#10000000" size="1370,160" font="Regular;28" valign="center" halign="center" transparent="1" zPosition="2" />
+		<widget source="description" position="520,910" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="white"
+			backgroundColor="#10000000" size="1370,150" font="Regular;28" valign="center" halign="center" transparent="1" zPosition="2" />
 		<widget source="progresstext" render="Label" position="1060,850" size="800,40" zPosition="2" font="Regular;28" valign="center" halign="right" foregroundColor="#ecbb41" backgroundColor="header" transparent="1"/>
 	</screen>
 	<!-- ***** VodWatched ***** -->
@@ -600,8 +600,8 @@
 		<widget name="casttxt" position="1420,350" size="460,32" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="cast" position="1420,385" size="460,420" font="Regular;25" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="descriptiontxt" position="520,850" size="300,40" font="Regular;35" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget source="description" position="520,890" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="white"
-			backgroundColor="#10000000" size="1370,160" font="Regular;28" valign="center" halign="center" transparent="1" zPosition="2" />
+		<widget source="description" position="520,910" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="white"
+			backgroundColor="#10000000" size="1370,150" font="Regular;28" valign="center" halign="center" transparent="1" zPosition="2" />
 	</screen>
 	<!-- ***** LCD4linux ***** -->
 	<screen name="LCDdisplayConfig" position="0,0" size="1920,1080" title="LCD4linux Settings" flags="wfNoBorder" backgroundColor="transparent">
