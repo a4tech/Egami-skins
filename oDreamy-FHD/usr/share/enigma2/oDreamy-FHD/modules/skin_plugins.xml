@@ -540,69 +540,68 @@
 	</screen>
 	<!-- ***** SearchVod ***** -->
 	<screen name="SearchVod" position="fill" title="Video On Demand" backgroundColor="transparent" flags="wfNoBorder" zPosition="2" >
-		<ePixmap position="70,1023" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="key_red" position="108,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
-		<ePixmap position="360,1023" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="key_green" position="400,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
-		<ePixmap position="640,1023" pixmap="oDreamy-FHD/buttons/yellowpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="key_yellow" position="680,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
-		<ePixmap position="910,1023" pixmap="oDreamy-FHD/buttons/bluepanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="key_blue" position="950,990" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
-		<eLabel position="50,30" size="940,96" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="52,32" size="936,91" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
-		<ePixmap position="700,50" size="50,50" pixmap="oDreamy-FHD/box/buttonTv.png" alphatest="blend" zPosition="2" />
-		<widget source="ButtonTv" render="Label" position="765,60" size="200,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel position="50,140" size="940,850" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="52,142" size="936,846" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<eLabel position="50,1000" size="1860,76" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="52,1003" size="1856,71" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<eLabel position="1000,30" size="910,960" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="1002,33" size="906,955" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<widget name="bouquet" position="400,30" size="900,95" font="Regular;30" halign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="vod_cover" position="1030,47" cornerRadius="15" size="390,585" zPosition="2" />
-		<widget name="countrytxt" position="1450,55" size="200,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="country" position="1570,57" size="350,145" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="yearstxt" position="1450,105" size="100,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="years" position="1530,105" size="200,145" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="genretxt" position="1450,155" size="200,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="genre" position="1560,155" size="200,145" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="casttxt" position="1450,205" size="200,245" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="cast" position="1450,235" size="460,399" font="Regular;25" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="descriptiontxt" position="995,650" size="920,40" font="Regular;35" halign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget source="description" position="1025,695" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="white" backgroundColor="#10000000" size="880,270" font="Regular;31" transparent="1" zPosition="2" />
-		<widget name="list" position="70,160" size="900,815" font="Regular;33" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
-		<widget source="progresstext" render="Label" position="1120,1020" size="750,40" zPosition="2" font="Regular;28" valign="center" halign="center" foregroundColor="#ecbb41" backgroundColor="header" />
+		<widget name="vod_backdrop" position="0,0" size="1920,1080" zPosition="-2" />
+		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/icons/backvod.png" zPosition="-1" alphatest="blend" />
+		<widget name="vod_cover" position="40,130" cornerRadius="15" size="390,585" zPosition="2" />
+		<ePixmap position="30,15" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<widget source="Title" render="Label" position="130,5" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="bouquet" position="400,5" size="900,95" font="Regular;30" halign="left" valign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget source="global.CurrentTime" render="Label" position="1600,5" size="300,95" font="Regular;30" halign="right" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="5">
+			<convert type="ClockToText">Format %A %d %B</convert>
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="35,770" size="30,30" zPosition="1" alphatest="blend"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="35,820" size="30,30" zPosition="1" alphatest="blend"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="35,870" size="30,30" zPosition="1" alphatest="blend"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/bluepanel.png" position="35,920" size="30,30" zPosition="1" alphatest="blend"/>
+		<widget name="key_red" position="75,770" size="250,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1"/>
+		<widget name="key_green" position="75,820" size="250,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1"/>
+		<widget name="key_yellow" position="75,870" size="250,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1"/>
+		<widget name="key_blue" position="75,920" size="250,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1"/>
+		<ePixmap position="35,970" size="30,30" pixmap="oDreamy-FHD/box/buttonTv.png" alphatest="blend" zPosition="2" scale="1" />
+		<widget source="ButtonTv" render="Label" position="75,970" size="200,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="list" position="520,130" size="850,675" font="Regular;33" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="5"
+	    scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<widget name="countrytxt" position="1420,130" size="200,32" font="Regular;28" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="country" position="1420,165" size="460,32" font="Regular;28" halign="left" foregroundColor="white"   backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="yearstxt" position="1420,215" size="100,32" font="Regular;28" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="years" position="1520,215" size="200,32" font="Regular;28" halign="left" foregroundColor="white"   backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="genretxt" position="1420,265" size="460,32" font="Regular;28" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="genre" position="1420,300" size="460,32" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="casttxt" position="1420,350" size="460,32" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="cast" position="1420,385" size="460,420" font="Regular;25" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="descriptiontxt" position="520,850" size="300,40" font="Regular;35" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget source="description" position="520,890" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="white"
+			backgroundColor="#10000000" size="1370,160" font="Regular;28" valign="center" halign="center" transparent="1" zPosition="2" />
+		<widget source="progresstext" render="Label" position="1060,850" size="800,40" zPosition="2" font="Regular;28" valign="center" halign="right" foregroundColor="#ecbb41" backgroundColor="header" transparent="1"/>
 	</screen>
 	<!-- ***** VodWatched ***** -->
 	<screen name="VodWatched" position="fill" title="VoD list watched" backgroundColor="transparent" flags="wfNoBorder" zPosition="2" >
-		<ePixmap position="70,1023" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="key_red" position="108,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
-		<ePixmap position="360,1023" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="key_green" position="400,990" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="white" backgroundColor="#10000000" transparent="1" />
-		<eLabel position="50,30" size="940,96" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="52,32" size="936,91" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
-		<widget source="Title" render="Label" position="150,30" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<eLabel position="50,140" size="940,850" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="52,142" size="936,846" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<eLabel position="50,1000" size="1860,76" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="52,1003" size="1856,71" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<eLabel position="1000,30" size="910,960" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="1002,33" size="906,955" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<widget name="vod_cover" position="1030,47" cornerRadius="15" size="390,585" zPosition="2" />
-		<widget name="countrytxt" position="1450,55" size="200,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="country" position="1570,57" size="350,145" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="yearstxt" position="1450,105" size="100,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="years" position="1530,105" size="200,145" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="genretxt" position="1450,155" size="200,145" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="genre" position="1560,155" size="200,145" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="casttxt" position="1450,205" size="200,245" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="cast" position="1450,235" size="460,399" font="Regular;25" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget name="descriptiontxt" position="995,650" size="920,40" font="Regular;35" halign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
-		<widget source="description" position="1025,695" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="white" backgroundColor="#10000000" size="880,270" font="Regular;31" transparent="1" zPosition="2" />
-		<widget name="list" position="70,160" size="900,815" font="Regular;33" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<widget name="vod_backdrop" position="0,0" size="1920,1080" zPosition="-2" />
+		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/icons/backvod.png" zPosition="-1" alphatest="blend" />
+		<ePixmap position="30,15" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<widget name="vod_cover" position="40,130" alphatest="blend" cornerRadius="15" size="390,585" transparent="1" zPosition="2" />
+		<ePixmap position="30,15" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<widget source="Title" render="Label" position="130,5" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget source="global.CurrentTime" render="Label" position="1600,5" size="300,95" font="Regular;30" halign="right" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="5">
+			<convert type="ClockToText">Format %A %d %B</convert>
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="35,770" size="30,30" zPosition="1" alphatest="blend"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="35,820" size="30,30" zPosition="1" alphatest="blend"/>
+		<widget name="key_red" position="75,770" size="250,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1"/>
+		<widget name="key_green" position="75,820" size="250,30" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1"/>
+		<widget name="list" position="520,130" size="850,450" font="Regular;33" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="5"
+	  	scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<widget name="countrytxt" position="1420,130" size="200,32" font="Regular;28" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="country" position="1420,165" size="460,32" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="yearstxt" position="1420,215" size="100,32" font="Regular;28" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="years" position="1520,215" size="200,32" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="genretxt" position="1420,265" size="460,32" font="Regular;28" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="genre" position="1420,300" size="460,32" font="Regular;28" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="casttxt" position="1420,350" size="460,32" font="Regular;30" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="cast" position="1420,385" size="460,420" font="Regular;25" halign="left" foregroundColor="white" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget name="descriptiontxt" position="520,850" size="300,40" font="Regular;35" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget source="description" position="520,890" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="white"
+			backgroundColor="#10000000" size="1370,160" font="Regular;28" valign="center" halign="center" transparent="1" zPosition="2" />
 	</screen>
 	<!-- ***** LCD4linux ***** -->
 	<screen name="LCDdisplayConfig" position="0,0" size="1920,1080" title="LCD4linux Settings" flags="wfNoBorder" backgroundColor="transparent">
