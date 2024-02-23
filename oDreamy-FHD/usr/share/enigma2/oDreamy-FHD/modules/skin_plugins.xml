@@ -543,7 +543,7 @@
 		<widget name="vod_backdrop" position="0,0" size="1920,1080" zPosition="-2" />
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/icons/backvod.png" zPosition="-1" alphatest="blend" />
 		<widget name="vod_cover" position="40,130" cornerRadius="15" size="390,585" zPosition="2" />
-		<ePixmap position="30,15" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="30,20" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="130,5" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="bouquet" position="400,5" size="900,95" font="Regular;30" halign="left" valign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="1600,5" size="300,95" font="Regular;30" halign="right" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="5">
@@ -578,7 +578,7 @@
 	<screen name="VodWatched" position="fill" title="VoD list watched" backgroundColor="transparent" flags="wfNoBorder" zPosition="2" >
 		<widget name="vod_backdrop" position="0,0" size="1920,1080" zPosition="-2" />
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/icons/backvod.png" zPosition="-1" alphatest="blend" />
-		<ePixmap position="30,15" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
+		<ePixmap position="30,20" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget name="vod_cover" position="40,130" alphatest="blend" cornerRadius="15" size="390,585" transparent="1" zPosition="2" />
 		<ePixmap position="30,15" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="130,5" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
