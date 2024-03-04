@@ -541,7 +541,6 @@
 	<screen name="VodWatched" position="0,0" size="1920,1080" title="VoD list watched" backgroundColor="#ff111111" flags="wfNoBorder" >
 		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/icons/backvod2.jpg" zPosition="-1" />
 		<ePixmap position="30,15" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
-		<eLabel position="35,125" size="400,595" backgroundColor="#00ffc000" cornerRadius="15" zPosition="-1"/>
 		<widget name="vod_cover" position="40,130" cornerRadius="15" size="390,585" transparent="1" zPosition="2" />
 		<widget source="Title" render="Label" position="130,5" size="900,95" font="Regular;55" halign="left" valign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="1" />
 		<widget source="global.CurrentTime" render="Label" position="1600,5" size="300,95" font="Regular;30" halign="right" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="5">
