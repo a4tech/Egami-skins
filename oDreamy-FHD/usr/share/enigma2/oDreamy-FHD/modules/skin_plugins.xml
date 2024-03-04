@@ -551,7 +551,7 @@
 		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="35,820" size="30,30" zPosition="1" alphatest="blend"/>
 		<widget name="key_red" position="75,770" size="250,30" font="Regular;28" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="1"/>
 		<widget name="key_green" position="75,820" size="250,30" font="Regular;28" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="1"/>
-		<widget name="list" position="520,130" size="850,675" font="Regular;30" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="#1b3c85" itemCornerRadius="5"
+		<widget name="list" position="520,130" size="850,675" font="Regular;30" itemHeight="45" valign="center" textPadding="15,0" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="#1b3c85" itemCornerRadius="5"
 			scrollbarForegroundColor="#49bbff" scrollbarBorderWidth="1" scrollbarBorderColor="#49bbff" scrollbarWidth="8" transparent="1" />
 		<widget name="countrytxt" position="1420,130" size="200,32" font="Regular;28" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget name="country" position="1420,165" size="460,32" font="Regular;28" halign="left" foregroundColor="#ffffff" backgroundColor="#10000000" transparent="1" zPosition="2" />
@@ -564,7 +564,7 @@
 		<eLabel position="520,895" size="1380,5" backgroundColor="#505050" zPosition="-1"/>
 		<widget name="descriptiontxt" position="520,850" size="300,40" font="Regular;35" halign="left" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
 		<widget source="description" position="520,905" render="RunningText" options="movetype=running,startpoint=0,direction=top,steptime=80,repeat=0,always=0,oneshot=0,startdelay=6000,wrap" foregroundColor="#ffffff"
-			backgroundColor="#10000000" size="1370,160" font="Regular;28" valign="center" halign="center" transparent="1" zPosition="2" />
+			backgroundColor="#10000000" size="1370,150" font="Regular;28" valign="center" halign="center" transparent="1" zPosition="2" />
 	</screen>
 
 	<screen name="VodDownloaded" position="0,0" size="1920,1080" title="VoD list watched" backgroundColor="#ff111111" flags="wfNoBorder" >
