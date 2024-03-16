@@ -3339,7 +3339,7 @@
 		<widget source="session.VideoPicture" render="Pig" position="1150,160" size="680,383" backgroundColor="#AA001842" transparent="1" zPosition="2" />
 		<widget source="session.Event_Now" render="Label" position="1660,515" size="160,25" font="Regular;22" halign="right" foregroundColor="white" backgroundColor="header" shadowColor="black" shadowOffset="-2,-2" transparent="1" zPosition="10" >
 			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
+			<convert type="RemainingToText"></convert>
 		</widget>
 		<eLabel position="1148,515" size="682,25" backgroundColor="#30000000" />
 		<widget source="session.Event_Now" render="DRRunningText" position="1155,515" size="498,25" font="Regular;22" halign="left" valign="center"

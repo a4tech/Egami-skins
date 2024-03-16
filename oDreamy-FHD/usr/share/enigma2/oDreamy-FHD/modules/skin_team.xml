@@ -2879,7 +2879,7 @@
 		</widget>
 		<widget source="Event" render="Label" position="40,1018" size="200,30" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
 			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
+			<convert type="RemainingToText"></convert>
 		</widget>
 		<eLabel backgroundColor="#10000000" position="0,849" size="240,30" />
 		<eLabel position="0,802" size="240,30" backgroundColor="trbluette" zPosition="-1" />

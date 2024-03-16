@@ -45,7 +45,7 @@
 		<eLabel position="1393,923" size="220,55" cornerRadius="5" backgroundColor="#10202020" transparent="0" zPosition="1" />
 		<widget source="session.Event_Now" render="Label" position="1373,923" size="255,55" font="Regular;36" foregroundColor="ltbluette" backgroundColor="header" halign="center" valign="center" transparent="1" zPosition="5">
 			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
+			<convert type="RemainingToText"></convert>
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="355,990" size="124,40" font="Regular;36" foregroundColor="#505050" backgroundColor="header" transparent="1">
 			<convert type="EventTime">StartTime</convert>
@@ -530,7 +530,7 @@
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="1670,930" size="200,44" font="Regular;38" foregroundColor="ltbluette" backgroundColor="header" halign="right" transparent="1">
 			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
+			<convert type="RemainingToText"></convert>
 		</widget>
 		<!-- Progressbar (current event duration) -->
 		<widget source="session.Event_Next" render="Label" position="110,995" size="200,44" font="Regular;38" foregroundColor="#505050" backgroundColor="header" transparent="1">
@@ -566,7 +566,7 @@
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="1550,85" size="300,50" font="Regular;36" halign="right" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="3">
 			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
+			<convert type="RemainingToText"></convert>
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1640,265" size="185,60" zPosition="1" alphatest="blend" />
 		<widget source="session.Event_Now" position="1640,180" size="187,278" render="ODposter" cornerRadius="10" zPosition="2" />

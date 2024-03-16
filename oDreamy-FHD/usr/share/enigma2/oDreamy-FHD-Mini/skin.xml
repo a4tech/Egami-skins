@@ -111,7 +111,7 @@
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="1501,890" size="220,55" font="Regular;36" foregroundColor="ltbluette" backgroundColor="header" halign="right" valign="center" transparent="1" zPosition="5">
 			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
+			<convert type="RemainingToText"></convert>
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="407,966" size="124,40" halign="center" font="Regular;36" foregroundColor="#707070" zPosition="5" backgroundColor="header" transparent="1">
 			<convert type="EventTime">StartTime</convert>
@@ -251,7 +251,7 @@
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="1670,910" size="200,44" font="Regular;38" foregroundColor="ltbluette" backgroundColor="header" halign="right" transparent="1">
 			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
+			<convert type="RemainingToText"></convert>
 		</widget>
 		<!-- Progressbar (current event duration) -->
 		<widget source="session.Event_Next" render="Label" position="120,975" size="200,44" font="Regular;38" foregroundColor="#505050" backgroundColor="header" transparent="1">
@@ -287,7 +287,7 @@
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="1550,65" size="300,50" font="Regular;36" halign="right" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="3">
 			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
+			<convert type="RemainingToText"></convert>
 		</widget>
 		<widget source="session.Event_Now" render="DRRunningText" position="80,135" size="1485,326" font="Regular;30" halign="center" foregroundColor="#f2f2f2" backgroundColor="#10000000" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
 			<convert type="EventName">ExtendedDescription</convert>
