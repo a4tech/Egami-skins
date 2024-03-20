@@ -304,6 +304,7 @@
 		<panel name="Weather_infobar" />
 		<panel name="Card_Network_Emu" />
 		<widget source="session.Event_Now" render="ODposter" position="1610,450" cornerRadius="15" size="300,438" zPosition="-5" />
+		<widget source="session.Event_Now" render="EGAposter" position="1605,410" size="310,488" alphatest="blend" zPosition="6"/>
 		<widget source="session.CurrentService" render="EGPoster" position="1610,450" size="300,438" cornerRadius="15" zPosition="-5" />
 		<widget name="key_red" position="120,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="key_green" position="400,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
