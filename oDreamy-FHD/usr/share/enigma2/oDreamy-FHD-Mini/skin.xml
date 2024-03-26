@@ -290,11 +290,11 @@
 			<convert type="EventTime">Remaining</convert>
 			<convert type="RemainingToText"></convert>
 		</widget>
-		<widget source="session.Event_Now" render="DRRunningText" position="80,135" size="1730,326" font="Regular;30" halign="center" foregroundColor="#f2f2f2" backgroundColor="#10000000" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
+		<widget source="session.Event_Now" render="DRRunningText" position="80,135" size="1485,326" font="Regular;30" halign="center" foregroundColor="#f2f2f2" backgroundColor="#10000000" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<!--<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1643,265" size="185,60" zPosition="1" alphatest="blend" />
-		<widget source="session.Event_Now" position="1640,150" size="197,293" render="ODposter" cornerRadius="15" zPosition="2" />-->
+		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1643,265" size="185,60" zPosition="1" alphatest="blend" />
+		<widget source="session.Event_Now" position="1640,150" size="197,293" render="ODposter" cornerRadius="15" zPosition="2" />
 		<!-- *****  Event Next ***** -->
 		<eLabel position="48,495" size="1822,50" backgroundColor="#10303030" transparent="0" zPosition="1" />
 		<eLabel position="47,495" size="1823,390" backgroundColor="header" transparent="0" zPosition="0" />
@@ -313,11 +313,11 @@
 			<convert type="EventTime">Duration</convert>
 			<convert type="ClockToText">InMinutes</convert>
 		</widget>
-		<widget source="session.Event_Next" render="DRRunningText" position="80,575" size="1730,294" font="Regular;30" halign="center" foregroundColor="#808080" backgroundColor="header" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
+		<widget source="session.Event_Next" render="DRRunningText" position="80,575" size="1485,294" font="Regular;30" halign="center" foregroundColor="#808080" backgroundColor="header" transparent="1" zPosition="2" options="movetype=running,direction=top,startpoint=0,startdelay=5000,wrap=1,always=0,repeat=2,oneshot=1">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<!--<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1643,695" size="185,60" zPosition="1" alphatest="blend" />
-		<widget source="session.Event_Next" position="1640,575" size="197,293" cornerRadius="15" render="ODposter" zPosition="2" />-->
+		<ePixmap pixmap="oDreamy-FHD/icons/no_coverlives.png" position="1643,695" size="185,60" zPosition="1" alphatest="blend" />
+		<widget source="session.Event_Next" position="1640,575" size="197,293" cornerRadius="15" render="ODposter" zPosition="2" />
 	</screen>
 	<screen name="Infobar2" position="0,0" size="1920,1080" title="Channel Selection" backgroundColor="background" flags="wfNoBorder">
 		<widget source="session.FrontendInfo" render="Label" position="1615,75" size="115,40" font="Regular;32" halign="left" backgroundColor="header" transparent="1" zPosition="1">
