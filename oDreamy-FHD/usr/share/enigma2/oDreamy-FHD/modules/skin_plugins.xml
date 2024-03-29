@@ -4437,7 +4437,6 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_weather.png" alphatest="blend" />
 	</screen>
 
-	<!-- **********  FanControl 2 ********** P056 -->
 	<screen name="FanControl2Plugin" position="fill" title="Fan Control 2" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4519,7 +4518,7 @@
 	<screen name="FanControl2" position="100,100" size="300,300" title="FanControl2" >
 		<panel name="FanControl2Plugin" />
 	</screen>
-	<!-- **********  Wireless AccessPoint ********** P058 -->
+
 	<screen name="WirelessAccessPoint" position="fill" title="Wireless Access Point" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4535,7 +4534,7 @@
 		<widget source="Gateway" render="Label" position="350,860" size="240,40" font="Regular;30" foregroundColor="ltbluette" transparent="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/wifi.png" alphatest="blend" />
 	</screen>
-	<!-- **********  Tuner Server ********** P059 -->
+
 	<screen name="TunerServer" position="fill" title="Tuner Server" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4547,7 +4546,7 @@
 		<widget name="labrun" position="400,855" size="350,40" font="Regular;30" valign="center" halign="center" backgroundColor="green" zPosition="1" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" />
 	</screen>
-	<!-- **********  Transmission ********** P060 -->
+
 	<screen name="Transmission" position="fill" title="Transmission Menu" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4556,7 +4555,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/download.png" alphatest="blend" />
 		<ePixmap position="60,970" size="900,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
-	<!-- **********  3G Modem Manager ********** P061 -->
+
 	<screen name="EditModemManual" position="fill" title="3G Modem Manager Config Edit" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4663,7 +4662,6 @@
 		<panel name="template1_2layer" />
 	</screen>
 
-	<!-- ********** MovieBrowser Config ********** P064 -->
 	<screen name="MovieBrowserConfiguration" position="fill" title="Movie Config" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4687,7 +4685,6 @@
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/mediacenter.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** VLC Player ********** P065 -->
 	<screen name="VlcMediaListScreen" position="fill" title="VLC MediaList" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4719,26 +4716,22 @@
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/mediacenter.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** Zap History Config ********** P066 -->
 	<screen name="ZapHistoryConfigurator" position="fill" title="Zap History" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
-		<widget name="config" position="70,180" size="820,600" font="Regular;30" itemHeight="40" backgroundColor="header" foregroundColor="white" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
-		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
+		<panel name="fakeExitNoButton" />
+		<widget name="config" position="70,180" size="820,600" font="Regular;30" itemHeight="40"  backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" foregroundColor="white" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
 
 	<screen name="ZapHistoryBrowser" position="fill" title="Zap History" flags="wfNoBorder" backgroundColor="transparent">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="list" position="70,180" size="820,600" font="Regular;30" itemHeight="50" backgroundColor="header" foregroundColor="white" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
-		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_team.png" alphatest="blend" />
+		<widget name="list" position="70,180" size="820,600" font="Regular;30" itemHeight="70" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" foregroundColor="white" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
 	</screen>
 
-	<!-- MediaPlayer Help -->
 	<screen name="MPHelp" position="fill" title="MP Help" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
