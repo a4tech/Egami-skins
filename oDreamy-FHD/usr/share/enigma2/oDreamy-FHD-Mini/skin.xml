@@ -419,12 +419,12 @@
 		<!-- KEY EVENTS -->
 		<ePixmap position="30,940" size="1860,3" pixmap="oDreamy-FHD/skin_default/sep2.png" alphatest="blend" zPosition="3" />
 		<eLabel position="50,965" size="10,30" backgroundColor="red" cornerRadius="5" zPosition="0" />
-		<widget name="key_red" position="80,962" size="225,32" zPosition="1" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
+		<widget source="key_red" render="Label" position="80,962" size="225,32" zPosition="1" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<eLabel position="50,1020" size="10,30" backgroundColor="green" cornerRadius="5" zPosition="0" />
-		<widget name="key_green" position="80,1017" size="225,32" zPosition="1" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
+		<widget source="key_green" render="Label" position="80,1017" size="225,32" zPosition="1" font="Regular;28" halign="left" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<eLabel position="750,965" size="10,30" backgroundColor="yellow" cornerRadius="5" zPosition="0" />
-		<widget name="key_yellow" position="508,962" size="225,32" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
+		<widget source="key_yellow" render="Label" position="508,962" size="225,32" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<eLabel position="750,1020" size="10,30" backgroundColor="blue" cornerRadius="5" zPosition="0" />
-		<widget name="key_blue" position="508,1017" size="225,32" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
+		<widget source="key_blue" render="Label" position="508,1017" size="225,32" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 	</screen>
 </skin>
