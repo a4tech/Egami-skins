@@ -4992,7 +4992,7 @@
 		<widget name="icon" position="12,12" size="80,80" pixmaps="oDreamy-FHD/icons/input_question.png,oDreamy-FHD/icons/input_info.png,oDreamy-FHD/icons/input_info.png,oDreamy-FHD/icons/input_error.png,oDreamy-FHD/icons/input_info.png" alphatest="blend" conditional="icon" scale="1" transparent="1" />
 		<widget source="Title" render="Label" position="107,9" foregroundColor="ltbluette" size="935,75" noWrap="1" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<widget name="text" position="15,120" size="1170,75" font="Regular;32" valign="center" halign="center" backgroundColor="header" foregroundColor="white" />
-		<widget name="list" position="15,210" size="1170,360" textPadding="15,5" itemHeight="45" font="Regular;32" scrollbarBorderWidth="1" scrollbarWidth="12" scrollbarForegroundColor="ltbluette" scrollbarBorderColor="ltbluette" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" foregroundColorSelected="white" backgroundColor="header" foregroundColor="white" transparent="1" />
+		<widget name="list" position="15,210" size="1170,360" valign="center" textPadding="15,0" itemHeight="45" font="Regular;32" scrollbarBorderWidth="1" scrollbarWidth="12" scrollbarForegroundColor="ltbluette" scrollbarBorderColor="ltbluette" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" foregroundColorSelected="white" backgroundColor="header" foregroundColor="white" transparent="1" />
 		<applet type="onLayoutFinish">
 # this should be factored out into some helper code,but currently demonstrates applets.
 from __future__ import division
