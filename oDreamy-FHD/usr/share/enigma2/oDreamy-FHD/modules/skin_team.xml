@@ -4198,6 +4198,10 @@
 		<widget source="introduction" render="Label" position="400,987" size="500,40" font="Regular;32" halign="left" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/setup_selection.png" position="950,570" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
+	<screen name="SkinSelection" position="0,0" size="1920,1080" title="Setup" backgroundColor="transparent" flags="wfNoBorder">
+		<widget name="preview" position="1358,170" size="420,260" alphatest="blend" conditional="preview" transparent="1" zPosition="10" />
+		<panel name="Setup"/>
+	</screen>
 	<!-- User Positioner Interface FHD -->
 	<screen name="UserInterfacePositioner" Title="Positioner" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
