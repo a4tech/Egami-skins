@@ -2143,7 +2143,7 @@
 		<ePixmap position="fill" pixmap="oDreamy-FHD/box/wiz1.jpg" alphatest="blend" zPosition="-2" />
 		<widget name="picture" pixmap="distro-logo.png" position="0,0" size="500,500" alphatest="on" zPosition="1" />
 	</screen>
-	<screen name="VirtualKeyBoard" title="Virtual KeyBoard" position="center,center" size="1190,500" flags="wfNoBorder" backgroundColor="#101010" zPosition="99">
+	<screen name="VirtualKeyboard" title="Virtual KeyBoard" position="center,center" size="1190,500" flags="wfNoBorder" backgroundColor="#101010" zPosition="99">
 		<eLabel position="5,70" size="780,50" backgroundColor="#10808080" />
 		<eLabel position="7,72" size="776,46" backgroundColor="#10101010" zPosition="1" />
 		<widget name="text" position="5,75" size="750,40" font="Regular;36" transparent="1" noWrap="1" halign="right" foregroundColor="yellow" backgroundColor="#101010" zPosition="5" />
