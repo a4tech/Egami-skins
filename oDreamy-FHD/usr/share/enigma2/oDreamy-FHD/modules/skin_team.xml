@@ -902,7 +902,7 @@
 		</widget>
 		<widget source="Title" render="Label" position="87,54" foregroundColor="ltbluette" size="0,0" zPosition="1" halign="left" valign="bottom" font="Regular;51" backgroundColor="header" transparent="1" />
 		<eLabel text="Software Update" position="8,803" size="1920,300" font="Regular;150" noWrap="0" backgroundColor="header" transparent="1" foregroundColor="white" valign="bottom" zPosition="-50" />
-		<widget name="activity" position="70,180" size="1150,30" backgroundColor="header" foregroundGradient="white,ltbluette,horizontal" borderWidth="1" borderColor="ltbluette" cornerRadius="20" transparent="1" />
+		<widget name="activity" position="70,180" size="1150,30" backgroundColor="header" foregroundColor="white,ltbluette,horizontal" borderWidth="1" borderColor="ltbluette" cornerRadius="20" transparent="1" />
 		<widget name="update" position="70,240" size="1150,639" font="Regular;30" backgroundColor="header" foregroundColor="white" scrollbarRadius="5" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" />
 	</screen>
@@ -919,7 +919,7 @@
 		<widget name="package_text" position="70,173" size="375,53" zPosition="1" foregroundColor="ltbluette" font="Regular;36" halign="left" backgroundColor="header" transparent="1" />
 		<widget name="package_count" position="380,173" size="75,53" zPosition="1" foregroundColor="yellow" font="Regular;36" halign="left" backgroundColor="header" transparent="1" />
 		<widget name="feedmessage" position="1215,578" size="623,330" font="Regular;30" foregroundColor="white" halign="center" backgroundColor="header" valign="center" transparent="1" />
-		<widget name="activity" position="70,240" size="465,10" backgroundColor="header" foregroundGradient="white,ltbluette,horizontal" borderWidth="1" borderColor="ltbluette" cornerRadius="20" />
+		<widget name="activity" position="70,240" size="465,10" backgroundColor="header" foregroundColor="white,ltbluette,horizontal" borderWidth="1" borderColor="ltbluette" cornerRadius="20" />
 		<widget source="list" render="Listbox" position="70,250" size="1160,624" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -2049,7 +2049,7 @@
 		<eLabel position="0,0" size="890,85" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
 		<eLabel position="2,2" size="886,80" backgroundColor="#000000" cornerRadius="10" zPosition="-1" />
 		<ePixmap position="20,15" size="75,54" pixmap="oDreamy-FHD/skin_default/vol.png" alphatest="blend" transparent="1" zPosition="20" />
-		<widget name="Volume" position="125,33" size="653,18" backgroundColor="header" foregroundGradient="ltbluette,ltbluette,horizontal" cornerRadius="20" borderWidth="2" borderColor="ltbluette" zPosition="33" />
+		<widget name="Volume" position="125,33" size="653,18" backgroundColor="header" foregroundColor="ltbluette,ltbluette,horizontal" cornerRadius="20" borderWidth="2" borderColor="ltbluette" zPosition="33" />
 		<widget name="VolumeText" position="805,25" size="60,30" font="Regular;32" backgroundColor="background" foregroundColor="ltbluette" halign="center" valign="center" transparent="1" zPosition="20" />
 	</screen>
 	<!-- Unhandled key FHD -->
@@ -2249,8 +2249,8 @@
 		<panel name="Ex" />
 		<widget name="config" position="70,180" size="1165,720" font="Regular;30" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" zPosition="5" />
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
-		<widget name="description" position="1290,560" size="550,420" font="Regular;30" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="footnote" position="1290,460" size="550,420" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="description" position="1290,560" size="550,420" font="Regular;30" halign="center" valign="top" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" conditional="description" />
+		<widget name="footnote" position="1290,460" size="550,420" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" conditional="footnote" />
 		<widget source="current_address" render="Label" conditional="current_address" position="1290,460" size="550,420" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget source="fixed_address" render="Label" conditional="fixed_address" position="1290,500" size="550,420" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1"/>
 		<widget source="VKeyIcon" render="Pixmap" pixmap="oDreamy-FHD/buttons/key_text.png" position="1380,1005" zPosition="1" size="80,35" transparent="1" alphatest="blend">
@@ -3747,7 +3747,7 @@
 		<widget name="quickselect" position="75,120" size="1140,788" backgroundColor="header" foregroundColor="ltbluette" font="Regular;150" halign="center" transparent="1" valign="center" zPosition="5" />
 	</screen>
 	<screen name="Processing" title="Processing" position="center,center" size="900,90" backgroundColor="header" flags="wfNoBorder" zPosition="+99">
-		<widget name="progress" position="0,0" size="e,25" borderWidth="1" borderColor="white" backgroundColor="header" foregroundGradient="bluette,ltbluette,horizontal" cornerRadius="10" />
+		<widget name="progress" position="0,0" size="e,25" borderWidth="1" borderColor="white" backgroundColor="header" foregroundColor="bluette,ltbluette,horizontal" cornerRadius="10" />
 		<widget name="description" position="0,35" size="e,35" foregroundColor="ltbluette" font="Regular;25" halign="center" />
 	</screen>
 	<!-- Download Addons FHD -->

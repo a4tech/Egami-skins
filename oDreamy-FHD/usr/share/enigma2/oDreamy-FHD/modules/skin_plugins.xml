@@ -2547,6 +2547,7 @@
 		<eLabel backgroundColor="blue" position="113,966" size="1695,2" zPosition="0" />
 		<eLabel backgroundColor="blue" position="113,113" size="2,855" zPosition="0" />
 		<eLabel backgroundColor="blue" position="1806,113" size="2,855" zPosition="0" />
+		<widget name="footnote" position="0,0" size="0,0" conditional="footnote"/>
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="505,885" size="30,30" alphatest="blend" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="779,885" size="30,30" alphatest="blend" />
