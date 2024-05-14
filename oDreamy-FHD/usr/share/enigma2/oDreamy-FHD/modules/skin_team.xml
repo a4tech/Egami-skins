@@ -4171,17 +4171,6 @@
 		<panel name="p800_DateMid" />
 		<widget name="text" position="70,180" size="820,600" font="Regular;36" zPosition="3" backgroundColor="header" transparent="1" />
 	</screen>
-	<!-- Default Wizard FHD -->
-	<screen name="SoftwareUpdateChoices" title="Software Update..." position="fill" size="800,400" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
-		<panel name="p800_Logo" />
-		<panel name="p800_DateMid" />
-		<widget name="text" position="70,180" size="820,50" font="Regular;40" foregroundColor="ltbluette" backgroundColor="header" halign="center" transparent="0" />
-		<eLabel position="70,260" size="820,1" backgroundColor="#303030" zPosition="1" />
-		<widget name="list" position="70,300" size="820,400" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" zPosition="3" transparent="1" />
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
-		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
-	</screen>
 	<!-- Skin Selector FHD -->
 	<screen name="SkinSelector" title="Skin Selector" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
@@ -4943,6 +4932,17 @@
 	<screen name="SoftwareUpdateChoices" title="Software Update..." position="center,center" size="650,340">
 		<widget name="list" position="10,10" size="630,160" itemHeight="40" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="0" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" />
 		<widget name="text" position="10,210" size="630,100" font="Regular;30" foregroundColor="white" backgroundColor="header" halign="center" transparent="0" />
+	</screen>
+	<!-- Default Wizard FHD -->
+	<screen name="SoftwareUpdateChoices" title="Software Update..." position="fill" size="800,400" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template" />
+		<panel name="p800_Logo" />
+		<panel name="p800_DateMid" />
+		<widget name="text" position="70,180" size="820,50" font="Regular;40" foregroundColor="ltbluette" backgroundColor="header" halign="center" transparent="0" />
+		<eLabel position="70,260" size="820,1" backgroundColor="#303030" zPosition="1" />
+		<widget name="list" position="70,300" size="820,400" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" zPosition="3" transparent="1" />
+		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/plugin_selection.png" alphatest="blend" />
+		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 	<!-- CleanupWizard FHD -->
 	<screen name="CleanupWizard" title="Cleanup Wizard..." position="fill" backgroundColor="transparent" flags="wfNoBorder">
