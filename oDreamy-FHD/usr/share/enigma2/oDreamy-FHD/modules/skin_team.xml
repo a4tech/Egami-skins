@@ -515,7 +515,7 @@
 		<widget name="label2" position="70,240" size="820,40" zPosition="1" halign="center" font="Regular;30" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="label3" position="70,300" size="820,40" zPosition="1" halign="center" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" />
 		<eLabel position="70,340" size="820,1" backgroundColor="#10303030" zPosition="2" />
-		<widget name="list" position="70,360" size="820,495" font="Regular;30" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
+		<widget name="list" position="70,360" size="820,495" font="Regular;30" horizontalAlignment="center" verticalAlignment="center" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/backup.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
 	<!--  EGAMI Backup Panel Step 2 FHD -->
