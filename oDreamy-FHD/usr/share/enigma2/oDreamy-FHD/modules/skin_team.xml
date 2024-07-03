@@ -3229,7 +3229,7 @@
 	</screen>
 	<!-- WirelessLan Scan FHD -->
 	<screen name="WlanScan" title="Choose a Wireless Network" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<panel name="p800_Template" />
+		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<widget source="info" render="Label" position="70,180" size="1220,50" font="Regular;40" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
