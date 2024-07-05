@@ -1,4 +1,11 @@
 <skin>
+	<!-- QuickSubtitles FHD -->
+	<screen name="QuickSubtitlesConfigMenu" position="center,center" size="1010,350" title="Subtitle settings" backgroundColor="transparent" flags="wfNoBorder">
+		<eLabel position="0,0" size="1010,350" zPosition="-11" backgroundColor="header" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
+		<widget name="config" position="5,5" size="1000,350" itemHeight="35" font="Regular;28" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="header" foregroundColor="white" backgroundColorSelected="bluette" transparent="1" />
+		<widget name="videofps" position="5,300" size="1000,50" backgroundColor="header" transparent="1" zPosition="1" font="Regular;28" valign="center" halign="center" foregroundColor="#404040"/>
+	</screen>
 	<!-- NetWork Inadyn Log FHD -->
 	<screen name="NetworkInadynLog" title="Inadyn Log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
