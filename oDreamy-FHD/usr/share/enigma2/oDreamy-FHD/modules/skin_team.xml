@@ -3020,7 +3020,7 @@
 		<widget name="bus" position="70,290" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" />
 		<widget name="initializetext" position="120,988" size="300,28" font="Regular;30" backgroundColor="header" transparent="1" zPosition="1" />
-		<widget name="initialize" position="120,988" size="300,28" font="Regular;30" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="initialize" position="120,988" size="300,28" backgroundColor="header" transparent="1" zPosition="1" />
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/ico_storage.png" alphatest="blend" />
 	</screen>
 	<!-- Network Browser FHD -->
