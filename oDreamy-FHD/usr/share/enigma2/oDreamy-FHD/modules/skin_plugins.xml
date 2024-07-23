@@ -1,5 +1,11 @@
 <skin>
-
+	<!-- LCNScannerPlugin -->
+	<screen name="LCNScannerPlugin" position="fill" title="LCN Scanner" flags="wfNoBorder" backgroundColor="transparent" >
+		<panel name="p800_Template_notime"/>
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
+		<widget name="config" position="70,180" font="Regular;30" itemHeight="40" valign="center" size="1170,720" backgroundColorSelected="bluette" itemCornerRadius="12" backgroundColor="bluette" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
+	</screen>
 	<screen name="satellitesConfigScreen" position="0,0" size="1920,1080" title="Satellite positions" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template_notime"/>
 		<panel name="p800_DateMid"/>
