@@ -4356,11 +4356,11 @@
 			<convert type="ValueRange">2,2</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget name="network" position="220,180" size="600,50" valign="center" zPosition="2" font="Regular;38" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="transponder" position="220,230" size="600,80" valign="center" zPosition="2" font="Regular;34" backgroundColor="header" transparent="1" />
+		<widget name="network" position="220,150" size="600,80" valign="center" zPosition="2" font="Regular;30" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
+		<widget name="transponder" position="220,230" size="600,80" valign="center" zPosition="2" font="Regular;30" backgroundColor="header" transparent="1" />
 		<widget name="pass" position="70,320" size="750,50" valign="center" font="Regular;32" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<widget name="scan_state" position="70,370" size="750,90" valign="center" zPosition="2" font="Regular;34" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="scan_progress" position="70,460" size="820,35" borderWidth="2" borderColor="#cccccc" foregroundColor="ltbluette" />
+		<widget name="scan_progress" position="70,460" size="820,35" foregroundColor="grey,bluette,ltbluette,horizontal" cornerRadius="15" />
 		<widget name="servicelist" position="70,530" size="820,365" selection="1" font="Regular;32" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="1" />
 	</screen>
 	<!-- Satfinder FHD -->
