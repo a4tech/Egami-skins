@@ -175,13 +175,16 @@
 			<convert type="ServiceInfo">IsStream</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<ePixmap pixmap="oDreamy-FHD/icons/resolution.png" position="790,1045" size="120,30" alphatest="blend" zPosition="2" />
+		<!--<ePixmap pixmap="oDreamy-FHD/icons/resolution.png" position="790,1045" size="120,30" alphatest="blend" zPosition="2" />
 		<widget source="session.CurrentService" render="Label" position="770,1045" size="70,29" font="Regular;20" halign="right" valign="center" backgroundColor="#000000" foregroundColor="white" transparent="1">
 			<convert type="ServiceInfo">VideoWidth</convert>
 		</widget>
 		<eLabel text="x" position="843,1044" size="16,29" font="Regular;20" halign="center" valign="center" backgroundColor="#000000" foregroundColor="white" transparent="1" zPosition="1" />
 		<widget source="session.CurrentService" render="Label" position="860,1045" size="70,29" font="Regular;20" halign="left" valign="center" backgroundColor="#000000" foregroundColor="white" transparent="1" zPosition="1">
 			<convert type="ServiceInfo">VideoHeight</convert>
+		</widget>-->
+		<widget source="session.CurrentService" render="Label" position="693,1045" size="220,29" font="Regular;25" halign="right" valign="center" backgroundColor="#000000" foregroundColor="white" transparent="1" zPosition="1">
+			<convert type="EGServiceInfo">VideoInfo</convert>
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/480.png" position="922,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
 			<convert type="ServiceInfo">VideoWidth</convert>
