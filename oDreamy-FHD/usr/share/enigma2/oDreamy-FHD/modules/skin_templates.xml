@@ -297,7 +297,7 @@
 		scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
 			backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" selectionZoom="4">
 				<templates>
-					<template name="Default" fonts="Regular;35,Regular;35,Regular;35" itemWidth="650" itemHeight="60">
+					<template name="Default" fonts="Regular;34,Regular;34,Regular;34" itemWidth="650" itemHeight="60">
 						<mode name="default">
 							<text index="0" position="30,0" size="650,60" font="0" verticalAlignment="center" horizontalAlignment="left" />
 						</mode>
@@ -309,11 +309,11 @@
 							<text index="3" position="80,2" size="650,60" font="1" verticalAlignment="center" horizontalAlignment="left"/>
 						</mode>
 						<mode name="image">
-							<pixmap index="1" position="25,2" size="56,56" alpha="blend" scale="centerScaled"/>
+							<pixmap index="1" position="25,2" size="54,54" alpha="blend" scale="centerScaled"/>
 							<text index="3" position="113,0" size="650,60" font="1" verticalAlignment="center" horizontalAlignment="left"/>
 						</mode>
 						<mode name="both">
-							<pixmap index="1" position="25,2" size="56,56" alpha="blend" scale="centerScaled"/>
+							<pixmap index="1" position="25,2" size="54,54" alpha="blend" scale="centerScaled"/>
 							<text index="2" position="95,0" size="40,60" font="2" verticalAlignment="center" horizontalAlignment="center"/>
 							<text index="3" position="150,2" size="650,60" font="2" verticalAlignment="center" horizontalAlignment="left"/>
 						</mode>
