@@ -3757,6 +3757,7 @@
 		<widget name="quickselect" position="75,120" size="1140,788" backgroundColor="header" foregroundColor="ltbluette" font="Regular;150" halign="center" transparent="1" valign="center" zPosition="5" />
 	</screen>
 	<screen name="Processing" title="Processing" position="center,center" size="900,90" backgroundColor="header" flags="wfNoBorder" zPosition="+99">
+		<eRectangle position="0,0" size="e,e" borderColor="ltbluette" backgroundColor="header" borderWidth="1" zPosition="-10" />
 		<widget name="progress" position="0,0" size="e,25" borderWidth="1" borderColor="white" backgroundColor="header" foregroundColor="bluette,ltbluette,horizontal" cornerRadius="10" />
 		<widget name="description" position="0,35" size="e,35" foregroundColor="ltbluette" font="Regular;25" halign="center" />
 	</screen>
@@ -5010,7 +5011,7 @@
 		<applet type="onLayoutFinish">
 # this should be factored out into some helper code,but currently demonstrates applets.
 from __future__ import division
-from enigma import eSize, ePoint, getDesktop
+from enigma import eSize, ePoint, getDesktop, eRectangle
 
 offset_listposx = 15
 offset_listposy = 135
@@ -5088,11 +5089,19 @@ if self.list:
 newwidth = wsize[0]
 newheight = wsize[1]
 self.instance.move(ePoint(int(deskwidth - newwidth)//2,int(deskheight - newheight)//2))
+for x in self.additionalWidgets:
+	if isinstance(x.instance, eRectangle):
+		x.instance.resize(eSize(*wsize))
 		</applet>
 	</screen>
 
 	<!-- MessageBox FHD -->
 	<screen name="MessageBox" position="360,240" size="1200,600" zPosition="10" title="Message" flags="wfNoBorder" backgroundColor="header">
+		<panel name="MessageBox-template" />
+	</screen>
+	<!-- MessageBoxModal FHD -->
+	<screen name="MessageBoxModal" position="360,240" size="1200,600" zPosition="+99" title="Message" flags="wfNoBorder" backgroundColor="header">
+		<eRectangle position="0,0" size="e,e" borderColor="ltbluette" backgroundColor="header" borderWidth="1" zPosition="-10" />
 		<panel name="MessageBox-template" />
 	</screen>
 	<!-- MessageBoxSimple FHD -->
