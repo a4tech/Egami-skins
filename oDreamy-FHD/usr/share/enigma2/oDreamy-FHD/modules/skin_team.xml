@@ -3697,7 +3697,6 @@
 			</convert>
 		</widget>
 		<widget name="quickselect" position="75,120" size="1140,788" backgroundColor="header" foregroundColor="#00FFFFFF" font="Regular;150" halign="center" transparent="1" valign="center" zPosition="5" />
-		<widget name="background" position="0,0" size="1920,1080" zPosition="-2" alphatest="off" conditional="background" />
 	</screen>
 	<!-- PluginActionLog FHD -->
 	<screen name="PluginActionLog" title="Plugin Action Log" position="fill" backgroundColor="transparent" flags="wfNoBorder">
@@ -3724,7 +3723,6 @@
 			</convert>
 		</widget>
 		<widget name="description" position="50,105" size="0,0" font="Regular;40" transparent="1" zPosition="5" backgroundColor="header" foregroundColor="#00ffc000" valign="center"/>
-		<widget name="background" position="0,0" size="1920,1080" zPosition="-2" alphatest="off" conditional="background" />
 		<widget name="quickselect" position="50,80" size="760,525" backgroundColor="header" foregroundColor="#00ffffff" font="Regular;100" halign="center" transparent="1" valign="center" zPosition="+1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,545" size="256,256" zPosition="2" alphatest="blend" />
 		<widget source="key_menu" render="Label" position="1015,860" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="#00ffffff" halign="center" valign="center">
