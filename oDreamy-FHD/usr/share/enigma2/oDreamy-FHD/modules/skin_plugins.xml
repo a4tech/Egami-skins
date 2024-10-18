@@ -4602,7 +4602,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/peripheric.png" alphatest="blend" />
 	</screen>
 
-	<screen name="Seekbar" position="0,930" size="1920,150" backgroundColor="transparent" flags="wfNoBorder" zPosition="2" >
+	<screen name="Seekbar" position="0,930" size="1920,150" backgroundColor="header" flags="wfNoBorder" zPosition="2" >
 		<widget name="time" position="0,40" size="1920,90" font="Regular;40" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget source="session.CurrentService" render="Label" position="0,40" size="180,90" font="Regular;40" halign="center" valign="center" foregroundColor="white" backgroundColor="header" zPosition="9">
 			<convert type="ServicePosition">Position</convert>
@@ -4610,13 +4610,10 @@
 		<widget source="session.CurrentService" render="Label" position="1740,40" size="180,90" font="Regular;40" halign="center" valign="center" foregroundColor="white" backgroundColor="header" zPosition="9">
 			<convert type="ServicePosition">Length</convert>
 		</widget>
-		<widget name="cursor" position="0,60" size="0,0" pixmap="epg/timeline-now_z.png" alphatest="blend" zPosition="6" />
+		<widget name="cursor" position="0,60" size="0,0" pixmap="oDreamy-FHD/epg/timeline-now.png" alphatest="blend" zPosition="6" />
 		<widget source="session.CurrentService" render="Progress" position="190,60" size="1720,50" foregroundColor="bluette" transparent="1" zPosition="2" >
 			<convert type="ServicePosition">Position</convert>
 		</widget>
-		<eLabel name="new eLabel" position="152,189" size="270,1" backgroundColor="#404040" zPosition="1" />
-		<eLabel name="new eLabel" position="70,0" size="1780,59" backgroundColor="header" zPosition="-1" />
-		<eLabel name="new eLabel" position="0,0" size="20,59" backgroundColor="header" zPosition="7" />
 	</screen>
 
 	<screen name="InfoBarEventView" position="center,center" size="1280,500" backgroundColor="header" flags="wfNoBorder" zPosition="1">
