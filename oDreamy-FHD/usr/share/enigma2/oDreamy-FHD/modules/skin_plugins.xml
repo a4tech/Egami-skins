@@ -1,4 +1,45 @@
 <skin>
+	<!--  M3UIPTVVoDMovies -->
+	<screen name="M3UIPTVVoDMovies" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template" />
+		<panel name="p800_Date" />
+		<panel name="p800_Ext_BiN" />
+		<panel name="s_RGYB" />
+		<panel name="Ex"/>
+		<widget source="list" render="Listbox" position="70,180" size="1160,715" zPosition="3" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
+			<convert type="TemplatedMultiContent" transparent="0">
+				{"template": [
+					MultiContentEntryText(pos=(15,6), size=(1080,44), flags=RT_HALIGN_LEFT, text=1),
+					],
+					"fonts": [gFont("Regular", 34)],
+					"itemHeight": 55
+				}
+			</convert>
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/menu/info_screen.png" position="1440,180" size="256,256" zPosition="2" alphatest="blend" />
+		<widget source="description" render="Label" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+	</screen>
+	<!--  M3UIPTVVoDMovies -->
+	<screen name="M3UIPTVManagerConfig" position="fill" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template" />
+		<panel name="p800_Date" />
+		<panel name="p800_Ext_BiN" />
+		<panel name="s_RGYB" />
+		<panel name="I" />
+		<widget source="list" render="Listbox" position="70,180" size="1160,715" zPosition="3" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
+			<convert type="TemplatedMultiContent" transparent="0">
+				{"template": [
+					MultiContentEntryText(pos=(15,6), size=(1080,44), flags=RT_HALIGN_LEFT, text = 1),
+					],
+					"fonts": [gFont("Regular", 34)],
+					"itemHeight": 55
+				}
+			</convert>
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/menu/info_screen.png" position="1440,180" size="256,256" zPosition="2" alphatest="blend" />
+		<widget source="description" render="Label" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget source="progress" render="Progress" position="1260,900" size="610,6" backgroundColor="header" foregroundColor="ltbluette" zPosition="11" borderWidth="0" borderColor="white" cornerRadius="%d10"/>
+	</screen>
 	<!-- LCNScannerPlugin -->
 	<screen name="LCNScannerPlugin" position="fill" title="LCN Scanner" flags="wfNoBorder" backgroundColor="transparent" >
 		<panel name="p800_Template_notime"/>
