@@ -1,0 +1,37 @@
+<templates>
+<template component="serviceList" name="Grid" screens="ChannelSelectionGrid" fonts="Regular;28,Regular;23,Regular;20,Regular;12">
+		<mode name="services" itemWidth="1920" itemHeight="45" foregroundColorSelected="yellow" foregroundColor="white" backgroundColor="header" backgroundColorSelected="header">
+			<pixmap index="Picon" position="6,4" size="100,60" alpha="blend" scale="centerScaled"/>
+			<text index="ServiceName" position="85,0" size="350,45" autoFit="Title1" font="0" verticalAlignment="center" wrap="noWrap" serviceNotAvailColor="#00555555" recordColor="red" pseudoColor="grey" streamColor="ltbluette"/>
+			<text index="Title1" position="445,0" size="380,45" font="1" verticalAlignment="center" wrap="noWrap" foregroundColor="grey" foregroundColorSelected="white" />
+			<progress index="Progress" position="e-115,16" size="90,6" borderWidth="1" borderColor="white" foregroundColor="ltbluette" />
+		</mode>
+		<mode name="other" itemWidth="1920" itemHeight="45" foregroundColorSelected="yellow" foregroundColor="white">
+			<panel position="5,0" size="e-30,45" layout="horizontal" spacing="15">
+				<pixmap index="MarkerImage" position="30,7" size="40,25" alpha="blend" scale="centerScaled"/>
+				<pixmap index="FolderImage" position="5,9" size="40,25" alpha="blend" scale="centerScaled"/>
+				<text index="EntryName" position="left" size="e-30,45" font="0" verticalAlignment="center" />
+				<text index="MarkerName" position="left" size="e-30,45" foregroundColor="green" font="0" verticalAlignment="center" />
+			</panel>
+		</mode>
+		<mode name="bouquets" itemWidth="212" itemHeight="252" orientation="grid" foregroundColorSelected="yellow" foregroundColor="white" transparent="1">
+			<panel position="8,10" size="195,45" layout="horizontal" spacing="5">
+				<text index="Number" position="left" size="50,45" font="1" horizontalAlignment="right" verticalAlignment="center" />
+				<pixmap index="Picon" position="center,2" size="100,60" alpha="blend" scale="centerScaled"/>
+				<pixmap index="CryptoImage" position="left,7" size="30,10" alpha="blend" scale="centerScaled"/>
+				<pixmap index="ServiceTypeImage" position="left,1" size="30,10" alpha="blend" scale="centerScaled"/>
+				<pixmap index="RecordingIndicator" position="left,1" size="20,20" alpha="blend" scale="centerScaled"/>
+				<pixmap index="MarkerImage" position="left" size="30,25" alpha="blend" scale="centerScaled"/>
+				<pixmap index="FolderImage" position="left" size="40,25" alpha="blend" scale="centerScaled"/>
+			</panel>
+			<text index="ServiceName" position="5,65" size="200,45" font="1" horizontalAlignment="center" verticalAlignment="center" wrap="noWrap" serviceNotAvailColor="#00555555" recordColor="red" pseudoColor="grey" streamColor="ltbluette"/>
+			<progress index="Progress" position="20,110" size="160,8" borderWidth="1" borderColor="white" foregroundColor="ltbluette" />
+			<text index="MarkerName" position="25,65" size="160,45" foregroundColor="green" font="0" verticalAlignment="center" wrap="noWrap" />
+			<panel position="10,135" size="190,125" layout="vertical" spacing="5">
+				<text index="Title1" position="top" size="190,25" font="2" wrap="noWrap" foregroundColor="ltbluette" foregroundColorSelected="yellow" />
+				<text index="Title2" position="top" size="190,25" font="2" wrap="noWrap" foregroundColor="white" foregroundColorSelected="yellow" />
+				<text index="Title3" position="top" size="190,25" font="2" wrap="noWrap" foregroundColor="grey" foregroundColorSelected="yellow" />
+			</panel>
+		</mode>
+	</template>
+</templates>
