@@ -4913,6 +4913,27 @@
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/audio.png" alphatest="blend" />
 	</screen>
 
+	<!-- ********** DmmBlindscanState FHD ********** P078 -->
+	<screen name="DmmBlindscanState" position="fill" title="Satellite Blindscan" backgroundColor="transparent" flags="wfNoBorder">
+		<panel name="p800_Template_notime" />
+		<panel name="p800_Logo" />
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
+		<widget name="text" position="70,180" size="820,40" font="Regular;32" backgroundColor="header" transparent="1" />
+		<widget source="constellation" render="Canvas" position="700,180" size="100,100" correct_aspect="width" />
+		<widget name="progress" position="70,250" size="820,40" font="Regular;30" backgroundColor="header" transparent="1" />
+		<widget source="list" render="Listbox" position="70,300" size="820,480" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1">
+			<convert type="TemplatedMultiContent">
+				{"template": [ MultiContentEntryText(pos = (0, 0), size = (375, 30), flags = RT_HALIGN_LEFT, text = 0) ],
+					"fonts": [gFont("Regular", 26)],
+					"itemHeight": 30
+				}
+			</convert>
+		</widget>
+		<widget name="post_action" position="70,800" size="820,100" halign="center" valign="center" font="Regular;30" backgroundColor="header" transparent="1" />
+		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/scansat.png" alphatest="blend" />
+	</screen>
+
 	<!-- ********** SatBlindScan State FHD ********** P078 -->
 	<screen name="SatBlindscanState" position="fill" title="Satellite Blindscan" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
