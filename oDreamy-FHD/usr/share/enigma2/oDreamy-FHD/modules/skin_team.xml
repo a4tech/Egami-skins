@@ -144,16 +144,16 @@
 		<panel name="p800_Date" />
 		<panel name="Ex" />
 		<panel name="s_RGYB" />
-		<widget source="devicelist" render="Listbox" position="70,180" size="1160,720" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12">
+		<widget source="devicelist" render="Listbox" position="70,180" size="1160,720" font="Regular;30" backgroundColor="header" enableWrapAround="1" transparent="1" backgroundColorSelected="bluette" itemCornerRadius="12">
 			<templates>
-				<template name="Default" fonts="Regular;32,Regular;30" itemHeight="35">
+				<template name="Default" fonts="Regular;30,Regular;30" itemHeight="53">
 					<mode name="default">
-						<text index="Device" position="34,0" size="420,35" font="0" />
-						<text index="DeviceIndent" position="52,0" size="220,35" font="0" />
-						<text index="Description" position="400,0" size="450,35" font="0" verticalAlignment="top" horizontalAlignment="left" />
-						<text index="Size" position="940,0" size="200,33" font="0" verticalAlignment="top" horizontalAlignment="right" />
-						<text index="PartitionSeparator" position="6,6" size="30,30" font="1" verticalAlignment="center" />
-						<pixmap index="Image" position="0,0" size="30,30" alpha="blend" scale="centerScaled" />
+						<text index="Device" position="80,9" size="280,48" font="0" />
+						<text index="DeviceIndent" position="135,9" size="330,48" font="0" />
+						<text index="Description" position="360,9" size="700,48" font="0" verticalAlignment="top" horizontalAlignment="left" />
+						<text index="Size" position="940,9" size="200,48" font="0" verticalAlignment="top" horizontalAlignment="right" />
+						<text index="PartitionSeparator" position="12,12" size="48,48" font="1" verticalAlignment="center" />
+						<pixmap index="Image" position="20,4" size="44,44" alpha="blend" scale="centerScaled" />
 					</mode>
 				</template>
 			</templates>
