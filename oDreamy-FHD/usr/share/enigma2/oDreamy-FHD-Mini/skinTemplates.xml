@@ -7,7 +7,7 @@
 				<pixmap index="IsInBouquetImage" position="left,2" size="30,30" alpha="blend" scale="centerScaled"/>
 				<text index="ServiceName" position="left,0" size="225,38" autoFit="Title1" font="1" verticalAlignment="top" wrap="noWrap" serviceNotAvailColor="#00555555" recordColor="red" pseudoColor="grey" streamColor="ltbluette"/>
 				<text index="Title1" position="left,0" size="570,38" font="1" verticalAlignment="center" wrap="noWrap" foregroundColorSelected="white" foregroundColor="ltbluette" />
-				<progress index="Progress" position="right,15" size="50,10" borderWidth="1" foregroundColor="ltbluette" />
+				<progress index="Progress" position="right,15" size="50,10" borderWidth="1" borderColor="white" foregroundColor="ltbluette" />
 			</panel>
 		</mode>
 		<mode name="other" itemHeight="43" foregroundColorSelected="yellow" foregroundColor="white" backgroundColorSelected="bluette">
@@ -30,7 +30,7 @@
 				<text index="ServiceName" position="left" size="225,38" autoFit="Title1" font="1" verticalAlignment="center" wrap="noWrap" serviceNotAvailColor="#00555555" recordColor="red" pseudoColor="grey" streamColor="ltbluette"/>
 				<text index="MarkerName" position="left" size="e-45,38" foregroundColor="white" font="1" verticalAlignment="center" wrap="noWrap" />
 				<text index="Title1" position="left" size="375,38" font="1" autoGrow="1" verticalAlignment="center" wrap="noWrap" foregroundColorSelected="white" foregroundColor="ltbluette" />
-				<progress index="Progress" position="right,15" size="50,10" borderWidth="1" foregroundColor="ltbluette" />
+				<progress index="Progress" position="right,15" size="50,10" borderWidth="1" borderColor="white" foregroundColor="ltbluette" />
 			</panel>
 		</mode>
 	</template>
@@ -69,15 +69,15 @@
 			</panel>
 		</mode>
 	</template>
-	<template component="serviceList" name="2 Lines" screens="ChannelSelectionDefault" fonts="Regular;28,Regular;28,Regular;30,Regular;30">
+	<template component="serviceList" name="2 Lines" screens="ChannelSelectionDefault" fonts="Regular;28,Regular;22,Regular;30,Regular;30">
 		<mode name="services" itemHeight="70" foregroundColorSelected="yellow" foregroundColor="white" >
 			<panel position="10,0" size="e-54,50" layout="horizontal" spacing="10">
 				<pixmap index="Picon" position="left,5" size="58,40" alpha="blend" scale="centerScaled"/>
-				<text index="Number" position="left" size="60,70" font="1" horizontalAlignment="right" verticalAlignment="center" />
+				<text index="Number" position="left" size="60,70" font="0" horizontalAlignment="right" verticalAlignment="center" />
 				<pixmap index="IsInBouquetImage" position="left,13" size="24,24" alpha="blend" scale="centerScaled"/>
 				<text index="ServiceName" position="left" size="500,50" autoFit="Title1" font="3" verticalAlignment="center" wrap="noWrap" />
-				<text index="Title1" position="left" size="250,50" font="1" autoGrow="1" verticalAlignment="center" wrap="noWrap" foregroundColorSelected="white" foregroundColor="white"/>
-				<progress index="Progress" position="right,28" size="50,10" borderWidth="1" foregroundColor="ltbluette" />
+				<text index="Title1" position="left" size="250,50" font="0" autoGrow="1" verticalAlignment="center" wrap="noWrap" foregroundColorSelected="white" foregroundColor="white"/>
+				<progress index="Progress" position="right,40" size="50,10" borderWidth="1" borderColor="white" foregroundColor="ltbluette" />
 			</panel>
 		</mode>
 		<mode name="other" itemWidth="1920" itemHeight="45" foregroundColorSelected="yellow" foregroundColor="white">
@@ -99,10 +99,11 @@
 					<pixmap index="ServiceTypeImage" position="14,16" size="24,24" alpha="blend" scale="centerScaled"/>
 				</panel>
 				<panel position="left" size="250,50">
-					<text index="ServiceName" position="15,3" size="740,25" font="0" verticalAlignment="center" wrap="noWrap" />
+					<text index="ServiceName" position="15,3" size="740,25" font="3" verticalAlignment="center" wrap="noWrap" />
+					<text index="StartEndTime1" position="710,5" foregroundColor="grey" size="400,25" font="1" verticalAlignment="center" wrap="noWrap" />
 					<text index="Title1" position="15,32" size="740,30" font="2" verticalAlignment="center" wrap="noWrap" foregroundColorSelected="white" foregroundColor="ltbluette"/>
 				</panel>
-				<progress index="Progress" position="right,28" size="50,10" borderWidth="1" borderColor="white" foregroundColor="ltbluette" />
+				<progress index="Progress" position="right,40" size="50,10" borderWidth="1" borderColor="white" foregroundColor="ltbluette" />
 			</panel>
 		</mode>
 	</template>
