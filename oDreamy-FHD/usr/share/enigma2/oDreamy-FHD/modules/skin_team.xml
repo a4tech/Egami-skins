@@ -1117,7 +1117,7 @@
 		<widget name="device_icon" position="70,350" size="80,80" alphatest="blend" />
 		<widget name="label2" position="160,360" size="820,40" halign="left" font="Regular;30" backgroundColor="#101010" foregroundColor="ltbluette" transparent="1" zPosition="1" />
 		<widget name="label6" position="160,400" size="820,40" halign="left" font="Regular;30" backgroundColor="#101010" foregroundColor="ltbluette" transparent="1" zPosition="1" />
-		<widget name="config" position="70,460" size="820,440" font="Regular;30" itemHeight="40" valign="center" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
+		<widget name="config" position="70,460" size="820,440" font="Regular;30" padding="10,0" itemHeight="40" valign="center" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" />
 		<ePixmap position="1440,180" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" transparent="1" />
 		<widget name="label3" position="1280,540" size="300,40" font="Regular;34" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="label7" position="1480,540" size="300,40" font="Regular;34" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
@@ -1139,9 +1139,9 @@
 		<widget source="list" render="Listbox" position="70,180" size="840,720" zPosition="3" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8">
 			<convert type="TemplatedMultiContent">
 				{"template": [
-					MultiContentEntryText(pos=(150,2), size=(690,35), font=0, color=0x3589ff, flags=RT_HALIGN_LEFT, text=0),
-					MultiContentEntryPixmapAlphaBlend(pos=(5,5), size=(140,70), png=1),
-					MultiContentEntryText(pos=(150,37), size=(690,32), font=1, flags = RT_VALIGN_TOP | RT_HALIGN_LEFT, text=3),
+					MultiContentEntryText(pos=(150,2), size=(690,35), font=0, color=0xFFFFFF, color_sel=0x00FFC000, flags=RT_HALIGN_LEFT, text=0),
+					MultiContentEntryPixmapAlphaBlend(pos=(10,5), size=(110,62), png=1, flags=BT_SCALE),
+					MultiContentEntryText(pos=(150,37), size=(690,32), font=1, color=0x3589ff, color_sel=0xFFFFFF, flags=RT_VALIGN_TOP | RT_HALIGN_LEFT, text=3),
 					],
 					"fonts": [gFont("Regular", 30),gFont("Regular", 28)],
 					"itemHeight": 72
@@ -1173,10 +1173,9 @@
 	<!--  EGAMI MultiBoot FHD -->
 	<screen name="EGAMIBootImageInstall" position="fill" title="EGAMIBoot - Image Installation" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template_notime" />
-		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget name="config" position="70,180" size="820,280" font="Regular;30" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" backgroundColor="#101010" transparent="1" />
+		<widget name="config" position="70,180" size="1170,280" font="Regular;30" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColorSelected="bluette" itemCornerRadius="12" backgroundColor="#101010" transparent="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap pixmap="oDreamy-FHD/menu/boot.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 	</screen>
