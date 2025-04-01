@@ -5163,7 +5163,7 @@
 	<!-- MSN Weather FHD -->
 	<screen name="MSNWeatherPlugin" position="0,0" size="1920,1080" title="MSN Weather" backgroundColor="#FF000000" flags="wfNoBorder">
 		<panel name="fakeExit" />
-		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/msn/meteo.jpg" zPosition="-1" />
+		<ePixmap position="0,0" size="1920,1080" pixmap="oDreamy-FHD/WeatherIcons/meteo.jpg" zPosition="-1" />
 		 <widget source="Title" render="Label" position="280,30" size="1600,90" font="Regular;44" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget render="Label" source="observationpoint" position="0,970" size="1920,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
 		<widget render="Label" source="observationtime" position="0,1010" size="1920,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
@@ -6097,7 +6097,7 @@
 
 	<!-- **********  Yahoo Weather ORIGINAL ********** P108 -->
 	<screen name="XYahooWeather" position="fill" title="Yahoo Weather" backgroundColor="white" flags="wfNoBorder" >
-		<ePixmap position="fill" pixmap="msn/meteo.jpg" zPosition="-1" />
+		<ePixmap position="fill" pixmap="oDreamy-FHD/WeatherIcons/meteo.jpg" zPosition="-1" />
 		<ePixmap position="60,35" size="121,70" pixmap="msn/yh.png" alphatest="blend" transparent="1" />
 		<widget source="Title" render="Label" position="200,20" size="900,95" font="Regular;45" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1" zPosition="1" />
 		<!-- Data Provider -->
@@ -6238,7 +6238,7 @@
 
 	<!-- **********  Yahoo Weather MODDED FHD ********** P108 -->
 	 <screen name="YahooWeather" position="fill" title="Yahoo Weather" backgroundColor="white" flags="wfNoBorder" >
-		<ePixmap position="fill" pixmap="oDreamy-FHD/msn/meteo.jpg" zPosition="-1" />
+		<ePixmap position="fill" pixmap="oDreamy-FHD/WeatherIcons/meteo.jpg" zPosition="-1" />
 		<ePixmap position="60,35" size="121,70" pixmap="msn/yh.png" alphatest="blend" transparent="1" />
 		<widget source="Title" render="Label" position="200,20" size="900,95" font="Regular;45" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1" zPosition="1" />
 		<!-- Data Provider -->
