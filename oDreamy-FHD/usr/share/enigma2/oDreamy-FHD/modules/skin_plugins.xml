@@ -5167,25 +5167,25 @@
 		 <widget source="Title" render="Label" position="280,30" size="1600,90" font="Regular;44" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget render="Label" source="observationpoint" position="0,970" size="1920,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
 		<widget render="Label" source="observationtime" position="0,1010" size="1920,40" font="Regular;30" halign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
-		<ePixmap position="60,30" size="194,75" pixmap="oDreamy-FHD/msn/msnlogo.png" alphatest="blend" zPosition="1" />
+		<ePixmap position="60,30" size="194,75" pixmap="oDreamy-FHD/WeatherIcons/msnlogo.png" alphatest="blend" zPosition="1" />
 		<widget source="session.MSNWeather" render="MSNWeatherPixmap" position="50,140" size="256,256" zPosition="1" transparent="1" alphatest="blend">
 			<convert type="MSNWeather">weathericon,current,/usr/share/enigma2/oDreamy-FHD/WeatherIcons/,png</convert>
 		</widget>
 		<widget source="caption" render="Label" position="320,180" size="700,50" font="Regular;40" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="condition" render="Label" position="320,235" size="700,50" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap position="70,420" size="40,80" pixmap="oDreamy-FHD/msn/temp.png" alphatest="blend" zPosition="1" />
+		<ePixmap position="70,420" size="40,80" pixmap="oDreamy-FHD/WeatherIcons/temp.png" alphatest="blend" zPosition="1" />
 		<widget source="currentTemp" render="Label" position="155,405" size="300,80" font="Regular;52" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="feelsliketemp" render="Label" position="160,465" size="300,80" font="Regular;28" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
-		<ePixmap position="450,420" size="28,75" pixmap="oDreamy-FHD/msn/temp_high_low.png" alphatest="blend" zPosition="1" />
+		<ePixmap position="450,420" size="28,75" pixmap="oDreamy-FHD/WeatherIcons/temp_high_low.png" alphatest="blend" zPosition="1" />
 		<widget source="session.MSNWeather" render="Label" position="515,417" size="200,40" font="Regular;34" foregroundColor="red" backgroundColor="header" transparent="1" zPosition="3" >
 			<convert type="MSNWeather">temperature_high,current</convert>
 		</widget>
 		<widget source="session.MSNWeather" render="Label" position="515,453" size="200,40" font="Regular;34" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="3" >
 			<convert type="MSNWeather">temperature_low,current</convert>
 		</widget>
-		<ePixmap position="70,550" size="70,70" pixmap="oDreamy-FHD/msn/wind.png" alphatest="blend" zPosition="1" />
+		<ePixmap position="70,550" size="70,70" pixmap="oDreamy-FHD/WeatherIcons/wind.png" alphatest="blend" zPosition="1" />
 		<widget source="wind_condition" render="Label" position="160,570" size="700,40" font="Regular;32" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
-			<ePixmap position="70,660" size="50,54" pixmap="oDreamy-FHD/msn/umbrella.png" alphatest="blend" zPosition="1" />
+			<ePixmap position="70,660" size="50,54" pixmap="oDreamy-FHD/WeatherIcons/umbrella.png" alphatest="blend" zPosition="1" />
 		<widget source="humidity" render="Label" position="160,680" size="600,45" font="Regular;32" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Day 2 /-->
 		<widget render="MSNWeatherPixmap" source="session.MSNWeather" position="1100,180" size="140,140" alphatest="blend" transparent="1" zPosition="1" >
