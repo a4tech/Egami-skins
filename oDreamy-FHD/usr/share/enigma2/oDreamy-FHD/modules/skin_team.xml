@@ -1859,6 +1859,9 @@
 		<widget source="session.CurrentService" render="Progress" position="255,975" size="1410,50" borderWidth="0" borderColor="#20202020" foregroundColor="bluette" transparent="1" zPosition="1">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
+		<widget source="session.CurrentService" render="PositionGauge" position="255,975" size="1410,50" zPosition="4" transparent="1">
+			<convert type="ServicePosition">Gauge</convert>
+		</widget>
 		<widget name="title" position="255,975" size="1410,50" font="Regular;34" halign="center" valign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="5" />
 		<eLabel position="1665,975" size="5,50" backgroundColor="#121212" zPosition="3" />
 		<widget source="session.CurrentService" render="Label" position="1670,975" size="190,50" font="Regular;40" halign="center" valign="center" noWrap="1" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="3">
@@ -1867,9 +1870,6 @@
 	</screen>
 	<!-- MediaCenter Audio PlayList FHD -->
 	<screen name="MoviePlayer" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder">
-		<widget source="session.CurrentService" render="PositionGauge" position="380,600" size="0,0" transparent="1" zPosition="0">
-			<convert type="ServicePosition">Gauge</convert>
-		</widget>
 		<panel name="Bottom" />
 		<widget source="session.CurrentService" position="20,341" size="280,437" render="EGPoster" zPosition="2" alphatest="blend" />
 		<ePixmap pixmap="oDreamy-FHD/icons/vpnoff.png" position="1275,1008" size="60,32" alphatest="blend" transparent="1" />
@@ -1901,7 +1901,7 @@
 		<widget position="370,933" render="Progress" size="1345,10" source="session.CurrentService" transparent="1" zPosition="3" foregroundColor="#000050ef">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
-		<widget source="session.CurrentService" render="PositionGauge" position="370,933" size="1345,10" zPosition="2" transparent="1">
+		<widget source="session.CurrentService" render="PositionGauge" position="370,923" size="1345,30" zPosition="4" transparent="1">
 			<convert type="ServicePosition">Gauge</convert>
 		</widget>
 		<widget font="Regular;30" halign="left" valign="center" position="1760,916" render="Label" size="140,40" source="session.CurrentService" transparent="1" backgroundColor="header">
