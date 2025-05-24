@@ -3106,6 +3106,7 @@
 		</widget>
 		<!-- Cover -->
 		<ePixmap position="1430,140" size="320,440" pixmap="oDreamy-FHD/box/mpnocover.png" zPosition="1" alphatest="blend" />
+		<widget source="Service" render="ODposter" position="1420,140" size="320,440" cornerRadius="15" zPosition="4" />
 		<widget name="Cover" position="1420,140" size="320,440" backgroundColor="white" alphatest="on" zPosition="4" />
 		<ePixmap position="1290,610" size="100,100" pixmap="oDreamy-FHD/icons/daytime.png" alphatest="blend" transparent="1" zPosition="1" />
 		<widget source="Service" render="Label" position="1385,620" size="450,40" font="Regular;32" halign="left" foregroundColor="white" backgroundColor="header" transparent="1">
