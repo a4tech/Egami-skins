@@ -79,14 +79,6 @@
 		</widget>
 	</screen>
 
-	<!-- FPS9 -->
-	<screen name="fps9">
-		<ePixmap pixmap="oDreamy-FHD/icons/stream-box-blue.png" position="760,1042" size="90,36" alphatest="blend" zPosition="2" />
-		<widget source="session.CurrentService" render="Label" position="740,1043" size="130,30" backgroundColor="header" transparent="1" zPosition="15" font="Regular;22" halign="center" valign="center" noWrap="1">
-			<convert type="EGBaseInfo">Fps</convert>
-		</widget>
-	</screen>
-
 	<!-- resolution9 -->
 	<screen name="resolution9">
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/480.png" position="1125,1040" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
@@ -139,88 +131,6 @@
 		</widget>
 	</screen>
 
-	<!-- color curve -->
-	<screen name="colorcurve9">
-		<!-- color curve -->
-		<ePixmap pixmap="oDreamy-FHD/icons/curve_off.png" position="980,1045" size="60,30" zPosition="4" alphatest="blend" transparent="1" />
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hdr.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">IsHDR</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hdr10.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">IsHDR10</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/sdr.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">IsSDR</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/hlg.png" position="980,1045" size="60,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">IsHLG</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-	</screen>
-	<!-- codec_info9 -->
-	<screen name="codec_info9">
-		<!-- codec info -->
-		<ePixmap pixmap="oDreamy-FHD/icons/codecs/codec_off.png" position="875,1045" size="84,30" zPosition="4" alphatest="blend" transparent="1" />
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/hevc.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasHEVC</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/avc.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasAVC</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/mpeg2.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasMPEG2</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/vc1.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasVC1</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/h.263.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasH263</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/vp8.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasVP8</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/vp9.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasVP9</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/vp6.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasVP6</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/divx.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasDIVX</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/xvid.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasXVID</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/spark.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasSPARK</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/mpeg1.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasMPEG1</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/mpeg4vc.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasMPEG4VC</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/codecs/avs.png" position="875,1045" size="84,30" zPosition="6" alphatest="blend" transparent="1">
-			<convert type="EGBaseInfo">HasAVS</convert>
-			<convert type="ConditionalShowHide" />
-		</widget>
-	</screen>
 	<!-- tuner_info9 -->
 	<screen name="tuner_info9" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<widget source="session.FrontendInfo" alphatest="blend" pixmap="oDreamy-FHD/icons/tunerA.png" position="1805,75" render="Pixmap" size="58,50" zPosition="4">
