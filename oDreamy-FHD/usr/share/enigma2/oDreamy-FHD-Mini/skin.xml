@@ -177,33 +177,23 @@
 			<convert type="EGTemp">Iplocal</convert>
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/480.png" position="1469,1025" render="Pixmap" size="78,39" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfo">VideoWidth</convert>
-			<convert type="ValueRange">0,480</convert>
+			<convert type="ServiceInfo">Is480</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/sd_on.png" position="1469,1025" render="Pixmap" size="78,39" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfo">VideoWidth</convert>
-			<convert type="ValueRange">481,576</convert>
-			<convert type="ConditionalShowHide"/>
-		</widget>
-		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/sd_on.png" position="1469,1025" render="Pixmap" size="78,39" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfo">VideoWidth</convert>
-			<convert type="ValueRange">577,719</convert>
+			<convert type="ServiceInfo">Is576</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/hd_on.png" position="1469,1025" render="Pixmap" size="78,39" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfo">VideoWidth</convert>
-			<convert type="ValueRange">720,1279</convert>
+			<convert type="ServiceInfo">Is720</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/fhd_on.png" position="1469,1025" render="Pixmap" size="78,39" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfo">VideoWidth</convert>
-			<convert type="ValueRange">1280,1920</convert>
+			<convert type="ServiceInfo">Is1080</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/uhd_on.png" position="1469,1025" render="Pixmap" size="78,39" source="session.CurrentService" zPosition="2">
-			<convert type="ServiceInfo">VideoWidth</convert>
-			<convert type="ValueRange">1921,3840</convert>
+			<convert type="ServiceInfo">Is4K</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="oDreamy-FHD/icons/iptv3.png" position="1821,900" size="56,23" alphatest="blend" zPosition="5" transparent="1">
