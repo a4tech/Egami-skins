@@ -291,16 +291,16 @@
 	</screen>
 	<!-- ChromiumEd FHD -->
 	<screen name="ChromiumEd" title="ChromiumEd" position="fill" backgroundColor="transparent" flags="wfNoBorder">
-		<eLabel position="50,30" size="1200,96" backgroundColor="ltbluette" zPosition="-1" />
+		<eLabel position="50,30" size="1200,96" backgroundGradient="#9B30FF,#3A9DFF,horizontal" zPosition="-1" />
 		<eLabel position="52,32" size="1196,91" backgroundColor="header" zPosition="-1" />
 		<!-- Code -->
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<widget source="Title" render="Label" position="150,30" size="1000,95" font="Regular;40" halign="left" valign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
 		<!-- Middle -->
-		<eLabel position="50,140" size="1200,800" backgroundColor="ltbluette" zPosition="-1" />
+		<eLabel position="50,140" size="1200,800" backgroundGradient="#9B30FF,#3A9DFF,horizontal" zPosition="-1" />
 		<eLabel position="52,142" size="1196,796" backgroundColor="header" zPosition="-1" />
 		<!-- Footer -->
-		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" zPosition="-1" />
+		<eLabel position="50,955" size="1200,96" backgroundGradient="#9B30FF,#3A9DFF,horizontal" zPosition="-1" />
 		<eLabel position="52,957" size="1196,91" backgroundColor="header" zPosition="-1" />
 		<panel name="s_RGYB" />
 		<widget name="config" position="70,180" size="1160,710" itemHeight="39" font="Regular;32" scrollbarRadius="5" scrollbarMode="showOnDemand" foregroundColor="white" backgroundColor="header" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" />
@@ -1020,18 +1020,18 @@
 		<widget name="listright" position="968,255" size="848,657" font="Regular;30" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" foregroundColor="grey" backgroundColorSelected="bluette" itemCornerRadius="12" foregroundColorSelected="white" transparent="1" />
 		<widget name="quickselect" position="100,120" size="1720,840" backgroundColor="header" foregroundColor="white" font="Regular;100" halign="center" transparent="1" valign="center" zPosition="+1" />
 		<widget name="status" position="100,880" size="1740,50" font="Regular;30" backgroundColor="#00fff000" borderColor="#00000000" borderWidth="2" foregroundColor="#00ffffff" halign="center" valign="center" zPosition="+1" />
-		<eLabel position="50,30" size="1820,100" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="52,32" size="1816,95" backgroundColor="header" cornerRadius="10" zPosition="-1" />
+		<eLabel position="50,30" size="1820,100" backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="30" zPosition="-1" />
+		<eLabel position="52,32" size="1816,95" backgroundColor="header" cornerRadius="30" zPosition="-1" />
 		<ePixmap position="61,45" size="83,65" pixmap="oDreamy-FHD/icons/list.png" alphatest="blend" zPosition="2" />
 		<!-- Middle -->
-		<eLabel position="50,138" size="1820,802" backgroundColor="ltbluette" cornerRadius="10" zPosition="-1" />
-		<eLabel position="52,140" size="1816,797" backgroundColor="header" cornerRadius="10" zPosition="-1" />
-		<eLabel position="50,955" size="1200,96" backgroundColor="ltbluette" cornerRadius="10" transparent="0" zPosition="-10" />
-		<eLabel position="52,957" size="1196,92" backgroundColor="header" cornerRadius="10" transparent="0" zPosition="-10" />
-		<eLabel position="1260,955" size="250,96" backgroundColor="ltbluette" cornerRadius="10" transparent="0" zPosition="-10" />
-		<eLabel position="1262,957" size="246,92" backgroundColor="header" cornerRadius="10" transparent="0" zPosition="-10" />
-		<eLabel position="1520,955" size="350,96" backgroundColor="ltbluette" cornerRadius="10" transparent="0" zPosition="-10" />
-		<eLabel position="1522,957" size="346,92" backgroundColor="header" cornerRadius="10" transparent="0" zPosition="-10" />
+		<eLabel position="50,138" size="1820,802" backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="30" zPosition="-1" />
+		<eLabel position="52,140" size="1816,797" backgroundColor="header" cornerRadius="30" zPosition="-1" />
+		<eLabel position="50,955" size="1200,96" backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="30" transparent="0" zPosition="-10" />
+		<eLabel position="52,957" size="1196,92" backgroundColor="header" cornerRadius="30" transparent="0" zPosition="-10" />
+		<eLabel position="1260,955" size="250,96" backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="30" transparent="0" zPosition="-10" />
+		<eLabel position="1262,957" size="246,92" backgroundColor="header" cornerRadius="30" transparent="0" zPosition="-10" />
+		<eLabel position="1520,955" size="350,96" backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="30" transparent="0" zPosition="-10" />
+		<eLabel position="1522,957" size="346,92" backgroundColor="header" cornerRadius="30" transparent="0" zPosition="-10" />
 		<!-- Clock %d.%m.%Y - %H:%M:%S -->
 		<ePixmap position="1275,975" size="90,60" pixmap="oDreamy-FHD/icons/select.png" alphatest="blend" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="1570,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="white" backgroundColor="#10101010" transparent="1" zPosition="1">
@@ -2043,9 +2043,9 @@
 		<eLabel	position="70,310" size="820,1" backgroundColor="#505050" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<widget source="job_status" render="Label" position="70,330" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget source="job_task" render="Label" position="70,380" size="820,40" font="Regular;30" backgroundColor="ltbluette" halign="center" />
+		<widget source="job_task" render="Label" position="70,380" size="820,40" font="Regular;30" backgroundGradient="#9B30FF,#3A9DFF,horizontal" halign="center" />
 		<widget source="job_progress" render="Progress" position="70,380" size="820,40" borderWidth="1" foregroundColor="ltbluette" backgroundColor="header" />
-		<widget source="job_progress" render="Label" position="70,380" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="ltbluette" valign="center" halign="center" transparent="1" zPosition="2" >
+		<widget source="job_progress" render="Label" position="70,380" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundGradient="#9B30FF,#3A9DFF,horizontal" valign="center" halign="center" transparent="1" zPosition="2" >
 			<convert type="ProgressToText" />
 		</widget>
 		<widget name="config" position="70,440" size="820,50" font="Regular;30" itemHeight="40" backgroundColorSelected="bluette" itemCornerRadius="12" transparent="1" />
@@ -2078,9 +2078,9 @@
 		<widget source="name" render="Label" position="70,170" size="820,90" font="Regular;30" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1" />
 		<eLabel	position="70,310" size="820,1" backgroundColor="#505050" />
 		<widget source="status" render="Label" position="70,330" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget source="task" render="Label" position="70,380" size="820,40" font="Regular;30" backgroundColor="ltbluette" halign="center" />
+		<widget source="task" render="Label" position="70,380" size="820,40" font="Regular;30" backgroundGradient="#9B30FF,#3A9DFF,horizontal" halign="center" />
 		<widget source="progress" render="Progress" position="70,380" size="820,40" borderWidth="1" foregroundColor="ltbluette" backgroundColor="header" />
-		<widget source="progress" render="Label" position="70,380" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundColor="ltbluette" valign="center" halign="center" transparent="1" zPosition="2" >
+		<widget source="progress" render="Label" position="70,380" size="820,40" font="Regular;30" foregroundColor="yellow" backgroundGradient="#9B30FF,#3A9DFF,horizontal" valign="center" halign="center" transparent="1" zPosition="2" >
 			<convert type="ProgressToText" />
 		</widget>
 		<widget name="config" position="70,440" size="820,50" font="Regular;30" itemHeight="40" backgroundColorSelected="bluette" itemCornerRadius="12" transparent="1" />
@@ -3712,7 +3712,7 @@
 		<widget source="space_bar_bludisc" render="Progress" position="1275,875" size="580,30" borderWidth="1" zPosition="1" backgroundColor="#4f7497" />
 		<widget source="space_bar_single" render="Progress" position="1375,875" size="1,30" borderWidth="1" zPosition="3" backgroundColor="#4f7497" />
 		<widget source="space_bar_dual" render="Progress" position="1475,875" size="1,30" borderWidth="1" zPosition="2" backgroundColor="#4f7497" />
-		<widget source="space_label" render="Label" position="1275,877" size="570,30" font="Regular;22" halign="right" foregroundColor="#white" backgroundColor="ltbluette" transparent="1" zPosition="4" />
+		<widget source="space_label" render="Label" position="1275,877" size="570,30" font="Regular;22" halign="right" foregroundColor="white" backgroundGradient="#9B30FF,#3A9DFF,horizontal" transparent="1" zPosition="4" />
 		<widget source="marker_single" render="Label" position="1275,910" size="100,30" font="Regular;22" halign="left" foregroundColor="yellow" zPosition="1" />
 		<widget source="marker_dvd" render="Label" position="1375,910" size="100,30" font="Regular;22" halign="left" foregroundColor="yellow" zPosition="1" />
 		<widget source="marker_dual" render="Label" position="1475,910" size="100,30" font="Regular;22" halign="left" foregroundColor="yellow" zPosition="1" />

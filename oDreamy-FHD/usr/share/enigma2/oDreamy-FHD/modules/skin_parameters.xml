@@ -134,6 +134,7 @@
 		<color name="backpurple" value="#73c6ff" />
 		<color name="trbluette" value="#201b3c85" />
 		<color name="bluette" value="#1b3c85" />
+		<!--<color name="ltbluette" value="#00ffc000" />-->
 		<color name="ltbluette" value="#49bbff" />
 		<color name="header" value="#20000000" />
 		<color name="dreamy" value="#182963" />
