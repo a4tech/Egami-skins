@@ -2074,11 +2074,9 @@
 		<widget name="text" position="250,600" size="1370,100" zPosition="2" font="Regular;45" halign="center" valign="center" foregroundColor="white" backgroundColor="trbluette" shadowColor="#201b3c85" shadowOffset="1,1" transparent="1" />
 	</screen>
 	<!-- Subtitle area FHD -->
-	<screen name="SubtitleDisplay" position="fill" zPosition="-1" backgroundColor="transparent" flags="wfNoBorder">
-	</screen>
+	<screen name="SubtitleDisplay" position="fill" zPosition="-1" backgroundColor="transparent" flags="wfNoBorder" ignoreWidgets="subtitles"/>
 	<!-- Scart -->
-	<screen name="Scart" position="fill" backgroundColor="transparent">
-	</screen>
+	<screen name="Scart" position="fill" backgroundColor="transparent"/>
 	<!-- Mute FHD -->
 	<screen name="Mute" title="Mute" position="30,30" size="150,150" backgroundColor="transparent" zPosition="10" flags="wfNoBorder">
 		<ePixmap pixmap="oDreamy-FHD/skin_default/mute.png" position="0,0" size="150,150" transparent="1" alphatest="blend" zPosition="0" />
