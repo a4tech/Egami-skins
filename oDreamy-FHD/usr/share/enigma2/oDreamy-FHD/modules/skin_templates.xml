@@ -198,14 +198,14 @@
 		<panel name="p700_Template_black" />
 		<panel name="MENU_BGY" />
 		<!-- menu list -->
-		<ePixmap position="830,160" size="300,323" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
+		<ePixmap position="830,100" size="300,323" pixmap="oDreamy-FHD/menu/teamlogo.png" alphatest="blend" zPosition="1" />
 		<widget name="menuimage" position="860,650" size="0,0" zPosition="2" alphatest="blend" conditional="menuimage" scaleFlags="scaleCenter" transparent="1" />
 		<widget source="description" render="Label" position="1155,955" size="750,95" cornerRadius="30" conditional="description" font="Regular;27" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="header">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarForegroundColor="ltbluette" scrollbarBorderWidth="1"
 		scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
-			backgroundColor="header" backgroundColorSelected="bluette" itemCornerRadius="12" selectionZoom="4">
+			backgroundColor="header" itemGradientSelected="#9B30FF,#3A9DFF,horizontal" itemCornerRadius="20" selectionZoom="4">
 				<templates>
 					<template name="Default" fonts="Regular;34,Regular;34,Regular;34" itemWidth="650" itemHeight="60">
 						<mode name="default">
@@ -236,7 +236,7 @@
 		<widget source="key_help" render="Label" position="988,860" size="140,40" cornerRadius="30" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>-->
-		<widget source="key_menu" render="Label" position="1000,890" size="140,40" cornerRadius="30" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+		<widget source="key_menu" render="Label" position="1000,890" size="140,40" cornerRadius="30" backgroundGradient="#9B30FF,#3A9DFF,horizontal" font="Regular;22" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
 	</screen>
