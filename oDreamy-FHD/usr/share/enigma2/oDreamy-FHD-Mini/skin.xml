@@ -10,7 +10,7 @@
 
 	<screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
 		<eLabel position="13,841" size="1896,232" backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="20" zPosition="-1" />
-		<eLabel position="15,843" size="1892,227" backgroundColor="#000000" cornerRadius="20" zPosition="-1" />
+		<eLabel position="15,843" size="1892,227" backgroundColor="header" cornerRadius="20" zPosition="-1" />
 		<eLabel text="TUN:" position="1766,900" size="61,25" font="Regular;22" foregroundColor="grey" backgroundColor="header" transparent="1" zPosition="3"/>
 		<widget source="session.FrontendInfo" render="FixedLabel" text="A" position="1822,900" size="24,25" font="Regular;22" foregroundColor="ltbluette" backgroundColor="header" zPosition="3" transparent="1">
 			<convert type="FrontendInfo">NUMBER</convert>
