@@ -10,10 +10,11 @@
 
 	<!-- Infobar Gradient Emu FHD -->
 	<screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
-		<eLabel position="337,898" size="1583,2" backgroundGradient="#9B30FF,#3A9DFF,horizontal" zPosition="-2" />
-		<eLabel position="0,175" size="1920,2" backgroundGradient="#9B30FF,#3A9DFF,horizontal" zPosition="-2" />
-		<eLabel position="0,900" size="1920,200" backgroundColor="header" zPosition="-1" />
-		<eLabel position="0,0" size="1920,175" backgroundColor="header" zPosition="-1" />
+		<!--<eLabel position="337,898" size="1583,2" backgroundGradient="#9B30FF,#3A9DFF,horizontal" zPosition="-2" />-->
+		<eLabel position="0,0" size="1920,179" backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="20" zPosition="-2" />
+		<eLabel position="3,2" size="1915,175" backgroundColor="header" cornerRadius="20" zPosition="-1" />
+		<eLabel position="0,811" size="1920,269" backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="20" zPosition="-2" />
+		<eLabel position="3,813" size="1915,265" backgroundColor="header" cornerRadius="20" zPosition="-1" />
 		<eLabel text="TUN:" position="1725,120" size="200,40" font="Regular;25" halign="left" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="3" />
 		<widget source="session.FrontendInfo" render="FixedLabel" text="A" position="1789,120" size="200,40" font="Regular;25" halign="left" foregroundColor="yellow" backgroundColor="header" zPosition="3" transparent="1">
 			<convert type="FrontendInfo">NUMBER</convert>
@@ -83,13 +84,12 @@
 		</widget>
 		<panel name="Weather_infobar" />
 		<!-- Service name -->
-		<widget source="session.CurrentService" render="Label" position="360,806" size="1800,100" font="Regular;78" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="1" transparent="1">
+		<widget source="session.CurrentService" render="Label" position="360,820" size="1800,100" font="Regular;78" noWrap="1" foregroundColor="white" backgroundColor="header" borderColor="black" borderWidth="1" transparent="1">
 			<convert type="ServiceName">Name</convert>
 		</widget>
 		<panel name="Card_Network_Emu" />
 		<!-- Picon -->
-		<eLabel backgroundGradient="#9B30FF,#3A9DFF,horizontal" cornerRadius="5" position="0,823" size="339,211" zPosition="-2" />
-		<eLabel backgroundColor="header" cornerRadius="5" position="1,825" size="336,209" zPosition="-1" />
+		<!--<eLabel backgroundColor="header" cornerRadius="5" position="1,825" size="336,209" zPosition="-1" />-->
 		<widget source="session.CurrentService" render="Picon" path="picon" position="10,836" size="315,189" alphatest="blend" zPosition="1" >
 			<convert type="ServiceName">Reference</convert>
 		</widget>

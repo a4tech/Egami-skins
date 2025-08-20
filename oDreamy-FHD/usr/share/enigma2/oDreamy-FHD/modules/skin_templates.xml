@@ -21,7 +21,7 @@
 			<convert type="EGExtraInfo">E-C-N</convert>
 		</widget>
 		<!-- ECM  -->
-		<widget source="session.CurrentService" render="Label" position="40,135" size="1920,33" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1">
+		<widget source="session.CurrentService" render="Label" position="690,135" size="600,33" font="Regular;23" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="1">
 			<convert type="EGExtraInfo">NetInfo</convert>
 		</widget>
 		<!--<widget source="session.CurrentService" render="Label" position="600,135" size="800,33" font="Regular;23" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1">
