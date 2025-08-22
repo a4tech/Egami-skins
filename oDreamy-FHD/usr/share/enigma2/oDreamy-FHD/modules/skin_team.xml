@@ -14,7 +14,7 @@
 		<widget name="infotext" position="70,180" size="1160,715" font="Console;20" backgroundColor="header" transparent="1" zPosition="1" />
 	</screen>
 	<!-- Buffer Indicator -->
-	<screen name="BufferIndicator" title="" position="0,45" size="1920,48" backgroundColor="transparent" flags="wfNoBorder" zPosition="100">
+	<screen name="BufferIndicator" title="" position="0,185" size="1920,48" backgroundColor="transparent" flags="wfNoBorder" zPosition="100">
 		<widget name="status" position="0,0" size="1920,48" backgroundColor="transparent" foregroundColor="white" transparent="1" font="Regular;36" borderColor="black" borderWidth="2" valign="center" halign="center"/>
 	</screen>
 	<!-- HelpMenu -->
