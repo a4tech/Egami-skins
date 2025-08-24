@@ -230,10 +230,10 @@
 					</template>
 				</templates>
 			</widget>
-		<!--<widget source="key_menu" render="Label" position="838,860" size="140,40" cornerRadius="30" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+		<!--<widget source="key_menu" render="Label" position="838,860" size="140,40" cornerRadius="30" backgroundGradient="#9B30FF,#3A9DFF,horizontal" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="key_help" render="Label" position="988,860" size="140,40" cornerRadius="30" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+		<widget source="key_help" render="Label" position="988,860" size="140,40" cornerRadius="30" backgroundGradient="#9B30FF,#3A9DFF,horizontal" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>-->
 		<widget source="key_menu" render="Label" position="1000,890" size="140,40" cornerRadius="30" backgroundGradient="#9B30FF,#3A9DFF,horizontal" font="Regular;22" foregroundColor="white" halign="center" valign="center">
@@ -331,7 +331,7 @@
 		<widget source="global.CurrentTime" render="Label" position="1570,955" size="250,95" font="Regular;55" halign="center" valign="center" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="1">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<!--<widget source="key_info" render="Label" position="1080,58" conditional="key_info" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+		<!--<widget source="key_info" render="Label" position="1080,58" conditional="key_info" size="140,40" backgroundGradient="#9B30FF,#3A9DFF,horizontal" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>-->
 	</screen>
@@ -516,7 +516,7 @@
 
 	<screen name="p800_Date_epg" position="0,0" title="Menu Information" backgroundColor="#FF000000" flags="wfNoBorder" >
 		<!-- Date -->
-		<widget source="key_help" render="Label" position="1290,58" conditional="key_help" cornerRadius="30" size="140,40" backgroundColor="bluette" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+		<widget source="key_help" render="Label" position="1290,58" conditional="key_help" cornerRadius="30" size="140,40" backgroundGradient="#9B30FF,#3A9DFF,horizontal" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget source="global.CurrentTime" render="Label" position="1550,30" size="300,95" font="Regular;35" halign="right" valign="center" foregroundColor="grey" backgroundColor="#101010" transparent="1" zPosition="1" >
