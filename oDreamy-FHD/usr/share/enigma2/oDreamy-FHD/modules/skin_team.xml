@@ -1098,7 +1098,7 @@
 		<widget name="label10" position="70,170" size="760,100" font="Regular;34" foregroundColor="ltbluette" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<widget name="label11" position="810,166" size="100,44" font="Regular;40" foregroundColor="yellow" backgroundColor="#101010" transparent="1" zPosition="1" />
 		<widget name="label1" position="70,230" size="820,120" font="Regular;32" foregroundColor="yellow" backgroundColor="#101010" transparent="1" zPosition="1" />
-		<eLabel position="70,320" size="820,1" backgroundGradient="#9B30FF,#1B3C85,horizontal" zPosition="2" />
+		<eLabel position="70,320" size="820,1" backgroundColor="#9B30FF,#1B3C85,horizontal" zPosition="2" />
 		<widget name="device_icon" position="70,350" size="80,80" alphatest="blend" />
 		<widget name="label2" position="160,360" size="820,40" halign="left" font="Regular;30" backgroundColor="#101010" foregroundColor="ltbluette" transparent="1" zPosition="1" />
 		<widget name="label6" position="160,400" size="820,40" halign="left" font="Regular;30" backgroundColor="#101010" foregroundColor="white" transparent="1" zPosition="1" />
@@ -2068,7 +2068,7 @@
 	</screen>
 	<!-- Volumebar FHD -->
 	<screen name="Volume" position="center,50" size="890,85" zPosition="10" backgroundColor="transparent" title="Volume" flags="wfNoBorder">
-		<eLabel position="0,0" size="890,85" backgroundGradient="#9B30FF,#1B3C85,horizontal" cornerRadius="30" zPosition="-1" />
+		<eLabel position="0,0" size="890,85" backgroundColor="#9B30FF,#1B3C85,horizontal" cornerRadius="30" zPosition="-1" />
 		<eLabel position="2,2" size="886,80" backgroundColor="#000000" cornerRadius="30" zPosition="-1" />
 		<ePixmap position="20,15" size="75,54" pixmap="oDreamy-FHD/skin_default/vol.png" alphatest="blend" transparent="1" zPosition="20" />
 		<widget name="Volume" position="125,33" size="653,18" backgroundColor="header" foregroundColor="#9B30FF,#1B3C85,horizontal" cornerRadius="20" borderWidth="2" borderColor="#9B30FF" zPosition="33" />
@@ -2200,7 +2200,7 @@
 	<!--  Animations FHD -->
 	<screen name="Iconmain" position="0,0" size="1920,1080" title="Mainmenu" backgroundColor="transparent" flags="wfNoBorder">
 		<widget name="menuimage" position="860,650" size="0,0" zPosition="2" alphatest="blend" conditional="menuimage" scaleFlags="scaleCenter" transparent="1" />
-    <eLabel position="0,885" size="1920,8" backgroundGradient="#9B30FF,#1B3C85,horizontal" zPosition="-1" />
+    <eLabel position="0,885" size="1920,8" backgroundColor="#9B30FF,#1B3C85,horizontal" zPosition="-1" />
     <widget source="label1" render="Label" conditional="label1" position="23,908" size="300,150" font="Regular;30" halign="center" valign="center" zPosition="2" foregroundColor="grey" backgroundColor="background" transparent="1" />
     <widget source="label1s" render="Label" conditional="label1s" position="23,908" size="300,150" font="Regular;33" halign="center" valign="center" zPosition="2" foregroundColor="ltbluette" backgroundColor="background" transparent="1" />
     <widget name="pixmap1" position="23,908" size="300,150" zPosition="1" transparent="1" alphatest="on" />
@@ -2279,7 +2279,7 @@
 		<panel name="p800_Template_notime" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<widget source="key_help" render="Label" position="1080,988" conditional="key_help" size="140,40" backgroundGradient="#9B30FF,#1B3C85,horizontal" font="Regular;20" foregroundColor="white" halign="center" valign="center">
+		<widget source="key_help" render="Label" position="1080,988" conditional="key_help" size="140,40" backgroundColor="#9B30FF,#1B3C85,horizontal" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="description" position="70,180" size="1170,730" font="Regular;30" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="1" />
@@ -2416,7 +2416,7 @@
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
 		<eLabel text="N e x t" position="1260,13" size="610,120" font="Regular;102" halign="center" foregroundColor="#10404040" backgroundColor="#10000000" transparent="1" zPosition="1" />
-		<eLabel position="1260,140" size="610,110" backgroundGradient="#9B30FF,#1B3C85,horizontal" zPosition="-10" />
+		<eLabel position="1260,140" size="610,110" backgroundColor="#9B30FF,#1B3C85,horizontal" zPosition="-10" />
 		<eLabel position="1262,142" size="606,106" backgroundColor="header" zPosition="-10" />
 		<eLabel text="Start" position="1270,145" size="100,145" font="Regular;36" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget source="session.Event_Next" render="Label" position="1370,145" size="200,100" font="Regular;36" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2">
@@ -3587,17 +3587,17 @@
 		<widget source="Service" render="Label" position="1270,160" size="580,70" font="Regular;38" halign="center" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2">
 			<convert type="MovieInfo">RecordServiceName</convert>
 		</widget>
-		<eLabel position="1280,240" size="580,1" backgroundGradient="#9B30FF,#1B3C85,horizontal" zPosition="1" />
+		<eLabel position="1280,240" size="580,1" backgroundColor="#9B30FF,#1B3C85,horizontal" zPosition="1" />
 		<!-- Description -->
 		<widget source="Service" render="Label" position="1280,260" size="580,160" font="Regular;30" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2">
 			<convert type="MovieInfo">ShortDescription</convert>
 		</widget>
-		<eLabel position="1280,460" size="580,1" backgroundGradient="#9B30FF,#1B3C85,horizontal" zPosition="1" />
+		<eLabel position="1280,460" size="580,1" backgroundColor="#9B30FF,#1B3C85,horizontal" zPosition="1" />
 		<!-- Extended Description -->
 		<widget source="Service" render="DRRunningText" options="movetype=running,direction=top,startpoint=0,startdelay=10000,steptime=90,wrap=1,always=0,repeat=2,oneshot=1" position="1280,480" size="580,260" font="Regular;30" foregroundColor="grey" backgroundColor="header" transparent="1" halign="center" valign="top">
 			<convert type="EventName">ExtendedDescription</convert>
 		</widget>
-		<eLabel position="1280,800" size="580,1" backgroundGradient="#9B30FF,#1B3C85,horizontal" zPosition="1" />
+		<eLabel position="1280,800" size="580,1" backgroundColor="#9B30FF,#1B3C85,horizontal" zPosition="1" />
 		<!-- Size -->
 		<eLabel text="Size:" position="1280,760" size="100,40" font="Regular;32" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget source="Service" render="Label" position="1380,760" size="200,40" font="Regular;32" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="2">
@@ -3685,7 +3685,7 @@
 		<widget source="key_green" render="Label" position="393,982" size="300,75" font="Regular;32" zPosition="5" halign="center" valign="bottom" foregroundColor="#00ffffff" backgroundColor="header" transparent="1"/>
 		<widget source="key_yellow" render="Label" position="719,1013" size="300,50" font="Regular;32" zPosition="1" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="header" transparent="1"/>
 		<widget source="key_blue" render="Label" position="1045,1013" size="300,50" font="Regular;32" zPosition="1" halign="center" valign="center" foregroundColor="#00ffffff" backgroundColor="header" transparent="1"/>
-		<widget source="key_menu" render="Label" position="1715,1028" size="140,40" cornerRadius="30" backgroundGradient="#9B30FF,#1B3C85,horizontal" font="Regular;22" foregroundColor="#00ffffff" halign="center" valign="center">
+		<widget source="key_menu" render="Label" position="1715,1028" size="140,40" cornerRadius="30" backgroundColor="#9B30FF,#1B3C85,horizontal" font="Regular;22" foregroundColor="#00ffffff" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<widget name="description" position="50,105" size="900,100" font="Regular;40" transparent="1" zPosition="5" backgroundColor="header" foregroundColor="#00ffc000" valign="center"/>
@@ -3732,7 +3732,7 @@
 		<widget name="description" position="50,105" size="0,0" font="Regular;40" transparent="1" zPosition="5" backgroundColor="header" foregroundColor="#00ffc000" valign="center"/>
 		<widget name="quickselect" position="50,80" size="760,525" backgroundColor="header" foregroundColor="#00ffffff" font="Regular;100" halign="center" transparent="1" valign="center" zPosition="+1" />
 		<ePixmap pixmap="oDreamy-FHD/menu/plugin_selection.png" position="950,545" size="256,256" zPosition="2" alphatest="blend" />
-		<widget source="key_menu" render="Label" position="1015,860" size="140,40" cornerRadius="30" backgroundGradient="#9B30FF,#1B3C85,horizontal" font="Regular;20" foregroundColor="#00ffffff" halign="center" valign="center">
+		<widget source="key_menu" render="Label" position="1015,860" size="140,40" cornerRadius="30" backgroundColor="#9B30FF,#1B3C85,horizontal" font="Regular;20" foregroundColor="#00ffffff" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
 	</screen>
