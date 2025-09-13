@@ -2270,8 +2270,8 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
-		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend" />
 		<widget name="list" position="70,180" size="820,720" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" itemGradientSelected="#9B30FF,#1B3C85,horizontal" itemCornerRadius="20" scrollbarForegroundGradient="#9B30FF,#1B3C85,vertical" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColor="header" transparent="1" />
+		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend" />
 	</screen>
 
 	<!-- OsCAM Info -->
@@ -2280,7 +2280,7 @@
 		<panel name="p800_Logo" />
 		<panel name="p800_DateMid" />
 		<panel name="fakeExitNoButton" />
-		<widget name="mainmenu" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="40" transparent="1" backgroundColor="header" itemGradientSelected="#9B30FF,#1B3C85,horizontal" itemCornerRadius="20" scrollbarForegroundGradient="#9B30FF,#1B3C85,vertical" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
+		<widget name="mainmenu" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showOnDemand" font="Regular;30" itemHeight="50" transparent="1" backgroundColor="header" itemGradientSelected="#9B30FF,#1B3C85,horizontal" itemCornerRadius="20" scrollbarForegroundGradient="#9B30FF,#1B3C85,vertical" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/camcenter.png" alphatest="blend" />
 	</screen>
 
@@ -3887,26 +3887,19 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_iptv.png" alphatest="blend" />
 	</screen>
 
-	<!-- ********** IPTV Player ********** P046 -->
-	<screen name="E2iPlayerWidget" position="fill" title="IPTV Player" backgroundColor="transparent" flags="wfNoBorder">
+	<!-- IPTV Player -->
+	<screen name="E2iPlayerWidgetScreen" position="fill" title="IPTV Player" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
 		<panel name="p800_Date" />
 		<panel name="p800_Ext_BiN" />
-		<ePixmap position="70,988" pixmap="oDreamy-FHD/buttons/redpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_red" render="Label" position="120,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<ePixmap position="360,988" pixmap="oDreamy-FHD/buttons/greenpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget name="key_green_ext" position="400,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<ePixmap position="640,988" pixmap="oDreamy-FHD/buttons/yellowpanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_yellow" render="Label" position="680,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
-		<ePixmap position="910,988" pixmap="oDreamy-FHD/buttons/bluepanel.png" size="30,30" alphatest="blend" zPosition="2" />
-		<widget source="key_blue" render="Label" position="950,955" size="250,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
+		<panel name="s_RGYB" />
 		<panel name="MI" />
-		<!-- List Channel -->
-		<widget name="list" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="0" backgroundColor="header" zPosition="1" />
-		<!--<ePixmap position="1275,156" size="120,120" pixmap="icons/miniinfo.png" alphatest="blend" zPosition="2" />-->
+		<widget name="list" position="70,180" size="840,720" font="Regular;30" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" zPosition="1" />
+		<widget name="sequencer" position="fill" zPosition="6" font="Regular;160" halign="center" valign="center" transparent="1" backgroundColor="header" />
 		<widget name="playerlogo" position="960,35" size="251,83" alphatest="blend" transparent="1" zPosition="4" />
 		<widget name="headertext" position="1265,145" size="600,100" font="Regular;30" foregroundColor="yellow" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
+		<widget name="statustext" position="center,center" zPosition="1" size="680,90" halign="center" valign="center" font="Regular;30" backgroundColor="header" foregroundColor="white" transparent="1" />
 		<widget name="console" position="1265,240" size="600,260" font="Regular;28" foregroundColor="white" halign="center" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="spinner" position="1265,890" size="16,16" transparent="1" alphatest="blend" zPosition="2" />
 		<widget name="spinner_1" position="1280,890" size="16,16" transparent="1" alphatest="blend" zPosition="2" />
@@ -3914,6 +3907,16 @@
 		<widget name="spinner_3" position="1310,890" size="16,16" transparent="1" alphatest="blend" zPosition="2" />
 		<widget name="spinner_4" position="1325,890" size="16,16" transparent="1" alphatest="blend" zPosition="2" />
 		<widget name="cover" position="1265,530" size="600,355" alphatest="blend" backgroundColor="header" transparent="1" zPosition="2" />
+		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_iptv.png" alphatest="blend" />
+	</screen>
+
+	<screen name="ConfigBaseWidgetScreen" position="fill" title="IPTV Player - settings" flags="wfNoBorder" backgroundColor="transparent">
+		<panel name="p800_Template" />
+		<panel name="p800_DateMid" />
+		<panel name="s_RGYB" />
+		<widget name="config" position="70,180" size="820,720" font="Regular;30" itemHeight="40" scrollbarRadius="5" backgroundColor="header" zPosition="3" scrollbarMode="showNever" transparent="1" />
+		<widget name="footnote" position="1280,600" size="840,200" font="Regular;30" halign="left" foregroundColor="white" backgroundColor="header" transparent="1" zPosition="5" />
+		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_iptv.png" alphatest="blend" />
 	</screen>
 
@@ -3934,7 +3937,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_iptv.png" alphatest="blend" />
 	</screen>
 
-	<!-- **********  FTP ********** P047 -->
+	<!-- FTP -->
 	<screen name="FTPBrowser" position="fill" title="FTP Browser" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p900_Template" />
 		<panel name="p800_Date" />
@@ -3954,7 +3957,6 @@
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<panel name="MI" />
-		<!-- List Channel -->
 		<widget name="config" position="70,180" size="1170,700" font="Regular;30" itemHeight="50" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" zPosition="2" />
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/ico_ftp.png" alphatest="blend" />
 	</screen>
@@ -3964,7 +3966,6 @@
 		<panel name="p800_DateMid" />
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
-		<!-- List Channel -->
 		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarScroll="byLine">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos=(35,1), size=(780,40), text = 0, font = 0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER),
@@ -3985,7 +3986,6 @@
 		<panel name="p800_Logo" />
 		<panel name="s_RGYB" />
 		<panel name="MI" />
-		<!-- List Channel -->
 		<widget source="list" render="Listbox" position="70,180" size="820,720" scrollbarRadius="5" scrollbarMode="showOnDemand" scrollbarScroll="byLine">
 			<convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos=(1,1), size=(710,40), text = 0, font = 0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER),
@@ -4016,14 +4016,13 @@
 		<ePixmap position="960,640" size="300,300" pixmap="oDreamy-FHD/menu/mediacenter.png" alphatest="blend" />
 	</screen>
 
-	<!-- **********  ShoutCast ********** P048 -->
+	<!-- ShoutCast -->
 	<screen name="SHOUTcastWidget" position="fill" title="SHOUTcast" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Ext_BiN" />
 		<panel name="p800_DateMid" />
 		<panel name="s_RGYB" />
 		<panel name="M" />
-		<!-- List Channel -->
 		<widget name="list" position="70,180" size="1160,700" font="Regular;30" itemHeight="50" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="station" position="1270,45" size="590,80" font="Regular;30" transparent="1" backgroundColor="header" foregroundColor="green" halign="center" zPosition="1" />
 		<ePixmap position="1440,170" size="256,256" pixmap="oDreamy-FHD/menu/info_screen.png" alphatest="blend" backgroundColor="header" transparent="1" zPosition="3" />
@@ -4056,7 +4055,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/setup_selection.png" alphatest="blend" />
 	</screen>
 
-	<!-- **********  Cron Manager ********** P049 -->
+	<!-- Cron Manager -->
 	<screen name="Cronmanager" position="fill" title="Cronmanager Menu" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4066,7 +4065,7 @@
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 
-	<!-- **********  DLNA Server ********** P050 -->
+	<!-- DLNA Server -->
 	<screen name="SelectDirectoryWindow" position="fill" title="Select Directory" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4087,7 +4086,7 @@
 		<ePixmap position="960,640" size="256,256" pixmap="oDreamy-FHD/menu/dlna.png" alphatest="blend" />
 	</screen>
 
-	<!-- **********  DLNA Browser ********** P051 -->
+	<!-- DLNA Browser -->
 	<screen name="DLNAFileBrowser" position="fill" title="File Browser" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4131,7 +4130,7 @@
 		</widget>
 	</screen>
 
-	<!-- **********  Genuine Dreambox ********** P052 -->
+	<!-- Genuine Dreambox -->
 	<screen name="genuineDreambox" position="fill" title="Genuine Dreambox" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4146,7 +4145,7 @@
 		<widget name="kGreen" position="400,955" size="210,95" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 	</screen>
 
-	<!-- **********  Job Manager ********** P053 -->
+	<!-- Job Manager -->
 	<screen name="JobManagerFrontEnd" position="fill" title="JobManager" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4205,7 +4204,7 @@
 		<ePixmap position="60,970" size="700,90" pixmap="oDreamy-FHD/icons/team_logo.png" alphatest="blend" zPosition="2" />
 	</screen>
 
-	<!--  TempFan Control -->
+	<!-- TempFan Control -->
 	<screen name="TempFanControl" position="fill" title="Fan Control" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
@@ -4281,7 +4280,7 @@
 		<ePixmap pixmap="oDreamy-FHD/buttons/key_green.png" position="218,800" size="30,40" alphatest="blend" />
 	</screen>
 
-	<!--* MSNWeatherPlugin -->
+	<!-- MSNWeatherPlugin -->
 	<screen name="MSNWeatherPluginEntriesListConfigScreen" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
