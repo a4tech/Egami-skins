@@ -2071,7 +2071,7 @@
 		<eLabel position="0,0" size="890,85" backgroundColor="#483D8B,#1B3C85,horizontal" cornerRadius="30" zPosition="-1" />
 		<eLabel position="2,2" size="886,80" backgroundColor="#000000" cornerRadius="30" zPosition="-1" />
 		<ePixmap position="20,15" size="75,54" pixmap="oDreamy-FHD/skin_default/vol.png" alphatest="blend" transparent="1" zPosition="20" />
-		<widget name="Volume" position="125,33" size="653,18" backgroundColor="header" foregroundColor="#483D8B,#1B3C85,horizontal" cornerRadius="20" borderWidth="2" borderColor="#9B30FF" zPosition="33" />
+		<widget name="Volume" position="125,33" size="653,18" backgroundColor="header" foregroundColor="#483D8B,#1B3C85,horizontal" cornerRadius="20" borderWidth="2" borderColor="#483D8B" zPosition="33" />
 		<widget name="VolumeText" position="805,25" size="60,30" font="Regular;32" backgroundColor="background" foregroundColor="ltbluette" halign="center" valign="center" transparent="1" zPosition="20" />
 	</screen>
 	<!-- Unhandled key FHD -->
