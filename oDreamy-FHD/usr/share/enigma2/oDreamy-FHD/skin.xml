@@ -228,8 +228,8 @@
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<panel name="wifi_lan" />
-		<widget source="session.Event_Now" render="ODposter" position="1610,450" cornerRadius="15" size="300,438" zPosition="-5" />
-		<widget source="session.CurrentService" render="EGPoster" position="1610,450" size="300,438" cornerRadius="15" zPosition="-5" />
+		<widget source="session.Event_Now" render="ODposter" position="1610,370" cornerRadius="15" size="300,438" zPosition="-5" />
+		<widget source="session.CurrentService" render="EGPoster" position="1610,370" size="300,438" cornerRadius="15" zPosition="-5" />
 		<widget name="key_red" position="120,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="key_green" position="400,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
 		<widget name="key_yellow" position="680,955" size="0,0" zPosition="1" font="Regular;30" halign="left" valign="center" foregroundColor="#b0b0b0" backgroundColor="header" transparent="1" />
