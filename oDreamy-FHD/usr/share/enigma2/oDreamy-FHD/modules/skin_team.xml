@@ -1962,7 +1962,7 @@
 		<widget source="session.CurrentService" render="Label" position="580,6" size="100,40" font="Regular;32" halign="right" transparent="1" backgroundColor="header" zPosition="55">
 				<convert type="ServicePosition">Length</convert>
 		</widget>
-			<eLabel position="0,0" size="700,90" backgroundColor="header" cornerRadius="15" borderColor="ltbluette" borderWidth="2" />
+			<eLabel position="0,0" size="700,90" backgroundColor="header" cornerRadius="20" borderColor="ltbluette" borderWidth="2" />
 		<widget source="session.CurrentService" position="17,66" size="666,10" render="Progress" cornerRadius="5" backgroundColor="#10202020" borderWidth="0" borderColor="#20202020" foregroundColor="#483D8B,#1B3C85,horizontal" zPosition="88" transparent="1">
 			<convert type="ServicePosition">Position</convert>
 		</widget>
@@ -2165,22 +2165,50 @@
 		<ePixmap position="fill" pixmap="oDreamy-FHD/box/wiz1.jpg" alphatest="blend" zPosition="-2" />
 		<widget name="picture" pixmap="distro-logo.png" position="0,0" size="500,500" alphatest="on" zPosition="1" />
 	</screen>
-	<screen name="VirtualKeyboard" title="Virtual KeyBoard" position="center,center" cornerRadius="30" size="1190,500" flags="wfNoBorder" backgroundColor="#101010" zPosition="99">
-		<eLabel position="5,70" size="780,50" backgroundColor="#10808080" />
-		<eLabel position="7,72" size="776,46" backgroundColor="#10101010" zPosition="1" />
-		<widget name="text" position="5,75" size="750,40" font="Regular;36" transparent="1" noWrap="1" halign="right" foregroundColor="yellow" backgroundColor="#101010" zPosition="5" />
-		<widget name="prompt" conditional="prompt" position="5,15" size="990,45" font="Regular;34" backgroundColor="header" foregroundColor="ltbluette" halign="left" transparent="1" noWrap="1" />
-		<widget name="header" conditional="header" position="5,15" size="990,45" font="Regular;34" backgroundColor="header" foregroundColor="ltbluette" halign="left" transparent="1" noWrap="1" />
-		<widget name="list" position="5,150" size="950,420" font="Regular;50" selection="1" transparent="1" />
-		<widget name="mode" conditional="mode" position="5,10" size="0,0" font="Regular;30" backgroundColor="header" foregroundColor="yellow" halign="left" transparent="1" noWrap="1" />
-		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="1140,230" size="30,30" alphatest="blend" />
-		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="1140,300" size="30,30" alphatest="blend" />
-		<ePixmap pixmap="oDreamy-FHD/buttons/bluepanel.png" position="1140,370" size="30,30" alphatest="blend" />
-		<widget name="locale" conditional="locale" position="1215,615" size="0,0" font="Regular;30" foregroundColor="ltbluette" halign="center" backgroundColor="header" valign="center" transparent="1" />
-		<widget name="language" conditional="language" position="0,0" size="0,0" font="Regular;30" backgroundColor="header" foregroundColor="ltbluette" transparent="1" noWrap="1" />
-		<eLabel text="Canc" position="900,227" size="220,40" font="Regular;30" halign="right" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="2" />
-		<eLabel text="Ok" position="900,297" size="220,40" font="Regular;30" halign="right" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="2" />
-		<eLabel text="Upper" position="900,367" size="220,40" font="Regular;30" halign="right" foregroundColor="grey" backgroundColor="#10101010" transparent="1" zPosition="2" />
+	<screen name="VirtualKeyBoard" position="fill" zPosition="99" title="Virtual KeyBoard" flags="wfNoBorder" backgroundColor="transparent">
+		<eLabel position="center,center" zPosition="-11" size="1324,624" backgroundColor="#483D8B,#1B3C85,horizontal" cornerRadius="20" />
+		<eLabel position="center,center" zPosition="-10" size="1320,620" backgroundColor="black" cornerRadius="20" />
+		<widget source="global.CurrentTime" render="Label" position="1435,240" size="180,60" font="Regular;60" backgroundColor="#40000000" transparent="1">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget source="global.CurrentTime" render="Label" position="1200,245" size="220,30" font="Regular;24" halign="right" backgroundColor="#40000000" transparent="1" foregroundColor="#bbbbbb">
+			<convert type="ClockToText">Format:%A</convert>
+		</widget>
+		<widget source="global.CurrentTime" render="Label" position="1200,270" size="220,30" font="Regular;24" halign="right" backgroundColor="#40000000" foregroundColor="#bbbbbb" transparent="1">
+			<convert type="ClockToText">Format:%e. %B</convert>
+		</widget>
+		<eLabel position="center,315" size="1277,92" zPosition="1" backgroundColor="#483D8B,#1B3C85,horizontal" cornerRadius="20" />
+		<eLabel position="center,316" size="1275,90" zPosition="2" backgroundColor="header" cornerRadius="20" />
+		<widget name="text" position="center,318" size="1271,86" zPosition="3" font="Regular;40" foregroundColor="white" backgroundColor="#40000000" halign="right" valign="center" cornerRadius="20" />
+		<widget name="list" position="center,422" size="1275,350" foregroundColor="ltbluette" backgroundColor="header" selectionDisabled="1" scrollbarMode="showNever" itemHeight="70" />
+		<widget source="key_red" render="Pixmap" pixmap="oDreamy-FHD/buttons/redpanel.png" position="340,790" size="34,34" zPosition="1" alphatest="blend">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="340,790" size="34,34" zPosition="1" alphatest="blend" />
+		<widget name="key_red" position="375,790" size="250,35" backgroundColor="black" zPosition="1" transparent="1" font="Regular;28" />
+		<widget source="key_red" render="Label" position="375,790" size="250,34" backgroundColor="#999999" zPosition="2" transparent="1" foregroundColor="#bbbbbb" font="Regular;28" />
+		<widget source="key_green" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="540,790" size="34,34" zPosition="1" alphatest="blend">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="540,790" size="34,34" zPosition="1" alphatest="blend" />
+		<widget name="key_green" position="585,790" size="250,35" backgroundColor="black" zPosition="1" transparent="1" font="Regular;28" />
+		<widget source="key_green" render="Label" position="585,790" size="250,34" backgroundColor="#999999" zPosition="2" transparent="1" foregroundColor="#bbbbbb" font="Regular;28" />
+		<widget source="key_yellow" render="Pixmap" pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="760,790" size="34,34" zPosition="1" alphatest="blend">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="760,790" size="34,34" zPosition="1" alphatest="blend" />
+		<widget name="key_yellow" position="795,790" size="250,35" backgroundColor="black" zPosition="1" transparent="1" font="Regular;28" />
+		<widget source="key_yellow" render="Label" position="795,790" size="250,34" backgroundColor="#999999" zPosition="2" transparent="1" foregroundColor="#bbbbbb" font="Regular;28" />
+		<widget source="key_blue" render="Pixmap" pixmap="oDreamy-FHD/buttons/bluepanel.png" position="970,790" size="34,34" zPosition="1" alphatest="blend">
+			<convert type="ConditionalShowHide" />
+		</widget>
+		<ePixmap pixmap="oDreamy-FHD/buttons/bluepanel.png" position="970,790" size="34,34" zPosition="1" alphatest="blend"  />
+		<widget name="key_blue" position="1005,790" size="250,35" backgroundColor="black" zPosition="1" transparent="1" font="Regular;28" />
+		<widget source="key_blue" render="Label" position="1005,790" size="250,34" backgroundColor="#999999" zPosition="2" transparent="1" foregroundColor="#bbbbbb" font="Regular;28"  />
+		<widget name="prompt" conditional="prompt" position="5,15" size="0,0" font="Regular;34" backgroundColor="header" foregroundColor="ltbluette" halign="left" transparent="1" noWrap="1" />
+		<widget name="mode" conditional="mode" position="1500,790" size="100,34" font="Regular;28" backgroundColor="header" foregroundColor="yellow" halign="left" transparent="1" noWrap="1" />
+		<widget name="language" conditional="language" position="893,258" size="0,0" font="Regular;28" backgroundColor="background" foregroundColor="foreground" transparent="1" noWrap="1" />
+		<widget name="locale" conditional="locale" position="1220,790" size="275,34" font="Regular;28" foregroundColor="ltbluette" halign="left" backgroundColor="header" valign="center" transparent="1" />
 	</screen>
 	<!-- Numerical help dialog FHD -->
 	<screen name="NumericalTextInputHelpDialog" position="1260,30" size="610,244" backgroundColor="grey" zPosition="8" flags="wfNoBorder">
@@ -4365,7 +4393,7 @@
 		<widget name="transponder" position="220,230" size="600,80" valign="center" zPosition="2" font="Regular;30" backgroundColor="header" transparent="1" />
 		<widget name="pass" position="70,320" size="750,50" valign="center" font="Regular;32" foregroundColor="yellow" backgroundColor="header" transparent="1" />
 		<widget name="scan_state" position="70,370" size="750,90" valign="center" zPosition="2" font="Regular;34" foregroundColor="backpurple" backgroundColor="header" transparent="1" />
-		<widget name="scan_progress" position="70,460" size="820,35" foregroundColor="grey,bluette,ltbluette,horizontal" cornerRadius="15" />
+		<widget name="scan_progress" position="70,460" size="820,35" foregroundColor="grey,bluette,ltbluette,horizontal" cornerRadius="20" />
 		<widget name="servicelist" position="70,530" size="820,365" selection="1" font="Regular;32" itemHeight="40" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="header" itemGradientSelected="#483D8B,#1B3C85,horizontal" itemCornerRadius="20" scrollbarForegroundGradient="#483D8B,#1B3C85,vertical" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" transparent="1" zPosition="1" />
 	</screen>
 	<!-- Satfinder FHD -->
