@@ -2583,7 +2583,7 @@
 
 		<widget name="list" position="70,180" size="1170,720" font="Regular;32" itemHeight="45" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" itemGradientSelected="#483D8B,#1B3C85,horizontal" itemCornerRadius="20" foregroundColor="white" scrollbarForegroundGradient="#483D8B,#1B3C85,vertical" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget name="number" position="170,1900" size="500,60" font="Regular;34" valign="center" halign="left" foregroundColor="backpurple" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" zPosition="2" />
-		<widget name="lab1" position="70,1950" size="150,30" font="Regular;24" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget name="lab1" position="70,1950" size="150,30" font="Regular;24" foregroundColor="backpurple" backgroundColor="header" transparent="1" zPosition="2" conditional="lab1" />
 		<!-- Event Name - Time -->
 		<eLabel text="Start Time :" position="1540,165" size="200,40" font="Regular;32" halign="left" backgroundColor="header" foregroundColor="yellow" transparent="1" zPosition="1" />
 		<widget source="Event" render="Label" position="1730,165" size="200,40" font="Regular;32" halign="left" backgroundColor="header" transparent="1" zPosition="1">
