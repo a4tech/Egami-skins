@@ -2,7 +2,7 @@
 	<template component="serviceList" name="Default" screens="ChannelSelectionDefault" fonts="Regular;30,Regular;30,Regular;23,Regular;18">
 		<mode name="services" itemHeight="43" foregroundColorSelected="yellow" foregroundColor="white" backgroundColorSelected="bluette">
 			<panel position="15,0" size="e-30,38" layout="horizontal" spacing="15">
-				<pixmap index="Picon" position="left,1" size="60,35" alpha="blend" scale="centerScaled"/>
+				<pixmap index="Picon" position="left,4" size="60,35" alpha="blend" scale="centerScaled"/>
 				<text index="Number" position="left" size="45,38" font="0" horizontalAlignment="right" verticalAlignment="center" />
 				<pixmap index="IsInBouquetImage" position="left,2" size="30,30" alpha="blend" scale="centerScaled"/>
 				<text index="ServiceName" position="left,0" size="225,38" autoFit="Title1" font="1" verticalAlignment="top" wrap="noWrap" serviceNotAvailColor="#00555555" recordColor="red" pseudoColor="grey" streamColor="ltbluette"/>
@@ -21,7 +21,7 @@
 		<mode name="bouquets" itemHeight="43" foregroundColorSelected="yellow" foregroundColor="white" backgroundColorSelected="bluette">
 			<panel position="15,0" size="e-30,38" layout="horizontal" spacing="8">
 				<text index="Number" position="left" size="45,38" font="1" horizontalAlignment="right" verticalAlignment="center" />
-				<pixmap index="Picon" position="left,1" size="60,35" alpha="blend" scale="centerScaled"/>
+				<pixmap index="Picon" position="left,4" size="60,35" alpha="blend" scale="centerScaled"/>
 				<pixmap index="CryptoImage" position="left,3" size="30,30" alpha="blend" scale="centerScaled"/>
 				<pixmap index="ServiceTypeImage" position="left,1" size="33,33" alpha="blend" scale="centerScaled"/>
 				<pixmap index="RecordingIndicator" position="left,1" size="33,33" alpha="blend" scale="centerScaled"/>
