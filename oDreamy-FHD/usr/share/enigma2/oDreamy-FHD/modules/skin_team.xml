@@ -410,7 +410,7 @@
 		<widget name="footnote" position="1260,880" size="600,800" font="Regular;30" halign="center" foregroundColor="yellow" backgroundColor="header" transparent="1" zPosition="1" />
 		<widget name="HelpWindow" position="1260,30" size="609,244" transparent="1" alphatest="blend" />
 	</screen>
-	<!--TagEditor /-->
+	<!--TagEditor -->
 	<screen name="TagEditor" position="0,0" size="1920,1080" title="" flags="wfNoBorder" backgroundColor="transparent">
 		<panel name="p800_Template_notime" />
 		<panel name="p800_Logo" />
@@ -420,7 +420,6 @@
 		<ePixmap position="950,645" size="300,300" pixmap="oDreamy-FHD/menu/usage_setup.png" alphatest="blend" />
 	</screen>
 	<!--  EGAMI SCREENS FHD -->
-	<!-- Modified for corret screen icon -->
 	<screen name="EgamiMainPanel" position="fill" title="EGAMI Panel - Main Menu" backgroundColor="transparent" flags="wfNoBorder" >
 		<panel name="p800_Template" />
 		<panel name="p800_Logo" />
