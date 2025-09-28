@@ -203,7 +203,7 @@
 		<widget source="description" render="Label" position="1155,955" size="750,95" cornerRadius="30" conditional="description" font="Regular;27" valign="center" halign="center" foregroundColor="ltbluette" backgroundColor="header">
 			<convert type="ConditionalShowHide" />
 		</widget>
-		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarForeground="#FFFFFF" scrollbarBorderWidth="1"
+		<widget source="menu" render="Listbox" position="53,180" size="760,720" scrollbarForegroundColor="#FFFFFF" scrollbarBorderWidth="1"
 		scrollbarBorderColor="ltbluette" scrollbarWidth="8" scrollbarRadius="5" scrollbarMode="showOnDemand" enableWrapAround="1" zPosition="1" foregroundColor="grey" foregroundColorSelected="white"
 			backgroundColor="header" itemGradientSelected="#483D8B,#1B3C85,horizontal" itemCornerRadius="20" selectionZoom="4">
 				<templates>
