@@ -236,6 +236,7 @@
 		<widget source="key_help" render="Label" position="988,860" size="140,40" cornerRadius="30" backgroundColor="#483D8B,#1B3C85,horizontal" font="Regular;20" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>-->
+		<!--<widget addon="Pager" conditional="menu" connection="menu" position="53,910" size="760,25" transparent="1" backgroundColor="header" />-->
 		<widget source="key_menu" render="Label" position="1000,890" size="140,40" cornerRadius="30" backgroundColor="#483D8B,#1B3C85,horizontal" font="Regular;22" foregroundColor="white" halign="center" valign="center">
 			<convert type="ConditionalShowHide" />
 		</widget>
