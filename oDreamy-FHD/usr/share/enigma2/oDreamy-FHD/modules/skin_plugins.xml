@@ -17,9 +17,10 @@
 			</convert>
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/menu/info_screen.png" position="1440,180" size="256,256" zPosition="2" alphatest="blend" />
+		<widget name="poster" conditional="poster" position="1435,150" size="260,396" backgroundColor="header" zPosition="3" />
 		<widget source="description" render="Label" position="1260,560" size="610,300" font="Regular;32" halign="center" foregroundColor="ltbluette" backgroundColor="header" transparent="1" zPosition="2" />
 	</screen>
-	<!--  M3UIPTVVoDMovies -->
+	<!--  M3UIPTVManagerConfig -->
 	<screen name="M3UIPTVManagerConfig" position="fill" backgroundColor="transparent" flags="wfNoBorder">
 		<panel name="p800_Template" />
 		<panel name="p800_Date" />
