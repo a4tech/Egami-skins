@@ -484,6 +484,7 @@
 		<panel name="Ex" />
 		<ePixmap pixmap="oDreamy-FHD/menu/camcenter.png" position="950,645" size="256,256" zPosition="2" alphatest="blend" />
 		<widget name="status" position="70,180" size="820,60" font="Regular;35" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" />
+		<widget name="progress" conditional="progress" position="70,235" size="820,20" zPosition="2" cornerRadius="15" backgroundColor="header" foregroundColor="ltbluette" />
 		<widget name="menu" position="70,270" size="840,630" selectionZoom="4" font="Regular;30" itemHeight="70" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" backgroundColor="header" itemGradientSelected="#483D8B,#1B3C85,horizontal" itemCornerRadius="20" scrollbarForegroundColor="#FFFFFF" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
 	</screen>
 	<!--  EGAMI Smart Script FHD -->
