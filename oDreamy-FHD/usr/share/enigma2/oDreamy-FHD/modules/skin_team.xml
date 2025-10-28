@@ -3950,7 +3950,7 @@
     <widget name="header" position="0,0" size="e,60" font="Regular;38" valign="center" halign="center" backgroundColor="#2e3b4e" foregroundColor="white" />
     <widget name="info" position="20,70" size="860,150" font="Regular;28" valign="center" halign="center" backgroundColor="header" foregroundColor="white" />
     <widget name="progress" position="50,240" size="800,30" foregroundColor="#00bfff" borderColor="white" borderWidth="2" cornerRadius="20" />
-    <widget name="progress_counter" position="400,180" size="100,40" font="Regular;26" halign="center" valign="center" foregroundColor="ltbluette" backgroundColor="header" zPosition="2" />
+		<widget name="progress_counter" position="400,235" size="100,40" font="Regular;26" halign="center" valign="center" transparent="1" foregroundColor="white" />
 	</screen>
 	<!-- Image Backup FHD -->
 	<screen name="ImageBackup" position="fill" title="Image Backup" backgroundColor="transparent" flags="wfNoBorder">
