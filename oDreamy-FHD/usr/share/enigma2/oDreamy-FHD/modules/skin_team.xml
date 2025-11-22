@@ -1204,11 +1204,11 @@
 	<!--  EGAMI Animation FHD -->
 		<!-- Modified for new icons -->
 	<screen name="EGConnectionAnimation" position="center,center" size="600,340" title="EGAMI" backgroundColor="#FF000000" flags="wfNoBorder" zPosition="99">
-		<eLabel position="0,0" size="600,340" backgroundColor="#40000000" zPosition="1" cornerRadius="10" />
-		<eLabel position="20,20" size="560,300" backgroundColor="#20000000" zPosition="1" cornerRadius="10" />
+		<eLabel position="0,0" size="600,340" backgroundColor="#483D8B,#1B3C85,horizontal" zPosition="1" cornerRadius="20" />
+		<eLabel position="20,20" size="560,300" backgroundColor="#20000000" zPosition="1" cornerRadius="20" />
 		<widget name="connect" position="center,30" size="150,150" transparent="1" scale="1" zPosition="30"
 			pixmaps="oDreamy-FHD/egami/ared.png,oDreamy-FHD/egami/agreen.png,oDreamy-FHD/egami/ayellow.png,oDreamy-FHD/egami/ared.png,oDreamy-FHD/egami/agreen.png,oDreamy-FHD/egami/ayellow.png,oDreamy-FHD/egami/agreen.png,oDreamy-FHD/egami/agreen.png,oDreamy-FHD/egami/agreen.png" alphatest="blend"/>
-		<widget name="lab1" position="30,200" halign="center" size="540,80" foregroundColor="yellow" backgroundColor="background" font="Regular; 32" valign="center" transparent="1" zPosition="3" />
+		<widget name="lab1" position="30,200" halign="center" size="540,80" foregroundColor="ltbluette" backgroundColor="header" font="Regular; 32" valign="center" transparent="1" zPosition="3" />
 	</screen>
 	<!--  EGAMI Permanent Clock FHD -->
 	<screen name="EGPermanentClock" position="1650,40" size="200,90" flags="wfNoBorder" title="Egami Permanent Clock" backgroundColor="#55000000" >
