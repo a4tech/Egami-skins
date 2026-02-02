@@ -5137,24 +5137,24 @@ for x in self.additionalWidgets:
 	</screen>
 
 	<!-- MessageBox FHD -->
-	<screen name="MessageBox" position="360,240" size="1200,600" zPosition="10" title="Message" flags="wfNoBorder" backgroundColor="header">
+	<screen name="MessageBox" position="360,240" size="1200,600" zPosition="10" title="Message" cornerRadius="20" flags="wfNoBorder" backgroundColor="header">
 		<panel name="MessageBox-template" />
 	</screen>
 	<!-- MessageBoxModal FHD -->
-	<screen name="MessageBoxModal" position="360,240" size="1200,600" zPosition="+99" title="Message" flags="wfNoBorder" backgroundColor="header">
+	<screen name="MessageBoxModal" position="360,240" size="1200,600" zPosition="+99" title="Message" cornerRadius="20" flags="wfNoBorder" backgroundColor="header">
 		<eRectangle position="0,0" size="e,e" borderColor="ltbluette" backgroundColor="header" borderWidth="1" zPosition="-10" />
 		<panel name="MessageBox-template" />
 	</screen>
 	<!-- MessageBoxSimple FHD -->
-	<screen name="MessageBoxSimple" position="360,240" size="1200,600" zPosition="10" title="Message" flags="wfNoBorder" backgroundColor="header">
+	<screen name="MessageBoxSimple" position="360,240" size="1200,600" zPosition="10" title="Message" cornerRadius="20" flags="wfNoBorder" backgroundColor="header">
 		<panel name="MessageBox-template" />
 	</screen>
 
-	<screen name="MessageBoxExt" position="360,240" size="1200,600" zPosition="10" title="Message" flags="wfNoBorder" backgroundColor="header">
+	<screen name="MessageBoxExt" position="360,240" size="1200,600" zPosition="10" title="Message" cornerRadius="20" flags="wfNoBorder" backgroundColor="header">
 		<panel name="MessageBox-template" />
 	</screen>
 	<!-- ExtraMessageBox -->
-	<screen name="ExtraMessageBox" title="Extra Message" position="center,255" size="900,200">
+	<screen name="ExtraMessageBox" title="Extra Message" cornerRadius="20" position="center,255" size="900,200">
 		<widget name="message" position="10,10" size="880,40" font="Regular;30" />
 		<widget name="menu" position="10,60" size="880,360" scrollbarRadius="5" scrollbarMode="showOnDemand" backgroundColor="black" transparent="1" />
 		<applet type="onLayoutFinish">
@@ -5198,6 +5198,5 @@ newwidth = wsize[0]
 self.instance.move(ePoint((1920-wsizex), (1280-wsizex)//2, (720-wsizey)//(count &gt; 7 and 2 or 3)))
 			</applet>
 	</screen>
-
 
 </skin>
