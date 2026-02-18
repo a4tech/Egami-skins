@@ -196,6 +196,10 @@
 			<convert type="ServiceInfo">Is4K</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
+		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/ico_softcsa.png" position="857,1043" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="2">
+			<convert type="ServiceInfo">IsSoftCSA</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
 		<ePixmap alphatest="blend" pixmap="oDreamy-FHD/icons/audio_off.png" transparent="1" position="1180,1040" size="80,40" />
 		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/audio_on.png" position="1180,1040" transparent="1" render="Pixmap" size="80,38" source="session.CurrentService" zPosition="2">
 			<convert type="ServiceInfo">AudioTracksAvailable</convert>
