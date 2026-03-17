@@ -1,4 +1,17 @@
 <skin>
+	<screen name="ChannelSearchScreen" position="center,center" size="1200,750" title="Channel Search" backgroundColor="header" cornerRadius="20" flags="wfNoBorder">
+		<widget source="Title" render="Label" position="30,15" size="900,52" font="Regular;38" halign="left" valign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget source="global.CurrentTime" render="Label" position="960,15" size="220,52" font="Regular;26" halign="right" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="2">
+			<convert type="ClockToText">Format %A %d %B</convert>
+		</widget>
+		<widget name="menu" position="0,69" size="1184,580" itemHeight="58" scrollbarMode="showOnDemand" itemCornerRadius="20" itemGradientSelected="#483D8B,#1B3C85,horizontal" scrollbarWidth="8" scrollbarRadius="4" scrollbarForegroundColor="#ffffff" scrollbarBorderColor="#ffffff" scrollbarBorderWidth="1" transparent="1" zPosition="2" />
+		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="24,693" size="30,30" zPosition="1" alphatest="blend"/>
+		<widget source="key_red" render="Label" position="62,693" size="300,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="400,693" size="30,30" zPosition="1" alphatest="blend"/>
+		<widget source="key_green" render="Label" position="438,693" size="300,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2"/>
+		<ePixmap pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="770,693" size="30,30" zPosition="1" alphatest="blend"/>
+		<widget source="key_yellow" render="Label" position="808,693" size="300,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2"/>
+	</screen>
 	<!-- QuickSubtitles FHD -->
 	<screen name="QuickSubtitlesConfigMenu" position="center,center" size="1010,350" title="Subtitle settings" backgroundColor="transparent" flags="wfNoBorder">
 		<eLabel position="0,0" size="1010,350" zPosition="-11" backgroundColor="header" />
