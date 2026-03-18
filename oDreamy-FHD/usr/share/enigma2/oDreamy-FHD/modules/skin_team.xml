@@ -2330,8 +2330,6 @@
 		<panel name="p800_Template_notime" />
 		<panel name="s_RGYB" />
 		<!-- List Channel -->
-		<widget name="textvod" position="1530,25" size="0,0" font="Regular;28" halign="right" backgroundColor="header" foregroundColor="ltbluette" transparent="1" zPosition="1" />
-		<widget name="key_vod" position="1455,60" size="0,0" zPosition="1" font="Regular;28" halign="right" valign="center" foregroundColor="white" backgroundColor="header" transparent="1" />
 		<widget name="list" position="70,165" size="1170,735" serviceItemHeight="50" scrollbarRadius="5" scrollbarMode="showOnDemand" transparent="1" zPosition="1" serviceNumberFont="Regular;30" serviceNameFont="Regular;30" serviceInfoFont="Regular;30"
 			foregroundColor="white" foregroundColorSelected="yellow" backgroundColor="header" itemGradientSelected="#483D8B,#1B3C85,horizontal" colorServiceDescription="ltbluette" colorServiceDescriptionSelected="white"
 			foregroundColorServiceNotAvail="#505050" colorEventProgressbarBorder="grey" colorEventProgressbarSelected="yellow" colorEventProgressbarBorderSelected="yellow" scrollbarForegroundColor="#FFFFFF" scrollbarBackgroundColor="header" scrollbarBorderWidth="1" scrollbarBorderColor="ltbluette" scrollbarWidth="8" />
