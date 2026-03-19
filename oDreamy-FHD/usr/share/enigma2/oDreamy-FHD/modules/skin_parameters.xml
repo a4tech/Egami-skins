@@ -25,7 +25,7 @@
 		<alias name="PartnerBoxChannelList1" font="Regular" size="28" />
 		<alias name="PartnerBoxChannelEPGList0" font="Regular" size="32" height="38" />
 		<alias name="PartnerBoxChannelEPGList1" font="Regular" size="24" />
-		<alias name="VirtualKeyBoard" font="Regular" size="42" height="68" />
+		<alias name="VirtualKeyBoard" font="LCD" size="42" height="68" />
 		<alias name="HelpMenuList" font="Regular" size="30" height="45" />
 		<alias name="HelpMenuListExt0" font="Regular" size="32" height="75" />
 		<alias name="HelpMenuListExt1" font="Regular" size="28" />
@@ -60,11 +60,10 @@
 		<parameter name="SelectionListDescr" value="75,10,1000,50" />
 		<parameter name="SelectionListLock" value="10,7,50,50" />
 		<parameter name="SelectionListLockOff" value="10,7,50,50" />
-		<parameter name="VirtualKeyboard" value="68, 68"/>
-		<parameter name="VirtualKeyBoardAlignment" value="80,80"/>
-		<parameter name="VirtualKeyBoardPadding" value="4,4"/>
-		<parameter name="VirtualKeyboardFont" value="Regular;40"/>
-		<parameter name="VirtualKeyBoardShiftColors" value="0x00ffffff,0x00ffffff,0x0000ffff,0x00ff00ff" />
+		<parameter name="VirtualKeyBoard" value="68,68"/>
+		<parameter name="VirtualKeyBoardAlignment" value="0,0"/>
+		<parameter name="VirtualKeyBoardPadding" value="6,6"/>
+		<parameter name="VirtualKeyBoardShiftColors" value="0x00ffffff,0x00ffffff,0x0000ffff,0x00ff00ff"/>
 		<parameter name="PartnerBoxEntryListName" value="8,2,225,38" />
 		<parameter name="PartnerBoxEntryListIP" value="180,2,225,38" />
 		<parameter name="PartnerBoxEntryListPort" value="405,2,150,38" />

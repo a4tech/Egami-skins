@@ -2179,7 +2179,7 @@
 	</screen>
 	<screen name="VirtualKeyBoard" position="fill" zPosition="99" title="Virtual KeyBoard" flags="wfNoBorder" backgroundColor="transparent">
 		<eLabel position="center,center" zPosition="-11" size="1324,624" backgroundColor="#483D8B,#1B3C85,horizontal" cornerRadius="20" />
-		<eLabel position="center,center" zPosition="-10" size="1320,620" backgroundColor="black" cornerRadius="20" />
+		<eLabel position="center,center" zPosition="-10" size="1320,620" backgroundColor="header" cornerRadius="20" />
 		<widget source="global.CurrentTime" render="Label" position="1435,240" size="180,60" font="Regular;60" backgroundColor="#40000000" transparent="1">
 			<convert type="ClockToText">Default</convert>
 		</widget>
@@ -2192,30 +2192,30 @@
 		<eLabel position="center,315" size="1277,92" zPosition="1" backgroundColor="#483D8B,#1B3C85,horizontal" cornerRadius="20" />
 		<eLabel position="center,316" size="1275,90" zPosition="2" backgroundColor="header" cornerRadius="20" />
 		<widget name="text" position="center,318" size="1271,86" zPosition="3" font="Regular;40" foregroundColor="white" backgroundColor="#40000000" halign="right" valign="center" cornerRadius="20" />
-		<widget name="list" position="center,422" size="1275,350" foregroundColor="ltbluette" backgroundColor="header" selectionDisabled="1" scrollbarMode="showNever" itemHeight="70" />
+		<widget name="list" position="490,422" size="950,350" foregroundColor="ltbluette" backgroundColor="header" selectionDisabled="1" scrollbarMode="showNever" itemHeight="70" />
 		<widget source="key_red" render="Pixmap" pixmap="oDreamy-FHD/buttons/redpanel.png" position="340,790" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="340,790" size="34,34" zPosition="1" alphatest="blend" />
-		<widget name="key_red" position="375,790" size="250,35" backgroundColor="black" zPosition="1" transparent="1" font="Regular;28" />
+		<widget name="key_red" position="375,790" size="250,35" backgroundColor="header" zPosition="1" transparent="1" font="Regular;28" />
 		<widget source="key_red" render="Label" position="375,790" size="250,34" backgroundColor="#999999" zPosition="2" transparent="1" foregroundColor="#bbbbbb" font="Regular;28" />
 		<widget source="key_green" render="Pixmap" pixmap="oDreamy-FHD/buttons/greenpanel.png" position="540,790" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="540,790" size="34,34" zPosition="1" alphatest="blend" />
-		<widget name="key_green" position="585,790" size="250,35" backgroundColor="black" zPosition="1" transparent="1" font="Regular;28" />
+		<widget name="key_green" position="585,790" size="250,35" backgroundColor="header" zPosition="1" transparent="1" font="Regular;28" />
 		<widget source="key_green" render="Label" position="585,790" size="250,34" backgroundColor="#999999" zPosition="2" transparent="1" foregroundColor="#bbbbbb" font="Regular;28" />
 		<widget source="key_yellow" render="Pixmap" pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="760,790" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="760,790" size="34,34" zPosition="1" alphatest="blend" />
-		<widget name="key_yellow" position="795,790" size="250,35" backgroundColor="black" zPosition="1" transparent="1" font="Regular;28" />
+		<widget name="key_yellow" position="795,790" size="250,35" backgroundColor="header" zPosition="1" transparent="1" font="Regular;28" />
 		<widget source="key_yellow" render="Label" position="795,790" size="250,34" backgroundColor="#999999" zPosition="2" transparent="1" foregroundColor="#bbbbbb" font="Regular;28" />
 		<widget source="key_blue" render="Pixmap" pixmap="oDreamy-FHD/buttons/bluepanel.png" position="970,790" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="oDreamy-FHD/buttons/bluepanel.png" position="970,790" size="34,34" zPosition="1" alphatest="blend"  />
-		<widget name="key_blue" position="1005,790" size="250,35" backgroundColor="black" zPosition="1" transparent="1" font="Regular;28" />
+		<widget name="key_blue" position="1005,790" size="250,35" backgroundColor="header" zPosition="1" transparent="1" font="Regular;28" />
 		<widget source="key_blue" render="Label" position="1005,790" size="250,34" backgroundColor="#999999" zPosition="2" transparent="1" foregroundColor="#bbbbbb" font="Regular;28"  />
 		<widget name="prompt" conditional="prompt" position="5,15" size="0,0" font="Regular;34" backgroundColor="header" foregroundColor="ltbluette" halign="left" transparent="1" noWrap="1" />
 		<widget name="mode" conditional="mode" position="1500,790" size="100,34" font="Regular;28" backgroundColor="header" foregroundColor="yellow" halign="left" transparent="1" noWrap="1" />
