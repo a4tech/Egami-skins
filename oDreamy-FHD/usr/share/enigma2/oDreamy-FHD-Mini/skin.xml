@@ -96,7 +96,7 @@
 			<convert type="ServiceInfo">IsCrypted</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/ico_softcsa.png" position="1000,1027" render="Pixmap" size="80,40" source="session.CurrentService" zPosition="3">
+		<widget alphatest="blend" pixmap="oDreamy-FHD/icons/ico_softcsa.png" position="1000,1027" render="Pixmap" size="80,38" source="session.CurrentService" zPosition="3">
 			<convert type="ServiceInfo">IsSoftCSA</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
