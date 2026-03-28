@@ -1,16 +1,19 @@
 <skin>
 	<screen name="ChannelSearchScreen" position="center,center" size="1200,750" title="Channel Search" backgroundColor="header" cornerRadius="20" flags="wfNoBorder">
-		<widget source="Title" render="Label" position="30,15" size="900,52" font="Regular;38" halign="left" valign="center" foregroundColor="#49bbff" backgroundColor="#10000000" transparent="1" zPosition="2" />
+		<widget source="Title" render="Label" position="30,15" size="900,52" font="Regular;38" halign="left" valign="center" foregroundColor="#49bbff" backgroundColor="header" transparent="1" zPosition="2" />
 		<widget source="global.CurrentTime" render="Label" position="960,15" size="220,52" font="Regular;26" halign="right" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="2">
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
-		<widget name="menu" position="0,69" size="1184,580" itemHeight="58" scrollbarMode="showOnDemand" itemCornerRadius="20" itemGradientSelected="#483D8B,#1B3C85,horizontal" scrollbarWidth="8" scrollbarRadius="4" scrollbarForegroundColor="#ffffff" scrollbarBorderColor="#ffffff" scrollbarBorderWidth="1" transparent="1" zPosition="2" />
+		<widget name="status" position="0,center" size="1184,40" font="Regular;36" halign="center" valign="center" foregroundColor="#49bbff" transparent="1" backgroundColor="header" zPosition="10"/>
+		<widget name="menu" position="0,69" size="1184,580" itemHeight="58" scrollbarMode="showOnDemand" itemCornerRadius="15" itemGradientSelected="#483D8B,#1B3C85,horizontal" scrollbarWidth="8" scrollbarRadius="4" scrollbarForegroundColor="#ffffff" scrollbarBorderColor="#ffffff" scrollbarBorderWidth="1" transparent="1" zPosition="2" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="24,693" size="30,30" zPosition="1" alphatest="blend"/>
-		<widget source="key_red" render="Label" position="62,693" size="300,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2"/>
-		<ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="400,693" size="30,30" zPosition="1" alphatest="blend"/>
-		<widget source="key_green" render="Label" position="438,693" size="300,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2"/>
-		<ePixmap pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="770,693" size="30,30" zPosition="1" alphatest="blend"/>
-		<widget source="key_yellow" render="Label" position="808,693" size="300,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="header" transparent="1" zPosition="2"/>
+    <widget source="key_red" render="Label" position="62,693" size="130,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2"/>
+    <ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="300,693" size="30,30" zPosition="1" alphatest="blend"/>
+    <widget source="key_green" render="Label" position="338,693" size="130,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2"/>
+    <ePixmap pixmap="oDreamy-FHD/buttons/yellowpanel.png" position="576,693" size="30,30" zPosition="1" alphatest="blend"/>
+    <widget source="key_yellow" render="Label" position="614,693" size="160,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2"/>
+    <ePixmap pixmap="oDreamy-FHD/buttons/bluepanel.png" position="880,693" size="30,30" zPosition="1" alphatest="blend"/>
+    <widget source="key_blue" render="Label" position="918,693" size="160,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2"/>
 	</screen>
 	<!-- QuickSubtitles FHD -->
 	<screen name="QuickSubtitlesConfigMenu" position="center,center" size="1010,350" title="Subtitle settings" backgroundColor="transparent" flags="wfNoBorder">
@@ -2191,7 +2194,7 @@
 		</widget>
 		<eLabel position="center,315" size="1277,92" zPosition="1" backgroundColor="#483D8B,#1B3C85,horizontal" cornerRadius="20" />
 		<eLabel position="center,316" size="1275,90" zPosition="2" backgroundColor="header" cornerRadius="20" />
-		<widget name="text" position="center,318" size="1271,86" zPosition="3" font="Regular;40" foregroundColor="white" backgroundColor="#40000000" halign="right" valign="center" />
+		<widget name="text" position="center,318" size="1271,86" zPosition="3" font="Regular;40" foregroundColor="white" backgroundColor="#40000000" cornerRadius="20" halign="right" valign="center" />
 		<widget name="list" position="490,422" size="950,350" foregroundColor="ltbluette" backgroundColor="header" selectionDisabled="1" scrollbarMode="showNever" itemHeight="70" />
 		<widget name="prompt" conditional="prompt" position="320,250" size="600,40" font="Regular;34" backgroundColor="header" foregroundColor="ltbluette" halign="left" transparent="1" noWrap="1" />
 		<widget name="mode" conditional="mode" position="1500,790" size="100,34" font="Regular;28" backgroundColor="header" foregroundColor="yellow" halign="left" transparent="1" noWrap="1" />
