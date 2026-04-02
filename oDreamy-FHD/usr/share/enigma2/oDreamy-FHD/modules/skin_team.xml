@@ -1,11 +1,13 @@
 <skin>
 	<screen name="ChannelSearchScreen" position="center,center" size="1200,750" title="Channel Search" backgroundColor="header" cornerRadius="20" flags="wfNoBorder">
-		<widget source="Title" render="Label" position="30,15" size="900,52" font="Regular;38" halign="left" valign="center" foregroundColor="#49bbff" backgroundColor="header" transparent="1" zPosition="2" />
-		<widget source="global.CurrentTime" render="Label" position="960,15" size="220,52" font="Regular;26" halign="right" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="2">
+		<widget source="Title" render="Label" position="30,5" size="900,52" font="Regular;38" halign="left" valign="center" foregroundColor="#49bbff" backgroundColor="header" transparent="1" zPosition="2" />
+		<widget source="global.CurrentTime" render="Label" position="960,5" size="220,52" font="Regular;26" halign="right" valign="center" foregroundColor="#808080" backgroundColor="#101010" transparent="1" zPosition="2">
 			<convert type="ClockToText">Format %A %d %B</convert>
 		</widget>
+		<eLabel position="0,64" size="1200,1" backgroundColor="#49bbff" zPosition="2"/>
+    <eLabel position="0,673" size="1200,1" backgroundColor="#49bbff" zPosition="2"/>
 		<widget name="status" position="0,center" size="1184,40" font="Regular;36" halign="center" valign="center" foregroundColor="#49bbff" transparent="1" backgroundColor="header" zPosition="10"/>
-		<widget name="menu" position="0,69" size="1184,580" itemHeight="58" scrollbarMode="showOnDemand" itemCornerRadius="15" itemGradientSelected="#483D8B,#1B3C85,horizontal" scrollbarWidth="8" scrollbarRadius="4" scrollbarForegroundColor="#ffffff" scrollbarBorderColor="#ffffff" scrollbarBorderWidth="1" transparent="1" zPosition="2" />
+		<widget name="menu" position="5,75" size="1184,580" itemHeight="58" scrollbarMode="showOnDemand" itemCornerRadius="10" itemGradientSelected="#483D8B,#1B3C85,horizontal" scrollbarWidth="8" scrollbarRadius="4" scrollbarForegroundColor="#ffffff" scrollbarBorderColor="#ffffff" scrollbarBorderWidth="1" transparent="1" zPosition="2" />
 		<ePixmap pixmap="oDreamy-FHD/buttons/redpanel.png" position="24,693" size="30,30" zPosition="1" alphatest="blend"/>
     <widget source="key_red" render="Label" position="62,693" size="130,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" transparent="1" zPosition="2"/>
     <ePixmap pixmap="oDreamy-FHD/buttons/greenpanel.png" position="300,693" size="30,30" zPosition="1" alphatest="blend"/>
